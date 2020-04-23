@@ -30,3 +30,7 @@ fieldset {
     padding-block-end: unset;
     min-inline-size: unset;
 }
+
+.smooth {
+    transition: 0.2s ease-out;
+}

@@ -1,734 +1,743 @@
+.sprite {
+    object-fit: contain;
+}
+
+.bg-2500g, .bg-5000g, .bg-10000g, .bg-25000g {
+    width: 24px; height: 24px;
+    background: url('../assets/css_sprites.png') -0 -3780px;
+}
+
 .bg-Void_Salmon {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -0;
+    background: url('../assets/css_sprites.png') -0 -0;
 }
 
 .bg-Ancient_Fruit {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -24px;
+    background: url('../assets/css_sprites.png') -0 -24px;
 }
 
 .bg-Caviar {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -48px;
+    background: url('../assets/css_sprites.png') -0 -48px;
 }
 
 .bg-Crystalarium {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3300px;
+    background: url('../assets/css_sprites.png') -0 -3300px;
 }
 
 .bg-Lightning_Rod {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3348px;
+    background: url('../assets/css_sprites.png') -0 -3348px;
 }
 
 .bg-Quality_Fertilizer {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -72px;
+    background: url('../assets/css_sprites.png') -0 -72px;
 }
 
 .bg-Wine {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -96px;
+    background: url('../assets/css_sprites.png') -0 -96px;
 }
 
 .bg-Pumpkin {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -120px;
+    background: url('../assets/css_sprites.png') -0 -120px;
 }
 
 .bg-Corn {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -144px;
+    background: url('../assets/css_sprites.png') -0 -144px;
 }
 
 .bg-Melon {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -168px;
+    background: url('../assets/css_sprites.png') -0 -168px;
 }
 
 .bg-Parsnip {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -192px;
+    background: url('../assets/css_sprites.png') -0 -192px;
 }
 
 .bg-Purple_Mushroom {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -216px;
+    background: url('../assets/css_sprites.png') -0 -216px;
 }
 
 .bg-Cactus_Fruit {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -240px;
+    background: url('../assets/css_sprites.png') -0 -240px;
 }
 
 .bg-Dinosaur_Mayonnaise {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -264px;
+    background: url('../assets/css_sprites.png') -0 -264px;
 }
 
 .bg-Prismatic_Shard {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -288px;
+    background: url('../assets/css_sprites.png') -0 -288px;
 }
 
 .bg-Chocolate_Cake {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -312px;
+    background: url('../assets/css_sprites.png') -0 -312px;
 }
 
-.bg-Rabbit_Foot {
+.bg-Rabbits_Foot {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -336px;
+    background: url('../assets/css_sprites.png') -0 -336px;
 }
 
 .bg-Heater {
     width: 24px; height: 36px;
-    background: url('css_sprites.png') -0 -3264px;
+    background: url('../assets/css_sprites.png') -0 -3264px;
 }
 
 .bg-Wheat {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -360px;
+    background: url('../assets/css_sprites.png') -0 -360px;
 }
 
 .bg-Recycling_Machine {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3396px;
+    background: url('../assets/css_sprites.png') -0 -3396px;
 }
 
 .bg-Chub {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -384px;
+    background: url('../assets/css_sprites.png') -0 -384px;
 }
 
 .bg-Nautilus_Shell {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -408px;
+    background: url('../assets/css_sprites.png') -0 -408px;
 }
 
 .bg-Seed_Maker {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3444px;
+    background: url('../assets/css_sprites.png') -0 -3444px;
 }
 
 .bg-Red_Cabbage {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -432px;
+    background: url('../assets/css_sprites.png') -0 -432px;
 }
 
 .bg-Duck_Feather {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -456px;
+    background: url('../assets/css_sprites.png') -0 -456px;
 }
 
 .bg-Sunflower {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -480px;
+    background: url('../assets/css_sprites.png') -0 -480px;
 }
 
 .bg-Sea_Urchin {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -504px;
+    background: url('../assets/css_sprites.png') -0 -504px;
 }
 
 .bg-Pink_Cake {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -528px;
+    background: url('../assets/css_sprites.png') -0 -528px;
 }
 
 .bg-Fried_Egg {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -552px;
+    background: url('../assets/css_sprites.png') -0 -552px;
 }
 
 .bg-Maki_Roll {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -576px;
+    background: url('../assets/css_sprites.png') -0 -576px;
 }
 
 .bg-Poppy {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -600px;
+    background: url('../assets/css_sprites.png') -0 -600px;
 }
 
 .bg-Truffle {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -624px;
+    background: url('../assets/css_sprites.png') -0 -624px;
 }
 
 .bg-Fiddlehead_Fern {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -648px;
+    background: url('../assets/css_sprites.png') -0 -648px;
 }
 
 .bg-Small_Magnet_Ring {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -672px;
+    background: url('../assets/css_sprites.png') -0 -672px;
 }
 
 .bg-Void_Essence {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -696px;
+    background: url('../assets/css_sprites.png') -0 -696px;
 }
 
 .bg-Solar_Essence {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -720px;
+    background: url('../assets/css_sprites.png') -0 -720px;
 }
 
 .bg-Bat_Wing {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -744px;
+    background: url('../assets/css_sprites.png') -0 -744px;
 }
 
 .bg-Slime {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -768px;
+    background: url('../assets/css_sprites.png') -0 -768px;
 }
 
 .bg-Omni_Geode {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -792px;
+    background: url('../assets/css_sprites.png') -0 -792px;
 }
 
 .bg-Furnace {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3492px;
+    background: url('../assets/css_sprites.png') -0 -3492px;
 }
 
 .bg-Gold_Bar {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -816px;
+    background: url('../assets/css_sprites.png') -0 -816px;
 }
 
 .bg-Iron_Bar {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -840px;
+    background: url('../assets/css_sprites.png') -0 -840px;
 }
 
 .bg-Copper_Bar {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -864px;
+    background: url('../assets/css_sprites.png') -0 -864px;
 }
 
 .bg-Dish_o_The_Sea {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -888px;
+    background: url('../assets/css_sprites.png') -0 -888px;
 }
 
 .bg-Woodskip {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -912px;
+    background: url('../assets/css_sprites.png') -0 -912px;
 }
 
 .bg-Sandfish {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -936px;
+    background: url('../assets/css_sprites.png') -0 -936px;
 }
 
 .bg-Ghostfish {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -960px;
+    background: url('../assets/css_sprites.png') -0 -960px;
 }
 
 .bg-Pufferfish {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -984px;
+    background: url('../assets/css_sprites.png') -0 -984px;
 }
 
 .bg-Crab_Pot {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1008px;
+    background: url('../assets/css_sprites.png') -0 -1008px;
 }
 
 .bg-Clam {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1032px;
+    background: url('../assets/css_sprites.png') -0 -1032px;
 }
 
 .bg-Oyster {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1056px;
+    background: url('../assets/css_sprites.png') -0 -1056px;
 }
 
 .bg-Periwinkle {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1080px;
+    background: url('../assets/css_sprites.png') -0 -1080px;
 }
 
 .bg-Snail {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1104px;
+    background: url('../assets/css_sprites.png') -0 -1104px;
 }
 
 .bg-Shrimp {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1128px;
+    background: url('../assets/css_sprites.png') -0 -1128px;
 }
 
 .bg-Mussel {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1152px;
+    background: url('../assets/css_sprites.png') -0 -1152px;
 }
 
 .bg-Cockle {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1176px;
+    background: url('../assets/css_sprites.png') -0 -1176px;
 }
 
 .bg-Crab {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1200px;
+    background: url('../assets/css_sprites.png') -0 -1200px;
 }
 
 .bg-Crayfish {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1224px;
+    background: url('../assets/css_sprites.png') -0 -1224px;
 }
 
 .bg-Lobster {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1248px;
+    background: url('../assets/css_sprites.png') -0 -1248px;
 }
 
 .bg-Small_Glow_Ring {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1272px;
+    background: url('../assets/css_sprites.png') -0 -1272px;
 }
 
 .bg-Eel {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1296px;
+    background: url('../assets/css_sprites.png') -0 -1296px;
 }
 
 .bg-Bream {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1320px;
+    background: url('../assets/css_sprites.png') -0 -1320px;
 }
 
 .bg-Walleye {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1344px;
+    background: url('../assets/css_sprites.png') -0 -1344px;
 }
 
 .bg-Warp_Totem_Beach {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1368px;
+    background: url('../assets/css_sprites.png') -0 -1368px;
 }
 
 .bg-Tilapia {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1392px;
+    background: url('../assets/css_sprites.png') -0 -1392px;
 }
 
 .bg-Red_Snapper {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1416px;
+    background: url('../assets/css_sprites.png') -0 -1416px;
 }
 
 .bg-Tuna {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1440px;
+    background: url('../assets/css_sprites.png') -0 -1440px;
 }
 
 .bg-Sardine {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1464px;
+    background: url('../assets/css_sprites.png') -0 -1464px;
 }
 
 .bg-Dressed_Spinner {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1488px;
+    background: url('../assets/css_sprites.png') -0 -1488px;
 }
 
 .bg-Sturgeon {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1512px;
+    background: url('../assets/css_sprites.png') -0 -1512px;
 }
 
 .bg-Bullhead {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1536px;
+    background: url('../assets/css_sprites.png') -0 -1536px;
 }
 
 .bg-Carp {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1560px;
+    background: url('../assets/css_sprites.png') -0 -1560px;
 }
 
 .bg-Largemouth_Bass {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1584px;
+    background: url('../assets/css_sprites.png') -0 -1584px;
 }
 
 .bg-Tiger_Trout {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1608px;
+    background: url('../assets/css_sprites.png') -0 -1608px;
 }
 
 .bg-Shad {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1632px;
+    background: url('../assets/css_sprites.png') -0 -1632px;
 }
 
 .bg-Catfish {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1656px;
+    background: url('../assets/css_sprites.png') -0 -1656px;
 }
 
 .bg-Sunfish {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1680px;
+    background: url('../assets/css_sprites.png') -0 -1680px;
 }
 
 .bg-Keg {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3540px;
+    background: url('../assets/css_sprites.png') -0 -3540px;
 }
 
 .bg-Cherry {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1704px;
+    background: url('../assets/css_sprites.png') -0 -1704px;
 }
 
 .bg-Pomegranate {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1728px;
+    background: url('../assets/css_sprites.png') -0 -1728px;
 }
 
 .bg-Peach {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1752px;
+    background: url('../assets/css_sprites.png') -0 -1752px;
 }
 
 .bg-Orange {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1776px;
+    background: url('../assets/css_sprites.png') -0 -1776px;
 }
 
 .bg-Apricot {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1800px;
+    background: url('../assets/css_sprites.png') -0 -1800px;
 }
 
 .bg-Apple {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1824px;
+    background: url('../assets/css_sprites.png') -0 -1824px;
 }
 
 .bg-Jelly {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1848px;
+    background: url('../assets/css_sprites.png') -0 -1848px;
 }
 
 .bg-Honey {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1872px;
+    background: url('../assets/css_sprites.png') -0 -1872px;
 }
 
 .bg-Cheese {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1896px;
+    background: url('../assets/css_sprites.png') -0 -1896px;
 }
 
 .bg-Goat_Cheese {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1920px;
+    background: url('../assets/css_sprites.png') -0 -1920px;
 }
 
 .bg-Cloth {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1944px;
+    background: url('../assets/css_sprites.png') -0 -1944px;
 }
 
 .bg-Truffle_Oil {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1968px;
+    background: url('../assets/css_sprites.png') -0 -1968px;
 }
 
 .bg-Cheese_Press {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3588px;
+    background: url('../assets/css_sprites.png') -0 -3588px;
 }
 
 .bg-Duck_Egg {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -1992px;
+    background: url('../assets/css_sprites.png') -0 -1992px;
 }
 
 .bg-Wool {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2016px;
+    background: url('../assets/css_sprites.png') -0 -2016px;
 }
 
 .bg-Large_Goat_Milk {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2040px;
+    background: url('../assets/css_sprites.png') -0 -2040px;
 }
 
 .bg-Large_Egg {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2064px;
+    background: url('../assets/css_sprites.png') -0 -2064px;
 }
 
 .bg-Large_Brown_Egg {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2088px;
+    background: url('../assets/css_sprites.png') -0 -2088px;
 }
 
 .bg-Large_Milk {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2112px;
+    background: url('../assets/css_sprites.png') -0 -2112px;
 }
 
 .bg-Preserves_Jar {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3636px;
+    background: url('../assets/css_sprites.png') -0 -3636px;
 }
 
 .bg-Bee_House {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3684px;
+    background: url('../assets/css_sprites.png') -0 -3684px;
 }
 
 .bg-Yam {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2136px;
+    background: url('../assets/css_sprites.png') -0 -2136px;
 }
 
 .bg-Eggplant {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2160px;
+    background: url('../assets/css_sprites.png') -0 -2160px;
 }
 
 .bg-Quality_Sprinkler {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2184px;
+    background: url('../assets/css_sprites.png') -0 -2184px;
 }
 
 .bg-Blueberry {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2208px;
+    background: url('../assets/css_sprites.png') -0 -2208px;
 }
 
 .bg-Hot_Pepper {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2232px;
+    background: url('../assets/css_sprites.png') -0 -2232px;
 }
 
 .bg-Tomato {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2256px;
+    background: url('../assets/css_sprites.png') -0 -2256px;
 }
 
 .bg-Speed_Gro {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2280px;
+    background: url('../assets/css_sprites.png') -0 -2280px;
 }
 
 .bg-Potato {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2304px;
+    background: url('../assets/css_sprites.png') -0 -2304px;
 }
 
 .bg-Cauliflower {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2328px;
+    background: url('../assets/css_sprites.png') -0 -2328px;
 }
 
 .bg-Green_Bean {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2352px;
+    background: url('../assets/css_sprites.png') -0 -2352px;
 }
 
 .bg-Autumns_Bounty {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2376px;
+    background: url('../assets/css_sprites.png') -0 -2376px;
 }
 
 .bg-Morel {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2400px;
+    background: url('../assets/css_sprites.png') -0 -2400px;
 }
 
 .bg-Pine_Tar {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2424px;
+    background: url('../assets/css_sprites.png') -0 -2424px;
 }
 
 .bg-Oak_Resin {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2448px;
+    background: url('../assets/css_sprites.png') -0 -2448px;
 }
 
 .bg-Maple_Syrup {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2472px;
+    background: url('../assets/css_sprites.png') -0 -2472px;
 }
 
 .bg-Red_Mushroom {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2496px;
+    background: url('../assets/css_sprites.png') -0 -2496px;
 }
 
 .bg-Cave_Carrot {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2520px;
+    background: url('../assets/css_sprites.png') -0 -2520px;
 }
 
 .bg-Coconut {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2544px;
+    background: url('../assets/css_sprites.png') -0 -2544px;
 }
 
 .bg-Charcoal_Kiln {
     width: 24px; height: 48px;
-    background: url('css_sprites.png') -0 -3732px;
+    background: url('../assets/css_sprites.png') -0 -3732px;
 }
 
 .bg-Hardwood {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2568px;
+    background: url('../assets/css_sprites.png') -0 -2568px;
 }
 
 .bg-Stone {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2592px;
+    background: url('../assets/css_sprites.png') -0 -2592px;
 }
 
 .bg-Wood {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2616px;
+    background: url('../assets/css_sprites.png') -0 -2616px;
 }
 
 .bg-Winter_Seeds {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2640px;
+    background: url('../assets/css_sprites.png') -0 -2640px;
 }
 
 .bg-Crocus {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2664px;
+    background: url('../assets/css_sprites.png') -0 -2664px;
 }
 
 .bg-Snow_Yam {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2688px;
+    background: url('../assets/css_sprites.png') -0 -2688px;
 }
 
 .bg-Crystal_Fruit {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2712px;
+    background: url('../assets/css_sprites.png') -0 -2712px;
 }
 
 .bg-Winter_Root {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2736px;
+    background: url('../assets/css_sprites.png') -0 -2736px;
 }
 
 .bg-Fall_Seeds {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2760px;
+    background: url('../assets/css_sprites.png') -0 -2760px;
 }
 
 .bg-Blackberry {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2784px;
+    background: url('../assets/css_sprites.png') -0 -2784px;
 }
 
 .bg-Hazelnut {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2808px;
+    background: url('../assets/css_sprites.png') -0 -2808px;
 }
 
 .bg-Wild_Plum {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2832px;
+    background: url('../assets/css_sprites.png') -0 -2832px;
 }
 
 .bg-Common_Mushroom {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2856px;
+    background: url('../assets/css_sprites.png') -0 -2856px;
 }
 
 .bg-Summer_Seeds {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2880px;
+    background: url('../assets/css_sprites.png') -0 -2880px;
 }
 
 .bg-Sweet_Pea {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2904px;
+    background: url('../assets/css_sprites.png') -0 -2904px;
 }
 
 .bg-Spice_Berry {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2928px;
+    background: url('../assets/css_sprites.png') -0 -2928px;
 }
 
 .bg-Grape {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2952px;
+    background: url('../assets/css_sprites.png') -0 -2952px;
 }
 
 .bg-Spring_Seeds {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -2976px;
+    background: url('../assets/css_sprites.png') -0 -2976px;
 }
 
 .bg-Dandelion {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3000px;
+    background: url('../assets/css_sprites.png') -0 -3000px;
 }
 
 .bg-Leek {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3024px;
+    background: url('../assets/css_sprites.png') -0 -3024px;
 }
 
 .bg-Daffodil {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3048px;
+    background: url('../assets/css_sprites.png') -0 -3048px;
 }
 
 .bg-Wild_Horseradish {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3072px;
+    background: url('../assets/css_sprites.png') -0 -3072px;
 }
 
 .bg-Hay {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3096px;
+    background: url('../assets/css_sprites.png') -0 -3096px;
 }
 
 .bg-Frozen_Geode {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3120px;
+    background: url('../assets/css_sprites.png') -0 -3120px;
 }
 
 .bg-Fire_Quartz {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3144px;
+    background: url('../assets/css_sprites.png') -0 -3144px;
 }
 
 .bg-Frozen_Tear {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3168px;
+    background: url('../assets/css_sprites.png') -0 -3168px;
 }
 
 .bg-Earth_Crystal {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3192px;
+    background: url('../assets/css_sprites.png') -0 -3192px;
 }
 
 .bg-Quartz {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3216px;
+    background: url('../assets/css_sprites.png') -0 -3216px;
 }
 
 .bg-Aquamarine {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -0 -3240px;
+    background: url('../assets/css_sprites.png') -0 -3240px;
 }

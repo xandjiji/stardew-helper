@@ -1,0 +1,35 @@
+.item {
+    position: relative;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+.item .sprite {
+    margin-right: 8px;
+}
+
+.item .info {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    z-index: 1;
+    padding: 5px;
+
+    display: block;
+    background-color: brown;
+
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+}
+
+.item:hover .info {
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;
+    cursor: text;
+}
