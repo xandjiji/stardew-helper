@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import RoomsWrapper from './components/RoomsWrapper';
+import Room from './components/Room';
 
-import './App.css';
+import './css/app.css';
 import roomsData from './rooms.json';
 
 export class App extends Component {
@@ -13,13 +13,14 @@ export class App extends Component {
     render() {
 
         let wrapper;
-
         if(this.state.sortBy == 'rooms') {
-            wrapper = <RoomsWrapper rooms={roomsData.rooms} />;
+            wrapper = roomsData.rooms.map((room) =>
+                <Room room={room}/>
+            )
         }
         
         return (
-            <div className="App">
+            <div className="app">
                 {wrapper}
             </div>
         )

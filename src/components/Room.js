@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import BundleWrapper from './BundleWrapper';
+import Bundle from './Bundle';
 
 export class Room extends Component {
 
@@ -12,7 +12,11 @@ export class Room extends Component {
                 <p>Room name: {roomData.name}</p>
                 <p>Room reward: {roomData.reward}</p>
 
-                <BundleWrapper bundles={roomData.bundles} />
+                {
+                    roomData.bundles.map((bundle) => (
+                        <Bundle bundle={bundle}/>
+                    ))
+                }
             </div>
         )
     }

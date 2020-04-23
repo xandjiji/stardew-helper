@@ -8,19 +8,19 @@ export class Bundle extends Component {
 
         let reward;
         if(bundleData.reward) {
-            reward = <p>Bundle reward: {bundleData.reward.name} ({bundleData.reward.itemCount}x)</p>
+            reward = <p>-->Bundle reward: {bundleData.reward.name} ({bundleData.reward.itemCount}x)</p>
         }
         
         
         return (
             <div>
-                <p>Bundle name: {bundleData.name}</p>
+                <p>-->Bundle name: {bundleData.name}</p>
                 
                 {reward}
 
                 {
                     bundleData.items.map(item => (
-                        <p>{item.name}</p>
+                        <Item item={item}/>
                     ))
                 }
                 a

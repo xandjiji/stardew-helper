@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 
-import '../css/Item.css';
+import '../css/item.css';
 
 export class Item extends Component {
 
     render() {
-        console.log(this.state);
+        
+        let itemData = this.props.item;
         
         return (
-            <div className="Item">
-                
+            <div className="item">
+                {itemData.name}
             </div>
         )
     }
