@@ -13,9 +13,9 @@ export class Main extends Component {
     render() {
 
         let wrapper;
-        if(this.state.sortBy == 'rooms') {
-            wrapper = roomsData.rooms.map((room) =>
-                <Room room={room}/>
+        if(this.state.sortBy === 'rooms') {
+            wrapper = roomsData.rooms.map((room, index) =>
+                <Room room={room} key={index}/>
             )
         }
         

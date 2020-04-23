@@ -15,8 +15,8 @@ export class Room extends Component {
                 <p>Room reward: {roomData.reward}</p>
 
                 {
-                    roomData.bundles.map((bundle) => (
-                        <Bundle bundle={bundle}/>
+                    roomData.bundles.map((bundle, index) => (
+                        <Bundle bundle={bundle} key={index}/>
                     ))
                 }
             </div>

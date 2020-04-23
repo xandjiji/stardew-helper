@@ -21,8 +21,8 @@ export class Bundle extends Component {
                 {reward}
 
                 {
-                    bundleData.items.map(item => (
-                        <Item item={item}/>
+                    bundleData.items.map((item, index) => (
+                        <Item item={item} key={index}/>
                     ))
                 }
                 a
