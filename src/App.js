@@ -1,14 +1,29 @@
-import React from 'react';
-import Item from './components/Item';
+import React, { Component } from 'react'
+import RoomsWrapper from './components/RoomsWrapper';
 
 import './App.css';
+import roomsData from './rooms.json';
 
-function App() {
-  return (
-    <div className="App">
-        <Item />
-    </div>
-  );
+export class App extends Component {
+
+    state = {
+        sortBy: 'rooms'
+    }
+
+    render() {
+
+        let wrapper;
+
+        if(this.state.sortBy == 'rooms') {
+            wrapper = <RoomsWrapper rooms={roomsData.rooms} />;
+        }
+        
+        return (
+            <div className="App">
+                {wrapper}
+            </div>
+        )
+    }
 }
 
-export default App;
+export default App
