@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Bundle from './Bundle';
 
+import '../css/room.css';
+
 export class Room extends Component {
 
     render() {

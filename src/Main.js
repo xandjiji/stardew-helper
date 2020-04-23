@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Room from './components/Room';
 
-import './css/app.css';
+import './css/main.css';
 import roomsData from './rooms.json';
 
-export class App extends Component {
+export class Main extends Component {
 
     state = {
         sortBy: 'rooms'
@@ -20,11 +20,11 @@ export class App extends Component {
         }
         
         return (
-            <div className="app">
+            <div className="main">
                 {wrapper}
             </div>
         )
     }
 }
 
-export default App
+export default Main

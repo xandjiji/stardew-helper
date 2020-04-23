@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Item from './Item';
 
+import '../css/bundle.css';
+
 export class Bundle extends Component {
     render() {
 
