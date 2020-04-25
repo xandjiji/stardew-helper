@@ -7,7 +7,8 @@ import roomsData from './rooms.json';
 export class Main extends Component {
 
     state = {
-        sortBy: 'rooms'
+        sortBy: 'rooms',
+        selected: 0
     }
 
     render() {

@@ -5,6 +5,16 @@ import '../css/spritesheet.css';
 
 export class Item extends Component {
 
+    state = {
+        active: false
+    }
+
+    toggleState() {
+        this.setState({ active: !this.state.active }, () => {
+            this.props.updateCompleted(this.state.active);
+        });
+    }
+
     render() {
         
         let itemData = this.props.item;
@@ -14,12 +24,17 @@ export class Item extends Component {
         if(itemInfo) {
             itemInfo = <div className="info smooth">{itemData.info}</div>;
         }
+
+        let completed;
+        if(this.state.active) {
+            completed = <span>X</span>
+        }
         
         return (
-            <div className="item">
+            <div className="item" onClick={() => this.toggleState()}>
+                {completed}
                 <div className={`sprite ${itemClass}`}></div>
-                <span>{itemData.name}</span>
-                
+                <span>{itemData.name} (({itemData.id}))</span>
                 {itemInfo}
             </div>
         )
