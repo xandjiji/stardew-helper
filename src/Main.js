@@ -11,12 +11,22 @@ export class Main extends Component {
         selected: 0
     }
 
+    updateSelected = (id) => {
+        let current = this.state.selected;
+
+        current = current + id;
+        this.setState({selected: current});
+    }
+
     render() {
+
+        console.log(this.state.selected);
+        
 
         let wrapper;
         if(this.state.sortBy === 'rooms') {
             wrapper = roomsData.rooms.map((room, index) =>
-                <Room room={room} key={index}/>
+                <Room room={room} updateSelected={this.updateSelected} key={index}/>
             )
         }
         

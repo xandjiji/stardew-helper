@@ -55,7 +55,7 @@ export class Bundle extends Component {
 
                 {
                     bundleData.items.map((item, index) => (
-                        <Item item={item} key={index} updateCompleted={this.updateCompleted}/>
+                        <Item item={item} updateSelected={this.props.updateSelected} key={index} updateCompleted={this.updateCompleted}/>
                     ))
                 }
                 a

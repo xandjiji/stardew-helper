@@ -12,6 +12,18 @@ export class Item extends Component {
     toggleState() {
         this.setState({ active: !this.state.active }, () => {
             this.props.updateCompleted(this.state.active);
+
+            let signal = -1;
+            if(this.state.active) {
+                signal = 1;
+            }
+
+            let index = this.props.item.id;
+            index = Math.pow(2, index);
+            
+
+            this.props.updateSelected(index * signal);
+
         });
     }
 

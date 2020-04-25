@@ -44,7 +44,7 @@ export class Room extends Component {
 
                 {
                     roomData.bundles.map((bundle, index) => (
-                        <Bundle bundle={bundle} key={index} updateRoom={this.updateRoom}/>
+                        <Bundle bundle={bundle} updateSelected={this.props.updateSelected} key={index} updateRoom={this.updateRoom}/>
                     ))
                 }
             </div>
