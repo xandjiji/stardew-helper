@@ -567,6 +567,12 @@
                             "itemCount": 1,
                             "info": "Found in the Mountain Lake, Anytime, All Seasons.",
                             "id": 68
+                        },
+                        {
+                            "name": "Sturgeon",
+                            "itemCount": 1,
+                            "info": "Found in the Mountain Lake, 6am – 7pm, Summer and Winter.",
+                            "id": 134
                         }
                     ]
                 },
