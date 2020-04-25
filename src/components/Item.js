@@ -1,30 +1,24 @@
 import React, { Component } from 'react'
+import {connect} from "react-redux";
 
 import '../css/item.css';
 import '../css/spritesheet.css';
 
 export class Item extends Component {
 
-    state = {
-        active: false
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            active: false
+        }
+
+        this.tapItem = this.tapItem.bind(this);
     }
 
-    toggleState() {
-        this.setState({ active: !this.state.active }, () => {
-            this.props.updateCompleted(this.state.active);
-
-            let signal = -1;
-            if(this.state.active) {
-                signal = 1;
-            }
-
-            let index = this.props.item.id;
-            index = Math.pow(2, index);
-            
-
-            this.props.updateSelected(index * signal);
-
-        });
+    tapItem(id) {
+        this.props.toggleItem(id);
+        this.props.updateCompleted(this.props.activeItems[id]);
     }
 
     render() {
@@ -38,12 +32,13 @@ export class Item extends Component {
         }
 
         let completed;
-        if(this.state.active) {
+        if(this.props.activeItems[itemData.id]) {
             completed = <span>X</span>
         }
         
+        
         return (
-            <div className="item" onClick={() => this.toggleState()}>
+            <div className="item" onClick={() => this.tapItem(itemData.id)}>
                 {completed}
                 <div className={`sprite ${itemClass}`}></div>
                 <span>{itemData.name} (({itemData.id}))</span>
@@ -53,7 +48,24 @@ export class Item extends Component {
     }
 }
 
-export default Item
+const mapStateToProps = (state) => {
+    return {
+        activeItems: state.itemReducer
+    };
+};
+  
+const mapDispatchToProps = (dispatch) => {
+    return {
+        toggleItem: (id) => {
+            dispatch({
+                type: "TOGGLE_ITEM",
+                payload: id
+            });
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Item);
 
 function buildClassName(name) {
     name = name.replace(/'/g, "");

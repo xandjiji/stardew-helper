@@ -13,24 +13,26 @@ export class Bundle extends Component {
     updateCompleted = (itemState) => {
         let count = this.state.completedItems;
         
-        if(itemState) {
-            count++;
-        } else {
+        if(itemState == 1) {
             count--;
+        } else {
+            count++;
         }
+        
 
         this.setState({completedItems: count}, () => {
 
             let completed = this.state.completedItems >= this.props.bundle.itemCount;
+            
 
             if(this.state.complete !== completed) {
                 this.setState({complete: completed});
-                this.props.updateRoom(completed);
             }
         });
     }
 
     render() {
+
 
         let bundleData = this.props.bundle;
 
@@ -50,12 +52,11 @@ export class Bundle extends Component {
             <div>
                 {completed}
                 <p>-->Bundle name: {bundleData.name}</p>
-                
                 {reward}
 
                 {
                     bundleData.items.map((item, index) => (
-                        <Item item={item} updateSelected={this.props.updateSelected} key={index} updateCompleted={this.updateCompleted}/>
+                        <Item item={item} updateCompleted={this.updateCompleted} key={index}/>
                     ))
                 }
                 a
