@@ -32,7 +32,7 @@ const wrapperReducer = (state = initialState, action) => {
 var initialItemState = {};
 
 for(let i = 0; i <= 133; i++) {
-    initialItemState[i] = 0;
+    initialItemState[i] = false;
 }
 
 const itemReducer = (state = initialItemState, action) => {

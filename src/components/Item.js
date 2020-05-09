@@ -10,51 +10,50 @@ export class Item extends Component {
         super(props);
 
         this.state = {
-            active: false
+            active: this.props.initialState
         }
-
-        this.tapItem = this.tapItem.bind(this);
-    }
+    }    
 
     tapItem(id) {
         this.props.toggleItem(id);
-        this.props.updateCompleted(this.props.activeItems[id]);
+        this.props.updateCompleted(!this.state.active);
+        this.setState({active: !this.state.active});        
     }
 
-    render() {
-        
-        let itemData = this.props.item;
-        let itemClass = buildClassName(itemData.name);
+    render() {        
+        const { name, info, id } = this.props.item;        
 
-        let itemInfo = itemData.info;
-        if(itemInfo) {
-            itemInfo = <div className="info smooth">{itemData.info}</div>;
+        let itemClass = buildClassName(name);
+
+        let itemInfo;
+        if(info) {
+            itemInfo = <div className="info smooth">{info}</div>;
         }
 
         let completed;
-        if(this.props.activeItems[itemData.id]) {
+        if(this.state.active) {
             completed = <span>X</span>
         }
         
         
         return (
-            <div className="item" onClick={() => this.tapItem(itemData.id)}>
+            <div className="item" onClick={() => this.tapItem(id)}>
                 {completed}
                 <div className={`sprite ${itemClass}`}></div>
-                <span>{itemData.name} (({itemData.id}))</span>
+                <span>{name} (({id}))</span>
                 {itemInfo}
             </div>
         )
     }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state, ownProps) => {
     return {
-        activeItems: state.itemReducer
-    };
+        initialState: state.itemReducer[ownProps.item.id]
+    };    
 };
   
-const mapDispatchToProps = (dispatch) => {
+function mapDispatchToProps(dispatch) {
     return {
         toggleItem: (id) => {
             dispatch({

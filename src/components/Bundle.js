@@ -5,30 +5,35 @@ import '../css/bundle.css';
 
 export class Bundle extends Component {
 
+    /* HARDCODED */
     state = {
         complete: false,
         completedItems: 0
     }
 
     updateCompleted = (itemState) => {
-        let count = this.state.completedItems;
+        const { complete, completedItems } = this.state;
+
+        let count = completedItems;
         
-        if(itemState == 1) {
-            count--;
-        } else {
+        if(itemState) {
             count++;
+        } else {
+            count--;
         }
         
+        this.setState({completedItems: count});
 
-        this.setState({completedItems: count}, () => {
-
-            let completed = this.state.completedItems >= this.props.bundle.itemCount;
-            
-
-            if(this.state.complete !== completed) {
-                this.setState({complete: completed});
+        if(count >= this.props.bundle.itemCount) {
+            if(!complete) {
+                this.setState({complete: true});
             }
-        });
+            
+        } else {
+            if(complete) {
+                this.setState({complete: false});
+            }
+        }
     }
 
     render() {
