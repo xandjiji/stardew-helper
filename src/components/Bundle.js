@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Item from './Item';
+import {connect} from "react-redux";
 
 import '../css/bundle.css';
 
@@ -24,43 +25,35 @@ export class Bundle extends Component {
         
         this.setState({completedItems: count});
 
-        if(count >= this.props.bundle.itemCount) {
-            if(!complete) {
-                this.setState({complete: true});
-            }
+        if(!complete && count >= this.props.bundle.itemCount) {
+            this.setState({ complete: true });
             
-        } else {
-            if(complete) {
-                this.setState({complete: false});
-            }
+        } else if (complete && count < this.props.bundle.itemCount) {
+            this.setState({ complete: false });
         }
     }
 
     render() {
+        const { name, itemCount, reward, items } = this.props.bundle;
 
-
-        let bundleData = this.props.bundle;
-
-        let reward;
-        if(bundleData.reward) {
-            reward = <p>-->Bundle reward: {bundleData.reward.name} ({bundleData.reward.itemCount}x)</p>
+        let rewardElement;
+        if(reward) {
+            rewardElement = <p>-->Bundle reward: {reward.name} ({reward.itemCount}x)</p>
         }
 
-        let completed;
-        if(this.state.completedItems >= bundleData.itemCount) {
-            completed = <span>(((COMPLETED BUNDLE)))</span>;
+        let completedElement;
+        if(this.state.completedItems >= itemCount) {
+            completedElement = <span>(((COMPLETED BUNDLE)))</span>;
         }
-        
-        
-        
+
         return (
             <div>
-                {completed}
-                <p>-->Bundle name: {bundleData.name}</p>
-                {reward}
+                {completedElement}
+                <p>-->Bundle name: {name}</p>
+                {rewardElement}
 
                 {
-                    bundleData.items.map((item, index) => (
+                    items.map((item, index) => (
                         <Item item={item} updateCompleted={this.updateCompleted} key={index}/>
                     ))
                 }
@@ -70,4 +63,21 @@ export class Bundle extends Component {
     }
 }
 
-export default Bundle
+const mapStateToProps = (state, ownProps) => {
+    return {
+        /* initialState: state.itemReducer[ownProps.item.id] */
+    };    
+};
+  
+function mapDispatchToProps(dispatch) {
+    return {
+        toggleItem: (id) => {
+            dispatch({
+                type: "TOGGLE_ITEM",
+                payload: id
+            });
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Bundle);

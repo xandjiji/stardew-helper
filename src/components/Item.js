@@ -17,31 +17,31 @@ export class Item extends Component {
     tapItem(id) {
         this.props.toggleItem(id);
         this.props.updateCompleted(!this.state.active);
-        this.setState({active: !this.state.active});        
+        this.setState({ active: !this.state.active });
     }
 
-    render() {        
+    render() {
         const { name, info, id } = this.props.item;        
 
         let itemClass = buildClassName(name);
 
-        let itemInfo;
+        let infoElement;
         if(info) {
-            itemInfo = <div className="info smooth">{info}</div>;
+            infoElement = <div className="info smooth">{info}</div>;
         }
 
-        let completed;
+        let completedElement;
         if(this.state.active) {
-            completed = <span>X</span>
+            completedElement = <span>X</span>
         }
         
         
         return (
             <div className="item" onClick={() => this.tapItem(id)}>
-                {completed}
+                {completedElement}
                 <div className={`sprite ${itemClass}`}></div>
                 <span>{name} (({id}))</span>
-                {itemInfo}
+                {infoElement}
             </div>
         )
     }
