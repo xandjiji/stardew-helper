@@ -38,14 +38,16 @@ for(let i = 0; i <= 133; i++) {
 const itemReducer = (state = initialItemState, action) => {
     switch (action.type) {
         case "TOGGLE_ITEM":
-            state = {
-                ...state,
-                [action.payload]: state[action.payload]^1
-            };
+
+            if(state[action.payload]) {
+                delete state[action.payload];
+            } else {
+                state[action.payload] = true;
+            }
             
             break;
     }
-    return state;
+    return state;    
 };
 
 const store = createStore(combineReducers({wrapperReducer, itemReducer}));

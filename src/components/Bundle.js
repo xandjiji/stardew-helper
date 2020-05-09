@@ -12,6 +12,10 @@ export class Bundle extends Component {
         completedItems: 0
     }
 
+    tapItem(id) {
+        this.props.toggleItem(id);        
+    }
+
     updateCompleted = (itemState) => {
         const { complete, completedItems } = this.state;
 
@@ -47,7 +51,7 @@ export class Bundle extends Component {
         }
 
         return (
-            <div>
+            <div className="test" /* onClick={() => this.tapItem(0)} */>
                 {completedElement}
                 <p>-->Bundle name: {name}</p>
                 {rewardElement}
