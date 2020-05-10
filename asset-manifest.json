@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stardew-helper/static/css/main.8b5c4f6c.chunk.css",
+    "main.js": "/stardew-helper/static/js/main.4549cf82.chunk.js",
+    "main.js.map": "/stardew-helper/static/js/main.4549cf82.chunk.js.map",
+    "runtime-main.js": "/stardew-helper/static/js/runtime-main.f4c516d1.js",
+    "runtime-main.js.map": "/stardew-helper/static/js/runtime-main.f4c516d1.js.map",
+    "static/js/2.13c43d5c.chunk.js": "/stardew-helper/static/js/2.13c43d5c.chunk.js",
+    "static/js/2.13c43d5c.chunk.js.map": "/stardew-helper/static/js/2.13c43d5c.chunk.js.map",
+    "index.html": "/stardew-helper/index.html",
+    "precache-manifest.bef5964160bab7f7c53c0b54df8f3094.js": "/stardew-helper/precache-manifest.bef5964160bab7f7c53c0b54df8f3094.js",
+    "service-worker.js": "/stardew-helper/service-worker.js",
+    "static/css/main.8b5c4f6c.chunk.css.map": "/stardew-helper/static/css/main.8b5c4f6c.chunk.css.map",
+    "static/js/2.13c43d5c.chunk.js.LICENSE.txt": "/stardew-helper/static/js/2.13c43d5c.chunk.js.LICENSE.txt",
+    "static/media/spritesheet.css": "/stardew-helper/static/media/css_sprites.c74706ea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4c516d1.js",
+    "static/js/2.13c43d5c.chunk.js",
+    "static/css/main.8b5c4f6c.chunk.css",
+    "static/js/main.4549cf82.chunk.js"
+  ]
+}
