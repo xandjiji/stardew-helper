@@ -16,7 +16,7 @@ export class Bundle extends Component {
             idArray.push(element.id);
         });
 
-        if (bundle.items.length == completedCount) {
+        if (bundle.items.length === completedCount) {
             this.props.toggleAll({ idArray, allCompleted: true });
         } else {
             this.props.toggleAll({ idArray, allCompleted: false });
@@ -25,7 +25,7 @@ export class Bundle extends Component {
     }
 
     render() {
-        const { name, itemCount, reward, items } = this.props.bundle;
+        const { name, reward, items } = this.props.bundle;
 
         let rewardElement;
         if (reward) {
@@ -58,7 +58,6 @@ export class Bundle extends Component {
 const mapStateToProps = (state, ownProps) => {
 
     let completeCount = 0;
-
     ownProps.bundle.items.forEach(element => {
         if (state.itemReducer[element.id]) {
             completeCount++;

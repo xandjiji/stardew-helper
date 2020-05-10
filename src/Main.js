@@ -10,7 +10,7 @@ export class Main extends Component {
     render() {
 
         let wrapper;
-        if (this.props.sortBy == "rooms") {
+        if (this.props.sortBy === "rooms") {
             wrapper = roomsData.rooms.map((room, index) =>
                 <Room room={room} key={index} />
             )

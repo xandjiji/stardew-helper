@@ -19,7 +19,6 @@ export class Item extends Component {
         if (this.props.active) {
             completedElement = <span>X</span>
         }
-        console.log('a');
         
         return (
             <div className="item" onClick={() => this.props.toggleItem(id)}>
@@ -50,8 +49,6 @@ function mapDispatchToProps(dispatch) {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Item);
-
 function buildClassName(name) {
     name = name.replace(/'/g, "");
     name = name.replace(/,/g, "");
@@ -59,3 +56,5 @@ function buildClassName(name) {
 
     return `bg-${name}`;
 }
+
+export default connect(mapStateToProps, mapDispatchToProps)(Item);
