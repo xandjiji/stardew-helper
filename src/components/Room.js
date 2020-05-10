@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import '../css/room.css';
 
 export class Room extends Component {
-
     render() {
         const { isComplete, completedCount } = this.props;
         const { name, reward, bundles } = this.props.room;
