@@ -6,14 +6,19 @@ import '../css/bundle.css';
 
 export class Bundle extends Component {
 
-    /* HARDCODED */
-    state = {
-        complete: false,
-        completedItems: 0
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            complete: this.props.initialCompleted,
+            completedItems: this.props.initialCount
+        }
     }
 
-    tapItem(id) {
-        this.props.toggleItem(id);        
+    tapItem() {        
+        this.props.bundle.items.forEach(element => {
+            this.props.toggleItem(element.id);
+        });
     }
 
     updateCompleted = (itemState) => {
@@ -46,12 +51,13 @@ export class Bundle extends Component {
         }
 
         let completedElement;
-        if(this.state.completedItems >= itemCount) {
+        if(this.state.complete) {
             completedElement = <span>(((COMPLETED BUNDLE)))</span>;
         }
 
         return (
-            <div className="test" /* onClick={() => this.tapItem(0)} */>
+            <div>
+                <button onClick={() => this.tapItem()}>TOGGLE ALL</button>
                 {completedElement}
                 <p>-->Bundle name: {name}</p>
                 {rewardElement}
@@ -68,8 +74,23 @@ export class Bundle extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
+
+    let completeCount = 0;
+
+    ownProps.bundle.items.forEach(element => {
+        if(state.itemReducer[element.id]) {
+            completeCount++;
+        }
+    });  
+    
+    let status = false;
+    if(completeCount >= ownProps.bundle.itemCount) {
+        status = true;
+    }
+
     return {
-        /* initialState: state.itemReducer[ownProps.item.id] */
+        initialCompleted: status,
+        initialCount: completeCount
     };    
 };
   

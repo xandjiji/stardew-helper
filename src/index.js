@@ -47,10 +47,17 @@ const itemReducer = (state = initialItemState, action) => {
             
             break;
     }
+    console.log(state);
+    
     return state;    
 };
 
 const store = createStore(combineReducers({wrapperReducer, itemReducer}));
+
+store.subscribe(() => {
+    /* console.log(store.getState()); */
+    
+})
 
 ReactDOM.render(
     <React.StrictMode>

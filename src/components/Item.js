@@ -12,11 +12,11 @@ export class Item extends Component {
         this.state = {
             active: this.props.initialState
         }
-    }    
+    }
 
     tapItem(id) {
         this.props.toggleItem(id);
-        this.props.updateCompleted(!this.state.active);
+        /* this.props.updateCompleted(!this.state.active); */
         this.setState({ active: !this.state.active });
     }
 
@@ -35,7 +35,6 @@ export class Item extends Component {
             completedElement = <span>X</span>
         }
         
-        
         return (
             <div className="item" onClick={() => this.tapItem(id)}>
                 {completedElement}
@@ -48,6 +47,7 @@ export class Item extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
+   
     return {
         initialState: state.itemReducer[ownProps.item.id]
     };    
