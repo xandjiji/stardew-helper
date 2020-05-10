@@ -1,59 +1,56 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
 
 import '../css/item.css';
 import '../css/spritesheet.css';
 
 export class Item extends Component {
-
-    state = {
-        active: false
-    }
-
-    toggleState() {
-        this.setState({ active: !this.state.active }, () => {
-            this.props.updateCompleted(this.state.active);
-
-            let signal = -1;
-            if(this.state.active) {
-                signal = 1;
-            }
-
-            let index = this.props.item.id;
-            index = Math.pow(2, index);
-            
-
-            this.props.updateSelected(index * signal);
-
-        });
-    }
-
     render() {
-        
-        let itemData = this.props.item;
-        let itemClass = buildClassName(itemData.name);
+        const { name, info, id } = this.props.item;
 
-        let itemInfo = itemData.info;
-        if(itemInfo) {
-            itemInfo = <div className="info smooth">{itemData.info}</div>;
+        let itemClass = buildClassName(name);
+
+        let infoElement;
+        if (info) {
+            infoElement = <div className="info smooth">{info}</div>;
         }
 
-        let completed;
-        if(this.state.active) {
-            completed = <span>X</span>
+        let completedElement;
+        if (this.props.active) {
+            completedElement = <span>X</span>
         }
+        console.log('a');
         
         return (
-            <div className="item" onClick={() => this.toggleState()}>
-                {completed}
+            <div className="item" onClick={() => this.props.toggleItem(id)}>
+                {completedElement}
                 <div className={`sprite ${itemClass}`}></div>
-                <span>{itemData.name} (({itemData.id}))</span>
-                {itemInfo}
+                <span>{name} (({id}))</span>
+                {infoElement}
             </div>
         )
     }
 }
 
-export default Item
+const mapStateToProps = (state, ownProps) => {
+
+    return {
+        active: state.itemReducer[ownProps.item.id]
+    };
+};
+
+function mapDispatchToProps(dispatch) {
+    return {
+        toggleItem: (id) => {
+            dispatch({
+                type: "TOGGLE_ITEM",
+                payload: id
+            });
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Item);
 
 function buildClassName(name) {
     name = name.replace(/'/g, "");

@@ -1,35 +1,21 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
+
 import Room from './components/Room';
 
 import './css/main.css';
 import roomsData from './rooms.json';
 
 export class Main extends Component {
-
-    state = {
-        sortBy: 'rooms',
-        selected: 0
-    }
-
-    updateSelected = (id) => {
-        let current = this.state.selected;
-
-        current = current + id;
-        this.setState({selected: current});
-    }
-
     render() {
 
-        console.log(this.state.selected);
-        
-
         let wrapper;
-        if(this.state.sortBy === 'rooms') {
+        if (this.props.sortBy == "rooms") {
             wrapper = roomsData.rooms.map((room, index) =>
-                <Room room={room} updateSelected={this.updateSelected} key={index}/>
+                <Room room={room} key={index} />
             )
         }
-        
+
         return (
             <div className="main">
                 {wrapper}
@@ -38,4 +24,22 @@ export class Main extends Component {
     }
 }
 
-export default Main
+const mapStateToProps = (state) => {
+    return {
+        sortBy: state.wrapperReducer.sortBy
+    };
+};
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        /* toggleItem: (id) => {
+            dispatch({
+                type: "TOGGLE_ITEM",
+                payload: id
+            });
+        } */
+    };
+};
+
+/* export default Main */
+export default connect(mapStateToProps, mapDispatchToProps)(Main);

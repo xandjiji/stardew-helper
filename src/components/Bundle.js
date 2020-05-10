@@ -1,61 +1,52 @@
 import React, { Component } from 'react'
 import Item from './Item';
+import { connect } from "react-redux";
 
 import '../css/bundle.css';
 
 export class Bundle extends Component {
 
-    state = {
-        complete: false,
-        completedItems: 0
-    }
+    toggleAll() {
 
-    updateCompleted = (itemState) => {
-        let count = this.state.completedItems;
-        
-        if(itemState) {
-            count++;
+        const { bundle, completedCount } = this.props;
+
+        let idArray = [];
+
+        bundle.items.forEach(element => {
+            idArray.push(element.id);
+        });
+
+        if (bundle.items.length == completedCount) {
+            this.props.toggleAll({ idArray, allCompleted: true });
         } else {
-            count--;
+            this.props.toggleAll({ idArray, allCompleted: false });
         }
 
-        this.setState({completedItems: count}, () => {
-
-            let completed = this.state.completedItems >= this.props.bundle.itemCount;
-
-            if(this.state.complete !== completed) {
-                this.setState({complete: completed});
-                this.props.updateRoom(completed);
-            }
-        });
     }
 
     render() {
+        const { name, itemCount, reward, items } = this.props.bundle;
 
-        let bundleData = this.props.bundle;
-
-        let reward;
-        if(bundleData.reward) {
-            reward = <p>-->Bundle reward: {bundleData.reward.name} ({bundleData.reward.itemCount}x)</p>
+        let rewardElement;
+        if (reward) {
+            rewardElement = <p>-->Bundle reward: {reward.name} ({reward.itemCount}x)</p>
         }
 
-        let completed;
-        if(this.state.completedItems >= bundleData.itemCount) {
-            completed = <span>(((COMPLETED BUNDLE)))</span>;
+        let completedElement;
+        if (this.props.isComplete) {
+            completedElement = <span>(((COMPLETED BUNDLE)))</span>;
         }
-        
-        
-        
+
         return (
             <div>
-                {completed}
-                <p>-->Bundle name: {bundleData.name}</p>
-                
-                {reward}
+                <button onClick={() => this.toggleAll()}>TOGGLE ALL</button>
+                {completedElement}
+                <p>-->Bundle name: {name}</p>
+                {rewardElement}
 
                 {
-                    bundleData.items.map((item, index) => (
-                        <Item item={item} updateSelected={this.props.updateSelected} key={index} updateCompleted={this.updateCompleted}/>
+                    items.map((item, index) => (
+                        <Item item={item} key={index} />
                     ))
                 }
                 a
@@ -64,4 +55,36 @@ export class Bundle extends Component {
     }
 }
 
-export default Bundle
+const mapStateToProps = (state, ownProps) => {
+
+    let completeCount = 0;
+
+    ownProps.bundle.items.forEach(element => {
+        if (state.itemReducer[element.id]) {
+            completeCount++;
+        }
+    });
+
+    let status = false;
+    if (completeCount >= ownProps.bundle.itemCount) {
+        status = true;
+    }
+
+    return {
+        isComplete: status,
+        completedCount: completeCount
+    };
+};
+
+function mapDispatchToProps(dispatch) {
+    return {
+        toggleAll: (options) => {
+            dispatch({
+                type: "TOGGLE_ALL",
+                payload: options
+            });
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Bundle);
