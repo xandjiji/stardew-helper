@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './Main';
 
-import {createStore, combineReducers} from "redux";
-import {Provider} from "react-redux";
+import { createStore, combineReducers } from "redux";
+import { Provider } from "react-redux";
 
 const initialState = {
     sortBy: 'rooms'
@@ -31,38 +31,63 @@ const wrapperReducer = (state = initialState, action) => {
 
 var initialItemState = {};
 
-for(let i = 0; i <= 133; i++) {
+for (let i = 0; i <= 133; i++) {
     /* initialItemState[i] = true; */
 }
 
 const itemReducer = (state = initialItemState, action) => {
     switch (action.type) {
         case "TOGGLE_ITEM":
-
-            if(state[action.payload]) {
+            if (state[action.payload]) {
                 delete state[action.payload];
+                state = {
+                    ...state
+                }
             } else {
                 state[action.payload] = true;
+                state = {
+                    ...state
+                }
             }
-            
+
+            break;
+
+        case "TOGGLE_ALL":
+            if (!action.payload.allCompleted) {
+
+                action.payload.idArray.forEach(element => {
+                    state[element] = true;
+                    state = {
+                        ...state
+                    }
+                });
+
+            } else {
+                action.payload.idArray.forEach(element => {
+                    delete state[element];
+                    state = {
+                        ...state
+                    }
+                });
+            }
+
             break;
     }
-    console.log(state);
-    
-    return state;    
+
+    return state;
 };
 
-const store = createStore(combineReducers({wrapperReducer, itemReducer}));
+const store = createStore(combineReducers({ wrapperReducer, itemReducer }));
 
 store.subscribe(() => {
     /* console.log(store.getState()); */
-    
+
 })
 
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-            <Main/>
+            <Main />
         </Provider>
     </React.StrictMode>,
     document.getElementById('root')

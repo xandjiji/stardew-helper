@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 import Room from './components/Room';
 
@@ -9,13 +9,13 @@ import roomsData from './rooms.json';
 export class Main extends Component {
     render() {
 
-        let wrapper;        
-        if(this.props.sortBy == "rooms") {
+        let wrapper;
+        if (this.props.sortBy == "rooms") {
             wrapper = roomsData.rooms.map((room, index) =>
-                <Room room={room} key={index}/>
+                <Room room={room} key={index} />
             )
         }
-        
+
         return (
             <div className="main">
                 {wrapper}
@@ -29,7 +29,7 @@ const mapStateToProps = (state) => {
         sortBy: state.wrapperReducer.sortBy
     };
 };
-  
+
 const mapDispatchToProps = (dispatch) => {
     return {
         /* toggleItem: (id) => {
