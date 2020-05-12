@@ -32,7 +32,9 @@ export class Main extends Component {
             <div className="main">
 
                 <Carousel>
-                    <p>ASDASDSA</p>
+                    <div className="red">a</div>
+                    <div className="blue">b</div>
+                    <div className="green">c</div>
                 </Carousel>
 
                 <div className="rooms-wrapper">

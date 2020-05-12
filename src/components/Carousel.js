@@ -8,10 +8,11 @@ export class Carousel extends Component {
 
         this.state = {
             positionX: 0,
-            positionY: 0
+            index: 0
         }
 
-        this.ref = React.createRef();
+        this.mainRef = React.createRef();
+        this.sliderRef = React.createRef();
 
         this.dragStart = this.dragStart.bind(this);
         this.dragging = this.dragging.bind(this);
@@ -19,62 +20,79 @@ export class Carousel extends Component {
     }
 
     componentDidMount() {
-        this.ref.current.addEventListener("mousemove", this.dragging);
+        this.mainRef.current.addEventListener("mousemove", this.dragging);
     }
 
     componentWillUnmount() {
-        this.ref.current.removeEventListener("mousemove", this.dragging);
+        this.mainRef.current.removeEventListener("mousemove", this.dragging);
     }
 
     dragStart(event) {
-        const { pageX, pageY } = event;
+        this.sliderRef.current.style.transition = "";
+
+        const { pageX } = event;
         this.setState({
             isMousePressed: true,
             initialX: pageX,
-            initialY: pageY
-        });        
+            currentX: pageX
+        })
     }
 
     dragging(event) {
-        
-        if(this.state.isMousePressed) {
-            const { pageX, pageY } = event;
-    
+        const { pageX } = event;
+        if (this.state.isMousePressed) {
             this.setState({
-                initialX: pageX,
-                initialY: pageY,
-                positionX: this.state.positionX + (pageX - this.state.initialX),
-                positionY: this.state.positionY + (pageY - this.state.initialY)
+                currentX: pageX,
+                positionX: this.state.positionX + (pageX - this.state.currentX),
             })
-
-            /* console.log(this.state.positionX + (pageX - this.state.initialX)); */
-            
         }
-        
-
     }
 
     mouseDrop(event) {
+        if (this.state.isMousePressed) {
 
-        const { pageX, pageY } = event;
+            this.sliderRef.current.style.transition = "0.2s ease-out"
 
-        this.setState({
-            isMousePressed: false,
-            /* positionX: this.state.positionX + (pageX - this.state.initialX),
-            positionY: this.state.positionY + (pageY - this.state.initialY) */
-        })
+            this.setState({
+                isMousePressed: false
+            })
 
+            const { children } = this.props;
+            let childrenCount = children.length || 1;
+
+            const { pageX } = event;
+            let distance = this.state.initialX - pageX;
+            let elementSize = this.mainRef.current.offsetWidth;
+
+            /* pushy enough */
+            if (Math.abs(distance) > (elementSize * 0.4)) {
+                let newIndex = this.state.index + ((Math.sign(distance)));
+
+                /* inside limits */
+                if (newIndex >= 0 && newIndex < childrenCount) {
+                    this.setState({
+                        index: newIndex,
+                        positionX: elementSize * newIndex * - 1
+                    });
+
+                /* outside limits */
+                } else {
+                    this.setState({ positionX: elementSize * this.state.index * - 1 });
+                }
+
+            /* not pushy enough */
+            } else {
+                this.setState({ positionX: elementSize * this.state.index * - 1 });
+            }
+        }
     }
 
+
     render() {
-
-
         return (
-            <div className="carousel-wrapper" onMouseDown={this.dragStart} onMouseUp={this.mouseDrop} ref={this.ref}>
-                <div className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)` }}>
-                    <div className="carousel-item red">a</div>
-                    <div className="carousel-item blue">b</div>
-                    <div className="carousel-item green">c</div>
+            <div className="carousel-wrapper" onMouseDown={this.dragStart} onMouseUp={this.mouseDrop} onMouseOut={this.mouseDrop} ref={this.mainRef}>
+                <div ref={this.sliderRef} className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)` }}>
+                    {this.props.children}
                 </div>
             </div>
         )
