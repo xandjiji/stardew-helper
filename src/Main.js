@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 
+import Carousel from './components/Carousel';
 import Room from './components/Room';
 import Bundle from './components/Bundle';
 
@@ -11,10 +12,6 @@ export class Main extends Component {
     
     state = {
         currentRoom: 0
-    }
-
-    dragStart = (event) => {
-        console.log('mouse down');
     }
     
     render() {
@@ -33,7 +30,12 @@ export class Main extends Component {
 
         return (
             <div className="main">
-                <div className="rooms-wrapper" onMouseDown={this.dragStart}>
+
+                <Carousel>
+                    <p>ASDASDSA</p>
+                </Carousel>
+
+                <div className="rooms-wrapper">
                     {roomsElement}
                 </div>
 

@@ -6,3 +6,9 @@ bundles:
     sort por Room
     sort por Season
     sort por All Items
+
+carrossel:
+    -cancelar funçao ao mouse sair do carrossel
+    -snap
+    -infinite
+    -https://stackoverflow.com/questions/45472455/is-there-any-possibility-to-pass-text-between-react-component-tags
