@@ -16,7 +16,7 @@ export class Carousel extends Component {
 
         this.dragStart = this.dragStart.bind(this);
         this.dragging = this.dragging.bind(this);
-        this.mouseDrop = this.mouseDrop.bind(this);
+        this.dragStop = this.dragStop.bind(this);
     }
 
     dragStart(event) {
@@ -41,7 +41,7 @@ export class Carousel extends Component {
         }
     }
 
-    mouseDrop(event) {
+    dragStop(event) {
         if (this.state.isMousePressed) {
 
             this.sliderRef.current.style.transition = "transform 0.2s ease-out"
@@ -87,12 +87,12 @@ export class Carousel extends Component {
 
                 onMouseDown={this.dragStart}
                 onMouseMove={this.dragging}
-                onMouseUp={this.mouseDrop}
-                onMouseOut={this.mouseDrop}
+                onMouseUp={this.dragStop}
+                onMouseOut={this.dragStop}
 
                 onTouchStart={this.dragStart}
                 onTouchMove={this.dragging}
-                onTouchEnd={this.mouseDrop}
+                onTouchEnd={this.dragStop}
             >
 
                 <div ref={this.sliderRef} className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)` }}>
