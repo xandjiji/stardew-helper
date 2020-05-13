@@ -1,21 +1,17 @@
 .carousel-wrapper {
+    user-select: none; /* dont touch this */
+    overflow: hidden; /* dont touch this */
     width: 600px;
     margin: 0 auto;
-    user-select: none;
-    overflow: hidden;
 }
 
 .carousel-wrapper .item-wrapper {
-    display: flex;
+    display: flex; /* dont touch this */
     cursor: grab;
 }
 
 .carousel-wrapper .item-wrapper > * {
-    flex: none;
+    flex: none; /* dont touch this */
     width: 100%;
     height: 300px;
 }
-
-.red {background-color: red;}
-.blue {background-color: blue;}
-.green {background-color: green;}
