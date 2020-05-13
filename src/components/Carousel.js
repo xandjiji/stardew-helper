@@ -19,18 +19,11 @@ export class Carousel extends Component {
         this.mouseDrop = this.mouseDrop.bind(this);
     }
 
-    componentDidMount() {
-        this.mainRef.current.addEventListener("mousemove", this.dragging);
-    }
-
-    componentWillUnmount() {
-        this.mainRef.current.removeEventListener("mousemove", this.dragging);
-    }
-
     dragStart(event) {
         this.sliderRef.current.style.transition = "";
+        this.sliderRef.current.style.cursor = "grabbing";
 
-        const { pageX } = event;
+        const { pageX } = (event.touches && event.touches[0]) || event;
         this.setState({
             isMousePressed: true,
             initialX: pageX,
@@ -39,7 +32,7 @@ export class Carousel extends Component {
     }
 
     dragging(event) {
-        const { pageX } = event;
+        const { pageX } = (event.touches && event.touches[0]) || event;
         if (this.state.isMousePressed) {
             this.setState({
                 currentX: pageX,
@@ -51,7 +44,8 @@ export class Carousel extends Component {
     mouseDrop(event) {
         if (this.state.isMousePressed) {
 
-            this.sliderRef.current.style.transition = "0.2s ease-out"
+            this.sliderRef.current.style.transition = "transform 0.2s ease-out"
+            this.sliderRef.current.style.cursor = "";
 
             this.setState({
                 isMousePressed: false
@@ -60,7 +54,7 @@ export class Carousel extends Component {
             const { children } = this.props;
             let childrenCount = children.length || 1;
 
-            const { pageX } = event;
+            const { pageX } = (event.changedTouches && event.changedTouches[0]) || event;
             let distance = this.state.initialX - pageX;
             let elementSize = this.mainRef.current.offsetWidth;
 
@@ -75,22 +69,32 @@ export class Carousel extends Component {
                         positionX: elementSize * newIndex * - 1
                     });
 
-                /* outside limits */
+                    /* outside limits */
                 } else {
                     this.setState({ positionX: elementSize * this.state.index * - 1 });
                 }
 
-            /* not pushy enough */
+                /* not pushy enough */
             } else {
                 this.setState({ positionX: elementSize * this.state.index * - 1 });
             }
         }
     }
 
-
     render() {
         return (
-            <div className="carousel-wrapper" onMouseDown={this.dragStart} onMouseUp={this.mouseDrop} onMouseOut={this.mouseDrop} ref={this.mainRef}>
+            <div ref={this.mainRef} className="carousel-wrapper"
+
+                onMouseDown={this.dragStart}
+                onMouseMove={this.dragging}
+                onMouseUp={this.mouseDrop}
+                onMouseOut={this.mouseDrop}
+
+                onTouchStart={this.dragStart}
+                onTouchMove={this.dragging}
+                onTouchEnd={this.mouseDrop}
+            >
+
                 <div ref={this.sliderRef} className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)` }}>
                     {this.props.children}
                 </div>

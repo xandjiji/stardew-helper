@@ -9,4 +9,3 @@ bundles:
 
 carrossel:
     -infinite
-    -mobile
