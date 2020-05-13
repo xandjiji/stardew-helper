@@ -20,6 +20,14 @@ export class Carousel extends Component {
         this.onWheel = this.onWheel.bind(this);
     }
 
+    componentDidUpdate(prevProps) {
+        const { currentRoom } = this.props;
+
+        if(currentRoom && (currentRoom !== prevProps.currentRoom)) {
+            this.setIndex(0);            
+        }
+    }
+
     dragStart(event) {
         this.sliderRef.current.style.transition = "";
         this.sliderRef.current.style.cursor = "grabbing";
@@ -98,7 +106,7 @@ export class Carousel extends Component {
         }
     }
 
-    render() {
+    render() {        
         return (
             <div ref={this.mainRef} className="carousel-wrapper"
 

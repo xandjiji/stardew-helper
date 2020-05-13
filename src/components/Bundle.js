@@ -49,7 +49,6 @@ export class Bundle extends Component {
                         <Item item={item} key={index} />
                     ))
                 }
-                a
             </div>
         )
     }

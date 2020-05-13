@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #000;
@@ -41,9 +45,12 @@ fieldset {
 }
 
 /* MAIN */
-.main .rooms-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
+.carousel-container {
     overflow: hidden;
+    padding: 0 40px;
+}
+
+.carousel-container .item-wrapper > * {
+    margin: 0 20px;
+    width: calc(100% - 40px);
 }

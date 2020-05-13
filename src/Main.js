@@ -38,14 +38,14 @@ export class Main extends Component {
 
         return (
             <div className="main">
-                <div className="rooms-carousel">
+                <div className="carousel-container rooms-carousel">
                     <Carousel updateState={this.changeRoom}>
                         {roomsElement}
                     </Carousel>
                 </div>
 
-                <div className="bundles-carousel">
-                    <Carousel>
+                <div className="carousel-container bundles-carousel">
+                    <Carousel currentRoom={this.state.currentRoom}>
                         {bundlesElement}
                     </Carousel>
                 </div>

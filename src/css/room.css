@@ -1,7 +1,5 @@
 .room-item {
-    flex: none;
-    margin: 0 20px;
-    width: calc(100% - 120px);
+    height: 150px;
     border-radius: 2px;
     border: solid 2px darkgreen;
 }

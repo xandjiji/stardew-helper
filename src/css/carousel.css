@@ -1,6 +1,5 @@
 .carousel-wrapper {
     user-select: none; /* dont touch this */
-    overflow: hidden; /* dont touch this */
 }
 
 .carousel-wrapper .item-wrapper {
