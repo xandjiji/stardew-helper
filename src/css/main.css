@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #000;
     color: #fff;
+    overflow: hidden;
 }
 
 a {
@@ -33,4 +34,16 @@ fieldset {
 
 .smooth {
     transition: 0.2s ease-out;
+}
+
+.main {
+    width: 100vw;
+}
+
+/* MAIN */
+.main .rooms-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: hidden;
 }

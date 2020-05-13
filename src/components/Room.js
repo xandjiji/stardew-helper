@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Bundle from './Bundle';
 import { connect } from "react-redux";
 
 import '../css/room.css';
@@ -15,16 +14,9 @@ export class Room extends Component {
         }
 
         return (
-            <div>
+            <div className="room-item">
                 <p>{completedElement}Room name: {name}    *****   {completedCount}/{bundles.length}</p>
                 <p>Room reward: {reward}</p>
-
-                {
-                    bundles.map((bundle, index) => (
-                        <Bundle bundle={bundle} key={index} />
-                    ))
-                }
-                <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             </div>
         )
     }
