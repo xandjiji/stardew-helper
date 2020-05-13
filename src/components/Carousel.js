@@ -17,6 +17,7 @@ export class Carousel extends Component {
         this.dragStart = this.dragStart.bind(this);
         this.dragging = this.dragging.bind(this);
         this.dragStop = this.dragStop.bind(this);
+        this.onWheel = this.onWheel.bind(this);
     }
 
     dragStart(event) {
@@ -81,6 +82,28 @@ export class Carousel extends Component {
         }
     }
 
+    onWheel(event) {
+        const { deltaY } = event;
+        const { children } = this.props;
+        let childrenCount = children.length || 1;
+        let elementSize = this.mainRef.current.offsetWidth;
+
+        let newIndex;
+        if (deltaY > 0) {
+            newIndex = this.state.index - 1;
+        } else {
+            newIndex = this.state.index + 1;
+        }
+
+        if (newIndex >= 0 && newIndex < childrenCount) {
+            this.sliderRef.current.style.transition = "transform 0.2s ease-out"
+            this.setState({
+                index: newIndex,
+                positionX: elementSize * newIndex * - 1
+            });
+        }
+    }
+
     render() {
         return (
             <div ref={this.mainRef} className="carousel-wrapper"
@@ -89,6 +112,7 @@ export class Carousel extends Component {
                 onMouseMove={this.dragging}
                 onMouseUp={this.dragStop}
                 onMouseOut={this.dragStop}
+                onWheel={this.onWheel}
 
                 onTouchStart={this.dragStart}
                 onTouchMove={this.dragging}

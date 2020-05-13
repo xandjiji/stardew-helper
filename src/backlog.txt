@@ -6,6 +6,3 @@ bundles:
     sort por Room
     sort por Season
     sort por All Items
-
-carrossel:
-    -infinite
