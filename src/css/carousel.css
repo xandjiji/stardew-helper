@@ -1,8 +1,6 @@
 .carousel-wrapper {
     user-select: none; /* dont touch this */
     overflow: hidden; /* dont touch this */
-    width: 600px;
-    margin: 0 auto;
 }
 
 .carousel-wrapper .item-wrapper {
@@ -12,6 +10,4 @@
 
 .carousel-wrapper .item-wrapper > * {
     flex: none; /* dont touch this */
-    width: 100%;
-    height: 300px;
 }

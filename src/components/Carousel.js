@@ -44,16 +44,11 @@ export class Carousel extends Component {
 
     dragStop(event) {
         if (this.state.isMousePressed) {
-
-            this.sliderRef.current.style.transition = "transform 0.2s ease-out"
             this.sliderRef.current.style.cursor = "";
 
             this.setState({
                 isMousePressed: false
             })
-
-            const { children } = this.props;
-            let childrenCount = children.length || 1;
 
             const { pageX } = (event.changedTouches && event.changedTouches[0]) || event;
             let distance = this.state.initialX - pageX;
@@ -63,19 +58,7 @@ export class Carousel extends Component {
             if (Math.abs(distance) > (elementSize * 0.4)) {
                 let newIndex = this.state.index + ((Math.sign(distance)));
 
-                /* inside limits */
-                if (newIndex >= 0 && newIndex < childrenCount) {
-                    this.setState({
-                        index: newIndex,
-                        positionX: elementSize * newIndex * - 1
-                    });
-
-                    /* outside limits */
-                } else {
-                    this.setState({ positionX: elementSize * this.state.index * - 1 });
-                }
-
-                /* not pushy enough */
+                this.setIndex(newIndex);
             } else {
                 this.setState({ positionX: elementSize * this.state.index * - 1 });
             }
@@ -84,9 +67,6 @@ export class Carousel extends Component {
 
     onWheel(event) {
         const { deltaY } = event;
-        const { children } = this.props;
-        let childrenCount = children.length || 1;
-        let elementSize = this.mainRef.current.offsetWidth;
 
         let newIndex;
         if (deltaY > 0) {
@@ -95,12 +75,26 @@ export class Carousel extends Component {
             newIndex = this.state.index + 1;
         }
 
+        this.setIndex(newIndex);
+    }
+
+    setIndex(newIndex) {
+        let childrenCount = this.props.children.length || 1;
+        let elementSize = this.mainRef.current.offsetWidth;
+
+        this.sliderRef.current.style.transition = "transform 0.2s ease-out"
         if (newIndex >= 0 && newIndex < childrenCount) {
-            this.sliderRef.current.style.transition = "transform 0.2s ease-out"
             this.setState({
                 index: newIndex,
                 positionX: elementSize * newIndex * - 1
             });
+            
+            if(this.props.updateState) {
+                this.props.updateState(newIndex);
+            }
+            
+        } else {
+            this.setState({ positionX: elementSize * this.state.index * - 1 });
         }
     }
 

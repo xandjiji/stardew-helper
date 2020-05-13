@@ -9,37 +9,45 @@ import './css/main.css';
 import roomsData from './rooms.json';
 
 export class Main extends Component {
-    
-    state = {
-        currentRoom: 0
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            currentRoom: 0
+        }
+    }
+
+    changeRoom = (newIndex) => {
+        this.setState({ currentRoom: newIndex });
     }
     
     render() {
+        const { rooms } = roomsData;
 
         let roomsElement;
         if (this.props.sortBy === "rooms") {
-            roomsElement = roomsData.rooms.map((room, index) =>
+            roomsElement = rooms.map((room, index) =>
                 <Room room={room} key={index} />
             )
         }
 
         let bundlesElement;
-        bundlesElement = roomsData.rooms[this.state.currentRoom].bundles.map((bundle, index) =>
+        bundlesElement = rooms[this.state.currentRoom].bundles.map((bundle, index) =>
             <Bundle bundle={bundle} key={index} />
         )
 
         return (
             <div className="main">
-
-                <Carousel>
-                </Carousel>
-
-                <div className="rooms-wrapper">
-                    {roomsElement}
+                <div className="rooms-carousel">
+                    <Carousel updateState={this.changeRoom}>
+                        {roomsElement}
+                    </Carousel>
                 </div>
 
-                <div className="bundles-wrapper">
-                    {bundlesElement}
+                <div className="bundles-carousel">
+                    <Carousel>
+                        {bundlesElement}
+                    </Carousel>
                 </div>
             </div>
         )
