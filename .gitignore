@@ -5,6 +5,8 @@
 
 # testing
 /coverage
+/images
+bundles.html
 
 # production
 /build

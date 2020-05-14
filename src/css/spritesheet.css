@@ -1,743 +1,759 @@
 .sprite {
+    width: 48px;
     object-fit: contain;
 }
 
 .bg-2500g, .bg-5000g, .bg-10000g, .bg-25000g {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3780px;
-}
-
-.bg-Void_Salmon {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -0;
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2448px;
 }
 
 .bg-Ancient_Fruit {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -24px;
-}
-
-.bg-Caviar {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -48px;
-}
-
-.bg-Crystalarium {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3300px;
-}
-
-.bg-Lightning_Rod {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3348px;
-}
-
-.bg-Quality_Fertilizer {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -72px;
-}
-
-.bg-Wine {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -96px;
-}
-
-.bg-Pumpkin {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -120px;
-}
-
-.bg-Corn {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -144px;
-}
-
-.bg-Melon {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -168px;
-}
-
-.bg-Parsnip {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -192px;
-}
-
-.bg-Purple_Mushroom {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -216px;
-}
-
-.bg-Cactus_Fruit {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -240px;
-}
-
-.bg-Dinosaur_Mayonnaise {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -264px;
-}
-
-.bg-Prismatic_Shard {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -288px;
-}
-
-.bg-Chocolate_Cake {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -312px;
-}
-
-.bg-Rabbits_Foot {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -336px;
-}
-
-.bg-Heater {
-    width: 24px; height: 36px;
-    background: url('../assets/css_sprites.png') -0 -3264px;
-}
-
-.bg-Wheat {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -360px;
-}
-
-.bg-Recycling_Machine {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3396px;
-}
-
-.bg-Chub {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -384px;
-}
-
-.bg-Nautilus_Shell {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -408px;
-}
-
-.bg-Seed_Maker {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3444px;
-}
-
-.bg-Red_Cabbage {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -432px;
-}
-
-.bg-Duck_Feather {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -456px;
-}
-
-.bg-Sunflower {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -480px;
-}
-
-.bg-Sea_Urchin {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -504px;
-}
-
-.bg-Pink_Cake {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -528px;
-}
-
-.bg-Fried_Egg {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -552px;
-}
-
-.bg-Maki_Roll {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -576px;
-}
-
-.bg-Poppy {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -600px;
-}
-
-.bg-Truffle {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -624px;
-}
-
-.bg-Fiddlehead_Fern {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -648px;
-}
-
-.bg-Small_Magnet_Ring {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -672px;
-}
-
-.bg-Void_Essence {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -696px;
-}
-
-.bg-Solar_Essence {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -720px;
-}
-
-.bg-Bat_Wing {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -744px;
-}
-
-.bg-Slime {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -768px;
-}
-
-.bg-Omni_Geode {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -792px;
-}
-
-.bg-Furnace {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3492px;
-}
-
-.bg-Gold_Bar {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -816px;
-}
-
-.bg-Iron_Bar {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -840px;
-}
-
-.bg-Copper_Bar {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -864px;
-}
-
-.bg-Dish_o_The_Sea {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -888px;
-}
-
-.bg-Woodskip {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -912px;
-}
-
-.bg-Sandfish {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -936px;
-}
-
-.bg-Ghostfish {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -960px;
-}
-
-.bg-Pufferfish {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -984px;
-}
-
-.bg-Crab_Pot {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1008px;
-}
-
-.bg-Clam {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1032px;
-}
-
-.bg-Oyster {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1056px;
-}
-
-.bg-Periwinkle {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1080px;
-}
-
-.bg-Snail {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1104px;
-}
-
-.bg-Shrimp {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1128px;
-}
-
-.bg-Mussel {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1152px;
-}
-
-.bg-Cockle {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1176px;
-}
-
-.bg-Crab {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1200px;
-}
-
-.bg-Crayfish {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1224px;
-}
-
-.bg-Lobster {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1248px;
-}
-
-.bg-Small_Glow_Ring {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1272px;
-}
-
-.bg-Eel {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1296px;
-}
-
-.bg-Bream {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1320px;
-}
-
-.bg-Walleye {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1344px;
-}
-
-.bg-Warp_Totem_Beach {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1368px;
-}
-
-.bg-Tilapia {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1392px;
-}
-
-.bg-Red_Snapper {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1416px;
-}
-
-.bg-Tuna {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1440px;
-}
-
-.bg-Sardine {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1464px;
-}
-
-.bg-Dressed_Spinner {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1488px;
-}
-
-.bg-Sturgeon {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1512px;
-}
-
-.bg-Bullhead {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1536px;
-}
-
-.bg-Carp {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1560px;
-}
-
-.bg-Largemouth_Bass {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1584px;
-}
-
-.bg-Tiger_Trout {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1608px;
-}
-
-.bg-Shad {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1632px;
-}
-
-.bg-Catfish {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1656px;
-}
-
-.bg-Sunfish {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1680px;
-}
-
-.bg-Keg {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3540px;
-}
-
-.bg-Cherry {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1704px;
-}
-
-.bg-Pomegranate {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1728px;
-}
-
-.bg-Peach {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1752px;
-}
-
-.bg-Orange {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1776px;
-}
-
-.bg-Apricot {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1800px;
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -0;
 }
 
 .bg-Apple {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1824px;
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -48px;
 }
 
-.bg-Jelly {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1848px;
-}
-
-.bg-Honey {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1872px;
-}
-
-.bg-Cheese {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1896px;
-}
-
-.bg-Goat_Cheese {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1920px;
-}
-
-.bg-Cloth {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1944px;
-}
-
-.bg-Truffle_Oil {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1968px;
-}
-
-.bg-Cheese_Press {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3588px;
-}
-
-.bg-Duck_Egg {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -1992px;
-}
-
-.bg-Wool {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2016px;
-}
-
-.bg-Large_Goat_Milk {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2040px;
-}
-
-.bg-Large_Egg {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2064px;
-}
-
-.bg-Large_Brown_Egg {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2088px;
-}
-
-.bg-Large_Milk {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2112px;
-}
-
-.bg-Preserves_Jar {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3636px;
-}
-
-.bg-Bee_House {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3684px;
-}
-
-.bg-Yam {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2136px;
-}
-
-.bg-Eggplant {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2160px;
-}
-
-.bg-Quality_Sprinkler {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2184px;
-}
-
-.bg-Blueberry {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2208px;
-}
-
-.bg-Hot_Pepper {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2232px;
-}
-
-.bg-Tomato {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2256px;
-}
-
-.bg-Speed_Gro {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2280px;
-}
-
-.bg-Potato {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2304px;
-}
-
-.bg-Cauliflower {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2328px;
-}
-
-.bg-Green_Bean {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2352px;
-}
-
-.bg-Autumns_Bounty {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2376px;
-}
-
-.bg-Morel {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2400px;
-}
-
-.bg-Pine_Tar {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2424px;
-}
-
-.bg-Oak_Resin {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2448px;
-}
-
-.bg-Maple_Syrup {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2472px;
-}
-
-.bg-Red_Mushroom {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2496px;
-}
-
-.bg-Cave_Carrot {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2520px;
-}
-
-.bg-Coconut {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2544px;
-}
-
-.bg-Charcoal_Kiln {
-    width: 24px; height: 48px;
-    background: url('../assets/css_sprites.png') -0 -3732px;
-}
-
-.bg-Hardwood {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2568px;
-}
-
-.bg-Stone {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2592px;
-}
-
-.bg-Wood {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2616px;
-}
-
-.bg-Winter_Seeds {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2640px;
-}
-
-.bg-Crocus {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2664px;
-}
-
-.bg-Snow_Yam {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2688px;
-}
-
-.bg-Crystal_Fruit {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2712px;
-}
-
-.bg-Winter_Root {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2736px;
-}
-
-.bg-Fall_Seeds {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2760px;
-}
-
-.bg-Blackberry {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2784px;
-}
-
-.bg-Hazelnut {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2808px;
-}
-
-.bg-Wild_Plum {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2832px;
-}
-
-.bg-Common_Mushroom {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2856px;
-}
-
-.bg-Summer_Seeds {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2880px;
-}
-
-.bg-Sweet_Pea {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2904px;
-}
-
-.bg-Spice_Berry {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2928px;
-}
-
-.bg-Grape {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2952px;
-}
-
-.bg-Spring_Seeds {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -2976px;
-}
-
-.bg-Dandelion {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3000px;
-}
-
-.bg-Leek {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3024px;
-}
-
-.bg-Daffodil {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3048px;
-}
-
-.bg-Wild_Horseradish {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3072px;
-}
-
-.bg-Hay {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3096px;
-}
-
-.bg-Frozen_Geode {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3120px;
-}
-
-.bg-Fire_Quartz {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3144px;
-}
-
-.bg-Frozen_Tear {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3168px;
-}
-
-.bg-Earth_Crystal {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3192px;
-}
-
-.bg-Quartz {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3216px;
+.bg-Apricot {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -96px;
 }
 
 .bg-Aquamarine {
-    width: 24px; height: 24px;
-    background: url('../assets/css_sprites.png') -0 -3240px;
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -144px;
+}
+
+.bg-Autumns_Bounty {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -192px;
+}
+
+.bg-Bat_Wing {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -240px;
+}
+
+.bg-Bee_House {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -6744px;
+}
+
+.bg-Blackberry {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -288px;
+}
+
+.bg-Blueberry {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -336px;
+}
+
+.bg-Bream {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -384px;
+}
+
+.bg-Bullhead {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -432px;
+}
+
+.bg-Cactus_Fruit {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -480px;
+}
+
+.bg-Carp {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -528px;
+}
+
+.bg-Catfish {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -576px;
+}
+
+.bg-Cauliflower {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -624px;
+}
+
+.bg-Cave_Carrot {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -672px;
+}
+
+.bg-Caviar {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -720px;
+}
+
+.bg-Charcoal_Kiln {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -6840px;
+}
+
+.bg-Cheese {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -768px;
+}
+
+.bg-Cheese_Press {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -6936px;
+}
+
+.bg-Cherry {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -816px;
+}
+
+.bg-Chocolate_Cake {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -864px;
+}
+
+.bg-Chub {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -912px;
+}
+
+.bg-Clam {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -960px;
+}
+
+.bg-Cloth {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1008px;
+}
+
+.bg-Cockle {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1056px;
+}
+
+.bg-Coconut {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1104px;
+}
+
+.bg-Common_Mushroom {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1152px;
+}
+
+.bg-Copper_Bar {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1200px;
+}
+
+.bg-Corn {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1248px;
+}
+
+.bg-Crab {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1296px;
+}
+
+.bg-Crab_Pot {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1344px;
+}
+
+.bg-Crayfish {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1392px;
+}
+
+.bg-Crocus {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1440px;
+}
+
+.bg-Crystalarium {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -7032px;
+}
+
+.bg-Crystal_Fruit {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1488px;
+}
+
+.bg-Daffodil {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1536px;
+}
+
+.bg-Dandelion {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1584px;
+}
+
+.bg-Dinosaur_Mayonnaise {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1632px;
+}
+
+.bg-Dish_o_The_Sea {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1680px;
+}
+
+.bg-Dressed_Spinner {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1728px;
+}
+
+.bg-Duck_Egg {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1776px;
+}
+
+.bg-Duck_Feather {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1824px;
+}
+
+.bg-Earth_Crystal {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1872px;
+}
+
+.bg-Eel {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1920px;
+}
+
+.bg-Eggplant {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -1968px;
+}
+
+.bg-Fall_Seeds {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2016px;
+}
+
+.bg-Fiddlehead_Fern {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2064px;
+}
+
+.bg-Fire_Quartz {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2112px;
+}
+
+.bg-Fried_Egg {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2160px;
+}
+
+.bg-Frozen_Geode {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2208px;
+}
+
+.bg-Frozen_Tear {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2256px;
+}
+
+.bg-Furnace {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -7128px;
+}
+
+.bg-Ghostfish {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2304px;
+}
+
+.bg-Goat_Cheese {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2352px;
+}
+
+.bg-Gold_Bar {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2400px;
+}
+
+.bg-Gold_Quality_Icon {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2496px;
+}
+
+.bg-Grape {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2544px;
+}
+
+.bg-Green_Bean {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2592px;
+}
+
+.bg-Hardwood {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2640px;
+}
+
+.bg-Hay {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2688px;
+}
+
+.bg-Hazelnut {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2736px;
+}
+
+.bg-Heater {
+    height: 72px;
+    background: url('../assets/spritesheet.png') -0 -6672px;
+}
+
+.bg-Honey {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2784px;
+}
+
+.bg-Hot_Pepper {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2832px;
+}
+
+.bg-Iron_Bar {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2880px;
+}
+
+.bg-Jelly {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2928px;
+}
+
+.bg-Keg {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -7224px;
+}
+
+.bg-Large_Brown_Egg {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -2976px;
+}
+
+.bg-Large_Egg {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3024px;
+}
+
+.bg-Large_Goat_Milk {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3072px;
+}
+
+.bg-Large_Milk {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3120px;
+}
+
+.bg-Largemouth_Bass {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3168px;
+}
+
+.bg-Leek {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3216px;
+}
+
+.bg-Lightning_Rod {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -7320px;
+}
+
+.bg-Lobster {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3264px;
+}
+
+.bg-Maki_Roll {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3312px;
+}
+
+.bg-Maple_Syrup {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3360px;
+}
+
+.bg-Melon {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3408px;
+}
+
+.bg-Morel {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3456px;
+}
+
+.bg-Mussel {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3504px;
+}
+
+.bg-Nautilus_Shell {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3552px;
+}
+
+.bg-Oak_Resin {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3600px;
+}
+
+.bg-Omni_Geode {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3648px;
+}
+
+.bg-Orange {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3696px;
+}
+
+.bg-Oyster {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3744px;
+}
+
+.bg-Parsnip {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3792px;
+}
+
+.bg-Peach {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3840px;
+}
+
+.bg-Periwinkle {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3888px;
+}
+
+.bg-Pine_Tar {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3936px;
+}
+
+.bg-Pink_Cake {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -3984px;
+}
+
+.bg-Pomegranate {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4032px;
+}
+
+.bg-Poppy {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4080px;
+}
+
+.bg-Potato {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4128px;
+}
+
+.bg-Preserves_Jar {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -7416px;
+}
+
+.bg-Prismatic_Shard {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4176px;
+}
+
+.bg-Pufferfish {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4224px;
+}
+
+.bg-Pumpkin {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4272px;
+}
+
+.bg-Purple_Mushroom {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4320px;
+}
+
+.bg-Quality_Fertilizer {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4368px;
+}
+
+.bg-Quality_Sprinkler {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4416px;
+}
+
+.bg-Quartz {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4464px;
+}
+
+.bg-Rabbits_Foot {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4512px;
+}
+
+.bg-Recycling_Machine {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -7512px;
+}
+
+.bg-Red_Cabbage {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4560px;
+}
+
+.bg-Red_Mushroom {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4608px;
+}
+
+.bg-Red_Snapper {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4656px;
+}
+
+.bg-Sandfish {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4704px;
+}
+
+.bg-Sardine {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4752px;
+}
+
+.bg-Sea_Urchin {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4800px;
+}
+
+.bg-Seed_Maker {
+    height: 96px;
+    background: url('../assets/spritesheet.png') -0 -7608px;
+}
+
+.bg-Shad {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4848px;
+}
+
+.bg-Shrimp {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4896px;
+}
+
+.bg-Silver_Quality_Icon {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4944px;
+}
+
+.bg-Slime {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -4992px;
+}
+
+.bg-Small_Glow_Ring {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5040px;
+}
+
+.bg-Small_Magnet_Ring {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5088px;
+}
+
+.bg-Snail {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5136px;
+}
+
+.bg-Snow_Yam {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5184px;
+}
+
+.bg-Solar_Essence {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5232px;
+}
+
+.bg-Speed_Gro {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5280px;
+}
+
+.bg-Spice_Berry {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5328px;
+}
+
+.bg-Spring_Seeds {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5376px;
+}
+
+.bg-Stone {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5424px;
+}
+
+.bg-Sturgeon {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5472px;
+}
+
+.bg-Summer_Seeds {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5520px;
+}
+
+.bg-Sunfish {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5568px;
+}
+
+.bg-Sunflower {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5616px;
+}
+
+.bg-Sweet_Pea {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5664px;
+}
+
+.bg-Tiger_Trout {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5712px;
+}
+
+.bg-Tilapia {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5760px;
+}
+
+.bg-Tomato {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5808px;
+}
+
+.bg-Truffle {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5856px;
+}
+
+.bg-Truffle_Oil {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5904px;
+}
+
+.bg-Tuna {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -5952px;
+}
+
+.bg-Void_Essence {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6000px;
+}
+
+.bg-Void_Salmon {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6048px;
+}
+
+.bg-Walleye {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6096px;
+}
+
+.bg-Warp_Totem_Beach {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6144px;
+}
+
+.bg-Wheat {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6192px;
+}
+
+.bg-Wild_Horseradish {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6240px;
+}
+
+.bg-Wild_Plum {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6288px;
+}
+
+.bg-Wine {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6336px;
+}
+
+.bg-Winter_Root {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6384px;
+}
+
+.bg-Winter_Seeds {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6432px;
+}
+
+.bg-Wood {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6480px;
+}
+
+.bg-Woodskip {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6528px;
+}
+
+.bg-Wool {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6576px;
+}
+
+.bg-Yam {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -6624px;
+}
+
+.bg-Bundle_Reward {
+    height: 48px;
+    background: url('../assets/spritesheet.png') -0 -7704px;
 }

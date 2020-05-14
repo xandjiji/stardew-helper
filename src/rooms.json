@@ -572,7 +572,7 @@
                             "name": "Sturgeon",
                             "itemCount": 1,
                             "info": "Found in the Mountain Lake, 6am – 7pm, Summer and Winter.",
-                            "id": 134
+                            "id": 69
                         }
                     ]
                 },
@@ -588,25 +588,25 @@
                             "name": "Sardine",
                             "itemCount": 1,
                             "info": "Found in the Ocean, 6am – 7pm, Spring, Fall, and Winter.",
-                            "id": 69
+                            "id": 70
                         },
                         {
                             "name": "Tuna",
                             "itemCount": 1,
                             "info": "Found in the Ocean, 6am – 7pm, Summer and Winter.",
-                            "id": 70
+                            "id": 71
                         },
                         {
                             "name": "Red Snapper",
                             "itemCount": 1,
                             "info": "Found in the Ocean, 6am – 7pm, Summer and Fall. Only when raining.",
-                            "id": 71
+                            "id": 72
                         },
                         {
                             "name": "Tilapia",
                             "itemCount": 1,
                             "info": "Found in the Ocean, 6am – 2pm, Summer and Fall.",
-                            "id": 72
+                            "id": 73
                         }
                     ]
                 },
@@ -622,19 +622,19 @@
                             "name": "Walleye",
                             "itemCount": 1,
                             "info": "Found in Rivers, Lakes and Forest Pond, 12pm – 2am, Fall. Only when raining.",
-                            "id": 73
+                            "id": 74
                         },
                         {
                             "name": "Bream",
                             "itemCount": 1,
                             "info": "Found in Rivers, 6pm – 2am, All Seasons.",
-                            "id": 74
+                            "id": 75
                         },
                         {
                             "name": "Eel",
                             "itemCount": 1,
                             "info": "Found in the Ocean, 4pm – 2am, Spring or Fall. Only when raining.",
-                            "id": 75
+                            "id": 76
                         }
                     ]
                 },
@@ -650,61 +650,61 @@
                             "name": "Lobster",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (ocean)",
-                            "id": 76
+                            "id": 77
                         },
                         {
                             "name": "Crayfish",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (freshwater)",
-                            "id": 77
+                            "id": 78
                         },
                         {
                             "name": "Crab",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (ocean), drops from Rock Crabs or Lava Crabs in The Mines",
-                            "id": 78
+                            "id": 79
                         },
                         {
                             "name": "Cockle",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (ocean), Beach Foraging",
-                            "id": 79
+                            "id": 80
                         },
                         {
                             "name": "Mussel",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (ocean), Beach Foraging",
-                            "id": 80
+                            "id": 81
                         },
                         {
                             "name": "Shrimp",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (ocean)",
-                            "id": 81
+                            "id": 82
                         },
                         {
                             "name": "Snail",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (freshwater)",
-                            "id": 82
+                            "id": 83
                         },
                         {
                             "name": "Periwinkle",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (freshwater)",
-                            "id": 83
+                            "id": 84
                         },
                         {
                             "name": "Oyster",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (ocean), Beach Foraging",
-                            "id": 84
+                            "id": 85
                         },
                         {
                             "name": "Clam",
                             "itemCount": 1,
                             "info": "Caught in Crab Pots (ocean), Beach Foraging",
-                            "id": 85
+                            "id": 86
                         }
                     ]
                 },
@@ -720,25 +720,25 @@
                             "name": "Pufferfish",
                             "itemCount": 1,
                             "info": "Found in the Ocean, 12pm – 4pm, Summer during sunny weather.",
-                            "id": 86
+                            "id": 87
                         },
                         {
                             "name": "Ghostfish",
                             "itemCount": 1,
                             "info": "Found in ponds in The Mines floors 20 and 60, Anytime, All Seasons. May also be dropped by Ghosts.",
-                            "id": 87
+                            "id": 88
                         },
                         {
                             "name": "Sandfish",
                             "itemCount": 1,
                             "info": "Found in the pond in The Desert, 6am – 8pm, All Seasons.",
-                            "id": 88
+                            "id": 89
                         },
                         {
                             "name": "Woodskip",
                             "itemCount": 1,
                             "info": "Found in the Secret Woods and the Forest Farm, Anytime, All Seasons.",
-                            "id": 89
+                            "id": 90
                         }
                     ]
                 }
@@ -760,19 +760,19 @@
                             "name": "Copper Bar",
                             "itemCount": 1,
                             "info": "Smelting Copper Ore in the Furnace",
-                            "id": 90
+                            "id": 91
                         },
                         {
                             "name": "Iron Bar",
                             "itemCount": 1,
                             "info": "Smelting Iron Ore in the Furnace, Crafting the 'Transmute (Fe)' recipe",
-                            "id": 91
+                            "id": 92
                         },
                         {
                             "name": "Gold Bar",
                             "itemCount": 1,
                             "info": "Smelting Iron Ore in the Furnace, Crafting the 'Transmute (Au)' recipe",
-                            "id": 92
+                            "id": 93
                         }
                     ]
                 },
@@ -788,25 +788,25 @@
                             "name": "Quartz",
                             "itemCount": 1,
                             "info": "Foraging on all floors of The Mines",
-                            "id": 93
+                            "id": 94
                         },
                         {
                             "name": "Earth Crystal",
                             "itemCount": 1,
                             "info": "Foraging on floors 1-39 of The Mines, Geodes, Omni Geodes, drop from Duggies in the Mines (floors 1-29)",
-                            "id": 94
+                            "id": 95
                         },
                         {
                             "name": "Frozen Tear",
                             "itemCount": 1,
                             "info": "Foraging on floors 40-79 of The Mines, Frozen Geodes, Omni Geodes, drop from Dust Sprites in the Mines (floors 40-80)",
-                            "id": 95
+                            "id": 96
                         },
                         {
                             "name": "Fire Quartz",
                             "itemCount": 1,
                             "info": "Foraging on floors 80-120 of The Mines, Magma Geodes, Omni Geodes",
-                            "id": 96
+                            "id": 97
                         }
                     ]
                 },
@@ -822,25 +822,25 @@
                             "name": "Slime",
                             "itemCount": 99,
                             "info": "Dropped by Slimes",
-                            "id": 97
+                            "id": 98
                         },
                         {
                             "name": "Bat Wing",
                             "itemCount": 10,
                             "info": "Dropped by Bats in The Mines",
-                            "id": 98
+                            "id": 99
                         },
                         {
                             "name": "Solar Essence",
                             "itemCount": 1,
                             "info": "Dropped by Ghosts, Squid Kids, or Metal Heads in The Mines, dropped by Mummies in the Skull Cavern",
-                            "id": 99
+                            "id": 100
                         },
                         {
                             "name": "Void Essence",
                             "itemCount": 1,
                             "info": "Dropped by Shadow Brutes in The Mines or Serpents in the Skull Cavern",
-                            "id": 100
+                            "id": 101
                         }
                     ]
                 }
@@ -862,37 +862,37 @@
                             "name": "Maple Syrup",
                             "itemCount": 1,
                             "info": "Tapped Maple Tree",
-                            "id": 101
+                            "id": 102
                         },
                         {
                             "name": "Fiddlehead Fern",
                             "itemCount": 1,
                             "info": "Summer Foraging in the Secret Woods",
-                            "id": 102
+                            "id": 103
                         },
                         {
                             "name": "Truffle",
                             "itemCount": 1,
                             "info": "Pigs",
-                            "id": 103
+                            "id": 104
                         },
                         {
                             "name": "Poppy",
                             "itemCount": 1,
                             "info": "Summer Crops",
-                            "id": 104
+                            "id": 105
                         },
                         {
                             "name": "Maki Roll",
                             "itemCount": 1,
                             "info": "Cooking (recipe sources: The Queen of Sauce, The Saloon)",
-                            "id": 105
+                            "id": 106
                         },
                         {
                             "name": "Fried Egg",
                             "itemCount": 1,
                             "info": "Cooking",
-                            "id": 106
+                            "id": 107
                         }
                     ]
                 },
@@ -908,37 +908,37 @@
                             "name": "Red Mushroom",
                             "itemCount": 1,
                             "info": "Foraging in The Mines, Summer or Fall Foraging in the Secret Woods, The Farm Cave (mushroom option), Tapping a Mushroom Tree",
-                            "id": 107
+                            "id": 108
                         },
                         {
                             "name": "Sea Urchin",
                             "itemCount": 1,
                             "info": "Beach Foraging, after using 300 wood to fix the bridge to the right side of the beach",
-                            "id": 108
+                            "id": 109
                         },
                         {
                             "name": "Sunflower",
                             "itemCount": 1,
                             "info": "Summer / Fall Crops",
-                            "id": 109
+                            "id": 110
                         },
                         {
                             "name": "Duck Feather",
                             "itemCount": 1,
                             "info": "Ducks",
-                            "id": 110
+                            "id": 111
                         },
                         {
                             "name": "Aquamarine",
                             "itemCount": 1,
                             "info": "Aquamarine Nodes, boxes in The Mines, Fishing Treasure Chests",
-                            "id": 111
+                            "id": 112
                         },
                         {
                             "name": "Red Cabbage",
                             "itemCount": 1,
                             "info": "Summer Crops (Red Cabbage Seeds are available at Pierre's General Store in year 2+)",
-                            "id": 112
+                            "id": 113
                         }
                     ]
                 },
@@ -954,25 +954,25 @@
                             "name": "Purple Mushroom",
                             "itemCount": 1,
                             "info": "The Mines, The Farm Cave (mushroom option), Forest Farm Map Foraging in Fall",
-                            "id": 113
+                            "id": 114
                         },
                         {
                             "name": "Nautilus Shell",
                             "itemCount": 1,
                             "info": "Winter Beach Foraging (Note: NOT the Nautilus Fossil artifact)",
-                            "id": 114
+                            "id": 115
                         },
                         {
                             "name": "Chub",
                             "itemCount": 1,
                             "info": "Can be found in the mountain lake and river during all seasons, any time",
-                            "id": 115
+                            "id": 116
                         },
                         {
                             "name": "Frozen Geode",
                             "itemCount": 1,
                             "info": "The Mines floors 40-79",
-                            "id": 116
+                            "id": 117
                         }
                     ]
                 },
@@ -988,19 +988,19 @@
                             "name": "Wheat",
                             "itemCount": 10,
                             "info": "Summer / Fall Crops",
-                            "id": 117
+                            "id": 118
                         },
                         {
                             "name": "Hay",
                             "itemCount": 10,
                             "info": "Purchase at Marnie's Ranch or Desert Trader, or harvest from Grass or Wheat",
-                            "id": 118
+                            "id": 119
                         },
                         {
                             "name": "Apple",
                             "itemCount": 3,
                             "info": "Apple Trees during Fall, The Farm Cave (fruit bat option)",
-                            "id": 119
+                            "id": 120
                         }
                     ]
                 },
@@ -1016,25 +1016,25 @@
                             "name": "Oak Resin",
                             "itemCount": 1,
                             "info": "Tapped Oak Tree",
-                            "id": 120
+                            "id": 121
                         },
                         {
                             "name": "Wine",
                             "itemCount": 1,
                             "info": "Keg",
-                            "id": 121
+                            "id": 122
                         },
                         {
                             "name": "Rabbit's Foot",
                             "itemCount": 1,
                             "info": "Rabbits, Serpent drop in Skull Cavern (0.8%)",
-                            "id": 122
+                            "id": 123
                         },
                         {
                             "name": "Pomegranate",
                             "itemCount": 1,
                             "info": "Pomegranate Trees during Fall, The Farm Cave (fruit bat option)",
-                            "id": 123
+                            "id": 124
                         }
                     ]
                 }
@@ -1055,7 +1055,7 @@
                         {
                             "name": "2,500g",
                             "itemCount": 1,
-                            "id": 124
+                            "id": 125
                         }
                     ]
                 },
@@ -1070,7 +1070,7 @@
                         {
                             "name": "5,000g",
                             "itemCount": 1,
-                            "id": 125
+                            "id": 126
                         }
                     ]
                 },
@@ -1085,7 +1085,7 @@
                         {
                             "name": "10,000g",
                             "itemCount": 1,
-                            "id": 126
+                            "id": 127
                         }
                     ]
                 },
@@ -1100,7 +1100,7 @@
                         {
                             "name": "25,000g",
                             "itemCount": 1,
-                            "id": 127
+                            "id": 128
                         }
                     ]
                 }
@@ -1118,42 +1118,41 @@
                             "name": "Wine",
                             "itemCount": 1,
                             "info": "Cask",
-                            "id": 128
+                            "id": 129
                         },
                         {
                             "name": "Dinosaur Mayonnaise",
                             "itemCount": 1,
                             "info": "Using a Dinosaur Egg in the Mayonnaise Machine",
-                            "id": 129
+                            "id": 130
                         },
                         {
                             "name": "Prismatic Shard",
                             "itemCount": 1,
                             "info": "Mining",
-                            "id": 130
+                            "id": 131
                         },
                         {
                             "name": "Ancient Fruit",
                             "itemCount": 5,
                             "info": "Crops",
-                            "id": 131
+                            "id": 132
                         },
                         {
                             "name": "Void Salmon",
                             "itemCount": 1,
                             "info": "Fishing in the Witch's Swamp",
-                            "id": 132
+                            "id": 133
                         },
                         {
                             "name": "Caviar",
                             "itemCount": 1,
                             "info": "Using a Sturgeon Roe in the Preserves Jar",
-                            "id": 133
+                            "id": 134
                         }
                     ]
                 }
             ]
         }
     ]
-    
 }
