@@ -62,8 +62,8 @@ export class Carousel extends Component {
             let distance = this.state.initialX - pageX;
             let elementSize = this.mainRef.current.offsetWidth;
 
-            /* pushy enough */
-            if (Math.abs(distance) > (elementSize * 0.4)) {
+            /* pushy enough */            
+            if (Math.abs(distance) > 120) {
                 let newIndex = this.state.index + ((Math.sign(distance)));
 
                 this.setIndex(newIndex);
@@ -78,9 +78,9 @@ export class Carousel extends Component {
 
         let newIndex;
         if (deltaY > 0) {
-            newIndex = this.state.index - 1;
-        } else {
             newIndex = this.state.index + 1;
+        } else {
+            newIndex = this.state.index - 1;
         }
 
         this.setIndex(newIndex);
