@@ -6,12 +6,11 @@ import Main from './Main';
 
 import { createStore, combineReducers } from "redux";
 import { Provider } from "react-redux";
+import throttle from 'lodash.throttle';
 
-const initialState = {
-    sortBy: 'rooms'
-}
+const initialState = loadData();
 
-const wrapperReducer = (state = initialState, action) => {
+const wrapperReducer = (state = initialState.wrapperReducer, action) => {
     switch (action.type) {
         /* case "SET_NAME":
             state = {
@@ -29,13 +28,7 @@ const wrapperReducer = (state = initialState, action) => {
     return state;
 };
 
-var initialItemState = {};
-
-for (let i = 0; i <= 133; i++) {
-    /* initialItemState[i] = true; */
-}
-
-const itemReducer = (state = initialItemState, action) => {
+const itemReducer = (state = initialState.itemReducer, action) => {
     switch (action.type) {
         case "TOGGLE_ITEM":
             if (state[action.payload]) {
@@ -77,12 +70,40 @@ const itemReducer = (state = initialItemState, action) => {
     return state;
 };
 
+function saveData(state) {
+    try {
+        const serializedState = JSON.stringify(state);
+        localStorage.setItem('state', serializedState);
+    } catch {
+        // ignore write errors
+    }
+}
+
+function loadData() {
+    let defaultState = {
+        itemReducer: {},
+        wrapperReducer : {
+            sortBy: "rooms"
+        }
+    }
+    try {
+        const serializedState = localStorage.getItem('state');
+        if (serializedState === null) {
+            return defaultState;
+        }
+        console.log(JSON.parse(serializedState));
+        
+        return JSON.parse(serializedState);
+    } catch (err) {
+        return defaultState;
+    }
+}
+
 const store = createStore(combineReducers({ wrapperReducer, itemReducer }));
 
-store.subscribe(() => {
-    /* console.log(store.getState()); */
-
-})
+store.subscribe(throttle(() => {
+    saveData(store.getState());
+}, 1000));
 
 ReactDOM.render(
     <React.StrictMode>
