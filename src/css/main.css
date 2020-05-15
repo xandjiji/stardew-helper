@@ -28,10 +28,10 @@ body {
     background-color: #EEEEEE;
     color: #000;
 
-    overflow: hidden;
+/*     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    user-select: none;
+    user-select: none; */
 }
 
 a {
@@ -66,6 +66,12 @@ fieldset {
 }
 
 /* MAIN */
+.main {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
 .carousel-container {
     padding: 0 40px;
 }
