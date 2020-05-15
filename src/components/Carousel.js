@@ -18,6 +18,7 @@ export class Carousel extends Component {
         this.dragging = this.dragging.bind(this);
         this.dragStop = this.dragStop.bind(this);
         this.onWheel = this.onWheel.bind(this);
+        this.onOut = this.onOut.bind(this);
     }
 
     componentDidUpdate(prevProps) {
@@ -53,32 +54,30 @@ export class Carousel extends Component {
         if (this.state.isMousePressed) {
             this.setState({
                 currentX: pageX,
-                positionX: this.state.positionX + (pageX - this.state.currentX),
+                positionX: this.state.positionX + (pageX - this.state.currentX)
             })
         }
     }
 
     dragStop(event) {
-        if (this.state.isMousePressed) {
-            this.sliderRef.current.style.cursor = "";
+        this.sliderRef.current.style.cursor = "";
 
-            this.setState({
-                isMousePressed: false
-            })
+        this.setState({
+            isMousePressed: false
+        })
 
-            const { pageX } = (event.changedTouches && event.changedTouches[0]) || event;
-            let distance = this.state.initialX - pageX;
-            let elementSize = this.mainRef.current.offsetWidth;
+        const { pageX } = (event.changedTouches && event.changedTouches[0]) || event;
+        let distance = this.state.initialX - pageX;
+        let elementSize = this.mainRef.current.offsetWidth;
 
-            /* pushy enough */
-            if (Math.abs(distance) > 120) {
-                let newIndex = this.state.index + ((Math.sign(distance)));
+        /* pushy enough */
+        if (Math.abs(distance) > 120) {
+            let newIndex = this.state.index + ((Math.sign(distance)));
 
-                this.setIndex(newIndex);
-            } else {
-                this.sliderRef.current.style.transition = "transform 0.2s ease-out"
-                this.setState({ positionX: elementSize * this.state.index * - 1 });
-            }
+            this.setIndex(newIndex);
+        } else {
+            this.sliderRef.current.style.transition = "transform 0.2s ease-out"
+            this.setState({ positionX: elementSize * this.state.index * - 1 });
         }
     }
 
@@ -104,7 +103,8 @@ export class Carousel extends Component {
         if (newIndex >= 0 && newIndex < childrenCount) {
             this.setState({
                 index: newIndex,
-                positionX: elementSize * newIndex * - 1
+                positionX: elementSize * newIndex * - 1,
+                initialX: undefined
             });
 
             if (this.props.updateState) {
@@ -112,7 +112,23 @@ export class Carousel extends Component {
             }
 
         } else {
-            this.setState({ positionX: elementSize * this.state.index * - 1 });
+            this.setState({
+                positionX: elementSize * this.state.index * - 1,
+                initialX: undefined
+            });
+        }
+    }
+
+    onOut(event) {
+        if (this.state.isMousePressed) {
+            const { pageX, pageY } = event;
+
+            let elementBox = this.mainRef.current.getBoundingClientRect();
+            const { bottom, top, right, left } = elementBox;
+
+            if (pageY >= bottom || pageY <= top || pageX >= right || pageX <= left) {
+                this.dragStop(event);
+            }
         }
     }
 
@@ -123,8 +139,8 @@ export class Carousel extends Component {
                 onMouseDown={this.dragStart}
                 onMouseMove={this.dragging}
                 onMouseUp={this.dragStop}
-                onMouseOut={this.dragStop}
                 onWheel={this.onWheel}
+                onMouseOut={this.onOut}
 
                 onTouchStart={this.dragStart}
                 onTouchMove={this.dragging}

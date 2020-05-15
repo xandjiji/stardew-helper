@@ -7,10 +7,6 @@
     cursor: pointer;
 }
 
-.item .sprite {
-    margin-right: 8px;
-}
-
 .item .info {
     position: absolute;
     top: 50%;

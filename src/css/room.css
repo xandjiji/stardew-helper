@@ -1,3 +1,7 @@
+.room-item {
+    pointer-events: none;
+}
+
 .room-item .progress-text {
     margin-bottom: 4px;
     display: flex;

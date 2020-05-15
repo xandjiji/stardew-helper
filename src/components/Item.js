@@ -5,6 +5,12 @@ import '../css/item.css';
 import '../css/spritesheet.css';
 
 export class Item extends Component {
+    constructor(props) {
+        super(props);
+
+
+    }
+
     render() {
         const { name, info, id } = this.props.item;
 
@@ -19,7 +25,7 @@ export class Item extends Component {
         if (this.props.active) {
             completedElement = <span>X</span>
         }
-        
+
         return (
             <div className="item" onClick={() => this.props.toggleItem(id)}>
                 {completedElement}
