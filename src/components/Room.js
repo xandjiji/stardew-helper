@@ -12,9 +12,8 @@ export class Room extends Component {
         if (isComplete) {
             completedElement = <span>XXXX CoMpLeTeD RoOm</span>
         }
+        
         let progressPercentage = Math.ceil(completedCount/bundles.length * 100);
-
-        console.log(progressPercentage);
         
         return (            
             <div className="room-item material">

@@ -91,7 +91,6 @@ function loadData() {
         if (serializedState === null) {
             return defaultState;
         }
-        console.log(JSON.parse(serializedState));
         
         return JSON.parse(serializedState);
     } catch (err) {
