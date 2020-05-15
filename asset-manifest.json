@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/stardew-helper/static/css/main.b66ac831.chunk.css",
-    "main.js": "/stardew-helper/static/js/main.efef25d1.chunk.js",
-    "main.js.map": "/stardew-helper/static/js/main.efef25d1.chunk.js.map",
+    "main.css": "/stardew-helper/static/css/main.58506394.chunk.css",
+    "main.js": "/stardew-helper/static/js/main.b5279e76.chunk.js",
+    "main.js.map": "/stardew-helper/static/js/main.b5279e76.chunk.js.map",
     "runtime-main.js": "/stardew-helper/static/js/runtime-main.f4c516d1.js",
     "runtime-main.js.map": "/stardew-helper/static/js/runtime-main.f4c516d1.js.map",
     "static/js/2.9092ba73.chunk.js": "/stardew-helper/static/js/2.9092ba73.chunk.js",
     "static/js/2.9092ba73.chunk.js.map": "/stardew-helper/static/js/2.9092ba73.chunk.js.map",
     "index.html": "/stardew-helper/index.html",
-    "precache-manifest.7e00c7525a9a394b428023fab65439e1.js": "/stardew-helper/precache-manifest.7e00c7525a9a394b428023fab65439e1.js",
+    "precache-manifest.50b4acf6ef253af75974bc7decee128d.js": "/stardew-helper/precache-manifest.50b4acf6ef253af75974bc7decee128d.js",
     "service-worker.js": "/stardew-helper/service-worker.js",
-    "static/css/main.b66ac831.chunk.css.map": "/stardew-helper/static/css/main.b66ac831.chunk.css.map",
+    "static/css/main.58506394.chunk.css.map": "/stardew-helper/static/css/main.58506394.chunk.css.map",
     "static/js/2.9092ba73.chunk.js.LICENSE.txt": "/stardew-helper/static/js/2.9092ba73.chunk.js.LICENSE.txt",
-    "static/media/spritesheet.css": "/stardew-helper/static/media/css_sprites.c74706ea.png"
+    "static/media/main.css": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/spritesheet.css": "/stardew-helper/static/media/spritesheet.e9855028.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f4c516d1.js",
     "static/js/2.9092ba73.chunk.js",
-    "static/css/main.b66ac831.chunk.css",
-    "static/js/main.efef25d1.chunk.js"
+    "static/css/main.58506394.chunk.css",
+    "static/js/main.b5279e76.chunk.js"
   ]
 }
