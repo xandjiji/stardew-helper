@@ -1,5 +1,39 @@
-.room-item {
-    height: 150px;
-    border-radius: 2px;
-    border: solid 2px darkgreen;
+.room-item .progress-text {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.room-item .room-name {
+    font-size: 18px;
+}
+
+.room-item .room-count {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.room-item .progress-bar {
+    padding: 0;
+    height: 12px;
+    border: solid 1px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.room-item .progress-bar .cursor {
+    height: 100%;
+    background-color: #9229AC;
+    transition: 0.2s ease-out;
+}
+
+.room-item .room-reward-wrapper {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.room-item .room-reward-name {
+    font-size: 12px;
 }

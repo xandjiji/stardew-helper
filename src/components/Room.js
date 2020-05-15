@@ -12,11 +12,26 @@ export class Room extends Component {
         if (isComplete) {
             completedElement = <span>XXXX CoMpLeTeD RoOm</span>
         }
+        let progressPercentage = Math.ceil(completedCount/bundles.length * 100);
 
-        return (
-            <div className="room-item">
-                <p>{completedElement}Room name: {name}    *****   {completedCount}/{bundles.length}</p>
-                <p>Room reward: {reward}</p>
+        console.log(progressPercentage);
+        
+        return (            
+            <div className="room-item material">
+                <div className="room-progress">
+                    <div className="progress-text">
+                        <p className="room-name">{name}</p>
+                        <span className="room-count">{completedCount}/{bundles.length}</span>
+                    </div>
+                    <div className="progress-bar material">
+                        <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
+                    </div>
+                </div>
+
+                <div className="room-reward-wrapper">
+                    <span className="room-reward-name">{reward}</span>
+                    <div className="sprite bg-Bundle_Reward"></div>
+                </div>
             </div>
         )
     }

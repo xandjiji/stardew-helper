@@ -38,7 +38,7 @@ export class Bundle extends Component {
         }
 
         return (
-            <div>
+            <div className="material">
                 <button onClick={() => this.toggleAll()}>TOGGLE ALL</button>
                 {completedElement}
                 <p>-->Bundle name: {name}</p>

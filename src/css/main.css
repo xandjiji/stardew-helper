@@ -1,12 +1,37 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('../assets/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    src: url('../assets/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('../assets/Roboto-Bold.ttf');
+}
+
+
 * {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background-color: #000;
-    color: #fff;
+    background-color: #EEEEEE;
+    color: #000;
+
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
 }
 
 a {
@@ -40,17 +65,23 @@ fieldset {
     transition: 0.2s ease-out;
 }
 
-.main {
-    width: 100vw;
-}
-
 /* MAIN */
 .carousel-container {
-    overflow: hidden;
     padding: 0 40px;
 }
 
 .carousel-container .item-wrapper > * {
-    margin: 0 20px;
-    width: calc(100% - 40px);
+    margin: 0 12px;
+    width: calc(100% - 24px);
+}
+
+.material {
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+
+.carousel-container .item-wrapper > .material {
+    margin-top: 24px;
 }

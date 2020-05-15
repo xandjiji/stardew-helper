@@ -754,6 +754,7 @@
 }
 
 .bg-Bundle_Reward {
-    height: 48px;
-    background: url('../assets/spritesheet.png') -0 -7704px;
+    height: 27px;
+    width: 27px;
+    background: url('../assets/spritesheet.png') -11px -7715px;
 }
