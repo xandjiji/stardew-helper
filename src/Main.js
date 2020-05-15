@@ -20,7 +20,7 @@ export class Main extends Component {
     changeRoom = (newIndex) => {
         this.setState({ currentRoom: newIndex });
     }
-    
+
     render() {
         const { rooms } = roomsData;
 

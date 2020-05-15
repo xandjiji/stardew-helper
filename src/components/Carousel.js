@@ -21,10 +21,18 @@ export class Carousel extends Component {
     }
 
     componentDidUpdate(prevProps) {
+        this.resetPosition(prevProps)
+    }
+
+    UNSAFE_componentWillUpdate(prevProps) {
+        this.resetPosition(prevProps)
+    }
+
+    resetPosition(prevProps) {
         const { currentRoom } = this.props;
 
-        if(currentRoom && (currentRoom !== prevProps.currentRoom)) {
-            this.setIndex(0);            
+        if (currentRoom && (currentRoom !== prevProps.currentRoom)) {
+            this.setIndex(0);
         }
     }
 
@@ -62,12 +70,13 @@ export class Carousel extends Component {
             let distance = this.state.initialX - pageX;
             let elementSize = this.mainRef.current.offsetWidth;
 
-            /* pushy enough */            
+            /* pushy enough */
             if (Math.abs(distance) > 120) {
                 let newIndex = this.state.index + ((Math.sign(distance)));
 
                 this.setIndex(newIndex);
             } else {
+                this.sliderRef.current.style.transition = "transform 0.2s ease-out"
                 this.setState({ positionX: elementSize * this.state.index * - 1 });
             }
         }
@@ -91,22 +100,23 @@ export class Carousel extends Component {
         let elementSize = this.mainRef.current.offsetWidth;
 
         this.sliderRef.current.style.transition = "transform 0.2s ease-out"
+
         if (newIndex >= 0 && newIndex < childrenCount) {
             this.setState({
                 index: newIndex,
                 positionX: elementSize * newIndex * - 1
             });
-            
-            if(this.props.updateState) {
+
+            if (this.props.updateState) {
                 this.props.updateState(newIndex);
             }
-            
+
         } else {
             this.setState({ positionX: elementSize * this.state.index * - 1 });
         }
     }
 
-    render() {        
+    render() {
         return (
             <div ref={this.mainRef} className="carousel-wrapper"
 
