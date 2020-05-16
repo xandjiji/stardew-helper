@@ -124,7 +124,7 @@
 /* nav */
 .header-bar .sidebar-body nav {
     margin-top: 24px;
-    border-radius: 2px;
+    border-radius: 4px;
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.14);
     overflow: hidden;
 }
