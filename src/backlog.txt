@@ -1,10 +1,16 @@
-features:
-    salvar estado (cookies + hash)
-    reset estado (undo?)
+settings:
+    import/export save
+    reset save
+    themes
+    modes
 
-bundles:
-    sort por Room
-    sort por Season
-    sort por All Items
+modes:
+    all items search
+    items per season
 
-    <Item item={item} key={index} />
+item info
+
+QA:
+    animations
+    redesign
+    total counter

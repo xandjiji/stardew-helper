@@ -112,3 +112,65 @@
     margin-left: 24px;
     font-size: 16px;
 }
+
+/* sidebar body */
+.header-bar .sidebar-body {
+    height: calc(100vh - 42px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* nav */
+.header-bar .sidebar-footer nav {
+    
+}
+
+/* footer */
+.header-bar .sidebar-footer {
+    padding: 10px 0 8px 0;
+    background-color: #445ad3;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.14);
+}
+
+.header-bar .sidebar-footer .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-bar .git-icon {
+    margin-right: 16px;
+}
+
+.header-bar .git-icon svg {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+}
+
+.header-bar .git-icon:hover svg {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.17);
+}
+
+.header-bar .git-profile {
+    position: relative;
+    margin-left: 4px;
+    color: #EEEEEE;
+}
+
+.header-bar .git-profile::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 1px;
+    transition: 0.2s ease-out;
+}
+
+.header-bar .git-profile:hover::after {
+    width: 100%;
+}

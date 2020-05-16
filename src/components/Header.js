@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
+import { ReactComponent as GithubIcon } from '../assets/github.svg';
 
 export class Header extends Component {
     constructor(props) {
@@ -37,6 +38,20 @@ export class Header extends Component {
                         <div className="sidebar-header-wrapper container">
                             <BackArrow onClick={this.handleClick} />
                             <span>Settings</span>
+                        </div>
+                    </div>
+
+                    <div className="sidebar-body">
+                        <nav className="container">
+                            item
+                            item
+                            item
+                        </nav>
+
+                        <div className="sidebar-footer">
+                            <div className="container">
+                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper"><GithubIcon /></a> made by <a className="git-profile" href="https://github.com/xandjiji">xandjiji</a>
+                            </div>
                         </div>
                     </div>
                 </div>
