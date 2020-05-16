@@ -60,14 +60,91 @@ fieldset {
     transition: 0.2s ease-out;
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    background-color: #EEEEEE;
+    border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color:#d1d1d1;
+    border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color:#c0bdbd;
+}
+
+.custom-scrollbar {
+    scrollbar-color: #d1d1d1 #EEEEEE;
+    scrollbar-width: thin;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.rubberBand {
+    animation-name: rubberBand;
+}
+
+@keyframes rubberBand {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        transform: scale3d(.95, 1.05, 1);
+    }
+    75% {
+        transform: scale3d(1.05, .95, 1);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    15% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    30% {
+        transform: translate3d(6px, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    80% {
+        transform: translate3d(0, 0, 0);
+    }
+
+}
+
+.shake {
+    animation-name: shake;
+}
+
 /* MAIN */
 .main {
     position: fixed;
     width: 100vw;
     height: 100vh;
-/* 
-    display: flex;
-    flex-direction: column; */
 }
 
 .carousel-container {
@@ -83,7 +160,7 @@ fieldset {
     padding: 24px;
     background-color: #fff;
     border-radius: 6px;
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
 .carousel-container .item-wrapper > .material {

@@ -9,6 +9,11 @@ export class Room extends Component {
         const { name, reward, bundles } = this.props.room;
         
         let progressPercentage = Math.ceil(completedCount/bundles.length * 100);
+
+        let completedClass = '';
+        if(isComplete) {
+            completedClass = 'animated shake';
+        }
         
         return (            
             <div className="room-item material">
@@ -17,7 +22,7 @@ export class Room extends Component {
                         <p className="room-name">{name}</p>
                         <span className="room-count">{completedCount}/{bundles.length}</span>
                     </div>
-                    <div className="progress-bar material">
+                    <div className={`progress-bar material ${completedClass}`}>
                         <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
                     </div>
                 </div>

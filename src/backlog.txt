@@ -6,3 +6,5 @@ bundles:
     sort por Room
     sort por Season
     sort por All Items
+
+    <Item item={item} key={index} />

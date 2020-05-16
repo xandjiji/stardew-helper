@@ -8,10 +8,18 @@ export class Item extends Component {
     constructor(props) {
         super(props);
 
+        let checked = false;
+        if(this.props.active) {
+            checked = true;
+        }
+
+        this.state = {
+            active: checked
+        }
     }
 
     render() {
-        const { name, info, id } = this.props.item;
+        const { name, itemCount, info, id } = this.props.item;
 
         let itemClass = buildClassName(name);
 
@@ -20,16 +28,25 @@ export class Item extends Component {
             infoElement = <div className="info smooth">{info}</div>;
         }
 
-        let completedElement;
-        if (this.props.active) {
-            completedElement = <span>X</span>
+        let completedClass = '';
+        let fadedClass = '';
+        if(this.props.active) {
+            completedClass = ' checked animated rubberBand';
+            fadedClass = 'faded';
         }
 
         return (
-            <div className="item" onClick={() => this.props.toggleItem(id)}>
-                {completedElement}
-                <div className={`sprite ${itemClass}`}></div>
-                <span>{name} (({id}))</span>
+            <div className="item">
+                <div className={`item-name-wrapper ${fadedClass}`}>
+                    <div className={`sprite ${itemClass}`}></div>
+                    <div className="item-info">
+                        <span className="item-name">{name}</span>
+                        <span className="item-count">{`(${itemCount}x)`}</span>
+                    </div>
+                </div>
+                <div className={`checkbox ${completedClass}`} onClick={() => this.props.toggleItem(id)}>
+                    <span className="checkmark"></span>
+                </div>
             </div>
         )
     }

@@ -35,13 +35,21 @@ export class Bundle extends Component {
 
         let progressPercentage = Math.ceil(completedCount / itemCount * 100);
 
+        let completedClass = '';
+        if(progressPercentage == 100) {
+            completedClass = 'animated shake';
+        }
+
         let rewardElement;
         if (reward) {
             rewardElement =
                 <div className="bundle-reward-wrapper">
                     <span className="bundle-reward">
                         <div className={`sprite ${buildClassName(reward.name)}`}></div>
-                        <span className="bundle-reward-text">{reward.name} ({reward.itemCount}x)</span>
+                        <div className="reward-text-wrapper">
+                            <span className="bundle-reward-text">{reward.name}</span>
+                            <span className="reward-count">({reward.itemCount}x)</span>
+                        </div>
                     </span>
                     <div className="sprite bg-Bundle_Reward"></div>
                 </div>
@@ -56,7 +64,7 @@ export class Bundle extends Component {
                     <div className="bundle-info-wrapper">
                         <p className="bundle-name">{name}</p>
                         <span className="bundle-count">{completedCount}/{itemCount}</span>
-                        <div className="progress-bar material">
+                        <div className={`progress-bar material ${completedClass}`}>
                             <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
                         </div>
                     </div>
@@ -65,7 +73,7 @@ export class Bundle extends Component {
                 {rewardElement}
 
                 <div
-                    className="bundle-items-wrapper"
+                    className="bundle-items-wrapper custom-scrollbar"
 
                     onWheel={this.preventScroll}
                     onTouchMove={this.preventScroll}
