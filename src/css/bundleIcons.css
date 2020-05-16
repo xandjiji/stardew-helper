@@ -1,0 +1,132 @@
+.bundle-icon {
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+
+    background: url('../assets/bundle_icons.png');
+    background-position-x: 0;
+}
+
+.bg-2500_Bundle {
+    background-position-y: -0;
+}
+
+.bg-5000_Bundle {
+    background-position-y: -96px;
+}
+
+.bg-10000_Bundle {
+    background-position-y: -192px;
+}
+
+.bg-25000_Bundle {
+    background-position-y: -288px;
+}
+
+.bg-Adventurers_Bundle {
+    background-position-y: -384px;
+}
+
+.bg-Animal_Bundle {
+    background-position-y: -480px;
+}
+
+.bg-Artisan_Bundle {
+    background-position-y: -576px;
+}
+
+.bg-Blacksmith_Bundle {
+    background-position-y: -672px;
+}
+
+.bg-Chefs_Bundle {
+    background-position-y: -768px;
+}
+
+.bg-Construction_Bundle {
+    background-position-y: -864px;
+}
+
+.bg-Crab_Pot_Bundle {
+    background-position-y: -960px;
+}
+
+.bg-Dye_Bundle {
+    background-position-y: -1056px;
+}
+
+.bg-Enchanters_Bundle {
+    background-position-y: -1152px;
+}
+
+.bg-Exotic_Foraging_Bundle {
+    background-position-y: -1248px;
+}
+
+.bg-Fall_Crops_Bundle {
+    background-position-y: -1344px;
+}
+
+.bg-Fall_Foraging_Bundle {
+    background-position-y: -1440px;
+}
+
+.bg-Field_Research_Bundle {
+    background-position-y: -1536px;
+}
+
+.bg-Fodder_Bundle {
+    background-position-y: -1632px;
+}
+
+.bg-Geologists_Bundle {
+    background-position-y: -1728px;
+}
+
+.bg-Lake_Fish_Bundle {
+    background-position-y: -1824px;
+}
+
+.bg-Night_Fishing_Bundle {
+    background-position-y: -1920px;
+}
+
+.bg-Ocean_Fish_Bundle {
+    background-position-y: -2016px;
+}
+
+.bg-Quality_Crops_Bundle {
+    background-position-y: -2112px;
+}
+
+.bg-River_Fish_Bundle {
+    background-position-y: -2208px;
+}
+
+.bg-Specialty_Fish_Bundle {
+    background-position-y: -2304px;
+}
+
+.bg-Spring_Crops_Bundle {
+    background-position-y: -2400px;
+}
+
+.bg-Spring_Foraging_Bundle {
+    background-position-y: -2496px;
+}
+
+.bg-Summer_Crops_Bundle {
+    background-position-y: -2592px;
+}
+
+.bg-Summer_Foraging_Bundle {
+    background-position-y: -2688px;
+}
+
+.bg-The_Missing_Bundle {
+    background-position-y: -2784px;
+}
+
+.bg-Winter_Foraging_Bundle {
+    background-position-y: -2880px;
+}

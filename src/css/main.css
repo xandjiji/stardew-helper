@@ -27,11 +27,6 @@ body {
     margin: 0;
     background-color: #EEEEEE;
     color: #000;
-
-/*     overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    user-select: none; */
 }
 
 a {
@@ -70,6 +65,9 @@ fieldset {
     position: fixed;
     width: 100vw;
     height: 100vh;
+/* 
+    display: flex;
+    flex-direction: column; */
 }
 
 .carousel-container {

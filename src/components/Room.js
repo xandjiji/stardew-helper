@@ -7,11 +7,6 @@ export class Room extends Component {
     render() {
         const { isComplete, completedCount } = this.props;
         const { name, reward, bundles } = this.props.room;
-
-        let completedElement;
-        if (isComplete) {
-            completedElement = <span>XXXX CoMpLeTeD RoOm</span>
-        }
         
         let progressPercentage = Math.ceil(completedCount/bundles.length * 100);
         

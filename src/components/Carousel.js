@@ -59,6 +59,19 @@ export class Carousel extends Component {
         }
     }
 
+    onOut(event) {
+        if (this.state.isMousePressed) {
+            const { pageX, pageY } = event;
+
+            let elementBox = this.mainRef.current.getBoundingClientRect();
+            const { bottom, top, right, left } = elementBox;
+
+            if (pageY >= bottom || pageY <= top || pageX >= right || pageX <= left) {
+                this.dragStop(event);
+            }
+        }
+    }
+
     dragStop(event) {
         this.sliderRef.current.style.cursor = "";
 
@@ -116,19 +129,6 @@ export class Carousel extends Component {
                 positionX: elementSize * this.state.index * - 1,
                 initialX: undefined
             });
-        }
-    }
-
-    onOut(event) {
-        if (this.state.isMousePressed) {
-            const { pageX, pageY } = event;
-
-            let elementBox = this.mainRef.current.getBoundingClientRect();
-            const { bottom, top, right, left } = elementBox;
-
-            if (pageY >= bottom || pageY <= top || pageX >= right || pageX <= left) {
-                this.dragStop(event);
-            }
         }
     }
 

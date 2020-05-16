@@ -8,7 +8,6 @@ export class Item extends Component {
     constructor(props) {
         super(props);
 
-
     }
 
     render() {
@@ -31,7 +30,6 @@ export class Item extends Component {
                 {completedElement}
                 <div className={`sprite ${itemClass}`}></div>
                 <span>{name} (({id}))</span>
-                {infoElement}
             </div>
         )
     }
