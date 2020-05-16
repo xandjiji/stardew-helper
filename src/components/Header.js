@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import SettingsOption from './SettingsOption';
+import IEdata from './IEdata';
 
 import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
@@ -52,7 +53,7 @@ export class Header extends Component {
                                 Teste
                             </SettingsOption>
                             <SettingsOption title="Import/Export data">
-                                Teste
+                                <IEdata />
                             </SettingsOption>
                             <SettingsOption title="Reset data">
                                 Teste

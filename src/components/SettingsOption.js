@@ -28,7 +28,7 @@ export class SettingsOption extends Component {
         return (
             <div className={`option-wrapper ${buttonClass}`}>
                 <div className="option-head inner-container" onClick={this.handleClick}>
-                    {this.props.title}
+                    <span className="option-name">{this.props.title}</span>
                     <SmallArrow />
                 </div>
 

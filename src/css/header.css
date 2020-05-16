@@ -139,6 +139,7 @@
 .header-bar .sidebar-footer .container {
     display: flex;
     align-items: center;
+    font-weight: 300;
 }
 
 .header-bar .git-icon {
@@ -160,6 +161,7 @@
     position: relative;
     margin-left: 4px;
     color: #EEEEEE;
+    font-weight: 400;
 }
 
 .header-bar .git-profile::after {
