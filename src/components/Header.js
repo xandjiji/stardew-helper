@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import SettingsOption from './SettingsOption';
+
 import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
@@ -43,9 +45,18 @@ export class Header extends Component {
 
                     <div className="sidebar-body">
                         <nav className="container">
-                            item
-                            item
-                            item
+                            <SettingsOption title="Mode">
+                                Teste
+                            </SettingsOption>
+                            <SettingsOption title="Theme">
+                                Teste
+                            </SettingsOption>
+                            <SettingsOption title="Import/Export data">
+                                Teste
+                            </SettingsOption>
+                            <SettingsOption title="Reset data">
+                                Teste
+                            </SettingsOption>
                         </nav>
 
                         <div className="sidebar-footer">

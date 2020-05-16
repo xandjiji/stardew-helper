@@ -1,0 +1,51 @@
+.option-wrapper {
+    cursor: pointer;
+}
+
+.option-wrapper .option-head {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.option-wrapper:not(:last-child) .option-head {
+    border-bottom: solid 1px #b4b4b4;
+}
+
+.option-wrapper.active .option-head {
+    border-color: #b4b4b483;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.14);
+}
+
+.option-wrapper .option-head svg {
+    width: 18px;
+    height: 18px;
+    transition: 0.2s ease-out;
+}
+
+.option-wrapper:hover .option-head svg {
+    transform: translateX(2px);
+}
+
+.option-wrapper.active .option-head svg {
+    transform: rotate(90deg) translateX(3px);
+}
+
+.option-wrapper.active:hover .option-head svg {
+    transform: rotate(90deg) translateX(4px);
+}
+
+.option-wrapper .option-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+}
+
+.option-wrapper.active .option-content {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    max-height: 100px; /* RANCAR */
+}
