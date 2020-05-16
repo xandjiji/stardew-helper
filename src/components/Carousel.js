@@ -19,6 +19,20 @@ export class Carousel extends Component {
         this.dragStop = this.dragStop.bind(this);
         this.onWheel = this.onWheel.bind(this);
         this.onOut = this.onOut.bind(this);
+
+        this.handleResize = this.handleResize.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', this.handleResize);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleResize);
+    }
+
+    handleResize() {
+        this.setIndex(this.state.index);
     }
 
     componentDidUpdate(prevProps) {

@@ -7,6 +7,7 @@ settings:
 modes:
     all items search
     items per season
+    birthday npcs
 
 item info
 
@@ -14,3 +15,5 @@ QA:
     animations
     redesign
     total counter
+
+push sidebar
