@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10d2a5c82ca26d497fa8b4dcbc3f9882",
+    "revision": "1ca0dd019425e303a0277c4d14e1c73f",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "288fa047d7ccb3e47d72",
-    "url": "/stardew-helper/static/css/main.4a782120.chunk.css"
+    "revision": "44e1d0ae8275fc067190",
+    "url": "/stardew-helper/static/css/main.2da0c3f4.chunk.css"
   },
   {
     "revision": "56f6b83633181a2afe5f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/js/2.9092ba73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "288fa047d7ccb3e47d72",
-    "url": "/stardew-helper/static/js/main.6e27abc7.chunk.js"
+    "revision": "44e1d0ae8275fc067190",
+    "url": "/stardew-helper/static/js/main.13f400ff.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",
@@ -36,7 +36,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf"
   },
   {
-    "revision": "e9855028f71242875ccd12af3e0e4de3",
-    "url": "/stardew-helper/static/media/spritesheet.e9855028.png"
+    "revision": "b3c76a9cf5bb2eaf24c19281c8dbed2a",
+    "url": "/stardew-helper/static/media/bundle_icons.b3c76a9c.png"
+  },
+  {
+    "revision": "f4a106fa488c14b486c76921184be598",
+    "url": "/stardew-helper/static/media/spritesheet.f4a106fa.png"
   }
 ]);
