@@ -72,7 +72,8 @@
 
 /* START GAMBIARRA */
 .bundles-carousel .carousel-wrapper .item-wrapper {
-    max-height: calc(100vh - 142px - 48px);
+    max-height: calc(100vh - 142px - 42px - 48px);
+    /* 100vh - room - header - padding */
 }
 
 .bundles-carousel .carousel-wrapper .item-wrapper .bundle-item {

@@ -56,6 +56,10 @@ fieldset {
     min-inline-size: unset;
 }
 
+.container {
+    margin: 0 24px;
+}
+
 .smooth {
     transition: 0.2s ease-out;
 }
