@@ -1,0 +1,43 @@
+.header-bar {
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.header-bar .settings-button {
+    padding: 4px 56px 2px 56px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-bar .settings-button svg {
+    cursor: pointer;
+}
+
+.header-bar .settings-button svg * {
+    transition: 0.2s ease-out;
+}
+
+.header-bar .settings-button svg path {
+    fill: #505050;
+}
+
+/* active */
+.header-bar .settings-button svg.active .head {
+    fill: #0026ff;
+}
+
+.header-bar .settings-button svg.active .first.head {
+    transform: translateX(12px);
+}
+.header-bar .settings-button svg.active .second.head {
+    transform: translateX(-12px);
+}
+
+.header-bar .settings-button .handle {
+    transition-duration: 0.1s;
+}
+
+.header-bar .settings-button svg.active .first.handle,
+.header-bar .settings-button svg.active .second.handle {
+    transform: scaleX(1.6) translatex(-2px);
+}

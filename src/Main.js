@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 
+import Header from './components/Header';
 import Carousel from './components/Carousel';
 import Room from './components/Room';
 import Bundle from './components/Bundle';
@@ -38,6 +39,8 @@ export class Main extends Component {
 
         return (
             <div className="main">
+                <Header/>
+
                 <div className="carousel-container rooms-carousel">
                     <Carousel updateState={this.changeRoom}>
                         {roomsElement}

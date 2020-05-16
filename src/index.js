@@ -82,7 +82,7 @@ function saveData(state) {
 function loadData() {
     let defaultState = {
         itemReducer: {},
-        wrapperReducer : {
+        wrapperReducer: {
             sortBy: "rooms"
         }
     }
@@ -91,7 +91,7 @@ function loadData() {
         if (serializedState === null) {
             return defaultState;
         }
-        
+
         return JSON.parse(serializedState);
     } catch (err) {
         return defaultState;

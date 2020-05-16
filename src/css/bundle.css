@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: solid 1px rgb(180, 180, 180);
+    border-bottom: solid 1px #b4b4b4;
 }
 
 .bundle-item .bundle-reward {
