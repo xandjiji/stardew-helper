@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.bundle-item .bundle-icon {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
 .bundle-item .bundle-info-wrapper {
     margin-left: 16px;
     flex-grow: 1;
@@ -38,8 +42,8 @@
 
 .bundle-item .bundle-reward-wrapper {
     padding-right: 11px;
-    margin-top: 8px;
-    padding-bottom: 8px;
+    margin-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,10 +53,6 @@
 .bundle-item .bundle-reward {
     display: flex;
     align-items: center;
-}
-
-.bundle-item .bundle-reward .sprite {
-
 }
 
 .bundle-item .reward-text-wrapper {
