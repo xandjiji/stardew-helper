@@ -9,6 +9,7 @@
 }
 
 .bundle-item .bundle-info-wrapper {
+    position: relative;
     margin-left: 16px;
     flex-grow: 1;
 }

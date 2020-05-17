@@ -1,0 +1,35 @@
+.delete-data-button {
+    text-align: center;
+}
+
+.delete-data-button button {
+    position: relative;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 3px;
+    background-color: #d63f3f;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: inset 2px rgba(0, 0, 0, 0);
+    transition: 0.2s ease-out;
+}
+
+.delete-data-button button:hover {
+    opacity: 0.9;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.2);
+}
+
+.delete-data-button button:focus {
+    outline: none;
+}
+
+.delete-data-button button:active {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.07);
+    border-color: rgba(0, 0, 0, 0.14);
+    background-color: #c93434;
+}

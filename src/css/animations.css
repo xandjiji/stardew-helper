@@ -35,23 +35,18 @@
     0% {
         transform: translate3d(0, 0, 0);
     }
-
     15% {
         transform: translate3d(0, 0, 0);
     }
-
     30% {
         transform: translate3d(6px, 0, 0);
     }
-
     50% {
         transform: translate3d(-2px, 0, 0);
     }
-
     80% {
         transform: translate3d(0, 0, 0);
     }
-
 }
 
 .shake {
@@ -110,28 +105,54 @@
     from {
         transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 200deg);
     }
-
     20% {
         transform: translate3d(75%, 0, 0) rotate3d(0, 0, 1, 150deg);
     }
-
     40% {
         transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -30deg);
     }
-
     60% {
         transform: translate3d(5%, 0, 0) rotate3d(0, 0, 1, 15deg);
     }
-
     to {
         transform: none;
     }
-
-    
 }
 
 .rollIn {
     animation-timing-function: ease-in;
     animation-duration: 0.8s;
     animation-name: rollIn;
+}
+
+@keyframes textFloat {
+    from {
+        opacity: 0;
+        transform: none;
+    }
+    20% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+
+.textFloat {
+    position: absolute;
+    bottom: 100%;
+    left: calc(100% + 8px);
+    color: #000;
+    font-size: 10px;
+    letter-spacing: normal;
+    opacity: 0;
+    pointer-events: none;
+
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+}
+
+.textFloat.animate {
+    animation-name: textFloat;
 }

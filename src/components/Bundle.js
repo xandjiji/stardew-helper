@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Item from './Item';
 import { connect } from "react-redux";
 
+import getFloatText from '../getFloatText';
+
 import '../css/bundle.css';
 import '../css/bundleIcons.css';
 
@@ -36,8 +38,12 @@ export class Bundle extends Component {
         let progressPercentage = Math.ceil(completedCount / itemCount * 100);
 
         let completedClass = '';
+        let textClass = '';
+        let textString = '';
         if(progressPercentage === 100) {
             completedClass = 'animated shake';
+            textClass = 'animate';
+            textString = getFloatText();
         }
 
         let rewardElement;
@@ -64,6 +70,7 @@ export class Bundle extends Component {
                     <div className="bundle-info-wrapper">
                         <p className="bundle-name">{name}</p>
                         <span className="bundle-count">{completedCount}/{itemCount}</span>
+                        <span className={`textFloat ${textClass}`}>{textString}</span>
                         <div className={`progress-bar material ${completedClass}`}>
                             <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
                         </div>

@@ -1,4 +1,5 @@
 .room-item .progress-text {
+    position: relative;
     margin-bottom: 4px;
     display: flex;
     align-items: baseline;

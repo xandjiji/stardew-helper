@@ -1,18 +1,24 @@
 import React, { Component } from 'react'
-import { connect } from "react-redux";
+import { connect } from 'react-redux';
+
+import getFloatText from '../getFloatText';
 
 import '../css/room.css';
 
 export class Room extends Component {
-    render() {
+    render() {        
         const { isComplete, completedCount } = this.props;
         const { name, reward, bundles } = this.props.room;
         
         let progressPercentage = Math.ceil(completedCount/bundles.length * 100);
 
         let completedClass = '';
+        let textClass = '';
+        let textString = '';
         if(isComplete) {
             completedClass = 'animated shake';
+            textClass = 'animate';
+            textString = getFloatText();
         }
         
         return (            
@@ -21,6 +27,7 @@ export class Room extends Component {
                     <div className="progress-text">
                         <p className="room-name">{name}</p>
                         <span className="room-count">{completedCount}/{bundles.length}</span>
+                        <span className={`textFloat ${textClass}`}>{textString}</span>
                     </div>
                     <div className={`progress-bar material ${completedClass}`}>
                         <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>

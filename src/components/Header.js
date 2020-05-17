@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 
 import SettingsOption from './SettingsOption';
 import IEdata from './IEdata';
+import DeleteAllData from './DeleteAllData';
 
 import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
-import { ReactComponent as DataTransfer } from '../assets/transfer.svg';
+import { ReactComponent as DataTransferIcon } from '../assets/transfer.svg';
+import { ReactComponent as TrashIcon } from '../assets/trash.svg';
 
 export class Header extends Component {
     constructor(props) {
@@ -69,11 +71,12 @@ export class Header extends Component {
                                 Teste
                             </SettingsOption>
                             <SettingsOption title="Import/Export data">
-                                <DataTransfer />
+                                <DataTransferIcon />
                                 <IEdata />
                             </SettingsOption>
                             <SettingsOption title="Reset data">
-                                Teste
+                                <TrashIcon />
+                                <DeleteAllData />
                             </SettingsOption>
                         </nav>
 

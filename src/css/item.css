@@ -57,6 +57,7 @@
 }
 
 .item .checkbox {
+    position: relative;
     display: block;
     flex: none;
     width: 24px;
@@ -67,8 +68,22 @@
     box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
 }
 
+.item .checkbox::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 14px);
+    height: calc(100% + 14px);
+}
+
 .item .checkbox:hover {
     box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.item .checkbox:active {
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.14);
 }
 
 .item .checkbox.checked {
