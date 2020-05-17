@@ -16,5 +16,4 @@ QA:
     recalcular android viewport
 
 push sidebar
-menu 1 unica opção aberta
 reset undo?
