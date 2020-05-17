@@ -62,6 +62,10 @@
     transition: 0.2s ease-out;
 }
 
+.data-wrapper .data-button:hover {
+    opacity: 0.9;
+}
+
 .data-wrapper .data-button.fail {
     background-color: #d85151;
 }
