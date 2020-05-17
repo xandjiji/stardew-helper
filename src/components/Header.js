@@ -17,10 +17,25 @@ export class Header extends Component {
         }
 
         this.handleClick = this.handleClick.bind(this);
+        this.handleKeyDown = this.handleKeyDown.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('keydown', this.handleKeyDown);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('keydown', this.handleKeyDown);
     }
 
     handleClick() {
         this.setState({ active: !this.state.active });
+    }
+
+    handleKeyDown(event) {
+        if (event.key === 'Escape') {
+            this.setState({ active: false });
+        }
     }
 
     render() {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
@@ -15,8 +15,10 @@ store.subscribe(throttle(() => {
 }, 1000));
 
 ReactDOM.render(
-    <Provider store={store}>
-        <Main />
-    </Provider>,
+    <React.StrictMode>
+        <Provider store={store}>
+            <Main />
+        </Provider>
+    </React.StrictMode>,
     document.getElementById('root')
 );
