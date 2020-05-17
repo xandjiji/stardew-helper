@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
 
-import SettingsOption from './SettingsOption';
-import IEdata from './IEdata';
-import DeleteAllData from './DeleteAllData';
+import HeaderOptions from './HeaderOptions';
 
 import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
-import { ReactComponent as DataTransferIcon } from '../assets/transfer.svg';
-import { ReactComponent as TrashIcon } from '../assets/trash.svg';
 
 export class Header extends Component {
     constructor(props) {
@@ -40,7 +36,7 @@ export class Header extends Component {
             this.setState({ active: false });
         }
     }
-
+    
     render() {
 
         let buttonClass = '';
@@ -63,22 +59,7 @@ export class Header extends Component {
                     </div>
 
                     <div className="sidebar-body">
-                        <nav className="container">
-                            <SettingsOption title="Mode">
-                                Teste
-                            </SettingsOption>
-                            <SettingsOption title="Theme">
-                                Teste
-                            </SettingsOption>
-                            <SettingsOption title="Import/Export data">
-                                <DataTransferIcon />
-                                <IEdata />
-                            </SettingsOption>
-                            <SettingsOption title="Reset data">
-                                <TrashIcon />
-                                <DeleteAllData />
-                            </SettingsOption>
-                        </nav>
+                        <HeaderOptions/>
 
                         <div className="sidebar-footer">
                             <div className="container">

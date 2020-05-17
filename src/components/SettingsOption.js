@@ -14,8 +14,23 @@ export class SettingsOption extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
+    componentDidUpdate(prevProps) {
+
+        const { currentlyOpen, title } = this.props;
+
+        if (prevProps.currentlyOpen !== currentlyOpen) {
+
+            if (title !== currentlyOpen) {
+                if (this.state.active) {
+                    this.setState({ active: false });
+                }
+            }
+        }
+    }
+
     handleClick() {
         this.setState({ active: !this.state.active });
+        this.props.notifyOpen(this.props.title);
     }
 
     render() {
