@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stardew-helper/static/css/main.0d1f92d4.chunk.css",
+    "main.css": "/stardew-helper/static/css/main.d88df5f5.chunk.css",
     "main.js": "/stardew-helper/static/js/main.4fdac04a.chunk.js",
     "main.js.map": "/stardew-helper/static/js/main.4fdac04a.chunk.js.map",
     "runtime-main.js": "/stardew-helper/static/js/runtime-main.f4c516d1.js",
@@ -8,9 +8,9 @@
     "static/js/2.c258146a.chunk.js": "/stardew-helper/static/js/2.c258146a.chunk.js",
     "static/js/2.c258146a.chunk.js.map": "/stardew-helper/static/js/2.c258146a.chunk.js.map",
     "index.html": "/stardew-helper/index.html",
-    "precache-manifest.8912b0149817023a3e1b010d3a5b0e7c.js": "/stardew-helper/precache-manifest.8912b0149817023a3e1b010d3a5b0e7c.js",
+    "precache-manifest.6071d119482ead1171b42bbf90b1f115.js": "/stardew-helper/precache-manifest.6071d119482ead1171b42bbf90b1f115.js",
     "service-worker.js": "/stardew-helper/service-worker.js",
-    "static/css/main.0d1f92d4.chunk.css.map": "/stardew-helper/static/css/main.0d1f92d4.chunk.css.map",
+    "static/css/main.d88df5f5.chunk.css.map": "/stardew-helper/static/css/main.d88df5f5.chunk.css.map",
     "static/js/2.c258146a.chunk.js.LICENSE.txt": "/stardew-helper/static/js/2.c258146a.chunk.js.LICENSE.txt",
     "static/media/main.css": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf",
     "static/media/arrow.1ec8ff2d.svg": "/stardew-helper/static/media/arrow.1ec8ff2d.svg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4c516d1.js",
     "static/js/2.c258146a.chunk.js",
-    "static/css/main.0d1f92d4.chunk.css",
+    "static/css/main.d88df5f5.chunk.css",
     "static/js/main.4fdac04a.chunk.js"
   ]
 }
