@@ -7,6 +7,8 @@ import Room from './components/Room';
 import Bundle from './components/Bundle';
 
 import './css/main.css';
+import './css/animations.css';
+
 import roomsData from './rooms.json';
 
 export class Main extends Component {
