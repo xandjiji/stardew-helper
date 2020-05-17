@@ -39,6 +39,16 @@ const itemReducer = (state = initialState.itemReducer, action) => {
             }
 
             break;
+
+        case "UPDATE_ALL_ITEMS":
+            
+            state = action.payload;
+
+            break;
+
+        default:
+            break;
+
     }
 
     return state;

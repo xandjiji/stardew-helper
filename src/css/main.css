@@ -149,6 +149,84 @@ fieldset {
     animation-name: shake;
 }
 
+@keyframes headShake {
+    0% {
+        transform: translateX(0);
+    }
+    6.5% {
+        transform: translateX(-6px) rotateY(-9deg);
+    }
+    18.5% {
+        transform: translateX(5px) rotateY(7deg);
+    }
+    31.5% {
+        transform: translateX(-3px) rotateY(-5deg);
+    }
+    43.5% {
+        transform: translateX(2px) rotateY(3deg);
+    }
+    50% {
+        transform: translateX(0);
+    }
+}
+
+.headShake {
+    animation-timing-function: ease-in-out;
+    animation-name: headShake;
+}
+
+@keyframes tada {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+    10%, 40% {
+        transform: scale3d(1, .9, .9) rotate3d(0, 0, 1, -1deg);
+    }
+    60%, 80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 1deg);
+    }
+    70%, 90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -1deg);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.tada {
+    animation-name: tada;
+}
+
+@keyframes rollIn {
+    from {
+        transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 200deg);
+    }
+
+    20% {
+        transform: translate3d(75%, 0, 0) rotate3d(0, 0, 1, 150deg);
+    }
+
+    40% {
+        transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -30deg);
+    }
+
+    60% {
+        transform: translate3d(5%, 0, 0) rotate3d(0, 0, 1, 15deg);
+    }
+
+    to {
+        transform: none;
+    }
+
+    
+}
+
+.rollIn {
+    animation-timing-function: ease-in;
+    animation-duration: 0.8s;
+    animation-name: rollIn;
+}
+
 /* MAIN */
 .main {
     position: fixed;

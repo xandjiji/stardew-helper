@@ -1,5 +1,5 @@
 function saveData(state) {
-    try {
+    try {        
         const serializedState = JSON.stringify(state);
         localStorage.setItem('state', serializedState);
     } catch {

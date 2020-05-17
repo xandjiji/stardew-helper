@@ -36,7 +36,7 @@ export class Bundle extends Component {
         let progressPercentage = Math.ceil(completedCount / itemCount * 100);
 
         let completedClass = '';
-        if(progressPercentage == 100) {
+        if(progressPercentage === 100) {
             completedClass = 'animated shake';
         }
 
