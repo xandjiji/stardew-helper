@@ -37,7 +37,11 @@ export class IEdata extends Component {
     }
 
     handleChange(event) {
-        this.setState({ value: event.target.value });
+        this.setState({
+            value: event.target.value,
+            importStatus: undefined,
+            copyStatus: undefined
+        });
     }
 
     handleKeyDown(event) {

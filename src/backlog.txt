@@ -1,5 +1,4 @@
 settings:
-    import/export save
     reset save
     themes
     modes
