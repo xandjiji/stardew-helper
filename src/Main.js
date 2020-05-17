@@ -66,14 +66,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        /* toggleItem: (id) => {
-            dispatch({
-                type: "TOGGLE_ITEM",
-                payload: id
-            });
-        } */
-    };
+    return {};
 };
 
 /* export default Main */

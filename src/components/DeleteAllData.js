@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
 
 import '../css/deleteAllData.css'
 
@@ -15,6 +16,9 @@ export class DeleteAllData extends Component {
 
     handleClick() {
         if (this.state.allowed) {
+
+            this.props.resetAllItems();
+
             this.setState({ allowed: false },
                 () => {
                     setTimeout(() => {
@@ -43,5 +47,18 @@ export class DeleteAllData extends Component {
     }
 }
 
-export default DeleteAllData
+const mapStateToProps = (state) => {
+    return {};
+};
 
+function mapDispatchToProps(dispatch) {
+    return {
+        resetAllItems: () => {
+            dispatch({
+                type: "RESET_ALL"
+            });
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(DeleteAllData);

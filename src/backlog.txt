@@ -1,5 +1,4 @@
 settings:
-    reset save
     themes
     modes
 
@@ -18,3 +17,4 @@ QA:
 
 push sidebar
 menu 1 unica opção aberta
+reset undo?
