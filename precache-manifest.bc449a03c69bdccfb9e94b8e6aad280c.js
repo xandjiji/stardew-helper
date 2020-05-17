@@ -1,39 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "965eb37cf09f7799c4636d287c39e26f",
+    "revision": "c3123bb811e1bcb5a0fdfb4f9235fb9b",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "ca7c79c97b9c1949f7a2",
-    "url": "/stardew-helper/static/css/main.d10ad904.chunk.css"
+    "revision": "c3b3f9ccf88556982499",
+    "url": "/stardew-helper/static/css/main.29b8c9cd.chunk.css"
   },
   {
-    "revision": "b9f0ff6784d07903f1bb",
-    "url": "/stardew-helper/static/js/2.8a980262.chunk.js"
+    "revision": "85490f0bfc69867cc88b",
+    "url": "/stardew-helper/static/js/2.c258146a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/stardew-helper/static/js/2.8a980262.chunk.js.LICENSE.txt"
+    "url": "/stardew-helper/static/js/2.c258146a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca7c79c97b9c1949f7a2",
-    "url": "/stardew-helper/static/js/main.37871e08.chunk.js"
+    "revision": "c3b3f9ccf88556982499",
+    "url": "/stardew-helper/static/js/main.9d104fae.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",
     "url": "/stardew-helper/static/js/runtime-main.f4c516d1.js"
   },
   {
+    "revision": "08cb8f79715774f9a6285ee7db2919a3",
+    "url": "/stardew-helper/static/media/Roboto-Bold.08cb8f79.woff"
+  },
+  {
     "revision": "e07df86cef2e721115583d61d1fb68a6",
     "url": "/stardew-helper/static/media/Roboto-Bold.e07df86c.ttf"
+  },
+  {
+    "revision": "f3a02e2578bee50e620e515912278bc9",
+    "url": "/stardew-helper/static/media/Roboto-Bold.f3a02e25.woff2"
+  },
+  {
+    "revision": "10ad0f861c0c5807734017c341940649",
+    "url": "/stardew-helper/static/media/Roboto-Light.10ad0f86.woff"
   },
   {
     "revision": "88823c2015ffd5fa89d567e17297a137",
     "url": "/stardew-helper/static/media/Roboto-Light.88823c20.ttf"
   },
   {
+    "revision": "ed4b08d2702fa26acc324ef1e89ae837",
+    "url": "/stardew-helper/static/media/Roboto-Light.ed4b08d2.woff2"
+  },
+  {
     "revision": "11eabca2251325cfc5589c9c6fb57b46",
     "url": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf"
+  },
+  {
+    "revision": "94dac78eee406a8c8f0406b69b85ac2b",
+    "url": "/stardew-helper/static/media/Roboto-Regular.94dac78e.woff"
+  },
+  {
+    "revision": "9feb0110b6dff9ee2b9ebd17f7a1aee6",
+    "url": "/stardew-helper/static/media/Roboto-Regular.9feb0110.woff2"
   },
   {
     "revision": "1ec8ff2d718b984f550866ae076df14a",
