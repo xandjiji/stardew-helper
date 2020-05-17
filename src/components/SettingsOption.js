@@ -25,15 +25,27 @@ export class SettingsOption extends Component {
             buttonClass = 'active';
         }
 
+        const { children } = this.props;
+
+        let optionIcon;
+        let optionContent;
+        if (Array.isArray(children)) {
+            optionIcon = children[0];
+            optionContent = children[1];
+        } else {
+            optionContent = children;
+        }
+
+
         return (
             <div className={`option-wrapper ${buttonClass}`}>
                 <div className="option-head inner-container" onClick={this.handleClick}>
-                    <span className="option-name">{this.props.title}</span>
-                    <SmallArrow />
+                    <span className="option-name">{optionIcon}{this.props.title}</span>
+                    <SmallArrow className="option-arrow" />
                 </div>
 
                 <div className="option-content inner-container">
-                    {this.props.children}
+                    {optionContent}
                 </div>
             </div>
         )

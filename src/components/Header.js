@@ -7,6 +7,7 @@ import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
+import { ReactComponent as DataTransfer } from '../assets/transfer.svg';
 
 export class Header extends Component {
     constructor(props) {
@@ -68,6 +69,7 @@ export class Header extends Component {
                                 Teste
                             </SettingsOption>
                             <SettingsOption title="Import/Export data">
+                                <DataTransfer />
                                 <IEdata />
                             </SettingsOption>
                             <SettingsOption title="Reset data">

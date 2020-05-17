@@ -18,25 +18,27 @@
 }
 
 .option-wrapper .option-name {
+    display: flex;
+    align-items: center;
     font-size: 14px;
     font-weight: 300;
 }
 
-.option-wrapper .option-head svg {
+.option-wrapper .option-head .option-arrow {
     width: 18px;
     height: 18px;
     transition: 0.2s ease-out;
 }
 
-.option-wrapper:hover .option-head svg {
+.option-wrapper:hover .option-head .option-arrow {
     transform: translateX(2px);
 }
 
-.option-wrapper.active .option-head svg {
+.option-wrapper.active .option-head .option-arrow {
     transform: rotate(90deg) translateX(3px);
 }
 
-.option-wrapper.active:hover .option-head svg {
+.option-wrapper.active:hover .option-head .option-arrow {
     transform: rotate(90deg) translateX(4px);
 }
 
