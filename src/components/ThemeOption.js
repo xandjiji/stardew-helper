@@ -38,7 +38,12 @@ export class ThemeOption extends Component {
     }
 
     render() {
-        const { name, surface, onSurface, primary, separator } = this.props.theme;
+        const { name, background, surface, onSurface, primary, onPrimary, separator } = this.props.theme;
+
+        let tickAnimation = '';
+        if(this.state.active) {
+            tickAnimation = 'animated rubberBand';
+        }
 
         return (
             <div
@@ -46,7 +51,11 @@ export class ThemeOption extends Component {
                 style={{ backgroundColor: surface, color: onSurface, borderColor: separator }}
                 onClick={this.handleClick}>
 
-                <div className="primary-block" style={{ backgroundColor: primary, borderColor: separator }}></div>
+                <div className="primary-block" style={{ backgroundColor: background, borderColor: separator }}>
+                    <div className={`checkbox ${tickAnimation}`} style={{ backgroundColor: primary, borderColor: 'transparent' }}>
+                        <div className="tick" style={{ borderColor: onPrimary }}></div>
+                    </div>
+                </div>
 
                 {name}
             </div>
