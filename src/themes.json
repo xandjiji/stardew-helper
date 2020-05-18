@@ -28,7 +28,7 @@
             "name": "Kill Bill",
 
             "background": "#212121",
-            "surface": "#3d3d3d",
+            "surface": "#3D3D3D",
                 "onSurface": "#FFFFFF",
                 "separator": "#72767D",
             "primary": "#FFC107",
@@ -40,7 +40,7 @@
             "name": "Bulbasaur",
 
             "background": "#619764",
-            "surface": "#95d485",
+            "surface": "#95D485",
                 "onSurface": "#000000",
                 "separator": "#C8E6C9",
             "primary": "#7B1FA2",
@@ -51,13 +51,25 @@
         {
             "name": "Hanami",
 
-            "background": "#ffe2e8",
-            "surface": "#fcc8d2",
+            "background": "#FFE2E8",
+            "surface": "#FCC8D2",
                 "onSurface": "#000000",
                 "separator": "#B4B4B4",
-            "primary": "#ff859e",
+            "primary": "#FF859E",
                 "onPrimary": "#FFFFFF",
-            "primaryVariant": "#ffe7ec"
+            "primaryVariant": "#FFE7EC"
+        },
+
+        {
+            "name": "Tommy Vercetti",
+
+            "background": "#2C87D1",
+            "surface": "#8DD7F4",
+                "onSurface": "#000000",
+                "separator": "#BCE7F8",
+            "primary": "#C93684",
+                "onPrimary": "#FFFFFF",
+            "primaryVariant": "#BCE7F8"
         }
     ]
 }
