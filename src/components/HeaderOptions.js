@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import SettingsOption from './SettingsOption';
+import ThemePicker from './ThemePicker';
 import IEdata from './IEdata';
 import DeleteAllData from './DeleteAllData';
 
@@ -39,11 +40,11 @@ export class HeaderOptions extends Component {
                     </SettingsOption>
 
                     <SettingsOption
-                        title="Theme"
+                        title="Appearence"
                         currentlyOpen={active}
                         notifyOpen={notifyOpen}>
 
-                        Teste
+                        <ThemePicker/>
                     </SettingsOption>
 
                     <SettingsOption

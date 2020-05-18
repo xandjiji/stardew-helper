@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
 
 import HeaderOptions from './HeaderOptions';
 
 import '../css/header.css';
+import themes from '../themes.json';
+
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
@@ -36,8 +39,9 @@ export class Header extends Component {
             this.setState({ active: false });
         }
     }
-    
+
     render() {
+        let palette = themes.themes[this.props.themeId];
 
         let buttonClass = '';
         if (this.state.active) {
@@ -45,13 +49,13 @@ export class Header extends Component {
         }
 
         return (
-            <div className="header-bar">
+            <div className="header-bar" style={{ backgroundColor: palette.surface }}>
                 <div className="settings-button container">
                     <SettingsIcon className={buttonClass} onClick={this.handleClick} />
                 </div>
 
-                <div className={`sidebar ${buttonClass}`}>
-                    <div className="sidebar-header">
+                <div className={`sidebar ${buttonClass}`} style={{ backgroundColor: palette.background }}>
+                    <div className="sidebar-header" style={{ backgroundColor: palette.surface }}>
                         <div className="sidebar-header-wrapper container">
                             <BackArrow onClick={this.handleClick} />
                             <span>Settings</span>
@@ -59,11 +63,13 @@ export class Header extends Component {
                     </div>
 
                     <div className="sidebar-body">
-                        <HeaderOptions/>
+                        <HeaderOptions />
 
-                        <div className="sidebar-footer">
+                        <div className="sidebar-footer" style={{ backgroundColor: palette.primary }}>
                             <div className="container">
-                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper"><GithubIcon /></a> made by <a className="git-profile" href="https://github.com/xandjiji">xandjiji</a>
+                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper" style={{ color: palette.onSurface }}><GithubIcon /></a>
+                                made by
+                                <a className="git-profile" href="https://github.com/xandjiji" style={{ color: palette.onPrimary }}>xandjiji</a>
                             </div>
                         </div>
                     </div>
@@ -74,4 +80,13 @@ export class Header extends Component {
     }
 }
 
-export default Header
+const mapStateToProps = (state) => {
+
+    return { themeId: state.themeReducer };
+};
+
+function mapDispatchToProps(dispatch) {
+    return { };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

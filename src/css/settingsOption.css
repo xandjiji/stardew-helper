@@ -4,14 +4,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
     border: inset 2px rgba(0, 0, 0, 0);
     cursor: pointer;
     transition: 0.15s ease-out;
 }
 
 .option-wrapper:not(:last-child) .option-head {
-    border-bottom: solid 1px #b4b4b4;
+    border-bottom: solid 1px;
+}
+
+.option-wrapper:last-child .option-head {
+    border-color: transparent !important;
 }
 
 .option-wrapper .option-head:active {
@@ -31,6 +34,10 @@
     align-items: center;
     font-size: 14px;
     font-weight: 300;
+}
+
+.option-wrapper .option-name svg {
+    margin-right: 12px;
 }
 
 .option-wrapper .option-head .option-arrow {
@@ -60,5 +67,5 @@
 .option-wrapper.active .option-content {
     padding-top: 20px;
     padding-bottom: 20px;
-    max-height: 100px; /* RANCAR */
+    max-height: 300px; /* RANCAR */
 }

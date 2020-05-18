@@ -1,0 +1,27 @@
+{
+    "themes": [
+        {
+            "name": "Discord Light",
+
+            "background": "#EEEEEE",
+            "surface": "#FFFFFF",
+                "onSurface": "#000000",
+                "separator": "#B4B4B4",
+            "primary": "#3F51B5",
+                "onPrimary": "#FFFFFF",
+            "primaryVariant": "#C5CAE9"
+        },
+
+        {
+            "name": "Discord Dark",
+
+            "background": "#202225",
+            "surface": "#36393F",
+                "onSurface": "#FFFFFF",
+                "separator": "#72767D",
+            "primary": "#6D81CF",
+                "onPrimary": "#FFFFFF",
+            "primaryVariant": "#BDC8F1"
+        }
+    ]
+}

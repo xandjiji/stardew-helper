@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
 
 import '../css/settingsOption.css';
+import themes from '../themes.json';
+
 import { ReactComponent as SmallArrow } from '../assets/small-arrow.svg';
 
 export class SettingsOption extends Component {
@@ -16,13 +19,17 @@ export class SettingsOption extends Component {
 
     componentDidUpdate(prevProps) {
 
-        const { currentlyOpen, title } = this.props;
+        const { active } = this.state;
 
-        if (prevProps.currentlyOpen !== currentlyOpen) {
+        if(active) {
+            const { currentlyOpen, title } = this.props;
 
-            if (title !== currentlyOpen) {
-                if (this.state.active) {
-                    this.setState({ active: false });
+            if (prevProps.currentlyOpen !== currentlyOpen) {
+
+                if (title !== currentlyOpen) {
+                    if (active) {
+                        this.setState({ active: false });
+                    }
                 }
             }
         }
@@ -34,6 +41,7 @@ export class SettingsOption extends Component {
     }
 
     render() {
+        let palette = themes.themes[this.props.themeId];
 
         let buttonClass = '';
         if (this.state.active) {
@@ -54,7 +62,11 @@ export class SettingsOption extends Component {
 
         return (
             <div className={`option-wrapper ${buttonClass}`}>
-                <div className="option-head inner-container" onClick={this.handleClick}>
+                <div
+                    className="option-head inner-container"
+                    onClick={this.handleClick}
+                    style={{ backgroundColor: palette.surface, borderBottomColor: palette.separator }}>
+
                     <span className="option-name">{optionIcon}{this.props.title}</span>
                     <SmallArrow className="option-arrow" />
                 </div>
@@ -67,4 +79,14 @@ export class SettingsOption extends Component {
     }
 }
 
-export default SettingsOption
+const mapStateToProps = (state) => {
+
+    return { themeId: state.themeReducer };
+};
+
+function mapDispatchToProps(dispatch) {
+    return { };
+};
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(SettingsOption);

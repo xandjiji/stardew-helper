@@ -1,6 +1,5 @@
 .header-bar {
     position: relative;
-    background-color: #fff;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
@@ -29,15 +28,7 @@
     transition: 0.2s ease-out;
 }
 
-.header-bar .settings-button svg path {
-    fill: #505050;
-}
-
 /* active */
-.header-bar .settings-button svg.active .head {
-    fill: #0026ff;
-}
-
 .header-bar .settings-button svg.active .first.head {
     transform: translateX(12px);
 }
@@ -63,7 +54,6 @@
     height: 100vh;
     z-index: 25;
     transform: translateX(-100%);
-    background-color: #EEEEEE;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
     transition: 0.2s ease-out;
 }
@@ -92,7 +82,6 @@
 
 .header-bar .sidebar-header {
     width: 100%;
-    background-color: #fff;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
@@ -103,7 +92,7 @@
 }
 
 .header-bar .sidebar-header-wrapper svg {
-    padding: 9px 7px 7px 7px;
+    padding: 10px 6px 9px 6px;
     cursor: pointer;
     transition: 0.2s ease-out;
     border-radius: 3px;
@@ -141,7 +130,6 @@
 /* footer */
 .header-bar .sidebar-footer {
     padding: 10px 0 8px 0;
-    background-color: #445ad3;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.14);
 }
 
@@ -160,6 +148,7 @@
     height: 28px;
     border-radius: 50%;
     transition: 0.2s ease-out;
+    fill: #000;
 }
 
 .header-bar .git-icon:hover svg {
@@ -169,22 +158,5 @@
 .header-bar .git-profile {
     position: relative;
     margin-left: 4px;
-    color: #EEEEEE;
     font-weight: 400;
-}
-
-.header-bar .git-profile::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: #fff;
-    border-radius: 1px;
-    transition: 0.2s ease-out;
-}
-
-.header-bar .git-profile:hover::after {
-    width: 100%;
 }

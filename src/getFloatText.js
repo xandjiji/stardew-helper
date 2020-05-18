@@ -6,7 +6,8 @@ const getFloatText = () => {
         'perfect !',
         'nice !',
         'noice !',
-        'wow !'
+        'wow !',
+        'yeah !'
     ];
 
     return messages[Math.floor(Math.random() * messages.length)];

@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 
 import '../css/deleteAllData.css'
 
+import themes from '../themes.json';
+
 export class DeleteAllData extends Component {
     constructor(props) {
         super(props);
@@ -30,9 +32,10 @@ export class DeleteAllData extends Component {
     }
 
     render() {
+        let palette = themes.themes[this.props.themeId];
 
         let clearClass = '';
-        if(!this.state.allowed) {
+        if (!this.state.allowed) {
             clearClass += ' animate';
         }
 
@@ -40,7 +43,7 @@ export class DeleteAllData extends Component {
             <div className="delete-data-button">
                 <button onClick={this.handleClick}>
                     Reset
-                    <span className={`textFloat ${clearClass}`}>clear!</span>
+                    <span className={`textFloat ${clearClass}`} style={{ color: palette.onSurface }}>clear!</span>
                 </button>
             </div>
         )
@@ -48,7 +51,7 @@ export class DeleteAllData extends Component {
 }
 
 const mapStateToProps = (state) => {
-    return {};
+    return { themeId: state.themeReducer };
 };
 
 function mapDispatchToProps(dispatch) {

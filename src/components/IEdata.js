@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 
 import '../css/IEdata.css';
+import themes from '../themes.json';
 
 import { ReactComponent as CopyIcon } from '../assets/copy.svg';
 import { ReactComponent as ConfirmedIcon } from '../assets/confirmed.svg';
@@ -90,6 +91,7 @@ export class IEdata extends Component {
     }
 
     render() {
+        let palette = themes.themes[this.props.themeId];
 
         let shakeAnimation = '';
         let importClass = '';
@@ -113,18 +115,27 @@ export class IEdata extends Component {
             <div className={`data-wrapper inner-container ${shakeAnimation}`}>
                 <div className="input-wrapper">
                     <input
+                        style={{ borderColor: palette.separator, backgroundColor: palette.surface, color: palette.onSurface }}
                         ref={this.inputRef}
                         value={this.state.value}
                         onChange={this.handleChange}
                         onKeyDown={this.handleKeyDown} />
                 </div>
 
-                <div className="buttons-wrapper">
-                    <div className={`data-button ${copyClass}`} onClick={this.copyClipboard}>
+                <div className="buttons-wrapper" style={{ borderColor: palette.separator }}>
+                    <div
+                        className={`data-button ${copyClass}`}
+                        onClick={this.copyClipboard}
+                        style={{ backgroundColor: palette.primary, borderColor: palette.separator }}>
+
                         <CopyIcon className="copy-icon" />
                         <ConfirmedIcon className={`animated confirmed ${rollAnimation}`} />
                     </div>
-                    <div className={`data-button ${importClass}`} onClick={this.importData}>
+                    <div
+                        className={`data-button ${importClass}`}
+                        onClick={this.importData}
+                        style={{ backgroundColor: palette.primary }}>
+
                         <ImportIcon />
                     </div>
                 </div>
@@ -139,7 +150,8 @@ const mapStateToProps = (state) => {
     base64State = btoa(base64State);
 
     return {
-        base64State
+        base64State,
+        themeId: state.themeReducer
     };
 };
 

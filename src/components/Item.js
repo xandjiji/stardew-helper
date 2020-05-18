@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import '../css/item.css';
 import '../css/spritesheet.css';
 
+import themes from '../themes.json';
+
 export class Item extends Component {
     constructor(props) {
         super(props);
@@ -19,6 +21,8 @@ export class Item extends Component {
     }
 
     render() {
+        let palette = themes.themes[this.props.themeId];
+
         const { name, itemCount, info, id } = this.props.item;
 
         let itemClass = buildClassName(name);
@@ -39,13 +43,17 @@ export class Item extends Component {
             <div className="item">
                 <div className={`item-name-wrapper ${fadedClass}`}>
                     <div className={`sprite ${itemClass}`}></div>
-                    <div className="item-info">
+                    <div className="item-info" style={{ color: palette.onSurface }}>
                         <span className="item-name">{name}</span>
                         <span className="item-count">{`(${itemCount}x)`}</span>
                     </div>
                 </div>
-                <div className={`checkbox ${completedClass}`} onClick={() => this.props.toggleItem(id)}>
-                    <span className="checkmark"></span>
+                <div
+                    className={`checkbox ${completedClass}`}
+                    onClick={() => this.props.toggleItem(id)}
+                    style={{ borderColor: palette.primaryVariant }}>
+
+                    <span className="checkmark" style={{ backgroundColor: palette.primary }}></span>
                 </div>
             </div>
         )
@@ -55,7 +63,8 @@ export class Item extends Component {
 const mapStateToProps = (state, ownProps) => {
 
     return {
-        active: state.itemReducer[ownProps.item.id]
+        active: state.itemReducer[ownProps.item.id],
+        themeId: state.themeReducer
     };
 };
 
