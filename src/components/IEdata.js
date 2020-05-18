@@ -115,17 +115,18 @@ export class IEdata extends Component {
             <div className={`data-wrapper inner-container ${shakeAnimation}`}>
                 <div className="input-wrapper">
                     <input
+                        style={{ borderColor: palette.onSurface }}
                         ref={this.inputRef}
                         value={this.state.value}
                         onChange={this.handleChange}
                         onKeyDown={this.handleKeyDown} />
                 </div>
 
-                <div className="buttons-wrapper">
+                <div className="buttons-wrapper" style={{ borderColor: palette.onSurface }}>
                     <div
                         className={`data-button ${copyClass}`}
                         onClick={this.copyClipboard}
-                        style={{ backgroundColor: palette.primary }}>
+                        style={{ backgroundColor: palette.primary, borderColor: palette.onSurface }}>
 
                         <CopyIcon className="copy-icon" />
                         <ConfirmedIcon className={`animated confirmed ${rollAnimation}`} />

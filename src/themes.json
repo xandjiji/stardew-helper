@@ -1,5 +1,5 @@
 {
-    "default": {
+    "defasult": {
         "primary": "#3F51B5",
         "primaryVariant": "#C5CAE9",
         "onPrimary": "#FFFFFF",
@@ -11,7 +11,7 @@
         "separator": "#B4B4B4"
     },
 
-    "dark": {
+    "default": {
         "primary": "#1778EB",
         "primaryVariant": "#8495A1",
         "onPrimary": "#FFFFFF",
