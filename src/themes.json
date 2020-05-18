@@ -25,18 +25,6 @@
         },
 
         {
-            "name": "Kill Bill",
-
-            "background": "#212121",
-            "surface": "#3D3D3D",
-                "onSurface": "#FFFFFF",
-                "separator": "#72767D",
-            "primary": "#FFC107",
-                "onPrimary": "#000000",
-            "primaryVariant": "#242424"
-        },
-
-        {
             "name": "Bulbasaur",
 
             "background": "#619764",
@@ -70,6 +58,30 @@
             "primary": "#C93684",
                 "onPrimary": "#FFFFFF",
             "primaryVariant": "#BCE7F8"
+        },
+
+        {
+            "name": "Kill Bill",
+
+            "background": "#212121",
+            "surface": "#3D3D3D",
+                "onSurface": "#FFFFFF",
+                "separator": "#72767D",
+            "primary": "#FFC107",
+                "onPrimary": "#000000",
+            "primaryVariant": "#242424"
+        },
+
+        {
+            "name": "Orange Orange",
+
+            "background": "#F3B252",
+            "surface": "#FFCD83",
+                "onSurface": "#000000",
+                "separator": "#272727",
+            "primary": "#388E3C",
+                "onPrimary": "#FFFFFF",
+            "primaryVariant": "#6EBD70"
         }
     ]
 }
