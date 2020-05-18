@@ -5,6 +5,7 @@ import ThemePicker from './ThemePicker';
 import IEdata from './IEdata';
 import DeleteAllData from './DeleteAllData';
 
+import { ReactComponent as PaletteIcon } from '../assets/palette.svg';
 import { ReactComponent as DataTransferIcon } from '../assets/transfer.svg';
 import { ReactComponent as TrashIcon } from '../assets/trash.svg';
 
@@ -44,7 +45,8 @@ export class HeaderOptions extends Component {
                         currentlyOpen={active}
                         notifyOpen={notifyOpen}>
 
-                        <ThemePicker/>
+                        <PaletteIcon />
+                        <ThemePicker />
                     </SettingsOption>
 
                     <SettingsOption

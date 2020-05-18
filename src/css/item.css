@@ -113,7 +113,8 @@
     display: block;
     height: 12px;
     width: 5px;
-    border: 2px #fff;
+    border: 2px;
     border-bottom-style: solid;
     border-right-style: solid;
+    border-color: inherit;
 }

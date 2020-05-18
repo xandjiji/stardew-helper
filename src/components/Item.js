@@ -53,7 +53,7 @@ export class Item extends Component {
                     onClick={() => this.props.toggleItem(id)}
                     style={{ borderColor: palette.primaryVariant }}>
 
-                    <span className="checkmark" style={{ backgroundColor: palette.primary }}></span>
+                    <span className="checkmark" style={{ backgroundColor: palette.primary, borderColor: palette.onPrimary }}></span>
                 </div>
             </div>
         )

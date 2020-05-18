@@ -17,3 +17,6 @@ QA:
 
 push sidebar
 reset undo?
+
+appearence icon
+themas

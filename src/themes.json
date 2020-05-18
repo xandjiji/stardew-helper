@@ -22,6 +22,18 @@
             "primary": "#6D81CF",
                 "onPrimary": "#FFFFFF",
             "primaryVariant": "#BDC8F1"
+        },
+
+        {
+            "name": "Kill Bill",
+
+            "background": "#212121",
+            "surface": "#3d3d3d",
+                "onSurface": "#FFFFFF",
+                "separator": "#72767D",
+            "primary": "#FFC107",
+                "onPrimary": "#000000",
+            "primaryVariant": "#242424"
         }
     ]
 }
