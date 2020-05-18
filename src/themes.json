@@ -1,7 +1,7 @@
 {
     "themes": [
         {
-            "name": "Default",
+            "name": "Discord Light",
 
             "background": "#EEEEEE",
             "surface": "#FFFFFF",
@@ -13,15 +13,15 @@
         },
 
         {
-            "name": "Dark",
+            "name": "Discord Dark",
 
-            "background": "#10171E",
-            "surface": "#132536",
-                "onSurface": "#E4E4E4",
-                "separator": "#000000",
-            "primary": "#1778EB",
+            "background": "#202225",
+            "surface": "#36393F",
+                "onSurface": "#FFFFFF",
+                "separator": "#72767D",
+            "primary": "#6D81CF",
                 "onPrimary": "#FFFFFF",
-            "primaryVariant": "#8495A1"
+            "primaryVariant": "#BDC8F1"
         }
     ]
 }
