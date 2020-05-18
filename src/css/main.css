@@ -62,6 +62,10 @@ fieldset {
     min-inline-size: unset;
 }
 
+svg {
+    fill: inherit;
+}
+
 .container {
     margin: 0 24px;
 }

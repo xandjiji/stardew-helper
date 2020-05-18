@@ -36,6 +36,10 @@
     font-weight: 300;
 }
 
+.option-wrapper .option-name svg {
+    margin-right: 12px;
+}
+
 .option-wrapper .option-head .option-arrow {
     width: 18px;
     height: 18px;

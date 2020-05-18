@@ -31,7 +31,7 @@ export class Room extends Component {
                     <div className="progress-text">
                         <p className="room-name">{name}</p>
                         <span className="room-count">{completedCount}/{bundles.length}</span>
-                        <span className={`textFloat ${textClass}`}>{textString}</span>
+                        <span className={`textFloat ${textClass}`} style={{ color: palette.onSurface }}>{textString}</span>
                     </div>
                     <div className={`progress-bar material ${completedClass}`} style={{ backgroundColor: palette.primaryVariant }}>
                         <div className="cursor" style={{ width: `${progressPercentage}%`, backgroundColor: palette.primary }}></div>

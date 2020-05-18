@@ -43,7 +43,7 @@ export class Main extends Component {
         )
 
         return (
-            <div className="main" style={{ backgroundColor: palette.background, color: palette.onSurface }}>
+            <div className="main" style={{ backgroundColor: palette.background, color: palette.onSurface, fill: palette.onSurface }}>
                 <Header/>
 
                 <div className="carousel-container rooms-carousel">

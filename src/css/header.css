@@ -1,6 +1,5 @@
 .header-bar {
     position: relative;
-    background-color: #fff;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
@@ -29,15 +28,7 @@
     transition: 0.2s ease-out;
 }
 
-.header-bar .settings-button svg path {
-    fill: #505050;
-}
-
 /* active */
-.header-bar .settings-button svg.active .head {
-    fill: #0026ff;
-}
-
 .header-bar .settings-button svg.active .first.head {
     transform: translateX(12px);
 }
@@ -91,7 +82,6 @@
 
 .header-bar .sidebar-header {
     width: 100%;
-    background-color: #fff;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
@@ -158,6 +148,7 @@
     height: 28px;
     border-radius: 50%;
     transition: 0.2s ease-out;
+    fill: #000;
 }
 
 .header-bar .git-icon:hover svg {

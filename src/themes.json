@@ -9,5 +9,17 @@
         "onSurface": "#000000",
 
         "separator": "#B4B4B4"
+    },
+
+    "dark": {
+        "primary": "#1778EB",
+        "primaryVariant": "#8495A1",
+        "onPrimary": "#FFFFFF",
+        
+        "background": "#10171E",
+        "surface": "#132536",
+        "onSurface": "#E4E4E4",
+
+        "separator": "#000000"
     }
 }

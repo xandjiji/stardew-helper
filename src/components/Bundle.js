@@ -74,7 +74,7 @@ export class Bundle extends Component {
                     <div className="bundle-info-wrapper">
                         <p className="bundle-name">{name}</p>
                         <span className="bundle-count">{completedCount}/{itemCount}</span>
-                        <span className={`textFloat ${textClass}`}>{textString}</span>
+                        <span className={`textFloat ${textClass}`} style={{ color: palette.onSurface }}>{textString}</span>
                         <div
                             className={`progress-bar material ${completedClass}`}
                             style={{ backgroundColor: palette.primaryVariant }}>
