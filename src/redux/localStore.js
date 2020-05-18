@@ -21,7 +21,8 @@ function loadData() {
             return defaultState;
         }
 
-        return JSON.parse(serializedState);
+        /* return JSON.parse(serializedState); */
+        return defaultState;
     } catch (err) {
         return defaultState;
     }
