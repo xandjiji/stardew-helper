@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31c8941bf695360a4d6f399d2eba813d",
+    "revision": "5d08814c00ef1f515eb4f0358ccc9495",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "997a875ce62f8420b925",
-    "url": "/stardew-helper/static/css/main.d88df5f5.chunk.css"
+    "revision": "b7f7285dcba546c969ef",
+    "url": "/stardew-helper/static/css/main.b98112f6.chunk.css"
   },
   {
-    "revision": "85490f0bfc69867cc88b",
-    "url": "/stardew-helper/static/js/2.c258146a.chunk.js"
+    "revision": "118dbbb376a5e1b402aa",
+    "url": "/stardew-helper/static/js/2.5fe846e6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/stardew-helper/static/js/2.c258146a.chunk.js.LICENSE.txt"
+    "url": "/stardew-helper/static/js/2.5fe846e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "997a875ce62f8420b925",
-    "url": "/stardew-helper/static/js/main.4fdac04a.chunk.js"
+    "revision": "b7f7285dcba546c969ef",
+    "url": "/stardew-helper/static/js/main.75062707.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf"
   },
   {
-    "revision": "1ec8ff2d718b984f550866ae076df14a",
-    "url": "/stardew-helper/static/media/arrow.1ec8ff2d.svg"
+    "revision": "0ee7e08a6fa83a48d4fafc88c58d25c2",
+    "url": "/stardew-helper/static/media/arrow.0ee7e08a.svg"
   },
   {
     "revision": "b3c76a9cf5bb2eaf24c19281c8dbed2a",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/import.99b0eec3.svg"
   },
   {
-    "revision": "9a5b323df87261b4012baa96d8d72565",
-    "url": "/stardew-helper/static/media/settings.9a5b323d.svg"
+    "revision": "4554e1ab7cc91b1cae056f429463de9a",
+    "url": "/stardew-helper/static/media/settings.4554e1ab.svg"
   },
   {
     "revision": "acbb10aa87f9803d118ba90303466c17",
