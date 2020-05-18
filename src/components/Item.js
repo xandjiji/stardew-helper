@@ -21,7 +21,7 @@ export class Item extends Component {
     }
 
     render() {
-        let palette = themes.default;
+        let palette = themes.themes[this.props.themeId];
 
         const { name, itemCount, info, id } = this.props.item;
 
@@ -43,7 +43,7 @@ export class Item extends Component {
             <div className="item">
                 <div className={`item-name-wrapper ${fadedClass}`}>
                     <div className={`sprite ${itemClass}`}></div>
-                    <div className="item-info">
+                    <div className="item-info" style={{ color: palette.onSurface }}>
                         <span className="item-name">{name}</span>
                         <span className="item-count">{`(${itemCount}x)`}</span>
                     </div>
@@ -63,7 +63,8 @@ export class Item extends Component {
 const mapStateToProps = (state, ownProps) => {
 
     return {
-        active: state.itemReducer[ownProps.item.id]
+        active: state.itemReducer[ownProps.item.id],
+        themeId: state.themeReducer
     };
 };
 

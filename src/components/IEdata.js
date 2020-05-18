@@ -91,7 +91,7 @@ export class IEdata extends Component {
     }
 
     render() {
-        let palette = themes.default;
+        let palette = themes.themes[this.props.themeId];
 
         let shakeAnimation = '';
         let importClass = '';
@@ -150,7 +150,8 @@ const mapStateToProps = (state) => {
     base64State = btoa(base64State);
 
     return {
-        base64State
+        base64State,
+        themeId: state.themeReducer
     };
 };
 

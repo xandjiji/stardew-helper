@@ -1,25 +1,27 @@
 {
-    "default": {
-        "primary": "#3F51B5",
-        "primaryVariant": "#C5CAE9",
-        "onPrimary": "#FFFFFF",
-        
-        "background": "#EEEEEE",
-        "surface": "#FFFFFF",
-        "onSurface": "#000000",
+    "themes": [
+        {
+            "name": "Default",
 
-        "separator": "#B4B4B4"
-    },
+            "background": "#EEEEEE",
+            "surface": "#FFFFFF",
+                "onSurface": "#000000",
+                "separator": "#B4B4B4",
+            "primary": "#3F51B5",
+                "onPrimary": "#FFFFFF",
+            "primaryVariant": "#C5CAE9"
+        },
 
-    "dark": {
-        "primary": "#1778EB",
-        "primaryVariant": "#8495A1",
-        "onPrimary": "#FFFFFF",
-        
-        "background": "#10171E",
-        "surface": "#132536",
-        "onSurface": "#E4E4E4",
+        {
+            "name": "Dark",
 
-        "separator": "#000000"
-    }
+            "background": "#10171E",
+            "surface": "#132536",
+                "onSurface": "#E4E4E4",
+                "separator": "#000000",
+            "primary": "#1778EB",
+                "onPrimary": "#FFFFFF",
+            "primaryVariant": "#8495A1"
+        }
+    ]
 }

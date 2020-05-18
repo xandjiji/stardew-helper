@@ -34,7 +34,7 @@ export class Bundle extends Component {
     }
 
     render() {
-        let palette = themes.default;
+        let palette = themes.themes[this.props.themeId];
 
         const { name, reward, items, itemCount } = this.props.bundle;
         const { completedCount } = this.props;
@@ -66,7 +66,7 @@ export class Bundle extends Component {
         }
 
         return (
-            <div className="bundle-item material" style={{ backgroundColor: palette.surface }}>
+            <div className="bundle-item material" style={{ backgroundColor: palette.surface, color: palette.onSurface }}>
 
                 <div className="bundle-info">
                     <div className={`bundle-icon ${buildClassName(name)}`}></div>
@@ -130,7 +130,8 @@ const mapStateToProps = (state, ownProps) => {
 
     return {
         isComplete: status,
-        completedCount: completeCount
+        completedCount: completeCount,
+        themeId: state.themeReducer
     };
 };
 

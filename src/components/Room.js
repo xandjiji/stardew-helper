@@ -9,7 +9,7 @@ import themes from '../themes.json';
 
 export class Room extends Component {
     render() {
-        let palette = themes.default;
+        let palette = themes.themes[this.props.themeId];
 
         const { isComplete, completedCount } = this.props;
         const { name, reward, bundles } = this.props.room;
@@ -26,7 +26,7 @@ export class Room extends Component {
         }
 
         return (
-            <div className="room-item material" style={{ backgroundColor: palette.surface }}>
+            <div className="room-item material" style={{ backgroundColor: palette.surface, color: palette.onSurface }}>
                 <div className="room-progress">
                     <div className="progress-text">
                         <p className="room-name">{name}</p>
@@ -63,7 +63,8 @@ const mapStateToProps = (state, ownProps) => {
 
     return {
         isComplete: status,
-        completedCount: bundlesCompleted
+        completedCount: bundlesCompleted,
+        themeId: state.themeReducer
     };
 };
 

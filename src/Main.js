@@ -26,7 +26,7 @@ export class Main extends Component {
     }
 
     render() {
-        let palette = themes.default;
+        let palette = themes.themes[this.props.themeId];
 
         const { rooms } = roomsData;
 
@@ -64,7 +64,8 @@ export class Main extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        sortBy: state.wrapperReducer.sortBy
+        sortBy: state.wrapperReducer.sortBy,
+        themeId: state.themeReducer
     };
 };
 

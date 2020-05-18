@@ -7,8 +7,9 @@ function saveData(state) {
     }
 }
 
-function loadData() {
+function loadData() {    
     let defaultState = {
+        themeReducer: 0,
         itemReducer: {},
         wrapperReducer: {
             sortBy: "rooms"

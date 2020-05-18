@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
 
 import HeaderOptions from './HeaderOptions';
 
@@ -40,7 +41,7 @@ export class Header extends Component {
     }
 
     render() {
-        let palette = themes.default;
+        let palette = themes.themes[this.props.themeId];
 
         let buttonClass = '';
         if (this.state.active) {
@@ -79,4 +80,13 @@ export class Header extends Component {
     }
 }
 
-export default Header
+const mapStateToProps = (state) => {
+
+    return { themeId: state.themeReducer };
+};
+
+function mapDispatchToProps(dispatch) {
+    return { };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

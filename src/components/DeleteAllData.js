@@ -32,10 +32,10 @@ export class DeleteAllData extends Component {
     }
 
     render() {
-        let palette = themes.default;
+        let palette = themes.themes[this.props.themeId];
 
         let clearClass = '';
-        if(!this.state.allowed) {
+        if (!this.state.allowed) {
             clearClass += ' animate';
         }
 
@@ -51,7 +51,7 @@ export class DeleteAllData extends Component {
 }
 
 const mapStateToProps = (state) => {
-    return {};
+    return { themeId: state.themeReducer };
 };
 
 function mapDispatchToProps(dispatch) {
