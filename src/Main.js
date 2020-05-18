@@ -9,6 +9,7 @@ import Bundle from './components/Bundle';
 import './css/main.css';
 import './css/animations.css';
 
+import themes from './themes.json';
 import roomsData from './rooms.json';
 
 export class Main extends Component {
@@ -25,6 +26,8 @@ export class Main extends Component {
     }
 
     render() {
+        let palette = themes.default;
+
         const { rooms } = roomsData;
 
         let roomsElement;
@@ -40,7 +43,7 @@ export class Main extends Component {
         )
 
         return (
-            <div className="main">
+            <div className="main" style={{ backgroundColor: palette.background, color: palette.onSurface }}>
                 <Header/>
 
                 <div className="carousel-container rooms-carousel">

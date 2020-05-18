@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 
 import '../css/IEdata.css';
+import themes from '../themes.json';
 
 import { ReactComponent as CopyIcon } from '../assets/copy.svg';
 import { ReactComponent as ConfirmedIcon } from '../assets/confirmed.svg';
@@ -90,6 +91,7 @@ export class IEdata extends Component {
     }
 
     render() {
+        let palette = themes.default;
 
         let shakeAnimation = '';
         let importClass = '';
@@ -120,11 +122,19 @@ export class IEdata extends Component {
                 </div>
 
                 <div className="buttons-wrapper">
-                    <div className={`data-button ${copyClass}`} onClick={this.copyClipboard}>
+                    <div
+                        className={`data-button ${copyClass}`}
+                        onClick={this.copyClipboard}
+                        style={{ backgroundColor: palette.primary }}>
+
                         <CopyIcon className="copy-icon" />
                         <ConfirmedIcon className={`animated confirmed ${rollAnimation}`} />
                     </div>
-                    <div className={`data-button ${importClass}`} onClick={this.importData}>
+                    <div
+                        className={`data-button ${importClass}`}
+                        onClick={this.importData}
+                        style={{ backgroundColor: palette.primary }}>
+
                         <ImportIcon />
                     </div>
                 </div>

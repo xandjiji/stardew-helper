@@ -5,32 +5,36 @@ import getFloatText from '../getFloatText';
 
 import '../css/room.css';
 
+import themes from '../themes.json';
+
 export class Room extends Component {
-    render() {        
+    render() {
+        let palette = themes.default;
+
         const { isComplete, completedCount } = this.props;
         const { name, reward, bundles } = this.props.room;
-        
-        let progressPercentage = Math.ceil(completedCount/bundles.length * 100);
+
+        let progressPercentage = Math.ceil(completedCount / bundles.length * 100);
 
         let completedClass = '';
         let textClass = '';
         let textString = '';
-        if(isComplete) {
+        if (isComplete) {
             completedClass = 'animated shake';
             textClass = 'animate';
             textString = getFloatText();
         }
-        
-        return (            
-            <div className="room-item material">
+
+        return (
+            <div className="room-item material" style={{ backgroundColor: palette.surface }}>
                 <div className="room-progress">
                     <div className="progress-text">
                         <p className="room-name">{name}</p>
                         <span className="room-count">{completedCount}/{bundles.length}</span>
                         <span className={`textFloat ${textClass}`}>{textString}</span>
                     </div>
-                    <div className={`progress-bar material ${completedClass}`}>
-                        <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
+                    <div className={`progress-bar material ${completedClass}`} style={{ backgroundColor: palette.primaryVariant }}>
+                        <div className="cursor" style={{ width: `${progressPercentage}%`, backgroundColor: palette.primary }}></div>
                     </div>
                 </div>
 

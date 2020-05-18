@@ -33,8 +33,6 @@
 
 body {
     margin: 0;
-    background-color: #EEEEEE;
-    color: #000;
 }
 
 a {
@@ -114,7 +112,6 @@ fieldset {
 
 .material {
     padding: 24px;
-    background-color: #fff;
     border-radius: 6px;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }

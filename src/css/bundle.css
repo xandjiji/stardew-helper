@@ -30,14 +30,12 @@
     padding: 0;
     height: 8px;
     border-radius: 2px;
-    background-color: #C5CAE9;
     overflow: hidden;
     box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
 .bundle-item .progress-bar .cursor {
     height: 100%;
-    background-color: #3F51B5;
     transition: 0.2s ease-out;
 }
 
@@ -48,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: solid 1px #b4b4b4;
+    border-bottom: solid 1px;
 }
 
 .bundle-item .bundle-reward {

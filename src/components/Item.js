@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import '../css/item.css';
 import '../css/spritesheet.css';
 
+import themes from '../themes.json';
+
 export class Item extends Component {
     constructor(props) {
         super(props);
@@ -19,6 +21,8 @@ export class Item extends Component {
     }
 
     render() {
+        let palette = themes.default;
+
         const { name, itemCount, info, id } = this.props.item;
 
         let itemClass = buildClassName(name);
@@ -44,8 +48,12 @@ export class Item extends Component {
                         <span className="item-count">{`(${itemCount}x)`}</span>
                     </div>
                 </div>
-                <div className={`checkbox ${completedClass}`} onClick={() => this.props.toggleItem(id)}>
-                    <span className="checkmark"></span>
+                <div
+                    className={`checkbox ${completedClass}`}
+                    onClick={() => this.props.toggleItem(id)}
+                    style={{ borderColor: palette.primaryVariant }}>
+
+                    <span className="checkmark" style={{ backgroundColor: palette.primary }}></span>
                 </div>
             </div>
         )

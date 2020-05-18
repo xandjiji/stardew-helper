@@ -7,6 +7,8 @@ import getFloatText from '../getFloatText';
 import '../css/bundle.css';
 import '../css/bundleIcons.css';
 
+import themes from '../themes.json';
+
 export class Bundle extends Component {
 
     toggleAll() {
@@ -32,6 +34,8 @@ export class Bundle extends Component {
     }
 
     render() {
+        let palette = themes.default;
+
         const { name, reward, items, itemCount } = this.props.bundle;
         const { completedCount } = this.props;
 
@@ -40,7 +44,7 @@ export class Bundle extends Component {
         let completedClass = '';
         let textClass = '';
         let textString = '';
-        if(progressPercentage === 100) {
+        if (progressPercentage === 100) {
             completedClass = 'animated shake';
             textClass = 'animate';
             textString = getFloatText();
@@ -49,7 +53,7 @@ export class Bundle extends Component {
         let rewardElement;
         if (reward) {
             rewardElement =
-                <div className="bundle-reward-wrapper">
+                <div className="bundle-reward-wrapper" style={{ borderBottomColor: palette.separator }}>
                     <span className="bundle-reward">
                         <div className={`sprite ${buildClassName(reward.name)}`}></div>
                         <div className="reward-text-wrapper">
@@ -62,7 +66,7 @@ export class Bundle extends Component {
         }
 
         return (
-            <div className="bundle-item material">
+            <div className="bundle-item material" style={{ backgroundColor: palette.surface }}>
 
                 <div className="bundle-info">
                     <div className={`bundle-icon ${buildClassName(name)}`}></div>
@@ -71,8 +75,11 @@ export class Bundle extends Component {
                         <p className="bundle-name">{name}</p>
                         <span className="bundle-count">{completedCount}/{itemCount}</span>
                         <span className={`textFloat ${textClass}`}>{textString}</span>
-                        <div className={`progress-bar material ${completedClass}`}>
-                            <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
+                        <div
+                            className={`progress-bar material ${completedClass}`}
+                            style={{ backgroundColor: palette.primaryVariant }}>
+
+                            <div className="cursor" style={{ width: `${progressPercentage}%`, backgroundColor: palette.primary }}></div>
                         </div>
                     </div>
                 </div>

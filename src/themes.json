@@ -1,0 +1,13 @@
+{
+    "default": {
+        "primary": "#3F51B5",
+        "primaryVariant": "#C5CAE9",
+        "onPrimary": "#FFFFFF",
+        
+        "background": "#EEEEEE",
+        "surface": "#FFFFFF",
+        "onSurface": "#000000",
+
+        "separator": "#B4B4B4"
+    }
+}

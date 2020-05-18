@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
 import '../css/settingsOption.css';
+import themes from '../themes.json';
+
 import { ReactComponent as SmallArrow } from '../assets/small-arrow.svg';
 
 export class SettingsOption extends Component {
@@ -34,6 +36,7 @@ export class SettingsOption extends Component {
     }
 
     render() {
+        let palette = themes.default;
 
         let buttonClass = '';
         if (this.state.active) {
@@ -54,7 +57,11 @@ export class SettingsOption extends Component {
 
         return (
             <div className={`option-wrapper ${buttonClass}`}>
-                <div className="option-head inner-container" onClick={this.handleClick}>
+                <div
+                    className="option-head inner-container"
+                    onClick={this.handleClick}
+                    style={{ backgroundColor: palette.surface, borderBottomColor: palette.separator }}>
+
                     <span className="option-name">{optionIcon}{this.props.title}</span>
                     <SmallArrow className="option-arrow" />
                 </div>
