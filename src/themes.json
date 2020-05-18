@@ -34,6 +34,18 @@
             "primary": "#FFC107",
                 "onPrimary": "#000000",
             "primaryVariant": "#242424"
+        },
+
+        {
+            "name": "Bulbasaur",
+
+            "background": "#388E3C",
+            "surface": "#8BC34A",
+                "onSurface": "#000000",
+                "separator": "#C8E6C9",
+            "primary": "#7B1FA2",
+                "onPrimary": "#FFFFFF",
+            "primaryVariant": "#C8E6C9"
         }
     ]
 }
