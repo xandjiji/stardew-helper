@@ -80,7 +80,7 @@ svg {
 
 .custom-scrollbar::-webkit-scrollbar {
     width: 6px;
-    background-color: #EEEEEE;
+    background-color: transparent;
     border-radius: 2px;
 }
 
@@ -94,7 +94,7 @@ svg {
 }
 
 .custom-scrollbar {
-    scrollbar-color: #d1d1d1 #EEEEEE;
+    scrollbar-color: #d1d1d1 transparent;
     scrollbar-width: thin;
 }
 

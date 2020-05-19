@@ -1,12 +1,10 @@
-settings:
-    modes
-
 modes:
-    all items search
-    items per season
-    birthday npcs
-
-item info
+    all items search (https://stardewvalleywiki.com/Collections)
+        filter: season
+        modal item
+    calendar (4 seasons)
+        modal evento
+        modal npc
 
 desktop
 
@@ -15,6 +13,16 @@ QA:
     redesign
     total counter
     recalcular android viewport
+    qualidade dos items
 
 push sidebar
 reset undo?
+scrollbar (inherit)
+
+
+item info
+https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fjYlY/edit#gid=0
+
+Obtainable via FARMING/FISHING/FORAGING during WINTER/SUMMER
+
+Location:
