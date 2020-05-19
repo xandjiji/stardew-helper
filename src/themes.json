@@ -39,13 +39,13 @@
         {
             "name": "Hanami",
 
-            "background": "#FFE2E8",
-            "surface": "#FCC8D2",
+            "background": "#FFE0E6",
+            "surface": "#FFFAFB",
                 "onSurface": "#000000",
-                "separator": "#B4B4B4",
+                "separator": "#AD9B8B",
             "primary": "#FF859E",
                 "onPrimary": "#FFFFFF",
-            "primaryVariant": "#FFE7EC"
+            "primaryVariant": "#DDC5D3"
         },
 
         {
@@ -63,13 +63,13 @@
         {
             "name": "Kill Bill",
 
-            "background": "#212121",
-            "surface": "#3D3D3D",
-                "onSurface": "#FFFFFF",
+            "background": "#2E2E2E",
+            "surface": "#FFC107",
+                "onSurface": "#000000",
                 "separator": "#72767D",
-            "primary": "#FFC107",
-                "onPrimary": "#000000",
-            "primaryVariant": "#242424"
+            "primary": "#000000",
+                "onPrimary": "#FFC107",
+            "primaryVariant": "#919191"
         },
 
         {
