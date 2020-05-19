@@ -1,5 +1,4 @@
 settings:
-    themes
     modes
 
 modes:
@@ -9,6 +8,8 @@ modes:
 
 item info
 
+desktop
+
 QA:
     animations https://www.cssscript.com/animated-checkbox-labels-with-pure-css-css3/
     redesign
@@ -17,6 +18,3 @@ QA:
 
 push sidebar
 reset undo?
-
-appearence icon
-themas

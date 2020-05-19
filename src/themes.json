@@ -78,7 +78,7 @@
             "background": "#F3B252",
             "surface": "#FFCD83",
                 "onSurface": "#000000",
-                "separator": "#272727",
+                "separator": "#DF8F77",
             "primary": "#388E3C",
                 "onPrimary": "#FFFFFF",
             "primaryVariant": "#6EBD70"
