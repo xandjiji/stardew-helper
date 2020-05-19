@@ -65,9 +65,9 @@ export class Header extends Component {
                     <div className="sidebar-body">
                         <HeaderOptions />
 
-                        <div className="sidebar-footer" style={{ backgroundColor: palette.primary }}>
+                        <div className="sidebar-footer" style={{ backgroundColor: palette.primary, color: palette.primaryVariant }}>
                             <div className="container">
-                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper" style={{ color: palette.onSurface }}><GithubIcon /></a>
+                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper" style={{ color: palette.onSurface, fill: palette.onPrimary }}><GithubIcon /></a>
                                 made by
                                 <a className="git-profile" href="https://github.com/xandjiji" style={{ color: palette.onPrimary }}>xandjiji</a>
                             </div>
