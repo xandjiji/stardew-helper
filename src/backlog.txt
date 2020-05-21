@@ -18,6 +18,7 @@ QA:
 push sidebar
 reset undo?
 scrollbar (inherit)
+otimizar .jsons
 
 
 item info

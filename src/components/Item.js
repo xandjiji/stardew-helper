@@ -23,14 +23,9 @@ export class Item extends Component {
     render() {
         let palette = themes.themes[this.props.themeId];
 
-        const { name, itemCount, info, id } = this.props.item;
+        const { name, itemCount, id } = this.props.item;
 
         let itemClass = buildClassName(name);
-
-        let infoElement;
-        if (info) {
-            infoElement = <div className="info smooth">{info}</div>;
-        }
 
         let completedClass = '';
         let fadedClass = '';
@@ -45,7 +40,7 @@ export class Item extends Component {
                     <div className={`sprite ${itemClass}`}></div>
                     <div className="item-info" style={{ color: palette.onSurface }}>
                         <span className="item-name">{name}</span>
-                        <span className="item-count">{`(${itemCount}x)`}</span>
+                        <span className="item-count">{`(${itemCount ? itemCount : 1}x)`}</span>
                     </div>
                 </div>
                 <div
