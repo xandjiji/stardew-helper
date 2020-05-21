@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Carousel from './components/Carousel';
 import Room from './components/Room';
 import Bundle from './components/Bundle';
+import ItemModal from './components/ItemModal';
 
 import './css/main.css';
 import './css/animations.css';
@@ -44,18 +45,22 @@ export class Main extends Component {
 
         return (
             <div className="main" style={{ backgroundColor: palette.background, color: palette.onSurface, fill: palette.onSurface }}>
-                <Header/>
+                <Header />
 
-                <div className="carousel-container rooms-carousel">
-                    <Carousel updateState={this.changeRoom}>
-                        {roomsElement}
-                    </Carousel>
-                </div>
+                <div className="body-wrapper">
+                    <div className="carousel-container rooms-carousel">
+                        <Carousel updateState={this.changeRoom}>
+                            {roomsElement}
+                        </Carousel>
+                    </div>
 
-                <div className="carousel-container bundles-carousel">
-                    <Carousel currentRoom={this.state.currentRoom}>
-                        {bundlesElement}
-                    </Carousel>
+                    <ItemModal />
+
+                    <div className="carousel-container bundles-carousel">
+                        <Carousel currentRoom={this.state.currentRoom}>
+                            {bundlesElement}
+                        </Carousel>
+                    </div>
                 </div>
             </div>
         )
