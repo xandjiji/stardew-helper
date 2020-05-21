@@ -1,7 +1,7 @@
 {
     "seasons": [
         {
-            "name": "Spring season",
+            "name": "Spring",
             "items": {
                 "foraging": [
                     {
@@ -85,7 +85,7 @@
             }
         },
         {
-            "name": "Summer season",
+            "name": "Summer",
             "items": {
                 "foraging": [
                     {
@@ -203,7 +203,7 @@
             }
         },
         {
-            "name": "Fall season",
+            "name": "Fall",
             "items": {
                 "foraging": [
                     {
@@ -310,7 +310,7 @@
             }
         },
         {
-            "name": "Winter season",
+            "name": "Winter",
             "items": {
                 "foraging": [
                     {
@@ -355,7 +355,7 @@
             }
         },
         {
-            "name": "Any season",
+            "name": "Any",
             "items": {
                 "foraging": [
                     {

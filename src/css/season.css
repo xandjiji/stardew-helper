@@ -1,0 +1,14 @@
+.season-mode {
+    display: flex;
+}
+
+.season-mode .season-icon {
+    position: relative;
+    top: -50px;
+    margin-bottom: -60px;
+}
+
+.season-mode .room-progress {
+    margin-left: 16px;
+    flex-grow: 1;
+}

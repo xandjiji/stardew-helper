@@ -2,65 +2,37 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 
 import Header from './components/Header';
-import Carousel from './components/Carousel';
-import Room from './components/Room';
-import Bundle from './components/Bundle';
+import RoomMode from './components/RoomMode';
+import SeasonMode from './components/SeasonMode';
+
 import ItemModal from './components/ItemModal';
 
 import './css/main.css';
 import './css/animations.css';
 
 import themes from './themes.json';
-import roomsData from './rooms.json';
 
 export class Main extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            currentRoom: 0
-        }
-    }
-
-    changeRoom = (newIndex) => {
-        this.setState({ currentRoom: newIndex });
-    }
-
     render() {
         let palette = themes.themes[this.props.themeId];
 
-        const { rooms } = roomsData;
+        const { mode } = this.props;
 
-        let roomsElement;
-        if (this.props.sortBy === "rooms") {
-            roomsElement = rooms.map((room, index) =>
-                <Room room={room} key={index} />
-            )
+        let modeElement;
+        if(mode === "rooms") {
+            modeElement = <RoomMode />
         }
 
-        let bundlesElement;
-        bundlesElement = rooms[this.state.currentRoom].bundles.map((bundle, index) =>
-            <Bundle bundle={bundle} key={index} />
-        )
+        if(true) {
+            modeElement = <SeasonMode />
+        }
 
         return (
             <div className="main" style={{ backgroundColor: palette.background, color: palette.onSurface, fill: palette.onSurface }}>
                 <Header />
 
                 <div className="body-wrapper">
-                    <div className="carousel-container rooms-carousel">
-                        <Carousel updateState={this.changeRoom}>
-                            {roomsElement}
-                        </Carousel>
-                    </div>
-
-                    <ItemModal />
-
-                    <div className="carousel-container bundles-carousel">
-                        <Carousel currentRoom={this.state.currentRoom}>
-                            {bundlesElement}
-                        </Carousel>
-                    </div>
+                    {modeElement}
                 </div>
             </div>
         )
@@ -69,7 +41,7 @@ export class Main extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        sortBy: state.wrapperReducer.sortBy,
+        mode: state.wrapperReducer.sortBy,
         themeId: state.themeReducer
     };
 };
