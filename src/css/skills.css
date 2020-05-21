@@ -22,3 +22,8 @@
     width: 64px; height: 64px;
     background: url('../assets/skills.png') -256px -0;
 }
+
+.bg-Misc {
+    width: 64px; height: 64px;
+    background: url('../assets/skills.png') -320px -0;
+}

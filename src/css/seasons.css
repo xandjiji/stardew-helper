@@ -17,3 +17,8 @@
     width: 48px; height: 101px;
     background: url('../assets/seeasons.png') -96px -0;
 }
+
+.bg-Any {
+    width: 34px; height: 101px;
+    background: url('../assets/seeasons.png') -215px -0;
+}
