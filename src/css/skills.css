@@ -1,0 +1,24 @@
+.bg-Combat {
+    width: 64px; height: 64px;
+    background: url('../assets/skills.png') -0 -0;
+}
+
+.bg-Farming {
+    width: 64px; height: 64px;
+    background: url('../assets/skills.png') -64px -0;
+}
+
+.bg-Fishing {
+    width: 64px; height: 64px;
+    background: url('../assets/skills.png') -128px -0;
+}
+
+.bg-Foraging {
+    width: 64px; height: 64px;
+    background: url('../assets/skills.png') -192px -0;
+}
+
+.bg-Mining {
+    width: 64px; height: 64px;
+    background: url('../assets/skills.png') -256px -0;
+}

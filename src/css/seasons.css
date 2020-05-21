@@ -1,0 +1,19 @@
+.bg-Fall {
+    width: 77px; height: 148px;
+    background: url('../assets/seasons.png') -0 -0;
+}
+
+.bg-Spring {
+    width: 111px; height: 148px;
+    background: url('../assets/seasons.png') -244px -0;
+}
+
+.bg-Summer {
+    width: 90px; height: 146px;
+    background: url('../assets/seasons.png') -154px -0;
+}
+
+.bg-Winter {
+    width: 77px; height: 146px;
+    background: url('../assets/seasons.png') -77px -0;
+}
