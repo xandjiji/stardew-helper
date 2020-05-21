@@ -1,24 +1,24 @@
 .bg-Fall {
-    width: 48px; height: 101px;
+    width: 48px; height: 96px;
     background: url('../assets/seasons.png') -0 -0;
 }
 
 .bg-Spring {
-    width: 71px; height: 101px;
+    width: 71px; height: 96px;
     background: url('../assets/seasons.png') -144px -0;
 }
 
 .bg-Summer {
-    width: 48px; height: 101px;
+    width: 48px; height: 96px;
     background: url('../assets/seasons.png') -48px -0;
 }
 
 .bg-Winter {
-    width: 48px; height: 101px;
+    width: 48px; height: 96px;
     background: url('../assets/seasons.png') -96px -0;
 }
 
 .bg-Any {
-    width: 34px; height: 101px;
+    width: 33px; height: 96px;
     background: url('../assets/seasons.png') -215px -0;
 }
