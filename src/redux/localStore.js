@@ -11,8 +11,8 @@ function loadData() {
     let defaultState = {
         themeReducer: 0,
         itemReducer: {},
-        wrapperReducer: {
-            sortBy: "rooms"
+        modeReducer: {
+            mode: "bundle"
         }
     }
     try {
@@ -21,8 +21,8 @@ function loadData() {
             return defaultState;
         }
 
-        return JSON.parse(serializedState);
-        /* return defaultState; */
+        /* return JSON.parse(serializedState); */
+        return defaultState;
     } catch (err) {
         return defaultState;
     }

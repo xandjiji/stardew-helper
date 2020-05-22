@@ -1,6 +1,5 @@
 modes:
     all items search (https://stardewvalleywiki.com/Collections)
-        filter: season
         modal item
     calendar (4 seasons)
         modal evento

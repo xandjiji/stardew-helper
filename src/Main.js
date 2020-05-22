@@ -19,11 +19,9 @@ export class Main extends Component {
         const { mode } = this.props;
 
         let modeElement;
-        if(mode === "rooms") {
+        if(mode === "bundle") {
             modeElement = <RoomMode />
-        }
-
-        if(true) {
+        } else if(mode === "season") {
             modeElement = <SeasonMode />
         }
 
@@ -41,7 +39,7 @@ export class Main extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        mode: state.wrapperReducer.sortBy,
+        mode: state.modeReducer.mode,
         themeId: state.themeReducer
     };
 };

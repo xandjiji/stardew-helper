@@ -7,6 +7,8 @@ import '../css/header.css';
 import themes from '../themes.json';
 
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
+import { ReactComponent as BundleIcon } from '../assets/gift.svg';
+import { ReactComponent as SeasonIcon } from '../assets/cloudy.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
 
@@ -15,7 +17,7 @@ export class Header extends Component {
         super(props);
 
         this.state = {
-            active: false
+            menuActive: false
         }
 
         this.handleClick = this.handleClick.bind(this);
@@ -31,27 +33,33 @@ export class Header extends Component {
     }
 
     handleClick() {
-        this.setState({ active: !this.state.active });
+        this.setState({ menuActive: !this.state.menuActive });
     }
 
     handleKeyDown(event) {
         if (event.key === 'Escape') {
-            this.setState({ active: false });
+            this.setState({ menuActive: false });
         }
     }
 
     render() {
         let palette = themes.themes[this.props.themeId];
 
+        const { mode } = this.props;
+
         let buttonClass = '';
-        if (this.state.active) {
+        if (this.state.menuActive) {
             buttonClass = 'active';
         }
 
         return (
             <div className="header-bar" style={{ backgroundColor: palette.surface }}>
                 <div className="settings-button container">
-                    <SettingsIcon className={buttonClass} onClick={this.handleClick} />
+                    <div className="modes-wrapper">
+                        <BundleIcon className={mode === 'bundle' ? 'active' : '' } onClick={() => this.props.setMode('bundle')} />
+                        <SeasonIcon className={mode === 'season' ? 'active' : '' } onClick={() => this.props.setMode('season')} />
+                    </div>
+                    <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />
                 </div>
 
                 <div className={`sidebar ${buttonClass}`} style={{ backgroundColor: palette.background }}>
@@ -82,11 +90,21 @@ export class Header extends Component {
 
 const mapStateToProps = (state) => {
 
-    return { themeId: state.themeReducer };
+    return {
+        mode: state.modeReducer.mode,
+        themeId: state.themeReducer
+    };
 };
 
 function mapDispatchToProps(dispatch) {
-    return { };
+    return {
+        setMode: (mode) => {
+            dispatch({
+                type: "SET_MODE",
+                payload: mode
+            });
+        }
+    };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header);
