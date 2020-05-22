@@ -1,29 +1,30 @@
+.skill-icon {
+    width: 32px;
+    height: 32px;
+    background: url('../assets/skills.png');
+    background-position-y: -0;
+}
+
 .bg-combat {
-    width: 64px; height: 64px;
-    background: url('../assets/skills.png') -0 -0;
+    background-position-x: -0;
 }
 
 .bg-farming {
-    width: 64px; height: 64px;
-    background: url('../assets/skills.png') -64px -0;
+    background-position-x: -32px;
 }
 
 .bg-fishing {
-    width: 64px; height: 64px;
-    background: url('../assets/skills.png') -128px -0;
+    background-position-x: -64px;
 }
 
 .bg-foraging {
-    width: 64px; height: 64px;
-    background: url('../assets/skills.png') -192px -0;
+    background-position-x: -96px;
 }
 
 .bg-mining {
-    width: 64px; height: 64px;
-    background: url('../assets/skills.png') -256px -0;
+    background-position-x: -128px;
 }
 
 .bg-misc {
-    width: 64px; height: 64px;
-    background: url('../assets/skills.png') -320px -0;
+    background-position-x: -160px;
 }

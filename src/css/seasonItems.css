@@ -16,7 +16,7 @@
 }
 
 .bundle-item .skill-item:not(:last-child) {
-    margin-right: 16px;
+    margin-right: 3px;
 }
 
 .bundle-item .skill-item:hover {

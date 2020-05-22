@@ -52,7 +52,7 @@ export class SeasonItems extends Component {
             let isActive = (currentFilter === undefined || currentFilter === skill);
 
             skillElement.push(
-                <div className={`skill-item bg-${skill} ${isActive ? 'active' : ''}`} key={skill} onClick={() => this.filterBy(skill)}></div>
+                <div className={`skill-item skill-icon bg-${skill} ${isActive ? 'active' : ''}`} key={skill} onClick={() => this.filterBy(skill)}></div>
             );
 
 
