@@ -6,7 +6,7 @@ export class ThemeOption extends Component {
 
         const { id, currentlySelected } = this.props;
 
-        let isActive = (currentlySelected == id)
+        let isActive = (currentlySelected === id)
 
         this.state = {
             active: isActive

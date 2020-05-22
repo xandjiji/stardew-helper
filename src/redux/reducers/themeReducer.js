@@ -5,8 +5,11 @@ const initialState = localStore.loadData();
 const themeReducer = (state = initialState.themeReducer, action) => {
     switch (action.type) {
         case "SELECT_THEME":
-                state = action.payload;
+            state = action.payload;
 
+            break;
+
+        default:
             break;
 
     }

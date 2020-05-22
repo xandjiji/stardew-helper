@@ -28,10 +28,10 @@ export class RoomMode extends Component {
                 <Room room={room} key={index} />
             )
 
-        let bundlesElement;
-        bundlesElement = rooms[this.state.currentRoom].bundles.map((bundle, index) =>
-            <Bundle bundle={bundle} key={index} />
-        )
+        let bundlesElement =
+            rooms[this.state.currentRoom].bundles.map((bundle, index) =>
+                <Bundle bundle={bundle} key={index} />
+            )
 
         return (
             <div>

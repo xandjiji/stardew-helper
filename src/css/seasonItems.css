@@ -1,0 +1,46 @@
+.bundle-item .skill-filter {
+    padding-bottom: 16px;
+    display: flex;
+    border-bottom: solid 1px;
+}
+
+.bundle-item .skill-item {
+    position: relative;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+    transition: 0.2s ease-out;
+}
+
+.bundle-item .skill-item:not(.active) {
+    opacity: 0.5;
+}
+
+.bundle-item .skill-item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.bundle-item .skill-item:hover {
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,.2);
+}
+
+.bundle-item .skill-item::after,
+.bundle-item .skill-item::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,.14);
+    transition: 0.2s ease-out;
+}
+
+.bundle-item .skill-item::after {
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+    height: 4px;
+}
+
+.bundle-item .skill-item::before {
+    bottom: 0;
+    right: 0px;
+    width: 4px;
+    height: 100%;
+}

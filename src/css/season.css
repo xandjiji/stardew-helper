@@ -6,6 +6,7 @@
     position: relative;
     top: -50px;
     margin-bottom: -60px;
+    flex-shrink: 0;
 }
 
 .season-mode .room-progress {

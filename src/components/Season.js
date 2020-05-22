@@ -68,7 +68,7 @@ const mapStateToProps = (state, ownProps) => {
     }
 
     return {
-        isComplete: (completedItems == totalItems),
+        isComplete: (completedItems === totalItems),
         itemCount: totalItems,
         completedCount: completedItems,
         themeId: state.themeReducer

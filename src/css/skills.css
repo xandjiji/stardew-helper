@@ -1,29 +1,29 @@
-.bg-Combat {
+.bg-combat {
     width: 64px; height: 64px;
     background: url('../assets/skills.png') -0 -0;
 }
 
-.bg-Farming {
+.bg-farming {
     width: 64px; height: 64px;
     background: url('../assets/skills.png') -64px -0;
 }
 
-.bg-Fishing {
+.bg-fishing {
     width: 64px; height: 64px;
     background: url('../assets/skills.png') -128px -0;
 }
 
-.bg-Foraging {
+.bg-foraging {
     width: 64px; height: 64px;
     background: url('../assets/skills.png') -192px -0;
 }
 
-.bg-Mining {
+.bg-mining {
     width: 64px; height: 64px;
     background: url('../assets/skills.png') -256px -0;
 }
 
-.bg-Misc {
+.bg-misc {
     width: 64px; height: 64px;
     background: url('../assets/skills.png') -320px -0;
 }
