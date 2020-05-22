@@ -7,7 +7,7 @@ import '../css/header.css';
 import themes from '../themes.json';
 
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
-import { ReactComponent as BundleIcon } from '../assets/gift.svg';
+import { ReactComponent as BundleIcon } from '../assets/present.svg';
 import { ReactComponent as SeasonIcon } from '../assets/cloudy.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
