@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9f054c2b26ec98710af58df8f510c61",
+    "revision": "67017ba7b26424762da09ec1ef3a1d01",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "a4c00baa64deb0b2249e",
-    "url": "/stardew-helper/static/css/main.45e54bcf.chunk.css"
+    "revision": "bbd8d0d0bdc6085803a0",
+    "url": "/stardew-helper/static/css/main.142ddf5c.chunk.css"
   },
   {
-    "revision": "118dbbb376a5e1b402aa",
-    "url": "/stardew-helper/static/js/2.5fe846e6.chunk.js"
+    "revision": "09d74bed109ae5d98961",
+    "url": "/stardew-helper/static/js/2.66853e55.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/stardew-helper/static/js/2.5fe846e6.chunk.js.LICENSE.txt"
+    "url": "/stardew-helper/static/js/2.66853e55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4c00baa64deb0b2249e",
-    "url": "/stardew-helper/static/js/main.4074d873.chunk.js"
+    "revision": "bbd8d0d0bdc6085803a0",
+    "url": "/stardew-helper/static/js/main.9161abe8.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",
@@ -48,12 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/bundle_icons.b3c76a9c.png"
   },
   {
+    "revision": "c121914f28c0cc078042ce60ae45981c",
+    "url": "/stardew-helper/static/media/cloudy.c121914f.svg"
+  },
+  {
     "revision": "6dfca8fc2c25d1b6d4e299a90a3770e5",
     "url": "/stardew-helper/static/media/confirmed.6dfca8fc.svg"
   },
   {
     "revision": "ba32fbb40adb1d533ad89c1c933d1008",
     "url": "/stardew-helper/static/media/copy.ba32fbb4.svg"
+  },
+  {
+    "revision": "71bd5eb62de3c439d3f512f5673b8f63",
+    "url": "/stardew-helper/static/media/gift.71bd5eb6.svg"
   },
   {
     "revision": "bdaaf2a1906c7afb05eba351d1899b54",
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "92934f331bfa790dbd7cb6a3beff69f3",
     "url": "/stardew-helper/static/media/palette.92934f33.svg"
+  },
+  {
+    "revision": "457f21d37c9478092a0cb45c0d422152",
+    "url": "/stardew-helper/static/media/seasons.457f21d3.png"
   },
   {
     "revision": "4554e1ab7cc91b1cae056f429463de9a",
