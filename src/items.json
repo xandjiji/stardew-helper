@@ -1,0 +1,1076 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "name": "Dinosaur Egg",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Dinosaur_Egg",
+            "sellPrice": "350",
+            "obtainedFrom": [
+                "Dinosaur",
+                "Artifact Spot in the Mountain (0.8%)",
+                "Artifact Spot in the Quarry (0.8%)",
+                "Fishing Treasure Chests",
+                "Pepper Rex drop (10% chance drop)",
+                "Prehistoric Floors in the Skull Cavern",
+                "Crane Game in Movie Theater"
+            ],
+            "makes": [
+                "Dinosaur Mayonnaise",
+                "Dinosaur Hat"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "name": "Duck Egg",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Duck_Egg",
+            "sellPrice": "95",
+            "obtainedFrom": [
+                "Duck"
+            ],
+            "makes": [
+                "Duck Mayonnaise",
+                "Fried Egg",
+                "Omelet",
+                "Pancakes",
+                "Chocolate Cake",
+                "Pink Cake",
+                "Cookie",
+                "Blueberry Tart",
+                "Crab Cakes",
+                "Green Jacket Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Alex","Demetrius","Harvey","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
+        },
+        {
+            "id": 2,
+            "name": "Duck Feather",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Duck_Feather",
+            "sellPrice": "125",
+            "obtainedFrom": [
+                "Duck"
+            ],
+            "makes": [
+                "Lime Green Striped Shirt"
+            ],
+            "gifting": {"loves":["Elliott"],"likes":["Harvey"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":["Penny"],"hates":[]}
+        },
+        {
+            "id": 3,
+            "name": "Egg",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Egg",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Chicken"
+            ],
+            "makes": [
+                "Mayonnaise",
+                "Fried Egg",
+                "Omelet",
+                "Pancakes",
+                "Chocolate Cake",
+                "Pink Cake",
+                "Cookie",
+                "Blueberry Tart",
+                "Crab Cakes",
+                "Plain Overalls"
+            ],
+            "gifting": {"loves":[],"likes":["Alex","Demetrius","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Harvey","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
+        },
+        {
+            "id": 4,
+            "name": "Goat Milk",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Goat_Milk",
+            "sellPrice": "225",
+            "obtainedFrom": [
+                "Goat"
+            ],
+            "makes": [
+                "Goat Cheese",
+                "Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Evelyn","Harvey","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Jas","Krobus","Maru","Sam","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+        },
+        {
+            "id": 5,
+            "name": "Large Egg",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Large_Egg",
+            "sellPrice": "95",
+            "obtainedFrom": [
+                "Chicken"
+            ],
+            "makes": [
+                "Mayonnaise",
+                "Fried Egg",
+                "Omelet",
+                "Pancakes",
+                "Chocolate Cake",
+                "Pink Cake",
+                "Cookie",
+                "Blueberry Tart",
+                "Crab Cakes",
+                "Cardigan"
+            ],
+            "gifting": {"loves":[],"likes":["Alex","Demetrius","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Harvey","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
+        },
+        {
+            "id": 6,
+            "name": "Large Goat Milk",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Large_Goat_Milk",
+            "sellPrice": "345",
+            "obtainedFrom": [
+                "Goat"
+            ],
+            "makes": [
+                "Goat Cheese",
+                "Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Evelyn","Harvey","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Jas","Krobus","Maru","Sam","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+        },
+        {
+            "id": 7,
+            "name": "Large Milk",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Large_Milk",
+            "sellPrice": "190",
+            "obtainedFrom": [
+                "Cow"
+            ],
+            "makes": [
+                "Cheese",
+                "Artichoke Dip",
+                "Chowder",
+                "Complete Breakfast",
+                "Ice Cream",
+                "Lobster Bisque",
+                "Miner's Treat",
+                "Omelet",
+                "Parsnip Soup",
+                "Pumpkin Pie",
+                "Pumpkin Soup",
+                "Rice Pudding",
+                "Sleeveless Overalls"
+            ],
+            "gifting": {"loves":[],"likes":["Evelyn","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Harvey","Jas","Krobus","Maru","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+        },
+        {
+            "id": 8,
+            "name": "Milk",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Milk",
+            "sellPrice": "125",
+            "obtainedFrom": [
+                "Cow"
+            ],
+            "makes": [
+                "Cheese",
+                "Artichoke Dip",
+                "Chowder",
+                "Complete Breakfast",
+                "Ice Cream",
+                "Lobster Bisque",
+                "Miner's Treat",
+                "Omelet",
+                "Parsnip Soup",
+                "Pumpkin Pie",
+                "Pumpkin Soup",
+                "Rice Pudding",
+                "White Overalls Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Evelyn","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Harvey","Jas","Krobus","Maru","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+        },
+        {
+            "id": 9,
+            "name": "Rabbit's Foot",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Rabbit%27s_Foot",
+            "sellPrice": "565",
+            "obtainedFrom": [
+                "Rabbit",
+                "Serpent (0.8% chance drop)"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Penny"]}
+        },
+        {
+            "id": 10,
+            "name": "Roe",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Roe",
+            "sellPrice": "30 + (base fish price / 2)",
+            "obtainedFrom": [
+                "Fish Pond"
+            ],
+            "makes": [
+                "Aged Roe",
+                "Caviar",
+                "Polka Dot Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 11,
+            "name": "Slime",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Slime",
+            "sellPrice": "5",
+            "obtainedFrom": [
+                "Slimes",
+                "Krobus",
+                "Slime Ball",
+                "Fish Pond"
+            ],
+            "makes": [
+                "Slime Egg",
+                "Oil Maker",
+                "Cork Bobber",
+                "Slime Incubator",
+                "Wild Bait",
+                "Sturdy Ring",
+                "Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Wizard"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy"]}
+        },
+        {
+            "id": 12,
+            "name": "Truffle",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Truffle",
+            "sellPrice": "625",
+            "obtainedFrom": [
+                "Pigs"
+            ],
+            "makes": [
+                "Truffle Oil",
+                "Dark Bandana Shirt"
+            ],
+            "gifting": {"loves":["Leah"],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Maru"]}
+        },
+        {
+            "id": 13,
+            "name": "Void Egg",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Void_Egg",
+            "sellPrice": "65",
+            "obtainedFrom": [
+                "Void Chicken",
+                "Witch",
+                "Krobus"
+            ],
+            "makes": [
+                "Void Mayonnaise",
+                "Fried Egg",
+                "Omelet",
+                "Pancakes",
+                "Chocolate Cake",
+                "Pink Cake",
+                "Cookie",
+                "Blueberry Tart",
+                "Crab Cakes",
+                "Shirt"
+            ],
+            "gifting": {"loves":["Krobus","Sebastian"],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"hates":["Leah"]}
+        },
+        {
+            "id": 14,
+            "name": "Wool",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Wool",
+            "sellPrice": "340",
+            "obtainedFrom": [
+                "Rabbit",
+                "Sheep"
+            ],
+            "makes": [
+                "Cloth",
+                "Plain Shirt"
+            ],
+            "gifting": {"loves":["Emily"],"likes":["Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":["Penny"],"hates":[]}
+        },
+        
+
+
+
+
+
+
+
+
+
+
+        {
+            "id": 15,
+            "name": "Amphibian Fossil",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Amphibian_Fossil",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Artifact Spot in the Forest (1%)",
+                "Artifact Spot in the Mountain (1%)",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Excavator Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 16,
+            "name": "Anchor",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Anchor",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (5%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Captain's Uniform"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 17,
+            "name": "Ancient Doll",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Ancient_Doll",
+            "sellPrice": "60",
+            "obtainedFrom": [
+                "Artifact Spot in the Bus Stop (3%)",
+                "Artifact Spot in the Cindersap Forest (3%)",
+                "Artifact Spot in the Mountain (4%)",
+                "Artifact Spot in the Pelican Town (1%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Doll Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 18,
+            "name": "Ancient Drum",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Ancient_Drum",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Bus Stop (1%)",
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Spot in the Pelican Town (0.5%)",
+                "Frozen Geode (3.33%)",
+                "Omni Geode (1%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Regal Mantle"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 19,
+            "name": "Ancient Seed",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Ancient_Seed",
+            "sellPrice": "5",
+            "obtainedFrom": [
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Spot in the Mountain (1%)",
+                "Bug (0.5% chance drop)",
+                "Cave Fly (0.5% chance drop)",
+                "Grub (0.5% chance drop)",
+                "Mutant Fly (0.5% chance drop)",
+                "Mutant Grub (0.5% chance drop)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Ancient Seeds",
+                "Brown Suit"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 20,
+            "name": "Ancient Sword",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Ancient_Sword",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Spot in the Mountain (0.8%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Green Tunic"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 21,
+            "name": "Arrowhead",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Arrowhead",
+            "sellPrice": "40",
+            "obtainedFrom": [
+                "Artifact Spot in the Bus Stop (2%)",
+                "Artifact Spot in the Cindersap Forest (2%)",
+                "Artifact Spot in the Mountain (2%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Soft Arrow Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 22,
+            "name": "Bone Flute",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Bone_Flute",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Spot in the Mountain (1%)",
+                "Artifact Spot in the Pelican Town (0.5%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Blue Long Vest"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 23,
+            "name": "Chewing Stick",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Chewing_Stick",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Artifact Spot in the Cindersap Forest (2%)",
+                "Artifact Spot in the Mountain (2%)",
+                "Artifact Spot in the Pelican Town (1%)",
+                "Duggy (2% chance drop)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Canvas Jacket"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 24,
+            "name": "Chicken Statue",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Chicken_Statue",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Artifact Spot in the Farm (10%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Fluffy Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 25,
+            "name": "Chipped Amphora",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Chipped_Amphora",
+            "sellPrice": "40",
+            "obtainedFrom": [
+                "Artifact Spot in the Pelican Town (4%)",
+                "Artifact Trove"
+            ],
+            "makes": [
+                "Antiquity Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 26,
+            "name": "Dried Starfish",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Dried_Starfish",
+            "sellPrice": "40",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (10%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Golden Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 27,
+            "name": "Dwarf Gadget",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Dwarf_Gadget",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Magma Geode (3.8%)",
+                "Omni Geode (1%)",
+                "Tilling in the Mines (level 41-80)(0.1%)",
+                "Artifact Trove"
+            ],
+            "makes": [
+                "Wereable Dwarf Helm"
+            ],
+            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 28,
+            "name": "Dwarf Scroll I",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Dwarf_Scroll_I",
+            "sellPrice": "1",
+            "obtainedFrom": [
+                "Bat (0.5% chance drop)",
+                "Bug (0.5% chance drop)",
+                "Cave Fly (0.5% chance drop)",
+                "Duggy (0.5% chance drop)",
+                "Green Slime (0.5% chance drop)",
+                "Grub (0.5% chance drop)",
+                "Rock Crab (0.5% chance drop)",
+                "Stone Golem (0.5% chance drop)",
+                "Tilling in the Mines or Skull Cavern"
+            ],
+            "makes": [
+                "Gold Trimmed Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 29,
+            "name": "Dwarf Scroll II",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Dwarf_Scroll_II",
+            "sellPrice": "1",
+            "obtainedFrom": [
+                "Blue Slime (0.5% chance drop)",
+                "Dust Sprite (0.5% chance drop)",
+                "Frost Bat (0.5% chance drop)",
+                "Ghost (0.5% chance drop)",
+                "Tilling in the Mines"
+            ],
+            "makes": [
+                "Gold Trimmed Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 30,
+            "name": "Dwarf Scroll III",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Dwarf_Scroll_III",
+            "sellPrice": "1",
+            "obtainedFrom": [
+                "Blue Slime (1.5% chance drop)",
+                "Red Slime (0.5% chance drop)",
+                "Purple Slime (0.5% chance drop)",
+                "Lava Bat (0.5% chance drop)",
+                "Lava Crab (0.5% chance drop)",
+                "Squid Kid (0.5% chance drop)",
+                "Shadow Brute (0.5% chance drop)",
+                "Shadow Shaman (0.5% chance drop)",
+                "Metal Head (0.5% chance drop)"
+            ],
+            "makes": [
+                "Gold Trimmed Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 31,
+            "name": "Dwarf Scroll IV",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Dwarf_Scroll_IV",
+            "sellPrice": "1",
+            "obtainedFrom": [
+                "Any Monster other than: Skeleton, Serpent, Wilderness Golem, Carbon Ghost, Iridium Bat, Iridium Crab, or Haunted Skull (0.1% chance drop)",
+                "Tilling in the Mines (level 80+)"
+            ],
+            "makes": [
+                "Gold Trimmed Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 32,
+            "name": "Dwarvish Helm",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Dwarvish_Helm",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Geode (3%)",
+                "Omni Geode (1%)",
+                "Artifact Trove",
+                "Tilling in the Mines (level 1-40)(0.1%)"
+            ],
+            "makes": [
+                "Wereable Dwarf Helm"
+            ],
+            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 33,
+            "name": "Elvish Jewelry",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Elvish_Jewelry",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Jewelry Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 34,
+            "name": "Glass Shards",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Glass_Shards",
+            "sellPrice": "20",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (10%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Officer Uniform"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 35,
+            "name": "Golden Mask",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Golden_Mask",
+            "sellPrice": "500",
+            "obtainedFrom": [
+                "Artifact Spot in the Desert (4%)",
+                "Artifact Trove"
+            ],
+            "makes": [
+                "Golden Mask (hat)"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 36,
+            "name": "Golden Relic",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Golden_Relic",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Artifact Spot in the Desert (8%)",
+                "Artifact Trove"
+            ],
+            "makes": [
+                "Relic Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 37,
+            "name": "Nautilus Fossil",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Nautilus_Fossil",
+            "sellPrice": "80",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (3%)",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Excavator Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 38,
+            "name": "Ornamental Fan",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Ornamental_Fan",
+            "sellPrice": "300",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (2%)",
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Spot in the Pelican Town (0.8%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Bridal Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 39,
+            "name": "Palm Fossil",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Palm_Fossil",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (1%)",
+                "Artifact Spot in the Desert (10%)",
+                "Artifact Spot in the Forest (1%)",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Excavator Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 40,
+            "name": "Prehistoric Handaxe",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Prehistoric_Handaxe",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Artifact Spot in the Bus Stop (5%)",
+                "Artifact Spot in the Cindersap Forest (5%)",
+                "Artifact Spot in the Mountain (5%)",
+                "Artifact Trove"
+            ],
+            "makes": [
+                "Caveman Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 41,
+            "name": "Prehistoric Rib",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Prehistoric_Rib",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Farm (1%)",
+                "Artifact Spot in the Pelican Town (1%)",
+                "Pepper Rex (22.5% chance drop)"
+            ],
+            "makes": [
+                "Skeleton Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 42,
+            "name": "Prehistoric Scapula",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Prehistoric_Scapula",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Spot in the Pelican Town (1%)"
+            ],
+            "makes": [
+                "Skeleton Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 43,
+            "name": "Prehistoric Skull",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Prehistoric_Skull",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Mountain (1%)",
+                "Haunted Skull (1.3%)"
+            ],
+            "makes": [
+                "Skull Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 44,
+            "name": "Prehistoric Tibia",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Prehistoric_Tibia",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Cindersap Forest (1%)",
+                "Artifact Spot in the Railroad (1%)",
+                "Pepper Rex (22.5% chance drop)"
+            ],
+            "makes": [
+                "Hair Bone"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 45,
+            "name": "Prehistoric Tool",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Prehistoric_Tool",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Artifact Spot in the Bus Stop (4%)",
+                "Artifact Spot in the Cindersap Forest (3%)",
+                "Artifact Spot in the Mountain (3%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Caveman Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 46,
+            "name": "Prehistoric Vertebra",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Prehistoric_Vertebra",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Bus Stop (1%)",
+                "Pepper Rex (22.5%)"
+            ],
+            "makes": [
+                "Skeleton Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 47,
+            "name": "Rare Disc",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Rare_Disc",
+            "sellPrice": "300",
+            "obtainedFrom": [
+                "Bat (rare chance drop)",
+                "Frost Bat (rare chance drop)",
+                "Lava Bat (rare chance drop)",
+                "Shadow Brute (rare chance drop)",
+                "Shadow Shaman (rare chance drop)",
+                "Artifact Trove",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Navy Tuxedo"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 48,
+            "name": "Rusty Cog",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Rusty_Cog",
+            "sellPrice": "25",
+            "obtainedFrom": [
+                "Artifact Spot in the Mountain (5%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests",
+                "Tilling in the Mines or Skull Cavern"
+            ],
+            "makes": [
+                "Circuitboard Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 49,
+            "name": "Rusty Spoon",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Rusty_Spoon",
+            "sellPrice": "25",
+            "obtainedFrom": [
+                "Artifact Spot in the Farm (1%)",
+                "Artifact Spot in the Pelican Town (5%)",
+                "Fishing Treasure Chests",
+                "Tilling in the Mines or Skull Cavern"
+            ],
+            "makes": [
+                "Rusty Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 50,
+            "name": "Rusty Spur",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Rusty_Spur",
+            "sellPrice": "25",
+            "obtainedFrom": [
+                "Artifact Spot in the Farm (10%)",
+                "Artifact Trove",
+                "Fishing Treasure Chests",
+                "Tilling in the Mines or Skull Cavern"
+            ],
+            "makes": [
+                "Cowboy Poncho"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 51,
+            "name": "Skeletal Hand",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Skeletal_Hand",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (1%)",
+                "Artifact Spot in the Backwoods (1%)",
+                "Haunted Skull (1.3% chance drop)"
+            ],
+            "makes": [
+                "Skeleton Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 52,
+            "name": "Skeletal Tail",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Skeletal_Tail",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Fishing Treasure Chests",
+                "Tilling in the Mines or Skull Cavern"
+            ],
+            "makes": [
+                "Skeleton Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 53,
+            "name": "Strange Doll (green)",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Strange_Doll_(green)",
+            "sellPrice": "1000",
+            "obtainedFrom": [
+                "Artifact Spot anywhere except the Desert (0.1%)",
+                "Fishing Treasure Chests",
+                "Tilling in the Mines or Skull Cavern",
+                "Secret Note #17"
+            ],
+            "makes": [
+                "Wumbus Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 54,
+            "name": "Strange Doll (yellow)",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Strange_Doll_(yellow)",
+            "sellPrice": "1000",
+            "obtainedFrom": [
+                "Artifact Spot anywhere except the Desert (0.1%)",
+                "Fishing Treasure Chests",
+                "Tilling in the Mines or Skull Cavern",
+                "Secret Note #18"
+            ],
+            "makes": [
+                "Bobo Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 55,
+            "name": "Trilobite",
+            "type": "Artifacts",
+            "link": "https://stardewvalleywiki.com/Trilobite",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Artifact Spot in the Beach (3%)",
+                "Artifact Spot in the Mountain (3%)",
+                "Artifact Spot in the Cindersap Forest (3%)"
+            ],
+            "makes": [
+                "Excavator Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+
+
+
+
+
+
+
+
+
+
+        
+        {
+            "id": ,
+            "name": "",
+            "type": "Artifacts",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                "Fishing Treasure Chests",
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        }
+    ]
+}
