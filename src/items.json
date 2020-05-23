@@ -67,6 +67,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Duck_Egg",
             "sellPrice": "95",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
             "obtainedFrom": [
                 "Duck"
             ],
@@ -104,6 +108,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Egg",
             "sellPrice": "50",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
             "obtainedFrom": [
                 "Chicken"
             ],
@@ -127,6 +135,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Goat_Milk",
             "sellPrice": "225",
+            "healing": {
+                "energy": 63,
+                "health": 28
+            },
             "obtainedFrom": [
                 "Goat"
             ],
@@ -142,6 +154,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Large_Egg",
             "sellPrice": "95",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
             "obtainedFrom": [
                 "Chicken"
             ],
@@ -165,6 +181,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Large_Goat_Milk",
             "sellPrice": "345",
+            "healing": {
+                "energy": 88,
+                "health": 39
+            },
             "obtainedFrom": [
                 "Goat"
             ],
@@ -180,6 +200,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Large_Milk",
             "sellPrice": "190",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
             "obtainedFrom": [
                 "Cow"
             ],
@@ -206,6 +230,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Milk",
             "sellPrice": "125",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
             "obtainedFrom": [
                 "Cow"
             ],
@@ -247,6 +275,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Roe",
             "sellPrice": "30 + (base fish price / 2)",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
             "obtainedFrom": [
                 "Fish Pond"
             ],
@@ -265,7 +297,7 @@
             "sellPrice": "5",
             "obtainedFrom": [
                 "Slimes",
-                "Krobus",
+                "Krobus on Mondays (10g)",
                 "Slime Ball",
                 "Fish Pond"
             ],
@@ -286,6 +318,10 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Truffle",
             "sellPrice": "625",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
             "obtainedFrom": [
                 "Pigs"
             ],
@@ -301,10 +337,14 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Void_Egg",
             "sellPrice": "65",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
             "obtainedFrom": [
                 "Void Chicken",
                 "Witch",
-                "Krobus"
+                "Krobus (5,000g)"
             ],
             "makes": [
                 "Void Mayonnaise",
@@ -1064,6 +1104,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Aged_Roe",
             "sellPrice": "(2 * Roe price)",
+            "healing": {
+                "energy": 100,
+                "health": 45
+            },
             "obtainedFrom": [
                 "Using any Roe (except Sturgeon Roe) in a Preserves Jar"
             ],
@@ -1078,6 +1122,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Beer",
             "sellPrice": "200",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
             "obtainedFrom": [
                 "Using a Wheat in a Keg",
                 "The Saloon"
@@ -1093,6 +1141,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Caviar",
             "sellPrice": "500",
+            "healing": {
+                "energy": 175,
+                "health": 78
+            },
             "obtainedFrom": [
                 "Using a Sturgeon Roe in a Preserves Jar"
             ],
@@ -1107,6 +1159,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Cheese",
             "sellPrice": "230",
+            "healing": {
+                "energy": 125,
+                "health": 56
+            },
             "obtainedFrom": [
                 "Using any Cow Milk in a Cheese Press"
             ],
@@ -1141,6 +1197,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Coffee",
             "sellPrice": "150",
+            "healing": {
+                "energy": 3,
+                "health": 1
+            },
             "obtainedFrom": [
                 "Using 5 Coffee Beans in a Keg",
                 "The Saloon"
@@ -1185,6 +1245,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Goat_Cheese",
             "sellPrice": "400",
+            "healing": {
+                "energy": 125,
+                "health": 56
+            },
             "obtainedFrom": [
                 "Using a Goat Milk in a Cheese Press"
             ],
@@ -1199,6 +1263,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Green_Tea",
             "sellPrice": "100",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
             "obtainedFrom": [
                 "Using Tea Leaves in a Keg"
             ],
@@ -1229,6 +1297,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Juice",
             "sellPrice": "(2.25 * base vegetable price)",
+            "healing": {
+                "energy": 75,
+                "health": 33
+            },
             "obtainedFrom": [
                 "Using any vegetable (except Wheat, Hops or Tea Leaves) in a Keg"
             ],
@@ -1259,6 +1331,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Mead",
             "sellPrice": "200",
+            "healing": {
+                "energy": 75,
+                "health": 33
+            },
             "obtainedFrom": [
                 "Using a Honey in a Keg"
             ],
@@ -1273,9 +1349,13 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Oil",
             "sellPrice": "100",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
             "obtainedFrom": [
                 "Using Corn, Sunflower or Sunflower Seeds in an Oil Maker",
-                "Pierre's"
+                "Pierre's Store (200g)"
             ],
             "makes": [
                 "Bruschetta",
@@ -1299,6 +1379,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Pale_Ale",
             "sellPrice": "300",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
             "obtainedFrom": [
                 "Using Hops in a Keg"
             ],
@@ -1313,6 +1397,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Truffle_Oil",
             "sellPrice": "1065",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
             "obtainedFrom": [
                 "Using a Truffle in an Oil Maker"
             ],
@@ -1343,6 +1431,10 @@
             "type": "Artisan Goods",
             "link": "https://stardewvalleywiki.com/Wine",
             "sellPrice": "(3 * base fruit price)",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
             "obtainedFrom": [
                 "Using any Fruit in a Keg"
             ],
@@ -1358,1054 +1450,1294 @@
 
 
         {
-            "id": ,
-            "name": "",
+            "id": 75,
+            "name": "Bait",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Bait_(item)",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 2",
+                "Fish Shop (5g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Bug Meat", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 76,
+            "name": "Magnet",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Magnet",
+            "sellPrice": "15",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 9",
+                "Fish Shop (1,000g after reaching Fishing skill level 9)",
+                "Krobus on Wednesdays (200g)",
+                "Festival of Ice",
+                "Casino"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Iron Bar", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 77,
+            "name": "Wild Bait",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Wild_Bait",
+            "sellPrice": "15",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned with Linus (4-heart event)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Fiber", "qty": 10 },
+                { "id": "Slime", "qty": 5 },
+                { "id": "Bug Meat", "qty": 5 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 78,
+            "name": "Barrel Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Barrel_Brazier",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (800g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 50 },
+                { "id": "Solar Essence", "qty": 1 },
+                { "id": "Coal", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 79,
+            "name": "Campfire",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Campfire",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Stone", "qty": 10 },
+                { "id": "Wood", "qty": 10 },
+                { "id": "Fiber", "qty": 10 }
+            ]
         },
+
         {
-            "id": ,
-            "name": "",
+            "id": 80,
+            "name": "Carved Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Carved_Brazier",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (2,000g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Hardwood", "qty": 10 },
+                { "id": "Coal", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 81,
+            "name": "Gold Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Gold_Brazier",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (1,000g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Gold Bar", "qty": 1 },
+                { "id": "Coal", "qty": 1 },
+                { "id": "Fiber", "qty": 5 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 82,
+            "name": "Iron Lamp-post",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Iron_Lamp-post",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (1,000g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Battery Pack", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 83,
+            "name": "Jack-O-Lantern",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Jack-O-Lantern",
+            "sellPrice": "0",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Pierre's Booth on Spirit's Eve festival (2,000g)",
+                "Pierre's Booth on Spirit Eve (750g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Pumpkin", "qty": 1 },
+                { "id": "Torch", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Pumpkin Mask"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 84,
+            "name": "Marble Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Marble_Brazier",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (5,000g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Marble", "qty": 1 },
+                { "id": "Aquamarine", "qty": 1 },
+                { "id": "Stone", "qty": 100 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 85,
+            "name": "Skull Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Skull_Brazier",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (3,000g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Hardwood", "qty": 10 },
+                { "id": "Solar Essence", "qty": 1 },
+                { "id": "Coal", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 86,
+            "name": "Stone Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Stone_Brazier",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (400g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Stone", "qty": 10 },
+                { "id": "Coal", "qty": 1 },
+                { "id": "Fiber", "qty": 5 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 87,
+            "name": "Stump Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Stump_Brazier",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (800g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Hardwood", "qty": 5 },
+                { "id": "Coal", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 88,
+            "name": "Torch",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Torch",
+            "sellPrice": "5",
             "obtainedFrom": [
-                ""
+                "Crafting"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 1 },
+                { "id": "Sap", "qty": 2 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Jack-O-Lantern",
+                "High Heat Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 89,
+            "name": "Wood Lamp-post",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Wood_Lamp-post",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (500g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 50 },
+                { "id": "Battery Pack", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 90,
+            "name": "Wooden Brazier",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Wooden_Brazier",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (250g)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 10 },
+                { "id": "Coal", "qty": 1 },
+                { "id": "Fiber", "qty": 5 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 91,
+            "name": "Brick Floor",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Brick_Floor",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (500g)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Clay", "qty": 2 },
+                { "id": "Stone", "qty": 5 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 92,
+            "name": "Cobblestone Path",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Cobblestone_Path",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Stone", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 93,
+            "name": "Crystal Floor",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Crystal_Floor",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is purchased from Krobus (500g)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Refined Quartz", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 94,
+            "name": "Crystal Path",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Crystal_Path",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (200g)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Refined Quartz", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 95,
+            "name": "Gravel Path",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Gravel_Path",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Stone", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 96,
+            "name": "Stepping Stone Path",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Stepping_Stone_Path",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (100g)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Stone", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 97,
+            "name": "Stone Floor",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Stone_Floor",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (100g)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Stone", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 98,
+            "name": "Straw Floor",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Straw_Floor",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (200g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 1 },
+                { "id": "Fiber", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 99,
+            "name": "Weathered Flood",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Weathered_Floor",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Dwarf (500g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 100,
+            "name": "Wood Floor",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Wood_Floor",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is purchased from the Carpenter's Shop (100g)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 101,
+            "name": "Wood Path",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Wood_Path",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 102,
+            "name": "Gate",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Gate",
+            "sellPrice": "4",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 10 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 103,
+            "name": "Hardwood Fence",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Hardwood_Fence",
+            "sellPrice": "10",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 6"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Hardwood", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 104,
+            "name": "Iron Fence",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Iron_Fence",
+            "sellPrice": "6",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 4"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Iron Bar", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 105,
+            "name": "Stone Fence",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Stone_Fence",
+            "sellPrice": "2",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 2"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Stone", "qty": 2 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 106,
+            "name": "Wood Fence",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Wood_Fence",
+            "sellPrice": "1",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 2 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 107,
+            "name": "Basic Fertilizer",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Basic_Fertilizer",
+            "sellPrice": "2",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 1",
+                "Pierre's Store (100g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Sap", "qty": 2 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Hight-Waisted Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 108,
+            "name": "Basic Retaining Soil",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Basic_Retaining_Soil",
+            "sellPrice": "4",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 4",
+                "Pierre's Store (100g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Stone", "qty": 2 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Hight-Waisted Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 109,
+            "name": "Deluxe Speed-Gro",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Deluxe_Speed-Gro",
+            "sellPrice": "40",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 8",
+                "Pierre's Store (year 2+) (150g)",
+                "Oasis on Thursdays (80g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Oak Resin", "qty": 1 },
+                { "id": "Coral", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Hight-Waisted Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 110,
+            "name": "Quality Fertilizer",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Quality_Fertilizer",
+            "sellPrice": "10",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 9",
+                "Pierre's Store (year 2+) (150g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Sap", "qty": 2 },
+                { "id": "Any Fish", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Hight-Waisted Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 111,
+            "name": "Quality Retaining Soil",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Quality_Retaining_Soil",
+            "sellPrice": "5",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 7",
+                "Pierre's Store (150g)",
+                "Oasis on Saturdays (200g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Stone", "qty": 3 },
+                { "id": "Clay", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Hight-Waisted Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 112,
+            "name": "Speed-Gro",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Speed-Gro",
+            "sellPrice": "20",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 3",
+                "Pierre's Store (100g)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Pine Tar", "qty": 1 },
+                { "id": "Clam", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Hight-Waisted Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 113,
+            "name": "Tree Fertilizer",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Tree_Fertilizer",
+            "sellPrice": "10",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Foraging skill level 3"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Fiber", "qty": 5 },
+                { "id": "Stone", "qty": 5 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Hight-Waisted Shirt"
+            ]
         },
         {
-            "id": ,
-            "name": "",
-            "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "id": 114,
+            "name": "Return Scepter",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Return_Scepter",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+                "Krobus (2,000,000g)"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 115,
+            "name": "Warp Totem: Beach",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Warp_Totem:_Beach",
+            "sellPrice": "20",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Foraging skill level 6"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Hardwood", "qty": 1 },
+                { "id": "Coral", "qty": 2 },
+                { "id": "Fiber", "qty": 10 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Totem Mask"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 116,
+            "name": "Warp Totem: Desert",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Warp_Totem:_Desert",
+            "sellPrice": "20",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is traded with Desert Trader (for 10 Iridium Bars)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Hardwood", "qty": 2 },
+                { "id": "Coconut", "qty": 1 },
+                { "id": "Iridium Ore", "qty": 4 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Totem Mask"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 117,
+            "name": "Warp Totem: Farm",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Warp_Totem:_Farm",
+            "sellPrice": "20",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Foraging skill level 8"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Hardwood", "qty": 1 },
+                { "id": "Honey", "qty": 1 },
+                { "id": "Fiber", "qty": 20 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Totem Mask"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 118,
+            "name": "Warp Totem: Mountains",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Warp_Totem:_Mountains",
+            "sellPrice": "20",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Foraging skill level 7"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Hardwood", "qty": 1 },
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Stone", "qty": 25 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Totem Mask"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 119,
+            "name": "Warp Totem: Beach",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Warp_Totem:_Beach",
+            "sellPrice": "20",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Foraging skill level 6"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Hardwood", "qty": 1 },
+                { "id": "Coral", "qty": 2 },
+                { "id": "Fiber", "qty": 10 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Totem Mask"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 120,
+            "name": "Barbed Hook",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Barbed_Hook",
+            "sellPrice": "500",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 8",
+                "Fish Shop (1,000g after reaching Fishing skill level 8)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Copper Bar", "qty": 1 },
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Gold Bar", "qty": 1 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 121,
+            "name": "Bee House",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Bee_House",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 3"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Coal", "qty": 8 },
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Maple Syrup", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Honey"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 122,
+            "name": "Bomb",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Bomb",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Mining skill level 6",
+                "Dwarf (600g)",
+                "Bat (20% chance drop)",
+                "Frost Bat (2% chance drop)",
+                "Lava Bat (20% chance drop)",
+                "Lava Crab (40% chance drop)",
+                "Serpent (15% chance drop)",
+                "Squid Kid (10% chance drop)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Iron Ore", "qty": 4 },
+                { "id": "Coal", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Bomber Jacket"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 123,
+            "name": "Cask",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Cask",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe after the final Farmhouse upgrade"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 20 },
+                { "id": "Hardwood", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Wine",
+                "Pale Ale",
+                "Beer",
+                "Mead",
+                "Cheese",
+                "Goat Cheese"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 124,
+            "name": "Charcoal Kiln",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Charcoal_Kiln",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Foraging skill level 4"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 20 },
+                { "id": "Copper Bar", "qty": 2 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Coal"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 125,
+            "name": "Cheese Press",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Cheese_Press",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Farming skill level 6"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 45 },
+                { "id": "Stone", "qty": 45 },
+                { "id": "Hardwood", "qty": 10 },
+                { "id": "Copper Bar", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Cheese",
+                "Goat Cheese"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 126,
+            "name": "Cherry Bomb",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Cherry_Bomb",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Mining skill level 1",
+                "Dwarf (300g)",
+                "Rock Crab (40% chance drop)",
+                "Duggy (25% chance drop)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Copper Ore", "qty": 4 },
+                { "id": "Coal", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Bomber Jacket"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 127,
+            "name": "Chest",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Chest",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 50 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 128,
+            "name": "Cork Bobber",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Cork_Bobber",
+            "sellPrice": "250",
             "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 7",
+                "Fish Shop (750g after reaching Fishing skill level 7)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 10 },
+                { "id": "Hardwood", "qty": 5 },
+                { "id": "Slime", "qty": 10 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 129,
+            "name": "Crab Pot",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Crab_Pot",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Trash",
+                "Driftwood",
+                "Soggy Newspaper",
+                "Broken CD",
+                "Broken Glasses",
+                "Lobster",
+                "Clam",
+                "Crab",
+                "Cockle",
+                "Mussel",
+                "Shrimp",
+                "Oyster",
+                "Crayfish",
+                "Snail",
+                "Periwinkle"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 130,
+            "name": "Crystalarium",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Crystalarium",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Mining skill level 9",
+                "Museum Reward (after donating 50 minerals)",
+                "25,000g Bundle Reward"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Stone", "qty": 99 },
+                { "id": "Gold Bar", "qty": 5 },
+                { "id": "Iridium Bar", "qty": 2 },
+                { "id": "Battery Pack", "qty": 1 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Any Gem or Mineral (except Prismatic Shard)"
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 131,
+            "name": "Deluxe Scarecrow",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Deluxe_Scarecrow",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned after obtaining all 8 rarecrows"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 50 },
+                { "id": "Iridium Ore", "qty": 1 },
+                { "id": "Fiber", "qty": 40 }
+            ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 132,
+            "name": "Dressed Spinner",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "",
+            "link": "https://stardewvalleywiki.com/Dressed_Spinner",
+            "sellPrice": "500",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 8",
+                "Fish Shop (1,000g after reaching Fishing skill level 8)",
+                "Festival of Ice"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
-            ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "recipe": [
+                { "id": "Iron Bar", "qty": 2 },
+                { "id": "Cloth", "qty": 1 }
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
         {
             "id": ,
             "name": "",
             "type": "Craftable Items",
             "link": "",
-            "sellPrice": "",
+            "sellPrice": "50",
             "obtainedFrom": [
-                ""
+                "Crafting",
+                "Recipe is earned at Fishing skill level 3",
+                "Fish Shop (1,500g after reaching Fishing skill level 3)"
             ],
-            "makes": [
-                ""
+            "recipe": [
+                { "id": "Wood", "qty": 40 },
+                { "id": "Iron Bar", "qty": 3 }
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "",
+            ]
         },
+    
     ]
 }
