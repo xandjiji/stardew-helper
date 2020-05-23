@@ -1057,20 +1057,1355 @@
 
 
 
-        
+
+        {
+            "id": 56,
+            "name": "Aged Roe",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Aged_Roe",
+            "sellPrice": "(2 * Roe price)",
+            "obtainedFrom": [
+                "Using any Roe (except Sturgeon Roe) in a Preserves Jar"
+            ],
+            "makes": [
+                "Gobbly Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 57,
+            "name": "Beer",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Beer",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Using a Wheat in a Keg",
+                "The Saloon"
+            ],
+            "makes": [
+                "Black Leather Jacket"
+            ],
+            "gifting": {"loves":["Pam","Shane"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+        },
+        {
+            "id": 58,
+            "name": "Caviar",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Caviar",
+            "sellPrice": "500",
+            "obtainedFrom": [
+                "Using a Sturgeon Roe in a Preserves Jar"
+            ],
+            "makes": [
+                "Fashion Hat"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 59,
+            "name": "Cheese",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Cheese",
+            "sellPrice": "230",
+            "obtainedFrom": [
+                "Using any Cow Milk in a Cheese Press"
+            ],
+            "makes": [
+                "Cheese Cauliflower",
+                "Pizza",
+                "Pepper Poppers",
+                "Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Harvey"],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 60,
+            "name": "Cloth",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Cloth",
+            "sellPrice": "470",
+            "obtainedFrom": [
+                "Using a Wool in a Loom",
+                "Using a Soggy Newspaper in a Recycling Machine",
+                "Mummy (25% chance drop)"
+            ],
+            "makes": [
+                "Dressed Spinner",
+                "Mill"
+            ],
+            "gifting": {"loves":["Emily"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 61,
+            "name": "Coffee",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Coffee",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Using 5 Coffee Beans in a Keg",
+                "The Saloon"
+            ],
+            "makes": [
+                "Triple Shot Espresso",
+                "Pour-Over Shirt"
+            ],
+            "gifting": {"loves":["Harvey"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Vincent"]}
+        },
+        {
+            "id": 62,
+            "name": "Dinosaur Mayonnaise",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Dinosaur_Mayonnaise",
+            "sellPrice": "800",
+            "obtainedFrom": [
+                "Using a Dinosaur Egg in a Mayonnaise Machine"
+            ],
+            "makes": [
+                "Dinosaur Pants"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 63,
+            "name": "Duck Mayonnaise",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Duck_Mayonnaise",
+            "sellPrice": "375",
+            "obtainedFrom": [
+                "Using a Duck Egg in a Mayonnaise Machine"
+            ],
+            "makes": [
+                "Aquamarine Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Caroline"],"hates":["Jas","Sam","Sebastian","Vincent"]}
+        },
+        {
+            "id": 64,
+            "name": "Goat Cheese",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Goat_Cheese",
+            "sellPrice": "400",
+            "obtainedFrom": [
+                "Using a Goat Milk in a Cheese Press"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {"loves":["Leah","Robin"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Harvey"],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 65,
+            "name": "Green Tea",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Green_Tea",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Using Tea Leaves in a Keg"
+            ],
+            "makes": [
+                "Tea Shirt"
+            ],
+            "gifting": {"loves":["Caroline","Lewis"],"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Vincent"]}
+        },
+        {
+            "id": 66,
+            "name": "Honey",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Honey",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Produced by the Bee House (in Spring, Summer or Fall)"
+            ],
+            "makes": [
+                "Warp Totem: Farm",
+                "Mead",
+                "Simple Dress"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Maru","Sebastian"]}
+        },
+        {
+            "id": 67,
+            "name": "Juice",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Juice",
+            "sellPrice": "(2.25 * base vegetable price)",
+            "obtainedFrom": [
+                "Using any vegetable (except Wheat, Hops or Tea Leaves) in a Keg"
+            ],
+            "makes": [
+                "Sports Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 68,
+            "name": "Mayonnaise",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Mayonnaise",
+            "sellPrice": "190",
+            "obtainedFrom": [
+                "Using any Chicken Egg in a Mayonnaise Machine"
+            ],
+            "makes": [
+                "Coleslaw",
+                "Fish Taco",
+                "Light Blue Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Caroline"],"hates":["Jas","Sam","Sebastian","Vincent"]}
+        },
+        {
+            "id": 69,
+            "name": "Mead",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Mead",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Using a Honey in a Keg"
+            ],
+            "makes": [
+                "Black Leather Jacket"
+            ],
+            "gifting": {"loves":["Pam","Willy"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Shane","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+        },
+        {
+            "id": 70,
+            "name": "Oil",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Oil",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Using Corn, Sunflower or Sunflower Seeds in an Oil Maker",
+                "Pierre's"
+            ],
+            "makes": [
+                "Bruschetta",
+                "Crab Cakes",
+                "Crispy Bass",
+                "Fiddlehead Risotto",
+                "Fried Calamari",
+                "Fried Eel",
+                "Fried Mushroom",
+                "Hashbrowns",
+                "Oil of Garlic",
+                "Radish Salad",
+                "Stir Fry",
+                "Oil Stained Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 71,
+            "name": "Pale Ale",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Pale_Ale",
+            "sellPrice": "300",
+            "obtainedFrom": [
+                "Using Hops in a Keg"
+            ],
+            "makes": [
+                "Black Leather Jacket"
+            ],
+            "gifting": {"loves":["Pam"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+        },
+        {
+            "id": 72,
+            "name": "Truffle Oil",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Truffle_Oil",
+            "sellPrice": "1065",
+            "obtainedFrom": [
+                "Using a Truffle in an Oil Maker"
+            ],
+            "makes": [
+                "Rain Totem",
+                "Dark Bandana Shirt"
+            ],
+            "gifting": {"loves":["Harvey"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+        },
+        {
+            "id": 73,
+            "name": "Void Mayonnaise",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Void_Mayonnaise",
+            "sellPrice": "275",
+            "obtainedFrom": [
+                "Using a Void Egg in a Mayonnaise Machine"
+            ],
+            "makes": [
+                "Strange Bun",
+                "Polka Dot Shirt"
+            ],
+            "gifting": {"loves":["Krobus"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 74,
+            "name": "Wine",
+            "type": "Artisan Goods",
+            "link": "https://stardewvalleywiki.com/Wine",
+            "sellPrice": "(3 * base fruit price)",
+            "obtainedFrom": [
+                "Using any Fruit in a Keg"
+            ],
+            "makes": [
+                "Black Leather Jacket"
+            ],
+            "gifting": {"loves":["Harvey","Leah"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+        },
+
+
+
+
+
+
         {
             "id": ,
             "name": "",
-            "type": "Artifacts",
+            "type": "Craftable Items",
             "link": "",
             "sellPrice": "",
             "obtainedFrom": [
-                "Fishing Treasure Chests",
+                ""
             ],
             "makes": [
                 ""
             ],
             "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
-        }
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Craftable Items",
+            "link": "",
+            "sellPrice": "",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
     ]
 }

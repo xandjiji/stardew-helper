@@ -1,7 +1,11 @@
 const cheerio = require('cheerio');
 const rp = require('request-promise');
 
-const baseURL = 'https://stardewvalleywiki.com/Amphibian_Fossil';
+const baseURL = `
+
+https://stardewvalleywiki.com/Wine
+
+`;
 
 
 rp(baseURL)
