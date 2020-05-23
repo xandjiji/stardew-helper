@@ -28,4 +28,11 @@ cassino
 desert trader
 fish shop (fish level)
 festival of ice
+museum donation
+
 likes/deslikes nao fazem sentido
+url data
+prices (terminado com G ou ,)
+green slime egg (outras cores tb)
+
+summer seeds profit (como se fossem crops)

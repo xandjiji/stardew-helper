@@ -3,7 +3,7 @@ const rp = require('request-promise');
 
 const baseURL = `
 
-https://stardewvalleywiki.com/Wine
+https://stardewvalleywiki.com/Oil_of_Garlic
 
 `;
 

@@ -2419,57 +2419,894 @@
             ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 133,
+            "name": "Drum Block",
             "type": "Craftable Items",
-            "link": "",
+            "link": "https://stardewvalleywiki.com/Drum_Block",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned with Robin (6-heart event)",
+                "Museum Reward (after donating 3 artifacts, including the Ancient Drum)"
+            ],
+            "recipe": [
+                { "id": "Stone", "qty": 10 },
+                { "id": "Copper Ore", "qty": 2 },
+                { "id": "Fiber", "qty": 20 }
+            ]
+        },
+        {
+            "id": 134,
+            "name": "Explosive Ammo",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Explosive_Ammo",
+            "sellPrice": "20",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 8",
+                "Adventurer's Guild (300g)"
+            ],
+            "recipe": [
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Coal", "qty": 2 }
+            ]
+        },
+        {
+            "id": 135,
+            "name": "Fall Seeds",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Fall_Seeds",
+            "sellPrice": "45",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 6",
+                "Placing a Common Mushroom in a Seed Maker"
+            ],
+            "recipe": [
+                { "id": "Blackberry", "qty": 1 },
+                { "id": "Common Mushroom", "qty": 1 },
+                { "id": "Hazelnut", "qty": 1 },
+                { "id": "Wild Plum", "qty": 1 }
+            ],
+            "makes": [
+                "Blackberry",
+                "Common Mushroom",
+                "Hazelnut",
+                "Wild Plum"
+            ]
+        },
+        {
+            "id": 136,
+            "name": "Field Snack",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Field_Snack",
+            "sellPrice": "20",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 1"
+            ],
+            "recipe": [
+                { "id": "Acorn", "qty": 1 },
+                { "id": "Maple Seed", "qty": 1 },
+                { "id": "Pine Cone", "qty": 1}
+            ],
+            "makes": [
+                "Denin Jacket"
+            ]
+        },
+        {
+            "id": 137,
+            "name": "Flute Block",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Flute_Block",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned with Robin (6-heart event)",
+                "Museum Reward (after donating 3 artifacts, including the Bone Flute)"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 10 },
+                { "id": "Copper Ore", "qty": 2 },
+                { "id": "Fiber", "qty": 20 }
+            ]
+        },
+        {
+            "id": 138,
+            "name": "Furnace",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Furnace",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned with Clint (after collecting 1+ Copper Ore)"
+            ],
+            "recipe": [
+                { "id": "Stone", "qty": 25 },
+                { "id": "Copper Ore", "qty": 20 }
+            ],
+            "makes": [
+                "Wilted Bouquet",
+                "Refined Quartz",
+                "Copper Bar",
+                "Iron Bar",
+                "Gold Bar",
+                "Iridium Bar"
+            ]
+        },
+        {
+            "id": 139,
+            "name": "Garden Pot",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Garden_Pot",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned with Evelyn (after unlocking the Greenhouse)"
+            ],
+            "recipe": [
+                { "id": "Clay", "qty": 1 },
+                { "id": "Stone", "qty": 10 },
+                { "id": "Refined Quartz", "qty": 1 }
+            ],
+            "makes": [
+                "Grows all Crops from any season (when placed indoors)"
+            ]
+        },
+        {
+            "id": 140,
+            "name": "Gold Bar",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Gold_Bar",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Mining skill level 7",
+                "Smelting (5 Gold Ore)"
+            ],
+            "recipe": [
+                { "id": "Iron Bar", "qty": 2 }
+            ],
+            "makes": [
+                "Gold Hoe",
+                "Gold Pickaxe",
+                "Gold Axe",
+                "Gold Watering Can",
+                "Gold Trash Can",
+                "Quality Sprinkler",
+                "Iridium Sprinkler",
+                "Oil Maker",
+                "Ring of Yoba",
+                "Worm Bin",
+                "Crystalarium",
+                "Seed Maker",
+                "Treasure Hunter",
+                "Barbed Hook",
+                "Gold Breastplate"
+            ],
+            "gifting": {"loves":["Clint","Maru"],"likes":["Krobus","Willy"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 141,
+            "name": "Iridium Band",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Iridium_Band",
+            "sellPrice": "1,000",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 9",
+                "Fishing Treasure Chests"
+            ],
+            "recipe": [
+                { "id": "Iridium Bar", "qty": 5 },
+                { "id": "Solar Essence", "qty": 50 },
+                { "id": "Void Essence", "qty": 50 }
+            ]
+        },
+        {
+            "id": 142,
+            "name": "Iridium Sprinkler",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Iridium_Sprinkler",
+            "sellPrice": "1,000",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 9",
+                "Krobus on Fridays (10,000g)"
+            ],
+            "recipe": [
+                { "id": "Gold Bar", "qty": 1 },
+                { "id": "Iridium Bar", "qty": 1 },
+                { "id": "Battery Pack", "qty": 1 }
+            ]
+        },
+        {
+            "id": 143,
+            "name": "Iron Bar",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Iron_Bar",
+            "sellPrice": "120",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Mining skill level 4",
+                "Smelting (5 Iron Ore)"
+            ],
+            "recipe": [
+                { "id": "Copper Bar", "qty": 3 }
+            ],
+            "makes": [
+                "Steel Hoe",
+                "Steel Pickaxe",
+                "Steel Axe",
+                "Steel Watering Can",
+                "Steel Trash Can",
+                "Warrior Ring",
+                "Ring of Yoba",
+                "Explosive Ammo",
+                "Bee House",
+                "Sprinkler",
+                "Iron Fence",
+                "Quality Sprinkler",
+                "Keg",
+                "Crab Pot",
+                "Recycling Machine",
+                "Spinner",
+                "Barbed Hook",
+                "Dressed Spinner",
+                "Worm Bin",
+                "Magnet",
+                "Lightning Rod",
+                "Warp Totem: Mountains",
+                "Gold Bar",
+                "Iron Lamp-post",
+                "Stable",
+                "Steel Breastplate"
+            ],
+            "gifting": {"loves":[],"likes":["Clint","Maru"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 144,
+            "name": "Keg",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Keg",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 8"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 30 },
+                { "id": "Copper Bar", "qty": 1 },
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Oak Resin", "qty": 1 }
+            ],
+            "makes": [
+                "Beer",
+                "Coffee",
+                "Green Tea",
+                "Juice",
+                "Mead",
+                "Pale Ale",
+                "Wine"
+            ]
+        },
+        {
+            "id": 145,
+            "name": "Life Elixir",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Life_Elixir",
+            "sellPrice": "500",
+            "healing": {
+                "energy": 200,
+                "health": 90
+            },
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 2",
+                "Dwarf (2,000g)"
+            ],
+            "recipe": [
+                { "id": "Red Mushroom", "qty": 1 },
+                { "id": "Purple Mushroom", "qty": 1 },
+                { "id": "Morel", "qty": 1 },
+                { "id": "Chanterelle", "qty": 1 }
+            ],
+            "makes": [
+                "Dark Highlight Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Wizard"],"neutrals":[],"dislikes":["Krobus","Willy"],"hates":[]}
+        },
+        {
+            "id": 146,
+            "name": "Lightning Rod",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Lightning_Rod",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 6"
+            ],
+            "recipe": [
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Refined Quartz", "qty": 1 },
+                { "id": "Bat Wing", "qty": 5 }
+            ],
+            "makes": [
+                "Battery Pack"
+            ]
+        },
+        {
+            "id": 147,
+            "name": "Loom",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Loom",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 7"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 60 },
+                { "id": "Fiber", "qty": 30 },
+                { "id": "Pine Tar", "qty": 1 }
+            ],
+            "makes": [
+                "Cloth"
+            ]
+        },
+        {
+            "id": 148,
+            "name": "Mayonnaise Machine",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Mayonnaise_Machine",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 2"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 15 },
+                { "id": "Stone", "qty": 15 },
+                { "id": "Earth Crystal", "qty": 1 },
+                { "id": "Copper Bar", "qty": 1 }
+            ],
+            "makes": [
+                "Mayonnaise",
+                "Duck Mayonnaise",
+                "Void Mayonnaise",
+                "Dinosaur Mayonnaise"
+            ]
+        },
+        {
+            "id": 149,
+            "name": "Mega Bomb",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Mega_Bomb",
             "sellPrice": "50",
             "obtainedFrom": [
                 "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
+                "Recipe is earned at Mining skill level 8",
+                "Dwarf (1,000g)",
+                "Recipe is traded with Desert Trader (for 10 Iridium Ore)",
+                "Squid Kid (5% chance drop)",
+                "Iridium Bat (5% chance drop)",
+                "Haunted Skull (1.3% chance drop)"
+            ],
+            "recipe": [
+                { "id": "Gold Ore", "qty": 4 },
+                { "id": "Solar Essence", "qty": 1 },
+                { "id": "Void Essence", "qty": 1 }
+            ],
+            "makes": [
+                "Bomber Jacket"
+            ]
+        },
+        {
+            "id": 150,
+            "name": "Mini-Jukebox",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Mini-Jukebox",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned with Gus (5-heart event)"
             ],
             "recipe": [
                 { "id": "Iron Bar", "qty": 2 },
-                { "id": "Cloth", "qty": 1 }
+                { "id": "Battery Pack", "qty": 1 }
             ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 151,
+            "name": "Oil Maker",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "50",
+            "link": "https://stardewvalleywiki.com/Oil_Maker",
             "obtainedFrom": [
                 "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
+                "Recipe is earned at Farming skill level 8"
             ],
             "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                { "id": "Slime", "qty": 50 },
+                { "id": "Hardwood", "qty": 20 },
+                { "id": "Gold Bar", "qty": 1 }
             ],
             "makes": [
-                "",
+                "Truffle Oil",
+                "Oil"
             ]
         },
         {
-            "id": ,
-            "name": "",
+            "id": 152,
+            "name": "Oil of Garlic",
             "type": "Craftable Items",
-            "link": "",
-            "sellPrice": "50",
+            "link": "https://stardewvalleywiki.com/Oil_of_Garlic",
+            "sellPrice": "1,000",
+            "healing": {
+                "energy": 200,
+                "health": 90
+            },
             "obtainedFrom": [
                 "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
+                "Recipe is earned at Combat skill level 6"
+            ],
+            "recipe": [
+                { "id": "Garlic", "qty": 10 },
+                { "id": "Oil", "qty": 1 }
+            ],
+            "makes": [
+                "Dark Highlight Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 153,
+            "name": "Preserves Jar",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Preserves_Jar",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 4"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 50 },
+                { "id": "Stone", "qty": 40 },
+                { "id": "Coal", "qty": 8 }
+            ],
+            "makes": [
+                "Pickles",
+                "Jelly",
+                "Caviar",
+                "Aged Roe"
+            ]
+        },
+        {
+            "id": 154,
+            "name": "Quality Sprinkler",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Quality_Sprinkler",
+            "sellPrice": "450",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 6"
+            ],
+            "recipe": [
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Gold Bar", "qty": 1 },
+                { "id": "Refined Quartz", "qty": 1 }
+            ]
+        },
+        {
+            "id": 155,
+            "name": "Rain Totem",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Rain_Totem",
+            "sellPrice": "20",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 9"
+            ],
+            "recipe": [
+                { "id": "Hardwood", "qty": 1 },
+                { "id": "Truffle Oil", "qty": 1 },
+                { "id": "Pine Tar", "qty": 5 }
+            ],
+            "makes": [
+                "Totem Mask"
+            ]
+        },
+        {
+            "id": 156,
+            "name": "Recycling Machine",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Recycling_Machine",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Fishing skill level 4"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 25 },
+                { "id": "Stone", "qty": 25 },
+                { "id": "Iron Bar", "qty": 1 }
+            ],
+            "makes": [
+                "Trash",
+                "Driftwood",
+                "Soggy Newspaper",
+                "Broken CD",
+                "Broken Glasses"
+            ]
+        },
+        {
+            "id": 157,
+            "name": "Ring of Yoba",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Ring_of_Yoba",
+            "sellPrice": "750",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 7"
+            ],
+            "recipe": [
+                { "id": "Iron Bar", "qty": 5 },
+                { "id": "Gold Bar", "qty": 5 },
+                { "id": "Diamond", "qty": 1 }
+            ]
+        },
+        {
+            "id": 158,
+            "name": "Scarecrown",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Scarecrow",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 1"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 50 },
+                { "id": "Coal", "qty": 1 },
+                { "id": "Fiber", "qty": 20 }
+            ]
+        },
+        {
+            "id": 159,
+            "name": "Seed Maker",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Seed_Maker",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 9"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 25 },
+                { "id": "Gold Bar", "qty": 1 },
+                { "id": "Coal", "qty": 10 }
+            ],
+            "makes": [
+                "Seeds for any Crop"
+            ]
+        },
+        {
+            "id": 160,
+            "name": "Slime Egg-Press",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Slime_Egg-Press",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 6"
+            ],
+            "recipe": [
+                { "id": "Coal", "qty": 25 },
+                { "id": "Fire Quartz", "qty": 1 },
+                { "id": "Battery Pack", "qty": 1 }
+            ],
+            "makes": [
+                "Green Slime Egg",
+                "Blue Slime Egg",
+                "Red Slime Egg",
+                "Purple Slime Egg"
+            ]
+        },
+        {
+            "id": 161,
+            "name": "Slime Incubator",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Slime_Incubator",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 8"
+            ],
+            "recipe": [
+                { "id": "Iridium Bar", "qty": 2 },
+                { "id": "Slime", "qty": 100 }
+            ],
+            "makes": [
+                "Hatches Slime Eggs into actual Slimes"
+            ]
+        },
+        {
+            "id": 162,
+            "name": "Spinner",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Spinner",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Fishing skill level 6",
+                "Fish Shop (500g after reaching Fishing skill level 6)"
+            ],
+            "recipe": [
+                { "id": "Iron Bar", "qty": 2 }
+            ]
+        },
+        {
+            "id": 163,
+            "name": "Spring Seeds",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Spring_Seeds",
+            "sellPrice": "35",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 1",
+                "Placing a Wild Horseradish in a Seed Maker"
+            ],
+            "recipe": [
+                { "id": "Wild Horseradish", "qty": 1 },
+                { "id": "Daffodil", "qty": 1 },
+                { "id": "Leek", "qty": 1 },
+                { "id": "Dandelion", "qty": 1 }
+            ],
+            "makes": [
+                "Wild Horseradish",
+                "Daffodil",
+                "Leek",
+                "Dandelion"
+            ]
+        },
+        {
+            "id": 164,
+            "name": "Sprinkler",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Sprinkler",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Farming skill level 2"
+            ],
+            "recipe": [
+                { "id": "Copper Bar", "qty": 1 },
+                { "id": "Iron Bar", "qty": 1 }
+            ]
+        },
+        {
+            "id": 165,
+            "name": "Staircase",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Staircase",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Mining skill level 2",
+                "Desert Trader"
+            ],
+            "recipe": [
+                { "id": "Stone", "qty": 99 }
+            ]
+        },
+        {
+            "id": 166,
+            "name": "Stone Sign",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Stone_Sign",
+            "obtainedFrom": [
+                "Crafting"
+            ],
+            "recipe": [
+                { "id": "Stone", "qty": 25 }
+            ]
+        },
+        {
+            "id": 167,
+            "name": "Sturdy Ring",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Sturdy_Ring",
+            "sellPrice": "750",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 1"
+            ],
+            "recipe": [
+                { "id": "Copper Bar", "qty": 2 },
+                { "id": "Bug Meat", "qty": 25 },
+                { "id": "Slime", "qty": 25 }
+            ]
+        },
+        {
+            "id": 168,
+            "name": "Summer Seeds",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Summer_Seeds",
+            "sellPrice": "55",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 4",
+                "Placing a Spice Berry in a Seed Maker"
+            ],
+            "recipe": [
+                { "id": "Grape", "qty": 1 },
+                { "id": "Spice Berry", "qty": 1 },
+                { "id": "Sweet Pea", "qty": 1 }
+            ],
+            "makes": [
+                "Grape",
+                "Spice Berry",
+                "Sweet Pea"
+            ]
+        },
+        {
+            "id": 169,
+            "name": "Tapper",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Tapper",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 3"
             ],
             "recipe": [
                 { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                { "id": "Copper Bar", "qty": 2 }
             ],
             "makes": [
-                "",
+                "Maple Syrup",
+                "Oak Resin",
+                "Pine Tar",
+                "Common Mushroom",
+                "Red Mushroom",
+                "Purple Mushroom"
+            ]
+        },
+        {
+            "id": 170,
+            "name": "Trap Bobber",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Trap_Bobber",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Fishing skill level 6",
+                "Fish Shop (500g after reaching Fishing skill level 6)"
+            ],
+            "recipe": [
+                { "id": "Copper Bar", "qty": 1 },
+                { "id": "Sap", "qty": 10 }
+            ]
+        },
+        {
+            "id": 171,
+            "name": "Treasure Hunter",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Treasure_Hunter",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Fishing skill level 7",
+                "Fish Shop (750g after reaching Fishing skill level 7)"
+            ],
+            "recipe": [
+                { "id": "Gold Bar", "qty": 2 }
+            ]
+        },
+        {
+            "id": 172,
+            "name": "Tub o' Flowers",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Tub_o%27_Flowers",
+            "obtainedFrom": [
+                "Pierre's at the Flower Dance festival (250g)",
+                "Crafting",
+                "Recipe can be purchased with Pierre at the Flower Dance festival (1,000g)"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 15 },
+                { "id": "Tulip Bulb", "qty": 1 },
+                { "id": "Jazz Seeds", "qty": 1 },
+                { "id": "Poppy Seeds", "qty": 1 },
+                { "id": "Spangle Seeds", "qty": 1 }
+            ]
+        },
+        {
+            "id": 173,
+            "name": "Warrior Ring",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Warrior_Ring",
+            "sellPrice": "750",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 4"
+            ],
+            "recipe": [
+                { "id": "Iron Bar", "qty": 10 },
+                { "id": "Coal", "qty": 25 },
+                { "id": "Frozen Tear", "qty": 10 }
+            ]
+        },
+        {
+            "id": 174,
+            "name": "Wedding Ring",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Wedding_Ring",
+            "sellPrice": "1,000",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is can be found randomly at the Traveling Cart (500g)"
+            ],
+            "recipe": [
+                { "id": "Iridium Bar", "qty": 5 },
+                { "id": "Prismatic Shard", "qty": 1 }
+            ]
+        },
+        {
+            "id": 175,
+            "name": "Wicked Statue",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Wicked_Statue",
+            "obtainedFrom": [
+                "Crafting",
+                "Krobus (1,000g)"
+            ],
+            "recipe": [
+                { "id": "Stone", "qty": 25 },
+                { "id": "Coal", "qty": 5 }
+            ]
+        },
+        {
+            "id": 176,
+            "name": "Winter Seeds",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Winter_Seeds",
+            "sellPrice": "30",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Foraging skill level 7",
+                "Placing a Winter Root in a Seed Maker"
+            ],
+            "recipe": [
+                { "id": "Crocus", "qty": 1 },
+                { "id": "Crystal Fruit", "qty": 1 },
+                { "id": "Snow Yam", "qty": 1 },
+                { "id": "Winter Root", "qty": 1 }
+            ],
+            "makes": [
+                "Crocus",
+                "Crystal Fruit",
+                "Snow Yam",
+                "Winter Root"
+            ]
+        },
+        {
+            "id": 177,
+            "name": "Wood Sign",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Wood_Sign",
+            "obtainedFrom": [
+                "Crafting"
+            ],
+            "recipe": [
+                { "id": "Wood", "qty": 25 }
+            ]
+        },
+        {
+            "id": 178,
+            "name": "Worm Bin",
+            "type": "Craftable Items",
+            "link": "https://stardewvalleywiki.com/Worm_Bin",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Fishing skill level 8"
+            ],
+            "recipe": [
+                { "id": "Hardwood", "qty": 25 },
+                { "id": "Iron Bar", "qty": 1 },
+                { "id": "Gold Bar", "qty": 1 },
+                { "id": "Fiber", "qty": 50 }
+            ],
+            "makes": [
+                "Bait"
             ]
         },
         {
