@@ -3309,272 +3309,1615 @@
                 "Bait"
             ]
         },
+
+
+
+
+        {
+            "id": 179,
+            "name": "Blue Jazz",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Blue_Jazz",
+            "sellPrice": "50",
+            "profitability":"2.86",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "7 days",
+            "obtainedFrom": [
+                "Jazz Seeds"
+            ],
+            "makes": [
+                "Lucky Lunch","Skirt"
+            ],"gifting":{"loves":[],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 180,
+            "name": "Cauliflower",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cauliflower",
+            "sellPrice": "175",
+            "profitability":"7.92",
+            "healing": {
+                "energy": 75,
+                "health": 33
+            },
+            "harvestIn": "12 days",
+            "obtainedFrom": [
+                "Cauliflower Seeds"
+            ],
+            "makes": [
+                "Cheese Cauliflower","Pickles","Juice","Shirt And Belt"
+            ],"gifting":{"loves":["Maru"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 181,
+            "name": "Coffee Bean",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Coffee_Bean",
+            "sellPrice": "15",
+            "profitability":"20.77",
+            "harvestIn": "10 days (2 days to regrow)",
+            "obtainedFrom": [
+                "Coffee Bean"
+            ],
+            "makes": [
+                "Coffee Bean","Coffee","Flannel Shirt"
+            ]
+        },
+        {
+            "id": 182,
+            "name": "Garlic",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Garlic",
+            "sellPrice": "60",
+            "profitability":"5",
+            "healing": {
+                "energy": 20,
+                "health": 9
+            },
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Garlic Seeds"
+            ],
+            "makes": [
+                "Escargot","Fiddlehead Risotto","Oil of Garlic","Pickles","Juice","Shirt And Belt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Jodi","Sam","Vincent"],"hates":["Evelyn","Pierre"]}
+        },
+        {
+            "id": 183,
+            "name": "Green Bean",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Green_Bean",
+            "sellPrice": "40",
+            "profitability":"7.2",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "harvestIn": "10 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Bean Starter"
+            ],
+            "makes": [
+                "Bean Hotpot","Pickles","Juice","Shirt And Belt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 184,
+            "name": "Kale",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Kale",
+            "sellPrice": "110",
+            "profitability":"6.67",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Kale Seeds"
+            ],
+            "makes": [
+                "Salmon Dinner","Stir Fry","Pickles","Juice","Shirt And Belt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 185,
+            "name": "Parsnip",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Parsnip",
+            "sellPrice": "35",
+            "profitability":"3.75",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Parsnip Seeds"
+            ],
+            "makes": [
+                "Farmer's Lunch","Parsnip Soup","Pickles","Juice","Shirt And Belt"
+            ],"gifting":{"loves":["Pam"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 186,
+            "name": "Potato",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Potato",
+            "sellPrice": "80",
+            "profitability":"6",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Potato Seeds"
+            ],
+            "makes": [
+                "Hashbrowns","Pickles","Juice","Shirt And Belt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 187,
+            "name": "Rhubarb",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Rhubarb",
+            "sellPrice": "220",
+            "profitability":"9.23",
+            "harvestIn": "13 days",
+            "obtainedFrom": [
+                "Rhubarb Seeds"
+            ],
+            "makes": [
+                "Rhubarb Pie","Wine","Jelly","Green Buttoned Vest"
+            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 188,
+            "name": "Strawberry",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Strawberry",
+            "sellPrice": "120",
+            "profitability":"20.83",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
+            "harvestIn": "8 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Strawberry Seeds"
+            ],
+            "makes": [
+                "Wine","Jelly","Farmer Pants"
+            ],"gifting":{"loves":["Demetrius","Maru"],"likes":["Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 189,
+            "name": "Tulip",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Tulip",
+            "sellPrice": "30",
+            "profitability":"1.67",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Tulip Bulb"
+            ],
+            "makes": [
+                "Skirt"
+            ],"gifting":{"loves":["Evelyn"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 190,
+            "name": "Unmilled Rice",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Unmilled_Rice",
+            "sellPrice": "30",
+            "profitability":"-1.25",
+            "healing": {
+                "energy": 3,
+                "health": 1
+            },
+            "harvestIn": "6-8 days",
+            "obtainedFrom": [
+                "Rice Shoot"
+            ],
+            "makes": [
+                "Rice","Pickles","Juice","Shirt And Belt"
+            ],"gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 191,
+            "name": "Blueberry",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Blueberry",
+            "sellPrice": "50",
+            "profitability":"20.8",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "harvestIn": "13 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Blueberry Seeds"
+            ],
+            "makes": [
+                "Blueberry Tart","Fruit Salad","Wine","Jelly","Shorts"
+            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 192,
+            "name": "Corn",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Corn",
+            "sellPrice": "50",
+            "profitability":"1.92",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "harvestIn": "14 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Corn Seeds"
+            ],
+            "makes": [
+                "Tortilla","Oil","Pickles","Juice","Striped Shirt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":["Pierre"]}
+        },
+        {
+            "id": 193,
+            "name": "Hops",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Hops",
+            "sellPrice": "25",
+            "profitability":"13.52",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "11 days (regrows every day)",
+            "obtainedFrom": [
+                "Hops Starter"
+            ],
+            "makes": [
+                "Pale Ale","Pickles","Shirt and Belt"
+            ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Penny"]}
+        },
+        {
+            "id": 194,
+            "name": "Hot Pepper",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Hot_Pepper",
+            "sellPrice": "40",
+            "profitability":"10.77",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
+            "harvestIn": "5 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Pepper Seeds"
+            ],
+            "makes": [
+                "Pepper Poppers","Spicy Eel","Wine","Jelly","Shorts"
+            ],"gifting":{"loves":["Lewis","Shane"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 195,
+            "name": "Melon",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Melon",
+            "sellPrice": "250",
+            "profitability":"14.17",
+            "healing": {
+                "energy": 113,
+                "health": 50
+            },
+            "harvestIn": "12 days",
+            "obtainedFrom": [
+                "Melon Seeds"
+            ],
+            "makes": [
+                "Fruit Salad","Pink Cake","Wine","Jelly","Shorts"
+            ],"gifting":{"loves":["Penny"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 196,
+            "name": "Poppy",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Poppy",
+            "sellPrice": "140",
+            "profitability":"5.71",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "7 days",
+            "obtainedFrom": [
+                "Poppy Seeds"
+            ],
+            "makes": [
+                "Poppyseed Muffin","Pleated Skirt"
+            ],"gifting":{"loves":["Penny"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 197,
+            "name": "Radish",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Radish",
+            "sellPrice": "90",
+            "profitability":"8.33",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": " days",
+            "obtainedFrom": [
+                "Radish Seeds"
+            ],
+            "makes": [
+                "Radish Salad","Red Plate","Pickles","Juice","Tank Top"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 198,
+            "name": "Red Cabbage",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Red_Cabbage",
+            "sellPrice": "260",
+            "profitability":"17.78",
+            "healing": {
+                "energy": 75,
+                "health": 33
+            },
+            "harvestIn": "9 days",
+            "obtainedFrom": [
+                "Red Cabbage Seeds"
+            ],
+            "makes": [
+                "Coleslaw","Fish Taco","Red Plate","Tank Top"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 199,
+            "name": "Starfruit",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Starfruit",
+            "sellPrice": "750",
+            "profitability":"26.92",
+            "healing": {
+                "energy": 125,
+                "health": 56
+            },
+            "harvestIn": "13 days",
+            "obtainedFrom": [
+                "Starfruit Seeds"
+            ],
+            "makes": [
+                "Junimo Hut","Wine","Jelly","Genie Pants"
+            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 200,
+            "name": "Summer Spangle",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Summer_Spangle",
+            "sellPrice": "90",
+            "profitability":"5",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "8 days",
+            "obtainedFrom": [
+                "Spangle Seeds"
+            ],
+            "makes": [
+                "Pleated Skirt"
+            ],"gifting":{"loves":["Caroline"],"likes":["Abigail","Alex","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 201,
+            "name": "Sunflower",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Sunflower",
+            "sellPrice": "80",
+            "profitability":"-15",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "8 days",
+            "obtainedFrom": [
+                "Sunflower Seeds"
+            ],
+            "makes": [
+                "Oil","Long Dress"
+            ],"gifting":{"loves":["Haley"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 202,
+            "name": "Tomato",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Tomato",
+            "sellPrice": "60",
+            "profitability":"9.26",
+            "healing": {
+                "energy": 20,
+                "health": 9
+            },
+            "harvestIn": "11 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Tomato Seeds"
+            ],
+            "makes": [
+                "Bruschetta","Eggplant Parmesan","Fish Stew","Pizza","Spaghetti","Vegetable Medley","Tomato Shirt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 203,
+            "name": "Wheat",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Wheat",
+            "sellPrice": "25",
+            "profitability":"3.75",
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Wheat Seeds"
+            ],
+            "makes": [
+                "Beer","Wheat Flour","Pickles","Crop Tank Top"
+            ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 204,
+            "name": "Amaranth",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Amaranth",
+            "sellPrice": "150",
+            "profitability":"11.43",
+            "healing": {
+                "energy": 50,
+                "health": 22
+            },
+            "harvestIn": "7 days",
+            "obtainedFrom": [
+                "Amaranth Seeds"
+            ],
+            "makes": [
+                "Salmon Dinner","Pickles","Juice","Crop Top Shirt"
+            ],"gifting":{"loves":[],"likes":["Alex","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Caroline","Haley","Jas","Sam","Vincent"],"hates":["Elliott"]}
+        },
+        {
+            "id": 205,
+            "name": "Artichoke",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Artichoke",
+            "sellPrice": "160",
+            "profitability":"16.25",
+            "healing": {
+                "energy": 30,
+                "health": 13
+            },
+            "harvestIn": "8 days",
+            "obtainedFrom": [
+                "Artichoke Seeds"
+            ],
+            "makes": [
+                "Artichoke Dip","Super Meal","Pickles","Juice","Button Down Shirt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 206,
+            "name": "Beet",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Beet",
+            "sellPrice": "100",
+            "profitability":"13.33",
+            "healing": {
+                "energy": 30,
+                "health": 13
+            },
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Beet Seeds"
+            ],
+            "makes": [
+                "Vegetable Medley","Sugar","Pickles","Juice","Button Down Shirt"
+            ],"gifting":{"loves":["Evelyn"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 207,
+            "name": "Bok Choy",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Bok_Choy",
+            "sellPrice": "80",
+            "profitability":"7.5",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Bok Choy Seeds"
+            ],
+            "makes": [
+                "Super Meal","Pickles","Juice","Button Down Shirt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 208,
+            "name": "Cranberries",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cranberries",
+            "sellPrice": "75",
+            "profitability":"18.89",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "harvestIn": "7 days (5 days to regrow)",
+            "obtainedFrom": [
+                "Cranberries Seeds"
+            ],
+            "makes": [
+                "Cranberry Candy","Cranberry Sauce","Stuffing","Super Meal","Wine","Jelly","Farmer Pants"
+            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 209,
+            "name": "Eggplant",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Eggplant",
+            "sellPrice": "60",
+            "profitability":"11.2",
+            "healing": {
+                "energy": 20,
+                "health": 9
+            },
+            "harvestIn": "5 days (5 days to regrow)",
+            "obtainedFrom": [
+                "Eggplant Seeds"
+            ],
+            "makes": [
+                "Eggplant Parmesan","Survival Burger","Pickles","Juice","Button Down Shirt"
+            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 210,
+            "name": "Fairy Rose",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Fairy_Rose",
+            "sellPrice": "290",
+            "profitability":"7.5",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "12 days",
+            "obtainedFrom": [
+                "Fairy Rose Seeds"
+            ],
+            "makes": [
+                "Long Dress"
+            ],"gifting":{"loves":["Evelyn","Jas"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 211,
+            "name": "Grape",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Grape",
+            "sellPrice": "80",
+            "profitability":"16.8",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "harvestIn": "10 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Grape Starter","Foraging (Summer)","Summer Seeds"
+            ],
+            "makes": [
+                "Summer Seeds","Wine","Jelly","Shorts"
+            ],"gifting":{"loves":["Vincent"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas"],"hates":["Penny"]}
+        },
+        {
+            "id": 212,
+            "name": "Pumpkin",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Pumpkin",
+            "sellPrice": "320",
+            "profitability":"16.92",
+            "harvestIn": "13 days",
+            "obtainedFrom": [
+                "Pumpkin Seeds"
+            ],
+            "makes": [
+                "Autumn's Bounty","Pumpkin Pie","Pumpkin Soup","Jack-O-Lantern","Pickles","Juice","Button Down Shirt"
+            ],"gifting":{"loves":["Abigail","Krobus","Willy"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Wizard"],"neutrals":[],"dislikes":["Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 213,
+            "name": "Yam",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Yam",
+            "sellPrice": "160",
+            "profitability":"10",
+            "healing": {
+                "energy": 45,
+                "health": 20
+            },
+            "harvestIn": "10 days",
+            "obtainedFrom": [
+                "Yam Seeds"
+            ],
+            "makes": [
+                "Autumn's Bounty","Glazed Yams","Pickles","Juice","Button Down Shirt"
+            ],"gifting":{"loves":["Linus"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 214,
+            "name": "Ancient Fruit",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Ancient_Fruit",
+            "sellPrice": "550",
+            "profitability":"78.57",
+            "harvestIn": "28 days (7 days to regrow)",
+            "obtainedFrom": [
+                "Ancient Seeds"
+            ],
+            "makes": [
+                "Wine","Jelly","Genie Pants"
+            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 215,
+            "name": "Cactus Fruit",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cactus_Fruit",
+            "sellPrice": "75",
+            "profitability":"24.11",
+            "healing": {
+                "energy": 75,
+                "health": 33
+            },
+            "harvestIn": "12 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Cactus Seeds"
+            ],
+            "makes": [
+                "Wine","Jelly","80's Shirt"
+            ],"gifting":{"loves":["Linus","Pam","Sam"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 216,
+            "name": "Sweet Gem Berry",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Sweet_Gem_Berry",
+            "sellPrice": "3,000",
+            "profitability":"83.33",
+            "harvestIn": "24 days",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                "Rare Seed","White Turban"
+            ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 217,
+            "name": "Tea Leaves",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Tea_Leaves",
+            "sellPrice": "50",
+            "profitability":"50",
+            "harvestIn": "20 days (regrows every day)",
+            "obtainedFrom": [
+                "Tea Sapling"
+            ],
+            "makes": [
+                "Green Tea"
+            ],"gifting":{"loves":[],"likes":["Caroline"],"neutrals":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 218,
+            "name": "Wild Horseradish",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Wild_Horseradish",
+            "sellPrice": "50",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Foraging (Spring)","Spring Seeds"
+            ],
+            "makes": [
+                "Spring Seeds", "Shrimp Cocktail","'Good Grief' Shirt"
+            ],"gifting":{"loves":["Krobus"],"likes":["Harvey","Leah","Linus"],"neutrals":["Demetrius","Emily","Kent","Maru","Penny","Sandy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Elliott","Evelyn","George","Gus","Jodi","Lewis","Marnie","Pam","Pierre","Robin","Sam","Sebastian","Shane","Willy","Wizard"],"hates":["Haley","Jas","Vincent"]}
+        },
+        {
+            "id": 219,
+            "name": "Daffodil",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Daffodil",
+            "sellPrice": "30",
+            "healing": {
+                "energy": 0,
+                "health": 0
+            },
+            "obtainedFrom": [
+                "Foraging (Spring)","Spring Seeds"
+            ],
+            "makes": [
+                "Spring Seeds","Shirt"
+            ],
+            "gifting":{"loves":["Sandy"],"likes":["Caroline","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Kent","Leah","Linus","Pam","Pierre","Vincent"],"neutrals":["Abigail","Alex","Clint","Demetrius","Lewis","Marnie","Maru","Penny","Robin"],"dislikes":["Dwarf","Elliott","Krobus","Sam","Sebastian","Shane","Willy","Wizard"],"hates":["Jodi"]}
+        },
+        {
+            "id": 220,
+            "name": "Leek",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Leek",
+            "sellPrice": "60",
+            "healing": {
+                "energy": 40,
+                "health": 18
+            },
+            "obtainedFrom": [
+                "Foraging (Spring)","Spring Seeds"
+            ],
+            "makes": [
+                "Spring Seeds", "Salad","Lime Green Tunic"
+            ],
+            "gifting":{"loves":["George"],"likes":["Harvey","Leah","Linus","Penny"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 221,
+            "name": "Dandelion",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Dandelion",
+            "sellPrice": "40",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Foraging (Spring)","Spring Seeds"
+            ],
+            "makes": [
+                "Spring Seeds", "Salad","Mint Blouse"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus","Penny","Pierre"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Krobus","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["George","Jodi"]}
+        },
+        {
+            "id": 222,
+            "name": "Spring Onion",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Spring_Onion",
+            "sellPrice": "8",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Foraging in the Cindersap Forest (Spring)"
+            ],
+            "makes": [
+                "Spring Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 223,
+            "name": "Morel",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Morel",
+            "sellPrice": "150",
+            "healing": {
+                "energy": 20,
+                "health": 9
+            },
+            "obtainedFrom": [
+                "The Cave (mushroom option)",
+                "Foraging in the Secret Woods (Fall)"
+            ],
+            "makes": [
+                "Fried Mushroom", "Life Elixir","Morel Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 224,
+            "name": "Salmonberry",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Salmonberry",
+            "sellPrice": "5",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Foraging bushes (Spring, during day 15-18)"
+            ],
+            "makes": [
+                "Jelly", "Wine","Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Demetrius","Jodi","Kent","Leah", "Linus", "Pam","Robin","Sandy","Shane"],"dislikes":["Abigail", "Alex","Clint","Dwarf","Emily","George","Gus","Haley","Jas","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Vincent","Willy","Wizard"],"neutral":[],"hates":["Caroline","Elliott","Evelyn","Harvey"]}
+        },
+
+
+
+        
+        {
+            "id": 225,
+            "name": "Common Mushroom",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Common_Mushroom",
+            "sellPrice": "40",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "The Cave (mushroom option)",
+                "Foraging in the Secret Woods (Fall)"
+            ],
+            "makes": [
+                "Fried Mushroom", "Stir Fry","Tom Kha Soup","Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Maru","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 226,
+            "name": "Spice Berry",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Spice_Berry",
+            "sellPrice": "80",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Foraging (Summer)","Summer Seeds"
+            ],
+            "makes": [
+                "Summer Seeds","Jelly","Wine","Green Buttoned Vest"
+            ],
+            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":["Evelyn","Harvey","Jodi"]}
+        },
+        {
+            "id": 227,
+            "name": "Sweet Pea",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Sweet_Pea",
+            "sellPrice": "50",
+            "healing": {
+                "energy": 0,
+                "health": 0
+            },
+            "obtainedFrom": [
+                "Foraging (Summer)","Summer Seeds"
+            ],
+            "makes": [
+                "Summer Seeds","Shirt"
+            ],
+            "gifting":{"loves":["Sandy"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 228,
+            "name": "Red Mushroom",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Red_Mushroom",
+            "sellPrice": "75",
+            "healing": {
+                "health": -50
+            },
+            "obtainedFrom": [
+                "The Cave (mushroom option)",
+                "Foraging in the Secret Woods (Summer)",
+                "Mushroom Tree",
+                "The Mines"
+            ],
+            "makes": [
+                "Life Elixir","Spotted Headscarf"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Penny"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 229,
+            "name": "Fiddlehead Fern",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Fiddlehead_Fern",
+            "sellPrice": "90",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Foraging in the Secret Woods (Summer)"
+            ],
+            "makes": [
+                "Fiddlehead Risotto","Pickles","Juice", "Green Overalls"
+            ],
+            "gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 230,
+            "name": "Wild Plum",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Wild_Plum",
+            "sellPrice": "80",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Foraging (Fall)","Fall Seeds"
+            ],
+            "makes": [
+                "Plum Pudding","Fall Seeds","Wine","Jelly","Farmer Pants"
+            ],
+            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 231,
+            "name": "Hazelnut",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Hazelnut",
+            "sellPrice": "90",
+            "healing": {
+                "energy": 30,
+                "health": 13
+            },
+            "obtainedFrom": [
+                "Foraging (Fall)","Fall Seeds"
+            ],
+            "makes": [
+                "Fall Seeds","Roasted Hazelnuts","Stuffing","Brown Overalls"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 232,
+            "name": "Blackberry",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Blackberry",
+            "sellPrice": "20",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Foraging (Fall)",
+                "Foraging bushes (Fall, during day 8-11)","Fall Seeds"
+            ],
+            "makes": [
+                "Fall Seeds","Blackberry Cobbler","Jelly","Wine","Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Maru","Vincent"],"hates":[]}
+        },
+        {
+            "id": 233,
+            "name": "Chanterelle",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Chanterelle",
+            "sellPrice": "160",
+            "healing": {
+                "energy": 75,
+                "health": 33
+            },
+            "obtainedFrom": [
+                "The Cave (mushroom option)",
+                "Foraging in the Secret Woods (Fall)"
+            ],
+            "makes": [
+                "Life Elixir","Orange Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 234,
+            "name": "Winter Root",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Winter_Root",
+            "sellPrice": "70",
+            "healing": {
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Tilling the ground during Winter",
+                "Blue Slime",
+                "Winter Seeds"
+            ],
+            "makes": [
+                "Winter Seeds","Roots Platter","Orange Bow Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 235,
+            "name": "Crystal Fruit",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Crystal_Fruit",
+            "sellPrice": "150",
+            "healing": {
+                "energy": 63,
+                "health": 28
+            },
+            "obtainedFrom": [
+                "Foraging (Winter)",
+                "Dust Sprite","Winter Seeds"
+            ],
+            "makes": [
+                "Winter Seeds","Jelly","Wine","Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Maru","Vincent"],"hates":[]}
+        },
+        {
+            "id": 236,
+            "name": "Snow Yam",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Snow_Yam",
+            "sellPrice": "100",
+            "healing": {
+                "energy": 30,
+                "health": 13
+            },
+            "obtainedFrom": [
+                "Tilling the ground during Winter",
+                "Winter Seeds"
+            ],
+            "makes": [
+                "Winter Seeds","Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Lewis","Marnie","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Kent","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Maru"]}
+        },
+        {
+            "id": 237,
+            "name": "Crocus",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Crocus",
+            "sellPrice": "60",
+            "healing": {
+                "energy": 0,
+                "health": 0
+            },
+            "obtainedFrom": [
+                "Foraging (Winter)",
+                "Winter Seeds"
+            ],
+            "makes": [
+                "Winter Seeds","Shirt"
+            ],
+            "gifting":{"loves":["Sandy"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 238,
+            "name": "Holly",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Holly",
+            "sellPrice": "80",
+            "healing": {
+                "energy": -37
+            },
+            "obtainedFrom": [
+                "Foraging (Winter)"
+            ],
+            "makes": [
+                "Fancy Red Blouse"
+            ],
+            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":[],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"]}
+        },
+        {
+            "id": 239,
+            "name": "Nautilus Shell",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Nautilus_Shell",
+            "sellPrice": "120",
+            "obtainedFrom": [
+                "Foraging at the Beach (Winter)"
+            ],
+            "makes": [
+                "Strapped Top"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Harvey"]}
+        },
+        {
+            "id": 240,
+            "name": "Coral",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Coral",
+            "sellPrice": "80",
+            "obtainedFrom": [
+                "Foraging at the Beach"
+            ],
+            "makes": [
+                "Deluxe Speed-Gro","Warp Totem: Beach", "Strapped Top"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Evelyn","Harvey"]}
+        },
+        {
+            "id": 241,
+            "name": "Sea Urchin",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Sea_Urchin",
+            "sellPrice": "160",
+            "obtainedFrom": [
+                "Foraging at the Beach"
+            ],
+            "makes": [
+                "Strapped Top"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 242,
+            "name": "Rainbow Shell",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Rainbow_Shell",
+            "sellPrice": "300",
+            "obtainedFrom": [
+                "Foraging at the Beach (Summer)"
+            ],
+            "makes": [
+                "Bikini Top"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Harvey"]}
+        },
+        {
+            "id": 243,
+            "name": "Clam",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Clam",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Foraging at the Beach",
+                "Using a Crab Pot in the Ocean"
+            ],
+            "makes": [
+                "Chowder","Speed-Gro","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Evelyn"]}
+        },
+        {
+            "id": 244,
+            "name": "Cockle",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Cockle",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Foraging at the Beach",
+                "Using a Crab Pot in the Ocean"
+            ],
+            "makes": [
+                "Maki Roll", "Quality Fertilizer", "Sashimi", "Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 245,
+            "name": "Mussel",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Mussel",
+            "sellPrice": "30",
+            "obtainedFrom": [
+                "Foraging at the Beach",
+                "Using a Crab Pot in the Ocean"
+            ],
+            "makes": [
+                "Fish Stew","Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 246,
+            "name": "Oyster",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Oyster",
+            "sellPrice": "40",
+            "obtainedFrom": [
+                "Foraging at the Beach",
+                "Using a Crab Pot in the Ocean"
+            ],
+            "makes": [
+                "Maki Roll","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 247,
+            "name": "Seaweed",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Seaweed",
+            "sellPrice": "20",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Foraging at the Beach",
+                "Using a Crab Pot in the Ocean",
+                "Fishing in the Ocean"
+            ],
+            "makes": [
+                "Maki Roll","Kelp Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Leah","Marnie","Sam","Shane"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 248,
+            "name": "Purple Mushroom",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Purple_Mushroom",
+            "sellPrice": "250",
+            "healing": {
+                "energy": 125,
+                "health": 56
+            },
+            "obtainedFrom": [
+                "The Cave (mushroom option)",
+                "The Mines (level 81+)",
+                "Using a Tapper in a Mushroom Tree"
+            ],
+            "makes": [
+                "Life Elixir","Shirt"
+            ],
+            "gifting":{"loves":["Wizard"],"likes":["Demetrius","Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Penny","Pierre","Sam","Sebastian","Shane","Vincent","Willy"],"hates":[]}
+        },
+        {
+            "id": 249,
+            "name": "Cave Carrot",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Cave_Carrot",
+            "sellPrice": "25",
+            "healing": {
+                "energy": 30,
+                "health": 13
+            },
+            "obtainedFrom": [
+                "Digging in The Mines (levels 10-20)"
+            ],
+            "makes": [
+                "Miner's Treat","Roots Platter","Stir Fry","Survival Burger","Green Belted Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 250,
+            "name": "Coconut",
+            "type": "Forage",
+            "link": "https://stardewvalleywiki.com/Coconut",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Oasis on Mondays (200g)",
+                "Foraging in the Calico Desert"
+            ],
+            "makes": [
+                "Tom Kha Soup","Jelly","Wine","Warp Totem: Desert","Vacation Shirt"
+            ],
+            "gifting":{"loves":["Haley","Linus"],"likes":["Demetrius","Elliott","Harvey","Jas","Jodi","Kent","Leah","Lewis","Pam","Robin","Sandy","Shane","Vincent"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Dwarf"],"hates":[]}
+        },
+
+
+
+
+
+
+
+
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
         {
             "id": ,
             "name": "",
-            "type": "Craftable Items",
+            "type": "Crops",
             "link": "",
-            "sellPrice": "50",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
             "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Fishing skill level 3",
-                "Fish Shop (1,500g after reaching Fishing skill level 3)"
-            ],
-            "recipe": [
-                { "id": "Wood", "qty": 40 },
-                { "id": "Iron Bar", "qty": 3 }
+                ""
             ],
             "makes": [
-                "",
+                ""
             ]
         },
+        {
+            "id": ,
+            "name": "",
+            "type": "Crops",
+            "link": "",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ]
+        },
+        {
+            "id": ,
+            "name": "",
+            "type": "Crops",
+            "link": "",
+            "sellPrice": "",
+            "profitability":"",
+            "healing": {
+                "energy": ,
+                "health": 
+            },
+            "harvestIn": " days",
+            "obtainedFrom": [
+                ""
+            ],
+            "makes": [
+                ""
+            ]
+        }
     
     ]
 }

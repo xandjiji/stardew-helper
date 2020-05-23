@@ -23,6 +23,12 @@ otimizar .jsons
 item info
 https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fjYlY/edit#gid=0
 
+action links
+
+healing {} fazer IF (por causa de items negativos)
+
+Buildings (makes?)
+
 crane game
 cassino
 desert trader
@@ -34,5 +40,10 @@ likes/deslikes nao fazem sentido
 url data
 prices (terminado com G ou ,)
 green slime egg (outras cores tb)
+verificar imagens
 
+
+
+CROPS:
 summer seeds profit (como se fossem crops)
+https://stardewvalleywiki.com/Mixed_Seeds
