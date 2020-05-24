@@ -15,7 +15,7 @@ var initialID = 629;
 var list = [];
 
 
-var items = cheerio('.sortable a', data);
+var items = cheerio('td:first-child img', data);
 
 
 
@@ -24,9 +24,12 @@ for (const item of Object.keys(items)) {
 
     if (items[item].type == 'tag') {
 
-        if(items[item].attribs.class !== 'image') {
+        /* if(items[item].attribs.class !== 'image') {
             list.push(furnitureFactory(items[item]));
-        }
+        } */
+        console.log(items[item]);
+        
+
 
         
 
@@ -36,7 +39,7 @@ for (const item of Object.keys(items)) {
 
 /* console.log(list); */
 
-console.log(JSON.stringify(list));
+/* console.log(JSON.stringify(list)); */
 
 
 function furnitureFactory(node) {
