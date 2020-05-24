@@ -86,7 +86,7 @@
                 "Crab Cakes",
                 "Green Jacket Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Alex","Demetrius","Harvey","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
+            "gifting": {"likes":["Alex","Demetrius","Harvey","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
         },
         {
             "id": 2,
@@ -100,7 +100,7 @@
             "makes": [
                 "Lime Green Striped Shirt"
             ],
-            "gifting": {"loves":["Elliott"],"likes":["Harvey"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":["Penny"],"hates":[]}
+            "gifting": {"loves":["Elliott"],"likes":["Harvey"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":["Penny"]}
         },
         {
             "id": 3,
@@ -127,7 +127,7 @@
                 "Crab Cakes",
                 "Plain Overalls"
             ],
-            "gifting": {"loves":[],"likes":["Alex","Demetrius","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Harvey","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
+            "gifting": {"likes":["Alex","Demetrius","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Harvey","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
         },
         {
             "id": 4,
@@ -146,7 +146,7 @@
                 "Goat Cheese",
                 "Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Evelyn","Harvey","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Jas","Krobus","Maru","Sam","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+            "gifting": {"likes":["Evelyn","Harvey","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Jas","Krobus","Maru","Sam","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
         },
         {
             "id": 5,
@@ -173,7 +173,7 @@
                 "Crab Cakes",
                 "Cardigan"
             ],
-            "gifting": {"loves":[],"likes":["Alex","Demetrius","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Harvey","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
+            "gifting": {"likes":["Alex","Demetrius","Jodi","Kent","Leah","Linus","Marnie","Pierre","Sam","Shane"],"neutrals":["Caroline","Clint","Elliott","Emily","Evelyn","George","Gus","Harvey","Krobus","Lewis","Maru","Penny","Robin","Sandy","Willy"],"dislikes":["Abigail","Dwarf","Haley","Jas","Pam","Vincent","Wizard"],"hates":["Sebastian"]}
         },
         {
             "id": 6,
@@ -192,7 +192,7 @@
                 "Goat Cheese",
                 "Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Evelyn","Harvey","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Jas","Krobus","Maru","Sam","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+            "gifting": {"likes":["Evelyn","Harvey","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Jas","Krobus","Maru","Sam","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
         },
         {
             "id": 7,
@@ -222,7 +222,7 @@
                 "Rice Pudding",
                 "Sleeveless Overalls"
             ],
-            "gifting": {"loves":[],"likes":["Evelyn","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Harvey","Jas","Krobus","Maru","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+            "gifting": {"likes":["Evelyn","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Harvey","Jas","Krobus","Maru","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
         },
         {
             "id": 8,
@@ -252,7 +252,7 @@
                 "Rice Pudding",
                 "White Overalls Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Evelyn","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Harvey","Jas","Krobus","Maru","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
+            "gifting": {"likes":["Evelyn","Jodi","Leah","Linus","Marnie","Pam","Penny","Pierre","Robin"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Emily","George","Gus","Harvey","Jas","Krobus","Maru","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"dislikes":["Dwarf","Elliott","Haley","Lewis","Wizard"],"hates":["Kent"]}
         },
         {
             "id": 9,
@@ -267,7 +267,7 @@
             "makes": [
                 "Shirt"
             ],
-            "gifting": {"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Penny"]}
+            "gifting": {"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Penny"]}
         },
         {
             "id": 10,
@@ -287,7 +287,7 @@
                 "Caviar",
                 "Polka Dot Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+            "gifting": {"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 11,
@@ -310,7 +310,7 @@
                 "Sturdy Ring",
                 "Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Wizard"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy"]}
+            "gifting": {"dislikes":["Wizard"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy"]}
         },
         {
             "id": 12,
@@ -329,7 +329,7 @@
                 "Truffle Oil",
                 "Dark Bandana Shirt"
             ],
-            "gifting": {"loves":["Leah"],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Maru"]}
+            "gifting": {"loves":["Leah"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Maru"]}
         },
         {
             "id": 13,
@@ -358,7 +358,7 @@
                 "Crab Cakes",
                 "Shirt"
             ],
-            "gifting": {"loves":["Krobus","Sebastian"],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"hates":["Leah"]}
+            "gifting": {"loves":["Krobus","Sebastian"],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"hates":["Leah"]}
         },
         {
             "id": 14,
@@ -374,7 +374,7 @@
                 "Cloth",
                 "Plain Shirt"
             ],
-            "gifting": {"loves":["Emily"],"likes":["Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":["Penny"],"hates":[]}
+            "gifting": {"loves":["Emily"],"likes":["Sandy"],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":["Penny"]}
         },
         
 
@@ -401,7 +401,7 @@
             "makes": [
                 "Excavator Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 16,
@@ -417,7 +417,7 @@
             "makes": [
                 "Captain's Uniform"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 17,
@@ -436,7 +436,7 @@
             "makes": [
                 "Doll Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 18,
@@ -456,7 +456,7 @@
             "makes": [
                 "Regal Mantle"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 19,
@@ -479,7 +479,7 @@
                 "Ancient Seeds",
                 "Brown Suit"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 20,
@@ -496,7 +496,7 @@
             "makes": [
                 "Green Tunic"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 21,
@@ -514,7 +514,7 @@
             "makes": [
                 "Soft Arrow Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 22,
@@ -532,7 +532,7 @@
             "makes": [
                 "Blue Long Vest"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 23,
@@ -551,7 +551,7 @@
             "makes": [
                 "Canvas Jacket"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 24,
@@ -567,7 +567,7 @@
             "makes": [
                 "Fluffy Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 25,
@@ -582,7 +582,7 @@
             "makes": [
                 "Antiquity Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 26,
@@ -598,7 +598,7 @@
             "makes": [
                 "Golden Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 27,
@@ -615,7 +615,7 @@
             "makes": [
                 "Wereable Dwarf Helm"
             ],
-            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"likes":["Dwarf"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 28,
@@ -637,7 +637,7 @@
             "makes": [
                 "Gold Trimmed Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"likes":["Dwarf"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 29,
@@ -655,7 +655,7 @@
             "makes": [
                 "Gold Trimmed Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"likes":["Dwarf"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 30,
@@ -677,7 +677,7 @@
             "makes": [
                 "Gold Trimmed Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"likes":["Dwarf"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 31,
@@ -692,7 +692,7 @@
             "makes": [
                 "Gold Trimmed Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"likes":["Dwarf"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 32,
@@ -709,7 +709,7 @@
             "makes": [
                 "Wereable Dwarf Helm"
             ],
-            "gifting": {"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"likes":["Dwarf"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 33,
@@ -725,7 +725,7 @@
             "makes": [
                 "Jewelry Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 34,
@@ -741,7 +741,7 @@
             "makes": [
                 "Officer Uniform"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 35,
@@ -756,7 +756,7 @@
             "makes": [
                 "Golden Mask (hat)"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 36,
@@ -771,7 +771,7 @@
             "makes": [
                 "Relic Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 37,
@@ -786,7 +786,7 @@
             "makes": [
                 "Excavator Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 38,
@@ -804,7 +804,7 @@
             "makes": [
                 "Bridal Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 39,
@@ -821,7 +821,7 @@
             "makes": [
                 "Excavator Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 40,
@@ -838,7 +838,7 @@
             "makes": [
                 "Caveman Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 41,
@@ -854,7 +854,7 @@
             "makes": [
                 "Skeleton Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 42,
@@ -869,7 +869,7 @@
             "makes": [
                 "Skeleton Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 43,
@@ -884,7 +884,7 @@
             "makes": [
                 "Skull Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 44,
@@ -900,7 +900,7 @@
             "makes": [
                 "Hair Bone"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 45,
@@ -918,7 +918,7 @@
             "makes": [
                 "Caveman Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 46,
@@ -933,7 +933,7 @@
             "makes": [
                 "Skeleton Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 47,
@@ -953,7 +953,7 @@
             "makes": [
                 "Navy Tuxedo"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 48,
@@ -970,7 +970,7 @@
             "makes": [
                 "Circuitboard Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 49,
@@ -987,7 +987,7 @@
             "makes": [
                 "Rusty Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 50,
@@ -1004,7 +1004,7 @@
             "makes": [
                 "Cowboy Poncho"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 51,
@@ -1020,7 +1020,7 @@
             "makes": [
                 "Skeleton Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 52,
@@ -1035,7 +1035,7 @@
             "makes": [
                 "Skeleton Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 53,
@@ -1052,7 +1052,7 @@
             "makes": [
                 "Wumbus Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 54,
@@ -1069,7 +1069,7 @@
             "makes": [
                 "Bobo Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 55,
@@ -1085,7 +1085,7 @@
             "makes": [
                 "Excavator Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
 
 
@@ -1114,7 +1114,7 @@
             "makes": [
                 "Gobbly Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 57,
@@ -1133,7 +1133,7 @@
             "makes": [
                 "Black Leather Jacket"
             ],
-            "gifting": {"loves":["Pam","Shane"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+            "gifting": {"loves":["Pam","Shane"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Willy","Wizard"],"hates":["Jas","Penny","Sebastian","Vincent"]}
         },
         {
             "id": 58,
@@ -1151,7 +1151,7 @@
             "makes": [
                 "Fashion Hat"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 59,
@@ -1172,7 +1172,7 @@
                 "Pepper Poppers",
                 "Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Harvey"],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"dislikes":["Harvey"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 60,
@@ -1189,7 +1189,7 @@
                 "Dressed Spinner",
                 "Mill"
             ],
-            "gifting": {"loves":["Emily"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"loves":["Emily"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 61,
@@ -1209,7 +1209,7 @@
                 "Triple Shot Espresso",
                 "Pour-Over Shirt"
             ],
-            "gifting": {"loves":["Harvey"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Vincent"]}
+            "gifting": {"loves":["Harvey"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Willy","Wizard"],"hates":["Jas","Vincent"]}
         },
         {
             "id": 62,
@@ -1223,7 +1223,7 @@
             "makes": [
                 "Dinosaur Pants"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 63,
@@ -1237,7 +1237,7 @@
             "makes": [
                 "Aquamarine Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Caroline"],"hates":["Jas","Sam","Sebastian","Vincent"]}
+            "gifting": {"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Shane","Willy","Wizard"],"dislikes":["Caroline"],"hates":["Jas","Sam","Sebastian","Vincent"]}
         },
         {
             "id": 64,
@@ -1255,7 +1255,7 @@
             "makes": [
                 "Shirt"
             ],
-            "gifting": {"loves":["Leah","Robin"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Harvey"],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"loves":["Leah","Robin"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Sam","Sandy","Shane","Willy","Wizard"],"dislikes":["Harvey"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 65,
@@ -1273,7 +1273,7 @@
             "makes": [
                 "Tea Shirt"
             ],
-            "gifting": {"loves":["Caroline","Lewis"],"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Vincent"]}
+            "gifting": {"loves":["Caroline","Lewis"],"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Willy","Wizard"],"hates":["Jas","Vincent"]}
         },
         {
             "id": 66,
@@ -1289,7 +1289,7 @@
                 "Mead",
                 "Simple Dress"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Maru","Sebastian"]}
+            "gifting": {"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"hates":["Maru","Sebastian"]}
         },
         {
             "id": 67,
@@ -1307,7 +1307,7 @@
             "makes": [
                 "Sports Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 68,
@@ -1323,7 +1323,7 @@
                 "Fish Taco",
                 "Light Blue Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Caroline"],"hates":["Jas","Sam","Sebastian","Vincent"]}
+            "gifting": {"likes":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Shane","Willy","Wizard"],"dislikes":["Caroline"],"hates":["Jas","Sam","Sebastian","Vincent"]}
         },
         {
             "id": 69,
@@ -1341,7 +1341,7 @@
             "makes": [
                 "Black Leather Jacket"
             ],
-            "gifting": {"loves":["Pam","Willy"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Shane","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+            "gifting": {"loves":["Pam","Willy"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Shane","Wizard"],"hates":["Jas","Penny","Sebastian","Vincent"]}
         },
         {
             "id": 70,
@@ -1371,7 +1371,7 @@
                 "Stir Fry",
                 "Oil Stained Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting": {"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 71,
@@ -1389,7 +1389,7 @@
             "makes": [
                 "Black Leather Jacket"
             ],
-            "gifting": {"loves":["Pam"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+            "gifting": {"loves":["Pam"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Penny","Sebastian","Vincent"]}
         },
         {
             "id": 72,
@@ -1408,7 +1408,7 @@
                 "Rain Totem",
                 "Dark Bandana Shirt"
             ],
-            "gifting": {"loves":["Harvey"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Sebastian","Vincent"]}
+            "gifting": {"loves":["Harvey"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Sebastian","Vincent"]}
         },
         {
             "id": 73,
@@ -1423,7 +1423,7 @@
                 "Strange Bun",
                 "Polka Dot Shirt"
             ],
-            "gifting": {"loves":["Krobus"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"loves":["Krobus"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 74,
@@ -1441,7 +1441,7 @@
             "makes": [
                 "Black Leather Jacket"
             ],
-            "gifting": {"loves":["Harvey","Leah"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":["Jas","Penny","Sebastian","Vincent"]}
+            "gifting": {"loves":["Harvey","Leah"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Jas","Penny","Sebastian","Vincent"]}
         },
 
 
@@ -2586,7 +2586,7 @@
                 "Barbed Hook",
                 "Gold Breastplate"
             ],
-            "gifting": {"loves":["Clint","Maru"],"likes":["Krobus","Willy"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Wizard"],"hates":["Sam"]}
+            "gifting": {"loves":["Clint","Maru"],"likes":["Krobus","Willy"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Wizard"],"hates":["Sam"]}
         },
         {
             "id": 141,
@@ -2664,7 +2664,7 @@
                 "Stable",
                 "Steel Breastplate"
             ],
-            "gifting": {"loves":[],"likes":["Clint","Maru"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+            "gifting": {"likes":["Clint","Maru"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
         },
         {
             "id": 144,
@@ -2715,7 +2715,7 @@
             "makes": [
                 "Dark Highlight Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Wizard"],"neutrals":[],"dislikes":["Krobus","Willy"],"hates":[]}
+            "gifting": {"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Wizard"],"dislikes":["Krobus","Willy"]}
         },
         {
             "id": 146,
@@ -2853,7 +2853,7 @@
             "makes": [
                 "Dark Highlight Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 153,
@@ -3330,7 +3330,7 @@
             ],
             "makes": [
                 "Lucky Lunch","Skirt"
-            ],"gifting":{"loves":[],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+            ],"gifting":{"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"dislikes":["Clint","George","Sebastian"]}
         },
         {
             "id": 251,
@@ -3361,14 +3361,13 @@
             ],
             "makes": [
                 "Cheese Cauliflower","Pickles","Juice","Shirt And Belt"
-            ],"gifting":{"loves":["Maru"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Maru"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 252,
             "name": "Cauliflower Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Cauliflower_Seeds",
-            "sellPrice": "",
             "profitability":"7.92",
             "harvestIn": "12 days",
             "obtainedFrom": [
@@ -3409,14 +3408,13 @@
             ],
             "makes": [
                 "Escargot","Fiddlehead Risotto","Oil of Garlic","Pickles","Juice","Shirt And Belt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Jodi","Sam","Vincent"],"hates":["Evelyn","Pierre"]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Jodi","Sam","Vincent"],"hates":["Evelyn","Pierre"]}
         },
         {
             "id": 253,
             "name": "Garlic Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Garlic_Seeds",
-            "sellPrice": "",
             "profitability":"5",
             "harvestIn": "4 days",
             "obtainedFrom": [
@@ -3440,14 +3438,13 @@
             ],
             "makes": [
                 "Bean Hotpot","Pickles","Juice","Shirt And Belt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 254,
             "name": "Bean Starter",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Bean_Starter",
-            "sellPrice": "",
             "profitability":"7.2",
             "harvestIn": "10 days (3 days to regrow)",
             "obtainedFrom": [
@@ -3472,14 +3469,13 @@
             ],
             "makes": [
                 "Salmon Dinner","Stir Fry","Pickles","Juice","Shirt And Belt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 255,
             "name": "Kale Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Kale_Seeds",
-            "sellPrice": "",
             "profitability":"6.67",
             "harvestIn": "6 days",
             "obtainedFrom": [
@@ -3504,14 +3500,13 @@
             ],
             "makes": [
                 "Farmer's Lunch","Parsnip Soup","Pickles","Juice","Shirt And Belt"
-            ],"gifting":{"loves":["Pam"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Pam"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 256,
             "name": "Parsnip Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Parsnip_Seeds",
-            "sellPrice": "",
             "profitability":"3.75",
             "harvestIn": "4 days",
             "obtainedFrom": [
@@ -3536,14 +3531,13 @@
             ],
             "makes": [
                 "Hashbrowns","Pickles","Juice","Shirt And Belt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 257,
             "name": "Potato Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Potato_Seeds",
-            "sellPrice": "",
             "profitability":"6",
             "harvestIn": "6 days",
             "obtainedFrom": [
@@ -3564,14 +3558,13 @@
             ],
             "makes": [
                 "Rhubarb Pie","Wine","Jelly","Green Buttoned Vest"
-            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 258,
             "name": "Rhubarb Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Rhubarb_Seeds",
-            "sellPrice": "",
             "profitability":"9.23",
             "harvestIn": "13 days",
             "obtainedFrom": [
@@ -3595,14 +3588,13 @@
             ],
             "makes": [
                 "Wine","Jelly","Farmer Pants"
-            ],"gifting":{"loves":["Demetrius","Maru"],"likes":["Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Demetrius","Maru"],"likes":["Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 259,
             "name": "Strawberry Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Strawberry_Seeds",
-            "sellPrice": "",
             "profitability":"20.83",
             "harvestIn": "8 days (4 days to regrow)",
             "obtainedFrom": [
@@ -3626,14 +3618,13 @@
             ],
             "makes": [
                 "Skirt"
-            ],"gifting":{"loves":["Evelyn"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+            ],"gifting":{"loves":["Evelyn"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"dislikes":["Clint","George","Sebastian"]}
         },
         {
             "id": 260,
             "name": "Tulip Bulb",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Tulip_Bulb",
-            "sellPrice": "",
             "profitability":"1.67",
             "harvestIn": "6 days",
             "obtainedFrom": [
@@ -3658,14 +3649,13 @@
             ],
             "makes": [
                 "Rice","Pickles","Juice","Shirt And Belt"
-            ],"gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            ],"gifting":{"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 261,
             "name": "Rice Shoot",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Rice_Shoot",
-            "sellPrice": "",
             "profitability":"-1.25",
             "harvestIn": "6-8 days",
             "obtainedFrom": [
@@ -3689,14 +3679,13 @@
             ],
             "makes": [
                 "Blueberry Tart","Fruit Salad","Wine","Jelly","Shorts"
-            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 262,
             "name": "Blueberry Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Blueberry_Seeds",
-            "sellPrice": "",
             "profitability":"20.8",
             "harvestIn": "13 days (4 days to regrow)",
             "obtainedFrom": [
@@ -3720,14 +3709,13 @@
             ],
             "makes": [
                 "Tortilla","Oil","Pickles","Juice","Striped Shirt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":["Pierre"]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":["Pierre"]}
         },
         {
             "id": 263,
             "name": "Corn Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Corn_Seeds",
-            "sellPrice": "",
             "profitability":"1.92",
             "harvestIn": "14 days (4 days to regrow)",
             "obtainedFrom": [
@@ -3752,14 +3740,13 @@
             ],
             "makes": [
                 "Pale Ale","Pickles","Shirt and Belt"
-            ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Penny"]}
+            ],"gifting":{"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Penny"]}
         },
         {
             "id": 264,
             "name": "Hops Starter",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Hops_Starter",
-            "sellPrice": "",
             "profitability":"13.52",
             "harvestIn": "11 days (regrows every day)",
             "obtainedFrom": [
@@ -3784,14 +3771,13 @@
             ],
             "makes": [
                 "Pepper Poppers","Spicy Eel","Wine","Jelly","Shorts"
-            ],"gifting":{"loves":["Lewis","Shane"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Lewis","Shane"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 265,
             "name": "Pepper Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Pepper_Seeds",
-            "sellPrice": "",
             "profitability":"10.77",
             "harvestIn": "5 days (3 days to regrow)",
             "obtainedFrom": [
@@ -3816,14 +3802,13 @@
             ],
             "makes": [
                 "Fruit Salad","Pink Cake","Wine","Jelly","Shorts"
-            ],"gifting":{"loves":["Penny"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Penny"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 266,
             "name": "Melon Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Melon_Seeds",
-            "sellPrice": "",
             "profitability":"14.17",
             "harvestIn": "12 days",
             "obtainedFrom": [
@@ -3848,14 +3833,13 @@
             ],
             "makes": [
                 "Poppyseed Muffin","Pleated Skirt"
-            ],"gifting":{"loves":["Penny"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            ],"gifting":{"loves":["Penny"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 267,
             "name": "Poppy Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Poppy_Seeds",
-            "sellPrice": "",
             "profitability":"5.71",
             "harvestIn": "7 days",
             "obtainedFrom": [
@@ -3880,14 +3864,13 @@
             ],
             "makes": [
                 "Radish Salad","Red Plate","Pickles","Juice","Tank Top"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 268,
             "name": "Radish Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Radish_Seeds",
-            "sellPrice": "",
             "profitability":"8.33",
             "harvestIn": "6 days",
             "obtainedFrom": [
@@ -3912,14 +3895,13 @@
             ],
             "makes": [
                 "Coleslaw","Fish Taco","Red Plate","Tank Top"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 269,
             "name": "Red Cabbage Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Red_Cabbage_Seeds",
-            "sellPrice": "",
             "profitability":"17.78",
             "harvestIn": "9 days",
             "obtainedFrom": [
@@ -3943,14 +3925,13 @@
             ],
             "makes": [
                 "Junimo Hut","Wine","Jelly","Genie Pants"
-            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 270,
             "name": "Starfruit Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Starfruit_Seeds",
-            "sellPrice": "",
             "profitability":"26.92",
             "harvestIn": "13 days",
             "obtainedFrom": [
@@ -3974,14 +3955,13 @@
             ],
             "makes": [
                 "Pleated Skirt"
-            ],"gifting":{"loves":["Caroline"],"likes":["Abigail","Alex","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+            ],"gifting":{"loves":["Caroline"],"likes":["Abigail","Alex","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"dislikes":["Clint","George","Sebastian"]}
         },
         {
             "id": 271,
             "name": "Spangle Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Spangle_Seeds",
-            "sellPrice": "",
             "profitability":"5",
             "harvestIn": "8 days",
             "obtainedFrom": [
@@ -4006,14 +3986,13 @@
             ],
             "makes": [
                 "Oil","Long Dress"
-            ],"gifting":{"loves":["Haley"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+            ],"gifting":{"loves":["Haley"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"dislikes":["Clint","George","Sebastian"]}
         },
         {
             "id": 272,
             "name": "Sunflower Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Sunflower_Seeds",
-            "sellPrice": "",
             "profitability":"-15",
             "harvestIn": "8 days",
             "obtainedFrom": [
@@ -4038,14 +4017,13 @@
             ],
             "makes": [
                 "Bruschetta","Eggplant Parmesan","Fish Stew","Pizza","Spaghetti","Vegetable Medley","Tomato Shirt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 273,
             "name": "Tomato Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Tomato_Seeds",
-            "sellPrice": "",
             "profitability":"9.26",
             "harvestIn": "11 days (4 days to regrow)",
             "obtainedFrom": [
@@ -4066,14 +4044,13 @@
             ],
             "makes": [
                 "Beer","Wheat Flour","Pickles","Crop Tank Top"
-            ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+            ],"gifting":{"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 274,
             "name": "Wheat Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Wheat_Seeds",
-            "sellPrice": "",
             "profitability":"3.75",
             "harvestIn": "4 days",
             "obtainedFrom": [
@@ -4098,14 +4075,13 @@
             ],
             "makes": [
                 "Salmon Dinner","Pickles","Juice","Crop Top Shirt"
-            ],"gifting":{"loves":[],"likes":["Alex","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Caroline","Haley","Jas","Sam","Vincent"],"hates":["Elliott"]}
+            ],"gifting":{"likes":["Alex","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Caroline","Haley","Jas","Sam","Vincent"],"hates":["Elliott"]}
         },
         {
             "id": 275,
             "name": "Amaranth Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Amaranth_Seeds",
-            "sellPrice": "",
             "profitability":"11.43",
             "harvestIn": "7 days",
             "obtainedFrom": [
@@ -4130,14 +4106,13 @@
             ],
             "makes": [
                 "Artichoke Dip","Super Meal","Pickles","Juice","Button Down Shirt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 276,
             "name": "Artichoke Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Artichoke_Seeds",
-            "sellPrice": "",
             "profitability":"16.25",
             "harvestIn": "8 days",
             "obtainedFrom": [
@@ -4161,14 +4136,13 @@
             ],
             "makes": [
                 "Vegetable Medley","Sugar","Pickles","Juice","Button Down Shirt"
-            ],"gifting":{"loves":["Evelyn"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Evelyn"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 277,
             "name": "Beet Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Beet_Seeds",
-            "sellPrice": "",
             "profitability":"13.33",
             "harvestIn": "6 days",
             "obtainedFrom": [
@@ -4192,14 +4166,13 @@
             ],
             "makes": [
                 "Super Meal","Pickles","Juice","Button Down Shirt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 278,
             "name": "Bok Choy Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Bok_Choy_Seeds",
-            "sellPrice": "",
             "profitability":"7.5",
             "harvestIn": "4 days",
             "obtainedFrom": [
@@ -4224,14 +4197,13 @@
             ],
             "makes": [
                 "Cranberry Candy","Cranberry Sauce","Stuffing","Super Meal","Wine","Jelly","Farmer Pants"
-            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 279,
             "name": "Cranberry Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Cranberry_Seeds",
-            "sellPrice": "",
             "profitability":"18.89",
             "harvestIn": "7 days (5 days to regrow)",
             "obtainedFrom": [
@@ -4256,14 +4228,13 @@
             ],
             "makes": [
                 "Eggplant Parmesan","Survival Burger","Pickles","Juice","Button Down Shirt"
-            ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 280,
             "name": "Eggplant Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Eggplant_Seeds",
-            "sellPrice": "",
             "profitability":"11.2",
             "harvestIn": "5 days (5 days to regrow)",
             "obtainedFrom": [
@@ -4288,14 +4259,13 @@
             ],
             "makes": [
                 "Long Dress"
-            ],"gifting":{"loves":["Evelyn","Jas"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+            ],"gifting":{"loves":["Evelyn","Jas"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"dislikes":["Clint","George","Sebastian"]}
         },
         {
             "id": 281,
             "name": "Fairy Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Fairy_Seeds",
-            "sellPrice": "",
             "profitability":"7.5",
             "harvestIn": "12 days",
             "obtainedFrom": [
@@ -4327,7 +4297,6 @@
             "name": "Grape Starter",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Grape_Starter",
-            "sellPrice": "",
             "profitability":"16.8",
             "harvestIn": "10 days (3 days to regrow)",
             "obtainedFrom": [
@@ -4348,14 +4317,13 @@
             ],
             "makes": [
                 "Autumn's Bounty","Pumpkin Pie","Pumpkin Soup","Jack-O-Lantern","Pickles","Juice","Button Down Shirt"
-            ],"gifting":{"loves":["Abigail","Krobus","Willy"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Wizard"],"neutrals":[],"dislikes":["Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Abigail","Krobus","Willy"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Wizard"],"dislikes":["Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 283,
             "name": "Pumpkin Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Pumpkin_Seeds",
-            "sellPrice": "",
             "profitability":"16.92",
             "harvestIn": "13 days",
             "obtainedFrom": [
@@ -4380,14 +4348,13 @@
             ],
             "makes": [
                 "Autumn's Bounty","Glazed Yams","Pickles","Juice","Button Down Shirt"
-            ],"gifting":{"loves":["Linus"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Linus"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 284,
             "name": "Yam Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Yam_Seeds",
-            "sellPrice": "",
             "profitability":"10",
             "harvestIn": "10 days",
             "obtainedFrom": [
@@ -4408,7 +4375,7 @@
             ],
             "makes": [
                 "Wine","Jelly","Genie Pants"
-            ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 285,
@@ -4427,7 +4394,7 @@
                 "Ancient Seeds",
                 "Brown Suit"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 215,
@@ -4446,14 +4413,13 @@
             ],
             "makes": [
                 "Wine","Jelly","80's Shirt"
-            ],"gifting":{"loves":["Linus","Pam","Sam"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            ],"gifting":{"loves":["Linus","Pam","Sam"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 286,
             "name": "Cactus Seeds",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Cactus_Seeds",
-            "sellPrice": "",
             "profitability":"24.11",
             "harvestIn": "12 days (3 days to regrow)",
             "obtainedFrom": [
@@ -4473,14 +4439,13 @@
             ],
             "makes": [
                 "Rare Seed","White Turban"
-            ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+            ],"gifting":{"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 287,
             "name": "Rare Seed",
             "type": "Crops",
             "link": "https://stardewvalleywiki.com/Rare_Seed",
-            "sellPrice": "",
             "profitability":"83.33",
             "harvestIn": "24 days",
             "obtainedFrom": [
@@ -4501,7 +4466,7 @@
             ],
             "makes": [
                 "Green Tea"
-            ],"gifting":{"loves":[],"likes":["Caroline"],"neutrals":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+            ],"gifting":{"likes":["Caroline"],"neutrals":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 288,
@@ -4571,7 +4536,7 @@
             "makes": [
                 "Spring Seeds", "Salad","Lime Green Tunic"
             ],
-            "gifting":{"loves":["George"],"likes":["Harvey","Leah","Linus","Penny"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"loves":["George"],"likes":["Harvey","Leah","Linus","Penny"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 221,
@@ -4589,7 +4554,7 @@
             "makes": [
                 "Spring Seeds", "Salad","Mint Blouse"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus","Penny","Pierre"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Krobus","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["George","Jodi"]}
+            "gifting":{"likes":["Harvey","Leah","Linus","Penny","Pierre"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Krobus","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["George","Jodi"]}
         },
         {
             "id": 222,
@@ -4607,7 +4572,7 @@
             "makes": [
                 "Spring Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 223,
@@ -4626,7 +4591,7 @@
             "makes": [
                 "Fried Mushroom", "Life Elixir","Morel Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 224,
@@ -4644,7 +4609,7 @@
             "makes": [
                 "Jelly", "Wine","Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Demetrius","Jodi","Kent","Leah", "Linus", "Pam","Robin","Sandy","Shane"],"dislikes":["Abigail", "Alex","Clint","Dwarf","Emily","George","Gus","Haley","Jas","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Vincent","Willy","Wizard"],"neutral":[],"hates":["Caroline","Elliott","Evelyn","Harvey"]}
+            "gifting":{"likes":["Demetrius","Jodi","Kent","Leah", "Linus", "Pam","Robin","Sandy","Shane"],"dislikes":["Abigail", "Alex","Clint","Dwarf","Emily","George","Gus","Haley","Jas","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Vincent","Willy","Wizard"],"neutral":[],"hates":["Caroline","Elliott","Evelyn","Harvey"]}
         },
 
 
@@ -4667,7 +4632,7 @@
             "makes": [
                 "Fried Mushroom", "Stir Fry","Tom Kha Soup","Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Maru","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Maru","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 226,
@@ -4685,7 +4650,7 @@
             "makes": [
                 "Summer Seeds","Jelly","Wine","Green Buttoned Vest"
             ],
-            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":["Evelyn","Harvey","Jodi"]}
+            "gifting":{"likes":["Demetrius","Elliott","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":["Evelyn","Harvey","Jodi"]}
         },
         {
             "id": 227,
@@ -4703,7 +4668,7 @@
             "makes": [
                 "Summer Seeds","Shirt"
             ],
-            "gifting":{"loves":["Sandy"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+            "gifting":{"loves":["Sandy"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Shane","Vincent","Willy","Wizard"],"dislikes":["Clint","George","Sebastian"]}
         },
         {
             "id": 228,
@@ -4723,7 +4688,7 @@
             "makes": [
                 "Life Elixir","Spotted Headscarf"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Penny"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting":{"dislikes":["Penny"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 229,
@@ -4741,7 +4706,7 @@
             "makes": [
                 "Fiddlehead Risotto","Pickles","Juice", "Green Overalls"
             ],
-            "gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+            "gifting":{"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"]}
         },
         {
             "id": 230,
@@ -4759,7 +4724,7 @@
             "makes": [
                 "Plum Pudding","Fall Seeds","Wine","Jelly","Farmer Pants"
             ],
-            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+            "gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"]}
         },
         {
             "id": 231,
@@ -4777,7 +4742,7 @@
             "makes": [
                 "Fall Seeds","Roasted Hazelnuts","Stuffing","Brown Overalls"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 232,
@@ -4796,7 +4761,7 @@
             "makes": [
                 "Fall Seeds","Blackberry Cobbler","Jelly","Wine","Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Maru","Vincent"],"hates":[]}
+            "gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Maru","Vincent"]}
         },
         {
             "id": 233,
@@ -4815,7 +4780,7 @@
             "makes": [
                 "Life Elixir","Orange Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 234,
@@ -4835,7 +4800,7 @@
             "makes": [
                 "Winter Seeds","Roots Platter","Orange Bow Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 235,
@@ -4854,7 +4819,7 @@
             "makes": [
                 "Winter Seeds","Jelly","Wine","Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Maru","Vincent"],"hates":[]}
+            "gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Maru","Vincent"]}
         },
         {
             "id": 236,
@@ -4873,7 +4838,7 @@
             "makes": [
                 "Winter Seeds","Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Lewis","Marnie","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Kent","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Maru"]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Lewis","Marnie","Pam","Penny","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Kent","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Maru"]}
         },
         {
             "id": 237,
@@ -4892,7 +4857,7 @@
             "makes": [
                 "Winter Seeds","Shirt"
             ],
-            "gifting":{"loves":["Sandy"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+            "gifting":{"loves":["Sandy"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Shane","Vincent","Willy","Wizard"],"dislikes":["Clint","George","Sebastian"]}
         },
         {
             "id": 238,
@@ -4909,7 +4874,7 @@
             "makes": [
                 "Fancy Red Blouse"
             ],
-            "gifting":{"loves":[],"likes":["Harvey","Leah","Linus"],"neutrals":[],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"]}
+            "gifting":{"likes":["Harvey","Leah","Linus"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Pierre","Sam","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Abigail","Alex","Clint","Demetrius","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Penny","Robin","Sandy"]}
         },
         {
             "id": 239,
@@ -4923,7 +4888,7 @@
             "makes": [
                 "Strapped Top"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Harvey"]}
+            "gifting":{"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Harvey"]}
         },
         {
             "id": 240,
@@ -4937,7 +4902,7 @@
             "makes": [
                 "Deluxe Speed-Gro","Warp Totem: Beach", "Strapped Top"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Evelyn","Harvey"]}
+            "gifting":{"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Evelyn","Harvey"]}
         },
         {
             "id": 241,
@@ -4951,7 +4916,7 @@
             "makes": [
                 "Strapped Top"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting":{"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 242,
@@ -4965,7 +4930,7 @@
             "makes": [
                 "Bikini Top"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Harvey"]}
+            "gifting":{"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Harvey"]}
         },
         {
             "id": 243,
@@ -4980,7 +4945,7 @@
             "makes": [
                 "Chowder","Speed-Gro","Sailor Shirt"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Evelyn"]}
+            "gifting":{"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Evelyn"]}
         },
         {
             "id": 244,
@@ -4995,7 +4960,7 @@
             "makes": [
                 "Maki Roll", "Quality Fertilizer", "Sashimi", "Sailor Shirt"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+            "gifting":{"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
         },
         {
             "id": 245,
@@ -5010,7 +4975,7 @@
             "makes": [
                 "Fish Stew","Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+            "gifting":{"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
         },
         {
             "id": 246,
@@ -5025,7 +4990,7 @@
             "makes": [
                 "Maki Roll","Sashimi","Sailor Shirt"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+            "gifting":{"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
         },
         {
             "id": 247,
@@ -5045,7 +5010,7 @@
             "makes": [
                 "Maki Roll","Kelp Shirt"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Leah","Marnie","Sam","Shane"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Vincent","Willy","Wizard"]}
+            "gifting":{"dislikes":["Leah","Marnie","Sam","Shane"],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Vincent","Willy","Wizard"]}
         },
         {
             "id": 248,
@@ -5065,7 +5030,7 @@
             "makes": [
                 "Life Elixir","Shirt"
             ],
-            "gifting":{"loves":["Wizard"],"likes":["Demetrius","Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Penny","Pierre","Sam","Sebastian","Shane","Vincent","Willy"],"hates":[]}
+            "gifting":{"loves":["Wizard"],"likes":["Demetrius","Harvey","Leah","Linus"],"neutrals":["Abigail","Alex","Clint","Emily","Evelyn","George","Gus","Kent","Lewis","Marnie","Maru","Pam","Robin","Sandy"],"dislikes":["Caroline","Dwarf","Elliott","Haley","Jas","Jodi","Krobus","Penny","Pierre","Sam","Sebastian","Shane","Vincent","Willy"]}
         },
         {
             "id": 249,
@@ -5083,7 +5048,7 @@
             "makes": [
                 "Miner's Treat","Roots Platter","Stir Fry","Survival Burger","Green Belted Shirt"
             ],
-            "gifting":{"loves":[],"likes":["Dwarf"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting":{"likes":["Dwarf"],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 250,
@@ -5098,7 +5063,7 @@
             "makes": [
                 "Tom Kha Soup","Jelly","Wine","Warp Totem: Desert","Vacation Shirt"
             ],
-            "gifting":{"loves":["Haley","Linus"],"likes":["Demetrius","Elliott","Harvey","Jas","Jodi","Kent","Leah","Lewis","Pam","Robin","Sandy","Shane","Vincent"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Dwarf"],"hates":[]}
+            "gifting":{"loves":["Haley","Linus"],"likes":["Demetrius","Elliott","Harvey","Jas","Jodi","Kent","Leah","Lewis","Pam","Robin","Sandy","Shane","Vincent"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Dwarf"]}
         },
         {
             "id": 289,
@@ -5118,311 +5083,10 @@
                 "Artichoke (Fall, even on the year 1)","Corn (Fall)","Eggplant (Fall)","Pumpkin (Fall)",
                 "Any of the above (Winter, inside Greenhouse only)"
             ]
-        },
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
-        },
-        {
-            "id": ,
-            "name": "",
-            "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
-            "obtainedFrom": [
-                ""
-            ],
-            "makes": [
-                ""
-            ]
         }
+
+
+
     
     ]
 }
