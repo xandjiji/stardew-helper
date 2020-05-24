@@ -32,6 +32,8 @@ Buildings (makes?)
 crane game
 cassino
 desert trader
+oasis
+Pierre's
 fish shop (fish level)
 festival of ice
 museum donation
@@ -45,5 +47,4 @@ verificar imagens
 
 
 CROPS:
-summer seeds profit (como se fossem crops)
-https://stardewvalleywiki.com/Mixed_Seeds
+trees

@@ -460,7 +460,7 @@
         },
         {
             "id": 19,
-            "name": "Ancient Seed",
+            "name": "Ancient Seed (artifact)",
             "type": "Artifacts",
             "link": "https://stardewvalleywiki.com/Ancient_Seed",
             "sellPrice": "5",
@@ -3333,6 +3333,18 @@
             ],"gifting":{"loves":[],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
         },
         {
+            "id": 251,
+            "name": "Jazz Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Jazz_Seeds",
+            "profitability":"2.86",
+            "harvestIn": "7 days",
+            "obtainedFrom": [
+                "Pierre's Store (30g)",
+                "JojaMart (37g)"
+            ]
+        },
+        {
             "id": 180,
             "name": "Cauliflower",
             "type": "Crops",
@@ -3352,6 +3364,19 @@
             ],"gifting":{"loves":["Maru"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
         },
         {
+            "id": 252,
+            "name": "Cauliflower Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cauliflower_Seeds",
+            "sellPrice": "",
+            "profitability":"7.92",
+            "harvestIn": "12 days",
+            "obtainedFrom": [
+                "Pierre's Store (80g)",
+                "JojaMart (100g)"
+            ]
+        },
+        {
             "id": 181,
             "name": "Coffee Bean",
             "type": "Crops",
@@ -3360,7 +3385,8 @@
             "profitability":"20.77",
             "harvestIn": "10 days (2 days to regrow)",
             "obtainedFrom": [
-                "Coffee Bean"
+                "Coffee Bean",
+                "Dust Sprite (1% chance drop)"
             ],
             "makes": [
                 "Coffee Bean","Coffee","Flannel Shirt"
@@ -3386,6 +3412,18 @@
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Jodi","Sam","Vincent"],"hates":["Evelyn","Pierre"]}
         },
         {
+            "id": 253,
+            "name": "Garlic Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Garlic_Seeds",
+            "sellPrice": "",
+            "profitability":"5",
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Pierre's Store (year 2+) (40g)"
+            ]
+        },
+        {
             "id": 183,
             "name": "Green Bean",
             "type": "Crops",
@@ -3403,6 +3441,19 @@
             "makes": [
                 "Bean Hotpot","Pickles","Juice","Shirt And Belt"
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 254,
+            "name": "Bean Starter",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Bean_Starter",
+            "sellPrice": "",
+            "profitability":"7.2",
+            "harvestIn": "10 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (60g)",
+                "JojaMart (75g)"
+            ]
         },
         {
             "id": 184,
@@ -3424,6 +3475,19 @@
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
         },
         {
+            "id": 255,
+            "name": "Kale Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Kale_Seeds",
+            "sellPrice": "",
+            "profitability":"6.67",
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Pierre's Store (70g)",
+                "JojaMart (87g)"
+            ]
+        },
+        {
             "id": 185,
             "name": "Parsnip",
             "type": "Crops",
@@ -3441,6 +3505,19 @@
             "makes": [
                 "Farmer's Lunch","Parsnip Soup","Pickles","Juice","Shirt And Belt"
             ],"gifting":{"loves":["Pam"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 256,
+            "name": "Parsnip Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Parsnip_Seeds",
+            "sellPrice": "",
+            "profitability":"3.75",
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Pierre's Store (20g)",
+                "JojaMart (25g)"
+            ]
         },
         {
             "id": 186,
@@ -3462,6 +3539,19 @@
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
         },
         {
+            "id": 257,
+            "name": "Potato Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Potato_Seeds",
+            "sellPrice": "",
+            "profitability":"6",
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Pierre's Store (50g)",
+                "JojaMart (62g)"
+            ]
+        },
+        {
             "id": 187,
             "name": "Rhubarb",
             "type": "Crops",
@@ -3475,6 +3565,18 @@
             "makes": [
                 "Rhubarb Pie","Wine","Jelly","Green Buttoned Vest"
             ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 258,
+            "name": "Rhubarb Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Rhubarb_Seeds",
+            "sellPrice": "",
+            "profitability":"9.23",
+            "harvestIn": "13 days",
+            "obtainedFrom": [
+                "Oasis (100g)"
+            ]
         },
         {
             "id": 188,
@@ -3496,6 +3598,18 @@
             ],"gifting":{"loves":["Demetrius","Maru"],"likes":["Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
         },
         {
+            "id": 259,
+            "name": "Strawberry Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Strawberry_Seeds",
+            "sellPrice": "",
+            "profitability":"20.83",
+            "harvestIn": "8 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Booth at the Egg Festival (100g)"
+            ]
+        },
+        {
             "id": 189,
             "name": "Tulip",
             "type": "Crops",
@@ -3513,6 +3627,19 @@
             "makes": [
                 "Skirt"
             ],"gifting":{"loves":["Evelyn"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 260,
+            "name": "Tulip Bulb",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Tulip_Bulb",
+            "sellPrice": "",
+            "profitability":"1.67",
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Pierre's Store (20g)",
+                "JojaMart (25g)"
+            ]
         },
         {
             "id": 190,
@@ -3534,6 +3661,18 @@
             ],"gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
         },
         {
+            "id": 261,
+            "name": "Rice Shoot",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Rice_Shoot",
+            "sellPrice": "",
+            "profitability":"-1.25",
+            "harvestIn": "6-8 days",
+            "obtainedFrom": [
+                "Pierre's Store (40g)"
+            ]
+        },
+        {
             "id": 191,
             "name": "Blueberry",
             "type": "Crops",
@@ -3551,6 +3690,18 @@
             "makes": [
                 "Blueberry Tart","Fruit Salad","Wine","Jelly","Shorts"
             ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 262,
+            "name": "Blueberry Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Blueberry_Seeds",
+            "sellPrice": "",
+            "profitability":"20.8",
+            "harvestIn": "13 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (80g)"
+            ]
         },
         {
             "id": 192,
@@ -3572,6 +3723,19 @@
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":["Pierre"]}
         },
         {
+            "id": 263,
+            "name": "Corn Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Corn_Seeds",
+            "sellPrice": "",
+            "profitability":"1.92",
+            "harvestIn": "14 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (150g)",
+                "JojaMart (187g)"
+            ]
+        },
+        {
             "id": 193,
             "name": "Hops",
             "type": "Crops",
@@ -3589,6 +3753,19 @@
             "makes": [
                 "Pale Ale","Pickles","Shirt and Belt"
             ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":["Penny"]}
+        },
+        {
+            "id": 264,
+            "name": "Hops Starter",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Hops_Starter",
+            "sellPrice": "",
+            "profitability":"13.52",
+            "harvestIn": "11 days (regrows every day)",
+            "obtainedFrom": [
+                "Pierre's Store (60g)",
+                "JojaMart (75g)"
+            ]
         },
         {
             "id": 194,
@@ -3610,6 +3787,19 @@
             ],"gifting":{"loves":["Lewis","Shane"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
         },
         {
+            "id": 265,
+            "name": "Pepper Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Pepper_Seeds",
+            "sellPrice": "",
+            "profitability":"10.77",
+            "harvestIn": "5 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (40g)",
+                "JojaMart (50g)"
+            ]
+        },
+        {
             "id": 195,
             "name": "Melon",
             "type": "Crops",
@@ -3627,6 +3817,19 @@
             "makes": [
                 "Fruit Salad","Pink Cake","Wine","Jelly","Shorts"
             ],"gifting":{"loves":["Penny"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 266,
+            "name": "Melon Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Melon_Seeds",
+            "sellPrice": "",
+            "profitability":"14.17",
+            "harvestIn": "12 days",
+            "obtainedFrom": [
+                "Pierre's Store (80g)",
+                "JojaMart (100g)"
+            ]
         },
         {
             "id": 196,
@@ -3648,6 +3851,19 @@
             ],"gifting":{"loves":["Penny"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
+            "id": 267,
+            "name": "Poppy Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Poppy_Seeds",
+            "sellPrice": "",
+            "profitability":"5.71",
+            "harvestIn": "7 days",
+            "obtainedFrom": [
+                "Pierre's Store (100g)",
+                "JojaMart (125g)"
+            ]
+        },
+        {
             "id": 197,
             "name": "Radish",
             "type": "Crops",
@@ -3658,13 +3874,26 @@
                 "energy": 45,
                 "health": 20
             },
-            "harvestIn": " days",
+            "harvestIn": "6 days",
             "obtainedFrom": [
                 "Radish Seeds"
             ],
             "makes": [
                 "Radish Salad","Red Plate","Pickles","Juice","Tank Top"
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 268,
+            "name": "Radish Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Radish_Seeds",
+            "sellPrice": "",
+            "profitability":"8.33",
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Pierre's Store (40g)",
+                "JojaMart (50g)"
+            ]
         },
         {
             "id": 198,
@@ -3686,6 +3915,18 @@
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
         },
         {
+            "id": 269,
+            "name": "Red Cabbage Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Red_Cabbage_Seeds",
+            "sellPrice": "",
+            "profitability":"17.78",
+            "harvestIn": "9 days",
+            "obtainedFrom": [
+                "Pierre's Store (year 2+) (100g)"
+            ]
+        },
+        {
             "id": 199,
             "name": "Starfruit",
             "type": "Crops",
@@ -3703,6 +3944,18 @@
             "makes": [
                 "Junimo Hut","Wine","Jelly","Genie Pants"
             ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 270,
+            "name": "Starfruit Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Starfruit_Seeds",
+            "sellPrice": "",
+            "profitability":"26.92",
+            "harvestIn": "13 days",
+            "obtainedFrom": [
+                "Oasis (400g)"
+            ]
         },
         {
             "id": 200,
@@ -3724,6 +3977,19 @@
             ],"gifting":{"loves":["Caroline"],"likes":["Abigail","Alex","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
         },
         {
+            "id": 271,
+            "name": "Spangle Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Spangle_Seeds",
+            "sellPrice": "",
+            "profitability":"5",
+            "harvestIn": "8 days",
+            "obtainedFrom": [
+                "Pierre's Store (50g)",
+                "JojaMart (62g)"
+            ]
+        },
+        {
             "id": 201,
             "name": "Sunflower",
             "type": "Crops",
@@ -3741,6 +4007,19 @@
             "makes": [
                 "Oil","Long Dress"
             ],"gifting":{"loves":["Haley"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
+        },
+        {
+            "id": 272,
+            "name": "Sunflower Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Sunflower_Seeds",
+            "sellPrice": "",
+            "profitability":"-15",
+            "harvestIn": "8 days",
+            "obtainedFrom": [
+                "Pierre's Store (200g)",
+                "JojaMart (125g)"
+            ]
         },
         {
             "id": 202,
@@ -3762,6 +4041,19 @@
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
         },
         {
+            "id": 273,
+            "name": "Tomato Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Tomato_Seeds",
+            "sellPrice": "",
+            "profitability":"9.26",
+            "harvestIn": "11 days (4 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (50g)",
+                "JojaMart (62g)"
+            ]
+        },
+        {
             "id": 203,
             "name": "Wheat",
             "type": "Crops",
@@ -3775,6 +4067,19 @@
             "makes": [
                 "Beer","Wheat Flour","Pickles","Crop Tank Top"
             ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 274,
+            "name": "Wheat Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Wheat_Seeds",
+            "sellPrice": "",
+            "profitability":"3.75",
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Pierre's Store (10g)",
+                "JojaMart (12g)"
+            ]
         },
         {
             "id": 204,
@@ -3796,6 +4101,19 @@
             ],"gifting":{"loves":[],"likes":["Alex","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Caroline","Haley","Jas","Sam","Vincent"],"hates":["Elliott"]}
         },
         {
+            "id": 275,
+            "name": "Amaranth Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Amaranth_Seeds",
+            "sellPrice": "",
+            "profitability":"11.43",
+            "harvestIn": "7 days",
+            "obtainedFrom": [
+                "Pierre's Store (70g)",
+                "JojaMart (87g)"
+            ]
+        },
+        {
             "id": 205,
             "name": "Artichoke",
             "type": "Crops",
@@ -3813,6 +4131,18 @@
             "makes": [
                 "Artichoke Dip","Super Meal","Pickles","Juice","Button Down Shirt"
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 276,
+            "name": "Artichoke Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Artichoke_Seeds",
+            "sellPrice": "",
+            "profitability":"16.25",
+            "harvestIn": "8 days",
+            "obtainedFrom": [
+                "Pierre's Store (year 2+) (30g)"
+            ]
         },
         {
             "id": 206,
@@ -3834,6 +4164,18 @@
             ],"gifting":{"loves":["Evelyn"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
         },
         {
+            "id": 277,
+            "name": "Beet Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Beet_Seeds",
+            "sellPrice": "",
+            "profitability":"13.33",
+            "harvestIn": "6 days",
+            "obtainedFrom": [
+                "Oasis (20g)"
+            ]
+        },
+        {
             "id": 207,
             "name": "Bok Choy",
             "type": "Crops",
@@ -3851,6 +4193,19 @@
             "makes": [
                 "Super Meal","Pickles","Juice","Button Down Shirt"
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 278,
+            "name": "Bok Choy Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Bok_Choy_Seeds",
+            "sellPrice": "",
+            "profitability":"7.5",
+            "harvestIn": "4 days",
+            "obtainedFrom": [
+                "Pierre's Store (50g)",
+                "JojaMart (62g)"
+            ]
         },
         {
             "id": 208,
@@ -3872,6 +4227,19 @@
             ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
         },
         {
+            "id": 279,
+            "name": "Cranberry Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cranberry_Seeds",
+            "sellPrice": "",
+            "profitability":"18.89",
+            "harvestIn": "7 days (5 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (240g)",
+                "JojaMart (300g)"
+            ]
+        },
+        {
             "id": 209,
             "name": "Eggplant",
             "type": "Crops",
@@ -3889,6 +4257,19 @@
             "makes": [
                 "Eggplant Parmesan","Survival Burger","Pickles","Juice","Button Down Shirt"
             ],"gifting":{"loves":[],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 280,
+            "name": "Eggplant Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Eggplant_Seeds",
+            "sellPrice": "",
+            "profitability":"11.2",
+            "harvestIn": "5 days (5 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (20g)",
+                "JojaMart (25g)"
+            ]
         },
         {
             "id": 210,
@@ -3910,6 +4291,19 @@
             ],"gifting":{"loves":["Evelyn","Jas"],"likes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Gus","Haley","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":["Clint","George","Sebastian"],"hates":[]}
         },
         {
+            "id": 281,
+            "name": "Fairy Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Fairy_Seeds",
+            "sellPrice": "",
+            "profitability":"7.5",
+            "harvestIn": "12 days",
+            "obtainedFrom": [
+                "Pierre's Store (200g)",
+                "JojaMart (250g)"
+            ]
+        },
+        {
             "id": 211,
             "name": "Grape",
             "type": "Crops",
@@ -3929,6 +4323,19 @@
             ],"gifting":{"loves":["Vincent"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas"],"hates":["Penny"]}
         },
         {
+            "id": 282,
+            "name": "Grape Starter",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Grape_Starter",
+            "sellPrice": "",
+            "profitability":"16.8",
+            "harvestIn": "10 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Pierre's Store (60g)",
+                "JojaMart (75g)"
+            ]
+        },
+        {
             "id": 212,
             "name": "Pumpkin",
             "type": "Crops",
@@ -3942,6 +4349,19 @@
             "makes": [
                 "Autumn's Bounty","Pumpkin Pie","Pumpkin Soup","Jack-O-Lantern","Pickles","Juice","Button Down Shirt"
             ],"gifting":{"loves":["Abigail","Krobus","Willy"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Wizard"],"neutrals":[],"dislikes":["Haley","Jas","Sam","Vincent"],"hates":[]}
+        },
+        {
+            "id": 283,
+            "name": "Pumpkin Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Pumpkin_Seeds",
+            "sellPrice": "",
+            "profitability":"16.92",
+            "harvestIn": "13 days",
+            "obtainedFrom": [
+                "Pierre's Store (100g)",
+                "JojaMart (125g)"
+            ]
         },
         {
             "id": 213,
@@ -3963,6 +4383,19 @@
             ],"gifting":{"loves":["Linus"],"likes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Willy","Wizard"],"neutrals":[],"dislikes":["Abigail","Haley","Jas","Sam","Vincent"],"hates":[]}
         },
         {
+            "id": 284,
+            "name": "Yam Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Yam_Seeds",
+            "sellPrice": "",
+            "profitability":"10",
+            "harvestIn": "10 days",
+            "obtainedFrom": [
+                "Pierre's Store (60g)",
+                "JojaMart (75g)"
+            ]
+        },
+        {
             "id": 214,
             "name": "Ancient Fruit",
             "type": "Crops",
@@ -3976,6 +4409,25 @@
             "makes": [
                 "Wine","Jelly","Genie Pants"
             ],"gifting":{"loves":[],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
+        },
+        {
+            "id": 285,
+            "name": "Ancient Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Ancient_Seeds",
+            "sellPrice": "30",
+            "profitability":"78.57",
+            "harvestIn": "28 days (7 days to regrow)",
+            "obtainedFrom": [
+                "Crafts from Ancient Seed (artifact)",
+                "There is a 1.26% chance to appear in the Traveling Cart",
+                "Using an Ancient Fruit in a Seed Maker"
+            ],
+            "makes": [
+                "Ancient Seeds",
+                "Brown Suit"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         },
         {
             "id": 215,
@@ -3997,6 +4449,18 @@
             ],"gifting":{"loves":["Linus","Pam","Sam"],"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Lewis","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Vincent"],"hates":[]}
         },
         {
+            "id": 286,
+            "name": "Cactus Seeds",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cactus_Seeds",
+            "sellPrice": "",
+            "profitability":"24.11",
+            "harvestIn": "12 days (3 days to regrow)",
+            "obtainedFrom": [
+                "Oasis (150g)"
+            ]
+        },
+        {
             "id": 216,
             "name": "Sweet Gem Berry",
             "type": "Crops",
@@ -4012,6 +4476,19 @@
             ],"gifting":{"loves":[],"likes":[],"neutrals":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
         },
         {
+            "id": 287,
+            "name": "Rare Seed",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Rare_Seed",
+            "sellPrice": "",
+            "profitability":"83.33",
+            "harvestIn": "24 days",
+            "obtainedFrom": [
+                "Traveling Cart (1,000g)",
+                "Using a Sweet Gem Berry in a Seed Maker"
+            ]
+        },
+        {
             "id": 217,
             "name": "Tea Leaves",
             "type": "Crops",
@@ -4025,6 +4502,23 @@
             "makes": [
                 "Green Tea"
             ],"gifting":{"loves":[],"likes":["Caroline"],"neutrals":["Abigail","Alex","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 288,
+            "name": "Tea Sapling",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Tea_Sapling",
+            "sellPrice": "500",
+            "profitability":"50",
+            "harvestIn": "20 days (regrows every day)",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned with Caroline (2-heart event)"
+            ],
+            "recipe":[
+                {"id":"Fiber", "qty": 5},
+                {"id":"Wood", "qty": 5}
+            ]
         },
         {
             "id": 218,
@@ -4606,33 +5100,44 @@
             ],
             "gifting":{"loves":["Haley","Linus"],"likes":["Demetrius","Elliott","Harvey","Jas","Jodi","Kent","Leah","Lewis","Pam","Robin","Sandy","Shane","Vincent"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Marnie","Maru","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Dwarf"],"hates":[]}
         },
-
-
-
-
-
-
-
-
         {
-            "id": ,
-            "name": "",
+            "id": 289,
+            "name": "Mixed Seeds",
             "type": "Crops",
-            "link": "",
-            "sellPrice": "",
-            "profitability":"",
-            "healing": {
-                "energy": ,
-                "health": 
-            },
-            "harvestIn": " days",
+            "link": "https://stardewvalleywiki.com/Mixed_Seeds",
+            "sellPrice": "0",
             "obtainedFrom": [
-                ""
+                "Tilling dirt or sand",
+                "Destroying Weeds",
+                "Fishing Treasure Chests",
+                "Krobus on Thursdays (30g)"
             ],
             "makes": [
-                ""
+                "Cauliflower (Spring)","Parnsip (Spring)","Potato (Spring)",
+                "Corn (Summer)","Pepper (Summer)","Radish (Summer)","Wheat (Summer)",
+                "Artichoke (Fall, even on the year 1)","Corn (Fall)","Eggplant (Fall)","Pumpkin (Fall)",
+                "Any of the above (Winter, inside Greenhouse only)"
             ]
         },
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
         {
             "id": ,
             "name": "",
