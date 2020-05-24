@@ -4585,7 +4585,7 @@
                 "health": 9
             },
             "obtainedFrom": [
-                "The Cave (mushroom option)",
+                "The Farm Cave (mushroom option)",
                 "Foraging in the Secret Woods (Fall)"
             ],
             "makes": [
@@ -4604,6 +4604,7 @@
                 "health": 11
             },
             "obtainedFrom": [
+                "The Farm Cave (fruit option)",
                 "Foraging bushes (Spring, during day 15-18)"
             ],
             "makes": [
@@ -4626,7 +4627,7 @@
                 "health": 17
             },
             "obtainedFrom": [
-                "The Cave (mushroom option)",
+                "The Farm Cave (mushroom option)",
                 "Foraging in the Secret Woods (Fall)"
             ],
             "makes": [
@@ -4645,6 +4646,7 @@
                 "health": 11
             },
             "obtainedFrom": [
+                "The Farm Cave (fruit option)",
                 "Foraging (Summer)","Summer Seeds"
             ],
             "makes": [
@@ -4680,7 +4682,7 @@
                 "health": -50
             },
             "obtainedFrom": [
-                "The Cave (mushroom option)",
+                "The Farm Cave (mushroom option)",
                 "Foraging in the Secret Woods (Summer)",
                 "Mushroom Tree",
                 "The Mines"
@@ -4719,6 +4721,7 @@
                 "health": 11
             },
             "obtainedFrom": [
+                "The Farm Cave (fruit option)",
                 "Foraging (Fall)","Fall Seeds"
             ],
             "makes": [
@@ -4759,6 +4762,7 @@
                 "Foraging bushes (Fall, during day 8-11)","Fall Seeds"
             ],
             "makes": [
+                "The Farm Cave (fruit option)",
                 "Fall Seeds","Blackberry Cobbler","Jelly","Wine","Shirt"
             ],
             "gifting":{"likes":["Demetrius","Elliott","Harvey","Jodi","Kent","Leah","Linus","Pam","Robin","Sandy","Shane"],"neutrals":["Alex","Caroline","Clint","Dwarf","Emily","Evelyn","George","Gus","Krobus","Lewis","Marnie","Penny","Pierre","Sam","Sebastian","Willy","Wizard"],"dislikes":["Abigail","Haley","Jas","Maru","Vincent"]}
@@ -4774,7 +4778,7 @@
                 "health": 33
             },
             "obtainedFrom": [
-                "The Cave (mushroom option)",
+                "The Farm Cave (mushroom option)",
                 "Foraging in the Secret Woods (Fall)"
             ],
             "makes": [
@@ -5023,7 +5027,7 @@
                 "health": 56
             },
             "obtainedFrom": [
-                "The Cave (mushroom option)",
+                "The Farm Cave (mushroom option)",
                 "The Mines (level 81+)",
                 "Using a Tapper in a Mushroom Tree"
             ],
@@ -5082,6 +5086,216 @@
                 "Corn (Summer)","Pepper (Summer)","Radish (Summer)","Wheat (Summer)",
                 "Artichoke (Fall, even on the year 1)","Corn (Fall)","Eggplant (Fall)","Pumpkin (Fall)",
                 "Any of the above (Winter, inside Greenhouse only)"
+            ]
+        },
+        {
+            "id": 290,
+            "name": "Apricot",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Apricot",
+            "sellPrice": "50",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "profitability":"50",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "The Farm Cave (fruit option)",
+                "Apricot Sapling"
+            ],
+            "makes":[
+                "Jelly", "Wine","Fruit Salad","Relaxed Fit Pants"
+            ],
+            "gifting":{"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 291,
+            "name": "Apricot Sapling",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Apricot_Sapling",
+            "profitability":"50",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "Pierre's Shop during Spring (2,000g)"
+            ],
+            "makes":[
+                "Apricot Tree", "Apricot"
+            ]
+        },
+        {
+            "id": 292,
+            "name": "Cherry",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cherry",
+            "sellPrice": "80",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "profitability":"80",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "The Farm Cave (fruit option)",
+                "Cherry Sapling"
+            ],
+            "makes":[
+                "Jelly", "Wine","Relaxed Fit Pants"
+            ],
+            "gifting":{"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 293,
+            "name": "Cherry Sapling",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Cherry_Sapling",
+            "profitability":"80",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "Pierre's Shop during Spring (3,400g)"
+            ],
+            "makes":[
+                "Cherry Tree", "Cherry"
+            ]
+        },
+        {
+            "id": 294,
+            "name": "Orange",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Orange",
+            "sellPrice": "100",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "profitability":"100",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "The Farm Cave (fruit option)",
+                "Orange Sapling"
+            ],
+            "makes":[
+                "Jelly", "Wine","Relaxed Fit Pants"
+            ],
+            "gifting":{"loves":["Gus"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 295,
+            "name": "Orange Sapling",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Orange_Sapling",
+            "profitability":"100",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "Pierre's Shop during Summer (4,000g)"
+            ],
+            "makes":[
+                "Orange Tree", "Orange"
+            ]
+        },
+        {
+            "id": 296,
+            "name": "Peach",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Peach",
+            "sellPrice": "140",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "profitability":"140",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "The Farm Cave (fruit option)",
+                "Peach Sapling"
+            ],
+            "makes":[
+                "Jelly", "Wine","Relaxed Fit Pants"
+            ],
+            "gifting":{"loves":["Robin"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 297,
+            "name": "Peach Sapling",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Peach_Sapling",
+            "profitability":"140",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "Pierre's Shop during Summer (6,000g)"
+            ],
+            "makes":[
+                "Peach Tree", "Peach"
+            ]
+        },
+        {
+            "id": 298,
+            "name": "Apple",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Apple",
+            "sellPrice": "100",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "profitability":"100",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "The Farm Cave (fruit option)",
+                "Apple Sapling"
+            ],
+            "makes":[
+                "Jelly", "Wine","Cranberry Juice","Relaxed Fit Pants"
+            ],
+            "gifting":{"loves":[],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 299,
+            "name": "Apple Sapling",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Apple_Sapling",
+            "profitability":"100",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "Pierre's Shop during Fall (4,000g)"
+            ],
+            "makes":[
+                "Apple Tree", "Apple"
+            ]
+        },
+        {
+            "id": 300,
+            "name": "Pomegranate",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Pomegranate",
+            "sellPrice": "140",
+            "healing": {
+                "energy": 38,
+                "health": 17
+            },
+            "profitability":"140",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "The Farm Cave (fruit option)",
+                "Pomegranate Sapling"
+            ],
+            "makes":[
+                "Jelly", "Wine","Relaxed Fit Pants"
+            ],
+            "gifting":{"loves":["Elliott"],"likes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"neutrals":[],"dislikes":[],"hates":[]}
+        },
+        {
+            "id": 301,
+            "name": "Pomegranate Sapling",
+            "type": "Crops",
+            "link": "https://stardewvalleywiki.com/Pomegranate_Sapling",
+            "profitability":"140",
+            "harvestIn": "28 days",
+            "obtainedFrom": [
+                "Pierre's Shop during Fall (6,000g)"
+            ],
+            "makes":[
+                "Pomegranate Tree", "Pomegranate"
             ]
         }
 
