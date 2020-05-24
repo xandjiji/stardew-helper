@@ -5297,7 +5297,1156 @@
             "makes":[
                 "Pomegranate Tree", "Pomegranate"
             ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "id": 302,
+            "name": "Pufferfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Pufferfish",
+            "sellPrice": "200",
+            "healing":{
+                "energy": -100
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (12pm - 4pm) (Sunny weather) (Summer)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":["Abigail"],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 303,
+            "name": "Anchovy",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Anchovy",
+            "sellPrice": "30",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (Spring or Fall)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 304,
+            "name": "Tuna",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Tuna",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 7pm) (Summer or Winter)"
+            ],
+            "makes":[
+                "Fish Taco",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 305,
+            "name": "Sardine",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Sardine",
+            "sellPrice": "40",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6pm - 7pm) (Spring, Fall or Winter)"
+            ],
+            "makes":[
+                "Dish O' The Sea",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 306,
+            "name": "Bream",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Bream",
+            "sellPrice": "45",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (6pm - 2am)",
+                "Fishing by the Forest River (6pm - 2am)"
+            ],
+            "makes":[
+                "Baked Fish",
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 307,
+            "name": "Smallmouth Bass",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Smallmouth_Bass",
+            "sellPrice": "50",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (Spring or Fall)",
+                "Fishing by the Forest Pond (Spring or Fall)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 355,
+            "name": "Largemouth Bass",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Largemouth_Bass",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing by the Mountain Lake (6am - 7pm)"
+            ],
+            "makes":[
+                "Crispy Bass",
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 308,
+            "name": "Rainbow Trout",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Rainbow_Trout",
+            "sellPrice": "65",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (6am - 7pm) (Sunny weather) (Summer)",
+                "Fishing by the Forest River (6am - 7pm) (Sunny weather) (Summer)",
+                "Fishing by the Mountain Lake (6am - 7pm) (Sunny weather) (Summer)"
+            ],
+            "makes":[
+                "Trout Soup",
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 309,
+            "name": "Salmon",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Salmon",
+            "sellPrice": "75",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (6am - 7pm) (Fall)",
+                "Fishing by the Forest River (6am - 7pm) (Fall)"
+            ],
+            "makes":[
+                "Salmon Dinner",
+                "Maki Roll","Quality Fertilizer","Sashimi","Faded Denim Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 310,
+            "name": "Walleye",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Walleye",
+            "sellPrice": "105",
+            "healing":{
+                "energy": 30,
+                "health": 13
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (12pm - 2pm) (Rainy weather) (Fall or Winter using a Rain Totem)",
+                "Fishing by the Forest River (12pm - 2pm) (Rainy weather) (Fall or Winter using a Rain Totem)",
+                "Fishing by the Forest Pond (12pm - 2pm) (Rainy weather) (Fall or Winter using a Rain Totem)",
+                "Fishing by the Mountain Lake (12pm - 2pm) (Rainy weather) (Fall or Winter using a Rain Totem)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 311,
+            "name": "Perch",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Perch",
+            "sellPrice": "55",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (Winter)",
+                "Fishing by the Forest River (Winter)",
+                "Fishing by the Forest Pond (Winter)",
+                "Fishing by the Mountain Lake (Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 312,
+            "name": "Carp",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Carp",
+            "sellPrice": "30",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing by the Mountain Lake",
+                "Fishing by the Secret Woods Pond",
+                "Fishing by the Sewers"
+            ],
+            "makes":[
+                "Carp Surprise",
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 313,
+            "name": "Catfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Catfish",
+            "sellPrice": "200",
+            "healing":{
+                "energy": 50,
+                "health": 22
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (6am - 12am) (Rainy weather) (Spring or Fall)",
+                "Fishing by the Forest River (6am - 12am) (Rainy weather) (Spring or Fall)",
+                "Fishing by the Witch's Swamp (6am - 12am) (Rainy weather) (Spring or Fall)",
+                "Fishing by the Secret Woods Pond (6am - 12am) (Rainy weather) (Spring or Summer)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":["Willy"],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 314,
+            "name": "Pike",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Pike",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (Summer or Winter)",
+                "Fishing by the Forest River (Summer or Winter)",
+                "Fishing by the Forest Pond (Summer or Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 315,
+            "name": "Sunfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Sunfish",
+            "sellPrice": "30",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (6am - 7pm) (Sunny or Windy weather) (Spring or Summer)",
+                "Fishing by the Forest River (6am - 7pm) (Sunny or Windy weather) (Spring or Summer)"
+            ],
+            "makes":[
+                "Baked Fish",
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 316,
+            "name": "Red Mullet",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Red_Mullet",
+            "sellPrice": "75",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 7pm) (Summer or Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 317,
+            "name": "Herring",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Herring",
+            "sellPrice": "30",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (Spring or Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 318,
+            "name": "Eel",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Eel",
+            "sellPrice": "85",
+            "healing":{
+                "energy": 30,
+                "health": 13
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (4pm - 2am) (Rainy weather) (Spring or Fall)"
+            ],
+            "makes":[
+                "Fried Eel","Spicy Eel",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 319,
+            "name": "Octopus",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Octopus",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 1pm) (Summer)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Blue Buttoned Vest"
+            ],
+            "gifting":{"loves":["Willy"],"likes":["Elliott"],"neutrals":["Demetrius","Linus","Sebastian"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pam","Pierre"]}
+        },
+        {
+            "id": 320,
+            "name": "Red Snapper",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Red_Snapper",
+            "sellPrice": "50",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 7pm) (Rainy weather) (Summer, Fall or Winter using a Rain Totem)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 321,
+            "name": "Squid",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Squid",
+            "sellPrice": "80",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6pm - 2am) (Winter)"
+            ],
+            "makes":[
+                "Fried Calamari",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Elliott"],"neutrals":["Demetrius","Linus","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pam","Pierre"]}
+        },
+        {
+            "id": 322,
+            "name": "Sea Cucumber",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Sea_Cucumber",
+            "sellPrice": "75",
+            "healing":{
+                "energy": -25
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 7pm) (Fall or Winter)"
+            ],
+            "makes":[
+                "Lucky Lunch",
+                "Maki Roll","Quality Fertilizer","Sashimi","Tube Top"
+            ],
+            "gifting":{"loves":["Willy"],"likes":[],"neutrals":["Demetrius","Linus","Pam","Sebastian"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Elliott","Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 323,
+            "name": "Super Cucumber",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Super_Cucumber",
+            "sellPrice": "250",
+            "healing":{
+                "energy": 125,
+                "health": 56
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6pm - 2am) (Summer or Fall)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Tube Top"
+            ],
+            "gifting":{"loves":["Wizard"],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 324,
+            "name": "Ghostfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Ghostfish",
+            "sellPrice": "45",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing in The Mines (level 20 or 60)",
+                "Ghost (8% chance drop)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 325,
+            "name": "Stonefish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Stonefish",
+            "sellPrice": "300",
+            "obtainedFrom": [
+                "Fishing in The Mines (level 20) (requires Fishing skill level 3)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Hat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 326,
+            "name": "Ice Pip",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Ice_Pip",
+            "sellPrice": "500",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing in The Mines (level 60) (requires Fishing skill level 5)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Hat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 327,
+            "name": "Lava Eel",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Lava_Eel",
+            "sellPrice": "700",
+            "healing":{
+                "energy": 50,
+                "health": 22
+            },
+            "obtainedFrom": [
+                "Fishing in The Mines (level 100) (requires Fishing skill level 7)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Logo Cap"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 328,
+            "name": "Sandfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Sandfish",
+            "sellPrice": "75",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing by the Desert (6am - 8pm)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":["Penny"],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 329,
+            "name": "Scorpion Carp",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Scorpion_Carp",
+            "sellPrice": "150",
+            "healing":{
+                "energy": -125
+            },
+            "obtainedFrom": [
+                "Fishing by the Desert (6am - 8pm) (requires Fishing skill level 4)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Hat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 330,
+            "name": "Flounder",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Flounder",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 8pm) (Spring or Summer)"
+            ],
+            "makes":[
+                "Seafoam Pudding",
+                "Maki Roll","Quality Fertilizer","Sashimi"
+            ],
+            "gifting":{"loves":[],"likes":["Sebastian"],"neutrals":["Demetrius","Elliott","Linus","Pam","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 331,
+            "name": "Midnight Carp",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Midnight_Carp",
+            "sellPrice": "150",
+            "healing":{
+                "energy": 50,
+                "health": 22
+            },
+            "obtainedFrom": [
+                "Fishing by the Mountain Lake (10pm - 2am) (Fall or Winter)",
+                "Fishing by the Cindersap Forest Pond (10pm - 2am) (Fall or Winter)"
+            ],
+            "makes":[
+                "Seafoam Pudding",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 332,
+            "name": "Sturgeon",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Sturgeon",
+            "sellPrice": "200",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Mountain Lake (6am - 7pm) (Summer or Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":["Willy"],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 333,
+            "name": "Tiger Trout",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Tiger_Trout",
+            "sellPrice": "150",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (6am - 7pm) (Fall or Winter)",
+                "Fishing by the Forest River (6am - 7pm) (Fall or Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":[],"likes":["Willy"],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 334,
+            "name": "Bullhead",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Bullhead",
+            "sellPrice": "75",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Mountain Lake"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 335,
+            "name": "Tilapia",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Tilapia",
+            "sellPrice": "75",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 2pm) (Summer or Fall)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 336,
+            "name": "Chub",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Chub",
+            "sellPrice": "50",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River",
+                "Fishing by the Forest River",
+                "Fishing by the Mountain Lake"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 337,
+            "name": "Dorado",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Dorado",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Forest River (6am - 7pm) (Summer)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 338,
+            "name": "Albacore",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Albacore",
+            "sellPrice": "75",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 11am) (Fall or Winter)",
+                "Fishing by the Ocean (6pm - 2am) (Fall or Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 339,
+            "name": "Shad",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Shad",
+            "sellPrice": "60",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (9am - 2am) (Rainy weather) (Spring, Summer or Fall)",
+                "Fishing by the Forest River (9am - 2am) (Rainy weather) (Spring, Summer or Fall)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fish Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 340,
+            "name": "Lingcod",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Lingcod",
+            "sellPrice": "120",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Town River (Winter)",
+                "Fishing by the Forest River (Winter)",
+                "Fishing by the Mountain Lake (Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":["Willy"],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 341,
+            "name": "Halibut",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Halibut",
+            "sellPrice": "80",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean (6am - 11am) (Spring, Summer or Winter)",
+                "Fishing by the Ocean (7pm - 2am) (Spring, Summer or Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 342,
+            "name": "Woodskip",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Woodskip",
+            "sellPrice": "75",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Secret Woods Pond"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Vest"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 343,
+            "name": "Void Salmon",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Void_Salmon",
+            "sellPrice": "150",
+            "healing":{
+                "energy": 63,
+                "health": 28
+            },
+            "obtainedFrom": [
+                "Fishing by the Witch's Swamp"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Hat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 344,
+            "name": "Slimejack",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Slimejack",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing by the Mutant Bug Lair"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Hat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 345,
+            "name": "Midnight Squid",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Midnight_Squid",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing in the submarine ride at the Night Market (5pm - 2am) (Winter 15-17)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Hat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 346,
+            "name": "Spook Fish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Spook_Fish",
+            "sellPrice": "220",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing in the submarine ride at the Night Market (5pm - 2am) (Winter 15-17)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Fishing Hat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 347,
+            "name": "Blobfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Blobfish",
+            "sellPrice": "500",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing in the submarine ride at the Night Market (5pm - 2am) (Winter 15-17)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi","Blobfish Mask"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 348,
+            "name": "Crimsonfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Crimsonfish",
+            "sellPrice": "1,500",
+            "healing":{
+                "energy": 38,
+                "health": 17
+            },
+            "obtainedFrom": [
+                "Fishing by East Pier on The Beach (requires Fishing skill level 5) (Summer)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 349,
+            "name": "Angler",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Angler",
+            "sellPrice": "900",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by north of JojaMart on the wooden plank bridge (requires Fishing skill level 3) (Fall)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 350,
+            "name": "Legend",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Legend",
+            "sellPrice": "5,000",
+            "healing":{
+                "energy": 500,
+                "health": 225
+            },
+            "obtainedFrom": [
+                "Fishing by the Mountain Lake near the big log (requires Fishing skill level 10) (Rainy weather) (Spring)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 351,
+            "name": "Glacierfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Glacierfish",
+            "sellPrice": "1,000",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the south end of Arrowhead Island in Cindersap Forest (requires Fishing skill level 6) (Winter)"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 352,
+            "name": "Mutant Carp",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Mutant_Carp",
+            "sellPrice": "1,000",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": [
+                "Fishing by the Sewers"
+            ],
+            "makes":[
+                
+                "Maki Roll","Quality Fertilizer","Sashimi"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 353,
+            "name": "Green Algae",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Green_Algae",
+            "sellPrice": "15",
+            "healing": {
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": [
+                "Fishing anywhere but the Farm Pond",
+                "Green Slime (10% chance drop)"
+            ],
+            "makes":[
+                "Algae Soup","Trout Soup","Collared Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 354,
+            "name": "White Algae",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/White_Algae",
+            "sellPrice": "25",
+            "healing": {
+                "energy": 20,
+                "health": 9
+            },
+            "obtainedFrom": [
+                "Fishing by the Ocean",
+                "Fishing at The Sewers",
+                "Fishing at The Mines",
+                "Fishing at the Mutant Bug Lair",
+                "Fishing at the Witch's Swamp"
+            ],
+            "makes":[
+                "Pale Broth","Collared Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 356,
+            "name": "Lobster",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Lobster",
+            "sellPrice": "120",
+            "obtainedFrom": [
+                "Using a Crab Pot in the Ocean"
+            ],
+            "makes":[
+                "Lobster Bisque",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":["Elliott"],"likes":[],"neutrals":["Demetrius","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 357,
+            "name": "Crayfish",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Crayfish",
+            "sellPrice": "75",
+            "obtainedFrom": [
+                "Using a Crab Pot in the Freshwater"
+            ],
+            "makes":[
+                "Fish Stew",
+                "Maki Roll","Quality Fertilizer","Sashimi","Rain Coat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 358,
+            "name": "Crab",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Crab",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Using a Crab Pot in the Ocean"
+            ],
+            "makes":[
+                "Crab Cakes",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 359,
+            "name": "Shrimp",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Shrimp",
+            "sellPrice": "60",
+            "obtainedFrom": [
+                "Using a Crab Pot in the Ocean"
+            ],
+            "makes":[
+                "Shrimp Cocktail","Tom Kha Soup",
+                "Maki Roll","Quality Fertilizer","Sashimi","Sailor Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
+        },
+        {
+            "id": 360,
+            "name": "Snail",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Snail",
+            "sellPrice": "65",
+            "obtainedFrom": [
+                "Using a Crab Pot in the Freshwater"
+            ],
+            "makes":[
+                "Escargot",
+                "Maki Roll","Quality Fertilizer","Sashimi","Rain Coat"
+            ],
+            "gifting":{"loves":["Vincent"],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Willy","Wizard"]}
+        },
+        {
+            "id": 361,
+            "name": "Periwinkle",
+            "type": "Fish",
+            "link": "https://stardewvalleywiki.com/Periwinkle",
+            "sellPrice": "20",
+            "obtainedFrom": [
+                "Using a Crab Pot in the Freshwater"
+            ],
+            "makes":[
+                "Fish Stew","Strange Bun",
+                "Maki Roll","Quality Fertilizer","Sashimi","Rain Coat"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":["Demetrius","Elliott","Linus","Pam","Sebastian","Willy"],"dislikes":["Abigail","Alex","Caroline","Clint","Dwarf","Emily","George","Gus","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Marnie","Maru","Penny","Robin","Sam","Sandy","Shane","Vincent","Wizard"],"hates":["Evelyn","Haley","Pierre"]}
         }
+        
 
 
 

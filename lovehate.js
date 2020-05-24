@@ -3,7 +3,7 @@ const rp = require('request-promise');
 
 const baseURL = `
 
-https://stardewvalleywiki.com/Pomegranate
+https://stardewvalleywiki.com/Mutant_Carp
 
 `;
 
@@ -13,16 +13,10 @@ rp(baseURL)
     .then(function (html) {
 
         var loves = cheerio('.wikitable th:contains("Love") + td > div > a + a ', html);
-
         var likes = cheerio('.wikitable th:contains("Like") + td > div > a + a ', html);
-
         var neutrals = cheerio('.wikitable th:contains("Neutral") + td > div > a + a ', html);
-
         var dislikes = cheerio('.wikitable th:contains("Dislike") + td > div > a + a ', html);
-
         var hates = cheerio('.wikitable th:contains("Hate") + td > div > a + a ', html);
-
-
 
         let finalObj = {
             "loves": createArrayObject(loves),
@@ -30,15 +24,9 @@ rp(baseURL)
             "neutrals": createArrayObject(neutrals),
             "dislikes": createArrayObject(dislikes),
             "hates": createArrayObject(hates)
-        }
-        
+        }     
 
         console.log(JSON.stringify(finalObj));
-        
-
-
-
-
     })
 
 function createArrayObject(cherioResult) {
