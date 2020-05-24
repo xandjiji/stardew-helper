@@ -3,7 +3,7 @@ const rp = require('request-promise');
 
 const baseURL = `
 
-https://stardewvalleywiki.com/Wheat_Flour
+https://stardewvalleywiki.com/Omni_Geode
 
 `;
 

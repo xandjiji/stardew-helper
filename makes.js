@@ -10,12 +10,11 @@ https://stardewvalleywiki.com/Furniture
 
 `;
 
-var initialID = 629;
 
 var list = [];
 
 
-var items = cheerio('.sortable a', data);
+var items = cheerio('td > a', data);
 
 
 
@@ -25,7 +24,9 @@ for (const item of Object.keys(items)) {
     if (items[item].type == 'tag') {
 
         if(items[item].attribs.class !== 'image') {
-            list.push(furnitureFactory(items[item]));
+            /* list.push(furnitureFactory(items[item])); */
+            list.push(items[item].attribs.title);
+            
         }
 
         

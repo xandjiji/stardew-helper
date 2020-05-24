@@ -18137,374 +18137,524 @@
             "name": "Basic Log",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Basic_Log",
-            "obtainedFrom": ["Purchased at the Carpenter's Shop (250g)"]
+            "obtainedFrom": [
+                "Purchased at the Carpenter's Shop (250g)"
+            ]
         },
         {
             "id": 572,
             "name": "Log Section",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Log_Section",
-            "obtainedFrom": ["Purchased at the Carpenter's Shop (350g)", "Purchase at the Night Market (Winter 17) (200g)"]
+            "obtainedFrom": [
+                "Purchased at the Carpenter's Shop (350g)",
+                "Purchase at the Night Market (Winter 17) (200g)"
+            ]
         },
         {
             "id": 573,
             "name": "Big Green Cane",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Big_Green_Cane",
-            "obtainedFrom": ["Purchase at the Night Market (200g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (200g)"
+            ]
         },
         {
             "id": 574,
             "name": "Big Red Cane",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Big_Red_Cane",
-            "obtainedFrom": ["Purchase at the Night Market (200g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (200g)"
+            ]
         },
         {
             "id": 575,
             "name": "Green Canes",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Green_Canes",
-            "obtainedFrom": ["Purchase at the Night Market (200g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (200g)"
+            ]
         },
         {
             "id": 576,
             "name": "Red Canes",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Red_Canes",
-            "obtainedFrom": ["Purchase at the Night Market (200g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (200g)"
+            ]
         },
         {
             "id": 577,
             "name": "Mixed Cane",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Mixed_Cane",
-            "obtainedFrom": ["Purchase at the Night Market (200g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (200g)"
+            ]
         },
         {
             "id": 578,
             "name": "Lawn Flamingo",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Lawn_Flamingo",
-            "obtainedFrom": ["Purchase at the Egg Festival (400g)"]
+            "obtainedFrom": [
+                "Purchase at the Egg Festival (400g)"
+            ]
         },
         {
             "id": 579,
             "name": "Grave Stone",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Grave_Stone",
-            "obtainedFrom": ["Purchase at the Night Market (Winter 15) (200g)", "Purchase at the Spirit's Eve (350g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (Winter 15) (200g)",
+                "Purchase at the Spirit's Eve (350g)"
+            ]
         },
         {
             "id": 580,
             "name": "Ornamental Hay Bale",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Ornamental_Hay_Bale",
-            "obtainedFrom": ["Purchase at the Marnie's Ranch (250g)"]
+            "obtainedFrom": [
+                "Purchase at the Marnie's Ranch (250g)"
+            ]
         },
         {
             "id": 581,
             "name": "Plush Bunny",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Plush_Bunny",
-            "obtainedFrom": ["Purchase at the Egg Festival (2,000g)"]
+            "obtainedFrom": [
+                "Purchase at the Egg Festival (2,000g)"
+            ]
         },
         {
             "id": 582,
             "name": "Statue Of Endless Fortune",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Statue_Of_Endless_Fortune",
-            "obtainedFrom": ["Purchase at the Casino (1,000,000g)"]
+            "obtainedFrom": [
+                "Purchase at the Casino (1,000,000g)"
+            ]
         },
         {
             "id": 585,
             "name": "Tea Set",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Tea_Set",
-            "obtainedFrom": ["Gift at Feast of the Winter Star (Winter 25)"]
+            "obtainedFrom": [
+                "Gift at Feast of the Winter Star (Winter 25)"
+            ]
         },
         {
             "id": 586,
             "name": "Leah's Sculpture",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Leah%27s_Sculpture",
-            "obtainedFrom": ["Earned with Leah (6-heart event)"]
+            "obtainedFrom": [
+                "Earned with Leah (6-heart event)"
+            ]
         },
         {
             "id": 587,
             "name": "Standing Geode",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Standing_Geode",
-            "obtainedFrom": ["Museum Reward (after donating 11 minerals)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating 11 minerals)"
+            ]
         },
         {
             "id": 588,
             "name": "Singing Stone",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Singing_Stone",
-            "obtainedFrom": ["Museum Reward (after donating 21 minerals)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating 21 minerals)"
+            ]
         },
         {
             "id": 589,
             "name": "Obsidian Vase",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Obsidian_Vase",
-            "obtainedFrom": ["Museum Reward (after donating 31 minerals)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating 31 minerals)"
+            ]
         },
         {
             "id": 590,
             "name": "Skeleton Statue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Skeleton_Statue",
-            "obtainedFrom": ["Museum Reward (after donating 15 artifacts)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating 15 artifacts)"
+            ]
         },
         {
             "id": 591,
             "name": "Seasonal Decor",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Seasonal_Decor",
-            "obtainedFrom": ["Purchase at the Flower Dance (350g)","Purchase at the Night Market (500g)"]
+            "obtainedFrom": [
+                "Purchase at the Flower Dance (350g)",
+                "Purchase at the Night Market (500g)"
+            ]
         },
         {
             "id": 592,
             "name": "Prairie King Arcade System",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Prairie_King_Arcade_System",
-            "obtainedFrom": ["Beat Journey of the Prairie King"]
+            "obtainedFrom": [
+                "Beat Journey of the Prairie King"
+            ]
         },
         {
             "id": 593,
             "name": "Sign Of The Vessel",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Sign_Of_The_Vessel",
-            "obtainedFrom": ["Krobus (350g)"]
+            "obtainedFrom": [
+                "Krobus (350g)"
+            ]
         },
         {
             "id": 594,
             "name": "Mini-Jukebox",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Mini-Jukebox",
-            "obtainedFrom": ["Earned with Gus (5-heart event)"]
+            "obtainedFrom": [
+                "Earned with Gus (5-heart event)"
+            ]
         },
         {
             "id": 595,
             "name": "Stardew Hero Trophy",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Stardew_Hero_Trophy",
-            "obtainedFrom": ["Rebuild the Community Center"]
+            "obtainedFrom": [
+                "Rebuild the Community Center"
+            ]
         },
         {
             "id": 596,
             "name": "Statue of Perfection",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Statue_of_Perfection",
-            "obtainedFrom": ["Reward from Grandpa's Evaluation"]
+            "obtainedFrom": [
+                "Reward from Grandpa's Evaluation"
+            ]
         },
         {
             "id": 597,
             "name": "Stone Cairn",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Stone_Cairn",
-            "obtainedFrom": ["Dwarf (200g)"]
+            "obtainedFrom": [
+                "Dwarf (200g)"
+            ]
         },
         {
             "id": 598,
             "name": "Stone Frog",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Stone_Frog",
-            "obtainedFrom": ["Purchase at the Night Market (Winter 15) (500g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (Winter 15) (500g)"
+            ]
         },
         {
             "id": 599,
             "name": "Stone Junimo",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Stone_Junimo",
-            "obtainedFrom": ["Secret Note #14"]
+            "obtainedFrom": [
+                "Secret Note #14"
+            ]
         },
         {
             "id": 600,
             "name": "Stone Owl",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Stone_Owl",
-            "obtainedFrom": ["Purchase at the Night Market (Winter 17) (500g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (Winter 17) (500g)"
+            ]
         },
         {
             "id": 602,
             "name": "Stone Parrot",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Stone_Parrot",
-            "obtainedFrom": ["Purchase at the Night Market (Winter 16) (500g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (Winter 16) (500g)"
+            ]
         },
         {
             "id": 603,
             "name": "Suit Of Armor",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Suit_Of_Armor",
-            "obtainedFrom": ["Purchase at the Night Market (Winter 16) (500g)"]
+            "obtainedFrom": [
+                "Purchase at the Night Market (Winter 16) (500g)"
+            ]
         },
         {
             "id": 604,
             "name": "Lg. Futan Bear",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Lg._Futan_Bear",
-            "obtainedFrom": ["Museum Reward (after donating 30 items)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating 30 items)"
+            ]
         },
         {
             "id": 605,
             "name": "Bear Statue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Bear_Statue",
-            "obtainedFrom": ["Museum Reward (after donating 50 items)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating 50 items)"
+            ]
         },
         {
             "id": 606,
             "name": "Chicken Statue (furniture)",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Chicken_Statue_(furniture)",
-            "obtainedFrom": ["Museum Reward (after donating a Chicken Statue)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating a Chicken Statue)"
+            ]
         },
         {
             "id": 607,
             "name": "Sloth Skeleton",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Sloth_Skeleton",
-            "obtainedFrom": ["Museum Reward (after donating 7 bone pieces)"]
+            "obtainedFrom": [
+                "Museum Reward (after donating 7 bone pieces)"
+            ]
         },
         {
             "id": 608,
             "name": "Junimo Plush",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Junimo_Plush",
-            "obtainedFrom": ["It can be found by shaking a bush in the northwest corner of Pelican Town on the 28th of any season at exactly 12:00pm"]
+            "obtainedFrom": [
+                "It can be found by shaking a bush in the northwest corner of Pelican Town on the 28th of any season at exactly 12:00pm"
+            ]
         },
         {
             "id": 609,
             "name": "??Foroguemon??",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/%3F%3FForoguemon%3F%3F",
-            "obtainedFrom": ["If a Strange Bun is placed inside the chest in Vincent's room, at 1 Willow Lane, the ??Foroguemon?? statue will be acquired"]
+            "obtainedFrom": [
+                "If a Strange Bun is placed inside the chest in Vincent's room, at 1 Willow Lane, the ??Foroguemon?? statue will be acquired"
+            ]
         },
         {
             "id": 610,
             "name": "??HMTGF??",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/%3F%3FHMTGF%3F%3F",
-            "obtainedFrom": ["If a Super Cucumber is placed inside the brown box located in the fenced area north of the Blacksmith, the ??HMTGF?? statue will be acquired"]
+            "obtainedFrom": [
+                "If a Super Cucumber is placed inside the brown box located in the fenced area north of the Blacksmith, the ??HMTGF?? statue will be acquired"
+            ]
         },
         {
             "id": 611,
             "name": "??Pinky Lemon??",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/%3F%3FPinky_Lemon%3F%3F",
-            "obtainedFrom": ["If Duck Mayonnaise is placed inside the partially-hidden metal box in the back room of the the Stardrop Saloon, the ??Pinky Lemon?? statue will be acquired"]
+            "obtainedFrom": [
+                "If Duck Mayonnaise is placed inside the partially-hidden metal box in the back room of the the Stardrop Saloon, the ??Pinky Lemon?? statue will be acquired"
+            ]
         },
         {
             "id": 612,
             "name": "Solid Gold Lewis",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Solid_Gold_Lewis",
-            "obtainedFrom": ["Secret Note #19"]
+            "obtainedFrom": [
+                "Secret Note #19"
+            ]
         },
         {
             "id": 613,
             "name": "Soda Machine",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Soda_Machine",
-            "obtainedFrom": ["Complete the Joja Community Development Form"]
+            "obtainedFrom": [
+                "Complete the Joja Community Development Form"
+            ]
         },
         {
             "id": 614,
             "name": "Junimo Kart Arcade System",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Junimo_Kart_Arcade_System",
-            "obtainedFrom": ["Beat 'Progress Mode' of Junimo Kart"]
+            "obtainedFrom": [
+                "Beat 'Progress Mode' of Junimo Kart"
+            ]
         },
         {
             "id": 615,
             "name": "Butterfly Hutch",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Butterfly_Hutch",
-            "obtainedFrom": ["Desert Trader (200 Bat Wings)"]
+            "obtainedFrom": [
+                "Desert Trader (200 Bat Wings)"
+            ]
         },
         {
             "id": 616,
             "name": "Futan Rabbit",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Futan_Rabbit",
-            "obtainedFrom": ["Crane Game"]
+            "obtainedFrom": [
+                "Crane Game"
+            ]
         },
         {
             "id": 617,
             "name": "Green Serpent Statue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Green_Serpent_Statue",
-            "obtainedFrom": ["Crane Game"]
+            "obtainedFrom": [
+                "Crane Game"
+            ]
         },
         {
             "id": 618,
             "name": "Purple Serpent Statue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Purple_Serpent_Statue",
-            "obtainedFrom": ["Crane Game"]
+            "obtainedFrom": [
+                "Crane Game"
+            ]
         },
         {
             "id": 619,
             "name": "Small Junimo Plush",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Small_Junimo_Plush",
-            "obtainedFrom": ["Crane Game"]
+            "obtainedFrom": [
+                "Crane Game"
+            ]
         },
         {
             "id": 620,
             "name": "Bobo Statue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Bobo_Statue",
-            "obtainedFrom": ["Crane Game"]
+            "obtainedFrom": [
+                "Crane Game"
+            ]
         },
         {
             "id": 621,
             "name": "Wumbus Statue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Wumbus_Statue",
-            "obtainedFrom": ["Crane Game"]
+            "obtainedFrom": [
+                "Crane Game"
+            ]
         },
         {
             "id": 622,
             "name": "Sam's Boombox",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Sam%27s_Boombox",
-            "obtainedFrom": ["Earned with Sam (14-heart event)"]
+            "obtainedFrom": [
+                "Earned with Sam (14-heart event)"
+            ]
         },
         {
             "id": 623,
             "name": "Catalogue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Catalogue",
-            "obtainedFrom": ["Pierre's Store (30,000g)"]
+            "obtainedFrom": [
+                "Pierre's Store (30,000g)"
+            ]
         },
         {
             "id": 624,
             "name": "Furniture Catalogue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Furniture_Catalogue",
-            "obtainedFrom": ["Carpenter's Shop (200,000g)"]
+            "obtainedFrom": [
+                "Carpenter's Shop (200,000g)"
+            ]
         },
-
         {
             "id": 625,
             "name": "Rice",
             "type": "Ingredient",
             "link": "https://stardewvalleywiki.com/Rice",
             "sellPrice": "100",
-            "healing":{
+            "healing": {
                 "energy": 13,
                 "health": 5
             },
-            "obtainedFrom": ["Pierre's Store (200g)","JojaMart (250g)","Using a Unmilled Rice in a Mill"],
-            "makes": [
-                "Maki Roll", "Rice Pudding", "White Overalls"
+            "obtainedFrom": [
+                "Pierre's Store (200g)",
+                "JojaMart (250g)",
+                "Using a Unmilled Rice in a Mill"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "makes": [
+                "Maki Roll",
+                "Rice Pudding",
+                "White Overalls"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 626,
@@ -18512,17 +18662,76 @@
             "type": "Ingredient",
             "link": "https://stardewvalleywiki.com/Sugar",
             "sellPrice": "50",
-            "healing":{
+            "healing": {
                 "energy": 25,
                 "health": 11
             },
-            "obtainedFrom": ["Pierre's Store (100g)","JojaMart (125g)","Using a Beet in a Mill"],
-            "makes": [
-                "Blackberry Cobbler","Blueberry Tart","Chocolate Cake","Cookie","Cranberry Candy","Cranberry Sauce",
-                "Glazed Yams","Ice Cream","Maple Bar","Miner's Treat","Pink Cake","Plum Pudding","Poppyseed Muffin",
-                "Pumpkin Pie","Rhubarb Pie","Rice Pudding","Sugar Shirt"
+            "obtainedFrom": [
+                "Pierre's Store (100g)",
+                "JojaMart (125g)",
+                "Using a Beet in a Mill"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail"],"hates":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "makes": [
+                "Blackberry Cobbler",
+                "Blueberry Tart",
+                "Chocolate Cake",
+                "Cookie",
+                "Cranberry Candy",
+                "Cranberry Sauce",
+                "Glazed Yams",
+                "Ice Cream",
+                "Maple Bar",
+                "Miner's Treat",
+                "Pink Cake",
+                "Plum Pudding",
+                "Poppyseed Muffin",
+                "Pumpkin Pie",
+                "Rhubarb Pie",
+                "Rice Pudding",
+                "Sugar Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail"
+                ],
+                "hates": [
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 627,
@@ -18530,15 +18739,61 @@
             "type": "Ingredient",
             "link": "https://stardewvalleywiki.com/Vinegar",
             "sellPrice": "100",
-            "healing":{
+            "healing": {
                 "energy": 13,
                 "health": 5
             },
-            "obtainedFrom": ["Pierre's Store (200g)"],
-            "makes": [
-                "Coleslaw", "arsnip Soup", "Rice Salad", "Salad", "Orange Gi"
+            "obtainedFrom": [
+                "Pierre's Store (200g)"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "makes": [
+                "Coleslaw",
+                "arsnip Soup",
+                "Rice Salad",
+                "Salad",
+                "Orange Gi"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 628,
@@ -18546,35 +18801,3455 @@
             "type": "Ingredient",
             "link": "https://stardewvalleywiki.com/Wheat_Flour",
             "sellPrice": "50",
-            "healing":{
+            "healing": {
                 "energy": 13,
                 "health": 5
             },
-            "obtainedFrom": ["Pierre's Store (100g)","JojaMart (125g)","Using a Wheat in a Mill"],
-            "makes": [
-                "Baked Fish","Blackberry Cobbler","Blueberry Tart","Bread","Chocolate Cake","Cookie","Crab Cakes","Crispy Bass","Fried Calamari",
-                "Maple Bar","Pancakes","Pink Cake","Pizza","Plum Pudding","Poppyseed Muffin","Pumpkin Pie","Rhubarb Pie","Spaghetti",
-                "Strange Bun","Warm Flannel Shirt"
+            "obtainedFrom": [
+                "Pierre's Store (100g)",
+                "JojaMart (125g)",
+                "Using a Wheat in a Mill"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "makes": [
+                "Baked Fish",
+                "Blackberry Cobbler",
+                "Blueberry Tart",
+                "Bread",
+                "Chocolate Cake",
+                "Cookie",
+                "Crab Cakes",
+                "Crispy Bass",
+                "Fried Calamari",
+                "Maple Bar",
+                "Pancakes",
+                "Pink Cake",
+                "Pizza",
+                "Plum Pudding",
+                "Poppyseed Muffin",
+                "Pumpkin Pie",
+                "Rhubarb Pie",
+                "Spaghetti",
+                "Strange Bun",
+                "Warm Flannel Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         },
-
-
         {
-            "id": ,
-            "name": "",
-            "type": "Ingredient",
-            "link": "",
-            "sellPrice": "",
-            "healing":{
-                "energy": ,
-                "health": 
-            },
-            "obtainedFrom": ["Pierre's Store (200g)","JojaMart (250g)","Using a Unmilled Rice in a Mill"],
-            "makes": [
-                "Maki Roll", "Rice Pudding", "White Overalls"
+            "id": 629,
+            "name": "Quartz",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Quartz",
+            "sellPrice": "25",
+            "obtainedFrom": [
+                "The Mines (Floors 1-120)",
+                "Stone Golem (10% chance drop)"
             ],
-            "gifting":
+            "makes": [
+                "Refined Quartz",
+                "Gray Vest"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Abigail",
+                    "Dwarf",
+                    "Emily",
+                    "Harvey",
+                    "Krobus",
+                    "Marnie",
+                    "Maru",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Clint",
+                    "Demetrius",
+                    "Evelyn",
+                    "Haley",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Leah",
+                    "Linus",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Sam",
+                    "Vincent"
+                ],
+                "hates": [
+                    "Alex",
+                    "Caroline",
+                    "Elliott",
+                    "George",
+                    "Gus",
+                    "Lewis",
+                    "Shane"
+                ]
+            }
+        },
+        {
+            "id": 630,
+            "name": "Earth Crystal",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Earth_Crystal",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "The Mines (Floors 1-39)",
+                "Duggy (10% chance drop)",
+                "Haunted Skull (1.3% chance drop)",
+                "Fishing Treasure Chests",
+                "Panning",
+                "Geode",
+                "Omni Geode"
+            ],
+            "makes": [
+                "Mayonnaise Machine",
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 631,
+            "name": "Frozen Tear",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Frozen_Tear",
+            "sellPrice": "75",
+            "obtainedFrom": [
+                "The Mines (Floors 40-79)",
+                "Fishing Treasure Chests",
+                "Panning",
+                "Frozen Geode",
+                "Omni Geode",
+                "Dust Sprite (2% chance drop)"
+            ],
+            "makes": [
+                "Warrior Ring",
+                "Dark Jacket"
+            ],
+            "gifting": {
+                "loves": [
+                    "Sebastian"
+                ],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 632,
+            "name": "Fire Quartz",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Fire_Quartz",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "The Mines (Floors 80-120)",
+                "Fishing Treasure Chests",
+                "Panning",
+                "Magma Geode",
+                "Omni Geode"
+            ],
+            "makes": [
+                "Slime Egg-Press",
+                "Refined Quartz",
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 633,
+            "name": "Emerald",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Emerald",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Emerald Node",
+                "Gem Node",
+                "Panning",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Clint",
+                    "Dwarf",
+                    "Emily",
+                    "Penny"
+                ],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Elliott",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 634,
+            "name": "Aquamarine",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Aquamarine",
+            "sellPrice": "180",
+            "obtainedFrom": [
+                "Aquamarine Node",
+                "Gem Node",
+                "Panning",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Marble Brazier",
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Clint",
+                    "Dwarf",
+                    "Emily"
+                ],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Elliott",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 635,
+            "name": "Ruby",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Ruby",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Ruby Node",
+                "Gem Node",
+                "Panning",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Clint",
+                    "Dwarf",
+                    "Emily"
+                ],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Elliott",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 636,
+            "name": "Amethyst",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Amethyst",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Amethyst Node",
+                "Gem Node",
+                "Green Slime",
+                "Panning",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Abigail",
+                    "Clint",
+                    "Dwarf",
+                    "Emily"
+                ],
+                "likes": [
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Elliott",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 637,
+            "name": "Topaz",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Topaz",
+            "sellPrice": "80",
+            "obtainedFrom": [
+                "Topaz Node",
+                "Gem Node",
+                "Panning",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Clint",
+                    "Dwarf",
+                    "Emily"
+                ],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Elliott",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 638,
+            "name": "Jade",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Jade",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Jade Node",
+                "Gem Node",
+                "Blue Slime",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Clint",
+                    "Dwarf",
+                    "Emily"
+                ],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Elliott",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Leah",
+                    "Linus",
+                    "Pierre"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 639,
+            "name": "Diamond",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Diamond",
+            "sellPrice": "750",
+            "obtainedFrom": [
+                "Diamond Node",
+                "Gem Node",
+                "Panning",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Ring of Yoba",
+                "Pendant Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Evelyn",
+                    "Gus",
+                    "Jodi",
+                    "Krobus",
+                    "Marnie",
+                    "Maru",
+                    "Penny",
+                    "Willy"
+                ],
+                "likes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "George",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Kent",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Pam",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": []
+            }
+        },
+        {
+            "id": 640,
+            "name": "Prismatic Shard",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Prismatic_Shard",
+            "sellPrice": "2,000",
+            "obtainedFrom": [
+                "Iridium Node (4%)",
+                "Mystic Node (25%)",
+                "Gem Node",
+                "Omni Geode (0.4%)",
+                "Shadow Brute (0.05% chance drop)",
+                "Shadow Shaman (0. 5% chance drop)",
+                "Mummy (0.1% chance drop)",
+                "Serpent (0.1% chance drop)",
+                "Fishing Treasure Chests"
+            ],
+            "makes": [
+                "Galaxy Sword",
+                "Wedding Ring"
+            ],
+            "gifting": {
+                "loves": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Haley"
+                ]
+            }
+        },
+        {
+            "id": 641,
+            "name": "Tigerseye",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Tigerseye",
+            "sellPrice": "275",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Dark Striped Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Sam"
+                ],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 642,
+            "name": "Opal",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Opal",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 643,
+            "name": "Fire Opal",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Fire_Opal",
+            "sellPrice": "350",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Purple Blouse"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 644,
+            "name": "Alamite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Alamite",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 645,
+            "name": "Bixite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Bixite",
+            "sellPrice": "300",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode",
+                "Black Slime"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 646,
+            "name": "Baryte",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Baryte",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 647,
+            "name": "Aerinite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Aerinite",
+            "sellPrice": "125",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 648,
+            "name": "Calcite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Calcite",
+            "sellPrice": "75",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 649,
+            "name": "Dolomite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Dolomite",
+            "sellPrice": "300",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 650,
+            "name": "Esperite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Esperite",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Gray Suit"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 651,
+            "name": "Fluorapatite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Fluorapatite",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Bandana Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 652,
+            "name": "Geminite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Geminite",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 653,
+            "name": "Helvite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Helvite",
+            "sellPrice": "450",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Classy Top"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 654,
+            "name": "Jamborite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Jamborite",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Green Thumb Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 655,
+            "name": "Jagoite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Jagoite",
+            "sellPrice": "115",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Leafy Top"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 656,
+            "name": "Kyanite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Kyanite",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Bandana Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 657,
+            "name": "Lunarite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Lunarite",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Goodnight Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 658,
+            "name": "Malachite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Malachite",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Green Belted Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 659,
+            "name": "Neptunite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Neptunite",
+            "sellPrice": "400",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode",
+                "Black Slime"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 660,
+            "name": "Lemon Stone",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Lemon_Stone",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Happy Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Dwarf"
+                ],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 661,
+            "name": "Nekoite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Nekoite",
+            "sellPrice": "80",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 662,
+            "name": "Orpiment",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Orpiment",
+            "sellPrice": "80",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt with Bow"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 663,
+            "name": "Petrified Slime",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Petrified_Slime",
+            "sellPrice": "120",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode",
+                "Slime Ball"
+            ],
+            "makes": [
+                "Slime Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 664,
+            "name": "Thunder Egg",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Thunder_Egg",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 665,
+            "name": "Pyrite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Pyrite",
+            "sellPrice": "120",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Jester Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 666,
+            "name": "Ocean Stone",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Ocean_Stone",
+            "sellPrice": "220",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Ocean Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 667,
+            "name": "Ghost Crystal",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Ghost_Crystal",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 668,
+            "name": "Jasper",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Jasper",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Bandana Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 669,
+            "name": "Celestine",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Celestine",
+            "sellPrice": "125",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 670,
+            "name": "Marble",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Marble",
+            "sellPrice": "110",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Marble Brazier",
+                "Toga Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 671,
+            "name": "Sandstone",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Sandstone",
+            "sellPrice": "60",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Backpack Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 672,
+            "name": "Granite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Granite",
+            "sellPrice": "75",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 673,
+            "name": "Basalt",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Basalt",
+            "sellPrice": "175",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 674,
+            "name": "Limestone",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Limestone",
+            "sellPrice": "15",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 675,
+            "name": "Soapstone",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Soapstone",
+            "sellPrice": "120",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Gaudy Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 676,
+            "name": "Hematite",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Hematite",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Vintage Polo"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 677,
+            "name": "Mudstone",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Mudstone",
+            "sellPrice": "25",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Brown Jacket"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 678,
+            "name": "Obsidian",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Obsidian",
+            "sellPrice": "200",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Studded Vest"
+            ],
+            "gifting": {
+                "loves": [
+                    "Sebastian"
+                ],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 679,
+            "name": "Slate",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Slate",
+            "sellPrice": "85",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 680,
+            "name": "Fairy Stone",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Fairy_Stone",
+            "sellPrice": "250",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Frozen Geode"
+            ],
+            "makes": [
+                "Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 681,
+            "name": "Star Shards",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Star_Shards",
+            "sellPrice": "500",
+            "obtainedFrom": [
+                "Omni Geode",
+                "Magma Geode"
+            ],
+            "makes": [
+                "Star Shirt"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Wizard"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 682,
+            "name": "Geode",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Geode",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "The Mines (Floors 1-39)",
+                "Duggy (25% chance drop)",
+                "Tilling on the Farm",
+                "Fishing Treasure Chests",
+                "Panning"
+            ],
+            "makes": [
+                "Dwarvish Helm",
+                "Earth Crystal",
+                "Alamite",
+                "Calcite",
+                "Celestine",
+                "Granite",
+                "Jagoite",
+                "Jamborite",
+                "Limestone",
+                "Malachite",
+                "Mudstone",
+                "Nekoite",
+                "Orpiment",
+                "Petrified Slime",
+                "Sandstone",
+                "Slate",
+                "Thunder Egg",
+                "Stone",
+                "Clay",
+                "Coal",
+                "Copper Ore",
+                "Iron Ore",
+                "Gray Hoodie"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 683,
+            "name": "Frozen Geode",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Frozen_Geode",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "The Mines (Floor 41-79)",
+                "Tilling on the Farm (Winter)",
+                "Fishing Treasure Chests",
+                "Panning"
+            ],
+            "makes": [
+                "Ancient Drum",
+                "Frozen Tear",
+                "Aerinite",
+                "Esperite",
+                "Fairy Stone",
+                "Fluorapatite",
+                "Geminite",
+                "Ghost Crystal",
+                "Hematite",
+                "Kyanite",
+                "Lunarite",
+                "Marble",
+                "Ocean Stone",
+                "Opal",
+                "Pyrite",
+                "Soapstone",
+                "Stone",
+                "Clay",
+                "Coal",
+                "Copper Ore",
+                "Iron Ore",
+                "Gold Ore",
+                "Blue Hoodie"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 684,
+            "name": "Magma Geode",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Magma_Geode",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "The Mines (Floor 81-120)",
+                "Boxes/barrels in the Skull Cavern",
+                "Fishing Treasure Chests",
+                "Panning"
+            ],
+            "makes": [
+                "Dwarf Gadget",
+                "Fire Quartz",
+                "Baryte",
+                "Basalt",
+                "Bixite",
+                "Dolomite",
+                "Fire Opal",
+                "Helvite",
+                "Jasper",
+                "Lemon Stone",
+                "Neptunite",
+                "Obsidian",
+                "Star Shards",
+                "Tigerseye",
+                "Stone",
+                "Clay",
+                "Coal",
+                "Copper Ore",
+                "Iron Ore",
+                "Gold Ore",
+                "Iridium Ore",
+                "Red Hoodie"
+            ],
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
+        },
+        {
+            "id": 685,
+            "name": "Omni Geode",
+            "type": "Mineral",
+            "link": "https://stardewvalleywiki.com/Omni_Geode",
+            "sellPrice": "0",
+            "obtainedFrom": [
+                "The Mines",
+                "Skull Cavern",
+                "Panning",
+                "Oasis on Wednesdays (1,000g)",
+                "Krobus on Tuesdays (300g)",
+                "Carbon Ghost (99% chance drop)"
+            ],
+            "makes": [
+                "Dwarvish Helm",
+                "Dwarf Gadget",
+                "Ancient Drum",
+                "Earth Crystal",
+                "Frozen Tear",
+                "Fire Quartz",
+                "Prismatic Shard",
+                "Aerinite",
+                "Alamite",
+                "Baryte",
+                "Basalt",
+                "Bixite",
+                "Calcite",
+                "Celestine",
+                "Dolomite",
+                "Esperite",
+                "Fairy Stone",
+                "Fire Opal",
+                "Fluorapatite",
+                "Geminite",
+                "Ghost Crystal",
+                "Granite",
+                "Helvite",
+                "Hematite",
+                "Jagoite",
+                "Jamborite",
+                "Jasper",
+                "Kyanite",
+                "Lemon Stone",
+                "Limestone",
+                "Lunarite",
+                "Malachite",
+                "Marble",
+                "Mudstone",
+                "Nekoite",
+                "Neptunite",
+                "Obsidian",
+                "Ocean Stone",
+                "Opal",
+                "Orpiment",
+                "Petrified Slime",
+                "Pyrite",
+                "Sandstone",
+                "Slate",
+                "Soapstone",
+                "Star Shards",
+                "Thunder Egg",
+                "Tigerseye",
+                "Stone",
+                "Clay",
+                "Coal",
+                "Copper Ore",
+                "Iron Ore",
+                "Gold Ore",
+                "Iridium Ore",
+                "Omni Shirt"
+            ],
+            "gifting": {
+                "loves": [
+                    "Clint",
+                    "Dwarf"
+                ],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         }
     ]
 }
