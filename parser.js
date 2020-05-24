@@ -7,26 +7,30 @@ const request = require('request');
 const baseURL = 'https://stardewvalleywiki.com/';
 var links = [];
 
-var images = $('#nametemplate img');
+var images = $('td img');
 
 for(let i = 0; i < images.length; i++) {
-    links.push(
-        {
-            alt: images[i].attribs.alt,
-            url: sanitizeLink(images[i].attribs.srcset)
-        }
-    );
+    if(images[i].attribs.alt !== 'Gold.png') {
+        links.push(
+            {
+                alt: images[i].attribs.alt,
+                url: sanitizeLink(images[i].attribs.srcset)
+            }
+        );
+    }
 }
 
 images = $('#qualityimage > img');
 
 for(let i = 0; i < images.length; i++) {
-    links.push(
-        {
-            alt: images[i].attribs.alt,
-            url: sanitizeLink(images[i].attribs.srcset)
-        }        
-    );
+    if(images[i].attribs.alt !== 'Gold.png') {
+        links.push(
+            {
+                alt: images[i].attribs.alt,
+                url: sanitizeLink(images[i].attribs.srcset)
+            }        
+        );
+    }
 }
 
 /* console.log(links); */
@@ -41,6 +45,9 @@ var download = function(uri, filename, callback){
 };
 
 function sanitizeLink(string) {
+
+    if(string) {
+    
     string = string.split(',');
 
     string = string[string.length-1];
@@ -49,12 +56,19 @@ function sanitizeLink(string) {
     string = 'https://stardewvalleywiki.com' + string;
 
 
-    return string;
+        return string;
+    } else {
+        return 'ERROOOOOOOOOOOOO';
+    }
 }
 
 
 links.forEach(function (img) {
-    request(img.url).pipe(fs.createWriteStream('./images/' + img.alt));
+    if(img.url == 'ERROOOOOOOOOOOOO') {
+        console.log(img);
+    } else {
+        request(img.url).pipe(fs.createWriteStream('./furnitures/' + img.alt));
+    }
 })
 
 /* console.log(links); */

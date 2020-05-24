@@ -18480,7 +18480,7 @@
             "name": "Catalogue",
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Catalogue",
-            "obtainedFrom": ["Pierre's (30,000g)"]
+            "obtainedFrom": ["Pierre's Store (30,000g)"]
         },
         {
             "id": 624,
@@ -18488,6 +18488,93 @@
             "type": "Furniture",
             "link": "https://stardewvalleywiki.com/Furniture_Catalogue",
             "obtainedFrom": ["Carpenter's Shop (200,000g)"]
+        },
+
+        {
+            "id": 625,
+            "name": "Rice",
+            "type": "Ingredient",
+            "link": "https://stardewvalleywiki.com/Rice",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": ["Pierre's Store (200g)","JojaMart (250g)","Using a Unmilled Rice in a Mill"],
+            "makes": [
+                "Maki Roll", "Rice Pudding", "White Overalls"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 626,
+            "name": "Sugar",
+            "type": "Ingredient",
+            "link": "https://stardewvalleywiki.com/Sugar",
+            "sellPrice": "50",
+            "healing":{
+                "energy": 25,
+                "health": 11
+            },
+            "obtainedFrom": ["Pierre's Store (100g)","JojaMart (125g)","Using a Beet in a Mill"],
+            "makes": [
+                "Blackberry Cobbler","Blueberry Tart","Chocolate Cake","Cookie","Cranberry Candy","Cranberry Sauce",
+                "Glazed Yams","Ice Cream","Maple Bar","Miner's Treat","Pink Cake","Plum Pudding","Poppyseed Muffin",
+                "Pumpkin Pie","Rhubarb Pie","Rice Pudding","Sugar Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail"],"hates":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 627,
+            "name": "Vinegar",
+            "type": "Ingredient",
+            "link": "https://stardewvalleywiki.com/Vinegar",
+            "sellPrice": "100",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": ["Pierre's Store (200g)"],
+            "makes": [
+                "Coleslaw", "arsnip Soup", "Rice Salad", "Salad", "Orange Gi"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 628,
+            "name": "Wheat Flour",
+            "type": "Ingredient",
+            "link": "https://stardewvalleywiki.com/Wheat_Flour",
+            "sellPrice": "50",
+            "healing":{
+                "energy": 13,
+                "health": 5
+            },
+            "obtainedFrom": ["Pierre's Store (100g)","JojaMart (125g)","Using a Wheat in a Mill"],
+            "makes": [
+                "Baked Fish","Blackberry Cobbler","Blueberry Tart","Bread","Chocolate Cake","Cookie","Crab Cakes","Crispy Bass","Fried Calamari",
+                "Maple Bar","Pancakes","Pink Cake","Pizza","Plum Pudding","Poppyseed Muffin","Pumpkin Pie","Rhubarb Pie","Spaghetti",
+                "Strange Bun","Warm Flannel Shirt"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+
+
+        {
+            "id": ,
+            "name": "",
+            "type": "Ingredient",
+            "link": "",
+            "sellPrice": "",
+            "healing":{
+                "energy": ,
+                "health": 
+            },
+            "obtainedFrom": ["Pierre's Store (200g)","JojaMart (250g)","Using a Unmilled Rice in a Mill"],
+            "makes": [
+                "Maki Roll", "Rice Pudding", "White Overalls"
+            ],
+            "gifting":
         }
     ]
 }

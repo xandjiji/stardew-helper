@@ -3,7 +3,7 @@ const rp = require('request-promise');
 
 const baseURL = `
 
-https://stardewvalleywiki.com/Mutant_Carp
+https://stardewvalleywiki.com/Wheat_Flour
 
 `;
 
