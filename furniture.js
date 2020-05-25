@@ -10,12 +10,12 @@ https://stardewvalleywiki.com/Furniture
 
 `;
 
-var initialID = 629;
+var initialID = 723;
 
 var list = [];
 
 
-var items = cheerio('#nametemplate a', data);
+var items = cheerio('a', data);
 
 
 
@@ -27,8 +27,11 @@ for (const item of Object.keys(items)) {
         /* if(items[item].attribs.class !== 'image') {
             list.push(furnitureFactory(items[item]));
         } */
-        
-        list.push(items[item].attribs.title);
+
+        if(items[item].attribs.class !== 'image') {
+            list.push(items[item].attribs.title)
+        }
+    
         
 
 
@@ -47,7 +50,12 @@ function furnitureFactory(node) {
 
     const { title, href } = node.attribs;
 
-    let test = node.parent.parent.children[5]
+    let test = node.parent.parent.children[3];
+
+    /* console.log(test);
+    console.log('---------------------------------------'); */
+    
+    
 
     if(test) {
         test = test.attribs.value;
@@ -60,14 +68,12 @@ function furnitureFactory(node) {
         name: title,
         type: "Mineral",
         link: `https://stardewvalleywiki.com${href}`,
-        sellPrice: sanitizeValue(test),
         obtainedFrom: [
-            
+            `Purchased from Marnie's Ranch (${sanitizeValue(test)}g)`
         ],
         makes: [
 
-        ],
-        gifting: {}
+        ]
 
     }
 

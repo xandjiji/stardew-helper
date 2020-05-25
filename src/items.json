@@ -9685,7 +9685,7 @@
             "profitability": "83.33",
             "harvestIn": "24 days",
             "obtainedFrom": [
-                ""
+                "Rare Seed"
             ],
             "makes": [
                 "Rare Seed",
@@ -22251,7 +22251,6 @@
                 "hates": []
             }
         },
-
         {
             "id": 686,
             "name": "Void Essence",
@@ -22259,12 +22258,59 @@
             "link": "https://stardewvalleywiki.com/Void_Essence",
             "sellPrice": "50",
             "obtainedFrom": [
-                "Shadow Brute (75% chance drop)","Shadow Shaman (75% chance drop)","Haunted Skull (1.3% chance drop)","Serpent (99% chance drop)"
-
+                "Shadow Brute (75% chance drop)",
+                "Shadow Shaman (75% chance drop)",
+                "Haunted Skull (1.3% chance drop)",
+                "Serpent (99% chance drop)"
             ],
-            "makes": ["Mega Bomb","Iridium Band","Arcane Shirt"
+            "makes": [
+                "Mega Bomb",
+                "Iridium Band",
+                "Arcane Shirt"
             ],
-            "gifting": {"loves":["Wizard"],"likes":[],"neutrals":["Dwarf"],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"hates":[]}
+            "gifting": {
+                "loves": [
+                    "Wizard"
+                ],
+                "likes": [],
+                "neutrals": [
+                    "Dwarf"
+                ],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 687,
@@ -22273,13 +22319,59 @@
             "link": "https://stardewvalleywiki.com/Bug_Meat",
             "sellPrice": "8",
             "obtainedFrom": [
-                "Bug (76% chance drop)","Cave Fly (90% chance drop)","Grub (60% chance drop)","Mutant Fly (90% chance drop)","Mutant Grub (60% chance drop)"
-
+                "Bug (76% chance drop)",
+                "Cave Fly (90% chance drop)",
+                "Grub (60% chance drop)",
+                "Mutant Fly (90% chance drop)",
+                "Mutant Grub (60% chance drop)"
             ],
             "makes": [
-                "Bait", "Wild Bait", "Sturdy Ring","Pink Striped Shirt"
+                "Bait",
+                "Wild Bait",
+                "Sturdy Ring",
+                "Pink Striped Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 688,
@@ -22288,12 +22380,56 @@
             "link": "https://stardewvalleywiki.com/Bat_Wing",
             "sellPrice": "15",
             "obtainedFrom": [
-                "Bat (90% chance drop)", "Frost Bat (90% chance drop)","Lava Bat (90% chance drop)","Krobus on Sundays (30g)"
-
+                "Bat (90% chance drop)",
+                "Frost Bat (90% chance drop)",
+                "Lava Bat (90% chance drop)",
+                "Krobus on Sundays (30g)"
             ],
-            "makes": ["Lightning Rod","Dark Shirt"
+            "makes": [
+                "Lightning Rod",
+                "Dark Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 689,
@@ -22302,12 +22438,63 @@
             "link": "https://stardewvalleywiki.com/Solar_Essence",
             "sellPrice": "40",
             "obtainedFrom": [
-                "Ghost (90% chance drop)","Iridium Bat (90% chance drop)","Metal Head (65% chance drop)","Haunted Skull (1.3% chance drop)","Squid Kid (75% chance drop)","Mummy (99% chance drop)"
-
+                "Ghost (90% chance drop)",
+                "Iridium Bat (90% chance drop)",
+                "Metal Head (65% chance drop)",
+                "Haunted Skull (1.3% chance drop)",
+                "Squid Kid (75% chance drop)",
+                "Mummy (99% chance drop)"
             ],
-            "makes": ["Mega Bomb","Iridium Band","Barrel Brazier","Skull Brazier","Yoba Shirt"
+            "makes": [
+                "Mega Bomb",
+                "Iridium Band",
+                "Barrel Brazier",
+                "Skull Brazier",
+                "Yoba Shirt"
             ],
-            "gifting": {"loves":["Wizard"],"likes":[],"neutrals":["Dwarf"],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"hates":[]}
+            "gifting": {
+                "loves": [
+                    "Wizard"
+                ],
+                "likes": [],
+                "neutrals": [
+                    "Dwarf"
+                ],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 690,
@@ -22315,17 +22502,20 @@
             "type": "Animal Product",
             "link": "https://stardewvalleywiki.com/Slime_Egg",
             "sellPrice": "1,000-5,000",
-            "makes":["Baggy Pants"],
-            "obtainedFrom":[
+            "makes": [
+                "Baggy Pants"
+            ],
+            "obtainedFrom": [
                 "Crafting (Slime Egg-Press required)",
                 "Slime (1% chance drop)"
             ],
-            "recipe": [{"id": "Slime", "qty": 100}]
+            "recipe": [
+                {
+                    "id": "Slime",
+                    "qty": 100
+                }
+            ]
         },
-
-
-
-
         {
             "id": 691,
             "name": "Battery Pack",
@@ -22336,9 +22526,56 @@
                 "Lightning Rod (Spring, Summer or Fall)"
             ],
             "makes": [
-                "Iridium Sprinkler","Crystalarium","Slime Egg-Press","Wood Lamp-post","Iron Lamp-post","Mini-Jukebox","Shirt"
+                "Iridium Sprinkler",
+                "Crystalarium",
+                "Slime Egg-Press",
+                "Wood Lamp-post",
+                "Iron Lamp-post",
+                "Mini-Jukebox",
+                "Shirt"
             ],
-            "gifting": {"loves":["Maru"],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting": {
+                "loves": [
+                    "Maru"
+                ],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 692,
@@ -22351,9 +22588,53 @@
                 "Any Geode"
             ],
             "makes": [
-                "Quality Retaining Soil","Garden Pot","Brick Floor","Shirt"
+                "Quality Retaining Soil",
+                "Garden Pot",
+                "Brick Floor",
+                "Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Abigail","Evelyn","George","Haley","Jas","Marnie","Sebastian","Vincent"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Gus",
+                    "Harvey",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Shane",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": [
+                    "Abigail",
+                    "Evelyn",
+                    "George",
+                    "Haley",
+                    "Jas",
+                    "Marnie",
+                    "Sebastian",
+                    "Vincent"
+                ]
+            }
         },
         {
             "id": 693,
@@ -22370,9 +22651,68 @@
                 "Panning"
             ],
             "makes": [
-                "Bee House","Preserves Jar","Warrior Ring","Cherry Bomb","Bomb","Explosive Ammo","Wicked Statue","Wooden Brazier","Stone Brazier","Barrel Brazier","Stump Brazier","Gold Brazier","Carved Brazier","Skull Brazier","Scarecrow","Seed Maker","Slime Egg-Press","Shirt"
+                "Bee House",
+                "Preserves Jar",
+                "Warrior Ring",
+                "Cherry Bomb",
+                "Bomb",
+                "Explosive Ammo",
+                "Wicked Statue",
+                "Wooden Brazier",
+                "Stone Brazier",
+                "Barrel Brazier",
+                "Stump Brazier",
+                "Gold Brazier",
+                "Carved Brazier",
+                "Skull Brazier",
+                "Scarecrow",
+                "Seed Maker",
+                "Slime Egg-Press",
+                "Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [
+                    "Clint"
+                ],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": [
+                    "Sam"
+                ]
+            }
         },
         {
             "id": 694,
@@ -22384,9 +22724,66 @@
                 "Smelting (5 Copper Ore)"
             ],
             "makes": [
-                "Copper Hoe","Copper Pickaxe","Copper Axe","Copper Watering Can","Copper Trash Can","Charcoal Kiln","Cheese Press","Crab Pot (with Trapper Profession)","Keg","Mayonnaise Machine","Sprinkler","Sturdy Ring","Tapper","Iron Bar","Trap Bobber","Copper Breastplate"
+                "Copper Hoe",
+                "Copper Pickaxe",
+                "Copper Axe",
+                "Copper Watering Can",
+                "Copper Trash Can",
+                "Charcoal Kiln",
+                "Cheese Press",
+                "Crab Pot (with Trapper Profession)",
+                "Keg",
+                "Mayonnaise Machine",
+                "Sprinkler",
+                "Sturdy Ring",
+                "Tapper",
+                "Iron Bar",
+                "Trap Bobber",
+                "Copper Breastplate"
             ],
-            "gifting": {"loves":[],"likes":["Clint","Maru"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Clint",
+                    "Maru"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": [
+                    "Sam"
+                ]
+            }
         },
         {
             "id": 695,
@@ -22401,9 +22798,53 @@
                 "Panning"
             ],
             "makes": [
-                "Cherry Bomb","Furnace","Flute Block","Drum Block","Turtleneck Sweater"
+                "Cherry Bomb",
+                "Furnace",
+                "Flute Block",
+                "Drum Block",
+                "Turtleneck Sweater"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 696,
@@ -22415,9 +22856,66 @@
                 "Weeds"
             ],
             "makes": [
-                "Grass Starter","Scarecrow","Deluxe Scarecrow","Loom","Worm Bin","Flute Block","Drum Block","Tree Fertilizer","Tea Sapling","Warp Totem: Farm","Warp Totem: Beach","Straw Floor","Wild Bait","Wooden Brazier","Stone Brazier","Gold Brazier","Campfire","Basic Pullover"
+                "Grass Starter",
+                "Scarecrow",
+                "Deluxe Scarecrow",
+                "Loom",
+                "Worm Bin",
+                "Flute Block",
+                "Drum Block",
+                "Tree Fertilizer",
+                "Tea Sapling",
+                "Warp Totem: Farm",
+                "Warp Totem: Beach",
+                "Straw Floor",
+                "Wild Bait",
+                "Wooden Brazier",
+                "Stone Brazier",
+                "Gold Brazier",
+                "Campfire",
+                "Basic Pullover"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 697,
@@ -22428,13 +22926,59 @@
             "obtainedFrom": [
                 "The Mines (floors 80+)",
                 "Purchased with Clint (400g)",
-                "Frozen Geode","Magma Geode","Omni Geode",
+                "Frozen Geode",
+                "Magma Geode",
+                "Omni Geode",
                 "Panning"
             ],
             "makes": [
-                "Gold Bar","Mega Bomb","Turtleneck Sweater"
+                "Gold Bar",
+                "Mega Bomb",
+                "Turtleneck Sweater"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [
+                    "Clint"
+                ],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": [
+                    "Sam"
+                ]
+            }
         },
         {
             "id": 698,
@@ -22447,9 +22991,61 @@
                 "Chopping a Large Log (requires a Steel Axe or better)"
             ],
             "makes": [
-                "Cheese Press","Oil Maker","Hardwood Fence","Cork Bobber","Worm Bin","Warp Totem: Beach","Warp Totem: Mountains","Warp Totem: Farm","Warp Totem: Desert","Rain Totem","Cask","Shirt"
+                "Cheese Press",
+                "Oil Maker",
+                "Hardwood Fence",
+                "Cork Bobber",
+                "Worm Bin",
+                "Warp Totem: Beach",
+                "Warp Totem: Mountains",
+                "Warp Totem: Farm",
+                "Warp Totem: Desert",
+                "Rain Totem",
+                "Cask",
+                "Shirt"
             ],
-            "gifting": {"loves":[],"likes":["Robin"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Robin"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 699,
@@ -22465,9 +23061,61 @@
                 "Purple Slime (0.9% chance drop)"
             ],
             "makes": [
-                "Iridium Hoe","Iridium Pickaxe","Iridium Axe","Iridium Watering Can","Iridium Trash Can","Iridium Sprinkler","Iridium Band","Crystalarium","Slime Incubator","Wedding Ring","Iridium Breastplate"
+                "Iridium Hoe",
+                "Iridium Pickaxe",
+                "Iridium Axe",
+                "Iridium Watering Can",
+                "Iridium Trash Can",
+                "Iridium Sprinkler",
+                "Iridium Band",
+                "Crystalarium",
+                "Slime Incubator",
+                "Wedding Ring",
+                "Iridium Breastplate"
             ],
-            "gifting": {"loves":["Clint","Krobus","Maru","Willy"],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Wizard"],"hates":["Sam"]}
+            "gifting": {
+                "loves": [
+                    "Clint",
+                    "Krobus",
+                    "Maru",
+                    "Willy"
+                ],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Wizard"
+                ],
+                "hates": [
+                    "Sam"
+                ]
+            }
         },
         {
             "id": 700,
@@ -22476,12 +23124,60 @@
             "link": "https://stardewvalleywiki.com/Iridium_Ore",
             "sellPrice": "100",
             "obtainedFrom": [
-                "Skull Cavern (chances increases as you descend)","Magma Geode","Omni Geeeode","Panning"
+                "Skull Cavern (chances increases as you descend)",
+                "Magma Geode",
+                "Omni Geeeode",
+                "Panning"
             ],
             "makes": [
-                "Iridium Bar","Deluxe Scarecrow","Warp Totem: Desert","Iridium Energy Shirt"
+                "Iridium Bar",
+                "Deluxe Scarecrow",
+                "Warp Totem: Desert",
+                "Iridium Energy Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [
+                    "Clint"
+                ],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": [
+                    "Sam"
+                ]
+            }
         },
         {
             "id": 701,
@@ -22494,9 +23190,56 @@
                 "Using a Broken CD or a Broken Glasses in a Recycling Machine"
             ],
             "makes": [
-                "Garden Pot","Crystal Path","Crystal Floor","Lightning Rod","Quality Sprinkler","Necklace Shirt"
+                "Garden Pot",
+                "Crystal Path",
+                "Crystal Floor",
+                "Lightning Rod",
+                "Quality Sprinkler",
+                "Necklace Shirt"
             ],
-            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [
+                    "Clint"
+                ],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": [
+                    "Sam"
+                ]
+            }
         },
         {
             "id": 702,
@@ -22509,7 +23252,30 @@
                 "Purchased at the Carpenter's Shop (20g)"
             ],
             "makes": [
-                "Stone Fence","Stone Sign","Garden Pot","Mayonnaise Machine","Preserves Jar","Cheese Press","Basic Retaining Soil","Quality Retaining Soil","Tree Fertilizer","Stone Floor","Gravel Path","Cobblestone Path","Stepping Stone Path","Wicked Statue","Drum Block","Campfire","Stone Brazier","Marble Brazier","Furnace","Staircase","Crystalarium","Recycling Machine","Warp Totem: Mountains","Work Shirt"
+                "Stone Fence",
+                "Stone Sign",
+                "Garden Pot",
+                "Mayonnaise Machine",
+                "Preserves Jar",
+                "Cheese Press",
+                "Basic Retaining Soil",
+                "Quality Retaining Soil",
+                "Tree Fertilizer",
+                "Stone Floor",
+                "Gravel Path",
+                "Cobblestone Path",
+                "Stepping Stone Path",
+                "Wicked Statue",
+                "Drum Block",
+                "Campfire",
+                "Stone Brazier",
+                "Marble Brazier",
+                "Furnace",
+                "Staircase",
+                "Crystalarium",
+                "Recycling Machine",
+                "Warp Totem: Mountains",
+                "Work Shirt"
             ]
         },
         {
@@ -22524,7 +23290,38 @@
                 "Using Hardwood or Driftwood in a Wood Chipper"
             ],
             "makes": [
-                "Gate","Wood Fence","Wood Sign","Mayonnaise Machine","Bee House","Preserves Jar","Cheese Press","Loom","Keg","Tapper","Cork Bobber","Wood Floor","Straw Floor","Weathered Floor","Wood Path","Flute Block","Torch","Campfire","Wooden Brazier","Barrel Brazier","Wood Lamp-post","Crab Pot","Chest","Scarecrow","Deluxe Scarecrow","Seed Maker","Charcoal Kiln","Recycling Machine","Cask","Tub o' Flowers","Tea Sapling","Basic Pullover"
+                "Gate",
+                "Wood Fence",
+                "Wood Sign",
+                "Mayonnaise Machine",
+                "Bee House",
+                "Preserves Jar",
+                "Cheese Press",
+                "Loom",
+                "Keg",
+                "Tapper",
+                "Cork Bobber",
+                "Wood Floor",
+                "Straw Floor",
+                "Weathered Floor",
+                "Wood Path",
+                "Flute Block",
+                "Torch",
+                "Campfire",
+                "Wooden Brazier",
+                "Barrel Brazier",
+                "Wood Lamp-post",
+                "Crab Pot",
+                "Chest",
+                "Scarecrow",
+                "Deluxe Scarecrow",
+                "Seed Maker",
+                "Charcoal Kiln",
+                "Recycling Machine",
+                "Cask",
+                "Tub o' Flowers",
+                "Tea Sapling",
+                "Basic Pullover"
             ]
         },
         {
@@ -22540,7 +23337,12 @@
             "makes": [
                 "Hay"
             ],
-            "recipe":[{"id":"Fiber", "qty": 10}]
+            "recipe": [
+                {
+                    "id": "Fiber",
+                    "qty": 10
+                }
+            ]
         },
         {
             "id": 705,
@@ -22561,22 +23363,90 @@
                 "Desert Trader",
                 "Haunted Skull (1.3% chance drop)"
             ],
-            "makes":["Anchor","Ancient Doll","Ancient Drum","Ancient Seed","Ancient Sword","Arrowhead","Bone Flute","Chewing Stick","Chicken Statue","Chipped Amphora","Dried Starfish","Dwarf Gadget","Dwarvish Helm","Elvish Jewelry","Glass Shards","Golden Mask","Golden Pumpkin","Golden Relic","Ornamental Fan","Pearl","Prehistoric Handaxe","Prehistoric Tool","Rare Disc","Rusty Cog","Rusty Spoon","Rusty Spur","Treasure Chest"]
+            "makes": [
+                "Anchor",
+                "Ancient Doll",
+                "Ancient Drum",
+                "Ancient Seed",
+                "Ancient Sword",
+                "Arrowhead",
+                "Bone Flute",
+                "Chewing Stick",
+                "Chicken Statue",
+                "Chipped Amphora",
+                "Dried Starfish",
+                "Dwarf Gadget",
+                "Dwarvish Helm",
+                "Elvish Jewelry",
+                "Glass Shards",
+                "Golden Mask",
+                "Golden Pumpkin",
+                "Golden Relic",
+                "Ornamental Fan",
+                "Pearl",
+                "Prehistoric Handaxe",
+                "Prehistoric Tool",
+                "Rare Disc",
+                "Rusty Cog",
+                "Rusty Spoon",
+                "Rusty Spur",
+                "Treasure Chest"
+            ]
         },
-
-
         {
             "id": 707,
             "name": "Golden Pumpkin",
             "type": "Special Items",
             "link": "https://stardewvalleywiki.com/Golden_Pumpkin",
-            "sellPrice":"2,500",
+            "sellPrice": "2,500",
             "obtainedFrom": [
                 "Spirit's Eve",
                 "Artifact Trove"
             ],
-            "gifting":{"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":[]},
-            "makes": ["Witch Hat"]
+            "gifting": {
+                "loves": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": []
+            },
+            "makes": [
+                "Witch Hat"
+            ]
         },
         {
             "id": 708,
@@ -22584,7 +23454,7 @@
             "type": "Food",
             "link": "https://stardewvalleywiki.com/Magic_Rock_Candy",
             "sellPrice": "5,000",
-            "healing":{
+            "healing": {
                 "energy": 500,
                 "health": 225
             },
@@ -22593,8 +23463,48 @@
                 "Museum Reward (after donating 90 items)",
                 "Haunted Skull (0.13% chance drop)"
             ],
-            "gifting":{"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":[]},
-            "makes":[
+            "gifting": {
+                "loves": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": []
+            },
+            "makes": [
                 "Magic Sprinkle Shirt"
             ]
         },
@@ -22603,13 +23513,53 @@
             "name": "Pearl",
             "type": "Special Items",
             "link": "https://stardewvalleywiki.com/Pearl",
-            "sellPrice":"2,500",
+            "sellPrice": "2,500",
             "obtainedFrom": [
                 "Artifact Trove",
                 "Night Market"
             ],
-            "gifting":{"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":[]},
-            "makes":[
+            "gifting": {
+                "loves": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": []
+            },
+            "makes": [
                 "Bridal Veil"
             ]
         },
@@ -22622,9 +23572,10 @@
             "obtainedFrom": [
                 "Squid Kid (20% chance drop)"
             ],
-            "makes":[
+            "makes": [
                 "Used as an ingredient in clothing dye and tailoring",
-                "Seafoam Pudding","Midnight Dog Jacket"
+                "Seafoam Pudding",
+                "Midnight Dog Jacket"
             ]
         },
         {
@@ -22641,22 +23592,329 @@
                 "Earned with Willy after catching every fish in the game",
                 "Museum Reward (after donating all 95 items)"
             ],
-            "makes":[
+            "makes": [
                 "Permanently increases the player's maximum energy by 34 points"
             ]
         },
         {
             "id": 712,
-            "name": "",
-            "type": "Special Items",
-            "link": "https://stardewvalleywiki.com/Artifact_Trove",
+            "name": "Training Rod",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Training_Rod",
             "obtainedFrom": [
-                
+                "Purchased from Willy's Fish Shop (25g)"
             ],
-            "makes":[
-                
-            ]
-        }
+            "makes": ["Fish"]
+        },
+        {
+            "id": 713,
+            "name": "Bamboo Pole",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Bamboo_Pole",
+            "obtainedFrom": [
+                "Purchased from Willy's Fish Shop (500g)"
+            ],
+            "makes": ["Fish"]
+        },
+        {
+            "id": 714,
+            "name": "Fiberglass Rod",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Fiberglass_Rod",
+            "obtainedFrom": [
+                "Purchased from Willy's Fish Shop (1,800g)"
+            ],
+            "makes": ["Fish"]
+        },
+        {
+            "id": 715,
+            "name": "Iridium Rod",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Iridium_Rod",
+            "obtainedFrom": [
+                "Purchased from Willy's Fish Shop (7,500g)"
+            ],
+            "makes": ["Fish"]
+        },
+        {
+            "id": 716,
+            "name": "Scythe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Scythe",
+            "makes": ["Hay"]
+        },
+        {
+            "id": 717,
+            "name": "Golden Scythe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Golden_Scythe",
+            "obtainedFrom": ["Found at the end of the Quarry Mine"],
+            "makes": ["Hay"]
+        },
+        {
+            "id": 718,
+            "name": "Milk Pail",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Milk_Pail",
+            "obtainedFrom": [
+                "Purchased from Marnie's Ranch (1,000g)"
+            ],
+            "makes": ["Milk", "Large Milk", "Goat Milk", "Large Goat Milk"]
+        },
+        {
+            "id": 719,
+            "name": "Shears",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Shears",
+            "obtainedFrom": [
+                "Purchased from Marnie's Ranch (1,000g)"
+            ],
+            "makes": ["Wool"]
+        },
+        {
+            "id": 720,
+            "name": "Heater",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Heater",
+            "obtainedFrom": [
+                "Purchased from Marnie's Ranch (2,000g)"
+            ],"makes": ["Keeps your animals warmer and happier during the winter"]
+        },
+        {
+            "id": 721,
+            "name": "Copper Pan",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Copper_Pan",
+            "obtainedFrom": [
+                "Earned after the Glittering Boulder is removed",
+                "Purchased from Willy's Fish Shop (2,500g)"
+            ],
+            "makes": ["Copper Ore","Iron Ore","Gold Ore","Iridium Ore","Amethyst","Aquamarine","Diamond","Emerald","Ruby","Topaz","Coal","Earth Crystal","Fire Quartz","Frozen Tear","Omni Geode"]
+        },
+        {
+            "id": 722,
+            "name": "Auto-Grabber",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Auto-Grabber",
+            "obtainedFrom": [
+                "Purchased from Marnie's Ranch (requires Farming skill level 10) (25,000g)"
+            ],
+            "makes": ["Automatically harvests from your animals each morning"]
+        },
 
+        {
+            "id": 723,
+            "name": "Hoe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Hoes"
+        },
+        {
+            "id": 724,
+            "name": "Copper Hoe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Hoes",
+            "obtainedFrom": [
+                "Upgrading a Hoe with Clint (5 Copper Bar + 2,000g)"
+            ]
+        },
+        {
+            "id": 725,
+            "name": "Steel Hoe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Hoes",
+            "obtainedFrom": [
+                "Upgrading a Copper Hoe with Clint (5 Iron Bar + 5,000g)"
+            ]
+        },
+        {
+            "id": 726,
+            "name": "Gold Hoe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Hoes",
+            "obtainedFrom": [
+                "Upgrading a Steel Hoe with Clint (5 Gold Bar + 10,000g)"
+            ]
+        },
+        {
+            "id": 727,
+            "name": "Iridium Hoe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Hoes",
+            "obtainedFrom": [
+                "Upgrading a Gold Hoe with Clint (5 Iridium Bar + 25,000g)"
+            ]
+        },
+        {
+            "id": 728,
+            "name": "Pickaxe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Pickaxes"
+        },
+        {
+            "id": 729,
+            "name": "Copper Pickaxe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Pickaxes",
+            "obtainedFrom": [
+                "Upgrading a Pickaxe with Clint (5 Copper Bar + 2,000g)"
+            ]
+        },
+        {
+            "id": 730,
+            "name": "Steel Pickaxe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Pickaxes",
+            "obtainedFrom": [
+                "Upgrading a Copper Pickaxe with Clint (5 Iron Bar + 5,000g)"
+            ]
+        },
+        {
+            "id": 731,
+            "name": "Gold Pickaxe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Pickaxes",
+            "obtainedFrom": [
+                "Upgrading a Steel Pickaxe with Clint (5 Gold Bar + 10,000g)"
+            ]
+        },
+        {
+            "id": 732,
+            "name": "Iridium Pickaxe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Pickaxes",
+            "obtainedFrom": [
+                "Upgrading a Gold Pickaxe with Clint (5 Iridium Bar + 25,000g)"
+            ]
+        },
+        {
+            "id": 733,
+            "name": "Axe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Axes"
+        },
+        {
+            "id": 734,
+            "name": "Copper Axe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Axes",
+            "obtainedFrom": [
+                "Upgrading an Axe with Clint (5 Copper Bar + 2,000g)"
+            ]
+        },
+        {
+            "id": 735,
+            "name": "Steel Axe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Axes",
+            "obtainedFrom": [
+                "Upgrading a Copper Axe with Clint (5 Iron Bar + 5,000g)"
+            ]
+        },
+        {
+            "id": 736,
+            "name": "Gold Axe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Axes",
+            "obtainedFrom": [
+                "Upgrading a Steel Axe with Clint (5 Gold Bar + 10,000g)"
+            ]
+        },
+        {
+            "id": 737,
+            "name": "Iridium Axe",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Axes",
+            "obtainedFrom": [
+                "Upgrading a Gold Axe with Clint (5 Iridium Bar + 25,000g)"
+            ]
+        },
+        {
+            "id": 738,
+            "name": "Watering Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Watering_Cans"
+        },
+        {
+            "id": 739,
+            "name": "Copper Watering Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Watering_Cans",
+            "obtainedFrom": [
+                "Upgrading a Watering Can with Clint (5 Copper Bar + 2,000g)"
+            ]
+        },
+        {
+            "id": 740,
+            "name": "Steel Watering Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Watering_Cans",
+            "obtainedFrom": [
+                "Upgrading a Copper Watering Can with Clint (5 Iron Bar + 5,000g)"
+            ]
+        },
+        {
+            "id": 741,
+            "name": "Gold Watering Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Watering_Cans",
+            "obtainedFrom": [
+                "Upgrading a Steel Watering Can with Clint (5 Gold Bar + 10,000g)"
+            ]
+        },
+        {
+            "id": 742,
+            "name": "Iridium Watering Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Watering_Cans",
+            "obtainedFrom": [
+                "Upgrading a Gold Watering Can with Clint (5 Iridium Bar + 25,000g)"
+            ]
+        },
+        {
+            "id": 743,
+            "name": "Trash Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Trash_Cans"
+        },
+        {
+            "id": 744,
+            "name": "Copper Trash Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Trash_Cans",
+            "obtainedFrom": [
+                "Upgrading a Trash Can with Clint (5 Copper Bar + 1,000g)"
+            ],
+            "makes":["When deleting items, reclaim 15% of their monetary value"]
+        },
+        {
+            "id": 745,
+            "name": "Steel Trash Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Trash_Cans",
+            "obtainedFrom": [
+                "Upgrading a Copper Trash Can with Clint (5 Iron Bar + 2,500g)"
+            ],
+            "makes":["When deleting items, reclaim 30% of their monetary value"]
+        },
+        {
+            "id": 746,
+            "name": "Gold Trash Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Trash_Cans",
+            "obtainedFrom": [
+                "Upgrading a Steel Trash Can with Clint (5 Gold Bar + 5,000g)"
+            ],
+            "makes":["When deleting items, reclaim 45% of their monetary value"]
+        },
+        {
+            "id": 747,
+            "name": "Iridium Trash Can",
+            "type": "Tools",
+            "link": "https://stardewvalleywiki.com/Trash_Cans",
+            "obtainedFrom": [
+                "Upgrading a Gold Trash Can with Clint (5 Iridium Bar + 12,500g)"
+            ],
+            "makes":["When deleting items, reclaim 60% of their monetary value"]
+        }
     ]
 }
