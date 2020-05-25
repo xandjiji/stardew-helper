@@ -3,7 +3,7 @@ const rp = require('request-promise');
 
 const baseURL = `
 
-https://stardewvalleywiki.com/Refined_Quartz
+https://stardewvalleywiki.com/Golden_Pumpkin
 
 `;
 

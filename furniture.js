@@ -15,7 +15,7 @@ var initialID = 629;
 var list = [];
 
 
-var items = cheerio('td:first-child img', data);
+var items = cheerio('#nametemplate a', data);
 
 
 
@@ -27,7 +27,8 @@ for (const item of Object.keys(items)) {
         /* if(items[item].attribs.class !== 'image') {
             list.push(furnitureFactory(items[item]));
         } */
-        console.log(items[item]);
+        
+        list.push(items[item].attribs.title);
         
 
 
@@ -39,7 +40,7 @@ for (const item of Object.keys(items)) {
 
 /* console.log(list); */
 
-/* console.log(JSON.stringify(list)); */
+console.log(JSON.stringify(list));
 
 
 function furnitureFactory(node) {

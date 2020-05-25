@@ -39,6 +39,9 @@ carpenter/robin
 Pierre's
 fish shop (fish level)
 festival of ice
+night market
+flower dance
+FISH POND
 museum donation
 
 likes/deslikes nao fazem sentido
@@ -46,3 +49,5 @@ url data
 prices (terminado com G ou ,)
 green slime egg (outras cores tb)
 verificar imagens
+
+COMIDAS (lembrando magic rock candy)

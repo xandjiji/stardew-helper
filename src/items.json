@@ -22520,7 +22520,8 @@
             "sellPrice": "2",
             "obtainedFrom": [
                 "Chopping Trees",
-                "Purchased at the Carpenter's Shop (10g)"
+                "Purchased at the Carpenter's Shop (10g)",
+                "Using Hardwood or Driftwood in a Wood Chipper"
             ],
             "makes": [
                 "Gate","Wood Fence","Wood Sign","Mayonnaise Machine","Bee House","Preserves Jar","Cheese Press","Loom","Keg","Tapper","Cork Bobber","Wood Floor","Straw Floor","Weathered Floor","Wood Path","Flute Block","Torch","Campfire","Wooden Brazier","Barrel Brazier","Wood Lamp-post","Crab Pot","Chest","Scarecrow","Deluxe Scarecrow","Seed Maker","Charcoal Kiln","Recycling Machine","Cask","Tub o' Flowers","Tea Sapling","Basic Pullover"
@@ -22549,6 +22550,111 @@
             "obtainedFrom": [
                 "Grass",
                 "Purchase at the Marnie's Ranch (50g)"
+            ]
+        },
+        {
+            "id": 706,
+            "name": "Artifact Trove",
+            "type": "Special Items",
+            "link": "https://stardewvalleywiki.com/Artifact_Trove",
+            "obtainedFrom": [
+                "Desert Trader",
+                "Haunted Skull (1.3% chance drop)"
+            ],
+            "makes":["Anchor","Ancient Doll","Ancient Drum","Ancient Seed","Ancient Sword","Arrowhead","Bone Flute","Chewing Stick","Chicken Statue","Chipped Amphora","Dried Starfish","Dwarf Gadget","Dwarvish Helm","Elvish Jewelry","Glass Shards","Golden Mask","Golden Pumpkin","Golden Relic","Ornamental Fan","Pearl","Prehistoric Handaxe","Prehistoric Tool","Rare Disc","Rusty Cog","Rusty Spoon","Rusty Spur","Treasure Chest"]
+        },
+
+
+        {
+            "id": 707,
+            "name": "Golden Pumpkin",
+            "type": "Special Items",
+            "link": "https://stardewvalleywiki.com/Golden_Pumpkin",
+            "sellPrice":"2,500",
+            "obtainedFrom": [
+                "Spirit's Eve",
+                "Artifact Trove"
+            ],
+            "gifting":{"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":[]},
+            "makes": ["Witch Hat"]
+        },
+        {
+            "id": 708,
+            "name": "Magic Rock Candy",
+            "type": "Food",
+            "link": "https://stardewvalleywiki.com/Magic_Rock_Candy",
+            "sellPrice": "5,000",
+            "healing":{
+                "energy": 500,
+                "health": 225
+            },
+            "obtainedFrom": [
+                "Desert Trader",
+                "Museum Reward (after donating 90 items)",
+                "Haunted Skull (0.13% chance drop)"
+            ],
+            "gifting":{"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":[]},
+            "makes":[
+                "Magic Sprinkle Shirt"
+            ]
+        },
+        {
+            "id": 709,
+            "name": "Pearl",
+            "type": "Special Items",
+            "link": "https://stardewvalleywiki.com/Pearl",
+            "sellPrice":"2,500",
+            "obtainedFrom": [
+                "Artifact Trove",
+                "Night Market"
+            ],
+            "gifting":{"loves":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"likes":[],"neutrals":[],"dislikes":[],"hates":[]},
+            "makes":[
+                "Bridal Veil"
+            ]
+        },
+        {
+            "id": 710,
+            "name": "Squid Ink",
+            "type": "Special Items",
+            "link": "https://stardewvalleywiki.com/Squid_Ink",
+            "sellPrice": "110",
+            "obtainedFrom": [
+                "Squid Kid (20% chance drop)"
+            ],
+            "makes":[
+                "Used as an ingredient in clothing dye and tailoring",
+                "Seafoam Pudding","Midnight Dog Jacket"
+            ]
+        },
+        {
+            "id": 711,
+            "name": "Stardrop",
+            "type": "Special Items",
+            "link": "https://stardewvalleywiki.com/Stardrop",
+            "obtainedFrom": [
+                "Sold for 2,000 Star Tokens at the Stardew Valley Fair",
+                "Obtained from the treasure chest on floor 100 in The Mines",
+                "Marrying an NPC and reaching 12.5 hearts friendship level with him/her",
+                "Krobus (20,000g)",
+                "Obtained from Old Master Cannoli, in the Secret Woods, after giving him a Sweet Gem Berry",
+                "Earned with Willy after catching every fish in the game",
+                "Museum Reward (after donating all 95 items)"
+            ],
+            "makes":[
+                "Permanently increases the player's maximum energy by 34 points"
+            ]
+        },
+        {
+            "id": 712,
+            "name": "",
+            "type": "Special Items",
+            "link": "https://stardewvalleywiki.com/Artifact_Trove",
+            "obtainedFrom": [
+                
+            ],
+            "makes":[
+                
             ]
         }
 
