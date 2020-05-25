@@ -5816,32 +5816,6 @@
             }
         },
         {
-            "id": 141,
-            "name": "Iridium Band",
-            "type": "Craftable Items",
-            "link": "https://stardewvalleywiki.com/Iridium_Band",
-            "sellPrice": "1,000",
-            "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Combat skill level 9",
-                "Fishing Treasure Chests"
-            ],
-            "recipe": [
-                {
-                    "id": "Iridium Bar",
-                    "qty": 5
-                },
-                {
-                    "id": "Solar Essence",
-                    "qty": 50
-                },
-                {
-                    "id": "Void Essence",
-                    "qty": 50
-                }
-            ]
-        },
-        {
             "id": 142,
             "name": "Iridium Sprinkler",
             "type": "Craftable Items",
@@ -6416,31 +6390,6 @@
             ]
         },
         {
-            "id": 157,
-            "name": "Ring of Yoba",
-            "type": "Craftable Items",
-            "link": "https://stardewvalleywiki.com/Ring_of_Yoba",
-            "sellPrice": "750",
-            "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Combat skill level 7"
-            ],
-            "recipe": [
-                {
-                    "id": "Iron Bar",
-                    "qty": 5
-                },
-                {
-                    "id": "Gold Bar",
-                    "qty": 5
-                },
-                {
-                    "id": "Diamond",
-                    "qty": 1
-                }
-            ]
-        },
-        {
             "id": 158,
             "name": "Scarecrown",
             "type": "Craftable Items",
@@ -6804,52 +6753,6 @@
                 },
                 {
                     "id": "Spangle Seeds",
-                    "qty": 1
-                }
-            ]
-        },
-        {
-            "id": 173,
-            "name": "Warrior Ring",
-            "type": "Craftable Items",
-            "link": "https://stardewvalleywiki.com/Warrior_Ring",
-            "sellPrice": "750",
-            "obtainedFrom": [
-                "Crafting",
-                "Recipe is earned at Combat skill level 4"
-            ],
-            "recipe": [
-                {
-                    "id": "Iron Bar",
-                    "qty": 10
-                },
-                {
-                    "id": "Coal",
-                    "qty": 25
-                },
-                {
-                    "id": "Frozen Tear",
-                    "qty": 10
-                }
-            ]
-        },
-        {
-            "id": 174,
-            "name": "Wedding Ring",
-            "type": "Craftable Items",
-            "link": "https://stardewvalleywiki.com/Wedding_Ring",
-            "sellPrice": "1,000",
-            "obtainedFrom": [
-                "Crafting",
-                "Recipe is can be found randomly at the Traveling Cart (500g)"
-            ],
-            "recipe": [
-                {
-                    "id": "Iridium Bar",
-                    "qty": 5
-                },
-                {
-                    "id": "Prismatic Shard",
                     "qty": 1
                 }
             ]
@@ -25155,6 +25058,1299 @@
             },
             "obtainedFrom": [
                 "The Mines (Floor 70 chest reward)"
+            ]
+        },
+        {
+            "id": 791,
+            "name": "Sneakers",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Sneakers",
+            "sellPrice": "50",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (500g)",
+                "The Mines (Floors 1-40)",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 792,
+            "name": "Rubber Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Rubber_Boots",
+            "sellPrice": "50",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Immunity",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (50g)",
+                "Green Slime",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 793,
+            "name": "Leather Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Leather_Boots",
+            "sellPrice": "100",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Reward from Chest at Floor 10 of The Mines",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 794,
+            "name": "Work Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Work_Boots",
+            "sellPrice": "100",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 795,
+            "name": "Combat Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Combat_Boots",
+            "sellPrice": "150",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+3"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (1,250g)",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 796,
+            "name": "Tundra Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Tundra_Boots",
+            "sellPrice": "150",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Reward from Chest at Floor 50 of The Mines"
+            ]
+        },
+        {
+            "id": 797,
+            "name": "Leprechaun Shoes",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Leprechaun_Shoes",
+            "sellPrice": "150",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Trains"
+            ]
+        },
+        {
+            "id": 798,
+            "name": "Thermal Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Thermal_Boots",
+            "sellPrice": "150",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (g)",
+                "The Mines"
+            ]
+        },
+        {
+            "id": 799,
+            "name": "Cowboy Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Cowboy_Boots",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Unobtainable"
+            ]
+        },
+        {
+            "id": 800,
+            "name": "Dark Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Dark_Boots",
+            "sellPrice": "300",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+4"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after reaching Floor 80 in The Mines) (2,500g)",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 801,
+            "name": "Firewalker Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Firewalker_Boots",
+            "sellPrice": "300",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+3"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+3"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Reward from Chest at Floor 80 of The Mines",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 802,
+            "name": "Genie Shoes",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Genie_Shoes",
+            "sellPrice": "350",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+6"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Skull Cavern",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 803,
+            "name": "Space Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Space_Boots",
+            "sellPrice": "400",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+4"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+4"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (5,000g)",
+                "Reward from Chest at Floor 110 of The Mines"
+            ]
+        },
+        {
+            "id": 804,
+            "name": "Emily's Magic Boots",
+            "type": "Footwear",
+            "link": "https://stardewvalleywiki.com/Emily%27s_Magic_Boots",
+            "sellPrice": "400",
+            "stats": {
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+4"
+                    },
+                    {
+                        "stat": "Immunity",
+                        "val": "+4"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Earned with Emily (14-heart event)"
+            ]
+        },
+        {
+            "id": 805,
+            "name": "Small Glow Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Small_Glow_Ring",
+            "sellPrice": "50",
+            "effect": "Emits a small, constant light",
+            "obtainedFrom": [
+                "Killing Slimes in The Mines before level 40",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 806,
+            "name": "Glow Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Glow_Ring",
+            "sellPrice": "100",
+            "effect": "Emits a constant light",
+            "obtainedFrom": [
+                "Killing Slimes in The Mines after level 40",
+                "Killing a Skeleton in The Mines level 70-79",
+                "Destroying various barrels and boxes in The Mines"
+            ]
+        },
+        {
+            "id": 807,
+            "name": "Small Magnet Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Small_Magnet_Ring",
+            "sellPrice": "50",
+            "effect": "Slightly increases your radius for collecting items",
+            "obtainedFrom": [
+                "Destroying various barrels and boxes in The Mines",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 808,
+            "name": "Magnet Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Magnet_Ring",
+            "sellPrice": "100",
+            "effect": "Increases your radius for collecting items",
+            "obtainedFrom": [
+                "Enemy drops in The Mines between levels 40-80",
+                "Destroying various barrels and boxes in The Mines"
+            ]
+        },
+        {
+            "id": 809,
+            "name": "Slime Charmer Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Slime_Charmer_Ring",
+            "sellPrice": "350",
+            "effect": "Prevents damage from Slimes and prevents the Slimed Buff",
+            "obtainedFrom": [
+                "Reward for eradicating 1000 Slimes at the Adventurer's Guild",
+                "Adventurer's Guild (25,000g)"
+            ]
+        },
+        {
+            "id": 810,
+            "name": "Warrior Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Warrior_Ring",
+            "sellPrice": "750",
+            "effect": "Has a chance of giving a +10 Attack buff for 5 seconds after slaying a monster",
+            "recipe": [
+                {
+                    "id": "Iron Bar",
+                    "qty": 10
+                },
+                {
+                    "id": "Coal",
+                    "qty": 25
+                },
+                {
+                    "id": "Frozen Tear",
+                    "qty": 10
+                }
+            ],
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 4"
+            ]
+        },
+        {
+            "id": 811,
+            "name": "Vampire Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Vampire_Ring",
+            "sellPrice": "750",
+            "effect": "Restores 2 health after slaying a monster",
+            "obtainedFrom": [
+                "Reward for eradicating 200 Bats at the Adventurer's Guild",
+                "Adventurer's Guild (15,000g)"
+            ]
+        },
+        {
+            "id": 812,
+            "name": "Savage Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Savage_Ring",
+            "sellPrice": "750",
+            "effect": "Gives a 3-second +2 Speed buff after slaying a monster",
+            "obtainedFrom": [
+                "Reward for eradicating 150 Void Spirits (Shadow Shaman or Shadow Brutes) at the Adventurer's Guild",
+                "Adventurer's Guild (25,000g)"
+            ]
+        },
+        {
+            "id": 813,
+            "name": "Ring of Yoba",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Ring_of_Yoba",
+            "sellPrice": "750",
+            "effect": "Has a chance of making the player invincible for 5 seconds after taking damage",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 7"
+            ],
+            "recipe": [
+                {
+                    "id": "Iron Bar",
+                    "qty": 5
+                },
+                {
+                    "id": "Gold Bar",
+                    "qty": 5
+                },
+                {
+                    "id": "Diamond",
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "id": 814,
+            "name": "Sturdy Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Sturdy_Ring",
+            "effect": "Halves the duration of negative buffs",
+            "sellPrice": "750",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 1"
+            ],
+            "recipe": [
+                {
+                    "id": "Copper Bar",
+                    "qty": 2
+                },
+                {
+                    "id": "Bug Meat",
+                    "qty": 25
+                },
+                {
+                    "id": "Slime",
+                    "qty": 25
+                }
+            ]
+        },
+        {
+            "id": 815,
+            "name": "Burglar's Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Burglar%27s_Ring",
+            "sellPrice": "750",
+            "effect": "Monsters drop items more often",
+            "obtainedFrom": [
+                "Reward for eradicating 500 Dust Sprites at the Adventurer's Guild",
+                "Adventurer's Guild (20,000g)"
+            ]
+        },
+        {
+            "id": 816,
+            "name": "Iridium Band",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Iridium_Band",
+            "effect": "Combines the effect of the Glow Ring, the Magnet Ring, and the Ruby Ring",
+            "sellPrice": "1,000",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is earned at Combat skill level 9",
+                "Fishing Treasure Chests"
+            ],
+            "recipe": [
+                {
+                    "id": "Iridium Bar",
+                    "qty": 5
+                },
+                {
+                    "id": "Solar Essence",
+                    "qty": 50
+                },
+                {
+                    "id": "Void Essence",
+                    "qty": 50
+                }
+            ]
+        },
+        {
+            "id": 818,
+            "name": "Amethyst Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Amethyst_Ring",
+            "sellPrice": "100",
+            "effect": "Increases knockback by 10%",
+            "obtainedFrom": [
+                "Adventurer's Guild (1,000g)"
+            ]
+        },
+        {
+            "id": 819,
+            "name": "Topaz Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Topaz_Ring",
+            "sellPrice": "100",
+            "effect": "Increases weapon precision by 10%",
+            "obtainedFrom": [
+                "Adventurer's Guild (1,000g)"
+            ]
+        },
+        {
+            "id": 820,
+            "name": "Aquamarine Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Aquamarine_Ring",
+            "sellPrice": "200",
+            "effect": "Increases critical strike chance by 10%",
+            "obtainedFrom": [
+                "Purchased from the Adventurer's Guild after reaching level 40 in The Mines (2,500g)"
+            ]
+        },
+        {
+            "id": 821,
+            "name": "Jade Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Jade_Ring",
+            "sellPrice": "200",
+            "effect": "Increases critical strike power by 10%",
+            "obtainedFrom": [
+                "Purchased from the Adventurer's Guild after reaching level 40 in The Mines (2,500g)",
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 822,
+            "name": "Emerald Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Emerald_Ring",
+            "sellPrice": "300",
+            "effect": "Increases weapon speed by 10%",
+            "obtainedFrom": [
+                "Purchased from the Adventurer's Guild after reaching level 80 in The Mines (5,000g)"
+            ]
+        },
+        {
+            "id": 823,
+            "name": "Ruby Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Ruby_Ring",
+            "sellPrice": "300",
+            "effect": "Increases attack by 10%",
+            "obtainedFrom": [
+                "Purchased from the Adventurer's Guild after reaching level 80 in The Mines (5,000g)"
+            ]
+        },
+        {
+            "id": 824,
+            "name": "Wedding Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Wedding_Ring",
+            "effect": "Allows you to propose marriage to another player in a Multiplayer game",
+            "sellPrice": "1,000",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is can be found randomly at the Traveling Cart (500g)"
+            ],
+            "recipe": [
+                {
+                    "id": "Iridium Bar",
+                    "qty": 5
+                },
+                {
+                    "id": "Prismatic Shard",
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "id": 825,
+            "name": "Crabshell Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Crabshell_Ring",
+            "sellPrice": "1,000",
+            "effect": "Increases Defense by +5",
+            "obtainedFrom": [
+                "Reward for eradicating 60 Rock Crabs at the Adventurer's Guild",
+                "Adventurer's Guild (15,000g)"
+            ]
+        },
+        {
+            "id": 826,
+            "name": "Napalm Ring",
+            "type": "Rings",
+            "link": "https://stardewvalleywiki.com/Napalm_Ring",
+            "sellPrice": "1,000",
+            "effect": "Slain monsters will explode, destroying objects and damaging enemies (does not damage the player)",
+            "obtainedFrom": [
+                "Reward for eradicating 250 Serpents at the Adventurer's Guild",
+                "Adventurer's Guild (30,000g)"
+            ]
+        },
+        {
+            "id": 827,
+            "name": "Blue Bonnet",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Blue_Bonnet",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after donating 40 different items to The Museum"
+            ]
+        },
+        {
+            "id": 828,
+            "name": "Cat Ears",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Cat_Ears",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after reaching a 10-heart friend level with 8 people"
+            ]
+        },
+        {
+            "id": 829,
+            "name": "Plum Chapeau",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Plum_Chapeau",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after cooking 25 different recipes"
+            ]
+        },
+        {
+            "id": 830,
+            "name": "Earmuffs",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Earmuffs",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after reaching a 5-heart friend level with 20 people"
+            ]
+        },
+        {
+            "id": 831,
+            "name": "Cowpoke Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Cowpoke_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after shipping 15 of each crop"
+            ]
+        },
+        {
+            "id": 832,
+            "name": "Official Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Official_Cap",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after catching 24 different fish"
+            ]
+        },
+        {
+            "id": 833,
+            "name": "Santa Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Santa_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after reaching a 5-heart friend level with 10 people"
+            ]
+        },
+        {
+            "id": 834,
+            "name": "Tropiclip",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Tropiclip",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after upgrading your house"
+            ]
+        },
+        {
+            "id": 835,
+            "name": "Watermelon Band",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Watermelon_Band",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after catching 100 Fish"
+            ]
+        },
+        {
+            "id": 836,
+            "name": "Cowgal Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Cowgal_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after shipping 300 of one crop"
+            ]
+        },
+        {
+            "id": 837,
+            "name": "Bowler Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Bowler_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after earning 1,000,000g"
+            ]
+        },
+        {
+            "id": 838,
+            "name": "Eye Patch",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Eye_Patch",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after catching every fish"
+            ]
+        },
+        {
+            "id": 839,
+            "name": "Hunter's Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Hunter%27s_Cap",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after upgrading your house to the maximum size"
+            ]
+        },
+        {
+            "id": 840,
+            "name": "Sombrero",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Sombrero",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after earning 10,000,000g"
+            ]
+        },
+        {
+            "id": 841,
+            "name": "Cool Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Cool_Cap",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after earning 250,000g"
+            ]
+        },
+        {
+            "id": 842,
+            "name": "Good Ol' Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Good_Ol%27_Cap",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after earning 15,000g"
+            ]
+        },
+        {
+            "id": 843,
+            "name": "Archer's Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Archer%27s_Cap",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after cooking every recipe"
+            ]
+        },
+        {
+            "id": 844,
+            "name": "Chef Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Chef_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after cooking every recipe"
+            ]
+        },
+        {
+            "id": 845,
+            "name": "Polka Bow",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Polka_Bow",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after completing 10 'Help Wanted' requests"
+            ]
+        },
+        {
+            "id": 846,
+            "name": "Goblin Mask",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Goblin_Mask",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after shipping every item"
+            ]
+        },
+        {
+            "id": 847,
+            "name": "Sou'wester",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Sou%27wester",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after catching 10 different fish"
+            ]
+        },
+        {
+            "id": 848,
+            "name": "Daisy",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Daisy",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after crafting 15 different items"
+            ]
+        },
+        {
+            "id": 849,
+            "name": "Gnome's Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Gnome%27s_Cap",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after crafting every item"
+            ]
+        },
+        {
+            "id": 850,
+            "name": "Lucky Bow",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Lucky_Bow",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after earning 50,000g"
+            ]
+        },
+        {
+            "id": 851,
+            "name": "Delicate Bow",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Delicate_Bow",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after cooking 10 different recipes"
+            ]
+        },
+        {
+            "id": 852,
+            "name": "Tiara",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Tiara",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after reaching a 5-heart friend level with 4 people"
+            ]
+        },
+        {
+            "id": 853,
+            "name": "Mouse Ears",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Mouse_Ears",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after reaching a 10-heart friend level with someone"
+            ]
+        },
+        {
+            "id": 854,
+            "name": "Trucker Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Trucker_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after crafting 30 different items"
+            ]
+        },
+        {
+            "id": 855,
+            "name": "Skeleton Mask",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Skeleton_Mask",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after completing: Monster Eradication Goal - Defeat 50 Skeletons"
+            ]
+        },
+        {
+            "id": 856,
+            "name": "Hard Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Hard_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after completing: Monster Eradication Goal - Defeat 30 Duggies"
+            ]
+        },
+        {
+            "id": 857,
+            "name": "Butterfly Bow",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Butterfly_Bow",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after reaching a 5-heart friend level with someone"
+            ]
+        },
+        {
+            "id": 858,
+            "name": "Cowboy Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Cowboy_Hat",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after completing the museum collection"
+            ]
+        },
+        {
+            "id": 859,
+            "name": "Chicken Mask",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Chicken_Mask",
+            "obtainedFrom": [
+                "Purchased at the Abandoned House (1,000g) after completing 40 'Help Wanted' requests"
+            ]
+        },
+        {
+            "id": 860,
+            "name": "Top Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Top_Hat",
+            "obtainedFrom": [
+                "Purchase for 8,000 in Qi's Casino"
+            ]
+        },
+        {
+            "id": 861,
+            "name": "Straw Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Straw_Hat",
+            "obtainedFrom": [
+                "Win the egg hunt at the Egg Festival"
+            ]
+        },
+        {
+            "id": 862,
+            "name": "Sailor's Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Sailor%27s_Cap",
+            "obtainedFrom": [
+                "Win the fishing competition at the Festival of Ice."
+            ]
+        },
+        {
+            "id": 863,
+            "name": "Fedora",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Fedora",
+            "obtainedFrom": [
+                "Purchase for 500 at the Stardew Valley Fair."
+            ]
+        },
+        {
+            "id": 864,
+            "name": "Panda Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Panda_Hat",
+            "obtainedFrom": [
+                "Chinese version exclusive content"
+            ]
+        },
+        {
+            "id": 865,
+            "name": "Blue Cowboy Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Blue_Cowboy_Hat",
+            "obtainedFrom": [
+                "Found randomly in treasure chests in the Skull Cavern."
+            ]
+        },
+        {
+            "id": 866,
+            "name": "Red Cowboy Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Red_Cowboy_Hat",
+            "obtainedFrom": [
+                "Found randomly in treasure chests in the Skull Cavern."
+            ]
+        },
+        {
+            "id": 867,
+            "name": "Cone Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Cone_Hat",
+            "obtainedFrom": [
+                "Purchase during the Night Market at the Magic Shop Boat."
+            ]
+        },
+        {
+            "id": 868,
+            "name": "Living Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Living_Hat",
+            "obtainedFrom": [
+                "0.001% chance to find while cutting weeds"
+            ]
+        },
+        {
+            "id": 869,
+            "name": "Emily's Magic Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Emily%27s_Magic_Hat",
+            "obtainedFrom": [
+                "Earned with Emily (14-heart event)"
+            ]
+        },
+        {
+            "id": 870,
+            "name": "Mushroom Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Mushroom_Cap",
+            "obtainedFrom": [
+                "1% chance of obtaining when chopping down a Mushroom Tree"
+            ]
+        },
+        {
+            "id": 871,
+            "name": "Dinosaur Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Dinosaur_Hat",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 872,
+            "name": "Totem Mask",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Totem_Mask",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 873,
+            "name": "Logo Cap",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Logo_Cap",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 874,
+            "name": "Wearable Dwarf Helm",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Wearable_Dwarf_Helm",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 875,
+            "name": "Fashion Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Fashion_Hat",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 876,
+            "name": "Pumpkin Mask",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Pumpkin_Mask",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 877,
+            "name": "Hair Bone",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Hair_Bone",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 878,
+            "name": "Knight's Helmet",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Knight%27s_Helmet",
+            "obtainedFrom": [
+                "Complete: Monster Eradication Goal - Defeat 50 Pepper Rex"
+            ]
+        },
+        {
+            "id": 879,
+            "name": "Squire's Helmet",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Squire%27s_Helmet",
+            "obtainedFrom": [
+                "Random monster drop from Metal Heads"
+            ]
+        },
+        {
+            "id": 880,
+            "name": "Spotted Headscarf",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Spotted_Headscarf",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 881,
+            "name": "Beanie",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Beanie",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 882,
+            "name": "Floppy Beanie",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Floppy_Beanie",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 883,
+            "name": "Fishing Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Fishing_Hat",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 884,
+            "name": "Blobfish Mask",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Blobfish_Mask",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 885,
+            "name": "Party Hat (red)",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Party_Hat_(red)",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 886,
+            "name": "Party Hat (blue)",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Party_Hat_(blue)",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 887,
+            "name": "Party Hat (green)",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Party_Hat_(green)",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 888,
+            "name": "Arcane Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Arcane_Hat",
+            "obtainedFrom": [
+                "Complete: Monster Eradication Goal - Defeat 100 Mummies"
+            ]
+        },
+        {
+            "id": 889,
+            "name": "Pirate Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Pirate_Hat",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 890,
+            "name": "Flat Topped Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Flat_Topped_Hat",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 891,
+            "name": "Elegant Turban",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Elegant_Turban",
+            "obtainedFrom": [
+                "Earn all other Achievements"
+            ]
+        },
+        {
+            "id": 892,
+            "name": "White Turban",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/White_Turban",
+            "obtainedFrom": [
+                "Tailoring",
+                "Skull Cavern chest"
+            ]
+        },
+        {
+            "id": 893,
+            "name": "Garbage Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Garbage_Hat",
+            "obtainedFrom": [
+                "0.2% chance to find while checking trash cans in Town, only after checking 20 cans"
+            ]
+        },
+        {
+            "id": 894,
+            "name": "Golden Mask (hat)",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Golden_Mask_(hat)",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 895,
+            "name": "Propeller Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Propeller_Hat",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 896,
+            "name": "Bridal Veil",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Bridal_Veil",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 897,
+            "name": "Witch Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Witch_Hat",
+            "obtainedFrom": [
+                "Tailoring"
+            ]
+        },
+        {
+            "id": 898,
+            "name": "Copper Pan (hat)",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Copper_Pan_(hat)",
+            "obtainedFrom": [
+                "Place the Copper Pan in the hat slot next to the farmer sprite in the inventory menu"
+            ]
+        },
+        {
+            "id": 899,
+            "name": "Green Turban",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Green_Turban",
+            "obtainedFrom": [
+                "Desert Trader"
+            ]
+        },
+        {
+            "id": 900,
+            "name": "Magic Cowboy Hat",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Magic_Cowboy_Hat",
+            "obtainedFrom": [
+                "Desert Trader (odd days)"
+            ]
+        },
+        {
+            "id": 901,
+            "name": "Magic Turban",
+            "type": "Hats",
+            "link": "https://stardewvalleywiki.com/Magic_Turban",
+            "obtainedFrom": [
+                "Desert Trader (even days)"
             ]
         }
     ]
