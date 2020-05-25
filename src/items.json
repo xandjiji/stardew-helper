@@ -23915,6 +23915,118 @@
                 "Upgrading a Gold Trash Can with Clint (5 Iridium Bar + 12,500g)"
             ],
             "makes":["When deleting items, reclaim 60% of their monetary value"]
+        },
+
+        {
+            "id": 748,
+            "name": "Trash",
+            "type": "Trash",
+            "link": "https://stardewvalleywiki.com/Trash_(item)",
+            "sellPrice": "0",
+            "obtainedFrom": [
+                "Fishing",
+                "Crab Pot",
+                "Garbage Can"
+            ],
+            "makes":[
+                "Stone","Coal","Iron Ore"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 749,
+            "name": "Driftwood",
+            "type": "Trash",
+            "link": "https://stardewvalleywiki.com/Driftwood",
+            "sellPrice": "0",
+            "obtainedFrom": [
+                "Fishing",
+                "Crab Pot",
+                "Garbage Can"
+            ],
+            "makes":[
+                "Wood","Coal"
+            ],
+            "gifting":{"loves":[],"likes":["Leah"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 750,
+            "name": "Soggy Newspaper",
+            "type": "Trash",
+            "link": "https://stardewvalleywiki.com/Soggy_Newspaper",
+            "sellPrice": "0",
+            "obtainedFrom": [
+                "Fishing",
+                "Crab Pot",
+                "Garbage Can"
+            ],
+            "makes":[
+                "Torch","Cloth"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 751,
+            "name": "Broken CD",
+            "type": "Trash",
+            "link": "https://stardewvalleywiki.com/Broken_CD",
+            "sellPrice": "0",
+            "obtainedFrom": [
+                "Fishing",
+                "Crab Pot",
+                "Garbage Can"
+            ],
+            "makes":[
+                "Refined Quartz"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 752,
+            "name": "Broken Glasses",
+            "type": "Trash",
+            "link": "https://stardewvalleywiki.com/Broken_Glasses",
+            "sellPrice": "0",
+            "obtainedFrom": [
+                "Fishing",
+                "Crab Pot",
+                "Garbage Can"
+            ],
+            "makes":[
+                "Refined Quartz"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 753,
+            "name": "Joja Cola",
+            "type": "Trash",
+            "link": "https://stardewvalleywiki.com/Joja_Cola",
+            "sellPrice": "25",
+            "healing":{
+                "energy":13,
+                "health":5
+            },
+            "obtainedFrom": [
+                "Fishing",
+                "Crab Pot",
+                "Garbage Can"
+            ],
+            "gifting":{"loves":[],"likes":["Sam"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 754,
+            "name": "Rotten Plant",
+            "type": "Trash",
+            "link": "https://stardewvalleywiki.com/Rotten_Plant",
+            "sellPrice": "0",
+            "obtainedFrom": [
+                "Fishing",
+                "Crab Pot",
+                "Garbage Can"
+            ],
+            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
         }
+
     ]
 }
