@@ -10,7 +10,7 @@ https://stardewvalleywiki.com/Furniture
 
 `;
 
-var initialID = 860;
+var initialID = 902;
 
 var list = [];
 
@@ -28,15 +28,32 @@ for (const item of Object.keys(items)) {
 
         let childrenList =  currentItem.parent.parent.children;
 
-
-        /* let price = childrenList[0];
-                
-        price = price.attribs
+        let price = childrenList[11]
         if(price !== undefined) {
-            price = price.value
+            price = price.attribs.value
         } else {
             price = "NaN"
-        } */
+        }
+        
+
+        let healing = childrenList[5]
+        let healing1 = healing.children[0].data;
+        let healing2 = healing.children[2].data
+
+
+        healing1 = sanitizeSpaces(healing1)
+        healing2 = sanitizeSpaces(healing2)
+        
+        /* console.log(healing.children[0]);
+        console.log('--------------------'); */
+
+        let ingredients = childrenList[3]
+        /* console.log(ingredients.children);
+        console.log('--------------------'); */
+
+        let recipinha = getIngred(ingredients.children)
+        
+        
 
 
         
@@ -45,9 +62,15 @@ for (const item of Object.keys(items)) {
         list.push({
             id: initialID,
             name: currentItem.attribs.title,
-            type: "Hats",
+            type: "Food",
             link: "https://stardewvalleywiki.com" + currentItem.attribs.href,
-            obtainedFrom: [""]
+            sellPrice: sanitizeValue(price),
+            healing:{
+                energy: healing1,
+                health: healing2
+            },
+            obtainedFrom: ["Cooking","Recipe is learned watching The Queen of Sauce ()"],
+            recipe: recipinha
         })
         initialID++;
     }
@@ -105,4 +128,49 @@ function sanitizeValue(value) {
 
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function sanitizeSpaces(value) {
+    value = value.replace(/ /g, "");
+    value = value.replace('\n', "");
+
+    return value
+}
+
+function getIngred(node) {
+
+    let arr = []
+
+
+    node.forEach(element => {
+        if(element.children !== undefined) {
+            
+            arr.push(element.children[0].data)
+            
+             
+        }
+    });
+
+    let finalArr = [];
+
+    arr.forEach(element => {
+        let name = element.substring(0, element.length-4)
+
+        let count = element.substring(name.length+2, element.length-1)
+        
+        finalArr.push({
+            id: name,
+            qty: count
+        })
+
+        
+        
+        
+    })
+
+    return finalArr
+    
+    
+    
+    
 }
