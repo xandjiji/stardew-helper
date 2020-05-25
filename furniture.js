@@ -10,12 +10,12 @@ https://stardewvalleywiki.com/Furniture
 
 `;
 
-var initialID = 723;
+var initialID = 755;
 
 var list = [];
 
 
-var items = cheerio('a', data);
+var items = cheerio('td:first-child a', data);
 
 
 
@@ -24,20 +24,75 @@ for (const item of Object.keys(items)) {
 
     if (items[item].type == 'tag') {
 
-        /* if(items[item].attribs.class !== 'image') {
-            list.push(furnitureFactory(items[item]));
-        } */
+        let currentItem = items[item];
 
-        if(items[item].attribs.class !== 'image') {
-            list.push(items[item].attribs.title)
+        let childrenList =  currentItem.parent.parent.children;
+
+
+        let price = childrenList[15];
+
+        if(price !== undefined) {
+            price = price.attribs.value
+        } else {
+            price = "NaN"
         }
-    
-        
 
 
+
+
+
+
+
+        let level = childrenList[3]
+        level = level.children[0].data
+        level = level.substring(0, level.length-1)
+
+
+
+
+
+        let dmg = childrenList[5]
+        dmg = dmg.children[0].data
+        dmg = dmg.substring(0, dmg.length-1)
+
+
+        let crit = childrenList[7]
+
+        crit = crit.children[0].data
+        if(crit !== undefined) {
+            crit = crit.substring(0, crit.length-1)
+/*             console.log(crit);
+            console.log('-------------------------------'); */
+
+        } else {
+            crit = "NaN"
+        }
+        
         
 
-        
+        let stats = {
+            level: level,
+            damage: dmg,
+            criticalChance: crit,
+            buff: [
+                { stat: "Speed", val: "+2" }
+            ]
+        }
+
+
+
+
+
+        list.push({
+            id: initialID,
+            name: currentItem.attribs.title,
+            type: "Weapons",
+            link: "https://stardewvalleywiki.com" + currentItem.attribs.href,
+            sellPrice: sanitizeValue(price),
+            stats: stats,
+            obtainedFrom: ["Adventurer's Guild (g)"]
+        })
+        initialID++;
     }
 }
 

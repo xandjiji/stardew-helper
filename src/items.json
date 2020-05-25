@@ -23604,7 +23604,9 @@
             "obtainedFrom": [
                 "Purchased from Willy's Fish Shop (25g)"
             ],
-            "makes": ["Fish"]
+            "makes": [
+                "Fish"
+            ]
         },
         {
             "id": 713,
@@ -23614,7 +23616,9 @@
             "obtainedFrom": [
                 "Purchased from Willy's Fish Shop (500g)"
             ],
-            "makes": ["Fish"]
+            "makes": [
+                "Fish"
+            ]
         },
         {
             "id": 714,
@@ -23624,7 +23628,9 @@
             "obtainedFrom": [
                 "Purchased from Willy's Fish Shop (1,800g)"
             ],
-            "makes": ["Fish"]
+            "makes": [
+                "Fish"
+            ]
         },
         {
             "id": 715,
@@ -23634,22 +23640,30 @@
             "obtainedFrom": [
                 "Purchased from Willy's Fish Shop (7,500g)"
             ],
-            "makes": ["Fish"]
+            "makes": [
+                "Fish"
+            ]
         },
         {
             "id": 716,
             "name": "Scythe",
             "type": "Tools",
             "link": "https://stardewvalleywiki.com/Scythe",
-            "makes": ["Hay"]
+            "makes": [
+                "Hay"
+            ]
         },
         {
             "id": 717,
             "name": "Golden Scythe",
             "type": "Tools",
             "link": "https://stardewvalleywiki.com/Golden_Scythe",
-            "obtainedFrom": ["Found at the end of the Quarry Mine"],
-            "makes": ["Hay"]
+            "obtainedFrom": [
+                "Found at the end of the Quarry Mine"
+            ],
+            "makes": [
+                "Hay"
+            ]
         },
         {
             "id": 718,
@@ -23659,7 +23673,12 @@
             "obtainedFrom": [
                 "Purchased from Marnie's Ranch (1,000g)"
             ],
-            "makes": ["Milk", "Large Milk", "Goat Milk", "Large Goat Milk"]
+            "makes": [
+                "Milk",
+                "Large Milk",
+                "Goat Milk",
+                "Large Goat Milk"
+            ]
         },
         {
             "id": 719,
@@ -23669,7 +23688,9 @@
             "obtainedFrom": [
                 "Purchased from Marnie's Ranch (1,000g)"
             ],
-            "makes": ["Wool"]
+            "makes": [
+                "Wool"
+            ]
         },
         {
             "id": 720,
@@ -23678,7 +23699,10 @@
             "link": "https://stardewvalleywiki.com/Heater",
             "obtainedFrom": [
                 "Purchased from Marnie's Ranch (2,000g)"
-            ],"makes": ["Keeps your animals warmer and happier during the winter"]
+            ],
+            "makes": [
+                "Keeps your animals warmer and happier during the winter"
+            ]
         },
         {
             "id": 721,
@@ -23689,7 +23713,23 @@
                 "Earned after the Glittering Boulder is removed",
                 "Purchased from Willy's Fish Shop (2,500g)"
             ],
-            "makes": ["Copper Ore","Iron Ore","Gold Ore","Iridium Ore","Amethyst","Aquamarine","Diamond","Emerald","Ruby","Topaz","Coal","Earth Crystal","Fire Quartz","Frozen Tear","Omni Geode"]
+            "makes": [
+                "Copper Ore",
+                "Iron Ore",
+                "Gold Ore",
+                "Iridium Ore",
+                "Amethyst",
+                "Aquamarine",
+                "Diamond",
+                "Emerald",
+                "Ruby",
+                "Topaz",
+                "Coal",
+                "Earth Crystal",
+                "Fire Quartz",
+                "Frozen Tear",
+                "Omni Geode"
+            ]
         },
         {
             "id": 722,
@@ -23699,9 +23739,10 @@
             "obtainedFrom": [
                 "Purchased from Marnie's Ranch (requires Farming skill level 10) (25,000g)"
             ],
-            "makes": ["Automatically harvests from your animals each morning"]
+            "makes": [
+                "Automatically harvests from your animals each morning"
+            ]
         },
-
         {
             "id": 723,
             "name": "Hoe",
@@ -23884,7 +23925,9 @@
             "obtainedFrom": [
                 "Upgrading a Trash Can with Clint (5 Copper Bar + 1,000g)"
             ],
-            "makes":["When deleting items, reclaim 15% of their monetary value"]
+            "makes": [
+                "When deleting items, reclaim 15% of their monetary value"
+            ]
         },
         {
             "id": 745,
@@ -23894,7 +23937,9 @@
             "obtainedFrom": [
                 "Upgrading a Copper Trash Can with Clint (5 Iron Bar + 2,500g)"
             ],
-            "makes":["When deleting items, reclaim 30% of their monetary value"]
+            "makes": [
+                "When deleting items, reclaim 30% of their monetary value"
+            ]
         },
         {
             "id": 746,
@@ -23904,7 +23949,9 @@
             "obtainedFrom": [
                 "Upgrading a Steel Trash Can with Clint (5 Gold Bar + 5,000g)"
             ],
-            "makes":["When deleting items, reclaim 45% of their monetary value"]
+            "makes": [
+                "When deleting items, reclaim 45% of their monetary value"
+            ]
         },
         {
             "id": 747,
@@ -23914,9 +23961,10 @@
             "obtainedFrom": [
                 "Upgrading a Gold Trash Can with Clint (5 Iridium Bar + 12,500g)"
             ],
-            "makes":["When deleting items, reclaim 60% of their monetary value"]
+            "makes": [
+                "When deleting items, reclaim 60% of their monetary value"
+            ]
         },
-
         {
             "id": 748,
             "name": "Trash",
@@ -23928,10 +23976,52 @@
                 "Crab Pot",
                 "Garbage Can"
             ],
-            "makes":[
-                "Stone","Coal","Iron Ore"
+            "makes": [
+                "Stone",
+                "Coal",
+                "Iron Ore"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 749,
@@ -23944,10 +24034,52 @@
                 "Crab Pot",
                 "Garbage Can"
             ],
-            "makes":[
-                "Wood","Coal"
+            "makes": [
+                "Wood",
+                "Coal"
             ],
-            "gifting":{"loves":[],"likes":["Leah"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Leah"
+                ],
+                "neutrals": [],
+                "dislikes": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ],
+                "hates": []
+            }
         },
         {
             "id": 750,
@@ -23960,10 +24092,51 @@
                 "Crab Pot",
                 "Garbage Can"
             ],
-            "makes":[
-                "Torch","Cloth"
+            "makes": [
+                "Torch",
+                "Cloth"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 751,
@@ -23976,10 +24149,50 @@
                 "Crab Pot",
                 "Garbage Can"
             ],
-            "makes":[
+            "makes": [
                 "Refined Quartz"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 752,
@@ -23992,10 +24205,50 @@
                 "Crab Pot",
                 "Garbage Can"
             ],
-            "makes":[
+            "makes": [
                 "Refined Quartz"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 753,
@@ -24003,16 +24256,57 @@
             "type": "Trash",
             "link": "https://stardewvalleywiki.com/Joja_Cola",
             "sellPrice": "25",
-            "healing":{
-                "energy":13,
-                "health":5
+            "healing": {
+                "energy": 13,
+                "health": 5
             },
             "obtainedFrom": [
                 "Fishing",
                 "Crab Pot",
                 "Garbage Can"
             ],
-            "gifting":{"loves":[],"likes":["Sam"],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [
+                    "Sam"
+                ],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
         },
         {
             "id": 754,
@@ -24025,8 +24319,843 @@
                 "Crab Pot",
                 "Garbage Can"
             ],
-            "gifting":{"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+            "gifting": {
+                "loves": [],
+                "likes": [],
+                "neutrals": [],
+                "dislikes": [],
+                "hates": [
+                    "Abigail",
+                    "Alex",
+                    "Caroline",
+                    "Clint",
+                    "Demetrius",
+                    "Dwarf",
+                    "Elliott",
+                    "Emily",
+                    "Evelyn",
+                    "George",
+                    "Gus",
+                    "Haley",
+                    "Harvey",
+                    "Jas",
+                    "Jodi",
+                    "Kent",
+                    "Krobus",
+                    "Leah",
+                    "Lewis",
+                    "Linus",
+                    "Marnie",
+                    "Maru",
+                    "Pam",
+                    "Penny",
+                    "Pierre",
+                    "Robin",
+                    "Sam",
+                    "Sandy",
+                    "Sebastian",
+                    "Shane",
+                    "Vincent",
+                    "Willy",
+                    "Wizard"
+                ]
+            }
+        },
+        {
+            "id": 755,
+            "name": "Rusty Sword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Rusty_Sword",
+            "sellPrice": "50",
+            "stats": {
+                "level": "1",
+                "damage": "2-5",
+                "criticalChance": ".02",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "At The Mines entrance"
+            ]
+        },
+        {
+            "id": 756,
+            "name": "Wooden Blade",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Wooden_Blade",
+            "sellPrice": "100",
+            "stats": {
+                "level": "2",
+                "damage": "3-7",
+                "criticalChance": ".02",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (250g)"
+            ]
+        },
+        {
+            "id": 757,
+            "name": "Steel Smallsword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Steel_Smallsword",
+            "sellPrice": "100",
+            "stats": {
+                "level": "2",
+                "damage": "4-8",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines floor 20 chest reward"
+            ]
+        },
+        {
+            "id": 758,
+            "name": "Silver Saber",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Silver_Saber",
+            "sellPrice": "150",
+            "stats": {
+                "level": "3",
+                "damage": "8-15",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after unlocking the Mines floor 20) (750g)"
+            ]
+        },
+        {
+            "id": 759,
+            "name": "Pirate's Sword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Pirate%27s_Sword",
+            "sellPrice": "200",
+            "stats": {
+                "level": "4",
+                "damage": "8-14",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 20+)",
+                "Adventurer's Guild (after unlocking the Mines floor 30) (850g)"
+            ]
+        },
+        {
+            "id": 760,
+            "name": "Cutlass",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Cutlass",
+            "sellPrice": "200",
+            "stats": {
+                "level": "4",
+                "damage": "9-17",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after unlocking the Mines floor 25) (1,500g)"
+            ]
+        },
+        {
+            "id": 761,
+            "name": "Iron Edge",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Iron_Edge",
+            "sellPrice": "200",
+            "stats": {
+                "level": "4",
+                "damage": "12-25",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-2"
+                    },
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+3"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 40+)"
+            ]
+        },
+        {
+            "id": 762,
+            "name": "Forest Sword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Forest_Sword",
+            "sellPrice": "250",
+            "stats": {
+                "level": "5",
+                "damage": "8-18",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 20-60)"
+            ]
+        },
+        {
+            "id": 763,
+            "name": "Holy Blade",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Holy_Blade",
+            "sellPrice": "250",
+            "stats": {
+                "level": "5",
+                "damage": "18-24",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Weight",
+                        "val": "+3"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 60+)"
+            ]
+        },
+        {
+            "id": 764,
+            "name": "Insect Head",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Insect_Head",
+            "sellPrice": "300",
+            "stats": {
+                "level": "6",
+                "damage": "10-20",
+                "criticalChance": ".04",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (10,000g)",
+                "Adventurer's Guild reward for killing 125 Bugs"
+            ]
+        },
+        {
+            "id": 765,
+            "name": "Claymore",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Claymore",
+            "sellPrice": "300",
+            "stats": {
+                "level": "6",
+                "damage": "20-32",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-4"
+                    },
+                    {
+                        "stat": "Defense",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+3"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after unlocking the Mines floor 45) (2,000g)"
+            ]
+        },
+        {
+            "id": 766,
+            "name": "Templar's Blade",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Templar%27s_Blade",
+            "sellPrice": "300",
+            "stats": {
+                "level": "6",
+                "damage": "22-29",
+                "criticalChance": "0",
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+1"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after unlocking the Mines floor 55) (4,000g)"
+            ]
+        },
+        {
+            "id": 767,
+            "name": "Dark Sword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Dark_Sword",
+            "sellPrice": "400",
+            "stats": {
+                "level": "8",
+                "damage": "30-45",
+                "criticalChance": ".05",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-5"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+5"
+                    },
+                    {
+                        "stat": "Chance of increasing max Health (if below cap)",
+                        "val": "8%"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Haunted Skull (1.3% chance drop)"
+            ]
+        },
+        {
+            "id": 768,
+            "name": "Neptune's Glaive",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Neptune%27s_Glaive",
+            "sellPrice": "350",
+            "stats": {
+                "level": "7",
+                "damage": "18-35",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-1"
+                    },
+                    {
+                        "stat": "Defense",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+4"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Fishing Treasure Chests (requires Fishing skill level 2+)"
+            ]
+        },
+        {
+            "id": 769,
+            "name": "Tempered Broadsword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Tempered_Broadsword",
+            "sellPrice": "400",
+            "stats": {
+                "level": "8",
+                "damage": "29-44",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-3"
+                    },
+                    {
+                        "stat": "Defense",
+                        "val": "+3"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+3"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Skull Cavern"
+            ]
+        },
+        {
+            "id": 770,
+            "name": "Obsidian Edge",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Obsidian_Edge",
+            "sellPrice": "450",
+            "stats": {
+                "level": "9",
+                "damage": "30-45",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-1"
+                    },
+                    {
+                        "stat": "Critical Strike Power",
+                        "val": "+10"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines floor 90 chest reward"
+            ]
+        },
+        {
+            "id": 771,
+            "name": "Bone Sword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Bone_Sword",
+            "sellPrice": "500",
+            "stats": {
+                "level": "10",
+                "damage": "20-30",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+4"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after unlocking the Mines floor 75) (6,000g)"
+            ]
+        },
+        {
+            "id": 772,
+            "name": "Steel Falchion",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Steel_Falchion",
+            "sellPrice": "700",
+            "stats": {
+                "level": "14",
+                "damage": "28-46",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+4"
+                    },
+                    {
+                        "stat": "Critical Strike Power",
+                        "val": "+20"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Skull Cavern",
+                "Adventurer's Guild (after unlocking the Mines floor 90) (9,000g)"
+            ]
+        },
+        {
+            "id": 773,
+            "name": "Lava Katana",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Lava_Katana",
+            "sellPrice": "750",
+            "stats": {
+                "level": "15",
+                "damage": "55-64",
+                "criticalChance": ".015",
+                "buff": [
+                    {
+                        "stat": "Defense",
+                        "val": "+3"
+                    },
+                    {
+                        "stat": "Critical Strike Power",
+                        "val": "+25"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+3"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild after unlocking the Mines floor 120) (25,000g)"
+            ]
+        },
+        {
+            "id": 774,
+            "name": "Galaxy Sword",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Galaxy_Sword",
+            "sellPrice": "1,300",
+            "stats": {
+                "level": "26",
+                "damage": "60-80",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+4"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Desert (bring a Prismatic Shard to the Three Pillars)"
+            ]
+        },
+        {
+            "id": 775,
+            "name": "Carving Knife",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Carving_Knife",
+            "sellPrice": "100",
+            "stats": {
+                "level": "2",
+                "damage": "1-3",
+                "criticalChance": ".04",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 1-20)"
+            ]
+        },
+        {
+            "id": 776,
+            "name": "Iron Dirk",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Iron_Dirk",
+            "sellPrice": "100",
+            "stats": {
+                "level": "2",
+                "damage": "2-4",
+                "criticalChance": ".03",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after unlocking the Mines floor 15) (500g)"
+            ]
+        },
+        {
+            "id": 777,
+            "name": "Wind Spire",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Wind_Spire",
+            "sellPrice": "150",
+            "stats": {
+                "level": "3",
+                "damage": "1-5",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Critical Strike Power",
+                        "val": "+10"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+5"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "he Mines (Floors 21-40)"
+            ]
+        },
+        {
+            "id": 778,
+            "name": "Burglar's Shank",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Burglar%27s_Shank",
+            "sellPrice": "400",
+            "stats": {
+                "level": "8",
+                "damage": "7-12",
+                "criticalChance": ".04",
+                "buff": [
+                    {
+                        "stat": "Critical Strike Power",
+                        "val": "+25"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Skull Cavern (Serpents and crates)"
+            ]
+        },
+        {
+            "id": 779,
+            "name": "Crystal Dagger",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Crystal_Dagger",
+            "sellPrice": "450",
+            "stats": {
+                "level": "9",
+                "damage": "4-10",
+                "criticalChance": ".03",
+                "buff": [
+                    {
+                        "stat": "Critical Strike Power",
+                        "val": "+50"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+5"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines floor 60 chest reward"
+            ]
+        },
+        {
+            "id": 780,
+            "name": "Broken Trident",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Broken_Trident",
+            "sellPrice": "550",
+            "stats": {
+                "level": "11",
+                "damage": "15-26",
+                "criticalChance": ".02",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "Fishing Treasure Chests"
+            ]
+        },
+        {
+            "id": 781,
+            "name": "Wicked Kris",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Wicked_Kris",
+            "sellPrice": "750",
+            "stats": {
+                "level": "15",
+                "damage": "24-30",
+                "criticalChance": ".06",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "Skull Cavern crates"
+            ]
+        },
+        {
+            "id": 782,
+            "name": "Galaxy Dagger",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Galaxy_Dagger",
+            "sellPrice": "1,000",
+            "stats": {
+                "level": "20",
+                "damage": "30-40",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+1"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+5"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after obtaining the Galaxy Sword) (35,000g)"
+            ]
+        },
+        {
+            "id": 783,
+            "name": "Femur",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Femur",
+            "sellPrice": "50",
+            "stats": {
+                "level": "1",
+                "damage": "6-11",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Found while digging outside the mines"
+            ]
+        },
+        {
+            "id": 784,
+            "name": "Wood Club",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Wood_Club",
+            "sellPrice": "100",
+            "stats": {
+                "level": "2",
+                "damage": "9-16",
+                "criticalChance": ".02",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 1-39)"
+            ]
+        },
+        {
+            "id": 785,
+            "name": "Wood Mallet",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Wood_Mallet",
+            "sellPrice": "100",
+            "stats": {
+                "level": "2",
+                "damage": "15-24",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 40+)",
+                "Adventurer's Guild (after unlocking the Mines floor 40) (2,000g)"
+            ]
+        },
+        {
+            "id": 786,
+            "name": "Lead Rod",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Lead_Rod",
+            "sellPrice": "150",
+            "stats": {
+                "level": "3",
+                "damage": "18-27",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-4"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "The Mines (Floors 40+)",
+                "Skull Cavern"
+            ]
+        },
+        {
+            "id": 787,
+            "name": "The Slammer",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/The_Slammer",
+            "sellPrice": "250",
+            "stats": {
+                "level": "5",
+                "damage": "40-55",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "-2"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Skull Cavern (Floors 40+)"
+            ]
+        },
+        {
+            "id": 788,
+            "name": "Galaxy Hammer",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Galaxy_Hammer",
+            "sellPrice": "450",
+            "stats": {
+                "level": "9",
+                "damage": "70-90",
+                "criticalChance": ".02",
+                "buff": [
+                    {
+                        "stat": "Speed",
+                        "val": "+2"
+                    },
+                    {
+                        "stat": "Weight",
+                        "val": "+5"
+                    }
+                ]
+            },
+            "obtainedFrom": [
+                "Adventurer's Guild (after obtaining the Galaxy Sword) (75,000g)"
+            ]
+        },
+        {
+            "id": 789,
+            "name": "Slingshot",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Slingshot",
+            "stats": {
+                "damage": "Depends on the ammo",
+                "criticalChance": ".02",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "The Mines (Floor 40 chest reward)"
+            ]
+        },
+        {
+            "id": 790,
+            "name": "Master Slingshot",
+            "type": "Weapons",
+            "link": "https://stardewvalleywiki.com/Master_Slingshot",
+            "stats": {
+                "damage": "Depends on the ammo",
+                "criticalChance": ".02",
+                "buff": []
+            },
+            "obtainedFrom": [
+                "The Mines (Floor 70 chest reward)"
+            ]
         }
-
     ]
 }
