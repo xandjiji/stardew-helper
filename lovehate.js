@@ -3,7 +3,7 @@ const rp = require('request-promise');
 
 const baseURL = `
 
-https://stardewvalleywiki.com/Omni_Geode
+https://stardewvalleywiki.com/Refined_Quartz
 
 `;
 

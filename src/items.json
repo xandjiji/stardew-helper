@@ -702,7 +702,7 @@
         {
             "id": 11,
             "name": "Slime",
-            "type": "Animal Product",
+            "type": "Monster Loot",
             "link": "https://stardewvalleywiki.com/Slime",
             "sellPrice": "5",
             "obtainedFrom": [
@@ -19544,7 +19544,7 @@
                 "Gem Node",
                 "Omni Geode (0.4%)",
                 "Shadow Brute (0.05% chance drop)",
-                "Shadow Shaman (0. 5% chance drop)",
+                "Shadow Shaman (0.05% chance drop)",
                 "Mummy (0.1% chance drop)",
                 "Serpent (0.1% chance drop)",
                 "Fishing Treasure Chests"
@@ -22250,6 +22250,307 @@
                 ],
                 "hates": []
             }
+        },
+
+        {
+            "id": 686,
+            "name": "Void Essence",
+            "type": "Monster loot",
+            "link": "https://stardewvalleywiki.com/Void_Essence",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Shadow Brute (75% chance drop)","Shadow Shaman (75% chance drop)","Haunted Skull (1.3% chance drop)","Serpent (99% chance drop)"
+
+            ],
+            "makes": ["Mega Bomb","Iridium Band","Arcane Shirt"
+            ],
+            "gifting": {"loves":["Wizard"],"likes":[],"neutrals":["Dwarf"],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"hates":[]}
+        },
+        {
+            "id": 687,
+            "name": "Bug Meat",
+            "type": "Monster loot",
+            "link": "https://stardewvalleywiki.com/Bug_Meat",
+            "sellPrice": "8",
+            "obtainedFrom": [
+                "Bug (76% chance drop)","Cave Fly (90% chance drop)","Grub (60% chance drop)","Mutant Fly (90% chance drop)","Mutant Grub (60% chance drop)"
+
+            ],
+            "makes": [
+                "Bait", "Wild Bait", "Sturdy Ring","Pink Striped Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 688,
+            "name": "Bat Wing",
+            "type": "Monster loot",
+            "link": "https://stardewvalleywiki.com/Bat_Wing",
+            "sellPrice": "15",
+            "obtainedFrom": [
+                "Bat (90% chance drop)", "Frost Bat (90% chance drop)","Lava Bat (90% chance drop)","Krobus on Sundays (30g)"
+
+            ],
+            "makes": ["Lightning Rod","Dark Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 689,
+            "name": "Solar Essence",
+            "type": "Monster loot",
+            "link": "https://stardewvalleywiki.com/Solar_Essence",
+            "sellPrice": "40",
+            "obtainedFrom": [
+                "Ghost (90% chance drop)","Iridium Bat (90% chance drop)","Metal Head (65% chance drop)","Haunted Skull (1.3% chance drop)","Squid Kid (75% chance drop)","Mummy (99% chance drop)"
+
+            ],
+            "makes": ["Mega Bomb","Iridium Band","Barrel Brazier","Skull Brazier","Yoba Shirt"
+            ],
+            "gifting": {"loves":["Wizard"],"likes":[],"neutrals":["Dwarf"],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],"hates":[]}
+        },
+        {
+            "id": 690,
+            "name": "Slime Egg",
+            "type": "Animal Product",
+            "link": "https://stardewvalleywiki.com/Slime_Egg",
+            "sellPrice": "1,000-5,000",
+            "makes":["Baggy Pants"],
+            "obtainedFrom":[
+                "Crafting (Slime Egg-Press required)",
+                "Slime (1% chance drop)"
+            ],
+            "recipe": [{"id": "Slime", "qty": 100}]
+        },
+
+
+
+
+        {
+            "id": 691,
+            "name": "Battery Pack",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Battery_Pack",
+            "sellPrice": "500",
+            "obtainedFrom": [
+                "Lightning Rod (Spring, Summer or Fall)"
+            ],
+            "makes": [
+                "Iridium Sprinkler","Crystalarium","Slime Egg-Press","Wood Lamp-post","Iron Lamp-post","Mini-Jukebox","Shirt"
+            ],
+            "gifting": {"loves":["Maru"],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 692,
+            "name": "Clay",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Clay",
+            "sellPrice": "20",
+            "obtainedFrom": [
+                "Tilling the ground",
+                "Any Geode"
+            ],
+            "makes": [
+                "Quality Retaining Soil","Garden Pot","Brick Floor","Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Gus","Harvey","Jodi","Kent","Krobus","Leah","Lewis","Linus","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Shane","Willy","Wizard"],"hates":["Abigail","Evelyn","George","Haley","Jas","Marnie","Sebastian","Vincent"]}
+        },
+        {
+            "id": 693,
+            "name": "Coal",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Coal",
+            "sellPrice": "15",
+            "obtainedFrom": [
+                "Dust Sprite (50% chance drop)",
+                "Purchased with Clint (150g)",
+                "Using 10 Wood in a Charcoal Kiln",
+                "Using Driftwood or Trash in a Recycling Machine",
+                "Any Geode",
+                "Panning"
+            ],
+            "makes": [
+                "Bee House","Preserves Jar","Warrior Ring","Cherry Bomb","Bomb","Explosive Ammo","Wicked Statue","Wooden Brazier","Stone Brazier","Barrel Brazier","Stump Brazier","Gold Brazier","Carved Brazier","Skull Brazier","Scarecrow","Seed Maker","Slime Egg-Press","Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 694,
+            "name": "Copper Bar",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Copper_Bar",
+            "sellPrice": "60",
+            "obtainedFrom": [
+                "Smelting (5 Copper Ore)"
+            ],
+            "makes": [
+                "Copper Hoe","Copper Pickaxe","Copper Axe","Copper Watering Can","Copper Trash Can","Charcoal Kiln","Cheese Press","Crab Pot (with Trapper Profession)","Keg","Mayonnaise Machine","Sprinkler","Sturdy Ring","Tapper","Iron Bar","Trap Bobber","Copper Breastplate"
+            ],
+            "gifting": {"loves":[],"likes":["Clint","Maru"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 695,
+            "name": "Copper Ore",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Copper_Ore",
+            "sellPrice": "5",
+            "obtainedFrom": [
+                "The Mines (all floors)",
+                "Purchased with Clint (75g)",
+                "Any Geode",
+                "Panning"
+            ],
+            "makes": [
+                "Cherry Bomb","Furnace","Flute Block","Drum Block","Turtleneck Sweater"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":[],"hates":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"]}
+        },
+        {
+            "id": 696,
+            "name": "Fiber",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Fiber",
+            "sellPrice": "1",
+            "obtainedFrom": [
+                "Weeds"
+            ],
+            "makes": [
+                "Grass Starter","Scarecrow","Deluxe Scarecrow","Loom","Worm Bin","Flute Block","Drum Block","Tree Fertilizer","Tea Sapling","Warp Totem: Farm","Warp Totem: Beach","Straw Floor","Wild Bait","Wooden Brazier","Stone Brazier","Gold Brazier","Campfire","Basic Pullover"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 697,
+            "name": "Gold Ore",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Gold_Ore",
+            "sellPrice": "25",
+            "obtainedFrom": [
+                "The Mines (floors 80+)",
+                "Purchased with Clint (400g)",
+                "Frozen Geode","Magma Geode","Omni Geode",
+                "Panning"
+            ],
+            "makes": [
+                "Gold Bar","Mega Bomb","Turtleneck Sweater"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 698,
+            "name": "Hardwood",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Hardwood",
+            "sellPrice": "150",
+            "obtainedFrom": [
+                "Chopping a Large Stump (requires Copper Axe or Better)",
+                "Chopping a Large Log (requires a Steel Axe or better)"
+            ],
+            "makes": [
+                "Cheese Press","Oil Maker","Hardwood Fence","Cork Bobber","Worm Bin","Warp Totem: Beach","Warp Totem: Mountains","Warp Totem: Farm","Warp Totem: Desert","Rain Totem","Cask","Shirt"
+            ],
+            "gifting": {"loves":[],"likes":["Robin"],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Clint","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Sam","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":[]}
+        },
+        {
+            "id": 699,
+            "name": "Iridium Bar",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Iridium_Bar",
+            "sellPrice": "1,000",
+            "obtainedFrom": [
+                "Smelting (5 Iridium Ore)",
+                "Shadow Shaman (0.2% chance drop)",
+                "Shadow Brute (0.2% chance drop)",
+                "Iridium Bat (0.8% chance drop)",
+                "Purple Slime (0.9% chance drop)"
+            ],
+            "makes": [
+                "Iridium Hoe","Iridium Pickaxe","Iridium Axe","Iridium Watering Can","Iridium Trash Can","Iridium Sprinkler","Iridium Band","Crystalarium","Slime Incubator","Wedding Ring","Iridium Breastplate"
+            ],
+            "gifting": {"loves":["Clint","Krobus","Maru","Willy"],"likes":[],"neutrals":[],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Leah","Lewis","Linus","Marnie","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 700,
+            "name": "Iridium Ore",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Iridium_Ore",
+            "sellPrice": "100",
+            "obtainedFrom": [
+                "Skull Cavern (chances increases as you descend)","Magma Geode","Omni Geeeode","Panning"
+            ],
+            "makes": [
+                "Iridium Bar","Deluxe Scarecrow","Warp Totem: Desert","Iridium Energy Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 701,
+            "name": "Refined Quartz",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Refined_Quartz",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Smelting (Quartz or Fire Quartz)",
+                "Using a Broken CD or a Broken Glasses in a Recycling Machine"
+            ],
+            "makes": [
+                "Garden Pot","Crystal Path","Crystal Floor","Lightning Rod","Quality Sprinkler","Necklace Shirt"
+            ],
+            "gifting": {"loves":[],"likes":[],"neutrals":["Clint"],"dislikes":["Abigail","Alex","Caroline","Demetrius","Dwarf","Elliott","Emily","Evelyn","George","Gus","Haley","Harvey","Jas","Jodi","Kent","Krobus","Leah","Lewis","Linus","Marnie","Maru","Pam","Penny","Pierre","Robin","Sandy","Sebastian","Shane","Vincent","Willy","Wizard"],"hates":["Sam"]}
+        },
+        {
+            "id": 702,
+            "name": "Stone",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Stone",
+            "sellPrice": "2",
+            "obtainedFrom": [
+                "Mining rocks",
+                "Purchased at the Carpenter's Shop (20g)"
+            ],
+            "makes": [
+                "Stone Fence","Stone Sign","Garden Pot","Mayonnaise Machine","Preserves Jar","Cheese Press","Basic Retaining Soil","Quality Retaining Soil","Tree Fertilizer","Stone Floor","Gravel Path","Cobblestone Path","Stepping Stone Path","Wicked Statue","Drum Block","Campfire","Stone Brazier","Marble Brazier","Furnace","Staircase","Crystalarium","Recycling Machine","Warp Totem: Mountains","Work Shirt"
+            ]
+        },
+        {
+            "id": 703,
+            "name": "Wood",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Wood",
+            "sellPrice": "2",
+            "obtainedFrom": [
+                "Chopping Trees",
+                "Purchased at the Carpenter's Shop (10g)"
+            ],
+            "makes": [
+                "Gate","Wood Fence","Wood Sign","Mayonnaise Machine","Bee House","Preserves Jar","Cheese Press","Loom","Keg","Tapper","Cork Bobber","Wood Floor","Straw Floor","Weathered Floor","Wood Path","Flute Block","Torch","Campfire","Wooden Brazier","Barrel Brazier","Wood Lamp-post","Crab Pot","Chest","Scarecrow","Deluxe Scarecrow","Seed Maker","Charcoal Kiln","Recycling Machine","Cask","Tub o' Flowers","Tea Sapling","Basic Pullover"
+            ]
+        },
+        {
+            "id": 704,
+            "name": "Grass Starter",
+            "type": "Crop",
+            "link": "https://stardewvalleywiki.com/Grass_Starter",
+            "sellPrice": "50",
+            "obtainedFrom": [
+                "Crafting",
+                "Recipe is purchased at Pierre's Store (1,000g)"
+            ],
+            "makes": [
+                "Hay"
+            ],
+            "recipe":[{"id":"Fiber", "qty": 10}]
+        },
+        {
+            "id": 705,
+            "name": "Hay",
+            "type": "Resources",
+            "link": "https://stardewvalleywiki.com/Animals#Food",
+            "obtainedFrom": [
+                "Grass",
+                "Purchase at the Marnie's Ranch (50g)"
+            ]
         }
+
     ]
 }

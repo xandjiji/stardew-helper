@@ -33,6 +33,9 @@ crane game
 cassino
 desert trader
 oasis
+clint
+dwarf
+carpenter/robin
 Pierre's
 fish shop (fish level)
 festival of ice
