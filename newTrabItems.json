@@ -1,0 +1,5446 @@
+[
+    {
+        "id": 902,
+        "name": "Fried Egg",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fried_Egg",
+        "sellPrice": "35",
+        "healing": {
+            "energy": "50",
+            "health": "22"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned upgrading your farmhouse"
+        ],
+        "recipe": [
+            {
+                "id": "Egg",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [],
+            "neutrals": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Krobus",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "dislikes": [
+                "Leah"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 903,
+        "name": "Omelet",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Omelet",
+        "sellPrice": "125",
+        "healing": {
+            "energy": "100",
+            "health": "45"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Spring, Year 1)",
+            "Recipe is purchased at the Stardrop Saloon (100g)"
+        ],
+        "recipe": [
+            {
+                "id": "Egg",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Sebastian"
+            ]
+        }
+    },
+    {
+        "id": 904,
+        "name": "Salad",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Salad",
+        "sellPrice": "110",
+        "healing": {
+            "energy": "113",
+            "health": "50"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Emily (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Leek",
+                "qty": "1"
+            },
+            {
+                "id": "Dandelion",
+                "qty": "1"
+            },
+            {
+                "id": "Vinegar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Leah"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 905,
+        "name": "Cheese Cauliflower",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Cheese_Cauliflower",
+        "sellPrice": "300",
+        "healing": {
+            "energy": "138",
+            "health": "62"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Pam (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Cauliflower",
+                "qty": "1"
+            },
+            {
+                "id": "Cheese",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Maru"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 906,
+        "name": "Baked Fish",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Baked_Fish",
+        "sellPrice": "100",
+        "healing": {
+            "energy": "75",
+            "health": "33"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Summer, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Sunfish",
+                "qty": "1"
+            },
+            {
+                "id": "Bream",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 907,
+        "name": "Parsnip Soup",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Parsnip_Soup",
+        "sellPrice": "120",
+        "healing": {
+            "energy": "85",
+            "health": "38"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Caroline (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Parsnip",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            },
+            {
+                "id": "Vinegar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Pam"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Penny",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Pierre"
+            ]
+        }
+    },
+    {
+        "id": 908,
+        "name": "Vegetable Medley",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Vegetable_Medley",
+        "sellPrice": "120",
+        "healing": {
+            "energy": "165",
+            "health": "74"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Caroline (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Tomato",
+                "qty": "1"
+            },
+            {
+                "id": "Beet",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Jodi",
+                "Leah",
+                "Lewis"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Kent",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 909,
+        "name": "Complete Breakfast",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Complete_Breakfast",
+        "sellPrice": "350",
+        "healing": {
+            "energy": "200",
+            "health": "90"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Spring, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Fried Egg",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            },
+            {
+                "id": "Hashbrowns",
+                "qty": "1"
+            },
+            {
+                "id": "Pancakes",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Farming",
+                "buffQty": "+2"
+            },
+            {
+                "buffName": "Max Energy",
+                "buffQty": "+50"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Alex"
+            ],
+            "likes": [
+                "Abigail",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Sebastian"
+            ]
+        }
+    },
+    {
+        "id": 910,
+        "name": "Fried Calamari",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fried_Calamari",
+        "sellPrice": "150",
+        "healing": {
+            "energy": "80",
+            "health": "36"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Jodi (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Squid",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Pierre"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 911,
+        "name": "Strange Bun",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Strange_Bun",
+        "sellPrice": "225",
+        "healing": {
+            "energy": "100",
+            "health": "45"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Shane (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Periwinkle",
+                "qty": "1"
+            },
+            {
+                "id": "Void Mayonnaise",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [],
+            "neutrals": [],
+            "dislikes": [],
+            "hates": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Krobus",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ]
+        }
+    },
+    {
+        "id": 912,
+        "name": "Lucky Lunch",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Lucky_Lunch",
+        "sellPrice": "250",
+        "healing": {
+            "energy": "100",
+            "health": "45"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Spring, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Sea Cucumber",
+                "qty": "1"
+            },
+            {
+                "id": "Tortilla",
+                "qty": "1"
+            },
+            {
+                "id": "Blue Jazz",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Luck",
+                "buffQty": "+3"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 913,
+        "name": "Fried Mushroom",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fried_Mushroom",
+        "sellPrice": "200",
+        "healing": {
+            "energy": "135",
+            "health": "60"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Demetrius (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Common Mushroom",
+                "qty": "1"
+            },
+            {
+                "id": "Morel",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Attack",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "George"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 914,
+        "name": "Pizza",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Pizza",
+        "sellPrice": "300",
+        "healing": {
+            "energy": "150",
+            "health": "67"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Spring, Year 2)",
+            "Recipe is purchased at the Stardrop Saloon (150g)"
+        ],
+        "recipe": [
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Tomato",
+                "qty": "1"
+            },
+            {
+                "id": "Cheese",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Sam",
+                "Shane"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sandy",
+                "Sebastian",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Elliott",
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Leah"
+            ]
+        }
+    },
+    {
+        "id": 915,
+        "name": "Bean Hotpot",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Bean_Hotpot",
+        "sellPrice": "100",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Clint (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Green Bean",
+                "qty": "2"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Max Energy",
+                "buffQty": "+50"
+            },
+            {
+                "buffName": "Magnetism",
+                "buffQty": "+32"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Demetrius"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 916,
+        "name": "Glazed Yams",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Glazed_Yams",
+        "sellPrice": "200",
+        "healing": {
+            "energy": "200",
+            "health": "90"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Fall, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Yam",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Lewis",
+                "Pam"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 917,
+        "name": "Carp Surprise",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Carp_Surprise",
+        "sellPrice": "150",
+        "healing": {
+            "energy": "90",
+            "health": "40"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Summer, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Carp",
+                "qty": "4"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Leah"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 918,
+        "name": "Hashbrowns",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Hashbrowns",
+        "sellPrice": "120",
+        "healing": {
+            "energy": "90",
+            "health": "40"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (4 Spring, Year 2)",
+            "Recipe is purchased at the Stardrop Saloon (50g)"
+        ],
+        "recipe": [
+            {
+                "id": "Potato",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Farming",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Leah"
+            ]
+        }
+    },
+    {
+        "id": 919,
+        "name": "Pancakes",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Pancakes",
+        "sellPrice": "80",
+        "healing": {
+            "energy": "90",
+            "health": "40"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (14 Summer, Year 1)",
+            "Recipe is purchased at the Stardrop Saloon (100g)"
+        ],
+        "recipe": [
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Egg",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Foraging",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Jodi"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Leah"
+            ]
+        }
+    },
+    {
+        "id": 920,
+        "name": "Salmon Dinner",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Salmon_Dinner",
+        "sellPrice": "300",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Gus (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Salmon",
+                "qty": "1"
+            },
+            {
+                "id": "Amaranth",
+                "qty": "1"
+            },
+            {
+                "id": "Kale",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Alex"
+            ],
+            "likes": [
+                "Abigail",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": [
+                "Emily"
+            ]
+        }
+    },
+    {
+        "id": 921,
+        "name": "Fish Taco",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fish_Taco",
+        "sellPrice": "500",
+        "healing": {
+            "energy": "165",
+            "health": "74"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Linus (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Tuna",
+                "qty": "1"
+            },
+            {
+                "id": "Tortilla",
+                "qty": "1"
+            },
+            {
+                "id": "Red Cabbage",
+                "qty": "1"
+            },
+            {
+                "id": "Mayonnaise",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Caroline",
+                "Gus"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Evelyn",
+                "George",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": [
+                "Emily"
+            ]
+        }
+    },
+    {
+        "id": 922,
+        "name": "Crispy Bass",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Crispy_Bass",
+        "sellPrice": "150",
+        "healing": {
+            "energy": "90",
+            "health": "40"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Kent (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Largemouth Bass",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Magnetism",
+                "buffQty": "+64"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Jodi"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 923,
+        "name": "Pepper Poppers",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Pepper_Poppers",
+        "sellPrice": "200",
+        "healing": {
+            "energy": "130",
+            "health": "58"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Shane (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Hot Pepper",
+                "qty": "1"
+            },
+            {
+                "id": "Cheese",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Farming",
+                "buffQty": "+2"
+            },
+            {
+                "buffName": "Speed",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Maru",
+                "Shane"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 924,
+        "name": "Bread",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Bread",
+        "sellPrice": "60",
+        "healing": {
+            "energy": "50",
+            "health": "22"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Summer, Year 1)",
+            "Recipe is purchased at the Stardrop Saloon (100g)"
+        ],
+        "recipe": [
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [],
+            "neutrals": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Krobus",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "dislikes": [
+                "Harvey"
+            ],
+            "hates": [
+                "Leah"
+            ]
+        }
+    },
+    {
+        "id": 925,
+        "name": "Tom Kha Soup",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Tom_Kha_Soup",
+        "sellPrice": "250",
+        "healing": {
+            "energy": "175",
+            "health": "78"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Sandy (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Coconut",
+                "qty": "1"
+            },
+            {
+                "id": "Shrimp",
+                "qty": "1"
+            },
+            {
+                "id": "Common Mushroom",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Farming",
+                "buffQty": "+2"
+            },
+            {
+                "buffName": "Max Energy",
+                "buffQty": "+30"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Elliott",
+                "Penny"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 926,
+        "name": "Trout Soup",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Trout_Soup",
+        "sellPrice": "100",
+        "healing": {
+            "energy": "100",
+            "health": "45"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (14 Fall, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Rainbow Trout",
+                "qty": "1"
+            },
+            {
+                "id": "Green Algae",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Trout Soup",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": [
+                "Evelyn"
+            ]
+        }
+    },
+    {
+        "id": 927,
+        "name": "Chocolate Cake",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Chocolate_Cake",
+        "sellPrice": "200",
+        "healing": {
+            "energy": "150",
+            "health": "67"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (14 Winter, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Egg",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Abigail",
+                "Evelyn",
+                "Jodi"
+            ],
+            "likes": [
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 928,
+        "name": "Pink Cake",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Pink_Cake",
+        "sellPrice": "480",
+        "healing": {
+            "energy": "250",
+            "health": "112"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Summer, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Melon",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Egg",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Haley",
+                "Jas",
+                "Marnie",
+                "Vincent"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Leah",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 929,
+        "name": "Rhubarb Pie",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Rhubarb_Pie",
+        "sellPrice": "400",
+        "healing": {
+            "energy": "215",
+            "health": "96"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Marnie (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Rhubarb",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Jodi",
+                "Maru"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 930,
+        "name": "Cookie",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Cookie",
+        "sellPrice": "140",
+        "healing": {
+            "energy": "90",
+            "health": "40"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Evelyn (4-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Egg",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Leah",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 931,
+        "name": "Spaghetti",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Spaghetti",
+        "sellPrice": "120",
+        "healing": {
+            "energy": "75",
+            "health": "33"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Lewis (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Tomato",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Robin"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 932,
+        "name": "Fried Eel",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fried_Eel",
+        "sellPrice": "120",
+        "healing": {
+            "energy": "75",
+            "health": "33"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with George (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Eel",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Luck",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Jodi"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Emily",
+                "Krobus"
+            ],
+            "hates": [
+                "Evelyn"
+            ]
+        }
+    },
+    {
+        "id": 933,
+        "name": "Spicy Eel",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Spicy_Eel",
+        "sellPrice": "175",
+        "healing": {
+            "energy": "115",
+            "health": "51"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with George (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Eel",
+                "qty": "1"
+            },
+            {
+                "id": "Hot Pepper",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Luck",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Speed",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Abigail"
+            ],
+            "likes": [
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Emily",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Evelyn"
+            ]
+        }
+    },
+    {
+        "id": 934,
+        "name": "Sashimi",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Sashimi",
+        "sellPrice": "75",
+        "healing": {
+            "energy": "75",
+            "health": "33"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Linus (3-heart event)"
+        ],
+        "recipe": [],
+        "gifting": {
+            "loves": [
+                "Sebastian"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [
+                "Willy"
+            ],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": [
+                "Emily",
+                "Evelyn",
+                "Kent"
+            ]
+        }
+    },
+    {
+        "id": 935,
+        "name": "Maki Roll",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Maki_Roll",
+        "sellPrice": "220",
+        "healing": {
+            "energy": "100",
+            "health": "45"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Summer, Year 1)",
+            "Recipe is purchased at the Stardrop Saloon (300g)"
+        ],
+        "recipe": [
+            {
+                "id": "Seaweed",
+                "qty": "1"
+            },
+            {
+                "id": "Rice",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [
+                "Willy"
+            ],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": [
+                "Emily",
+                "Evelyn"
+            ]
+        }
+    },
+    {
+        "id": 936,
+        "name": "Tortilla",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Tortilla",
+        "sellPrice": "50",
+        "healing": {
+            "energy": "50",
+            "health": "22"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Fall, Year 1)",
+            "Recipe is purchased at the Stardrop Saloon (100g)"
+        ],
+        "recipe": [
+            {
+                "id": "Corn",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Leah",
+                "Willy"
+            ],
+            "hates": [
+                "Kent",
+                "Pierre"
+            ]
+        }
+    },
+    {
+        "id": 937,
+        "name": "Red Plate",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Red_Plate",
+        "sellPrice": "400",
+        "healing": {
+            "energy": "240",
+            "health": "108"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Emily (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Red Cabbage",
+                "qty": "1"
+            },
+            {
+                "id": "Radish",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Max Energy",
+                "buffQty": "+50"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Penny"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 938,
+        "name": "Eggplant Parmesan",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Eggplant_Parmesan",
+        "sellPrice": "200",
+        "healing": {
+            "energy": "175",
+            "health": "78"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Lewis (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Eggplant",
+                "qty": "1"
+            },
+            {
+                "id": "Tomato",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Mining",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Defense",
+                "buffQty": "+3"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Jodi"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 939,
+        "name": "Rice Pudding",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Rice_Pudding",
+        "sellPrice": "260",
+        "healing": {
+            "energy": "115",
+            "health": "51"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Evelyn (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Milk",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Rice",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Demetrius"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Dwarf",
+                "Elliott",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Emily",
+                "Harvey",
+                "Krobus",
+                "Leah",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 940,
+        "name": "Ice Cream",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Ice_Cream",
+        "sellPrice": "120",
+        "healing": {
+            "energy": "100",
+            "health": "45"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Jodi (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Milk",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Demetrius"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Dwarf",
+                "Elliott",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Emily",
+                "Harvey",
+                "Krobus",
+                "Leah",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 941,
+        "name": "Blueberry Tart",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Blueberry_Tart",
+        "sellPrice": "150",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Pierre (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Blueberry",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Egg",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Linus"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 942,
+        "name": "Autumn's Bounty",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Autumn%27s_Bounty",
+        "sellPrice": "350",
+        "healing": {
+            "energy": "220",
+            "health": "99"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Demetrius (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Yam",
+                "qty": "1"
+            },
+            {
+                "id": "Pumpkin",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Foraging",
+                "buffQty": "+2"
+            },
+            {
+                "buffName": "Defense",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Lewis"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 943,
+        "name": "Pumpkin Soup",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Pumpkin_Soup",
+        "sellPrice": "300",
+        "healing": {
+            "energy": "200",
+            "health": "90"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Robin (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Pumpkin",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Defense",
+                "buffQty": "+2"
+            },
+            {
+                "buffName": "Luck",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Sebastian"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 944,
+        "name": "Super Meal",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Super_Meal",
+        "sellPrice": "220",
+        "healing": {
+            "energy": "160",
+            "health": "72"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Kent (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Bok Choy",
+                "qty": "1"
+            },
+            {
+                "id": "Cranberries",
+                "qty": "1"
+            },
+            {
+                "id": "Artichoke",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Max Energy",
+                "buffQty": "+40"
+            },
+            {
+                "buffName": "Speed",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Harvey"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 945,
+        "name": "Cranberry Sauce",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Cranberry_Sauce",
+        "sellPrice": "120",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Gus (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Cranberries",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Mining",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Harvey",
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 946,
+        "name": "Stuffing",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Stuffing",
+        "sellPrice": "165",
+        "healing": {
+            "energy": "170",
+            "health": "76"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Pam (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Bread",
+                "qty": "1"
+            },
+            {
+                "id": "Cranberries",
+                "qty": "1"
+            },
+            {
+                "id": "Hazelnut",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Defense",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Evelyn"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 947,
+        "name": "Farmer's Lunch",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Farmer%27s_Lunch",
+        "sellPrice": "150",
+        "healing": {
+            "energy": "200",
+            "health": "90"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned at Farming skill level 3"
+        ],
+        "recipe": [
+            {
+                "id": "Omelet",
+                "qty": "1"
+            },
+            {
+                "id": "Parsnip",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Farming",
+                "buffQty": "+3"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Marnie"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Sebastian"
+            ]
+        }
+    },
+    {
+        "id": 948,
+        "name": "Survival Burger",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Survival_Burger",
+        "sellPrice": "180",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned at Foraging skill level 2"
+        ],
+        "recipe": [
+            {
+                "id": "Bread",
+                "qty": "1"
+            },
+            {
+                "id": "Cave Carrot",
+                "qty": "1"
+            },
+            {
+                "id": "Eggplant",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Foraging",
+                "buffQty": "+3"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Emily"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Leah",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 949,
+        "name": "Dish O' The Sea",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Dish_O%27_The_Sea",
+        "sellPrice": "220",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned at Fishing skill level 3"
+        ],
+        "recipe": [
+            {
+                "id": "Sardine",
+                "qty": "2"
+            },
+            {
+                "id": "Hashbrowns",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+3"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Linus"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [
+                "Willy"
+            ],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 950,
+        "name": "Miner's Treat",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Miner%27s_Treat",
+        "sellPrice": "200",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned at Mining skill level 3"
+        ],
+        "recipe": [
+            {
+                "id": "Cave Carrot",
+                "qty": "2"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Mining",
+                "buffQty": "+3"
+            },
+            {
+                "buffName": "Magnetism",
+                "buffQty": "+32"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Maru"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 951,
+        "name": "Roots Platter",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Roots_Platter",
+        "sellPrice": "100",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned at Combat skill level 3"
+        ],
+        "recipe": [
+            {
+                "id": "Cave Carrot",
+                "qty": "1"
+            },
+            {
+                "id": "Winter Root",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Attack",
+                "buffQty": "+3"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Penny"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 952,
+        "name": "Triple Shot Espresso",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Triple_Shot_Espresso",
+        "sellPrice": "450",
+        "healing": {
+            "energy": "8",
+            "health": "3"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is purchased at the Stardrop Saloon (5,000g)"
+        ],
+        "recipe": [
+            {
+                "id": "Coffee",
+                "qty": "3"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Speed",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Jas",
+                "Vincent"
+            ]
+        }
+    },
+    {
+        "id": 953,
+        "name": "Seafoam Pudding",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Seafoam_Pudding",
+        "sellPrice": "300",
+        "healing": {
+            "energy": "175",
+            "health": "78"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned at Fishing skill level 9"
+        ],
+        "recipe": [
+            {
+                "id": "Flounder",
+                "qty": "1"
+            },
+            {
+                "id": "Midnight Carp",
+                "qty": "1"
+            },
+            {
+                "id": "Squid Ink",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+4"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Krobus",
+                "Willy"
+            ],
+            "neutrals": [],
+            "dislikes": [],
+            "hates": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ]
+        }
+    },
+    {
+        "id": 954,
+        "name": "Algae Soup",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Algae_Soup",
+        "sellPrice": "100",
+        "healing": {
+            "energy": "75",
+            "health": "33"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Clint (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Green Algae",
+                "qty": "4"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Penny",
+                "Willy"
+            ],
+            "hates": [
+                "Kent"
+            ]
+        }
+    },
+    {
+        "id": 955,
+        "name": "Pale Broth",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Pale_Broth",
+        "sellPrice": "150",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Marnie (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "White Algae",
+                "qty": "2"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Penny",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 956,
+        "name": "Plum Pudding",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Plum_Pudding",
+        "sellPrice": "260",
+        "healing": {
+            "energy": "175",
+            "health": "78"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Winter, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Wild Plum",
+                "qty": "2"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Jas"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 957,
+        "name": "Artichoke Dip",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Artichoke_Dip",
+        "sellPrice": "210",
+        "healing": {
+            "energy": "100",
+            "health": "45"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Fall, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Artichoke",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Clint"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 958,
+        "name": "Stir Fry",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Stir_Fry",
+        "sellPrice": "335",
+        "healing": {
+            "energy": "200",
+            "health": "90"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Spring, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Cave Carrot",
+                "qty": "1"
+            },
+            {
+                "id": "Common Mushroom",
+                "qty": "1"
+            },
+            {
+                "id": "Kale",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Leah"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 959,
+        "name": "Roasted Hazelnuts",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Roasted_Hazelnuts",
+        "sellPrice": "270",
+        "healing": {
+            "energy": "175",
+            "health": "78"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Summer, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Hazelnut",
+                "qty": "3"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Kent"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 960,
+        "name": "Pumpkin Pie",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Pumpkin_Pie",
+        "sellPrice": "385",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Winter, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Pumpkin",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Marnie"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 961,
+        "name": "Radish Salad",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Radish_Salad",
+        "sellPrice": "300",
+        "healing": {
+            "energy": "200",
+            "health": "90"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Spring, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Oil",
+                "qty": "1"
+            },
+            {
+                "id": "Vinegar",
+                "qty": "1"
+            },
+            {
+                "id": "Radish",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 962,
+        "name": "Fruit Salad",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fruit_Salad",
+        "sellPrice": "450",
+        "healing": {
+            "energy": "263",
+            "health": "118"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Fall, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Blueberry",
+                "qty": "1"
+            },
+            {
+                "id": "Melon",
+                "qty": "1"
+            },
+            {
+                "id": "Apricot",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Haley"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 963,
+        "name": "Blackberry Cobbler",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Blackberry_Cobbler",
+        "sellPrice": "260",
+        "healing": {
+            "energy": "175",
+            "health": "78"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (14 Fall, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Blackberry",
+                "qty": "2"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Abigail"
+            ],
+            "likes": [
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 964,
+        "name": "Cranberry Candy",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Cranberry_Candy",
+        "sellPrice": "175",
+        "healing": {
+            "energy": "125",
+            "health": "56"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Winter, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Cranberries",
+                "qty": "1"
+            },
+            {
+                "id": "Apple",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Vincent"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 965,
+        "name": "Bruschetta",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Bruschetta",
+        "sellPrice": "210",
+        "healing": {
+            "energy": "113",
+            "health": "50"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Winter, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Bread",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            },
+            {
+                "id": "Tomato",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 966,
+        "name": "Coleslaw",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Coleslaw",
+        "sellPrice": "345",
+        "healing": {
+            "energy": "213",
+            "health": "95"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (14 Spring, Year 1)"
+        ],
+        "recipe": [
+            {
+                "id": "Red Cabbage",
+                "qty": "1"
+            },
+            {
+                "id": "Vinegar",
+                "qty": "1"
+            },
+            {
+                "id": "Mayonnaise",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": [
+                "Gus"
+            ]
+        }
+    },
+    {
+        "id": 967,
+        "name": "Fiddlehead Risotto",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fiddlehead_Risotto",
+        "sellPrice": "350",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Fall, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Oil",
+                "qty": "1"
+            },
+            {
+                "id": "Fiddlehead Fern",
+                "qty": "1"
+            },
+            {
+                "id": "Garlic",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Clint",
+                "Kent"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 968,
+        "name": "Poppyseed Muffin",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Poppyseed_Muffin",
+        "sellPrice": "250",
+        "healing": {
+            "energy": "150",
+            "health": "67"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (7 Winter, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Poppy",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Leah",
+                "Penny"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 969,
+        "name": "Chowder",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Chowder",
+        "sellPrice": "135",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Willy (3-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Clam",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 970,
+        "name": "Lobster Bisque",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Lobster_Bisque",
+        "sellPrice": "205",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (14 Winter, Year 2)",
+            "Recipe is earned with Willy (9-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Lobster",
+                "qty": "1"
+            },
+            {
+                "id": "Milk",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+3"
+            },
+            {
+                "buffName": "Max Energy",
+                "buffQty": "+50"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 971,
+        "name": "Escargot",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Escargot",
+        "sellPrice": "125",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Willy (5-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Snail",
+                "qty": "1"
+            },
+            {
+                "id": "Garlic",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+2"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Gus"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 972,
+        "name": "Fish Stew",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Fish_Stew",
+        "sellPrice": "175",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is earned with Willy (7-heart event)"
+        ],
+        "recipe": [
+            {
+                "id": "Crayfish",
+                "qty": "1"
+            },
+            {
+                "id": "Mussel",
+                "qty": "1"
+            },
+            {
+                "id": "Periwinkle",
+                "qty": "1"
+            },
+            {
+                "id": "Tomato",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+3"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 973,
+        "name": "Maple Bar",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Maple_Bar",
+        "sellPrice": "300",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (14 Summer, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Maple Syrup",
+                "qty": "1"
+            },
+            {
+                "id": "Sugar",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Farming",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Fishing",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Mining",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Sam"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 974,
+        "name": "Crab Cakes",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Crab_Cakes",
+        "sellPrice": "275",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (21 Fall, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Crab",
+                "qty": "1"
+            },
+            {
+                "id": "Wheat Flour",
+                "qty": "1"
+            },
+            {
+                "id": "Egg",
+                "qty": "1"
+            },
+            {
+                "id": "Oil",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Speed",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Defense",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [
+                "Elliott"
+            ],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Willy",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus"
+            ],
+            "hates": []
+        }
+    },
+    {
+        "id": 975,
+        "name": "Shrimp Cocktail",
+        "type": "Food",
+        "link": "https://stardewvalleywiki.com/Shrimp_Cocktail",
+        "sellPrice": "160",
+        "healing": {
+            "energy": "225",
+            "health": "101"
+        },
+        "obtainedFrom": [
+            "Cooking",
+            "Recipe is learned watching The Queen of Sauce (28 Winter, Year 2)"
+        ],
+        "recipe": [
+            {
+                "id": "Tomato",
+                "qty": "1"
+            },
+            {
+                "id": "Shrimp",
+                "qty": "1"
+            },
+            {
+                "id": "Wild Horseradish",
+                "qty": "1"
+            }
+        ],
+        "foodBuff": [
+            {
+                "buffName": "Fishing",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Luck",
+                "buffQty": "+1"
+            }
+        ],
+        "gifting": {
+            "loves": [],
+            "likes": [
+                "Abigail",
+                "Alex",
+                "Caroline",
+                "Clint",
+                "Demetrius",
+                "Dwarf",
+                "Elliott",
+                "Emily",
+                "Evelyn",
+                "George",
+                "Gus",
+                "Haley",
+                "Harvey",
+                "Jas",
+                "Jodi",
+                "Kent",
+                "Leah",
+                "Lewis",
+                "Linus",
+                "Marnie",
+                "Maru",
+                "Pam",
+                "Penny",
+                "Pierre",
+                "Robin",
+                "Sam",
+                "Sandy",
+                "Sebastian",
+                "Shane",
+                "Vincent",
+                "Wizard"
+            ],
+            "neutrals": [],
+            "dislikes": [
+                "Krobus",
+                "Willy"
+            ],
+            "hates": []
+        }
+    }
+]
