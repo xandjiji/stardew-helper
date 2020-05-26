@@ -33,12 +33,29 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
         }
     }) */
 
-    for(let j = 0; j < data.length; j++) {
+    for(let i = 0; i < data.length; i++) {
         
-        if(data[j].healing) {
-            data[j].healing.energy = parseInt(data[j].healing.energy, 10)
-            data[j].healing.health = parseInt(data[j].healing.health, 10)
-        }
+        let currentItem = data[i];
+        /* for(let j = 0; j < data.length; j++) {
+
+            let makes = data[j].obtainedFrom;
+            if(makes) {
+
+
+                for(let k = 0; k < makes.length; k++) {
+                    if(makes[k] == currentItem.name) {
+                        makes[k] = currentItem.id;
+                    }
+                }
+            }
+        } */
+
+
+        /* if(currentItem.recipe) {
+            for(let j = 0; j < currentItem.recipe.length; j++) {
+                currentItem.recipe[j].qty = parseInt(currentItem.recipe[j].qty, 10)
+            }
+        } */
 
 
     }
