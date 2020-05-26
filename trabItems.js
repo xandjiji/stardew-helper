@@ -2,7 +2,7 @@ const fs = require('fs')
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 
-global.newlist = []
+newlist = []
 
 fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
     if (err) {
@@ -14,65 +14,43 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
 
     let count = 0;
 
-    data.forEach((item, index, array) => {
-        rp(item.link)
-            .then(function (html) {
+    /* data.forEach((item, index, array) => {
+        newlist.push(item);
+        count++;
 
-
-                var loves = cheerio('.wikitable th:contains("Love") + td > div > a + a ', html);
-                var likes = cheerio('.wikitable th:contains("Like") + td > div > a + a ', html);
-                var neutrals = cheerio('.wikitable th:contains("Neutral") + td > div > a + a ', html);
-                var dislikes = cheerio('.wikitable th:contains("Dislike") + td > div > a + a ', html);
-                var hates = cheerio('.wikitable th:contains("Hate") + td > div > a + a ', html);
-
-                let finalObj = {
-                    "loves": createArrayObject(loves),
-                    "likes": createArrayObject(likes),
-                    "neutrals": createArrayObject(neutrals),
-                    "dislikes": createArrayObject(dislikes),
-                    "hates": createArrayObject(hates)
+        for (let i = 0; i < array.length; i++) {
+            if (array[i].name == item.name) {
+                if(array[i].id !== item.id) {
+                    console.log(item.name);
                 }
+            }
+        }
 
-                item.gifting = finalObj;
+        if (count === array.length) {
+            console.log('done');
+            saveData()
 
-                newlist.push(item);         
-            })
-    });
-
-    setTimeout(saveData, 10000)
-
-
-    /* data.forEach(element => {
-        
-        rp(element.link)
-        .then(function(html) {
-
-
-            var loves = cheerio('.wikitable th:contains("Love") + td > div > a + a ', html);
-            var likes = cheerio('.wikitable th:contains("Like") + td > div > a + a ', html);
-            var neutrals = cheerio('.wikitable th:contains("Neutral") + td > div > a + a ', html);
-            var dislikes = cheerio('.wikitable th:contains("Dislike") + td > div > a + a ', html);
-            var hates = cheerio('.wikitable th:contains("Hate") + td > div > a + a ', html);
-
-            let finalObj = {
-                "loves": createArrayObject(loves),
-                "likes": createArrayObject(likes),
-                "neutrals": createArrayObject(neutrals),
-                "dislikes": createArrayObject(dislikes),
-                "hates": createArrayObject(hates)
-            }     
-
-            element.gifting = finalObj;
-            
-            newlist.push(element);            
-        })
+        }
     }) */
 
-})
+    for(let j = 0; j < data.length; j++) {
+        
+        if(data[j].healing) {
+            data[j].healing.energy = parseInt(data[j].healing.energy, 10)
+            data[j].healing.health = parseInt(data[j].healing.health, 10)
+        }
 
 
-function saveData() {
-    fs.writeFile('./newTrabItems.json', JSON.stringify(newlist.sort(byID)), err => {
+    }
+    saveData(data);
+
+});
+
+/* setTimeout(saveData, 10000) */
+
+
+function saveData(data) {
+    fs.writeFile('./newTrabItems.json', JSON.stringify(data.sort(byID)), err => {
         if (err) {
             console.log('Error writing file', err)
         } else {
@@ -82,10 +60,10 @@ function saveData() {
 }
 
 function byID(a, b) {
-    if(a.id < b.id) {
+    if (a.id < b.id) {
         return -1;
     }
-    if(a.id > b.id) {
+    if (a.id > b.id) {
         return 1;
     }
     return 0;

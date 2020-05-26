@@ -4733,7 +4733,7 @@
     },
     {
         "id": 99,
-        "name": "Weathered Flood",
+        "name": "Weathered Floor",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Weathered_Floor",
         "sellPrice": "1",
@@ -5155,34 +5155,6 @@
     },
     {
         "id": 119,
-        "name": "Warp Totem: Beach",
-        "type": "Craftable Items",
-        "link": "https://stardewvalleywiki.com/Warp_Totem:_Beach",
-        "sellPrice": "20",
-        "obtainedFrom": [
-            "Crafting",
-            "Recipe is earned at Foraging skill level 6"
-        ],
-        "recipe": [
-            {
-                "id": "Hardwood",
-                "qty": 1
-            },
-            {
-                "id": "Coral",
-                "qty": 2
-            },
-            {
-                "id": "Fiber",
-                "qty": 10
-            }
-        ],
-        "makes": [
-            "Totem Mask"
-        ]
-    },
-    {
-        "id": 120,
         "name": "Barbed Hook",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Barbed_Hook",
@@ -5208,7 +5180,7 @@
         ]
     },
     {
-        "id": 121,
+        "id": 120,
         "name": "Bee House",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Bee_House",
@@ -5239,7 +5211,7 @@
         ]
     },
     {
-        "id": 122,
+        "id": 121,
         "name": "Bomb",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Bomb",
@@ -5270,7 +5242,7 @@
         ]
     },
     {
-        "id": 123,
+        "id": 122,
         "name": "Cask",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Cask",
@@ -5298,7 +5270,7 @@
         ]
     },
     {
-        "id": 124,
+        "id": 123,
         "name": "Charcoal Kiln",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Charcoal_Kiln",
@@ -5321,7 +5293,7 @@
         ]
     },
     {
-        "id": 125,
+        "id": 124,
         "name": "Cheese Press",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Cheese_Press",
@@ -5353,7 +5325,7 @@
         ]
     },
     {
-        "id": 126,
+        "id": 125,
         "name": "Cherry Bomb",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Cherry_Bomb",
@@ -5380,7 +5352,7 @@
         ]
     },
     {
-        "id": 127,
+        "id": 126,
         "name": "Chest",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Chest",
@@ -5395,7 +5367,7 @@
         ]
     },
     {
-        "id": 128,
+        "id": 127,
         "name": "Cork Bobber",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Cork_Bobber",
@@ -5421,7 +5393,7 @@
         ]
     },
     {
-        "id": 129,
+        "id": 128,
         "name": "Crab Pot",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Crab_Pot",
@@ -5460,7 +5432,7 @@
         ]
     },
     {
-        "id": 130,
+        "id": 129,
         "name": "Crystalarium",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Crystalarium",
@@ -5493,7 +5465,7 @@
         ]
     },
     {
-        "id": 131,
+        "id": 130,
         "name": "Deluxe Scarecrow",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Deluxe_Scarecrow",
@@ -5517,7 +5489,7 @@
         ]
     },
     {
-        "id": 132,
+        "id": 131,
         "name": "Dressed Spinner",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Dressed_Spinner",
@@ -5540,7 +5512,7 @@
         ]
     },
     {
-        "id": 133,
+        "id": 132,
         "name": "Drum Block",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Drum_Block",
@@ -5566,7 +5538,7 @@
         ]
     },
     {
-        "id": 134,
+        "id": 133,
         "name": "Explosive Ammo",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Explosive_Ammo",
@@ -5588,7 +5560,7 @@
         ]
     },
     {
-        "id": 135,
+        "id": 134,
         "name": "Fall Seeds",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Fall_Seeds",
@@ -5624,7 +5596,7 @@
         ]
     },
     {
-        "id": 136,
+        "id": 135,
         "name": "Field Snack",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Field_Snack",
@@ -5656,7 +5628,7 @@
         ]
     },
     {
-        "id": 137,
+        "id": 136,
         "name": "Flute Block",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Flute_Block",
@@ -5682,7 +5654,7 @@
         ]
     },
     {
-        "id": 138,
+        "id": 137,
         "name": "Furnace",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Furnace",
@@ -5710,7 +5682,7 @@
         ]
     },
     {
-        "id": 139,
+        "id": 138,
         "name": "Garden Pot",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Garden_Pot",
@@ -5737,7 +5709,7 @@
         ]
     },
     {
-        "id": 140,
+        "id": 139,
         "name": "Gold Bar",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Gold_Bar",
@@ -5815,7 +5787,7 @@
         }
     },
     {
-        "id": 142,
+        "id": 140,
         "name": "Iridium Sprinkler",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Iridium_Sprinkler",
@@ -5841,7 +5813,7 @@
         ]
     },
     {
-        "id": 143,
+        "id": 141,
         "name": "Iron Bar",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Iron_Bar",
@@ -5928,7 +5900,7 @@
         }
     },
     {
-        "id": 144,
+        "id": 142,
         "name": "Keg",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Keg",
@@ -5965,7 +5937,7 @@
         ]
     },
     {
-        "id": 145,
+        "id": 143,
         "name": "Life Elixir",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Life_Elixir",
@@ -6041,7 +6013,7 @@
         }
     },
     {
-        "id": 146,
+        "id": 144,
         "name": "Lightning Rod",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Lightning_Rod",
@@ -6068,7 +6040,7 @@
         ]
     },
     {
-        "id": 147,
+        "id": 145,
         "name": "Loom",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Loom",
@@ -6095,7 +6067,7 @@
         ]
     },
     {
-        "id": 148,
+        "id": 146,
         "name": "Mayonnaise Machine",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Mayonnaise_Machine",
@@ -6129,7 +6101,7 @@
         ]
     },
     {
-        "id": 149,
+        "id": 147,
         "name": "Mega Bomb",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Mega_Bomb",
@@ -6162,7 +6134,7 @@
         ]
     },
     {
-        "id": 150,
+        "id": 148,
         "name": "Mini-Jukebox",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Mini-Jukebox",
@@ -6182,7 +6154,7 @@
         ]
     },
     {
-        "id": 151,
+        "id": 149,
         "name": "Oil Maker",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Oil_Maker",
@@ -6210,7 +6182,7 @@
         ]
     },
     {
-        "id": 152,
+        "id": 150,
         "name": "Oil of Garlic",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Oil_of_Garlic",
@@ -6275,7 +6247,7 @@
         }
     },
     {
-        "id": 153,
+        "id": 151,
         "name": "Preserves Jar",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Preserves_Jar",
@@ -6305,7 +6277,7 @@
         ]
     },
     {
-        "id": 154,
+        "id": 152,
         "name": "Quality Sprinkler",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Quality_Sprinkler",
@@ -6330,7 +6302,7 @@
         ]
     },
     {
-        "id": 155,
+        "id": 153,
         "name": "Rain Totem",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Rain_Totem",
@@ -6358,7 +6330,7 @@
         ]
     },
     {
-        "id": 156,
+        "id": 154,
         "name": "Recycling Machine",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Recycling_Machine",
@@ -6389,7 +6361,7 @@
         ]
     },
     {
-        "id": 158,
+        "id": 155,
         "name": "Scarecrown",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Scarecrow",
@@ -6413,7 +6385,7 @@
         ]
     },
     {
-        "id": 159,
+        "id": 156,
         "name": "Seed Maker",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Seed_Maker",
@@ -6440,7 +6412,7 @@
         ]
     },
     {
-        "id": 160,
+        "id": 157,
         "name": "Slime Egg-Press",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Slime_Egg-Press",
@@ -6470,7 +6442,7 @@
         ]
     },
     {
-        "id": 161,
+        "id": 158,
         "name": "Slime Incubator",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Slime_Incubator",
@@ -6493,7 +6465,7 @@
         ]
     },
     {
-        "id": 162,
+        "id": 159,
         "name": "Spinner",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Spinner",
@@ -6511,7 +6483,7 @@
         ]
     },
     {
-        "id": 163,
+        "id": 160,
         "name": "Spring Seeds",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Spring_Seeds",
@@ -6547,7 +6519,7 @@
         ]
     },
     {
-        "id": 164,
+        "id": 161,
         "name": "Sprinkler",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Sprinkler",
@@ -6568,7 +6540,7 @@
         ]
     },
     {
-        "id": 165,
+        "id": 162,
         "name": "Staircase",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Staircase",
@@ -6585,7 +6557,7 @@
         ]
     },
     {
-        "id": 166,
+        "id": 163,
         "name": "Stone Sign",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Stone_Sign",
@@ -6600,32 +6572,7 @@
         ]
     },
     {
-        "id": 167,
-        "name": "Sturdy Ring",
-        "type": "Craftable Items",
-        "link": "https://stardewvalleywiki.com/Sturdy_Ring",
-        "sellPrice": "750",
-        "obtainedFrom": [
-            "Crafting",
-            "Recipe is earned at Combat skill level 1"
-        ],
-        "recipe": [
-            {
-                "id": "Copper Bar",
-                "qty": 2
-            },
-            {
-                "id": "Bug Meat",
-                "qty": 25
-            },
-            {
-                "id": "Slime",
-                "qty": 25
-            }
-        ]
-    },
-    {
-        "id": 168,
+        "id": 164,
         "name": "Summer Seeds",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Summer_Seeds",
@@ -6656,7 +6603,7 @@
         ]
     },
     {
-        "id": 169,
+        "id": 165,
         "name": "Tapper",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Tapper",
@@ -6684,7 +6631,7 @@
         ]
     },
     {
-        "id": 170,
+        "id": 166,
         "name": "Trap Bobber",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Trap_Bobber",
@@ -6706,7 +6653,7 @@
         ]
     },
     {
-        "id": 171,
+        "id": 167,
         "name": "Treasure Hunter",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Treasure_Hunter",
@@ -6724,7 +6671,7 @@
         ]
     },
     {
-        "id": 172,
+        "id": 168,
         "name": "Tub o' Flowers",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Tub_o%27_Flowers",
@@ -6757,7 +6704,7 @@
         ]
     },
     {
-        "id": 175,
+        "id": 169,
         "name": "Wicked Statue",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Wicked_Statue",
@@ -6777,7 +6724,7 @@
         ]
     },
     {
-        "id": 176,
+        "id": 170,
         "name": "Winter Seeds",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Winter_Seeds",
@@ -6813,7 +6760,7 @@
         ]
     },
     {
-        "id": 177,
+        "id": 171,
         "name": "Wood Sign",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Wood_Sign",
@@ -6828,7 +6775,7 @@
         ]
     },
     {
-        "id": 178,
+        "id": 172,
         "name": "Worm Bin",
         "type": "Craftable Items",
         "link": "https://stardewvalleywiki.com/Worm_Bin",
@@ -6859,7 +6806,7 @@
         ]
     },
     {
-        "id": 179,
+        "id": 173,
         "name": "Blue Jazz",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Blue_Jazz",
@@ -6918,7 +6865,7 @@
         }
     },
     {
-        "id": 251,
+        "id": 174,
         "name": "Jazz Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Jazz_Seeds",
@@ -6930,7 +6877,7 @@
         ]
     },
     {
-        "id": 180,
+        "id": 175,
         "name": "Cauliflower",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cauliflower",
@@ -6993,7 +6940,7 @@
         }
     },
     {
-        "id": 252,
+        "id": 176,
         "name": "Cauliflower Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cauliflower_Seeds",
@@ -7005,7 +6952,7 @@
         ]
     },
     {
-        "id": 181,
+        "id": 177,
         "name": "Coffee Bean",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Coffee_Bean",
@@ -7023,7 +6970,7 @@
         ]
     },
     {
-        "id": 182,
+        "id": 178,
         "name": "Garlic",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Garlic",
@@ -7088,7 +7035,7 @@
         }
     },
     {
-        "id": 253,
+        "id": 179,
         "name": "Garlic Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Garlic_Seeds",
@@ -7099,7 +7046,7 @@
         ]
     },
     {
-        "id": 183,
+        "id": 180,
         "name": "Green Bean",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Green_Bean",
@@ -7160,7 +7107,7 @@
         }
     },
     {
-        "id": 254,
+        "id": 181,
         "name": "Bean Starter",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Bean_Starter",
@@ -7172,7 +7119,7 @@
         ]
     },
     {
-        "id": 184,
+        "id": 182,
         "name": "Kale",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Kale",
@@ -7234,7 +7181,7 @@
         }
     },
     {
-        "id": 255,
+        "id": 183,
         "name": "Kale Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Kale_Seeds",
@@ -7246,7 +7193,7 @@
         ]
     },
     {
-        "id": 185,
+        "id": 184,
         "name": "Parsnip",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Parsnip",
@@ -7310,7 +7257,7 @@
         }
     },
     {
-        "id": 256,
+        "id": 185,
         "name": "Parsnip Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Parsnip_Seeds",
@@ -7383,7 +7330,7 @@
         }
     },
     {
-        "id": 257,
+        "id": 187,
         "name": "Potato Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Potato_Seeds",
@@ -7395,7 +7342,7 @@
         ]
     },
     {
-        "id": 187,
+        "id": 188,
         "name": "Rhubarb",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Rhubarb",
@@ -7454,7 +7401,7 @@
         }
     },
     {
-        "id": 258,
+        "id": 189,
         "name": "Rhubarb Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Rhubarb_Seeds",
@@ -7465,7 +7412,7 @@
         ]
     },
     {
-        "id": 188,
+        "id": 190,
         "name": "Strawberry",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Strawberry",
@@ -7529,7 +7476,7 @@
         }
     },
     {
-        "id": 259,
+        "id": 191,
         "name": "Strawberry Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Strawberry_Seeds",
@@ -7540,7 +7487,7 @@
         ]
     },
     {
-        "id": 189,
+        "id": 192,
         "name": "Tulip",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Tulip",
@@ -7600,7 +7547,7 @@
         }
     },
     {
-        "id": 260,
+        "id": 193,
         "name": "Tulip Bulb",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Tulip_Bulb",
@@ -7612,7 +7559,7 @@
         ]
     },
     {
-        "id": 190,
+        "id": 194,
         "name": "Unmilled Rice",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Unmilled_Rice",
@@ -7671,7 +7618,7 @@
         }
     },
     {
-        "id": 261,
+        "id": 195,
         "name": "Rice Shoot",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Rice_Shoot",
@@ -7682,7 +7629,7 @@
         ]
     },
     {
-        "id": 191,
+        "id": 196,
         "name": "Blueberry",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Blueberry",
@@ -7746,7 +7693,7 @@
         }
     },
     {
-        "id": 262,
+        "id": 197,
         "name": "Blueberry Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Blueberry_Seeds",
@@ -7757,7 +7704,7 @@
         ]
     },
     {
-        "id": 192,
+        "id": 198,
         "name": "Corn",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Corn",
@@ -7821,7 +7768,7 @@
         }
     },
     {
-        "id": 263,
+        "id": 199,
         "name": "Corn Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Corn_Seeds",
@@ -7833,7 +7780,7 @@
         ]
     },
     {
-        "id": 193,
+        "id": 200,
         "name": "Hops",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Hops",
@@ -7893,7 +7840,7 @@
         }
     },
     {
-        "id": 264,
+        "id": 201,
         "name": "Hops Starter",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Hops_Starter",
@@ -7905,7 +7852,7 @@
         ]
     },
     {
-        "id": 194,
+        "id": 202,
         "name": "Hot Pepper",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Hot_Pepper",
@@ -7971,7 +7918,7 @@
         }
     },
     {
-        "id": 265,
+        "id": 203,
         "name": "Pepper Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Pepper_Seeds",
@@ -7983,7 +7930,7 @@
         ]
     },
     {
-        "id": 195,
+        "id": 204,
         "name": "Melon",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Melon",
@@ -8049,7 +7996,7 @@
         }
     },
     {
-        "id": 266,
+        "id": 205,
         "name": "Melon Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Melon_Seeds",
@@ -8061,7 +8008,7 @@
         ]
     },
     {
-        "id": 196,
+        "id": 206,
         "name": "Poppy",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Poppy",
@@ -8120,7 +8067,7 @@
         }
     },
     {
-        "id": 267,
+        "id": 207,
         "name": "Poppy Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Poppy_Seeds",
@@ -8132,7 +8079,7 @@
         ]
     },
     {
-        "id": 197,
+        "id": 208,
         "name": "Radish",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Radish",
@@ -8194,7 +8141,7 @@
         }
     },
     {
-        "id": 268,
+        "id": 209,
         "name": "Radish Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Radish_Seeds",
@@ -8206,7 +8153,7 @@
         ]
     },
     {
-        "id": 198,
+        "id": 210,
         "name": "Red Cabbage",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Red_Cabbage",
@@ -8267,7 +8214,7 @@
         }
     },
     {
-        "id": 269,
+        "id": 211,
         "name": "Red Cabbage Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Red_Cabbage_Seeds",
@@ -8278,7 +8225,7 @@
         ]
     },
     {
-        "id": 199,
+        "id": 212,
         "name": "Starfruit",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Starfruit",
@@ -8341,7 +8288,7 @@
         }
     },
     {
-        "id": 270,
+        "id": 213,
         "name": "Starfruit Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Starfruit_Seeds",
@@ -8352,7 +8299,7 @@
         ]
     },
     {
-        "id": 200,
+        "id": 214,
         "name": "Summer Spangle",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Summer_Spangle",
@@ -8412,7 +8359,7 @@
         }
     },
     {
-        "id": 271,
+        "id": 215,
         "name": "Spangle Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Spangle_Seeds",
@@ -8424,7 +8371,7 @@
         ]
     },
     {
-        "id": 201,
+        "id": 216,
         "name": "Sunflower",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Sunflower",
@@ -8485,7 +8432,7 @@
         }
     },
     {
-        "id": 272,
+        "id": 217,
         "name": "Sunflower Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Sunflower_Seeds",
@@ -8497,7 +8444,7 @@
         ]
     },
     {
-        "id": 202,
+        "id": 218,
         "name": "Tomato",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Tomato",
@@ -8561,7 +8508,7 @@
         }
     },
     {
-        "id": 273,
+        "id": 219,
         "name": "Tomato Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Tomato_Seeds",
@@ -8573,7 +8520,7 @@
         ]
     },
     {
-        "id": 203,
+        "id": 220,
         "name": "Wheat",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Wheat",
@@ -8628,7 +8575,7 @@
         }
     },
     {
-        "id": 274,
+        "id": 221,
         "name": "Wheat Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Wheat_Seeds",
@@ -8640,7 +8587,7 @@
         ]
     },
     {
-        "id": 204,
+        "id": 222,
         "name": "Amaranth",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Amaranth",
@@ -8703,7 +8650,7 @@
         }
     },
     {
-        "id": 275,
+        "id": 223,
         "name": "Amaranth Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Amaranth_Seeds",
@@ -8715,7 +8662,7 @@
         ]
     },
     {
-        "id": 205,
+        "id": 224,
         "name": "Artichoke",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Artichoke",
@@ -8777,7 +8724,7 @@
         }
     },
     {
-        "id": 276,
+        "id": 225,
         "name": "Artichoke Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Artichoke_Seeds",
@@ -8788,7 +8735,7 @@
         ]
     },
     {
-        "id": 206,
+        "id": 226,
         "name": "Beet",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Beet",
@@ -8852,7 +8799,7 @@
         }
     },
     {
-        "id": 277,
+        "id": 227,
         "name": "Beet Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Beet_Seeds",
@@ -8863,7 +8810,7 @@
         ]
     },
     {
-        "id": 207,
+        "id": 228,
         "name": "Bok Choy",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Bok_Choy",
@@ -8924,7 +8871,7 @@
         }
     },
     {
-        "id": 278,
+        "id": 229,
         "name": "Bok Choy Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Bok_Choy_Seeds",
@@ -8936,7 +8883,7 @@
         ]
     },
     {
-        "id": 208,
+        "id": 230,
         "name": "Cranberries",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cranberries",
@@ -9002,7 +8949,7 @@
         }
     },
     {
-        "id": 279,
+        "id": 231,
         "name": "Cranberry Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cranberry_Seeds",
@@ -9014,7 +8961,7 @@
         ]
     },
     {
-        "id": 209,
+        "id": 232,
         "name": "Eggplant",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Eggplant",
@@ -9076,7 +9023,7 @@
         }
     },
     {
-        "id": 280,
+        "id": 233,
         "name": "Eggplant Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Eggplant_Seeds",
@@ -9088,7 +9035,7 @@
         ]
     },
     {
-        "id": 210,
+        "id": 234,
         "name": "Fairy Rose",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Fairy_Rose",
@@ -9148,7 +9095,7 @@
         }
     },
     {
-        "id": 281,
+        "id": 235,
         "name": "Fairy Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Fairy_Seeds",
@@ -9160,7 +9107,7 @@
         ]
     },
     {
-        "id": 211,
+        "id": 236,
         "name": "Grape",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Grape",
@@ -9229,7 +9176,7 @@
         }
     },
     {
-        "id": 282,
+        "id": 237,
         "name": "Grape Starter",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Grape_Starter",
@@ -9241,7 +9188,7 @@
         ]
     },
     {
-        "id": 212,
+        "id": 238,
         "name": "Pumpkin",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Pumpkin",
@@ -9303,7 +9250,7 @@
         }
     },
     {
-        "id": 283,
+        "id": 239,
         "name": "Pumpkin Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Pumpkin_Seeds",
@@ -9315,7 +9262,7 @@
         ]
     },
     {
-        "id": 213,
+        "id": 240,
         "name": "Yam",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Yam",
@@ -9379,7 +9326,7 @@
         }
     },
     {
-        "id": 284,
+        "id": 241,
         "name": "Yam Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Yam_Seeds",
@@ -9391,7 +9338,7 @@
         ]
     },
     {
-        "id": 214,
+        "id": 242,
         "name": "Ancient Fruit",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Ancient_Fruit",
@@ -9449,7 +9396,7 @@
         }
     },
     {
-        "id": 285,
+        "id": 243,
         "name": "Ancient Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Ancient_Seeds",
@@ -9504,7 +9451,7 @@
         }
     },
     {
-        "id": 215,
+        "id": 244,
         "name": "Cactus Fruit",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cactus_Fruit",
@@ -9568,7 +9515,7 @@
         }
     },
     {
-        "id": 286,
+        "id": 245,
         "name": "Cactus Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cactus_Seeds",
@@ -9579,7 +9526,7 @@
         ]
     },
     {
-        "id": 216,
+        "id": 246,
         "name": "Sweet Gem Berry",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Sweet_Gem_Berry",
@@ -9632,7 +9579,7 @@
         }
     },
     {
-        "id": 287,
+        "id": 247,
         "name": "Rare Seed",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Rare_Seed",
@@ -9644,7 +9591,7 @@
         ]
     },
     {
-        "id": 217,
+        "id": 248,
         "name": "Tea Leaves",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Tea_Leaves",
@@ -9698,7 +9645,7 @@
         }
     },
     {
-        "id": 288,
+        "id": 249,
         "name": "Tea Sapling",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Tea_Sapling",
@@ -9721,7 +9668,7 @@
         ]
     },
     {
-        "id": 218,
+        "id": 250,
         "name": "Wild Horseradish",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Wild_Horseradish",
@@ -9786,7 +9733,7 @@
         }
     },
     {
-        "id": 219,
+        "id": 251,
         "name": "Daffodil",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Daffodil",
@@ -9850,7 +9797,7 @@
         }
     },
     {
-        "id": 220,
+        "id": 252,
         "name": "Leek",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Leek",
@@ -9913,7 +9860,7 @@
         }
     },
     {
-        "id": 221,
+        "id": 253,
         "name": "Dandelion",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Dandelion",
@@ -9976,7 +9923,7 @@
         }
     },
     {
-        "id": 222,
+        "id": 254,
         "name": "Spring Onion",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Spring_Onion",
@@ -10032,7 +9979,7 @@
         }
     },
     {
-        "id": 223,
+        "id": 255,
         "name": "Morel",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Morel",
@@ -10093,7 +10040,7 @@
         }
     },
     {
-        "id": 224,
+        "id": 256,
         "name": "Salmonberry",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Salmonberry",
@@ -10155,7 +10102,7 @@
         }
     },
     {
-        "id": 225,
+        "id": 257,
         "name": "Common Mushroom",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Common_Mushroom",
@@ -10217,7 +10164,7 @@
         }
     },
     {
-        "id": 226,
+        "id": 258,
         "name": "Spice Berry",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Spice_Berry",
@@ -10282,7 +10229,7 @@
         }
     },
     {
-        "id": 227,
+        "id": 259,
         "name": "Sweet Pea",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Sweet_Pea",
@@ -10342,7 +10289,7 @@
         }
     },
     {
-        "id": 228,
+        "id": 260,
         "name": "Red Mushroom",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Red_Mushroom",
@@ -10401,7 +10348,7 @@
         }
     },
     {
-        "id": 229,
+        "id": 261,
         "name": "Fiddlehead Fern",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Fiddlehead_Fern",
@@ -10460,7 +10407,7 @@
         }
     },
     {
-        "id": 230,
+        "id": 262,
         "name": "Wild Plum",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Wild_Plum",
@@ -10524,7 +10471,7 @@
         }
     },
     {
-        "id": 231,
+        "id": 263,
         "name": "Hazelnut",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Hazelnut",
@@ -10586,7 +10533,7 @@
         }
     },
     {
-        "id": 232,
+        "id": 264,
         "name": "Blackberry",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Blackberry",
@@ -10651,7 +10598,7 @@
         }
     },
     {
-        "id": 233,
+        "id": 265,
         "name": "Chanterelle",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Chanterelle",
@@ -10711,7 +10658,7 @@
         }
     },
     {
-        "id": 234,
+        "id": 266,
         "name": "Winter Root",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Winter_Root",
@@ -10773,7 +10720,7 @@
         }
     },
     {
-        "id": 235,
+        "id": 267,
         "name": "Crystal Fruit",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Crystal_Fruit",
@@ -10836,7 +10783,7 @@
         }
     },
     {
-        "id": 236,
+        "id": 268,
         "name": "Snow Yam",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Snow_Yam",
@@ -10898,7 +10845,7 @@
         }
     },
     {
-        "id": 237,
+        "id": 269,
         "name": "Crocus",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Crocus",
@@ -10958,7 +10905,7 @@
         }
     },
     {
-        "id": 238,
+        "id": 270,
         "name": "Holly",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Holly",
@@ -11015,7 +10962,7 @@
         }
     },
     {
-        "id": 239,
+        "id": 271,
         "name": "Nautilus Shell",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Nautilus_Shell",
@@ -11067,7 +11014,7 @@
         }
     },
     {
-        "id": 240,
+        "id": 272,
         "name": "Coral",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Coral",
@@ -11121,7 +11068,7 @@
         }
     },
     {
-        "id": 241,
+        "id": 273,
         "name": "Sea Urchin",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Sea_Urchin",
@@ -11171,7 +11118,7 @@
         }
     },
     {
-        "id": 242,
+        "id": 274,
         "name": "Rainbow Shell",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Rainbow_Shell",
@@ -11223,7 +11170,7 @@
         }
     },
     {
-        "id": 243,
+        "id": 275,
         "name": "Clam",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Clam",
@@ -11278,7 +11225,7 @@
         }
     },
     {
-        "id": 244,
+        "id": 276,
         "name": "Cockle",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Cockle",
@@ -11336,7 +11283,7 @@
         }
     },
     {
-        "id": 245,
+        "id": 277,
         "name": "Mussel",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Mussel",
@@ -11395,7 +11342,7 @@
         }
     },
     {
-        "id": 246,
+        "id": 278,
         "name": "Oyster",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Oyster",
@@ -11452,7 +11399,7 @@
         }
     },
     {
-        "id": 247,
+        "id": 279,
         "name": "Seaweed",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Seaweed",
@@ -11511,7 +11458,7 @@
         }
     },
     {
-        "id": 248,
+        "id": 280,
         "name": "Purple Mushroom",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Purple_Mushroom",
@@ -11574,7 +11521,7 @@
         }
     },
     {
-        "id": 249,
+        "id": 281,
         "name": "Cave Carrot",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Cave_Carrot",
@@ -11634,7 +11581,7 @@
         }
     },
     {
-        "id": 250,
+        "id": 282,
         "name": "Coconut",
         "type": "Forage",
         "link": "https://stardewvalleywiki.com/Coconut",
@@ -11696,7 +11643,7 @@
         }
     },
     {
-        "id": 289,
+        "id": 283,
         "name": "Mixed Seeds",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Mixed_Seeds",
@@ -11723,7 +11670,7 @@
         ]
     },
     {
-        "id": 290,
+        "id": 284,
         "name": "Apricot",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Apricot",
@@ -11787,7 +11734,7 @@
         }
     },
     {
-        "id": 291,
+        "id": 285,
         "name": "Apricot Sapling",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Apricot_Sapling",
@@ -11802,7 +11749,7 @@
         ]
     },
     {
-        "id": 292,
+        "id": 286,
         "name": "Cherry",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cherry",
@@ -11865,7 +11812,7 @@
         }
     },
     {
-        "id": 293,
+        "id": 287,
         "name": "Cherry Sapling",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Cherry_Sapling",
@@ -11880,7 +11827,7 @@
         ]
     },
     {
-        "id": 294,
+        "id": 288,
         "name": "Orange",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Orange",
@@ -11944,7 +11891,7 @@
         }
     },
     {
-        "id": 295,
+        "id": 289,
         "name": "Orange Sapling",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Orange_Sapling",
@@ -11959,7 +11906,7 @@
         ]
     },
     {
-        "id": 296,
+        "id": 290,
         "name": "Peach",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Peach",
@@ -12023,7 +11970,7 @@
         }
     },
     {
-        "id": 297,
+        "id": 291,
         "name": "Peach Sapling",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Peach_Sapling",
@@ -12038,7 +11985,7 @@
         ]
     },
     {
-        "id": 298,
+        "id": 292,
         "name": "Apple",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Apple",
@@ -12102,7 +12049,7 @@
         }
     },
     {
-        "id": 299,
+        "id": 293,
         "name": "Apple Sapling",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Apple_Sapling",
@@ -12117,7 +12064,7 @@
         ]
     },
     {
-        "id": 300,
+        "id": 294,
         "name": "Pomegranate",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Pomegranate",
@@ -12181,7 +12128,7 @@
         }
     },
     {
-        "id": 301,
+        "id": 295,
         "name": "Pomegranate Sapling",
         "type": "Crops",
         "link": "https://stardewvalleywiki.com/Pomegranate_Sapling",
@@ -12196,7 +12143,7 @@
         ]
     },
     {
-        "id": 302,
+        "id": 296,
         "name": "Pufferfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Pufferfish",
@@ -12259,7 +12206,7 @@
         }
     },
     {
-        "id": 303,
+        "id": 297,
         "name": "Anchovy",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Anchovy",
@@ -12322,7 +12269,7 @@
         }
     },
     {
-        "id": 304,
+        "id": 298,
         "name": "Tuna",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Tuna",
@@ -12386,7 +12333,7 @@
         }
     },
     {
-        "id": 305,
+        "id": 299,
         "name": "Sardine",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Sardine",
@@ -12450,7 +12397,7 @@
         }
     },
     {
-        "id": 306,
+        "id": 300,
         "name": "Bream",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Bream",
@@ -12515,7 +12462,7 @@
         }
     },
     {
-        "id": 307,
+        "id": 301,
         "name": "Smallmouth Bass",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Smallmouth_Bass",
@@ -12579,7 +12526,7 @@
         }
     },
     {
-        "id": 355,
+        "id": 302,
         "name": "Largemouth Bass",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Largemouth_Bass",
@@ -12643,7 +12590,7 @@
         }
     },
     {
-        "id": 308,
+        "id": 303,
         "name": "Rainbow Trout",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Rainbow_Trout",
@@ -12709,7 +12656,7 @@
         }
     },
     {
-        "id": 309,
+        "id": 304,
         "name": "Salmon",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Salmon",
@@ -12774,7 +12721,7 @@
         }
     },
     {
-        "id": 310,
+        "id": 305,
         "name": "Walleye",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Walleye",
@@ -12840,7 +12787,7 @@
         }
     },
     {
-        "id": 311,
+        "id": 306,
         "name": "Perch",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Perch",
@@ -12906,7 +12853,7 @@
         }
     },
     {
-        "id": 312,
+        "id": 307,
         "name": "Carp",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Carp",
@@ -12970,7 +12917,7 @@
         }
     },
     {
-        "id": 313,
+        "id": 308,
         "name": "Catfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Catfish",
@@ -13037,7 +12984,7 @@
         }
     },
     {
-        "id": 314,
+        "id": 309,
         "name": "Pike",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Pike",
@@ -13102,7 +13049,7 @@
         }
     },
     {
-        "id": 315,
+        "id": 310,
         "name": "Sunfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Sunfish",
@@ -13167,7 +13114,7 @@
         }
     },
     {
-        "id": 316,
+        "id": 311,
         "name": "Red Mullet",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Red_Mullet",
@@ -13230,7 +13177,7 @@
         }
     },
     {
-        "id": 317,
+        "id": 312,
         "name": "Herring",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Herring",
@@ -13293,7 +13240,7 @@
         }
     },
     {
-        "id": 318,
+        "id": 313,
         "name": "Eel",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Eel",
@@ -13358,7 +13305,7 @@
         }
     },
     {
-        "id": 319,
+        "id": 314,
         "name": "Octopus",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Octopus",
@@ -13419,7 +13366,7 @@
         }
     },
     {
-        "id": 320,
+        "id": 315,
         "name": "Red Snapper",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Red_Snapper",
@@ -13482,7 +13429,7 @@
         }
     },
     {
-        "id": 321,
+        "id": 316,
         "name": "Squid",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Squid",
@@ -13547,7 +13494,7 @@
         }
     },
     {
-        "id": 322,
+        "id": 317,
         "name": "Sea Cucumber",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Sea_Cucumber",
@@ -13611,7 +13558,7 @@
         }
     },
     {
-        "id": 323,
+        "id": 318,
         "name": "Super Cucumber",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Super_Cucumber",
@@ -13675,7 +13622,7 @@
         }
     },
     {
-        "id": 324,
+        "id": 319,
         "name": "Ghostfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Ghostfish",
@@ -13739,7 +13686,7 @@
         }
     },
     {
-        "id": 325,
+        "id": 320,
         "name": "Stonefish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Stonefish",
@@ -13798,7 +13745,7 @@
         }
     },
     {
-        "id": 326,
+        "id": 321,
         "name": "Ice Pip",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Ice_Pip",
@@ -13861,7 +13808,7 @@
         }
     },
     {
-        "id": 327,
+        "id": 322,
         "name": "Lava Eel",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Lava_Eel",
@@ -13924,7 +13871,7 @@
         }
     },
     {
-        "id": 328,
+        "id": 323,
         "name": "Sandfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Sandfish",
@@ -13988,7 +13935,7 @@
         }
     },
     {
-        "id": 329,
+        "id": 324,
         "name": "Scorpion Carp",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Scorpion_Carp",
@@ -14050,7 +13997,7 @@
         }
     },
     {
-        "id": 330,
+        "id": 325,
         "name": "Flounder",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Flounder",
@@ -14114,7 +14061,7 @@
         }
     },
     {
-        "id": 331,
+        "id": 326,
         "name": "Midnight Carp",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Midnight_Carp",
@@ -14179,7 +14126,7 @@
         }
     },
     {
-        "id": 332,
+        "id": 327,
         "name": "Sturgeon",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Sturgeon",
@@ -14243,7 +14190,7 @@
         }
     },
     {
-        "id": 333,
+        "id": 328,
         "name": "Tiger Trout",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Tiger_Trout",
@@ -14308,7 +14255,7 @@
         }
     },
     {
-        "id": 334,
+        "id": 329,
         "name": "Bullhead",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Bullhead",
@@ -14371,7 +14318,7 @@
         }
     },
     {
-        "id": 335,
+        "id": 330,
         "name": "Tilapia",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Tilapia",
@@ -14434,7 +14381,7 @@
         }
     },
     {
-        "id": 336,
+        "id": 331,
         "name": "Chub",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Chub",
@@ -14499,7 +14446,7 @@
         }
     },
     {
-        "id": 337,
+        "id": 332,
         "name": "Dorado",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Dorado",
@@ -14562,7 +14509,7 @@
         }
     },
     {
-        "id": 338,
+        "id": 333,
         "name": "Albacore",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Albacore",
@@ -14626,7 +14573,7 @@
         }
     },
     {
-        "id": 339,
+        "id": 334,
         "name": "Shad",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Shad",
@@ -14690,7 +14637,7 @@
         }
     },
     {
-        "id": 340,
+        "id": 335,
         "name": "Lingcod",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Lingcod",
@@ -14756,7 +14703,7 @@
         }
     },
     {
-        "id": 341,
+        "id": 336,
         "name": "Halibut",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Halibut",
@@ -14820,7 +14767,7 @@
         }
     },
     {
-        "id": 342,
+        "id": 337,
         "name": "Woodskip",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Woodskip",
@@ -14883,7 +14830,7 @@
         }
     },
     {
-        "id": 343,
+        "id": 338,
         "name": "Void Salmon",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Void_Salmon",
@@ -14946,7 +14893,7 @@
         }
     },
     {
-        "id": 344,
+        "id": 339,
         "name": "Slimejack",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Slimejack",
@@ -15009,7 +14956,7 @@
         }
     },
     {
-        "id": 345,
+        "id": 340,
         "name": "Midnight Squid",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Midnight_Squid",
@@ -15072,7 +15019,7 @@
         }
     },
     {
-        "id": 346,
+        "id": 341,
         "name": "Spook Fish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Spook_Fish",
@@ -15135,7 +15082,7 @@
         }
     },
     {
-        "id": 347,
+        "id": 342,
         "name": "Blobfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Blobfish",
@@ -15198,7 +15145,7 @@
         }
     },
     {
-        "id": 348,
+        "id": 343,
         "name": "Crimsonfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Crimsonfish",
@@ -15260,7 +15207,7 @@
         }
     },
     {
-        "id": 349,
+        "id": 344,
         "name": "Angler",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Angler",
@@ -15322,7 +15269,7 @@
         }
     },
     {
-        "id": 350,
+        "id": 345,
         "name": "Legend",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Legend",
@@ -15384,7 +15331,7 @@
         }
     },
     {
-        "id": 351,
+        "id": 346,
         "name": "Glacierfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Glacierfish",
@@ -15446,7 +15393,7 @@
         }
     },
     {
-        "id": 352,
+        "id": 347,
         "name": "Mutant Carp",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Mutant_Carp",
@@ -15508,7 +15455,7 @@
         }
     },
     {
-        "id": 353,
+        "id": 348,
         "name": "Green Algae",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Green_Algae",
@@ -15569,7 +15516,7 @@
         }
     },
     {
-        "id": 354,
+        "id": 349,
         "name": "White Algae",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/White_Algae",
@@ -15632,7 +15579,7 @@
         }
     },
     {
-        "id": 356,
+        "id": 350,
         "name": "Lobster",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Lobster",
@@ -15693,7 +15640,7 @@
         }
     },
     {
-        "id": 357,
+        "id": 351,
         "name": "Crayfish",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Crayfish",
@@ -15753,7 +15700,7 @@
         }
     },
     {
-        "id": 358,
+        "id": 352,
         "name": "Crab",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Crab",
@@ -15813,7 +15760,7 @@
         }
     },
     {
-        "id": 359,
+        "id": 353,
         "name": "Shrimp",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Shrimp",
@@ -15874,7 +15821,7 @@
         }
     },
     {
-        "id": 360,
+        "id": 354,
         "name": "Snail",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Snail",
@@ -15933,7 +15880,7 @@
         }
     },
     {
-        "id": 361,
+        "id": 355,
         "name": "Periwinkle",
         "type": "Fish",
         "link": "https://stardewvalleywiki.com/Periwinkle",
@@ -15994,7 +15941,7 @@
         }
     },
     {
-        "id": 362,
+        "id": 356,
         "name": "Lead Bobber",
         "type": "Fishing Tackle",
         "link": "https://stardewvalleywiki.com/Lead_Bobber",
@@ -16004,7 +15951,7 @@
         ]
     },
     {
-        "id": 363,
+        "id": 357,
         "name": "Oak Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Oak_Chair",
@@ -16014,7 +15961,7 @@
         ]
     },
     {
-        "id": 364,
+        "id": 358,
         "name": "Walnut Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Walnut_Chair",
@@ -16024,7 +15971,7 @@
         ]
     },
     {
-        "id": 365,
+        "id": 359,
         "name": "Birch Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Birch_Chair",
@@ -16034,7 +15981,7 @@
         ]
     },
     {
-        "id": 366,
+        "id": 360,
         "name": "Mahogany Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mahogany_Chair",
@@ -16044,7 +15991,7 @@
         ]
     },
     {
-        "id": 367,
+        "id": 361,
         "name": "Red Diner Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Red_Diner_Chair",
@@ -16054,7 +16001,7 @@
         ]
     },
     {
-        "id": 368,
+        "id": 362,
         "name": "Blue Diner Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Blue_Diner_Chair",
@@ -16064,7 +16011,7 @@
         ]
     },
     {
-        "id": 369,
+        "id": 363,
         "name": "Country Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Country_Chair",
@@ -16074,7 +16021,7 @@
         ]
     },
     {
-        "id": 370,
+        "id": 364,
         "name": "Breakfast Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Breakfast_Chair",
@@ -16084,7 +16031,7 @@
         ]
     },
     {
-        "id": 371,
+        "id": 365,
         "name": "Pink Office Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Pink_Office_Chair",
@@ -16094,7 +16041,7 @@
         ]
     },
     {
-        "id": 372,
+        "id": 366,
         "name": "Purple Office Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Purple_Office_Chair",
@@ -16104,7 +16051,7 @@
         ]
     },
     {
-        "id": 373,
+        "id": 367,
         "name": "Green Office Stool",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Office_Stool",
@@ -16114,7 +16061,7 @@
         ]
     },
     {
-        "id": 374,
+        "id": 368,
         "name": "Orange Office Stool",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Orange_Office_Stool",
@@ -16124,7 +16071,7 @@
         ]
     },
     {
-        "id": 375,
+        "id": 369,
         "name": "Dark Throne",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dark_Throne",
@@ -16134,7 +16081,7 @@
         ]
     },
     {
-        "id": 376,
+        "id": 370,
         "name": "Dining Chair (yellow)",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dining_Chair_(yellow)",
@@ -16144,7 +16091,7 @@
         ]
     },
     {
-        "id": 377,
+        "id": 371,
         "name": "Dining Chair (red)",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dining_Chair_(red)",
@@ -16154,7 +16101,7 @@
         ]
     },
     {
-        "id": 378,
+        "id": 372,
         "name": "Green Plush Seat",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Plush_Seat",
@@ -16164,7 +16111,7 @@
         ]
     },
     {
-        "id": 379,
+        "id": 373,
         "name": "Pink Plush Seat",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Pink_Plush_Seat",
@@ -16174,7 +16121,7 @@
         ]
     },
     {
-        "id": 380,
+        "id": 374,
         "name": "Winter Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Winter_Chair",
@@ -16184,7 +16131,7 @@
         ]
     },
     {
-        "id": 381,
+        "id": 375,
         "name": "Groovy Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Groovy_Chair",
@@ -16194,7 +16141,7 @@
         ]
     },
     {
-        "id": 382,
+        "id": 376,
         "name": "Cute Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Cute_Chair",
@@ -16204,7 +16151,7 @@
         ]
     },
     {
-        "id": 383,
+        "id": 377,
         "name": "Stump Seat",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stump_Seat",
@@ -16214,7 +16161,7 @@
         ]
     },
     {
-        "id": 384,
+        "id": 378,
         "name": "Metal Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Metal_Chair",
@@ -16224,7 +16171,7 @@
         ]
     },
     {
-        "id": 385,
+        "id": 379,
         "name": "Green Stool",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Stool",
@@ -16234,7 +16181,7 @@
         ]
     },
     {
-        "id": 386,
+        "id": 380,
         "name": "Blue Stool",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Blue_Stool",
@@ -16244,7 +16191,7 @@
         ]
     },
     {
-        "id": 387,
+        "id": 381,
         "name": "King Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/King_Chair",
@@ -16254,7 +16201,7 @@
         ]
     },
     {
-        "id": 388,
+        "id": 382,
         "name": "Crystal Chair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Crystal_Chair",
@@ -16263,7 +16210,7 @@
         ]
     },
     {
-        "id": 389,
+        "id": 383,
         "name": "Birch Bench",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Birch_Bench",
@@ -16273,7 +16220,7 @@
         ]
     },
     {
-        "id": 390,
+        "id": 384,
         "name": "Oak Bench",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Oak_Bench",
@@ -16283,7 +16230,7 @@
         ]
     },
     {
-        "id": 391,
+        "id": 385,
         "name": "Walnut Bench",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Walnut_Bench",
@@ -16293,7 +16240,7 @@
         ]
     },
     {
-        "id": 392,
+        "id": 386,
         "name": "Mahogany Bench",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mahogany_Bench",
@@ -16303,7 +16250,7 @@
         ]
     },
     {
-        "id": 393,
+        "id": 387,
         "name": "Modern Bench",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Modern_Bench",
@@ -16313,7 +16260,7 @@
         ]
     },
     {
-        "id": 394,
+        "id": 388,
         "name": "Blue Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Blue_Couch",
@@ -16323,7 +16270,7 @@
         ]
     },
     {
-        "id": 395,
+        "id": 389,
         "name": "Brown Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Brown_Couch",
@@ -16333,7 +16280,7 @@
         ]
     },
     {
-        "id": 396,
+        "id": 390,
         "name": "Green Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Couch",
@@ -16343,7 +16290,7 @@
         ]
     },
     {
-        "id": 397,
+        "id": 391,
         "name": "Red Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Red_Couch",
@@ -16353,7 +16300,7 @@
         ]
     },
     {
-        "id": 398,
+        "id": 392,
         "name": "Yellow Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Yellow_Couch",
@@ -16363,7 +16310,7 @@
         ]
     },
     {
-        "id": 399,
+        "id": 393,
         "name": "Dark Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dark_Couch",
@@ -16373,7 +16320,7 @@
         ]
     },
     {
-        "id": 400,
+        "id": 394,
         "name": "Woodsy Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Woodsy_Couch",
@@ -16383,7 +16330,7 @@
         ]
     },
     {
-        "id": 401,
+        "id": 395,
         "name": "Wizard Couch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Wizard_Couch",
@@ -16393,7 +16340,7 @@
         ]
     },
     {
-        "id": 402,
+        "id": 396,
         "name": "Blue Armchair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Blue_Armchair",
@@ -16403,7 +16350,7 @@
         ]
     },
     {
-        "id": 403,
+        "id": 397,
         "name": "Brown Armchair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Brown_Armchair",
@@ -16413,7 +16360,7 @@
         ]
     },
     {
-        "id": 404,
+        "id": 398,
         "name": "Green Armchair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Armchair",
@@ -16423,7 +16370,7 @@
         ]
     },
     {
-        "id": 405,
+        "id": 399,
         "name": "Red Armchair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Red_Armchair",
@@ -16433,7 +16380,7 @@
         ]
     },
     {
-        "id": 406,
+        "id": 400,
         "name": "Yellow Armchair",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Yellow_Armchair",
@@ -16443,7 +16390,7 @@
         ]
     },
     {
-        "id": 407,
+        "id": 401,
         "name": "Oak Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Oak_Table",
@@ -16453,7 +16400,7 @@
         ]
     },
     {
-        "id": 408,
+        "id": 402,
         "name": "Oak Tea-Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Oak_Tea-Table",
@@ -16463,7 +16410,7 @@
         ]
     },
     {
-        "id": 409,
+        "id": 403,
         "name": "Oak End Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Oak_End_Table",
@@ -16473,7 +16420,7 @@
         ]
     },
     {
-        "id": 410,
+        "id": 404,
         "name": "Birch Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Birch_Table",
@@ -16483,7 +16430,7 @@
         ]
     },
     {
-        "id": 411,
+        "id": 405,
         "name": "Birch Tea-Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Birch_Tea-Table",
@@ -16493,7 +16440,7 @@
         ]
     },
     {
-        "id": 412,
+        "id": 406,
         "name": "Birch End Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Birch_End_Table",
@@ -16503,7 +16450,7 @@
         ]
     },
     {
-        "id": 413,
+        "id": 407,
         "name": "Mahogany Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mahogany_Table",
@@ -16513,7 +16460,7 @@
         ]
     },
     {
-        "id": 414,
+        "id": 408,
         "name": "Mahogany Tea-Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mahogany_Tea-Table",
@@ -16523,7 +16470,7 @@
         ]
     },
     {
-        "id": 415,
+        "id": 409,
         "name": "Mahogany End Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mahogany_End_Table",
@@ -16533,7 +16480,7 @@
         ]
     },
     {
-        "id": 416,
+        "id": 410,
         "name": "Walnut Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Walnut_Table",
@@ -16543,7 +16490,7 @@
         ]
     },
     {
-        "id": 417,
+        "id": 411,
         "name": "Walnut Tea-Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Walnut_Tea-Table",
@@ -16553,7 +16500,7 @@
         ]
     },
     {
-        "id": 418,
+        "id": 412,
         "name": "Walnut End Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Walnut_End_Table",
@@ -16563,7 +16510,7 @@
         ]
     },
     {
-        "id": 419,
+        "id": 413,
         "name": "Modern Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Modern_Table",
@@ -16573,7 +16520,7 @@
         ]
     },
     {
-        "id": 420,
+        "id": 414,
         "name": "Modern Tea-Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Modern_Tea-Table",
@@ -16583,7 +16530,7 @@
         ]
     },
     {
-        "id": 421,
+        "id": 415,
         "name": "Modern End Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Modern_End_Table",
@@ -16593,7 +16540,7 @@
         ]
     },
     {
-        "id": 422,
+        "id": 416,
         "name": "Puzzle Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Puzzle_Table",
@@ -16603,7 +16550,7 @@
         ]
     },
     {
-        "id": 423,
+        "id": 417,
         "name": "Moon Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Moon_Table",
@@ -16613,7 +16560,7 @@
         ]
     },
     {
-        "id": 424,
+        "id": 418,
         "name": "Luxury Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Luxury_Table",
@@ -16623,7 +16570,7 @@
         ]
     },
     {
-        "id": 425,
+        "id": 419,
         "name": "Diviner Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Diviner_Table",
@@ -16633,7 +16580,7 @@
         ]
     },
     {
-        "id": 426,
+        "id": 420,
         "name": "Grandmother End Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Grandmother_End_Table",
@@ -16643,7 +16590,7 @@
         ]
     },
     {
-        "id": 427,
+        "id": 421,
         "name": "Pub Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Pub_Table",
@@ -16653,7 +16600,7 @@
         ]
     },
     {
-        "id": 428,
+        "id": 422,
         "name": "Luau Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Luau_Table",
@@ -16663,7 +16610,7 @@
         ]
     },
     {
-        "id": 429,
+        "id": 423,
         "name": "Dark Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dark_Table",
@@ -16673,7 +16620,7 @@
         ]
     },
     {
-        "id": 430,
+        "id": 424,
         "name": "Candy Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Candy_Table",
@@ -16683,7 +16630,7 @@
         ]
     },
     {
-        "id": 431,
+        "id": 425,
         "name": "Sun Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Sun_Table",
@@ -16693,7 +16640,7 @@
         ]
     },
     {
-        "id": 432,
+        "id": 426,
         "name": "Winter Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Winter_Table",
@@ -16703,7 +16650,7 @@
         ]
     },
     {
-        "id": 433,
+        "id": 427,
         "name": "Winter End Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Winter_End_Table",
@@ -16713,7 +16660,7 @@
         ]
     },
     {
-        "id": 434,
+        "id": 428,
         "name": "Neolithic Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Neolithic_Table",
@@ -16723,7 +16670,7 @@
         ]
     },
     {
-        "id": 435,
+        "id": 429,
         "name": "Coffee Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Coffee_Table",
@@ -16733,7 +16680,7 @@
         ]
     },
     {
-        "id": 436,
+        "id": 430,
         "name": "Stone Slab",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stone_Slab",
@@ -16743,7 +16690,7 @@
         ]
     },
     {
-        "id": 437,
+        "id": 431,
         "name": "Modern Dining Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Modern_Dining_Table",
@@ -16753,7 +16700,7 @@
         ]
     },
     {
-        "id": 438,
+        "id": 432,
         "name": "Mahogany Dining Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mahogany_Dining_Table",
@@ -16763,7 +16710,7 @@
         ]
     },
     {
-        "id": 439,
+        "id": 433,
         "name": "Festive Dining Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Festive_Dining_Table",
@@ -16773,7 +16720,7 @@
         ]
     },
     {
-        "id": 440,
+        "id": 434,
         "name": "Winter Dining Table",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Winter_Dining_Table",
@@ -16783,7 +16730,7 @@
         ]
     },
     {
-        "id": 441,
+        "id": 435,
         "name": "Artist Bookcase",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Artist_Bookcase",
@@ -16793,7 +16740,7 @@
         ]
     },
     {
-        "id": 442,
+        "id": 436,
         "name": "Modern Bookcase",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Modern_Bookcase",
@@ -16803,7 +16750,7 @@
         ]
     },
     {
-        "id": 443,
+        "id": 437,
         "name": "Luxury Bookcase",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Luxury_Bookcase",
@@ -16813,7 +16760,7 @@
         ]
     },
     {
-        "id": 444,
+        "id": 438,
         "name": "Dark Bookcase",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dark_Bookcase",
@@ -16823,7 +16770,7 @@
         ]
     },
     {
-        "id": 445,
+        "id": 439,
         "name": "Birch Dresser",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Birch_Dresser",
@@ -16833,7 +16780,7 @@
         ]
     },
     {
-        "id": 446,
+        "id": 440,
         "name": "Oak Dresser",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Oak_Dresser",
@@ -16843,7 +16790,7 @@
         ]
     },
     {
-        "id": 447,
+        "id": 441,
         "name": "Walnut Dresser",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Walnut_Dresser",
@@ -16853,7 +16800,7 @@
         ]
     },
     {
-        "id": 448,
+        "id": 442,
         "name": "Mahogany Dresser",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mahogany_Dresser",
@@ -16863,7 +16810,7 @@
         ]
     },
     {
-        "id": 449,
+        "id": 443,
         "name": "Brick Fireplace",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Brick_Fireplace",
@@ -16873,7 +16820,7 @@
         ]
     },
     {
-        "id": 450,
+        "id": 444,
         "name": "Elegant Fireplace",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Elegant_Fireplace",
@@ -16882,7 +16829,7 @@
         ]
     },
     {
-        "id": 451,
+        "id": 445,
         "name": "Iridium Fireplace",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Iridium_Fireplace",
@@ -16891,7 +16838,7 @@
         ]
     },
     {
-        "id": 452,
+        "id": 446,
         "name": "Monster Fireplace",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Monster_Fireplace",
@@ -16900,7 +16847,7 @@
         ]
     },
     {
-        "id": 453,
+        "id": 447,
         "name": "Stone Fireplace",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stone_Fireplace",
@@ -16910,7 +16857,7 @@
         ]
     },
     {
-        "id": 454,
+        "id": 448,
         "name": "Stove Fireplace",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stove_Fireplace",
@@ -16919,7 +16866,7 @@
         ]
     },
     {
-        "id": 455,
+        "id": 449,
         "name": "Bamboo Mat",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Bamboo_Mat",
@@ -16929,7 +16876,7 @@
         ]
     },
     {
-        "id": 456,
+        "id": 450,
         "name": "Burlap Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Burlap_Rug",
@@ -16939,7 +16886,7 @@
         ]
     },
     {
-        "id": 457,
+        "id": 451,
         "name": "Woodcut Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Woodcut_Rug",
@@ -16949,7 +16896,7 @@
         ]
     },
     {
-        "id": 458,
+        "id": 452,
         "name": "Nautical Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Nautical_Rug",
@@ -16959,7 +16906,7 @@
         ]
     },
     {
-        "id": 459,
+        "id": 453,
         "name": "Dark Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dark_Rug",
@@ -16969,7 +16916,7 @@
         ]
     },
     {
-        "id": 460,
+        "id": 454,
         "name": "Patchwork Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Patchwork_Rug",
@@ -16979,7 +16926,7 @@
         ]
     },
     {
-        "id": 461,
+        "id": 455,
         "name": "Red Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Red_Rug",
@@ -16989,7 +16936,7 @@
         ]
     },
     {
-        "id": 462,
+        "id": 456,
         "name": "Monster Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Monster_Rug",
@@ -16998,7 +16945,7 @@
         ]
     },
     {
-        "id": 463,
+        "id": 457,
         "name": "Green Cottage Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Cottage_Rug",
@@ -17007,7 +16954,7 @@
         ]
     },
     {
-        "id": 464,
+        "id": 458,
         "name": "Red Cottage Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Red_Cottage_Rug",
@@ -17016,7 +16963,7 @@
         ]
     },
     {
-        "id": 465,
+        "id": 459,
         "name": "Mystic Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mystic_Rug",
@@ -17025,7 +16972,7 @@
         ]
     },
     {
-        "id": 466,
+        "id": 460,
         "name": "Bone Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Bone_Rug",
@@ -17034,7 +16981,7 @@
         ]
     },
     {
-        "id": 467,
+        "id": 461,
         "name": "Snowy Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Snowy_Rug",
@@ -17043,7 +16990,7 @@
         ]
     },
     {
-        "id": 468,
+        "id": 462,
         "name": "Pirate Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Pirate_Rug",
@@ -17052,7 +16999,7 @@
         ]
     },
     {
-        "id": 469,
+        "id": 463,
         "name": "Fruit Salad Rug",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Fruit_Salad_Rug",
@@ -17061,7 +17008,7 @@
         ]
     },
     {
-        "id": 470,
+        "id": 464,
         "name": "Country Lamp",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Country_Lamp",
@@ -17071,7 +17018,7 @@
         ]
     },
     {
-        "id": 471,
+        "id": 465,
         "name": "Modern Lamp",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Modern_Lamp",
@@ -17081,7 +17028,7 @@
         ]
     },
     {
-        "id": 472,
+        "id": 466,
         "name": "Classic Lamp",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Classic_Lamp",
@@ -17091,7 +17038,7 @@
         ]
     },
     {
-        "id": 473,
+        "id": 467,
         "name": "Box Lamp",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Box_Lamp",
@@ -17101,7 +17048,7 @@
         ]
     },
     {
-        "id": 474,
+        "id": 468,
         "name": "Candle Lamp",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Candle_Lamp",
@@ -17111,7 +17058,7 @@
         ]
     },
     {
-        "id": 475,
+        "id": 469,
         "name": "Ornate Lamp",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Ornate_Lamp",
@@ -17121,7 +17068,7 @@
         ]
     },
     {
-        "id": 476,
+        "id": 470,
         "name": "Basic Window",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Basic_Window",
@@ -17131,7 +17078,7 @@
         ]
     },
     {
-        "id": 477,
+        "id": 471,
         "name": "Small Window",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Small_Window",
@@ -17141,7 +17088,7 @@
         ]
     },
     {
-        "id": 478,
+        "id": 472,
         "name": "Boarded Window",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Boarded_Window",
@@ -17151,7 +17098,7 @@
         ]
     },
     {
-        "id": 479,
+        "id": 473,
         "name": "Carved Window",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Carved_Window",
@@ -17161,7 +17108,7 @@
         ]
     },
     {
-        "id": 480,
+        "id": 474,
         "name": "Metal Window",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Metal_Window",
@@ -17171,7 +17118,7 @@
         ]
     },
     {
-        "id": 481,
+        "id": 475,
         "name": "Ornate Window",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Ornate_Window",
@@ -17181,7 +17128,7 @@
         ]
     },
     {
-        "id": 482,
+        "id": 476,
         "name": "Porthole",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Porthole",
@@ -17191,7 +17138,7 @@
         ]
     },
     {
-        "id": 483,
+        "id": 477,
         "name": "Floor TV",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Floor_TV",
@@ -17201,7 +17148,7 @@
         ]
     },
     {
-        "id": 484,
+        "id": 478,
         "name": "Budget TV",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Budget_TV",
@@ -17211,7 +17158,7 @@
         ]
     },
     {
-        "id": 485,
+        "id": 479,
         "name": "Plasma TV",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Plasma_TV",
@@ -17221,7 +17168,7 @@
         ]
     },
     {
-        "id": 486,
+        "id": 480,
         "name": "Dried Sunflowers",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Dried_Sunflowers",
@@ -17231,7 +17178,7 @@
         ]
     },
     {
-        "id": 487,
+        "id": 481,
         "name": "Bonsai Tree",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Bonsai_Tree",
@@ -17241,7 +17188,7 @@
         ]
     },
     {
-        "id": 488,
+        "id": 482,
         "name": "S. Pine",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/S._Pine",
@@ -17251,7 +17198,7 @@
         ]
     },
     {
-        "id": 489,
+        "id": 483,
         "name": "L. Light String",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/L._Light_String",
@@ -17261,7 +17208,7 @@
         ]
     },
     {
-        "id": 490,
+        "id": 484,
         "name": "Tree Column",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Tree_Column",
@@ -17271,7 +17218,7 @@
         ]
     },
     {
-        "id": 491,
+        "id": 485,
         "name": "Small Plant",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Small_Plant",
@@ -17281,7 +17228,7 @@
         ]
     },
     {
-        "id": 492,
+        "id": 486,
         "name": "Table Plant",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Table_Plant",
@@ -17291,7 +17238,7 @@
         ]
     },
     {
-        "id": 493,
+        "id": 487,
         "name": "Deluxe Tree",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Deluxe_Tree",
@@ -17300,7 +17247,7 @@
         ]
     },
     {
-        "id": 494,
+        "id": 488,
         "name": "Exotic Tree",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Exotic_Tree",
@@ -17309,7 +17256,7 @@
         ]
     },
     {
-        "id": 495,
+        "id": 489,
         "name": "Indoor Hanging Basket",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Indoor_Hanging_Basket",
@@ -17318,7 +17265,7 @@
         ]
     },
     {
-        "id": 496,
+        "id": 490,
         "name": "Indoor Palm",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Indoor_Palm",
@@ -17328,7 +17275,7 @@
         ]
     },
     {
-        "id": 497,
+        "id": 491,
         "name": "Topiary Tree",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Topiary_Tree",
@@ -17338,7 +17285,7 @@
         ]
     },
     {
-        "id": 498,
+        "id": 492,
         "name": "Manicured Pine",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Manicured_Pine",
@@ -17348,7 +17295,7 @@
         ]
     },
     {
-        "id": 499,
+        "id": 493,
         "name": "Tree of the Winter Star",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Tree_of_the_Winter_Star",
@@ -17358,7 +17305,7 @@
         ]
     },
     {
-        "id": 500,
+        "id": 494,
         "name": "Long Cactus",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Long_Cactus",
@@ -17367,7 +17314,7 @@
         ]
     },
     {
-        "id": 501,
+        "id": 495,
         "name": "Long Palm",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Long_Palm",
@@ -17376,7 +17323,7 @@
         ]
     },
     {
-        "id": 502,
+        "id": 496,
         "name": "'A Night On Eco-Hill'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27A_Night_On_Eco-Hill%27",
@@ -17385,7 +17332,7 @@
         ]
     },
     {
-        "id": 503,
+        "id": 497,
         "name": "'Jade Hills'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Jade_Hills%27",
@@ -17394,7 +17341,7 @@
         ]
     },
     {
-        "id": 504,
+        "id": 498,
         "name": "'Burnt Offering'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Burnt_Offering%27",
@@ -17403,7 +17350,7 @@
         ]
     },
     {
-        "id": 505,
+        "id": 499,
         "name": "'Highway 89'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Highway_89%27",
@@ -17413,7 +17360,7 @@
         ]
     },
     {
-        "id": 506,
+        "id": 500,
         "name": "'Primal Motion'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Primal_Motion%27",
@@ -17423,7 +17370,7 @@
         ]
     },
     {
-        "id": 507,
+        "id": 501,
         "name": "'Spires'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Spires%27",
@@ -17434,7 +17381,7 @@
         ]
     },
     {
-        "id": 508,
+        "id": 502,
         "name": "'Queen of the Gem Sea'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Queen_of_the_Gem_Sea%27",
@@ -17444,7 +17391,7 @@
         ]
     },
     {
-        "id": 509,
+        "id": 503,
         "name": "'Pathways'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Pathways%27",
@@ -17454,7 +17401,7 @@
         ]
     },
     {
-        "id": 510,
+        "id": 504,
         "name": "'The Muzzamaroo'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27The_Muzzamaroo%27",
@@ -17464,7 +17411,7 @@
         ]
     },
     {
-        "id": 511,
+        "id": 505,
         "name": "'Vanilla Villa'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Vanilla_Villa%27",
@@ -17474,7 +17421,7 @@
         ]
     },
     {
-        "id": 512,
+        "id": 506,
         "name": "'VGA Paradise'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27VGA_Paradise%27",
@@ -17484,7 +17431,7 @@
         ]
     },
     {
-        "id": 513,
+        "id": 507,
         "name": "'Kitemaster '95'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Kitemaster_%2795%27",
@@ -17494,7 +17441,7 @@
         ]
     },
     {
-        "id": 514,
+        "id": 508,
         "name": "'Sun 44'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Sun_44%27",
@@ -17504,7 +17451,7 @@
         ]
     },
     {
-        "id": 515,
+        "id": 509,
         "name": "Calico Falls",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Calico_Falls",
@@ -17515,7 +17462,7 @@
         ]
     },
     {
-        "id": 516,
+        "id": 510,
         "name": "'Sun 45'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Sun_45%27",
@@ -17526,7 +17473,7 @@
         ]
     },
     {
-        "id": 517,
+        "id": 511,
         "name": "'Blue City'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Blue_City%27",
@@ -17537,7 +17484,7 @@
         ]
     },
     {
-        "id": 518,
+        "id": 512,
         "name": "'Blueberries'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Blueberries%27",
@@ -17548,7 +17495,7 @@
         ]
     },
     {
-        "id": 519,
+        "id": 513,
         "name": "'Little Tree'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Little_Tree%27",
@@ -17559,7 +17506,7 @@
         ]
     },
     {
-        "id": 520,
+        "id": 514,
         "name": "Needlepoint Flower",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Needlepoint_Flower",
@@ -17570,7 +17517,7 @@
         ]
     },
     {
-        "id": 521,
+        "id": 515,
         "name": "'Dancing Grass'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Dancing_Grass%27",
@@ -17581,7 +17528,7 @@
         ]
     },
     {
-        "id": 522,
+        "id": 516,
         "name": "My First Painting",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/My_First_Painting",
@@ -17590,7 +17537,7 @@
         ]
     },
     {
-        "id": 523,
+        "id": 517,
         "name": "'Red Eagle'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Red_Eagle%27",
@@ -17599,7 +17546,7 @@
         ]
     },
     {
-        "id": 524,
+        "id": 518,
         "name": "'Portrait Of A Mermaid'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Portrait_Of_A_Mermaid%27",
@@ -17608,7 +17555,7 @@
         ]
     },
     {
-        "id": 525,
+        "id": 519,
         "name": "'Solar Kingdom'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Solar_Kingdom%27",
@@ -17617,7 +17564,7 @@
         ]
     },
     {
-        "id": 526,
+        "id": 520,
         "name": "'Clouds'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Clouds%27",
@@ -17626,7 +17573,7 @@
         ]
     },
     {
-        "id": 527,
+        "id": 521,
         "name": "'1000 Years From Now'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%271000_Years_From_Now%27",
@@ -17635,7 +17582,7 @@
         ]
     },
     {
-        "id": 528,
+        "id": 522,
         "name": "'Three Trees'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Three_Trees%27",
@@ -17644,7 +17591,7 @@
         ]
     },
     {
-        "id": 529,
+        "id": 523,
         "name": "'The Serpent'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27The_Serpent%27",
@@ -17653,7 +17600,7 @@
         ]
     },
     {
-        "id": 530,
+        "id": 524,
         "name": "'Tropical Fish 173'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Tropical_Fish_173%27",
@@ -17662,7 +17609,7 @@
         ]
     },
     {
-        "id": 531,
+        "id": 525,
         "name": "'Land Of Clay'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Land_Of_Clay%27",
@@ -17671,7 +17618,7 @@
         ]
     },
     {
-        "id": 532,
+        "id": 526,
         "name": "'It Howls In The Rain'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27It_Howls_In_The_Rain%27",
@@ -17680,7 +17627,7 @@
         ]
     },
     {
-        "id": 533,
+        "id": 527,
         "name": "'Journey Of The Prairie King: The Motion Picture'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Journey_Of_The_Prairie_King:_The_Motion_Picture%27",
@@ -17689,7 +17636,7 @@
         ]
     },
     {
-        "id": 534,
+        "id": 528,
         "name": "'Mysterium'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Mysterium%27",
@@ -17698,7 +17645,7 @@
         ]
     },
     {
-        "id": 535,
+        "id": 529,
         "name": "'Natural Wonders: Exploring Our Vibrant World'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Natural_Wonders:_Exploring_Our_Vibrant_World%27",
@@ -17707,7 +17654,7 @@
         ]
     },
     {
-        "id": 536,
+        "id": 530,
         "name": "'The Brave Little Sapling'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27The_Brave_Little_Sapling%27",
@@ -17716,7 +17663,7 @@
         ]
     },
     {
-        "id": 537,
+        "id": 531,
         "name": "'The Miracle At Coldstar Ranch'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27The_Miracle_At_Coldstar_Ranch%27",
@@ -17725,7 +17672,7 @@
         ]
     },
     {
-        "id": 538,
+        "id": 532,
         "name": "'The Zuzu City Express'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27The_Zuzu_City_Express%27",
@@ -17734,7 +17681,7 @@
         ]
     },
     {
-        "id": 539,
+        "id": 533,
         "name": "'Wumbus'",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%27Wumbus%27",
@@ -17743,7 +17690,7 @@
         ]
     },
     {
-        "id": 540,
+        "id": 534,
         "name": "Calendar",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Calendar",
@@ -17753,7 +17700,7 @@
         ]
     },
     {
-        "id": 541,
+        "id": 535,
         "name": "Little Photos",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Little_Photos",
@@ -17763,7 +17710,7 @@
         ]
     },
     {
-        "id": 542,
+        "id": 536,
         "name": "Skull Poster",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Skull_Poster",
@@ -17773,7 +17720,7 @@
         ]
     },
     {
-        "id": 543,
+        "id": 537,
         "name": "Wallflower Pal",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Wallflower_Pal",
@@ -17783,7 +17730,7 @@
         ]
     },
     {
-        "id": 544,
+        "id": 538,
         "name": "World Map",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/World_Map",
@@ -17793,7 +17740,7 @@
         ]
     },
     {
-        "id": 545,
+        "id": 539,
         "name": "J. Cola Light",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/J._Cola_Light",
@@ -17803,7 +17750,7 @@
         ]
     },
     {
-        "id": 546,
+        "id": 540,
         "name": "Ceiling Flags",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Ceiling_Flags",
@@ -17813,7 +17760,7 @@
         ]
     },
     {
-        "id": 547,
+        "id": 541,
         "name": "Hanging Shield",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Hanging_Shield",
@@ -17823,7 +17770,7 @@
         ]
     },
     {
-        "id": 548,
+        "id": 542,
         "name": "Monster Danglers",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Monster_Danglers",
@@ -17833,7 +17780,7 @@
         ]
     },
     {
-        "id": 549,
+        "id": 543,
         "name": "Miner's Crest",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Miner%27s_Crest",
@@ -17843,17 +17790,7 @@
         ]
     },
     {
-        "id": 550,
-        "name": "L. Light String",
-        "type": "Furniture",
-        "link": "https://stardewvalleywiki.com/L._Light_String",
-        "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (400g)",
-            "Furniture Catalogue (0g)"
-        ]
-    },
-    {
-        "id": 552,
+        "id": 544,
         "name": "Night Sky Decal 1",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Night_Sky_Decal_1",
@@ -17862,7 +17799,7 @@
         ]
     },
     {
-        "id": 553,
+        "id": 545,
         "name": "Night Sky Decal 2",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Night_Sky_Decal_2",
@@ -17871,7 +17808,7 @@
         ]
     },
     {
-        "id": 554,
+        "id": 546,
         "name": "Night Sky Decal 3",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Night_Sky_Decal_3",
@@ -17880,7 +17817,7 @@
         ]
     },
     {
-        "id": 555,
+        "id": 547,
         "name": "Pirate Flag",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Pirate_Flag",
@@ -17889,7 +17826,7 @@
         ]
     },
     {
-        "id": 556,
+        "id": 548,
         "name": "Small Wall Pumpkin",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Small_Wall_Pumpkin",
@@ -17898,7 +17835,7 @@
         ]
     },
     {
-        "id": 557,
+        "id": 549,
         "name": "Strawberry Decal",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Strawberry_Decal",
@@ -17907,7 +17844,7 @@
         ]
     },
     {
-        "id": 558,
+        "id": 550,
         "name": "Wall Pumpkin",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Wall_Pumpkin",
@@ -17916,7 +17853,7 @@
         ]
     },
     {
-        "id": 559,
+        "id": 551,
         "name": "Winter Tree Decal",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Winter_Tree_Decal",
@@ -17925,7 +17862,7 @@
         ]
     },
     {
-        "id": 560,
+        "id": 552,
         "name": "China Cabinet",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/China_Cabinet",
@@ -17935,7 +17872,7 @@
         ]
     },
     {
-        "id": 561,
+        "id": 553,
         "name": "Ceramic Pillar",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Ceramic_Pillar",
@@ -17945,7 +17882,7 @@
         ]
     },
     {
-        "id": 562,
+        "id": 554,
         "name": "Gold Pillar",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Gold_Pillar",
@@ -17955,7 +17892,7 @@
         ]
     },
     {
-        "id": 563,
+        "id": 555,
         "name": "Industrial Pipe",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Industrial_Pipe",
@@ -17965,7 +17902,7 @@
         ]
     },
     {
-        "id": 564,
+        "id": 556,
         "name": "Totem Pole",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Totem_Pole",
@@ -17975,7 +17912,7 @@
         ]
     },
     {
-        "id": 565,
+        "id": 557,
         "name": "Decorative Bowl",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Decorative_Bowl",
@@ -17985,7 +17922,7 @@
         ]
     },
     {
-        "id": 566,
+        "id": 558,
         "name": "Decorative Lantern",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Decorative_Lantern",
@@ -17995,7 +17932,7 @@
         ]
     },
     {
-        "id": 567,
+        "id": 559,
         "name": "Globe",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Globe",
@@ -18005,7 +17942,7 @@
         ]
     },
     {
-        "id": 568,
+        "id": 560,
         "name": "Model Ship",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Model_Ship",
@@ -18015,7 +17952,7 @@
         ]
     },
     {
-        "id": 569,
+        "id": 561,
         "name": "Small Crystal",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Small_Crystal",
@@ -18025,7 +17962,7 @@
         ]
     },
     {
-        "id": 570,
+        "id": 562,
         "name": "Futan Bear",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Futan_Bear",
@@ -18035,7 +17972,7 @@
         ]
     },
     {
-        "id": 571,
+        "id": 563,
         "name": "Basic Log",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Basic_Log",
@@ -18044,7 +17981,7 @@
         ]
     },
     {
-        "id": 572,
+        "id": 564,
         "name": "Log Section",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Log_Section",
@@ -18054,7 +17991,7 @@
         ]
     },
     {
-        "id": 573,
+        "id": 565,
         "name": "Big Green Cane",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Big_Green_Cane",
@@ -18063,7 +18000,7 @@
         ]
     },
     {
-        "id": 574,
+        "id": 566,
         "name": "Big Red Cane",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Big_Red_Cane",
@@ -18072,7 +18009,7 @@
         ]
     },
     {
-        "id": 575,
+        "id": 567,
         "name": "Green Canes",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Canes",
@@ -18081,7 +18018,7 @@
         ]
     },
     {
-        "id": 576,
+        "id": 568,
         "name": "Red Canes",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Red_Canes",
@@ -18090,7 +18027,7 @@
         ]
     },
     {
-        "id": 577,
+        "id": 569,
         "name": "Mixed Cane",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Mixed_Cane",
@@ -18099,7 +18036,7 @@
         ]
     },
     {
-        "id": 578,
+        "id": 570,
         "name": "Lawn Flamingo",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Lawn_Flamingo",
@@ -18108,7 +18045,7 @@
         ]
     },
     {
-        "id": 579,
+        "id": 571,
         "name": "Grave Stone",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Grave_Stone",
@@ -18118,7 +18055,7 @@
         ]
     },
     {
-        "id": 580,
+        "id": 572,
         "name": "Ornamental Hay Bale",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Ornamental_Hay_Bale",
@@ -18127,7 +18064,7 @@
         ]
     },
     {
-        "id": 581,
+        "id": 573,
         "name": "Plush Bunny",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Plush_Bunny",
@@ -18136,7 +18073,7 @@
         ]
     },
     {
-        "id": 582,
+        "id": 574,
         "name": "Statue Of Endless Fortune",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Statue_Of_Endless_Fortune",
@@ -18145,7 +18082,7 @@
         ]
     },
     {
-        "id": 585,
+        "id": 575,
         "name": "Tea Set",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Tea_Set",
@@ -18154,7 +18091,7 @@
         ]
     },
     {
-        "id": 586,
+        "id": 576,
         "name": "Leah's Sculpture",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Leah%27s_Sculpture",
@@ -18163,7 +18100,7 @@
         ]
     },
     {
-        "id": 587,
+        "id": 577,
         "name": "Standing Geode",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Standing_Geode",
@@ -18172,7 +18109,7 @@
         ]
     },
     {
-        "id": 588,
+        "id": 578,
         "name": "Singing Stone",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Singing_Stone",
@@ -18181,7 +18118,7 @@
         ]
     },
     {
-        "id": 589,
+        "id": 579,
         "name": "Obsidian Vase",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Obsidian_Vase",
@@ -18190,7 +18127,7 @@
         ]
     },
     {
-        "id": 590,
+        "id": 580,
         "name": "Skeleton Statue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Skeleton_Statue",
@@ -18199,7 +18136,7 @@
         ]
     },
     {
-        "id": 591,
+        "id": 581,
         "name": "Seasonal Decor",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Seasonal_Decor",
@@ -18209,7 +18146,7 @@
         ]
     },
     {
-        "id": 592,
+        "id": 582,
         "name": "Prairie King Arcade System",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Prairie_King_Arcade_System",
@@ -18218,7 +18155,7 @@
         ]
     },
     {
-        "id": 593,
+        "id": 583,
         "name": "Sign Of The Vessel",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Sign_Of_The_Vessel",
@@ -18227,16 +18164,7 @@
         ]
     },
     {
-        "id": 594,
-        "name": "Mini-Jukebox",
-        "type": "Furniture",
-        "link": "https://stardewvalleywiki.com/Mini-Jukebox",
-        "obtainedFrom": [
-            "Earned with Gus (5-heart event)"
-        ]
-    },
-    {
-        "id": 595,
+        "id": 584,
         "name": "Stardew Hero Trophy",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stardew_Hero_Trophy",
@@ -18245,7 +18173,7 @@
         ]
     },
     {
-        "id": 596,
+        "id": 585,
         "name": "Statue of Perfection",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Statue_of_Perfection",
@@ -18254,7 +18182,7 @@
         ]
     },
     {
-        "id": 597,
+        "id": 586,
         "name": "Stone Cairn",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stone_Cairn",
@@ -18263,7 +18191,7 @@
         ]
     },
     {
-        "id": 598,
+        "id": 587,
         "name": "Stone Frog",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stone_Frog",
@@ -18272,7 +18200,7 @@
         ]
     },
     {
-        "id": 599,
+        "id": 588,
         "name": "Stone Junimo",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stone_Junimo",
@@ -18281,7 +18209,7 @@
         ]
     },
     {
-        "id": 600,
+        "id": 589,
         "name": "Stone Owl",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stone_Owl",
@@ -18290,7 +18218,7 @@
         ]
     },
     {
-        "id": 602,
+        "id": 590,
         "name": "Stone Parrot",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Stone_Parrot",
@@ -18299,7 +18227,7 @@
         ]
     },
     {
-        "id": 603,
+        "id": 591,
         "name": "Suit Of Armor",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Suit_Of_Armor",
@@ -18308,7 +18236,7 @@
         ]
     },
     {
-        "id": 604,
+        "id": 592,
         "name": "Lg. Futan Bear",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Lg._Futan_Bear",
@@ -18317,7 +18245,7 @@
         ]
     },
     {
-        "id": 605,
+        "id": 593,
         "name": "Bear Statue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Bear_Statue",
@@ -18326,7 +18254,7 @@
         ]
     },
     {
-        "id": 606,
+        "id": 594,
         "name": "Chicken Statue (furniture)",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Chicken_Statue_(furniture)",
@@ -18335,7 +18263,7 @@
         ]
     },
     {
-        "id": 607,
+        "id": 595,
         "name": "Sloth Skeleton",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Sloth_Skeleton",
@@ -18344,7 +18272,7 @@
         ]
     },
     {
-        "id": 608,
+        "id": 596,
         "name": "Junimo Plush",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Junimo_Plush",
@@ -18353,7 +18281,7 @@
         ]
     },
     {
-        "id": 609,
+        "id": 597,
         "name": "??Foroguemon??",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%3F%3FForoguemon%3F%3F",
@@ -18362,7 +18290,7 @@
         ]
     },
     {
-        "id": 610,
+        "id": 598,
         "name": "??HMTGF??",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%3F%3FHMTGF%3F%3F",
@@ -18371,7 +18299,7 @@
         ]
     },
     {
-        "id": 611,
+        "id": 599,
         "name": "??Pinky Lemon??",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/%3F%3FPinky_Lemon%3F%3F",
@@ -18380,7 +18308,7 @@
         ]
     },
     {
-        "id": 612,
+        "id": 600,
         "name": "Solid Gold Lewis",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Solid_Gold_Lewis",
@@ -18389,7 +18317,7 @@
         ]
     },
     {
-        "id": 613,
+        "id": 601,
         "name": "Soda Machine",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Soda_Machine",
@@ -18398,7 +18326,7 @@
         ]
     },
     {
-        "id": 614,
+        "id": 602,
         "name": "Junimo Kart Arcade System",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Junimo_Kart_Arcade_System",
@@ -18407,7 +18335,7 @@
         ]
     },
     {
-        "id": 615,
+        "id": 603,
         "name": "Butterfly Hutch",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Butterfly_Hutch",
@@ -18416,7 +18344,7 @@
         ]
     },
     {
-        "id": 616,
+        "id": 604,
         "name": "Futan Rabbit",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Futan_Rabbit",
@@ -18425,7 +18353,7 @@
         ]
     },
     {
-        "id": 617,
+        "id": 605,
         "name": "Green Serpent Statue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Green_Serpent_Statue",
@@ -18434,7 +18362,7 @@
         ]
     },
     {
-        "id": 618,
+        "id": 606,
         "name": "Purple Serpent Statue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Purple_Serpent_Statue",
@@ -18443,7 +18371,7 @@
         ]
     },
     {
-        "id": 619,
+        "id": 607,
         "name": "Small Junimo Plush",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Small_Junimo_Plush",
@@ -18452,7 +18380,7 @@
         ]
     },
     {
-        "id": 620,
+        "id": 608,
         "name": "Bobo Statue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Bobo_Statue",
@@ -18461,7 +18389,7 @@
         ]
     },
     {
-        "id": 621,
+        "id": 609,
         "name": "Wumbus Statue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Wumbus_Statue",
@@ -18470,7 +18398,7 @@
         ]
     },
     {
-        "id": 622,
+        "id": 610,
         "name": "Sam's Boombox",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Sam%27s_Boombox",
@@ -18479,7 +18407,7 @@
         ]
     },
     {
-        "id": 623,
+        "id": 611,
         "name": "Catalogue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Catalogue",
@@ -18488,7 +18416,7 @@
         ]
     },
     {
-        "id": 624,
+        "id": 612,
         "name": "Furniture Catalogue",
         "type": "Furniture",
         "link": "https://stardewvalleywiki.com/Furniture_Catalogue",
@@ -18497,7 +18425,7 @@
         ]
     },
     {
-        "id": 625,
+        "id": 613,
         "name": "Rice",
         "type": "Ingredient",
         "link": "https://stardewvalleywiki.com/Rice",
@@ -18559,7 +18487,7 @@
         }
     },
     {
-        "id": 626,
+        "id": 614,
         "name": "Sugar",
         "type": "Ingredient",
         "link": "https://stardewvalleywiki.com/Sugar",
@@ -18636,7 +18564,7 @@
         }
     },
     {
-        "id": 627,
+        "id": 615,
         "name": "Vinegar",
         "type": "Ingredient",
         "link": "https://stardewvalleywiki.com/Vinegar",
@@ -18698,7 +18626,7 @@
         }
     },
     {
-        "id": 628,
+        "id": 616,
         "name": "Wheat Flour",
         "type": "Ingredient",
         "link": "https://stardewvalleywiki.com/Wheat_Flour",
@@ -18777,7 +18705,7 @@
         }
     },
     {
-        "id": 629,
+        "id": 617,
         "name": "Quartz",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Quartz",
@@ -18835,7 +18763,7 @@
         }
     },
     {
-        "id": 630,
+        "id": 618,
         "name": "Earth Crystal",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Earth_Crystal",
@@ -18897,7 +18825,7 @@
         }
     },
     {
-        "id": 631,
+        "id": 619,
         "name": "Frozen Tear",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Frozen_Tear",
@@ -18959,7 +18887,7 @@
         }
     },
     {
-        "id": 632,
+        "id": 620,
         "name": "Fire Quartz",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Fire_Quartz",
@@ -19020,7 +18948,7 @@
         }
     },
     {
-        "id": 633,
+        "id": 621,
         "name": "Emerald",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Emerald",
@@ -19079,7 +19007,7 @@
         }
     },
     {
-        "id": 634,
+        "id": 622,
         "name": "Aquamarine",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Aquamarine",
@@ -19139,7 +19067,7 @@
         }
     },
     {
-        "id": 635,
+        "id": 623,
         "name": "Ruby",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Ruby",
@@ -19198,7 +19126,7 @@
         }
     },
     {
-        "id": 636,
+        "id": 624,
         "name": "Amethyst",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Amethyst",
@@ -19258,7 +19186,7 @@
         }
     },
     {
-        "id": 637,
+        "id": 625,
         "name": "Topaz",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Topaz",
@@ -19317,7 +19245,7 @@
         }
     },
     {
-        "id": 638,
+        "id": 626,
         "name": "Jade",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Jade",
@@ -19376,7 +19304,7 @@
         }
     },
     {
-        "id": 639,
+        "id": 627,
         "name": "Diamond",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Diamond",
@@ -19435,7 +19363,7 @@
         }
     },
     {
-        "id": 640,
+        "id": 628,
         "name": "Prismatic Shard",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Prismatic_Shard",
@@ -19499,7 +19427,7 @@
         }
     },
     {
-        "id": 641,
+        "id": 629,
         "name": "Tigerseye",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Tigerseye",
@@ -19556,7 +19484,7 @@
         }
     },
     {
-        "id": 642,
+        "id": 630,
         "name": "Opal",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Opal",
@@ -19612,7 +19540,7 @@
         }
     },
     {
-        "id": 643,
+        "id": 631,
         "name": "Fire Opal",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Fire_Opal",
@@ -19668,7 +19596,7 @@
         }
     },
     {
-        "id": 644,
+        "id": 632,
         "name": "Alamite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Alamite",
@@ -19724,7 +19652,7 @@
         }
     },
     {
-        "id": 645,
+        "id": 633,
         "name": "Bixite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Bixite",
@@ -19781,7 +19709,7 @@
         }
     },
     {
-        "id": 646,
+        "id": 634,
         "name": "Baryte",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Baryte",
@@ -19837,7 +19765,7 @@
         }
     },
     {
-        "id": 647,
+        "id": 635,
         "name": "Aerinite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Aerinite",
@@ -19893,7 +19821,7 @@
         }
     },
     {
-        "id": 648,
+        "id": 636,
         "name": "Calcite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Calcite",
@@ -19949,7 +19877,7 @@
         }
     },
     {
-        "id": 649,
+        "id": 637,
         "name": "Dolomite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Dolomite",
@@ -20005,7 +19933,7 @@
         }
     },
     {
-        "id": 650,
+        "id": 638,
         "name": "Esperite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Esperite",
@@ -20061,7 +19989,7 @@
         }
     },
     {
-        "id": 651,
+        "id": 639,
         "name": "Fluorapatite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Fluorapatite",
@@ -20117,7 +20045,7 @@
         }
     },
     {
-        "id": 652,
+        "id": 640,
         "name": "Geminite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Geminite",
@@ -20173,7 +20101,7 @@
         }
     },
     {
-        "id": 653,
+        "id": 641,
         "name": "Helvite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Helvite",
@@ -20229,7 +20157,7 @@
         }
     },
     {
-        "id": 654,
+        "id": 642,
         "name": "Jamborite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Jamborite",
@@ -20285,7 +20213,7 @@
         }
     },
     {
-        "id": 655,
+        "id": 643,
         "name": "Jagoite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Jagoite",
@@ -20341,7 +20269,7 @@
         }
     },
     {
-        "id": 656,
+        "id": 644,
         "name": "Kyanite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Kyanite",
@@ -20397,7 +20325,7 @@
         }
     },
     {
-        "id": 657,
+        "id": 645,
         "name": "Lunarite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Lunarite",
@@ -20453,7 +20381,7 @@
         }
     },
     {
-        "id": 658,
+        "id": 646,
         "name": "Malachite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Malachite",
@@ -20509,7 +20437,7 @@
         }
     },
     {
-        "id": 659,
+        "id": 647,
         "name": "Neptunite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Neptunite",
@@ -20566,7 +20494,7 @@
         }
     },
     {
-        "id": 660,
+        "id": 648,
         "name": "Lemon Stone",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Lemon_Stone",
@@ -20623,7 +20551,7 @@
         }
     },
     {
-        "id": 661,
+        "id": 649,
         "name": "Nekoite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Nekoite",
@@ -20679,7 +20607,7 @@
         }
     },
     {
-        "id": 662,
+        "id": 650,
         "name": "Orpiment",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Orpiment",
@@ -20735,7 +20663,7 @@
         }
     },
     {
-        "id": 663,
+        "id": 651,
         "name": "Petrified Slime",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Petrified_Slime",
@@ -20792,7 +20720,7 @@
         }
     },
     {
-        "id": 664,
+        "id": 652,
         "name": "Thunder Egg",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Thunder_Egg",
@@ -20848,7 +20776,7 @@
         }
     },
     {
-        "id": 665,
+        "id": 653,
         "name": "Pyrite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Pyrite",
@@ -20904,7 +20832,7 @@
         }
     },
     {
-        "id": 666,
+        "id": 654,
         "name": "Ocean Stone",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Ocean_Stone",
@@ -20960,7 +20888,7 @@
         }
     },
     {
-        "id": 667,
+        "id": 655,
         "name": "Ghost Crystal",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Ghost_Crystal",
@@ -21016,7 +20944,7 @@
         }
     },
     {
-        "id": 668,
+        "id": 656,
         "name": "Jasper",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Jasper",
@@ -21072,7 +21000,7 @@
         }
     },
     {
-        "id": 669,
+        "id": 657,
         "name": "Celestine",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Celestine",
@@ -21128,7 +21056,7 @@
         }
     },
     {
-        "id": 670,
+        "id": 658,
         "name": "Marble",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Marble",
@@ -21185,7 +21113,7 @@
         }
     },
     {
-        "id": 671,
+        "id": 659,
         "name": "Sandstone",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Sandstone",
@@ -21241,7 +21169,7 @@
         }
     },
     {
-        "id": 672,
+        "id": 660,
         "name": "Granite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Granite",
@@ -21297,7 +21225,7 @@
         }
     },
     {
-        "id": 673,
+        "id": 661,
         "name": "Basalt",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Basalt",
@@ -21353,7 +21281,7 @@
         }
     },
     {
-        "id": 674,
+        "id": 662,
         "name": "Limestone",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Limestone",
@@ -21409,7 +21337,7 @@
         }
     },
     {
-        "id": 675,
+        "id": 663,
         "name": "Soapstone",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Soapstone",
@@ -21465,7 +21393,7 @@
         }
     },
     {
-        "id": 676,
+        "id": 664,
         "name": "Hematite",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Hematite",
@@ -21521,7 +21449,7 @@
         }
     },
     {
-        "id": 677,
+        "id": 665,
         "name": "Mudstone",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Mudstone",
@@ -21577,7 +21505,7 @@
         }
     },
     {
-        "id": 678,
+        "id": 666,
         "name": "Obsidian",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Obsidian",
@@ -21634,7 +21562,7 @@
         }
     },
     {
-        "id": 679,
+        "id": 667,
         "name": "Slate",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Slate",
@@ -21690,7 +21618,7 @@
         }
     },
     {
-        "id": 680,
+        "id": 668,
         "name": "Fairy Stone",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Fairy_Stone",
@@ -21746,7 +21674,7 @@
         }
     },
     {
-        "id": 681,
+        "id": 669,
         "name": "Star Shards",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Star_Shards",
@@ -21802,7 +21730,7 @@
         }
     },
     {
-        "id": 682,
+        "id": 670,
         "name": "Geode",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Geode",
@@ -21882,7 +21810,7 @@
         }
     },
     {
-        "id": 683,
+        "id": 671,
         "name": "Frozen Geode",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Frozen_Geode",
@@ -21961,7 +21889,7 @@
         }
     },
     {
-        "id": 684,
+        "id": 672,
         "name": "Magma Geode",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Magma_Geode",
@@ -22039,7 +21967,7 @@
         }
     },
     {
-        "id": 685,
+        "id": 673,
         "name": "Omni Geode",
         "type": "Mineral",
         "link": "https://stardewvalleywiki.com/Omni_Geode",
@@ -22154,7 +22082,7 @@
         }
     },
     {
-        "id": 686,
+        "id": 674,
         "name": "Void Essence",
         "type": "Monster loot",
         "link": "https://stardewvalleywiki.com/Void_Essence",
@@ -22215,7 +22143,7 @@
         }
     },
     {
-        "id": 687,
+        "id": 675,
         "name": "Bug Meat",
         "type": "Monster loot",
         "link": "https://stardewvalleywiki.com/Bug_Meat",
@@ -22276,7 +22204,7 @@
         }
     },
     {
-        "id": 688,
+        "id": 676,
         "name": "Bat Wing",
         "type": "Monster loot",
         "link": "https://stardewvalleywiki.com/Bat_Wing",
@@ -22334,7 +22262,7 @@
         }
     },
     {
-        "id": 689,
+        "id": 677,
         "name": "Solar Essence",
         "type": "Monster loot",
         "link": "https://stardewvalleywiki.com/Solar_Essence",
@@ -22399,7 +22327,7 @@
         }
     },
     {
-        "id": 690,
+        "id": 678,
         "name": "Slime Egg",
         "type": "Animal Product",
         "link": "https://stardewvalleywiki.com/Slime_Egg",
@@ -22419,7 +22347,7 @@
         ]
     },
     {
-        "id": 691,
+        "id": 679,
         "name": "Battery Pack",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Battery_Pack",
@@ -22480,7 +22408,7 @@
         }
     },
     {
-        "id": 692,
+        "id": 680,
         "name": "Clay",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Clay",
@@ -22539,7 +22467,7 @@
         }
     },
     {
-        "id": 693,
+        "id": 681,
         "name": "Coal",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Coal",
@@ -22617,7 +22545,7 @@
         }
     },
     {
-        "id": 694,
+        "id": 682,
         "name": "Copper Bar",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Copper_Bar",
@@ -22688,7 +22616,7 @@
         }
     },
     {
-        "id": 695,
+        "id": 683,
         "name": "Copper Ore",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Copper_Ore",
@@ -22749,7 +22677,7 @@
         }
     },
     {
-        "id": 696,
+        "id": 684,
         "name": "Fiber",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Fiber",
@@ -22820,7 +22748,7 @@
         }
     },
     {
-        "id": 697,
+        "id": 685,
         "name": "Gold Ore",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Gold_Ore",
@@ -22883,7 +22811,7 @@
         }
     },
     {
-        "id": 698,
+        "id": 686,
         "name": "Hardwood",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Hardwood",
@@ -22950,7 +22878,7 @@
         }
     },
     {
-        "id": 699,
+        "id": 687,
         "name": "Iridium Bar",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Iridium_Bar",
@@ -23020,7 +22948,7 @@
         }
     },
     {
-        "id": 700,
+        "id": 688,
         "name": "Iridium Ore",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Iridium_Ore",
@@ -23082,7 +23010,7 @@
         }
     },
     {
-        "id": 701,
+        "id": 689,
         "name": "Refined Quartz",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Refined_Quartz",
@@ -23144,7 +23072,7 @@
         }
     },
     {
-        "id": 702,
+        "id": 690,
         "name": "Stone",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Stone",
@@ -23181,7 +23109,7 @@
         ]
     },
     {
-        "id": 703,
+        "id": 691,
         "name": "Wood",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Wood",
@@ -23227,7 +23155,7 @@
         ]
     },
     {
-        "id": 704,
+        "id": 692,
         "name": "Grass Starter",
         "type": "Crop",
         "link": "https://stardewvalleywiki.com/Grass_Starter",
@@ -23247,7 +23175,7 @@
         ]
     },
     {
-        "id": 705,
+        "id": 693,
         "name": "Hay",
         "type": "Resources",
         "link": "https://stardewvalleywiki.com/Animals#Food",
@@ -23257,7 +23185,7 @@
         ]
     },
     {
-        "id": 706,
+        "id": 694,
         "name": "Artifact Trove",
         "type": "Special Items",
         "link": "https://stardewvalleywiki.com/Artifact_Trove",
@@ -23296,7 +23224,7 @@
         ]
     },
     {
-        "id": 707,
+        "id": 695,
         "name": "Golden Pumpkin",
         "type": "Special Items",
         "link": "https://stardewvalleywiki.com/Golden_Pumpkin",
@@ -23351,7 +23279,7 @@
         ]
     },
     {
-        "id": 708,
+        "id": 696,
         "name": "Magic Rock Candy",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Magic_Rock_Candy",
@@ -23411,7 +23339,7 @@
         ]
     },
     {
-        "id": 709,
+        "id": 697,
         "name": "Pearl",
         "type": "Special Items",
         "link": "https://stardewvalleywiki.com/Pearl",
@@ -23466,7 +23394,7 @@
         ]
     },
     {
-        "id": 710,
+        "id": 698,
         "name": "Squid Ink",
         "type": "Special Items",
         "link": "https://stardewvalleywiki.com/Squid_Ink",
@@ -23481,7 +23409,7 @@
         ]
     },
     {
-        "id": 711,
+        "id": 699,
         "name": "Stardrop",
         "type": "Special Items",
         "link": "https://stardewvalleywiki.com/Stardrop",
@@ -23499,7 +23427,7 @@
         ]
     },
     {
-        "id": 712,
+        "id": 700,
         "name": "Training Rod",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Training_Rod",
@@ -23511,7 +23439,7 @@
         ]
     },
     {
-        "id": 713,
+        "id": 701,
         "name": "Bamboo Pole",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Bamboo_Pole",
@@ -23523,7 +23451,7 @@
         ]
     },
     {
-        "id": 714,
+        "id": 702,
         "name": "Fiberglass Rod",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Fiberglass_Rod",
@@ -23535,7 +23463,7 @@
         ]
     },
     {
-        "id": 715,
+        "id": 703,
         "name": "Iridium Rod",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Iridium_Rod",
@@ -23547,7 +23475,7 @@
         ]
     },
     {
-        "id": 716,
+        "id": 704,
         "name": "Scythe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Scythe",
@@ -23556,7 +23484,7 @@
         ]
     },
     {
-        "id": 717,
+        "id": 705,
         "name": "Golden Scythe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Golden_Scythe",
@@ -23568,7 +23496,7 @@
         ]
     },
     {
-        "id": 718,
+        "id": 706,
         "name": "Milk Pail",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Milk_Pail",
@@ -23583,7 +23511,7 @@
         ]
     },
     {
-        "id": 719,
+        "id": 707,
         "name": "Shears",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Shears",
@@ -23595,7 +23523,7 @@
         ]
     },
     {
-        "id": 720,
+        "id": 708,
         "name": "Heater",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Heater",
@@ -23607,7 +23535,7 @@
         ]
     },
     {
-        "id": 721,
+        "id": 709,
         "name": "Copper Pan",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Copper_Pan",
@@ -23634,7 +23562,7 @@
         ]
     },
     {
-        "id": 722,
+        "id": 710,
         "name": "Auto-Grabber",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Auto-Grabber",
@@ -23646,13 +23574,13 @@
         ]
     },
     {
-        "id": 723,
+        "id": 711,
         "name": "Hoe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Hoes"
     },
     {
-        "id": 724,
+        "id": 712,
         "name": "Copper Hoe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Hoes",
@@ -23661,7 +23589,7 @@
         ]
     },
     {
-        "id": 725,
+        "id": 713,
         "name": "Steel Hoe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Hoes",
@@ -23670,7 +23598,7 @@
         ]
     },
     {
-        "id": 726,
+        "id": 714,
         "name": "Gold Hoe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Hoes",
@@ -23679,7 +23607,7 @@
         ]
     },
     {
-        "id": 727,
+        "id": 715,
         "name": "Iridium Hoe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Hoes",
@@ -23688,13 +23616,13 @@
         ]
     },
     {
-        "id": 728,
+        "id": 716,
         "name": "Pickaxe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Pickaxes"
     },
     {
-        "id": 729,
+        "id": 717,
         "name": "Copper Pickaxe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Pickaxes",
@@ -23703,7 +23631,7 @@
         ]
     },
     {
-        "id": 730,
+        "id": 718,
         "name": "Steel Pickaxe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Pickaxes",
@@ -23712,7 +23640,7 @@
         ]
     },
     {
-        "id": 731,
+        "id": 719,
         "name": "Gold Pickaxe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Pickaxes",
@@ -23721,7 +23649,7 @@
         ]
     },
     {
-        "id": 732,
+        "id": 720,
         "name": "Iridium Pickaxe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Pickaxes",
@@ -23730,13 +23658,13 @@
         ]
     },
     {
-        "id": 733,
+        "id": 721,
         "name": "Axe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Axes"
     },
     {
-        "id": 734,
+        "id": 722,
         "name": "Copper Axe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Axes",
@@ -23745,7 +23673,7 @@
         ]
     },
     {
-        "id": 735,
+        "id": 723,
         "name": "Steel Axe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Axes",
@@ -23754,7 +23682,7 @@
         ]
     },
     {
-        "id": 736,
+        "id": 724,
         "name": "Gold Axe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Axes",
@@ -23763,7 +23691,7 @@
         ]
     },
     {
-        "id": 737,
+        "id": 725,
         "name": "Iridium Axe",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Axes",
@@ -23772,13 +23700,13 @@
         ]
     },
     {
-        "id": 738,
+        "id": 726,
         "name": "Watering Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Watering_Cans"
     },
     {
-        "id": 739,
+        "id": 727,
         "name": "Copper Watering Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Watering_Cans",
@@ -23787,7 +23715,7 @@
         ]
     },
     {
-        "id": 740,
+        "id": 728,
         "name": "Steel Watering Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Watering_Cans",
@@ -23796,7 +23724,7 @@
         ]
     },
     {
-        "id": 741,
+        "id": 729,
         "name": "Gold Watering Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Watering_Cans",
@@ -23805,7 +23733,7 @@
         ]
     },
     {
-        "id": 742,
+        "id": 730,
         "name": "Iridium Watering Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Watering_Cans",
@@ -23814,13 +23742,13 @@
         ]
     },
     {
-        "id": 743,
+        "id": 731,
         "name": "Trash Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Trash_Cans"
     },
     {
-        "id": 744,
+        "id": 732,
         "name": "Copper Trash Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Trash_Cans",
@@ -23832,7 +23760,7 @@
         ]
     },
     {
-        "id": 745,
+        "id": 733,
         "name": "Steel Trash Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Trash_Cans",
@@ -23844,7 +23772,7 @@
         ]
     },
     {
-        "id": 746,
+        "id": 734,
         "name": "Gold Trash Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Trash_Cans",
@@ -23856,7 +23784,7 @@
         ]
     },
     {
-        "id": 747,
+        "id": 735,
         "name": "Iridium Trash Can",
         "type": "Tools",
         "link": "https://stardewvalleywiki.com/Trash_Cans",
@@ -23868,7 +23796,7 @@
         ]
     },
     {
-        "id": 748,
+        "id": 736,
         "name": "Trash",
         "type": "Trash",
         "link": "https://stardewvalleywiki.com/Trash_(item)",
@@ -23926,7 +23854,7 @@
         }
     },
     {
-        "id": 749,
+        "id": 737,
         "name": "Driftwood",
         "type": "Trash",
         "link": "https://stardewvalleywiki.com/Driftwood",
@@ -23984,7 +23912,7 @@
         }
     },
     {
-        "id": 750,
+        "id": 738,
         "name": "Soggy Newspaper",
         "type": "Trash",
         "link": "https://stardewvalleywiki.com/Soggy_Newspaper",
@@ -24041,7 +23969,7 @@
         }
     },
     {
-        "id": 751,
+        "id": 739,
         "name": "Broken CD",
         "type": "Trash",
         "link": "https://stardewvalleywiki.com/Broken_CD",
@@ -24097,7 +24025,7 @@
         }
     },
     {
-        "id": 752,
+        "id": 740,
         "name": "Broken Glasses",
         "type": "Trash",
         "link": "https://stardewvalleywiki.com/Broken_Glasses",
@@ -24153,7 +24081,7 @@
         }
     },
     {
-        "id": 753,
+        "id": 741,
         "name": "Joja Cola",
         "type": "Trash",
         "link": "https://stardewvalleywiki.com/Joja_Cola",
@@ -24211,7 +24139,7 @@
         }
     },
     {
-        "id": 754,
+        "id": 742,
         "name": "Rotten Plant",
         "type": "Trash",
         "link": "https://stardewvalleywiki.com/Rotten_Plant",
@@ -24264,7 +24192,7 @@
         }
     },
     {
-        "id": 755,
+        "id": 743,
         "name": "Rusty Sword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Rusty_Sword",
@@ -24280,7 +24208,7 @@
         ]
     },
     {
-        "id": 756,
+        "id": 744,
         "name": "Wooden Blade",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Wooden_Blade",
@@ -24296,7 +24224,7 @@
         ]
     },
     {
-        "id": 757,
+        "id": 745,
         "name": "Steel Smallsword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Steel_Smallsword",
@@ -24317,7 +24245,7 @@
         ]
     },
     {
-        "id": 758,
+        "id": 746,
         "name": "Silver Saber",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Silver_Saber",
@@ -24338,7 +24266,7 @@
         ]
     },
     {
-        "id": 759,
+        "id": 747,
         "name": "Pirate's Sword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Pirate%27s_Sword",
@@ -24360,7 +24288,7 @@
         ]
     },
     {
-        "id": 760,
+        "id": 748,
         "name": "Cutlass",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Cutlass",
@@ -24381,7 +24309,7 @@
         ]
     },
     {
-        "id": 761,
+        "id": 749,
         "name": "Iron Edge",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Iron_Edge",
@@ -24410,7 +24338,7 @@
         ]
     },
     {
-        "id": 762,
+        "id": 750,
         "name": "Forest Sword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Forest_Sword",
@@ -24435,7 +24363,7 @@
         ]
     },
     {
-        "id": 763,
+        "id": 751,
         "name": "Holy Blade",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Holy_Blade",
@@ -24456,7 +24384,7 @@
         ]
     },
     {
-        "id": 764,
+        "id": 752,
         "name": "Insect Head",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Insect_Head",
@@ -24478,7 +24406,7 @@
         ]
     },
     {
-        "id": 765,
+        "id": 753,
         "name": "Claymore",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Claymore",
@@ -24507,7 +24435,7 @@
         ]
     },
     {
-        "id": 766,
+        "id": 754,
         "name": "Templar's Blade",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Templar%27s_Blade",
@@ -24528,7 +24456,7 @@
         ]
     },
     {
-        "id": 767,
+        "id": 755,
         "name": "Dark Sword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Dark_Sword",
@@ -24557,7 +24485,7 @@
         ]
     },
     {
-        "id": 768,
+        "id": 756,
         "name": "Neptune's Glaive",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Neptune%27s_Glaive",
@@ -24586,7 +24514,7 @@
         ]
     },
     {
-        "id": 769,
+        "id": 757,
         "name": "Tempered Broadsword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Tempered_Broadsword",
@@ -24615,7 +24543,7 @@
         ]
     },
     {
-        "id": 770,
+        "id": 758,
         "name": "Obsidian Edge",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Obsidian_Edge",
@@ -24640,7 +24568,7 @@
         ]
     },
     {
-        "id": 771,
+        "id": 759,
         "name": "Bone Sword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Bone_Sword",
@@ -24665,7 +24593,7 @@
         ]
     },
     {
-        "id": 772,
+        "id": 760,
         "name": "Steel Falchion",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Steel_Falchion",
@@ -24691,7 +24619,7 @@
         ]
     },
     {
-        "id": 773,
+        "id": 761,
         "name": "Lava Katana",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Lava_Katana",
@@ -24720,7 +24648,7 @@
         ]
     },
     {
-        "id": 774,
+        "id": 762,
         "name": "Galaxy Sword",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Galaxy_Sword",
@@ -24741,7 +24669,7 @@
         ]
     },
     {
-        "id": 775,
+        "id": 763,
         "name": "Carving Knife",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Carving_Knife",
@@ -24757,7 +24685,7 @@
         ]
     },
     {
-        "id": 776,
+        "id": 764,
         "name": "Iron Dirk",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Iron_Dirk",
@@ -24773,7 +24701,7 @@
         ]
     },
     {
-        "id": 777,
+        "id": 765,
         "name": "Wind Spire",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Wind_Spire",
@@ -24798,7 +24726,7 @@
         ]
     },
     {
-        "id": 778,
+        "id": 766,
         "name": "Burglar's Shank",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Burglar%27s_Shank",
@@ -24819,7 +24747,7 @@
         ]
     },
     {
-        "id": 779,
+        "id": 767,
         "name": "Crystal Dagger",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Crystal_Dagger",
@@ -24844,7 +24772,7 @@
         ]
     },
     {
-        "id": 780,
+        "id": 768,
         "name": "Broken Trident",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Broken_Trident",
@@ -24860,7 +24788,7 @@
         ]
     },
     {
-        "id": 781,
+        "id": 769,
         "name": "Wicked Kris",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Wicked_Kris",
@@ -24876,7 +24804,7 @@
         ]
     },
     {
-        "id": 782,
+        "id": 770,
         "name": "Galaxy Dagger",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Galaxy_Dagger",
@@ -24901,7 +24829,7 @@
         ]
     },
     {
-        "id": 783,
+        "id": 771,
         "name": "Femur",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Femur",
@@ -24922,7 +24850,7 @@
         ]
     },
     {
-        "id": 784,
+        "id": 772,
         "name": "Wood Club",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Wood_Club",
@@ -24938,7 +24866,7 @@
         ]
     },
     {
-        "id": 785,
+        "id": 773,
         "name": "Wood Mallet",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Wood_Mallet",
@@ -24964,7 +24892,7 @@
         ]
     },
     {
-        "id": 786,
+        "id": 774,
         "name": "Lead Rod",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Lead_Rod",
@@ -24986,7 +24914,7 @@
         ]
     },
     {
-        "id": 787,
+        "id": 775,
         "name": "The Slammer",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/The_Slammer",
@@ -25007,7 +24935,7 @@
         ]
     },
     {
-        "id": 788,
+        "id": 776,
         "name": "Galaxy Hammer",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Galaxy_Hammer",
@@ -25032,7 +24960,7 @@
         ]
     },
     {
-        "id": 789,
+        "id": 777,
         "name": "Slingshot",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Slingshot",
@@ -25046,7 +24974,7 @@
         ]
     },
     {
-        "id": 790,
+        "id": 778,
         "name": "Master Slingshot",
         "type": "Weapons",
         "link": "https://stardewvalleywiki.com/Master_Slingshot",
@@ -25060,7 +24988,7 @@
         ]
     },
     {
-        "id": 791,
+        "id": 779,
         "name": "Sneakers",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Sneakers",
@@ -25080,7 +25008,7 @@
         ]
     },
     {
-        "id": 792,
+        "id": 780,
         "name": "Rubber Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Rubber_Boots",
@@ -25100,7 +25028,7 @@
         ]
     },
     {
-        "id": 793,
+        "id": 781,
         "name": "Leather Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Leather_Boots",
@@ -25123,7 +25051,7 @@
         ]
     },
     {
-        "id": 794,
+        "id": 782,
         "name": "Work Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Work_Boots",
@@ -25141,7 +25069,7 @@
         ]
     },
     {
-        "id": 795,
+        "id": 783,
         "name": "Combat Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Combat_Boots",
@@ -25160,7 +25088,7 @@
         ]
     },
     {
-        "id": 796,
+        "id": 784,
         "name": "Tundra Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Tundra_Boots",
@@ -25182,7 +25110,7 @@
         ]
     },
     {
-        "id": 797,
+        "id": 785,
         "name": "Leprechaun Shoes",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Leprechaun_Shoes",
@@ -25204,7 +25132,7 @@
         ]
     },
     {
-        "id": 798,
+        "id": 786,
         "name": "Thermal Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Thermal_Boots",
@@ -25227,7 +25155,7 @@
         ]
     },
     {
-        "id": 799,
+        "id": 787,
         "name": "Cowboy Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Cowboy_Boots",
@@ -25248,7 +25176,7 @@
         ]
     },
     {
-        "id": 800,
+        "id": 788,
         "name": "Dark Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Dark_Boots",
@@ -25271,7 +25199,7 @@
         ]
     },
     {
-        "id": 801,
+        "id": 789,
         "name": "Firewalker Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Firewalker_Boots",
@@ -25294,7 +25222,7 @@
         ]
     },
     {
-        "id": 802,
+        "id": 790,
         "name": "Genie Shoes",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Genie_Shoes",
@@ -25317,7 +25245,7 @@
         ]
     },
     {
-        "id": 803,
+        "id": 791,
         "name": "Space Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Space_Boots",
@@ -25340,7 +25268,7 @@
         ]
     },
     {
-        "id": 804,
+        "id": 792,
         "name": "Emily's Magic Boots",
         "type": "Footwear",
         "link": "https://stardewvalleywiki.com/Emily%27s_Magic_Boots",
@@ -25362,7 +25290,7 @@
         ]
     },
     {
-        "id": 805,
+        "id": 793,
         "name": "Small Glow Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Small_Glow_Ring",
@@ -25374,7 +25302,7 @@
         ]
     },
     {
-        "id": 806,
+        "id": 794,
         "name": "Glow Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Glow_Ring",
@@ -25387,7 +25315,7 @@
         ]
     },
     {
-        "id": 807,
+        "id": 795,
         "name": "Small Magnet Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Small_Magnet_Ring",
@@ -25399,7 +25327,7 @@
         ]
     },
     {
-        "id": 808,
+        "id": 796,
         "name": "Magnet Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Magnet_Ring",
@@ -25411,7 +25339,7 @@
         ]
     },
     {
-        "id": 809,
+        "id": 797,
         "name": "Slime Charmer Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Slime_Charmer_Ring",
@@ -25423,7 +25351,7 @@
         ]
     },
     {
-        "id": 810,
+        "id": 798,
         "name": "Warrior Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Warrior_Ring",
@@ -25449,7 +25377,7 @@
         ]
     },
     {
-        "id": 811,
+        "id": 799,
         "name": "Vampire Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Vampire_Ring",
@@ -25461,7 +25389,7 @@
         ]
     },
     {
-        "id": 812,
+        "id": 800,
         "name": "Savage Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Savage_Ring",
@@ -25473,7 +25401,7 @@
         ]
     },
     {
-        "id": 813,
+        "id": 801,
         "name": "Ring of Yoba",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Ring_of_Yoba",
@@ -25499,7 +25427,7 @@
         ]
     },
     {
-        "id": 814,
+        "id": 802,
         "name": "Sturdy Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Sturdy_Ring",
@@ -25525,7 +25453,7 @@
         ]
     },
     {
-        "id": 815,
+        "id": 803,
         "name": "Burglar's Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Burglar%27s_Ring",
@@ -25537,7 +25465,7 @@
         ]
     },
     {
-        "id": 816,
+        "id": 804,
         "name": "Iridium Band",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Iridium_Band",
@@ -25564,7 +25492,7 @@
         ]
     },
     {
-        "id": 818,
+        "id": 805,
         "name": "Amethyst Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Amethyst_Ring",
@@ -25575,7 +25503,7 @@
         ]
     },
     {
-        "id": 819,
+        "id": 806,
         "name": "Topaz Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Topaz_Ring",
@@ -25586,7 +25514,7 @@
         ]
     },
     {
-        "id": 820,
+        "id": 807,
         "name": "Aquamarine Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Aquamarine_Ring",
@@ -25597,7 +25525,7 @@
         ]
     },
     {
-        "id": 821,
+        "id": 808,
         "name": "Jade Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Jade_Ring",
@@ -25609,7 +25537,7 @@
         ]
     },
     {
-        "id": 822,
+        "id": 809,
         "name": "Emerald Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Emerald_Ring",
@@ -25620,7 +25548,7 @@
         ]
     },
     {
-        "id": 823,
+        "id": 810,
         "name": "Ruby Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Ruby_Ring",
@@ -25631,7 +25559,7 @@
         ]
     },
     {
-        "id": 824,
+        "id": 811,
         "name": "Wedding Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Wedding_Ring",
@@ -25653,7 +25581,7 @@
         ]
     },
     {
-        "id": 825,
+        "id": 812,
         "name": "Crabshell Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Crabshell_Ring",
@@ -25665,7 +25593,7 @@
         ]
     },
     {
-        "id": 826,
+        "id": 813,
         "name": "Napalm Ring",
         "type": "Rings",
         "link": "https://stardewvalleywiki.com/Napalm_Ring",
@@ -25677,7 +25605,7 @@
         ]
     },
     {
-        "id": 827,
+        "id": 814,
         "name": "Blue Bonnet",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Blue_Bonnet",
@@ -25686,7 +25614,7 @@
         ]
     },
     {
-        "id": 828,
+        "id": 815,
         "name": "Cat Ears",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Cat_Ears",
@@ -25695,7 +25623,7 @@
         ]
     },
     {
-        "id": 829,
+        "id": 816,
         "name": "Plum Chapeau",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Plum_Chapeau",
@@ -25704,7 +25632,7 @@
         ]
     },
     {
-        "id": 830,
+        "id": 817,
         "name": "Earmuffs",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Earmuffs",
@@ -25713,7 +25641,7 @@
         ]
     },
     {
-        "id": 831,
+        "id": 818,
         "name": "Cowpoke Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Cowpoke_Hat",
@@ -25722,7 +25650,7 @@
         ]
     },
     {
-        "id": 832,
+        "id": 819,
         "name": "Official Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Official_Cap",
@@ -25731,7 +25659,7 @@
         ]
     },
     {
-        "id": 833,
+        "id": 820,
         "name": "Santa Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Santa_Hat",
@@ -25740,7 +25668,7 @@
         ]
     },
     {
-        "id": 834,
+        "id": 821,
         "name": "Tropiclip",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Tropiclip",
@@ -25749,7 +25677,7 @@
         ]
     },
     {
-        "id": 835,
+        "id": 822,
         "name": "Watermelon Band",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Watermelon_Band",
@@ -25758,7 +25686,7 @@
         ]
     },
     {
-        "id": 836,
+        "id": 823,
         "name": "Cowgal Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Cowgal_Hat",
@@ -25767,7 +25695,7 @@
         ]
     },
     {
-        "id": 837,
+        "id": 824,
         "name": "Bowler Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Bowler_Hat",
@@ -25776,7 +25704,7 @@
         ]
     },
     {
-        "id": 838,
+        "id": 825,
         "name": "Eye Patch",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Eye_Patch",
@@ -25785,7 +25713,7 @@
         ]
     },
     {
-        "id": 839,
+        "id": 826,
         "name": "Hunter's Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Hunter%27s_Cap",
@@ -25794,7 +25722,7 @@
         ]
     },
     {
-        "id": 840,
+        "id": 827,
         "name": "Sombrero",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Sombrero",
@@ -25803,7 +25731,7 @@
         ]
     },
     {
-        "id": 841,
+        "id": 828,
         "name": "Cool Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Cool_Cap",
@@ -25812,7 +25740,7 @@
         ]
     },
     {
-        "id": 842,
+        "id": 829,
         "name": "Good Ol' Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Good_Ol%27_Cap",
@@ -25821,7 +25749,7 @@
         ]
     },
     {
-        "id": 843,
+        "id": 830,
         "name": "Archer's Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Archer%27s_Cap",
@@ -25830,7 +25758,7 @@
         ]
     },
     {
-        "id": 844,
+        "id": 831,
         "name": "Chef Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Chef_Hat",
@@ -25839,7 +25767,7 @@
         ]
     },
     {
-        "id": 845,
+        "id": 832,
         "name": "Polka Bow",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Polka_Bow",
@@ -25848,7 +25776,7 @@
         ]
     },
     {
-        "id": 846,
+        "id": 833,
         "name": "Goblin Mask",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Goblin_Mask",
@@ -25857,7 +25785,7 @@
         ]
     },
     {
-        "id": 847,
+        "id": 834,
         "name": "Sou'wester",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Sou%27wester",
@@ -25866,7 +25794,7 @@
         ]
     },
     {
-        "id": 848,
+        "id": 835,
         "name": "Daisy",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Daisy",
@@ -25875,7 +25803,7 @@
         ]
     },
     {
-        "id": 849,
+        "id": 836,
         "name": "Gnome's Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Gnome%27s_Cap",
@@ -25884,7 +25812,7 @@
         ]
     },
     {
-        "id": 850,
+        "id": 837,
         "name": "Lucky Bow",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Lucky_Bow",
@@ -25893,7 +25821,7 @@
         ]
     },
     {
-        "id": 851,
+        "id": 838,
         "name": "Delicate Bow",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Delicate_Bow",
@@ -25902,7 +25830,7 @@
         ]
     },
     {
-        "id": 852,
+        "id": 839,
         "name": "Tiara",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Tiara",
@@ -25911,7 +25839,7 @@
         ]
     },
     {
-        "id": 853,
+        "id": 840,
         "name": "Mouse Ears",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Mouse_Ears",
@@ -25920,7 +25848,7 @@
         ]
     },
     {
-        "id": 854,
+        "id": 841,
         "name": "Trucker Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Trucker_Hat",
@@ -25929,7 +25857,7 @@
         ]
     },
     {
-        "id": 855,
+        "id": 842,
         "name": "Skeleton Mask",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Skeleton_Mask",
@@ -25938,7 +25866,7 @@
         ]
     },
     {
-        "id": 856,
+        "id": 843,
         "name": "Hard Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Hard_Hat",
@@ -25947,7 +25875,7 @@
         ]
     },
     {
-        "id": 857,
+        "id": 844,
         "name": "Butterfly Bow",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Butterfly_Bow",
@@ -25956,7 +25884,7 @@
         ]
     },
     {
-        "id": 858,
+        "id": 845,
         "name": "Cowboy Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Cowboy_Hat",
@@ -25965,7 +25893,7 @@
         ]
     },
     {
-        "id": 859,
+        "id": 846,
         "name": "Chicken Mask",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Chicken_Mask",
@@ -25974,7 +25902,7 @@
         ]
     },
     {
-        "id": 860,
+        "id": 847,
         "name": "Top Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Top_Hat",
@@ -25983,7 +25911,7 @@
         ]
     },
     {
-        "id": 861,
+        "id": 848,
         "name": "Straw Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Straw_Hat",
@@ -25992,7 +25920,7 @@
         ]
     },
     {
-        "id": 862,
+        "id": 849,
         "name": "Sailor's Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Sailor%27s_Cap",
@@ -26001,7 +25929,7 @@
         ]
     },
     {
-        "id": 863,
+        "id": 850,
         "name": "Fedora",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Fedora",
@@ -26010,7 +25938,7 @@
         ]
     },
     {
-        "id": 864,
+        "id": 851,
         "name": "Panda Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Panda_Hat",
@@ -26019,7 +25947,7 @@
         ]
     },
     {
-        "id": 865,
+        "id": 852,
         "name": "Blue Cowboy Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Blue_Cowboy_Hat",
@@ -26028,7 +25956,7 @@
         ]
     },
     {
-        "id": 866,
+        "id": 853,
         "name": "Red Cowboy Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Red_Cowboy_Hat",
@@ -26037,7 +25965,7 @@
         ]
     },
     {
-        "id": 867,
+        "id": 854,
         "name": "Cone Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Cone_Hat",
@@ -26046,7 +25974,7 @@
         ]
     },
     {
-        "id": 868,
+        "id": 855,
         "name": "Living Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Living_Hat",
@@ -26055,7 +25983,7 @@
         ]
     },
     {
-        "id": 869,
+        "id": 856,
         "name": "Emily's Magic Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Emily%27s_Magic_Hat",
@@ -26064,7 +25992,7 @@
         ]
     },
     {
-        "id": 870,
+        "id": 857,
         "name": "Mushroom Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Mushroom_Cap",
@@ -26073,7 +26001,7 @@
         ]
     },
     {
-        "id": 871,
+        "id": 858,
         "name": "Dinosaur Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Dinosaur_Hat",
@@ -26082,7 +26010,7 @@
         ]
     },
     {
-        "id": 872,
+        "id": 859,
         "name": "Totem Mask",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Totem_Mask",
@@ -26091,7 +26019,7 @@
         ]
     },
     {
-        "id": 873,
+        "id": 860,
         "name": "Logo Cap",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Logo_Cap",
@@ -26100,7 +26028,7 @@
         ]
     },
     {
-        "id": 874,
+        "id": 861,
         "name": "Wearable Dwarf Helm",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Wearable_Dwarf_Helm",
@@ -26109,7 +26037,7 @@
         ]
     },
     {
-        "id": 875,
+        "id": 862,
         "name": "Fashion Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Fashion_Hat",
@@ -26118,7 +26046,7 @@
         ]
     },
     {
-        "id": 876,
+        "id": 863,
         "name": "Pumpkin Mask",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Pumpkin_Mask",
@@ -26127,7 +26055,7 @@
         ]
     },
     {
-        "id": 877,
+        "id": 864,
         "name": "Hair Bone",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Hair_Bone",
@@ -26136,7 +26064,7 @@
         ]
     },
     {
-        "id": 878,
+        "id": 865,
         "name": "Knight's Helmet",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Knight%27s_Helmet",
@@ -26145,7 +26073,7 @@
         ]
     },
     {
-        "id": 879,
+        "id": 866,
         "name": "Squire's Helmet",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Squire%27s_Helmet",
@@ -26154,7 +26082,7 @@
         ]
     },
     {
-        "id": 880,
+        "id": 867,
         "name": "Spotted Headscarf",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Spotted_Headscarf",
@@ -26163,7 +26091,7 @@
         ]
     },
     {
-        "id": 881,
+        "id": 868,
         "name": "Beanie",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Beanie",
@@ -26172,7 +26100,7 @@
         ]
     },
     {
-        "id": 882,
+        "id": 869,
         "name": "Floppy Beanie",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Floppy_Beanie",
@@ -26181,7 +26109,7 @@
         ]
     },
     {
-        "id": 883,
+        "id": 870,
         "name": "Fishing Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Fishing_Hat",
@@ -26190,7 +26118,7 @@
         ]
     },
     {
-        "id": 884,
+        "id": 871,
         "name": "Blobfish Mask",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Blobfish_Mask",
@@ -26199,7 +26127,7 @@
         ]
     },
     {
-        "id": 885,
+        "id": 872,
         "name": "Party Hat (red)",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Party_Hat_(red)",
@@ -26208,7 +26136,7 @@
         ]
     },
     {
-        "id": 886,
+        "id": 873,
         "name": "Party Hat (blue)",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Party_Hat_(blue)",
@@ -26217,7 +26145,7 @@
         ]
     },
     {
-        "id": 887,
+        "id": 874,
         "name": "Party Hat (green)",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Party_Hat_(green)",
@@ -26226,7 +26154,7 @@
         ]
     },
     {
-        "id": 888,
+        "id": 875,
         "name": "Arcane Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Arcane_Hat",
@@ -26235,7 +26163,7 @@
         ]
     },
     {
-        "id": 889,
+        "id": 876,
         "name": "Pirate Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Pirate_Hat",
@@ -26244,7 +26172,7 @@
         ]
     },
     {
-        "id": 890,
+        "id": 877,
         "name": "Flat Topped Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Flat_Topped_Hat",
@@ -26253,7 +26181,7 @@
         ]
     },
     {
-        "id": 891,
+        "id": 878,
         "name": "Elegant Turban",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Elegant_Turban",
@@ -26262,7 +26190,7 @@
         ]
     },
     {
-        "id": 892,
+        "id": 879,
         "name": "White Turban",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/White_Turban",
@@ -26272,7 +26200,7 @@
         ]
     },
     {
-        "id": 893,
+        "id": 880,
         "name": "Garbage Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Garbage_Hat",
@@ -26281,7 +26209,7 @@
         ]
     },
     {
-        "id": 894,
+        "id": 881,
         "name": "Golden Mask (hat)",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Golden_Mask_(hat)",
@@ -26290,7 +26218,7 @@
         ]
     },
     {
-        "id": 895,
+        "id": 882,
         "name": "Propeller Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Propeller_Hat",
@@ -26299,7 +26227,7 @@
         ]
     },
     {
-        "id": 896,
+        "id": 883,
         "name": "Bridal Veil",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Bridal_Veil",
@@ -26308,7 +26236,7 @@
         ]
     },
     {
-        "id": 897,
+        "id": 884,
         "name": "Witch Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Witch_Hat",
@@ -26317,7 +26245,7 @@
         ]
     },
     {
-        "id": 898,
+        "id": 885,
         "name": "Copper Pan (hat)",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Copper_Pan_(hat)",
@@ -26326,7 +26254,7 @@
         ]
     },
     {
-        "id": 899,
+        "id": 886,
         "name": "Green Turban",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Green_Turban",
@@ -26335,7 +26263,7 @@
         ]
     },
     {
-        "id": 900,
+        "id": 887,
         "name": "Magic Cowboy Hat",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Magic_Cowboy_Hat",
@@ -26344,7 +26272,7 @@
         ]
     },
     {
-        "id": 901,
+        "id": 888,
         "name": "Magic Turban",
         "type": "Hats",
         "link": "https://stardewvalleywiki.com/Magic_Turban",
@@ -26353,7 +26281,7 @@
         ]
     },
     {
-        "id": 902,
+        "id": 889,
         "name": "Fried Egg",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fried_Egg",
@@ -26416,7 +26344,7 @@
         }
     },
     {
-        "id": 903,
+        "id": 890,
         "name": "Omelet",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Omelet",
@@ -26485,7 +26413,7 @@
         }
     },
     {
-        "id": 904,
+        "id": 891,
         "name": "Salad",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Salad",
@@ -26557,7 +26485,7 @@
         }
     },
     {
-        "id": 905,
+        "id": 892,
         "name": "Cheese Cauliflower",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Cheese_Cauliflower",
@@ -26625,7 +26553,7 @@
         }
     },
     {
-        "id": 906,
+        "id": 893,
         "name": "Baked Fish",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Baked_Fish",
@@ -26696,7 +26624,7 @@
         }
     },
     {
-        "id": 907,
+        "id": 894,
         "name": "Parsnip Soup",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Parsnip_Soup",
@@ -26769,7 +26697,7 @@
         }
     },
     {
-        "id": 908,
+        "id": 895,
         "name": "Vegetable Medley",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Vegetable_Medley",
@@ -26837,7 +26765,7 @@
         }
     },
     {
-        "id": 909,
+        "id": 896,
         "name": "Complete Breakfast",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Complete_Breakfast",
@@ -26924,7 +26852,7 @@
         }
     },
     {
-        "id": 910,
+        "id": 897,
         "name": "Fried Calamari",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fried_Calamari",
@@ -26996,7 +26924,7 @@
         }
     },
     {
-        "id": 911,
+        "id": 898,
         "name": "Strange Bun",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Strange_Bun",
@@ -27066,7 +26994,7 @@
         }
     },
     {
-        "id": 912,
+        "id": 899,
         "name": "Lucky Lunch",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Lucky_Lunch",
@@ -27143,7 +27071,7 @@
         }
     },
     {
-        "id": 913,
+        "id": 900,
         "name": "Fried Mushroom",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fried_Mushroom",
@@ -27221,7 +27149,7 @@
         }
     },
     {
-        "id": 914,
+        "id": 901,
         "name": "Pizza",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Pizza",
@@ -27295,7 +27223,7 @@
         }
     },
     {
-        "id": 915,
+        "id": 902,
         "name": "Bean Hotpot",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Bean_Hotpot",
@@ -27369,7 +27297,7 @@
         }
     },
     {
-        "id": 916,
+        "id": 903,
         "name": "Glazed Yams",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Glazed_Yams",
@@ -27437,7 +27365,7 @@
         }
     },
     {
-        "id": 917,
+        "id": 904,
         "name": "Carp Surprise",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Carp_Surprise",
@@ -27500,7 +27428,7 @@
         }
     },
     {
-        "id": 918,
+        "id": 905,
         "name": "Hashbrowns",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Hashbrowns",
@@ -27575,7 +27503,7 @@
         }
     },
     {
-        "id": 919,
+        "id": 906,
         "name": "Pancakes",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Pancakes",
@@ -27651,7 +27579,7 @@
         }
     },
     {
-        "id": 920,
+        "id": 907,
         "name": "Salmon Dinner",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Salmon_Dinner",
@@ -27724,7 +27652,7 @@
         }
     },
     {
-        "id": 921,
+        "id": 908,
         "name": "Fish Taco",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fish_Taco",
@@ -27807,7 +27735,7 @@
         }
     },
     {
-        "id": 922,
+        "id": 909,
         "name": "Crispy Bass",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Crispy_Bass",
@@ -27885,7 +27813,7 @@
         }
     },
     {
-        "id": 923,
+        "id": 910,
         "name": "Pepper Poppers",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Pepper_Poppers",
@@ -27963,7 +27891,7 @@
         }
     },
     {
-        "id": 924,
+        "id": 911,
         "name": "Bread",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Bread",
@@ -28028,7 +27956,7 @@
         }
     },
     {
-        "id": 925,
+        "id": 912,
         "name": "Tom Kha Soup",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Tom_Kha_Soup",
@@ -28110,7 +28038,7 @@
         }
     },
     {
-        "id": 926,
+        "id": 913,
         "name": "Trout Soup",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Trout_Soup",
@@ -28184,7 +28112,7 @@
         }
     },
     {
-        "id": 927,
+        "id": 914,
         "name": "Chocolate Cake",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Chocolate_Cake",
@@ -28256,7 +28184,7 @@
         }
     },
     {
-        "id": 928,
+        "id": 915,
         "name": "Pink Cake",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Pink_Cake",
@@ -28332,7 +28260,7 @@
         }
     },
     {
-        "id": 929,
+        "id": 916,
         "name": "Rhubarb Pie",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Rhubarb_Pie",
@@ -28404,7 +28332,7 @@
         }
     },
     {
-        "id": 930,
+        "id": 917,
         "name": "Cookie",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Cookie",
@@ -28475,7 +28403,7 @@
         }
     },
     {
-        "id": 931,
+        "id": 918,
         "name": "Spaghetti",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Spaghetti",
@@ -28543,7 +28471,7 @@
         }
     },
     {
-        "id": 932,
+        "id": 919,
         "name": "Fried Eel",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fried_Eel",
@@ -28618,7 +28546,7 @@
         }
     },
     {
-        "id": 933,
+        "id": 920,
         "name": "Spicy Eel",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Spicy_Eel",
@@ -28697,7 +28625,7 @@
         }
     },
     {
-        "id": 934,
+        "id": 921,
         "name": "Sashimi",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Sashimi",
@@ -28758,7 +28686,7 @@
         }
     },
     {
-        "id": 935,
+        "id": 922,
         "name": "Maki Roll",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Maki_Roll",
@@ -28828,7 +28756,7 @@
         }
     },
     {
-        "id": 936,
+        "id": 923,
         "name": "Tortilla",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Tortilla",
@@ -28893,7 +28821,7 @@
         }
     },
     {
-        "id": 937,
+        "id": 924,
         "name": "Red Plate",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Red_Plate",
@@ -28967,7 +28895,7 @@
         }
     },
     {
-        "id": 938,
+        "id": 925,
         "name": "Eggplant Parmesan",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Eggplant_Parmesan",
@@ -29045,7 +28973,7 @@
         }
     },
     {
-        "id": 939,
+        "id": 926,
         "name": "Rice Pudding",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Rice_Pudding",
@@ -29117,7 +29045,7 @@
         }
     },
     {
-        "id": 940,
+        "id": 927,
         "name": "Ice Cream",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Ice_Cream",
@@ -29185,7 +29113,7 @@
         }
     },
     {
-        "id": 941,
+        "id": 928,
         "name": "Blueberry Tart",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Blueberry_Tart",
@@ -29261,7 +29189,7 @@
         }
     },
     {
-        "id": 942,
+        "id": 929,
         "name": "Autumn's Bounty",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Autumn%27s_Bounty",
@@ -29339,7 +29267,7 @@
         }
     },
     {
-        "id": 943,
+        "id": 930,
         "name": "Pumpkin Soup",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Pumpkin_Soup",
@@ -29417,7 +29345,7 @@
         }
     },
     {
-        "id": 944,
+        "id": 931,
         "name": "Super Meal",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Super_Meal",
@@ -29499,7 +29427,7 @@
         }
     },
     {
-        "id": 945,
+        "id": 932,
         "name": "Cranberry Sauce",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Cranberry_Sauce",
@@ -29572,7 +29500,7 @@
         }
     },
     {
-        "id": 946,
+        "id": 933,
         "name": "Stuffing",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Stuffing",
@@ -29650,7 +29578,7 @@
         }
     },
     {
-        "id": 947,
+        "id": 934,
         "name": "Farmer's Lunch",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Farmer%27s_Lunch",
@@ -29725,7 +29653,7 @@
         }
     },
     {
-        "id": 948,
+        "id": 935,
         "name": "Survival Burger",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Survival_Burger",
@@ -29803,7 +29731,7 @@
         }
     },
     {
-        "id": 949,
+        "id": 936,
         "name": "Dish O' The Sea",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Dish_O%27_The_Sea",
@@ -29878,7 +29806,7 @@
         }
     },
     {
-        "id": 950,
+        "id": 937,
         "name": "Miner's Treat",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Miner%27s_Treat",
@@ -29960,7 +29888,7 @@
         }
     },
     {
-        "id": 951,
+        "id": 938,
         "name": "Roots Platter",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Roots_Platter",
@@ -30034,7 +29962,7 @@
         }
     },
     {
-        "id": 952,
+        "id": 939,
         "name": "Triple Shot Espresso",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Triple_Shot_Espresso",
@@ -30104,7 +30032,7 @@
         }
     },
     {
-        "id": 953,
+        "id": 940,
         "name": "Seafoam Pudding",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Seafoam_Pudding",
@@ -30181,7 +30109,7 @@
         }
     },
     {
-        "id": 954,
+        "id": 941,
         "name": "Algae Soup",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Algae_Soup",
@@ -30245,7 +30173,7 @@
         }
     },
     {
-        "id": 955,
+        "id": 942,
         "name": "Pale Broth",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Pale_Broth",
@@ -30308,7 +30236,7 @@
         }
     },
     {
-        "id": 956,
+        "id": 943,
         "name": "Plum Pudding",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Plum_Pudding",
@@ -30380,7 +30308,7 @@
         }
     },
     {
-        "id": 957,
+        "id": 944,
         "name": "Artichoke Dip",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Artichoke_Dip",
@@ -30448,7 +30376,7 @@
         }
     },
     {
-        "id": 958,
+        "id": 945,
         "name": "Stir Fry",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Stir_Fry",
@@ -30524,7 +30452,7 @@
         }
     },
     {
-        "id": 959,
+        "id": 946,
         "name": "Roasted Hazelnuts",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Roasted_Hazelnuts",
@@ -30588,7 +30516,7 @@
         }
     },
     {
-        "id": 960,
+        "id": 947,
         "name": "Pumpkin Pie",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Pumpkin_Pie",
@@ -30664,7 +30592,7 @@
         }
     },
     {
-        "id": 961,
+        "id": 948,
         "name": "Radish Salad",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Radish_Salad",
@@ -30735,7 +30663,7 @@
         }
     },
     {
-        "id": 962,
+        "id": 949,
         "name": "Fruit Salad",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fruit_Salad",
@@ -30807,7 +30735,7 @@
         }
     },
     {
-        "id": 963,
+        "id": 950,
         "name": "Blackberry Cobbler",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Blackberry_Cobbler",
@@ -30879,7 +30807,7 @@
         }
     },
     {
-        "id": 964,
+        "id": 951,
         "name": "Cranberry Candy",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Cranberry_Candy",
@@ -30951,7 +30879,7 @@
         }
     },
     {
-        "id": 965,
+        "id": 952,
         "name": "Bruschetta",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Bruschetta",
@@ -31022,7 +30950,7 @@
         }
     },
     {
-        "id": 966,
+        "id": 953,
         "name": "Coleslaw",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Coleslaw",
@@ -31094,7 +31022,7 @@
         }
     },
     {
-        "id": 967,
+        "id": 954,
         "name": "Fiddlehead Risotto",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fiddlehead_Risotto",
@@ -31166,7 +31094,7 @@
         }
     },
     {
-        "id": 968,
+        "id": 955,
         "name": "Poppyseed Muffin",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Poppyseed_Muffin",
@@ -31238,7 +31166,7 @@
         }
     },
     {
-        "id": 969,
+        "id": 956,
         "name": "Chowder",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Chowder",
@@ -31311,7 +31239,7 @@
         }
     },
     {
-        "id": 970,
+        "id": 957,
         "name": "Lobster Bisque",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Lobster_Bisque",
@@ -31389,7 +31317,7 @@
         }
     },
     {
-        "id": 971,
+        "id": 958,
         "name": "Escargot",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Escargot",
@@ -31463,7 +31391,7 @@
         }
     },
     {
-        "id": 972,
+        "id": 959,
         "name": "Fish Stew",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Fish_Stew",
@@ -31544,7 +31472,7 @@
         }
     },
     {
-        "id": 973,
+        "id": 960,
         "name": "Maple Bar",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Maple_Bar",
@@ -31630,7 +31558,7 @@
         }
     },
     {
-        "id": 974,
+        "id": 961,
         "name": "Crab Cakes",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Crab_Cakes",
@@ -31716,7 +31644,7 @@
         }
     },
     {
-        "id": 975,
+        "id": 962,
         "name": "Shrimp Cocktail",
         "type": "Food",
         "link": "https://stardewvalleywiki.com/Shrimp_Cocktail",

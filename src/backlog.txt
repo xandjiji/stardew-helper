@@ -55,12 +55,3 @@ green slime egg (outras cores tb)
 verificar imagens
 
 COMIDAS (lembrando magic rock candy)
-
-
-LIMPAR:
-
-" NOME DO INGREDIENTE
-
-HEALING STR PRA INT
-
-FOOD LIKES/DISLIKES
