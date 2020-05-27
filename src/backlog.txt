@@ -55,3 +55,34 @@ green slime egg (outras cores tb)
 verificar imagens
 
 COMIDAS (lembrando magic rock candy)
+
+FARM PRODUCTS:
+    CROPS
+        PROFITABILITY (SORT BY: SEASON)
+    ANIMAL PRODUCTS
+        PRICE
+    ARTISAN GOODS
+        PRICE
+    FISH
+        GRID (SORT BY: SEASON)
+    FOOD
+        GRID
+
+
+RESOURCES
+    MINERALS
+        GRID
+    ARTIFACTS
+        GRID
+    WEAPONS
+        STATS (SORT BY: SWORD/DAGGER/CLUB/DISTANCE)
+    WEAREABLE
+        STATS/GRID (SORT BY: FOOTWEAR/RINGS/HATS)
+    FURNITURE
+        GRID
+
+CALENDAR
+
+NPC?
+
+SEARCH
