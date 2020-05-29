@@ -32,10 +32,6 @@ dark sword healing skill icon
 
 Buildings (makes?)
 
-crane game
-cassino
-desert trader
-oasis
 clint
 dwarf
 carpenter/robin
