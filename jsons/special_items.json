@@ -1,0 +1,178 @@
+[
+    {
+        "id": 695,
+        "name": "Artifact Trove",
+        "type": "Special Items",
+        "link": "Artifact_Trove",
+        "obtainedFrom": [
+            "Can be exchanged with the Desert Trader for 5 Omni Geodes",
+            "Haunted Skull (1.3% chance drop)"
+        ],
+        "makes": [
+            16,
+            17,
+            18,
+            "Ancient Seed",
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            32,
+            33,
+            34,
+            35,
+            695,
+            36,
+            38,
+            697,
+            40,
+            45,
+            47,
+            48,
+            49,
+            50,
+            "Treasure Chest"
+        ]
+    },
+    {
+        "id": 696,
+        "name": "Golden Pumpkin",
+        "type": "Special Items",
+        "link": "Golden_Pumpkin",
+        "sellPrice": "2,500",
+        "obtainedFrom": [
+            "Spirit's Eve",
+            694
+        ],
+        "gifting": {
+            "loves": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ],
+            "hates": []
+        },
+        "makes": [
+            884
+        ]
+    },
+    {
+        "id": 698,
+        "name": "Pearl",
+        "type": "Special Items",
+        "link": "Pearl",
+        "sellPrice": "2,500",
+        "obtainedFrom": [
+            694,
+            "Night Market"
+        ],
+        "gifting": {
+            "loves": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ],
+            "hates": []
+        },
+        "makes": [
+            883
+        ]
+    },
+    {
+        "id": 699,
+        "name": "Squid Ink",
+        "type": "Special Items",
+        "link": "Squid_Ink",
+        "sellPrice": "110",
+        "obtainedFrom": [
+            "Squid Kid (20% chance drop)"
+        ],
+        "makes": [
+            "Used as an ingredient in clothing dye and tailoring",
+            940,
+            "Midnight Dog Jacket"
+        ]
+    },
+    {
+        "id": 700,
+        "name": "Stardrop",
+        "type": "Special Items",
+        "link": "Stardrop",
+        "obtainedFrom": [
+            "Sold for 2,000 Star Tokens at the Stardew Valley Fair",
+            "Obtained from the treasure chest on floor 100 in The Mines",
+            "Marrying an NPC and reaching 12.5 hearts friendship level with him/her",
+            "Krobus (20,000g)",
+            "Obtained from Old Master Cannoli, in the Secret Woods, after giving him a Sweet Gem Berry",
+            "Earned with Willy after catching every fish in the game",
+            "Museum Reward (after donating all 95 items)"
+        ],
+        "makes": [
+            "Permanently increases the player's maximum energy by 34 points"
+        ]
+    }
+]

@@ -1,0 +1,2493 @@
+[
+    {
+        "id": 357,
+        "name": "Oak Chair",
+        "type": "Furniture",
+        "link": "Oak_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 358,
+        "name": "Walnut Chair",
+        "type": "Furniture",
+        "link": "Walnut_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 359,
+        "name": "Birch Chair",
+        "type": "Furniture",
+        "link": "Birch_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 360,
+        "name": "Mahogany Chair",
+        "type": "Furniture",
+        "link": "Mahogany_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 361,
+        "name": "Red Diner Chair",
+        "type": "Furniture",
+        "link": "Red_Diner_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 362,
+        "name": "Blue Diner Chair",
+        "type": "Furniture",
+        "link": "Blue_Diner_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 363,
+        "name": "Country Chair",
+        "type": "Furniture",
+        "link": "Country_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 364,
+        "name": "Breakfast Chair",
+        "type": "Furniture",
+        "link": "Breakfast_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 365,
+        "name": "Pink Office Chair",
+        "type": "Furniture",
+        "link": "Pink_Office_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 366,
+        "name": "Purple Office Chair",
+        "type": "Furniture",
+        "link": "Purple_Office_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 367,
+        "name": "Green Office Stool",
+        "type": "Furniture",
+        "link": "Green_Office_Stool",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 368,
+        "name": "Orange Office Stool",
+        "type": "Furniture",
+        "link": "Orange_Office_Stool",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 369,
+        "name": "Dark Throne",
+        "type": "Furniture",
+        "link": "Dark_Throne",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 370,
+        "name": "Dining Chair (yellow)",
+        "type": "Furniture",
+        "link": "Dining_Chair_(yellow)",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,200g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 371,
+        "name": "Dining Chair (red)",
+        "type": "Furniture",
+        "link": "Dining_Chair_(red)",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,200g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 372,
+        "name": "Green Plush Seat",
+        "type": "Furniture",
+        "link": "Green_Plush_Seat",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 373,
+        "name": "Pink Plush Seat",
+        "type": "Furniture",
+        "link": "Pink_Plush_Seat",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 374,
+        "name": "Winter Chair",
+        "type": "Furniture",
+        "link": "Winter_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 375,
+        "name": "Groovy Chair",
+        "type": "Furniture",
+        "link": "Groovy_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 376,
+        "name": "Cute Chair",
+        "type": "Furniture",
+        "link": "Cute_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,200g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 377,
+        "name": "Stump Seat",
+        "type": "Furniture",
+        "link": "Stump_Seat",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 378,
+        "name": "Metal Chair",
+        "type": "Furniture",
+        "link": "Metal_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 379,
+        "name": "Green Stool",
+        "type": "Furniture",
+        "link": "Green_Stool",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 380,
+        "name": "Blue Stool",
+        "type": "Furniture",
+        "link": "Blue_Stool",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 381,
+        "name": "King Chair",
+        "type": "Furniture",
+        "link": "King_Chair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (3,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 382,
+        "name": "Crystal Chair",
+        "type": "Furniture",
+        "link": "Crystal_Chair",
+        "obtainedFrom": [
+            "Museum Reward (after donating 41 minerals)"
+        ]
+    },
+    {
+        "id": 383,
+        "name": "Birch Bench",
+        "type": "Furniture",
+        "link": "Birch_Bench",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 384,
+        "name": "Oak Bench",
+        "type": "Furniture",
+        "link": "Oak_Bench",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 385,
+        "name": "Walnut Bench",
+        "type": "Furniture",
+        "link": "Walnut_Bench",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 386,
+        "name": "Mahogany Bench",
+        "type": "Furniture",
+        "link": "Mahogany_Bench",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 387,
+        "name": "Modern Bench",
+        "type": "Furniture",
+        "link": "Modern_Bench",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 388,
+        "name": "Blue Couch",
+        "type": "Furniture",
+        "link": "Blue_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 389,
+        "name": "Brown Couch",
+        "type": "Furniture",
+        "link": "Brown_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 390,
+        "name": "Green Couch",
+        "type": "Furniture",
+        "link": "Green_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 391,
+        "name": "Red Couch",
+        "type": "Furniture",
+        "link": "Red_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 392,
+        "name": "Yellow Couch",
+        "type": "Furniture",
+        "link": "Yellow_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 393,
+        "name": "Dark Couch",
+        "type": "Furniture",
+        "link": "Dark_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 394,
+        "name": "Woodsy Couch",
+        "type": "Furniture",
+        "link": "Woodsy_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (3,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 395,
+        "name": "Wizard Couch",
+        "type": "Furniture",
+        "link": "Wizard_Couch",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (4,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 396,
+        "name": "Blue Armchair",
+        "type": "Furniture",
+        "link": "Blue_Armchair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 397,
+        "name": "Brown Armchair",
+        "type": "Furniture",
+        "link": "Brown_Armchair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 398,
+        "name": "Green Armchair",
+        "type": "Furniture",
+        "link": "Green_Armchair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 399,
+        "name": "Red Armchair",
+        "type": "Furniture",
+        "link": "Red_Armchair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 400,
+        "name": "Yellow Armchair",
+        "type": "Furniture",
+        "link": "Yellow_Armchair",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 401,
+        "name": "Oak Table",
+        "type": "Furniture",
+        "link": "Oak_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 402,
+        "name": "Oak Tea-Table",
+        "type": "Furniture",
+        "link": "Oak_Tea-Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 403,
+        "name": "Oak End Table",
+        "type": "Furniture",
+        "link": "Oak_End_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 404,
+        "name": "Birch Table",
+        "type": "Furniture",
+        "link": "Birch_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 405,
+        "name": "Birch Tea-Table",
+        "type": "Furniture",
+        "link": "Birch_Tea-Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 406,
+        "name": "Birch End Table",
+        "type": "Furniture",
+        "link": "Birch_End_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 407,
+        "name": "Mahogany Table",
+        "type": "Furniture",
+        "link": "Mahogany_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 408,
+        "name": "Mahogany Tea-Table",
+        "type": "Furniture",
+        "link": "Mahogany_Tea-Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 409,
+        "name": "Mahogany End Table",
+        "type": "Furniture",
+        "link": "Mahogany_End_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 410,
+        "name": "Walnut Table",
+        "type": "Furniture",
+        "link": "Walnut_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 411,
+        "name": "Walnut Tea-Table",
+        "type": "Furniture",
+        "link": "Walnut_Tea-Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 412,
+        "name": "Walnut End Table",
+        "type": "Furniture",
+        "link": "Walnut_End_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 413,
+        "name": "Modern Table",
+        "type": "Furniture",
+        "link": "Modern_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 414,
+        "name": "Modern Tea-Table",
+        "type": "Furniture",
+        "link": "Modern_Tea-Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 415,
+        "name": "Modern End Table",
+        "type": "Furniture",
+        "link": "Modern_End_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 416,
+        "name": "Puzzle Table",
+        "type": "Furniture",
+        "link": "Puzzle_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 417,
+        "name": "Moon Table",
+        "type": "Furniture",
+        "link": "Moon_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 418,
+        "name": "Luxury Table",
+        "type": "Furniture",
+        "link": "Luxury_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 419,
+        "name": "Diviner Table",
+        "type": "Furniture",
+        "link": "Diviner_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 420,
+        "name": "Grandmother End Table",
+        "type": "Furniture",
+        "link": "Grandmother_End_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 421,
+        "name": "Pub Table",
+        "type": "Furniture",
+        "link": "Pub_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 422,
+        "name": "Luau Table",
+        "type": "Furniture",
+        "link": "Luau_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 423,
+        "name": "Dark Table",
+        "type": "Furniture",
+        "link": "Dark_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 424,
+        "name": "Candy Table",
+        "type": "Furniture",
+        "link": "Candy_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 425,
+        "name": "Sun Table",
+        "type": "Furniture",
+        "link": "Sun_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 426,
+        "name": "Winter Table",
+        "type": "Furniture",
+        "link": "Winter_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 427,
+        "name": "Winter End Table",
+        "type": "Furniture",
+        "link": "Winter_End_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 428,
+        "name": "Neolithic Table",
+        "type": "Furniture",
+        "link": "Neolithic_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 429,
+        "name": "Coffee Table",
+        "type": "Furniture",
+        "link": "Coffee_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 430,
+        "name": "Stone Slab",
+        "type": "Furniture",
+        "link": "Stone_Slab",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 431,
+        "name": "Modern Dining Table",
+        "type": "Furniture",
+        "link": "Modern_Dining_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,700g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 432,
+        "name": "Mahogany Dining Table",
+        "type": "Furniture",
+        "link": "Mahogany_Dining_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (3,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 433,
+        "name": "Festive Dining Table",
+        "type": "Furniture",
+        "link": "Festive_Dining_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (3,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 434,
+        "name": "Winter Dining Table",
+        "type": "Furniture",
+        "link": "Winter_Dining_Table",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (3,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 435,
+        "name": "Artist Bookcase",
+        "type": "Furniture",
+        "link": "Artist_Bookcase",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,200g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 436,
+        "name": "Modern Bookcase",
+        "type": "Furniture",
+        "link": "Modern_Bookcase",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,600g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 437,
+        "name": "Luxury Bookcase",
+        "type": "Furniture",
+        "link": "Luxury_Bookcase",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 438,
+        "name": "Dark Bookcase",
+        "type": "Furniture",
+        "link": "Dark_Bookcase",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 439,
+        "name": "Birch Dresser",
+        "type": "Furniture",
+        "link": "Birch_Dresser",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (5,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 440,
+        "name": "Oak Dresser",
+        "type": "Furniture",
+        "link": "Oak_Dresser",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (5,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 441,
+        "name": "Walnut Dresser",
+        "type": "Furniture",
+        "link": "Walnut_Dresser",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (5,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 442,
+        "name": "Mahogany Dresser",
+        "type": "Furniture",
+        "link": "Mahogany_Dresser",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (7,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 443,
+        "name": "Brick Fireplace",
+        "type": "Furniture",
+        "link": "Brick_Fireplace",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 444,
+        "name": "Elegant Fireplace",
+        "type": "Furniture",
+        "link": "Elegant_Fireplace",
+        "obtainedFrom": [
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 445,
+        "name": "Iridium Fireplace",
+        "type": "Furniture",
+        "link": "Iridium_Fireplace",
+        "obtainedFrom": [
+            "Purchase at the Night Market (Winter 15) (15,000g)"
+        ]
+    },
+    {
+        "id": 446,
+        "name": "Monster Fireplace",
+        "type": "Furniture",
+        "link": "Monster_Fireplace",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (20,000g)"
+        ]
+    },
+    {
+        "id": 447,
+        "name": "Stone Fireplace",
+        "type": "Furniture",
+        "link": "Stone_Fireplace",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 448,
+        "name": "Stove Fireplace",
+        "type": "Furniture",
+        "link": "Stove_Fireplace",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (3,000g)"
+        ]
+    },
+    {
+        "id": 449,
+        "name": "Bamboo Mat",
+        "type": "Furniture",
+        "link": "Bamboo_Mat",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 450,
+        "name": "Burlap Rug",
+        "type": "Furniture",
+        "link": "Burlap_Rug",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 451,
+        "name": "Woodcut Rug",
+        "type": "Furniture",
+        "link": "Woodcut_Rug",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 452,
+        "name": "Nautical Rug",
+        "type": "Furniture",
+        "link": "Nautical_Rug",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 453,
+        "name": "Dark Rug",
+        "type": "Furniture",
+        "link": "Dark_Rug",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 454,
+        "name": "Patchwork Rug",
+        "type": "Furniture",
+        "link": "Patchwork_Rug",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 455,
+        "name": "Red Rug",
+        "type": "Furniture",
+        "link": "Red_Rug",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 456,
+        "name": "Monster Rug",
+        "type": "Furniture",
+        "link": "Monster_Rug",
+        "obtainedFrom": [
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 457,
+        "name": "Green Cottage Rug",
+        "type": "Furniture",
+        "link": "Green_Cottage_Rug",
+        "obtainedFrom": [
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 458,
+        "name": "Red Cottage Rug",
+        "type": "Furniture",
+        "link": "Red_Cottage_Rug",
+        "obtainedFrom": [
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 459,
+        "name": "Mystic Rug",
+        "type": "Furniture",
+        "link": "Mystic_Rug",
+        "obtainedFrom": [
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 460,
+        "name": "Bone Rug",
+        "type": "Furniture",
+        "link": "Bone_Rug",
+        "obtainedFrom": [
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 461,
+        "name": "Snowy Rug",
+        "type": "Furniture",
+        "link": "Snowy_Rug",
+        "obtainedFrom": [
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 462,
+        "name": "Pirate Rug",
+        "type": "Furniture",
+        "link": "Pirate_Rug",
+        "obtainedFrom": [
+            "Earned with Penny (14-heart event)"
+        ]
+    },
+    {
+        "id": 463,
+        "name": "Fruit Salad Rug",
+        "type": "Furniture",
+        "link": "Fruit_Salad_Rug",
+        "obtainedFrom": [
+            "Earned with Penny (14-heart event)"
+        ]
+    },
+    {
+        "id": 464,
+        "name": "Country Lamp",
+        "type": "Furniture",
+        "link": "Country_Lamp",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 465,
+        "name": "Modern Lamp",
+        "type": "Furniture",
+        "link": "Modern_Lamp",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 466,
+        "name": "Classic Lamp",
+        "type": "Furniture",
+        "link": "Classic_Lamp",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 467,
+        "name": "Box Lamp",
+        "type": "Furniture",
+        "link": "Box_Lamp",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 468,
+        "name": "Candle Lamp",
+        "type": "Furniture",
+        "link": "Candle_Lamp",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 469,
+        "name": "Ornate Lamp",
+        "type": "Furniture",
+        "link": "Ornate_Lamp",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,050g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 470,
+        "name": "Basic Window",
+        "type": "Furniture",
+        "link": "Basic_Window",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (300g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 471,
+        "name": "Small Window",
+        "type": "Furniture",
+        "link": "Small_Window",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (300g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 472,
+        "name": "Boarded Window",
+        "type": "Furniture",
+        "link": "Boarded_Window",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (400g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 473,
+        "name": "Carved Window",
+        "type": "Furniture",
+        "link": "Carved_Window",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (900g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 474,
+        "name": "Metal Window",
+        "type": "Furniture",
+        "link": "Metal_Window",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 475,
+        "name": "Ornate Window",
+        "type": "Furniture",
+        "link": "Ornate_Window",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (900g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 476,
+        "name": "Porthole",
+        "type": "Furniture",
+        "link": "Porthole",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (700g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 477,
+        "name": "Floor TV",
+        "type": "Furniture",
+        "link": "Floor_TV",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (700g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 478,
+        "name": "Budget TV",
+        "type": "Furniture",
+        "link": "Budget_TV",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 479,
+        "name": "Plasma TV",
+        "type": "Furniture",
+        "link": "Plasma_TV",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (4,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 480,
+        "name": "Dried Sunflowers",
+        "type": "Furniture",
+        "link": "Dried_Sunflowers",
+        "obtainedFrom": [
+            "Purchased at the Stardew Valley Fair (100 stars)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
+        ]
+    },
+    {
+        "id": 481,
+        "name": "Bonsai Tree",
+        "type": "Furniture",
+        "link": "Bonsai_Tree",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 482,
+        "name": "S. Pine",
+        "type": "Furniture",
+        "link": "S._Pine",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 483,
+        "name": "L. Light String",
+        "type": "Furniture",
+        "link": "L._Light_String",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (400g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 484,
+        "name": "Tree Column",
+        "type": "Furniture",
+        "link": "Tree_Column",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 485,
+        "name": "Small Plant",
+        "type": "Furniture",
+        "link": "Small_Plant",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 486,
+        "name": "Table Plant",
+        "type": "Furniture",
+        "link": "Table_Plant",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 487,
+        "name": "Deluxe Tree",
+        "type": "Furniture",
+        "link": "Deluxe_Tree",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
+        ]
+    },
+    {
+        "id": 488,
+        "name": "Exotic Tree",
+        "type": "Furniture",
+        "link": "Exotic_Tree",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
+        ]
+    },
+    {
+        "id": 489,
+        "name": "Indoor Hanging Basket",
+        "type": "Furniture",
+        "link": "Indoor_Hanging_Basket",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
+        ]
+    },
+    {
+        "id": 490,
+        "name": "Indoor Palm",
+        "type": "Furniture",
+        "link": "Indoor_Palm",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (600g)",
+            "Furniture Catalogue (0g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer)"
+        ]
+    },
+    {
+        "id": 491,
+        "name": "Topiary Tree",
+        "type": "Furniture",
+        "link": "Topiary_Tree",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 492,
+        "name": "Manicured Pine",
+        "type": "Furniture",
+        "link": "Manicured_Pine",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 493,
+        "name": "Tree of the Winter Star",
+        "type": "Furniture",
+        "link": "Tree_of_the_Winter_Star",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (5,000g)",
+            "Furniture Catalogue (0g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
+        ]
+    },
+    {
+        "id": 494,
+        "name": "Long Cactus",
+        "type": "Furniture",
+        "link": "Long_Cactus",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Journey of the Prairie King' movie is playing)"
+        ]
+    },
+    {
+        "id": 495,
+        "name": "Long Palm",
+        "type": "Furniture",
+        "link": "Long_Palm",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Journey of the Prairie King' movie is playing)"
+        ]
+    },
+    {
+        "id": 496,
+        "name": "'A Night On Eco-Hill'",
+        "type": "Furniture",
+        "link": "%27A_Night_On_Eco-Hill%27",
+        "obtainedFrom": [
+            "Museum Reward (after donating 20 items)"
+        ]
+    },
+    {
+        "id": 497,
+        "name": "'Jade Hills'",
+        "type": "Furniture",
+        "link": "%27Jade_Hills%27",
+        "obtainedFrom": [
+            "Museum Reward (after donating 50 items)"
+        ]
+    },
+    {
+        "id": 498,
+        "name": "'Burnt Offering'",
+        "type": "Furniture",
+        "link": "%27Burnt_Offering%27",
+        "obtainedFrom": [
+            "Museum Reward (after donating 11 artifacts that include the Rare Disc and Dwarf Gadget)",
+            "Purchase for 4,000 coins in Qi's Casino"
+        ]
+    },
+    {
+        "id": 499,
+        "name": "'Highway 89'",
+        "type": "Furniture",
+        "link": "%27Highway_89%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)",
+            "Purchase for 4,000 coins in Qi's Casino"
+        ]
+    },
+    {
+        "id": 500,
+        "name": "'Primal Motion'",
+        "type": "Furniture",
+        "link": "%27Primal_Motion%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)",
+            "Purchase for 5,000 coins in Qi's Casino"
+        ]
+    },
+    {
+        "id": 501,
+        "name": "'Spires'",
+        "type": "Furniture",
+        "link": "%27Spires%27",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (800g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)",
+            "Purchase for 3,000 coins in Qi's Casino"
+        ]
+    },
+    {
+        "id": 502,
+        "name": "'Queen of the Gem Sea'",
+        "type": "Furniture",
+        "link": "%27Queen_of_the_Gem_Sea%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 503,
+        "name": "'Pathways'",
+        "type": "Furniture",
+        "link": "%27Pathways%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 504,
+        "name": "'The Muzzamaroo'",
+        "type": "Furniture",
+        "link": "%27The_Muzzamaroo%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 505,
+        "name": "'Vanilla Villa'",
+        "type": "Furniture",
+        "link": "%27Vanilla_Villa%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 506,
+        "name": "'VGA Paradise'",
+        "type": "Furniture",
+        "link": "%27VGA_Paradise%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 507,
+        "name": "'Kitemaster '95'",
+        "type": "Furniture",
+        "link": "%27Kitemaster_%2795%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 508,
+        "name": "'Sun 44'",
+        "type": "Furniture",
+        "link": "%27Sun_44%27",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 509,
+        "name": "Calico Falls",
+        "type": "Furniture",
+        "link": "Calico_Falls",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 510,
+        "name": "'Sun 45'",
+        "type": "Furniture",
+        "link": "%27Sun_45%27",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 511,
+        "name": "'Blue City'",
+        "type": "Furniture",
+        "link": "%27Blue_City%27",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 512,
+        "name": "'Blueberries'",
+        "type": "Furniture",
+        "link": "%27Blueberries%27",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 513,
+        "name": "'Little Tree'",
+        "type": "Furniture",
+        "link": "%27Little_Tree%27",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 514,
+        "name": "Needlepoint Flower",
+        "type": "Furniture",
+        "link": "Needlepoint_Flower",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 515,
+        "name": "'Dancing Grass'",
+        "type": "Furniture",
+        "link": "%27Dancing_Grass%27",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (400g)",
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 516,
+        "name": "My First Painting",
+        "type": "Furniture",
+        "link": "My_First_Painting",
+        "obtainedFrom": [
+            "Earned with Leah (14-heart event)"
+        ]
+    },
+    {
+        "id": 517,
+        "name": "'Red Eagle'",
+        "type": "Furniture",
+        "link": "%27Red_Eagle%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 15) (Year 1, 4, 7,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 518,
+        "name": "'Portrait Of A Mermaid'",
+        "type": "Furniture",
+        "link": "%27Portrait_Of_A_Mermaid%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 16) (Year 1, 4, 7,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 519,
+        "name": "'Solar Kingdom'",
+        "type": "Furniture",
+        "link": "%27Solar_Kingdom%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 17) (Year 1, 4, 7,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 520,
+        "name": "'Clouds'",
+        "type": "Furniture",
+        "link": "%27Clouds%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 15) (Year 2, 5, 8,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 521,
+        "name": "'1000 Years From Now'",
+        "type": "Furniture",
+        "link": "%271000_Years_From_Now%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 16) (Year 2, 5, 8,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 522,
+        "name": "'Three Trees'",
+        "type": "Furniture",
+        "link": "%27Three_Trees%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 17) (Year 2, 5, 8,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 523,
+        "name": "'The Serpent'",
+        "type": "Furniture",
+        "link": "%27The_Serpent%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 15) (Year 3, 6, 9,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 524,
+        "name": "'Tropical Fish 173'",
+        "type": "Furniture",
+        "link": "%27Tropical_Fish_173%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 16) (Year 3, 6, 9,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 525,
+        "name": "'Land Of Clay'",
+        "type": "Furniture",
+        "link": "%27Land_Of_Clay%27",
+        "obtainedFrom": [
+            "Purchased at the Night Market (Winter 17) (Year 3, 6, 9,...) (1,200g)"
+        ]
+    },
+    {
+        "id": 526,
+        "name": "'It Howls In The Rain'",
+        "type": "Furniture",
+        "link": "%27It_Howls_In_The_Rain%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Fall Year 2, 4, 6,...)"
+        ]
+    },
+    {
+        "id": 527,
+        "name": "'Journey Of The Prairie King: The Motion Picture'",
+        "type": "Furniture",
+        "link": "%27Journey_Of_The_Prairie_King:_The_Motion_Picture%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Summer Year 1, 3, 5,...)"
+        ]
+    },
+    {
+        "id": 528,
+        "name": "'Mysterium'",
+        "type": "Furniture",
+        "link": "%27Mysterium%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Fall Year 1, 3, 5,...)"
+        ]
+    },
+    {
+        "id": 529,
+        "name": "'Natural Wonders: Exploring Our Vibrant World'",
+        "type": "Furniture",
+        "link": "%27Natural_Wonders:_Exploring_Our_Vibrant_World%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Spring Year 2, 4, 6,...)"
+        ]
+    },
+    {
+        "id": 530,
+        "name": "'The Brave Little Sapling'",
+        "type": "Furniture",
+        "link": "%27The_Brave_Little_Sapling%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Spring Year 1, 3, 5,...)"
+        ]
+    },
+    {
+        "id": 531,
+        "name": "'The Miracle At Coldstar Ranch'",
+        "type": "Furniture",
+        "link": "%27The_Miracle_At_Coldstar_Ranch%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Winter Year 1, 3, 5,...)"
+        ]
+    },
+    {
+        "id": 532,
+        "name": "'The Zuzu City Express'",
+        "type": "Furniture",
+        "link": "%27The_Zuzu_City_Express%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Winter Year 2, 4, 6,...)"
+        ]
+    },
+    {
+        "id": 533,
+        "name": "'Wumbus'",
+        "type": "Furniture",
+        "link": "%27Wumbus%27",
+        "obtainedFrom": [
+            "It can be won in the Crane Game inside the Movie Theater (Summer Year 2, 4, 6,...)"
+        ]
+    },
+    {
+        "id": 534,
+        "name": "Calendar",
+        "type": "Furniture",
+        "link": "Calendar",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (2,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 535,
+        "name": "Little Photos",
+        "type": "Furniture",
+        "link": "Little_Photos",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 536,
+        "name": "Skull Poster",
+        "type": "Furniture",
+        "link": "Skull_Poster",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 537,
+        "name": "Wallflower Pal",
+        "type": "Furniture",
+        "link": "Wallflower_Pal",
+        "obtainedFrom": [
+            "Purchased at the Traveling Cart (250-2,500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 538,
+        "name": "World Map",
+        "type": "Furniture",
+        "link": "World_Map",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 539,
+        "name": "J. Cola Light",
+        "type": "Furniture",
+        "link": "J._Cola_Light",
+        "obtainedFrom": [
+            "Purchased at the JojaMart (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 540,
+        "name": "Ceiling Flags",
+        "type": "Furniture",
+        "link": "Ceiling_Flags",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (50g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 541,
+        "name": "Hanging Shield",
+        "type": "Furniture",
+        "link": "Hanging_Shield",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 542,
+        "name": "Monster Danglers",
+        "type": "Furniture",
+        "link": "Monster_Danglers",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 543,
+        "name": "Miner's Crest",
+        "type": "Furniture",
+        "link": "Miner%27s_Crest",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 544,
+        "name": "Night Sky Decal 1",
+        "type": "Furniture",
+        "link": "Night_Sky_Decal_1",
+        "obtainedFrom": [
+            "Earned with Penny (14-heart event)"
+        ]
+    },
+    {
+        "id": 545,
+        "name": "Night Sky Decal 2",
+        "type": "Furniture",
+        "link": "Night_Sky_Decal_2",
+        "obtainedFrom": [
+            "Earned with Penny (14-heart event)"
+        ]
+    },
+    {
+        "id": 546,
+        "name": "Night Sky Decal 3",
+        "type": "Furniture",
+        "link": "Night_Sky_Decal_3",
+        "obtainedFrom": [
+            "Earned with Penny (14-heart event)"
+        ]
+    },
+    {
+        "id": 547,
+        "name": "Pirate Flag",
+        "type": "Furniture",
+        "link": "Pirate_Flag",
+        "obtainedFrom": [
+            "Earned with Penny (14-heart event)"
+        ]
+    },
+    {
+        "id": 548,
+        "name": "Small Wall Pumpkin",
+        "type": "Furniture",
+        "link": "Small_Wall_Pumpkin",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
+        ]
+    },
+    {
+        "id": 549,
+        "name": "Strawberry Decal",
+        "type": "Furniture",
+        "link": "Strawberry_Decal",
+        "obtainedFrom": [
+            "Earned with Penny (14-heart event)"
+        ]
+    },
+    {
+        "id": 550,
+        "name": "Wall Pumpkin",
+        "type": "Furniture",
+        "link": "Wall_Pumpkin",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
+        ]
+    },
+    {
+        "id": 551,
+        "name": "Winter Tree Decal",
+        "type": "Furniture",
+        "link": "Winter_Tree_Decal",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
+        ]
+    },
+    {
+        "id": 552,
+        "name": "China Cabinet",
+        "type": "Furniture",
+        "link": "China_Cabinet",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (6,000g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 553,
+        "name": "Ceramic Pillar",
+        "type": "Furniture",
+        "link": "Ceramic_Pillar",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 554,
+        "name": "Gold Pillar",
+        "type": "Furniture",
+        "link": "Gold_Pillar",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (450g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 555,
+        "name": "Industrial Pipe",
+        "type": "Furniture",
+        "link": "Industrial_Pipe",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (300g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 556,
+        "name": "Totem Pole",
+        "type": "Furniture",
+        "link": "Totem_Pole",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 557,
+        "name": "Decorative Bowl",
+        "type": "Furniture",
+        "link": "Decorative_Bowl",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 558,
+        "name": "Decorative Lantern",
+        "type": "Furniture",
+        "link": "Decorative_Lantern",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (500g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 559,
+        "name": "Globe",
+        "type": "Furniture",
+        "link": "Globe",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 560,
+        "name": "Model Ship",
+        "type": "Furniture",
+        "link": "Model_Ship",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 561,
+        "name": "Small Crystal",
+        "type": "Furniture",
+        "link": "Small_Crystal",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "Furniture Catalogue (0g)"
+        ]
+    },
+    {
+        "id": 562,
+        "name": "Futan Bear",
+        "type": "Furniture",
+        "link": "Futan_Bear",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (1,500g)",
+            "Furniture Catalogue (0g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
+        ]
+    },
+    {
+        "id": 563,
+        "name": "Basic Log",
+        "type": "Furniture",
+        "link": "Basic_Log",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (250g)"
+        ]
+    },
+    {
+        "id": 564,
+        "name": "Log Section",
+        "type": "Furniture",
+        "link": "Log_Section",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (350g)",
+            "Purchase at the Night Market (Winter 17) (200g)"
+        ]
+    },
+    {
+        "id": 565,
+        "name": "Big Green Cane",
+        "type": "Furniture",
+        "link": "Big_Green_Cane",
+        "obtainedFrom": [
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
+        ]
+    },
+    {
+        "id": 566,
+        "name": "Big Red Cane",
+        "type": "Furniture",
+        "link": "Big_Red_Cane",
+        "obtainedFrom": [
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
+        ]
+    },
+    {
+        "id": 567,
+        "name": "Green Canes",
+        "type": "Furniture",
+        "link": "Green_Canes",
+        "obtainedFrom": [
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
+        ]
+    },
+    {
+        "id": 568,
+        "name": "Red Canes",
+        "type": "Furniture",
+        "link": "Red_Canes",
+        "obtainedFrom": [
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
+        ]
+    },
+    {
+        "id": 569,
+        "name": "Mixed Cane",
+        "type": "Furniture",
+        "link": "Mixed_Cane",
+        "obtainedFrom": [
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
+        ]
+    },
+    {
+        "id": 570,
+        "name": "Lawn Flamingo",
+        "type": "Furniture",
+        "link": "Lawn_Flamingo",
+        "obtainedFrom": [
+            "Purchase at the Egg Festival (400g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
+        ]
+    },
+    {
+        "id": 571,
+        "name": "Grave Stone",
+        "type": "Furniture",
+        "link": "Grave_Stone",
+        "obtainedFrom": [
+            "Purchase at the Night Market (Winter 15) (200g)",
+            "Purchase at the Spirit's Eve (350g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
+        ]
+    },
+    {
+        "id": 572,
+        "name": "Ornamental Hay Bale",
+        "type": "Furniture",
+        "link": "Ornamental_Hay_Bale",
+        "obtainedFrom": [
+            "Purchase at the Marnie's Ranch (250g)"
+        ]
+    },
+    {
+        "id": 573,
+        "name": "Plush Bunny",
+        "type": "Furniture",
+        "link": "Plush_Bunny",
+        "obtainedFrom": [
+            "Purchase at the Egg Festival (2,000g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
+        ]
+    },
+    {
+        "id": 574,
+        "name": "Statue Of Endless Fortune",
+        "type": "Furniture",
+        "link": "Statue_Of_Endless_Fortune",
+        "obtainedFrom": [
+            "Purchase at the Casino (1,000,000g)"
+        ]
+    },
+    {
+        "id": 575,
+        "name": "Tea Set",
+        "type": "Furniture",
+        "link": "Tea_Set",
+        "obtainedFrom": [
+            "Gift at Feast of the Winter Star (Winter 25)"
+        ]
+    },
+    {
+        "id": 576,
+        "name": "Leah's Sculpture",
+        "type": "Furniture",
+        "link": "Leah%27s_Sculpture",
+        "obtainedFrom": [
+            "Earned with Leah (6-heart event)"
+        ]
+    },
+    {
+        "id": 577,
+        "name": "Standing Geode",
+        "type": "Furniture",
+        "link": "Standing_Geode",
+        "obtainedFrom": [
+            "Museum Reward (after donating 11 minerals)"
+        ]
+    },
+    {
+        "id": 578,
+        "name": "Singing Stone",
+        "type": "Furniture",
+        "link": "Singing_Stone",
+        "obtainedFrom": [
+            "Museum Reward (after donating 21 minerals)"
+        ]
+    },
+    {
+        "id": 579,
+        "name": "Obsidian Vase",
+        "type": "Furniture",
+        "link": "Obsidian_Vase",
+        "obtainedFrom": [
+            "Museum Reward (after donating 31 minerals)"
+        ]
+    },
+    {
+        "id": 580,
+        "name": "Skeleton Statue",
+        "type": "Furniture",
+        "link": "Skeleton_Statue",
+        "obtainedFrom": [
+            "Museum Reward (after donating 15 artifacts)"
+        ]
+    },
+    {
+        "id": 581,
+        "name": "Seasonal Decor",
+        "type": "Furniture",
+        "link": "Seasonal_Decor",
+        "obtainedFrom": [
+            "Purchase at the Flower Dance festival (350g)",
+            "Purchase at the Night Market (500g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
+        ]
+    },
+    {
+        "id": 582,
+        "name": "Prairie King Arcade System",
+        "type": "Furniture",
+        "link": "Prairie_King_Arcade_System",
+        "obtainedFrom": [
+            "Beat Journey of the Prairie King"
+        ]
+    },
+    {
+        "id": 583,
+        "name": "Sign Of The Vessel",
+        "type": "Furniture",
+        "link": "Sign_Of_The_Vessel",
+        "obtainedFrom": [
+            "Krobus (350g)"
+        ]
+    },
+    {
+        "id": 584,
+        "name": "Stardew Hero Trophy",
+        "type": "Furniture",
+        "link": "Stardew_Hero_Trophy",
+        "obtainedFrom": [
+            "Rebuild the Community Center"
+        ]
+    },
+    {
+        "id": 585,
+        "name": "Statue of Perfection",
+        "type": "Furniture",
+        "link": "Statue_of_Perfection",
+        "obtainedFrom": [
+            "Reward from Grandpa's Evaluation"
+        ]
+    },
+    {
+        "id": 586,
+        "name": "Stone Cairn",
+        "type": "Furniture",
+        "link": "Stone_Cairn",
+        "obtainedFrom": [
+            "Can be purchased with the Dwarf (200g)"
+        ]
+    },
+    {
+        "id": 587,
+        "name": "Stone Frog",
+        "type": "Furniture",
+        "link": "Stone_Frog",
+        "obtainedFrom": [
+            "Purchase at the Night Market (Winter 15) (500g)"
+        ]
+    },
+    {
+        "id": 588,
+        "name": "Stone Junimo",
+        "type": "Furniture",
+        "link": "Stone_Junimo",
+        "obtainedFrom": [
+            "Secret Note #14"
+        ]
+    },
+    {
+        "id": 589,
+        "name": "Stone Owl",
+        "type": "Furniture",
+        "link": "Stone_Owl",
+        "obtainedFrom": [
+            "Purchase at the Night Market (Winter 17) (500g)"
+        ]
+    },
+    {
+        "id": 590,
+        "name": "Stone Parrot",
+        "type": "Furniture",
+        "link": "Stone_Parrot",
+        "obtainedFrom": [
+            "Purchase at the Night Market (Winter 16) (500g)"
+        ]
+    },
+    {
+        "id": 591,
+        "name": "Suit Of Armor",
+        "type": "Furniture",
+        "link": "Suit_Of_Armor",
+        "obtainedFrom": [
+            "Purchase at the Night Market (Winter 16) (500g)"
+        ]
+    },
+    {
+        "id": 592,
+        "name": "Lg. Futan Bear",
+        "type": "Furniture",
+        "link": "Lg._Futan_Bear",
+        "obtainedFrom": [
+            "Museum Reward (after donating 30 items)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
+        ]
+    },
+    {
+        "id": 593,
+        "name": "Bear Statue",
+        "type": "Furniture",
+        "link": "Bear_Statue",
+        "obtainedFrom": [
+            "Museum Reward (after donating 50 items)"
+        ]
+    },
+    {
+        "id": 594,
+        "name": "Chicken Statue (furniture)",
+        "type": "Furniture",
+        "link": "Chicken_Statue_(furniture)",
+        "obtainedFrom": [
+            "Museum Reward (after donating a Chicken Statue)"
+        ]
+    },
+    {
+        "id": 595,
+        "name": "Sloth Skeleton",
+        "type": "Furniture",
+        "link": "Sloth_Skeleton",
+        "obtainedFrom": [
+            "Museum Reward (after donating 7 bone pieces)"
+        ]
+    },
+    {
+        "id": 596,
+        "name": "Junimo Plush",
+        "type": "Furniture",
+        "link": "Junimo_Plush",
+        "obtainedFrom": [
+            "It can be found by shaking a bush in the northwest corner of Pelican Town on the 28th of any season at exactly 12:00pm"
+        ]
+    },
+    {
+        "id": 597,
+        "name": "??Foroguemon??",
+        "type": "Furniture",
+        "link": "%3F%3FForoguemon%3F%3F",
+        "obtainedFrom": [
+            "If a Strange Bun is placed inside the chest in Vincent's room, at 1 Willow Lane, the ??Foroguemon?? statue will be acquired"
+        ]
+    },
+    {
+        "id": 598,
+        "name": "??HMTGF??",
+        "type": "Furniture",
+        "link": "%3F%3FHMTGF%3F%3F",
+        "obtainedFrom": [
+            "If a Super Cucumber is placed inside the brown box located in the fenced area north of the Blacksmith, the ??HMTGF?? statue will be acquired"
+        ]
+    },
+    {
+        "id": 599,
+        "name": "??Pinky Lemon??",
+        "type": "Furniture",
+        "link": "%3F%3FPinky_Lemon%3F%3F",
+        "obtainedFrom": [
+            "If Duck Mayonnaise is placed inside the partially-hidden metal box in the back room of the the Stardrop Saloon, the ??Pinky Lemon?? statue will be acquired"
+        ]
+    },
+    {
+        "id": 600,
+        "name": "Solid Gold Lewis",
+        "type": "Furniture",
+        "link": "Solid_Gold_Lewis",
+        "obtainedFrom": [
+            "Secret Note #19"
+        ]
+    },
+    {
+        "id": 601,
+        "name": "Soda Machine",
+        "type": "Furniture",
+        "link": "Soda_Machine",
+        "obtainedFrom": [
+            "Complete the Joja Community Development Form"
+        ]
+    },
+    {
+        "id": 602,
+        "name": "Junimo Kart Arcade System",
+        "type": "Furniture",
+        "link": "Junimo_Kart_Arcade_System",
+        "obtainedFrom": [
+            "Beat 'Progress Mode' of Junimo Kart"
+        ]
+    },
+    {
+        "id": 603,
+        "name": "Butterfly Hutch",
+        "type": "Furniture",
+        "link": "Butterfly_Hutch",
+        "obtainedFrom": [
+            "Can be exchanged with the Desert Trader for 200 Bat Wings"
+        ]
+    },
+    {
+        "id": 604,
+        "name": "Futan Rabbit",
+        "type": "Furniture",
+        "link": "Futan_Rabbit",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
+        ]
+    },
+    {
+        "id": 605,
+        "name": "Green Serpent Statue",
+        "type": "Furniture",
+        "link": "Green_Serpent_Statue",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
+        ]
+    },
+    {
+        "id": 606,
+        "name": "Purple Serpent Statue",
+        "type": "Furniture",
+        "link": "Purple_Serpent_Statue",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
+        ]
+    },
+    {
+        "id": 607,
+        "name": "Small Junimo Plush",
+        "type": "Furniture",
+        "link": "Small_Junimo_Plush",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
+        ]
+    },
+    {
+        "id": 608,
+        "name": "Bobo Statue",
+        "type": "Furniture",
+        "link": "Bobo_Statue",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Wumbus' movie is playing)"
+        ]
+    },
+    {
+        "id": 609,
+        "name": "Wumbus Statue",
+        "type": "Furniture",
+        "link": "Wumbus_Statue",
+        "obtainedFrom": [
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Wumbus' movie is playing)"
+        ]
+    },
+    {
+        "id": 610,
+        "name": "Sam's Boombox",
+        "type": "Furniture",
+        "link": "Sam%27s_Boombox",
+        "obtainedFrom": [
+            "Earned with Sam (14-heart event)"
+        ]
+    },
+    {
+        "id": 611,
+        "name": "Catalogue",
+        "type": "Furniture",
+        "link": "Catalogue",
+        "obtainedFrom": [
+            "Can be purchased at Pierre's General Store (30,000g)"
+        ]
+    },
+    {
+        "id": 612,
+        "name": "Furniture Catalogue",
+        "type": "Furniture",
+        "link": "Furniture_Catalogue",
+        "obtainedFrom": [
+            "Carpenter's Shop (200,000g)"
+        ]
+    }
+]

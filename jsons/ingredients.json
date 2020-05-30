@@ -1,0 +1,267 @@
+[
+    {
+        "id": 613,
+        "name": "Rice",
+        "type": "Ingredient",
+        "link": "Rice",
+        "sellPrice": "100",
+        "healing": {
+            "energy": 13,
+            "health": 5
+        },
+        "obtainedFrom": [
+            "Can be purchased at Pierre's General Store (200g)",
+            "JojaMart (250g)",
+            "Using a Unmilled Rice in a Mill"
+        ],
+        "makes": [
+            922,
+            926,
+            "White Overalls"
+        ],
+        "gifting": {
+            "dislikes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 614,
+        "name": "Sugar",
+        "type": "Ingredient",
+        "link": "Sugar",
+        "sellPrice": "50",
+        "healing": {
+            "energy": 25,
+            "health": 11
+        },
+        "obtainedFrom": [
+            "Can be purchased at Pierre's General Store (100g)",
+            "JojaMart (125g)",
+            "Using a Beet in a Mill"
+        ],
+        "makes": [
+            950,
+            928,
+            914,
+            917,
+            951,
+            932,
+            903,
+            927,
+            960,
+            937,
+            915,
+            943,
+            955,
+            947,
+            916,
+            926,
+            "Sugar Shirt"
+        ],
+        "gifting": {
+            "dislikes": [
+                0
+            ],
+            "hates": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 615,
+        "name": "Vinegar",
+        "type": "Ingredient",
+        "link": "Vinegar",
+        "sellPrice": "100",
+        "healing": {
+            "energy": 13,
+            "health": 5
+        },
+        "obtainedFrom": [
+            "Can be purchased at Pierre's General Store (200g)"
+        ],
+        "makes": [
+            953,
+            "arsnip Soup",
+            "Rice Salad",
+            891,
+            "Orange Gi"
+        ],
+        "gifting": {
+            "dislikes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 616,
+        "name": "Wheat Flour",
+        "type": "Ingredient",
+        "link": "Wheat_Flour",
+        "sellPrice": "50",
+        "healing": {
+            "energy": 13,
+            "health": 5
+        },
+        "obtainedFrom": [
+            "Can be purchased at Pierre's General Store (100g)",
+            "JojaMart (125g)",
+            "Using a Wheat in a Mill"
+        ],
+        "makes": [
+            893,
+            950,
+            928,
+            911,
+            914,
+            917,
+            961,
+            909,
+            897,
+            960,
+            906,
+            915,
+            901,
+            943,
+            955,
+            947,
+            916,
+            918,
+            898,
+            "Warm Flannel Shirt"
+        ],
+        "gifting": {
+            "dislikes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    }
+]

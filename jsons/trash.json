@@ -1,0 +1,372 @@
+[
+    {
+        "id": 737,
+        "name": "Trash",
+        "type": "Trash",
+        "link": "Trash_(item)",
+        "sellPrice": "0",
+        "obtainedFrom": [
+            "Fishing",
+            128,
+            "Garbage Can"
+        ],
+        "makes": [
+            690,
+            681,
+            "Iron Ore"
+        ],
+        "gifting": {
+            "hates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 738,
+        "name": "Driftwood",
+        "type": "Trash",
+        "link": "Driftwood",
+        "sellPrice": "0",
+        "obtainedFrom": [
+            "Fishing",
+            128,
+            "Garbage Can"
+        ],
+        "makes": [
+            691,
+            681
+        ],
+        "gifting": {
+            "likes": [
+                17
+            ],
+            "dislikes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 739,
+        "name": "Soggy Newspaper",
+        "type": "Trash",
+        "link": "Soggy_Newspaper",
+        "sellPrice": "0",
+        "obtainedFrom": [
+            "Fishing",
+            128,
+            "Garbage Can"
+        ],
+        "makes": [
+            88,
+            60
+        ],
+        "gifting": {
+            "hates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 740,
+        "name": "Broken CD",
+        "type": "Trash",
+        "link": "Broken_CD",
+        "sellPrice": "0",
+        "obtainedFrom": [
+            "Fishing",
+            128,
+            "Garbage Can"
+        ],
+        "makes": [
+            689
+        ],
+        "gifting": {
+            "hates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 741,
+        "name": "Broken Glasses",
+        "type": "Trash",
+        "link": "Broken_Glasses",
+        "sellPrice": "0",
+        "obtainedFrom": [
+            "Fishing",
+            128,
+            "Garbage Can"
+        ],
+        "makes": [
+            689
+        ],
+        "gifting": {
+            "hates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 742,
+        "name": "Joja Cola",
+        "type": "Trash",
+        "link": "Joja_Cola",
+        "sellPrice": "25",
+        "healing": {
+            "energy": 13,
+            "health": 5
+        },
+        "obtainedFrom": [
+            "Fishing",
+            128,
+            "Garbage Can"
+        ],
+        "gifting": {
+            "likes": [
+                26
+            ],
+            "hates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 743,
+        "name": "Rotten Plant",
+        "type": "Trash",
+        "link": "Rotten_Plant",
+        "sellPrice": "0",
+        "obtainedFrom": [
+            "Fishing",
+            128,
+            "Garbage Can"
+        ],
+        "gifting": {
+            "hates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    }
+]
