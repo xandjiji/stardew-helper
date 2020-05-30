@@ -12,7 +12,7 @@
             "Fishing Treasure Chests",
             "Pepper Rex drop (10% chance drop)",
             "Prehistoric Floors in the Skull Cavern",
-            "Crane Game in Movie Theater"
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ],
         "makes": [
             62,
@@ -1113,7 +1113,8 @@
             "Frozen Geode (3.33%)",
             "Omni Geode (1%)",
             694,
-            "Fishing Treasure Chests"
+            "Fishing Treasure Chests",
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ],
         "makes": [
             "Regal Mantle"
@@ -3311,7 +3312,8 @@
             "health": 56
         },
         "obtainedFrom": [
-            "Using any Cow Milk in a Cheese Press"
+            "Using any Cow Milk in a Cheese Press",
+            "Can be exchanged with the Desert Trader on Fridays for 1 Emerald"
         ],
         "makes": [
             892,
@@ -3370,7 +3372,8 @@
         "obtainedFrom": [
             "Using a Wool in a Loom",
             "Using a Soggy Newspaper in a Recycling Machine",
-            "Mummy (25% chance drop)"
+            "Mummy (25% chance drop)",
+            "Can be exchanged with the Desert Trader on Wednesdays for 3 Aquamarines"
         ],
         "makes": [
             131,
@@ -3709,7 +3712,8 @@
         "link": "Honey",
         "sellPrice": "100",
         "obtainedFrom": [
-            "Produced by the Bee House (in Spring, Summer or Fall)"
+            "Produced by the Bee House (in Spring, Summer or Fall)",
+            "Oasis on Fridays (200g)"
         ],
         "makes": [
             117,
@@ -3938,7 +3942,7 @@
         },
         "obtainedFrom": [
             "Using Corn, Sunflower or Sunflower Seeds in an Oil Maker",
-            "Pierre's Store (200g)"
+            "Can be purchased at Pierre's General Store (200g)"
         ],
         "makes": [
             952,
@@ -4229,7 +4233,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 2",
-            "Fish Shop (5g)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 2) (5g)"
         ],
         "recipe": [
             {
@@ -4248,10 +4252,10 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 9",
-            "Fish Shop (1,000g after reaching Fishing skill level 9)",
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 9) (1,000g)",
             "Krobus on Wednesdays (200g)",
-            "Festival of Ice",
-            "Casino"
+            "Can be earned as a prize at the Festival of Ice",
+            "Purchase for 1,000 coins in Qi's Casino"
         ],
         "recipe": [
             {
@@ -4801,7 +4805,8 @@
         "sellPrice": "10",
         "obtainedFrom": [
             "Crafting",
-            "Recipe is earned at Farming skill level 6"
+            "Recipe is earned at Farming skill level 6",
+            "Purchase for 100 coins in Qi's Casino"
         ],
         "recipe": [
             {
@@ -4869,7 +4874,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Farming skill level 1",
-            "Pierre's Store (100g)"
+            "Can be purchased at Pierre's General Store (100g)"
         ],
         "recipe": [
             {
@@ -4890,7 +4895,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Farming skill level 4",
-            "Pierre's Store (100g)"
+            "Can be purchased at Pierre's General Store (100g)"
         ],
         "recipe": [
             {
@@ -4911,7 +4916,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Farming skill level 8",
-            "Pierre's Store (year 2+) (150g)",
+            "Can be purchased at Pierre's General Store (year 2+) (150g)",
             "Oasis on Thursdays (80g)"
         ],
         "recipe": [
@@ -4937,7 +4942,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Farming skill level 9",
-            "Pierre's Store (year 2+) (150g)"
+            "Can be purchased at Pierre's General Store (year 2+) (150g)"
         ],
         "recipe": [
             {
@@ -4962,7 +4967,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Farming skill level 7",
-            "Pierre's Store (150g)",
+            "Can be purchased at Pierre's General Store (150g)",
             "Oasis on Saturdays (200g)"
         ],
         "recipe": [
@@ -4988,7 +4993,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Farming skill level 3",
-            "Pierre's Store (100g)"
+            "Can be purchased at Pierre's General Store (100g)"
         ],
         "recipe": [
             {
@@ -5073,7 +5078,8 @@
         "sellPrice": "20",
         "obtainedFrom": [
             "Crafting",
-            "Recipe is traded with Desert Trader (for 10 Iridium Bars)"
+            "Recipe can be exchanged with Desert Trader for 10 Iridium Bars",
+            "Can be exchanged with the Desert Trader for 3 Omni Geodes"
         ],
         "recipe": [
             {
@@ -5101,7 +5107,9 @@
         "sellPrice": "20",
         "obtainedFrom": [
             "Crafting",
-            "Recipe is earned at Foraging skill level 8"
+            "Recipe is earned at Foraging skill level 8",
+            "Can be won as a prize in the Crane Game inside the Movie Theater",
+            "Purchase for 500 coins in Qi's Casino"
         ],
         "recipe": [
             {
@@ -5158,7 +5166,8 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 8",
-            "Fish Shop (1,000g after reaching Fishing skill level 8)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 8) (1,000g)",
+            "Can be earned as a prize at the Festival of Ice"
         ],
         "recipe": [
             {
@@ -5215,13 +5224,14 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Mining skill level 6",
-            "Dwarf (600g)",
+            "Can be purchased with the Dwarf (600g)",
             "Bat (20% chance drop)",
             "Frost Bat (2% chance drop)",
             "Lava Bat (20% chance drop)",
             "Lava Crab (40% chance drop)",
             "Serpent (15% chance drop)",
-            "Squid Kid (10% chance drop)"
+            "Squid Kid (10% chance drop)",
+            "Can be exchanged with the Desert Trader for 5 Quartzes"
         ],
         "recipe": [
             {
@@ -5329,7 +5339,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Mining skill level 1",
-            "Dwarf (300g)",
+            "Can be purchased with the Dwarf (300g)",
             "Rock Crab (40% chance drop)",
             "Duggy (25% chance drop)"
         ],
@@ -5371,7 +5381,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 7",
-            "Fish Shop (750g after reaching Fishing skill level 7)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 7) (750g)"
         ],
         "recipe": [
             {
@@ -5397,7 +5407,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 3",
-            "Fish Shop (1,500g after reaching Fishing skill level 3)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 3) (1,500g)"
         ],
         "recipe": [
             {
@@ -5493,8 +5503,8 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 8",
-            "Fish Shop (1,000g after reaching Fishing skill level 8)",
-            "Festival of Ice"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 8) (1,000g)",
+            "Can be earned as a prize at the Festival of Ice"
         ],
         "recipe": [
             {
@@ -5564,7 +5574,8 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Foraging skill level 6",
-            "Placing a Common Mushroom in a Seed Maker"
+            "Placing a Common Mushroom in a Seed Maker",
+            "Can be exchanged with the Desert Trader on Saturdays for 2 Winter Seeds"
         ],
         "recipe": [
             {
@@ -5945,7 +5956,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Combat skill level 2",
-            "Dwarf (2,000g)"
+            "Can be purchased with the Dwarf (2,000g)"
         ],
         "recipe": [
             {
@@ -6105,11 +6116,13 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Mining skill level 8",
-            "Dwarf (1,000g)",
             "Recipe is traded with Desert Trader (for 10 Iridium Ore)",
+            "Can be exchanged with the Desert Trader for 5 Iridium Ores",
+            "Can be purchased with the Dwarf (1,000g)",
             "Squid Kid (5% chance drop)",
             "Iridium Bat (5% chance drop)",
-            "Haunted Skull (1.3% chance drop)"
+            "Haunted Skull (1.3% chance drop)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ],
         "recipe": [
             {
@@ -6189,7 +6202,8 @@
         },
         "obtainedFrom": [
             "Crafting",
-            "Recipe is earned at Combat skill level 6"
+            "Recipe is earned at Combat skill level 6",
+            "Can be purchased with the Dwarf (3,000g)"
         ],
         "recipe": [
             {
@@ -6358,7 +6372,7 @@
     },
     {
         "id": 155,
-        "name": "Scarecrown",
+        "name": "Scarecrow",
         "type": "Craftable Items",
         "link": "Scarecrow",
         "obtainedFrom": [
@@ -6469,7 +6483,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 6",
-            "Fish Shop (500g after reaching Fishing skill level 6)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 6) (500g)"
         ],
         "recipe": [
             {
@@ -6487,7 +6501,8 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Foraging skill level 1",
-            "Placing a Wild Horseradish in a Seed Maker"
+            "Placing a Wild Horseradish in a Seed Maker",
+            "Can be exchanged with the Desert Trader on Saturday for 2 Summer Seeds"
         ],
         "recipe": [
             {
@@ -6543,7 +6558,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Mining skill level 2",
-            "Desert Trader"
+            "Can be exchanged with the Desert Trader on Sundays for 1 Jade"
         ],
         "recipe": [
             {
@@ -6576,7 +6591,8 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Foraging skill level 4",
-            "Placing a Spice Berry in a Seed Maker"
+            "Placing a Spice Berry in a Seed Maker",
+            "Can be exchanged with the Desert Trader on Saturdays for 2 Fall Seeds"
         ],
         "recipe": [
             {
@@ -6635,7 +6651,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 6",
-            "Fish Shop (500g after reaching Fishing skill level 6)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 6) (500g)"
         ],
         "recipe": [
             {
@@ -6657,7 +6673,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Fishing skill level 7",
-            "Fish Shop (750g after reaching Fishing skill level 7)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 7) (750g)"
         ],
         "recipe": [
             {
@@ -6672,9 +6688,9 @@
         "type": "Craftable Items",
         "link": "Tub_o%27_Flowers",
         "obtainedFrom": [
-            "Pierre's at the Flower Dance festival (250g)",
+            "Purchase at the Flower Dance festival (250g)",
             "Crafting",
-            "Recipe can be purchased with Pierre at the Flower Dance festival (1,000g)"
+            "Recipe can be purchased at the Flower Dance festival (1,000g)"
         ],
         "recipe": [
             {
@@ -6728,7 +6744,8 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Foraging skill level 7",
-            "Placing a Winter Root in a Seed Maker"
+            "Placing a Winter Root in a Seed Maker",
+            "Can be exchanged with the Desert Trader on Saturdays for 2 Spring Seeds"
         ],
         "recipe": [
             {
@@ -6868,7 +6885,7 @@
         "profitability": "2.86",
         "harvestIn": "7 days",
         "obtainedFrom": [
-            "Pierre's Store (30g)",
+            "Can be purchased at Pierre's General Store (30g)",
             "JojaMart (37g)"
         ]
     },
@@ -6943,7 +6960,7 @@
         "profitability": "7.92",
         "harvestIn": "12 days",
         "obtainedFrom": [
-            "Pierre's Store (80g)",
+            "Can be purchased at Pierre's General Store (80g)",
             "JojaMart (100g)"
         ]
     },
@@ -7038,7 +7055,7 @@
         "profitability": "5",
         "harvestIn": "4 days",
         "obtainedFrom": [
-            "Pierre's Store (year 2+) (40g)"
+            "Can be purchased at Pierre's General Store (year 2+) (40g)"
         ]
     },
     {
@@ -7110,7 +7127,7 @@
         "profitability": "7.2",
         "harvestIn": "10 days (3 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (60g)",
+            "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ]
     },
@@ -7184,7 +7201,7 @@
         "profitability": "6.67",
         "harvestIn": "6 days",
         "obtainedFrom": [
-            "Pierre's Store (70g)",
+            "Can be purchased at Pierre's General Store (70g)",
             "JojaMart (87g)"
         ]
     },
@@ -7260,7 +7277,7 @@
         "profitability": "3.75",
         "harvestIn": "4 days",
         "obtainedFrom": [
-            "Pierre's Store (20g)",
+            "Can be purchased at Pierre's General Store (20g)",
             "JojaMart (25g)"
         ]
     },
@@ -7333,7 +7350,7 @@
         "profitability": "6",
         "harvestIn": "6 days",
         "obtainedFrom": [
-            "Pierre's Store (50g)",
+            "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ]
     },
@@ -7550,7 +7567,7 @@
         "profitability": "1.67",
         "harvestIn": "6 days",
         "obtainedFrom": [
-            "Pierre's Store (20g)",
+            "Can be purchased at Pierre's General Store (20g)",
             "JojaMart (25g)"
         ]
     },
@@ -7621,7 +7638,7 @@
         "profitability": "-1.25",
         "harvestIn": "6-8 days",
         "obtainedFrom": [
-            "Pierre's Store (40g)"
+            "Can be purchased at Pierre's General Store (40g)"
         ]
     },
     {
@@ -7696,7 +7713,7 @@
         "profitability": "20.8",
         "harvestIn": "13 days (4 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (80g)"
+            "Can be purchased at Pierre's General Store (80g)"
         ]
     },
     {
@@ -7771,7 +7788,7 @@
         "profitability": "1.92",
         "harvestIn": "14 days (4 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (150g)",
+            "Can be purchased at Pierre's General Store (150g)",
             "JojaMart (187g)"
         ]
     },
@@ -7843,7 +7860,7 @@
         "profitability": "13.52",
         "harvestIn": "11 days (regrows every day)",
         "obtainedFrom": [
-            "Pierre's Store (60g)",
+            "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ]
     },
@@ -7921,7 +7938,7 @@
         "profitability": "10.77",
         "harvestIn": "5 days (3 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (40g)",
+            "Can be purchased at Pierre's General Store (40g)",
             "JojaMart (50g)"
         ]
     },
@@ -7999,7 +8016,7 @@
         "profitability": "14.17",
         "harvestIn": "12 days",
         "obtainedFrom": [
-            "Pierre's Store (80g)",
+            "Can be purchased at Pierre's General Store (80g)",
             "JojaMart (100g)"
         ]
     },
@@ -8070,7 +8087,7 @@
         "profitability": "5.71",
         "harvestIn": "7 days",
         "obtainedFrom": [
-            "Pierre's Store (100g)",
+            "Can be purchased at Pierre's General Store (100g)",
             "JojaMart (125g)"
         ]
     },
@@ -8144,7 +8161,7 @@
         "profitability": "8.33",
         "harvestIn": "6 days",
         "obtainedFrom": [
-            "Pierre's Store (40g)",
+            "Can be purchased at Pierre's General Store (40g)",
             "JojaMart (50g)"
         ]
     },
@@ -8217,7 +8234,7 @@
         "profitability": "17.78",
         "harvestIn": "9 days",
         "obtainedFrom": [
-            "Pierre's Store (year 2+) (100g)"
+            "Can be purchased at Pierre's General Store (year 2+) (100g)"
         ]
     },
     {
@@ -8362,7 +8379,7 @@
         "profitability": "5",
         "harvestIn": "8 days",
         "obtainedFrom": [
-            "Pierre's Store (50g)",
+            "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ]
     },
@@ -8435,7 +8452,7 @@
         "profitability": "-15",
         "harvestIn": "8 days",
         "obtainedFrom": [
-            "Pierre's Store (200g)",
+            "Can be purchased at Pierre's General Store (200g)",
             "JojaMart (125g)"
         ]
     },
@@ -8511,7 +8528,7 @@
         "profitability": "9.26",
         "harvestIn": "11 days (4 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (50g)",
+            "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ]
     },
@@ -8578,7 +8595,7 @@
         "profitability": "3.75",
         "harvestIn": "4 days",
         "obtainedFrom": [
-            "Pierre's Store (10g)",
+            "Can be purchased at Pierre's General Store (10g)",
             "JojaMart (12g)"
         ]
     },
@@ -8653,7 +8670,7 @@
         "profitability": "11.43",
         "harvestIn": "7 days",
         "obtainedFrom": [
-            "Pierre's Store (70g)",
+            "Can be purchased at Pierre's General Store (70g)",
             "JojaMart (87g)"
         ]
     },
@@ -8727,7 +8744,7 @@
         "profitability": "16.25",
         "harvestIn": "8 days",
         "obtainedFrom": [
-            "Pierre's Store (year 2+) (30g)"
+            "Can be purchased at Pierre's General Store (year 2+) (30g)"
         ]
     },
     {
@@ -8874,7 +8891,7 @@
         "profitability": "7.5",
         "harvestIn": "4 days",
         "obtainedFrom": [
-            "Pierre's Store (50g)",
+            "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ]
     },
@@ -8952,7 +8969,7 @@
         "profitability": "18.89",
         "harvestIn": "7 days (5 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (240g)",
+            "Can be purchased at Pierre's General Store (240g)",
             "JojaMart (300g)"
         ]
     },
@@ -9026,7 +9043,7 @@
         "profitability": "11.2",
         "harvestIn": "5 days (5 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (20g)",
+            "Can be purchased at Pierre's General Store (20g)",
             "JojaMart (25g)"
         ]
     },
@@ -9098,7 +9115,7 @@
         "profitability": "7.5",
         "harvestIn": "12 days",
         "obtainedFrom": [
-            "Pierre's Store (200g)",
+            "Can be purchased at Pierre's General Store (200g)",
             "JojaMart (250g)"
         ]
     },
@@ -9179,7 +9196,7 @@
         "profitability": "16.8",
         "harvestIn": "10 days (3 days to regrow)",
         "obtainedFrom": [
-            "Pierre's Store (60g)",
+            "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ]
     },
@@ -9253,7 +9270,7 @@
         "profitability": "16.92",
         "harvestIn": "13 days",
         "obtainedFrom": [
-            "Pierre's Store (100g)",
+            "Can be purchased at Pierre's General Store (100g)",
             "JojaMart (125g)"
         ]
     },
@@ -9329,7 +9346,7 @@
         "profitability": "10",
         "harvestIn": "10 days",
         "obtainedFrom": [
-            "Pierre's Store (60g)",
+            "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ]
     },
@@ -9459,7 +9476,8 @@
         },
         "harvestIn": "12 days (3 days to regrow)",
         "obtainedFrom": [
-            245
+            245,
+            "Oasis on Tuesdays (150g)"
         ],
         "makes": [
             74,
@@ -9740,7 +9758,8 @@
         },
         "obtainedFrom": [
             "Foraging (Spring)",
-            160
+            160,
+            "Purchase at the Flower Dance festival (50g)"
         ],
         "makes": [
             160,
@@ -9867,7 +9886,8 @@
         },
         "obtainedFrom": [
             "Foraging (Spring)",
-            160
+            160,
+            "Purchase at the Flower Dance festival (50g)"
         ],
         "makes": [
             160,
@@ -11652,7 +11672,7 @@
         ],
         "makes": [
             "Cauliflower (Spring)",
-            "Parnsip (Spring)",
+            "Parsnip (Spring)",
             "Potato (Spring)",
             "Corn (Summer)",
             "Pepper (Summer)",
@@ -11734,7 +11754,7 @@
         "profitability": "50",
         "harvestIn": "28 days",
         "obtainedFrom": [
-            "Pierre's Shop during Spring (2,000g)"
+            "Can be purchased at Pierre's General Store (Spring) (2,000g)"
         ],
         "makes": [
             "Apricot Tree",
@@ -11809,7 +11829,7 @@
         "profitability": "80",
         "harvestIn": "28 days",
         "obtainedFrom": [
-            "Pierre's Shop during Spring (3,400g)"
+            "Can be purchased at Pierre's General Store (Spring) (3,400g)"
         ],
         "makes": [
             "Cherry Tree",
@@ -11886,7 +11906,7 @@
         "profitability": "100",
         "harvestIn": "28 days",
         "obtainedFrom": [
-            "Pierre's Shop during Summer (4,000g)"
+            "Can be purchased at Pierre's General Store (Summer) (4,000g)"
         ],
         "makes": [
             "Orange Tree",
@@ -11963,7 +11983,7 @@
         "profitability": "140",
         "harvestIn": "28 days",
         "obtainedFrom": [
-            "Pierre's Shop during Summer (6,000g)"
+            "Can be purchased at Pierre's General Store (Summer) (6,000g)"
         ],
         "makes": [
             "Peach Tree",
@@ -12039,7 +12059,7 @@
         "profitability": "100",
         "harvestIn": "28 days",
         "obtainedFrom": [
-            "Pierre's Shop during Fall (4,000g)"
+            "Can be purchased at Pierre's General Store (Fall) (4,000g)"
         ],
         "makes": [
             "Apple Tree",
@@ -12116,7 +12136,7 @@
         "profitability": "140",
         "harvestIn": "28 days",
         "obtainedFrom": [
-            "Pierre's Shop during Fall (6,000g)"
+            "Can be purchased at Pierre's General Store (Fall) (6,000g)"
         ],
         "makes": [
             "Pomegranate Tree",
@@ -15814,7 +15834,7 @@
         "link": "Lead_Bobber",
         "sellPrice": "150",
         "obtainedFrom": [
-            "Fish Shop (200g after reaching Fishing skill level 6)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 6) (200g)"
         ]
     },
     {
@@ -15823,7 +15843,7 @@
         "type": "Furniture",
         "link": "Oak_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15833,7 +15853,7 @@
         "type": "Furniture",
         "link": "Walnut_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15843,7 +15863,7 @@
         "type": "Furniture",
         "link": "Birch_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15853,7 +15873,7 @@
         "type": "Furniture",
         "link": "Mahogany_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15863,7 +15883,7 @@
         "type": "Furniture",
         "link": "Red_Diner_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15873,7 +15893,7 @@
         "type": "Furniture",
         "link": "Blue_Diner_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15883,7 +15903,7 @@
         "type": "Furniture",
         "link": "Country_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15893,7 +15913,7 @@
         "type": "Furniture",
         "link": "Breakfast_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15903,7 +15923,7 @@
         "type": "Furniture",
         "link": "Pink_Office_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15913,7 +15933,7 @@
         "type": "Furniture",
         "link": "Purple_Office_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15923,7 +15943,7 @@
         "type": "Furniture",
         "link": "Green_Office_Stool",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15933,7 +15953,7 @@
         "type": "Furniture",
         "link": "Orange_Office_Stool",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15943,7 +15963,7 @@
         "type": "Furniture",
         "link": "Dark_Throne",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15953,7 +15973,7 @@
         "type": "Furniture",
         "link": "Dining_Chair_(yellow)",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,200g)",
+            "Can be purchased at the Carpenter's Shop (1,200g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15963,7 +15983,7 @@
         "type": "Furniture",
         "link": "Dining_Chair_(red)",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,200g)",
+            "Can be purchased at the Carpenter's Shop (1,200g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15973,7 +15993,7 @@
         "type": "Furniture",
         "link": "Green_Plush_Seat",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15983,7 +16003,7 @@
         "type": "Furniture",
         "link": "Pink_Plush_Seat",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -15993,7 +16013,7 @@
         "type": "Furniture",
         "link": "Winter_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16003,7 +16023,7 @@
         "type": "Furniture",
         "link": "Groovy_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16013,7 +16033,7 @@
         "type": "Furniture",
         "link": "Cute_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,200g)",
+            "Can be purchased at the Carpenter's Shop (1,200g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16023,7 +16043,7 @@
         "type": "Furniture",
         "link": "Stump_Seat",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16033,7 +16053,7 @@
         "type": "Furniture",
         "link": "Metal_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16043,7 +16063,7 @@
         "type": "Furniture",
         "link": "Green_Stool",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16053,7 +16073,7 @@
         "type": "Furniture",
         "link": "Blue_Stool",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16063,7 +16083,7 @@
         "type": "Furniture",
         "link": "King_Chair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (3,000g)",
+            "Can be purchased at the Carpenter's Shop (3,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16082,7 +16102,7 @@
         "type": "Furniture",
         "link": "Birch_Bench",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16092,7 +16112,7 @@
         "type": "Furniture",
         "link": "Oak_Bench",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16102,7 +16122,7 @@
         "type": "Furniture",
         "link": "Walnut_Bench",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16112,7 +16132,7 @@
         "type": "Furniture",
         "link": "Mahogany_Bench",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16122,7 +16142,7 @@
         "type": "Furniture",
         "link": "Modern_Bench",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16132,7 +16152,7 @@
         "type": "Furniture",
         "link": "Blue_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,750g)",
+            "Can be purchased at the Carpenter's Shop (1,750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16142,7 +16162,7 @@
         "type": "Furniture",
         "link": "Brown_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,750g)",
+            "Can be purchased at the Carpenter's Shop (1,750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16152,7 +16172,7 @@
         "type": "Furniture",
         "link": "Green_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,750g)",
+            "Can be purchased at the Carpenter's Shop (1,750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16162,7 +16182,7 @@
         "type": "Furniture",
         "link": "Red_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,750g)",
+            "Can be purchased at the Carpenter's Shop (1,750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16172,7 +16192,7 @@
         "type": "Furniture",
         "link": "Yellow_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,750g)",
+            "Can be purchased at the Carpenter's Shop (1,750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16182,7 +16202,7 @@
         "type": "Furniture",
         "link": "Dark_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,500g)",
+            "Can be purchased at the Carpenter's Shop (2,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16192,7 +16212,7 @@
         "type": "Furniture",
         "link": "Woodsy_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (3,000g)",
+            "Can be purchased at the Carpenter's Shop (3,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16202,7 +16222,7 @@
         "type": "Furniture",
         "link": "Wizard_Couch",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (4,000g)",
+            "Can be purchased at the Carpenter's Shop (4,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16212,7 +16232,7 @@
         "type": "Furniture",
         "link": "Blue_Armchair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16222,7 +16242,7 @@
         "type": "Furniture",
         "link": "Brown_Armchair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16232,7 +16252,7 @@
         "type": "Furniture",
         "link": "Green_Armchair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16242,7 +16262,7 @@
         "type": "Furniture",
         "link": "Red_Armchair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16252,7 +16272,7 @@
         "type": "Furniture",
         "link": "Yellow_Armchair",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16262,7 +16282,7 @@
         "type": "Furniture",
         "link": "Oak_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16272,7 +16292,7 @@
         "type": "Furniture",
         "link": "Oak_Tea-Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16282,7 +16302,7 @@
         "type": "Furniture",
         "link": "Oak_End_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16292,7 +16312,7 @@
         "type": "Furniture",
         "link": "Birch_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16302,7 +16322,7 @@
         "type": "Furniture",
         "link": "Birch_Tea-Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16312,7 +16332,7 @@
         "type": "Furniture",
         "link": "Birch_End_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16322,7 +16342,7 @@
         "type": "Furniture",
         "link": "Mahogany_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,500g)",
+            "Can be purchased at the Carpenter's Shop (1,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16332,7 +16352,7 @@
         "type": "Furniture",
         "link": "Mahogany_Tea-Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,500g)",
+            "Can be purchased at the Carpenter's Shop (1,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16342,7 +16362,7 @@
         "type": "Furniture",
         "link": "Mahogany_End_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16352,7 +16372,7 @@
         "type": "Furniture",
         "link": "Walnut_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16362,7 +16382,7 @@
         "type": "Furniture",
         "link": "Walnut_Tea-Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16372,7 +16392,7 @@
         "type": "Furniture",
         "link": "Walnut_End_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16382,7 +16402,7 @@
         "type": "Furniture",
         "link": "Modern_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,250g)",
+            "Can be purchased at the Carpenter's Shop (1,250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16392,7 +16412,7 @@
         "type": "Furniture",
         "link": "Modern_Tea-Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16402,7 +16422,7 @@
         "type": "Furniture",
         "link": "Modern_End_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16412,7 +16432,7 @@
         "type": "Furniture",
         "link": "Puzzle_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,500g)",
+            "Can be purchased at the Carpenter's Shop (1,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16422,7 +16442,7 @@
         "type": "Furniture",
         "link": "Moon_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,500g)",
+            "Can be purchased at the Carpenter's Shop (2,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16432,7 +16452,7 @@
         "type": "Furniture",
         "link": "Luxury_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16442,7 +16462,7 @@
         "type": "Furniture",
         "link": "Diviner_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,250g)",
+            "Can be purchased at the Carpenter's Shop (2,250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16452,7 +16472,7 @@
         "type": "Furniture",
         "link": "Grandmother_End_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16462,7 +16482,7 @@
         "type": "Furniture",
         "link": "Pub_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16472,7 +16492,7 @@
         "type": "Furniture",
         "link": "Luau_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16482,7 +16502,7 @@
         "type": "Furniture",
         "link": "Dark_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16492,7 +16512,7 @@
         "type": "Furniture",
         "link": "Candy_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16502,7 +16522,7 @@
         "type": "Furniture",
         "link": "Sun_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,500g)",
+            "Can be purchased at the Carpenter's Shop (2,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16512,7 +16532,7 @@
         "type": "Furniture",
         "link": "Winter_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,250g)",
+            "Can be purchased at the Carpenter's Shop (1,250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16522,7 +16542,7 @@
         "type": "Furniture",
         "link": "Winter_End_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16532,7 +16552,7 @@
         "type": "Furniture",
         "link": "Neolithic_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,800g)",
+            "Can be purchased at the Carpenter's Shop (1,800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16542,7 +16562,7 @@
         "type": "Furniture",
         "link": "Coffee_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,250g)",
+            "Can be purchased at the Carpenter's Shop (1,250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16552,7 +16572,7 @@
         "type": "Furniture",
         "link": "Stone_Slab",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16562,7 +16582,7 @@
         "type": "Furniture",
         "link": "Modern_Dining_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,700g)",
+            "Can be purchased at the Carpenter's Shop (2,700g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16572,7 +16592,7 @@
         "type": "Furniture",
         "link": "Mahogany_Dining_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (3,000g)",
+            "Can be purchased at the Carpenter's Shop (3,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16582,7 +16602,7 @@
         "type": "Furniture",
         "link": "Festive_Dining_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (3,500g)",
+            "Can be purchased at the Carpenter's Shop (3,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16592,7 +16612,7 @@
         "type": "Furniture",
         "link": "Winter_Dining_Table",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (3,500g)",
+            "Can be purchased at the Carpenter's Shop (3,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16602,7 +16622,7 @@
         "type": "Furniture",
         "link": "Artist_Bookcase",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,200g)",
+            "Can be purchased at the Carpenter's Shop (1,200g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16612,7 +16632,7 @@
         "type": "Furniture",
         "link": "Modern_Bookcase",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,600g)",
+            "Can be purchased at the Carpenter's Shop (1,600g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16622,7 +16642,7 @@
         "type": "Furniture",
         "link": "Luxury_Bookcase",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16632,7 +16652,7 @@
         "type": "Furniture",
         "link": "Dark_Bookcase",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16642,7 +16662,7 @@
         "type": "Furniture",
         "link": "Birch_Dresser",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (5,000g)",
+            "Can be purchased at the Carpenter's Shop (5,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16652,7 +16672,7 @@
         "type": "Furniture",
         "link": "Oak_Dresser",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (5,000g)",
+            "Can be purchased at the Carpenter's Shop (5,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16662,7 +16682,7 @@
         "type": "Furniture",
         "link": "Walnut_Dresser",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (5,000g)",
+            "Can be purchased at the Carpenter's Shop (5,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16672,7 +16692,7 @@
         "type": "Furniture",
         "link": "Mahogany_Dresser",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (7,500g)",
+            "Can be purchased at the Carpenter's Shop (7,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16682,7 +16702,7 @@
         "type": "Furniture",
         "link": "Brick_Fireplace",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16701,7 +16721,7 @@
         "type": "Furniture",
         "link": "Iridium_Fireplace",
         "obtainedFrom": [
-            "Purchased at the Night Market (15,000g)"
+            "Purchase at the Night Market (Winter 15) (15,000g)"
         ]
     },
     {
@@ -16710,7 +16730,7 @@
         "type": "Furniture",
         "link": "Monster_Fireplace",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (20,000g)"
+            "Can be purchased at the Carpenter's Shop (20,000g)"
         ]
     },
     {
@@ -16719,7 +16739,7 @@
         "type": "Furniture",
         "link": "Stone_Fireplace",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,500g)",
+            "Can be purchased at the Carpenter's Shop (1,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16729,7 +16749,7 @@
         "type": "Furniture",
         "link": "Stove_Fireplace",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (3,000g)"
+            "Can be purchased at the Carpenter's Shop (3,000g)"
         ]
     },
     {
@@ -16738,7 +16758,7 @@
         "type": "Furniture",
         "link": "Bamboo_Mat",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16748,7 +16768,7 @@
         "type": "Furniture",
         "link": "Burlap_Rug",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16758,7 +16778,7 @@
         "type": "Furniture",
         "link": "Woodcut_Rug",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16768,7 +16788,7 @@
         "type": "Furniture",
         "link": "Nautical_Rug",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,250g)",
+            "Can be purchased at the Carpenter's Shop (1,250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16778,7 +16798,7 @@
         "type": "Furniture",
         "link": "Dark_Rug",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16788,7 +16808,7 @@
         "type": "Furniture",
         "link": "Patchwork_Rug",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16798,7 +16818,7 @@
         "type": "Furniture",
         "link": "Red_Rug",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16880,7 +16900,7 @@
         "type": "Furniture",
         "link": "Country_Lamp",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16890,7 +16910,7 @@
         "type": "Furniture",
         "link": "Modern_Lamp",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16900,7 +16920,7 @@
         "type": "Furniture",
         "link": "Classic_Lamp",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16910,7 +16930,7 @@
         "type": "Furniture",
         "link": "Box_Lamp",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16920,7 +16940,7 @@
         "type": "Furniture",
         "link": "Candle_Lamp",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16930,7 +16950,7 @@
         "type": "Furniture",
         "link": "Ornate_Lamp",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,050g)",
+            "Can be purchased at the Carpenter's Shop (1,050g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16940,7 +16960,7 @@
         "type": "Furniture",
         "link": "Basic_Window",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (300g)",
+            "Can be purchased at the Carpenter's Shop (300g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16950,7 +16970,7 @@
         "type": "Furniture",
         "link": "Small_Window",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (300g)",
+            "Can be purchased at the Carpenter's Shop (300g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16960,7 +16980,7 @@
         "type": "Furniture",
         "link": "Boarded_Window",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (400g)",
+            "Can be purchased at the Carpenter's Shop (400g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16970,7 +16990,7 @@
         "type": "Furniture",
         "link": "Carved_Window",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (900g)",
+            "Can be purchased at the Carpenter's Shop (900g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16980,7 +17000,7 @@
         "type": "Furniture",
         "link": "Metal_Window",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -16990,7 +17010,7 @@
         "type": "Furniture",
         "link": "Ornate_Window",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (900g)",
+            "Can be purchased at the Carpenter's Shop (900g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17000,7 +17020,7 @@
         "type": "Furniture",
         "link": "Porthole",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (700g)",
+            "Can be purchased at the Carpenter's Shop (700g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17010,7 +17030,7 @@
         "type": "Furniture",
         "link": "Floor_TV",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (700g)",
+            "Can be purchased at the Carpenter's Shop (700g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17020,7 +17040,7 @@
         "type": "Furniture",
         "link": "Budget_TV",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17030,7 +17050,7 @@
         "type": "Furniture",
         "link": "Plasma_TV",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (4,500g)",
+            "Can be purchased at the Carpenter's Shop (4,500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17041,7 +17061,7 @@
         "link": "Dried_Sunflowers",
         "obtainedFrom": [
             "Purchased at the Stardew Valley Fair (100 stars)",
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
         ]
     },
     {
@@ -17050,7 +17070,7 @@
         "type": "Furniture",
         "link": "Bonsai_Tree",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17060,7 +17080,7 @@
         "type": "Furniture",
         "link": "S._Pine",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17070,7 +17090,7 @@
         "type": "Furniture",
         "link": "L._Light_String",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (400g)",
+            "Can be purchased at the Carpenter's Shop (400g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17080,7 +17100,7 @@
         "type": "Furniture",
         "link": "Tree_Column",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17090,7 +17110,7 @@
         "type": "Furniture",
         "link": "Small_Plant",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17100,7 +17120,7 @@
         "type": "Furniture",
         "link": "Table_Plant",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17110,7 +17130,7 @@
         "type": "Furniture",
         "link": "Deluxe_Tree",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ]
     },
     {
@@ -17119,7 +17139,7 @@
         "type": "Furniture",
         "link": "Exotic_Tree",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ]
     },
     {
@@ -17128,7 +17148,7 @@
         "type": "Furniture",
         "link": "Indoor_Hanging_Basket",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
         ]
     },
     {
@@ -17137,8 +17157,9 @@
         "type": "Furniture",
         "link": "Indoor_Palm",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (600g)",
-            "Furniture Catalogue (0g)"
+            "Can be purchased at the Carpenter's Shop (600g)",
+            "Furniture Catalogue (0g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer)"
         ]
     },
     {
@@ -17147,7 +17168,7 @@
         "type": "Furniture",
         "link": "Topiary_Tree",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17157,7 +17178,7 @@
         "type": "Furniture",
         "link": "Manicured_Pine",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17167,8 +17188,9 @@
         "type": "Furniture",
         "link": "Tree_of_the_Winter_Star",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (5,000g)",
-            "Furniture Catalogue (0g)"
+            "Can be purchased at the Carpenter's Shop (5,000g)",
+            "Furniture Catalogue (0g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
         ]
     },
     {
@@ -17177,7 +17199,7 @@
         "type": "Furniture",
         "link": "Long_Cactus",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Journey of the Prairie King' movie is playing)"
         ]
     },
     {
@@ -17186,7 +17208,7 @@
         "type": "Furniture",
         "link": "Long_Palm",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Journey of the Prairie King' movie is playing)"
         ]
     },
     {
@@ -17213,7 +17235,8 @@
         "type": "Furniture",
         "link": "%27Burnt_Offering%27",
         "obtainedFrom": [
-            "Museum Reward (after donating 11 artifacts that include the Rare Disc and Dwarf Gadget)"
+            "Museum Reward (after donating 11 artifacts that include the Rare Disc and Dwarf Gadget)",
+            "Purchase for 4,000 coins in Qi's Casino"
         ]
     },
     {
@@ -17223,7 +17246,8 @@
         "link": "%27Highway_89%27",
         "obtainedFrom": [
             "Purchased at the Traveling Cart (250-2,500g)",
-            "Furniture Catalogue (0g)"
+            "Furniture Catalogue (0g)",
+            "Purchase for 4,000 coins in Qi's Casino"
         ]
     },
     {
@@ -17233,7 +17257,8 @@
         "link": "%27Primal_Motion%27",
         "obtainedFrom": [
             "Purchased at the Traveling Cart (250-2,500g)",
-            "Furniture Catalogue (0g)"
+            "Furniture Catalogue (0g)",
+            "Purchase for 5,000 coins in Qi's Casino"
         ]
     },
     {
@@ -17242,9 +17267,10 @@
         "type": "Furniture",
         "link": "%27Spires%27",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (800g)",
+            "Can be purchased at the Carpenter's Shop (800g)",
             "Purchased at the Traveling Cart (250-2,500g)",
-            "Furniture Catalogue (0g)"
+            "Furniture Catalogue (0g)",
+            "Purchase for 3,000 coins in Qi's Casino"
         ]
     },
     {
@@ -17323,7 +17349,7 @@
         "type": "Furniture",
         "link": "Calico_Falls",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Purchased at the Traveling Cart (250-2,500g)",
             "Furniture Catalogue (0g)"
         ]
@@ -17334,7 +17360,7 @@
         "type": "Furniture",
         "link": "%27Sun_45%27",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Purchased at the Traveling Cart (250-2,500g)",
             "Furniture Catalogue (0g)"
         ]
@@ -17345,7 +17371,7 @@
         "type": "Furniture",
         "link": "%27Blue_City%27",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Purchased at the Traveling Cart (250-2,500g)",
             "Furniture Catalogue (0g)"
         ]
@@ -17356,7 +17382,7 @@
         "type": "Furniture",
         "link": "%27Blueberries%27",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Purchased at the Traveling Cart (250-2,500g)",
             "Furniture Catalogue (0g)"
         ]
@@ -17367,7 +17393,7 @@
         "type": "Furniture",
         "link": "%27Little_Tree%27",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Purchased at the Traveling Cart (250-2,500g)",
             "Furniture Catalogue (0g)"
         ]
@@ -17378,7 +17404,7 @@
         "type": "Furniture",
         "link": "Needlepoint_Flower",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Purchased at the Traveling Cart (250-2,500g)",
             "Furniture Catalogue (0g)"
         ]
@@ -17389,7 +17415,7 @@
         "type": "Furniture",
         "link": "%27Dancing_Grass%27",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (400g)",
+            "Can be purchased at the Carpenter's Shop (400g)",
             "Purchased at the Traveling Cart (250-2,500g)",
             "Furniture Catalogue (0g)"
         ]
@@ -17490,7 +17516,7 @@
         "type": "Furniture",
         "link": "%27It_Howls_In_The_Rain%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Fall Year 2, 4, 6,...)"
         ]
     },
     {
@@ -17499,7 +17525,7 @@
         "type": "Furniture",
         "link": "%27Journey_Of_The_Prairie_King:_The_Motion_Picture%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Summer Year 1, 3, 5,...)"
         ]
     },
     {
@@ -17508,7 +17534,7 @@
         "type": "Furniture",
         "link": "%27Mysterium%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Fall Year 1, 3, 5,...)"
         ]
     },
     {
@@ -17517,7 +17543,7 @@
         "type": "Furniture",
         "link": "%27Natural_Wonders:_Exploring_Our_Vibrant_World%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Spring Year 2, 4, 6,...)"
         ]
     },
     {
@@ -17526,7 +17552,7 @@
         "type": "Furniture",
         "link": "%27The_Brave_Little_Sapling%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Spring Year 1, 3, 5,...)"
         ]
     },
     {
@@ -17535,7 +17561,7 @@
         "type": "Furniture",
         "link": "%27The_Miracle_At_Coldstar_Ranch%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Winter Year 1, 3, 5,...)"
         ]
     },
     {
@@ -17544,7 +17570,7 @@
         "type": "Furniture",
         "link": "%27The_Zuzu_City_Express%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Winter Year 2, 4, 6,...)"
         ]
     },
     {
@@ -17553,7 +17579,7 @@
         "type": "Furniture",
         "link": "%27Wumbus%27",
         "obtainedFrom": [
-            "Crane Game"
+            "It can be won in the Crane Game inside the Movie Theater (Summer Year 2, 4, 6,...)"
         ]
     },
     {
@@ -17562,7 +17588,7 @@
         "type": "Furniture",
         "link": "Calendar",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (2,000g)",
+            "Can be purchased at the Carpenter's Shop (2,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17572,7 +17598,7 @@
         "type": "Furniture",
         "link": "Little_Photos",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17582,7 +17608,7 @@
         "type": "Furniture",
         "link": "Skull_Poster",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17602,7 +17628,7 @@
         "type": "Furniture",
         "link": "World_Map",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17622,7 +17648,7 @@
         "type": "Furniture",
         "link": "Ceiling_Flags",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (50g)",
+            "Can be purchased at the Carpenter's Shop (50g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17632,7 +17658,7 @@
         "type": "Furniture",
         "link": "Hanging_Shield",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17642,7 +17668,7 @@
         "type": "Furniture",
         "link": "Monster_Danglers",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17652,7 +17678,7 @@
         "type": "Furniture",
         "link": "Miner%27s_Crest",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,000g)",
+            "Can be purchased at the Carpenter's Shop (1,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17698,7 +17724,7 @@
         "type": "Furniture",
         "link": "Small_Wall_Pumpkin",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
         ]
     },
     {
@@ -17716,7 +17742,7 @@
         "type": "Furniture",
         "link": "Wall_Pumpkin",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
         ]
     },
     {
@@ -17725,7 +17751,7 @@
         "type": "Furniture",
         "link": "Winter_Tree_Decal",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
         ]
     },
     {
@@ -17734,7 +17760,7 @@
         "type": "Furniture",
         "link": "China_Cabinet",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (6,000g)",
+            "Can be purchased at the Carpenter's Shop (6,000g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17744,7 +17770,7 @@
         "type": "Furniture",
         "link": "Ceramic_Pillar",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17754,7 +17780,7 @@
         "type": "Furniture",
         "link": "Gold_Pillar",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (450g)",
+            "Can be purchased at the Carpenter's Shop (450g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17764,7 +17790,7 @@
         "type": "Furniture",
         "link": "Industrial_Pipe",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (300g)",
+            "Can be purchased at the Carpenter's Shop (300g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17774,7 +17800,7 @@
         "type": "Furniture",
         "link": "Totem_Pole",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17784,7 +17810,7 @@
         "type": "Furniture",
         "link": "Decorative_Bowl",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)",
+            "Can be purchased at the Carpenter's Shop (250g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17794,7 +17820,7 @@
         "type": "Furniture",
         "link": "Decorative_Lantern",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (500g)",
+            "Can be purchased at the Carpenter's Shop (500g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17804,7 +17830,7 @@
         "type": "Furniture",
         "link": "Globe",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17814,7 +17840,7 @@
         "type": "Furniture",
         "link": "Model_Ship",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17824,7 +17850,7 @@
         "type": "Furniture",
         "link": "Small_Crystal",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (750g)",
+            "Can be purchased at the Carpenter's Shop (750g)",
             "Furniture Catalogue (0g)"
         ]
     },
@@ -17834,8 +17860,9 @@
         "type": "Furniture",
         "link": "Futan_Bear",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (1,500g)",
-            "Furniture Catalogue (0g)"
+            "Can be purchased at the Carpenter's Shop (1,500g)",
+            "Furniture Catalogue (0g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ]
     },
     {
@@ -17844,7 +17871,7 @@
         "type": "Furniture",
         "link": "Basic_Log",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (250g)"
+            "Can be purchased at the Carpenter's Shop (250g)"
         ]
     },
     {
@@ -17853,7 +17880,7 @@
         "type": "Furniture",
         "link": "Log_Section",
         "obtainedFrom": [
-            "Purchased at the Carpenter's Shop (350g)",
+            "Can be purchased at the Carpenter's Shop (350g)",
             "Purchase at the Night Market (Winter 17) (200g)"
         ]
     },
@@ -17863,7 +17890,8 @@
         "type": "Furniture",
         "link": "Big_Green_Cane",
         "obtainedFrom": [
-            "Purchase at the Night Market (200g)"
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
         ]
     },
     {
@@ -17872,7 +17900,8 @@
         "type": "Furniture",
         "link": "Big_Red_Cane",
         "obtainedFrom": [
-            "Purchase at the Night Market (200g)"
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
         ]
     },
     {
@@ -17881,7 +17910,8 @@
         "type": "Furniture",
         "link": "Green_Canes",
         "obtainedFrom": [
-            "Purchase at the Night Market (200g)"
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
         ]
     },
     {
@@ -17890,7 +17920,8 @@
         "type": "Furniture",
         "link": "Red_Canes",
         "obtainedFrom": [
-            "Purchase at the Night Market (200g)"
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
         ]
     },
     {
@@ -17899,7 +17930,8 @@
         "type": "Furniture",
         "link": "Mixed_Cane",
         "obtainedFrom": [
-            "Purchase at the Night Market (200g)"
+            "Purchase at the Night Market (200g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Winter)"
         ]
     },
     {
@@ -17908,7 +17940,8 @@
         "type": "Furniture",
         "link": "Lawn_Flamingo",
         "obtainedFrom": [
-            "Purchase at the Egg Festival (400g)"
+            "Purchase at the Egg Festival (400g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
         ]
     },
     {
@@ -17918,7 +17951,8 @@
         "link": "Grave_Stone",
         "obtainedFrom": [
             "Purchase at the Night Market (Winter 15) (200g)",
-            "Purchase at the Spirit's Eve (350g)"
+            "Purchase at the Spirit's Eve (350g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
         ]
     },
     {
@@ -17936,7 +17970,8 @@
         "type": "Furniture",
         "link": "Plush_Bunny",
         "obtainedFrom": [
-            "Purchase at the Egg Festival (2,000g)"
+            "Purchase at the Egg Festival (2,000g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
         ]
     },
     {
@@ -18008,8 +18043,9 @@
         "type": "Furniture",
         "link": "Seasonal_Decor",
         "obtainedFrom": [
-            "Purchase at the Flower Dance (350g)",
-            "Purchase at the Night Market (500g)"
+            "Purchase at the Flower Dance festival (350g)",
+            "Purchase at the Night Market (500g)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Spring)"
         ]
     },
     {
@@ -18054,7 +18090,7 @@
         "type": "Furniture",
         "link": "Stone_Cairn",
         "obtainedFrom": [
-            "Dwarf (200g)"
+            "Can be purchased with the Dwarf (200g)"
         ]
     },
     {
@@ -18108,7 +18144,8 @@
         "type": "Furniture",
         "link": "Lg._Futan_Bear",
         "obtainedFrom": [
-            "Museum Reward (after donating 30 items)"
+            "Museum Reward (after donating 30 items)",
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ]
     },
     {
@@ -18207,7 +18244,7 @@
         "type": "Furniture",
         "link": "Butterfly_Hutch",
         "obtainedFrom": [
-            "Desert Trader (200 Bat Wings)"
+            "Can be exchanged with the Desert Trader for 200 Bat Wings"
         ]
     },
     {
@@ -18216,7 +18253,7 @@
         "type": "Furniture",
         "link": "Futan_Rabbit",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ]
     },
     {
@@ -18225,7 +18262,7 @@
         "type": "Furniture",
         "link": "Green_Serpent_Statue",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
         ]
     },
     {
@@ -18234,7 +18271,7 @@
         "type": "Furniture",
         "link": "Purple_Serpent_Statue",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Fall)"
         ]
     },
     {
@@ -18243,7 +18280,7 @@
         "type": "Furniture",
         "link": "Small_Junimo_Plush",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater"
         ]
     },
     {
@@ -18252,7 +18289,7 @@
         "type": "Furniture",
         "link": "Bobo_Statue",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Wumbus' movie is playing)"
         ]
     },
     {
@@ -18261,7 +18298,7 @@
         "type": "Furniture",
         "link": "Wumbus_Statue",
         "obtainedFrom": [
-            "Crane Game"
+            "Can be won as a prize in the Crane Game inside the Movie Theater (Summer, if the 'Wumbus' movie is playing)"
         ]
     },
     {
@@ -18279,7 +18316,7 @@
         "type": "Furniture",
         "link": "Catalogue",
         "obtainedFrom": [
-            "Pierre's Store (30,000g)"
+            "Can be purchased at Pierre's General Store (30,000g)"
         ]
     },
     {
@@ -18302,7 +18339,7 @@
             "health": 5
         },
         "obtainedFrom": [
-            "Pierre's Store (200g)",
+            "Can be purchased at Pierre's General Store (200g)",
             "JojaMart (250g)",
             "Using a Unmilled Rice in a Mill"
         ],
@@ -18360,7 +18397,7 @@
             "health": 11
         },
         "obtainedFrom": [
-            "Pierre's Store (100g)",
+            "Can be purchased at Pierre's General Store (100g)",
             "JojaMart (125g)",
             "Using a Beet in a Mill"
         ],
@@ -18434,7 +18471,7 @@
             "health": 5
         },
         "obtainedFrom": [
-            "Pierre's Store (200g)"
+            "Can be purchased at Pierre's General Store (200g)"
         ],
         "makes": [
             953,
@@ -18492,7 +18529,7 @@
             "health": 5
         },
         "obtainedFrom": [
-            "Pierre's Store (100g)",
+            "Can be purchased at Pierre's General Store (100g)",
             "JojaMart (125g)",
             "Using a Wheat in a Mill"
         ],
@@ -22146,7 +22183,7 @@
         "sellPrice": "15",
         "obtainedFrom": [
             "Dust Sprite (50% chance drop)",
-            "Purchased with Clint (150g)",
+            "Can be purchased with Clint (150g)",
             "Using 10 Wood in a Charcoal Kiln",
             "Using Driftwood or Trash in a Recycling Machine",
             "Any Geode",
@@ -22167,7 +22204,7 @@
             81,
             80,
             85,
-            "Scarecrow",
+            155,
             156,
             157,
             "Shirt"
@@ -22291,7 +22328,7 @@
         "sellPrice": "5",
         "obtainedFrom": [
             "The Mines (all floors)",
-            "Purchased with Clint (75g)",
+            "Can be purchased with Clint (75g)",
             "Any Geode",
             "Panning"
         ],
@@ -22347,11 +22384,12 @@
         "link": "Fiber",
         "sellPrice": "1",
         "obtainedFrom": [
-            "Weeds"
+            "Weeds",
+            "Can be exchanged with the Desert Trader on Tuesdays for 5 Stones"
         ],
         "makes": [
             692,
-            "Scarecrow",
+            155,
             130,
             145,
             172,
@@ -22415,7 +22453,7 @@
         "sellPrice": "25",
         "obtainedFrom": [
             "The Mines (floors 80+)",
-            "Purchased with Clint (400g)",
+            "Can be purchased with Clint (400g)",
             671,
             672,
             673,
@@ -22662,6 +22700,64 @@
     },
     {
         "id": 689,
+        "name": "Iron Ore",
+        "type": "Resources",
+        "link": "Iron_Ore",
+        "sellPrice": "10",
+        "obtainedFrom": [
+            "The Mines (floors 40+)",
+            "Can be purchased with Clint (150g)",
+            670,
+            671,
+            672,
+            673,
+            "Panning"
+        ],
+        "makes": [
+            121,
+            141,
+            "Turtleneck Sweater"
+        ],
+        "gifting": {
+            "hates": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "id": 690,
         "name": "Refined Quartz",
         "type": "Resources",
         "link": "Refined_Quartz",
@@ -22721,14 +22817,14 @@
         }
     },
     {
-        "id": 690,
+        "id": 691,
         "name": "Stone",
         "type": "Resources",
         "link": "Stone",
         "sellPrice": "2",
         "obtainedFrom": [
             "Mining rocks",
-            "Purchased at the Carpenter's Shop (20g)"
+            "Can be purchased at the Carpenter's Shop (20g)"
         ],
         "makes": [
             105,
@@ -22758,14 +22854,14 @@
         ]
     },
     {
-        "id": 691,
+        "id": 692,
         "name": "Wood",
         "type": "Resources",
         "link": "Wood",
         "sellPrice": "2",
         "obtainedFrom": [
             "Chopping Trees",
-            "Purchased at the Carpenter's Shop (10g)",
+            "Can be purchased at the Carpenter's Shop (10g)",
             "Using Hardwood or Driftwood in a Wood Chipper"
         ],
         "makes": [
@@ -22792,7 +22888,7 @@
             89,
             128,
             126,
-            "Scarecrow",
+            155,
             130,
             156,
             123,
@@ -22804,14 +22900,14 @@
         ]
     },
     {
-        "id": 692,
+        "id": 693,
         "name": "Grass Starter",
         "type": "Crop",
         "link": "Grass_Starter",
         "sellPrice": "50",
         "obtainedFrom": [
             "Crafting",
-            "Recipe is purchased at Pierre's Store (1,000g)"
+            "Recipe is purchased at Pierre's General Store (1,000g)"
         ],
         "makes": [
             693
@@ -22824,22 +22920,23 @@
         ]
     },
     {
-        "id": 693,
+        "id": 694,
         "name": "Hay",
         "type": "Resources",
         "link": "Animals#Food",
         "obtainedFrom": [
             "Grass",
-            "Purchase at the Marnie's Ranch (50g)"
+            "Purchase at the Marnie's Ranch (50g)",
+            "Can be exchanged with the Desert Trader on Mondays for 1 Omni Geode"
         ]
     },
     {
-        "id": 694,
+        "id": 695,
         "name": "Artifact Trove",
         "type": "Special Items",
         "link": "Artifact_Trove",
         "obtainedFrom": [
-            "Desert Trader",
+            "Can be exchanged with the Desert Trader for 5 Omni Geodes",
             "Haunted Skull (1.3% chance drop)"
         ],
         "makes": [
@@ -22873,7 +22970,7 @@
         ]
     },
     {
-        "id": 695,
+        "id": 696,
         "name": "Golden Pumpkin",
         "type": "Special Items",
         "link": "Golden_Pumpkin",
@@ -22925,7 +23022,7 @@
         ]
     },
     {
-        "id": 696,
+        "id": 697,
         "name": "Magic Rock Candy",
         "type": "Food",
         "link": "Magic_Rock_Candy",
@@ -22935,7 +23032,7 @@
             "health": 225
         },
         "obtainedFrom": [
-            "Desert Trader",
+            "Can be exchanged with the Desert Trader on Thursdays for 3 Prismatic Shards",
             "Museum Reward (after donating 90 items)",
             "Haunted Skull (0.13% chance drop)"
         ],
@@ -22982,7 +23079,7 @@
         ]
     },
     {
-        "id": 697,
+        "id": 698,
         "name": "Pearl",
         "type": "Special Items",
         "link": "Pearl",
@@ -23034,7 +23131,7 @@
         ]
     },
     {
-        "id": 698,
+        "id": 699,
         "name": "Squid Ink",
         "type": "Special Items",
         "link": "Squid_Ink",
@@ -23049,7 +23146,7 @@
         ]
     },
     {
-        "id": 699,
+        "id": 700,
         "name": "Stardrop",
         "type": "Special Items",
         "link": "Stardrop",
@@ -23067,24 +23164,12 @@
         ]
     },
     {
-        "id": 700,
+        "id": 701,
         "name": "Training Rod",
         "type": "Tools",
         "link": "Training_Rod",
         "obtainedFrom": [
-            "Purchased from Willy's Fish Shop (25g)"
-        ],
-        "makes": [
-            "Fish"
-        ]
-    },
-    {
-        "id": 701,
-        "name": "Bamboo Pole",
-        "type": "Tools",
-        "link": "Bamboo_Pole",
-        "obtainedFrom": [
-            "Purchased from Willy's Fish Shop (500g)"
+            "Can be purchased at Willy's Fish Shop (25g)"
         ],
         "makes": [
             "Fish"
@@ -23092,11 +23177,11 @@
     },
     {
         "id": 702,
-        "name": "Fiberglass Rod",
+        "name": "Bamboo Pole",
         "type": "Tools",
-        "link": "Fiberglass_Rod",
+        "link": "Bamboo_Pole",
         "obtainedFrom": [
-            "Purchased from Willy's Fish Shop (1,800g)"
+            "Can be purchased at Willy's Fish Shop (500g)"
         ],
         "makes": [
             "Fish"
@@ -23104,11 +23189,11 @@
     },
     {
         "id": 703,
-        "name": "Iridium Rod",
+        "name": "Fiberglass Rod",
         "type": "Tools",
-        "link": "Iridium_Rod",
+        "link": "Fiberglass_Rod",
         "obtainedFrom": [
-            "Purchased from Willy's Fish Shop (7,500g)"
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 2) (1,800g)"
         ],
         "makes": [
             "Fish"
@@ -23116,6 +23201,18 @@
     },
     {
         "id": 704,
+        "name": "Iridium Rod",
+        "type": "Tools",
+        "link": "Iridium_Rod",
+        "obtainedFrom": [
+            "Can be purchased at Willy's Fish Shop (requires Fishing skill level 6) (7,500g)"
+        ],
+        "makes": [
+            "Fish"
+        ]
+    },
+    {
+        "id": 705,
         "name": "Scythe",
         "type": "Tools",
         "link": "Scythe",
@@ -23124,7 +23221,7 @@
         ]
     },
     {
-        "id": 705,
+        "id": 706,
         "name": "Golden Scythe",
         "type": "Tools",
         "link": "Golden_Scythe",
@@ -23136,7 +23233,7 @@
         ]
     },
     {
-        "id": 706,
+        "id": 707,
         "name": "Milk Pail",
         "type": "Tools",
         "link": "Milk_Pail",
@@ -23151,7 +23248,7 @@
         ]
     },
     {
-        "id": 707,
+        "id": 708,
         "name": "Shears",
         "type": "Tools",
         "link": "Shears",
@@ -23163,7 +23260,7 @@
         ]
     },
     {
-        "id": 708,
+        "id": 709,
         "name": "Heater",
         "type": "Tools",
         "link": "Heater",
@@ -23175,13 +23272,13 @@
         ]
     },
     {
-        "id": 709,
+        "id": 710,
         "name": "Copper Pan",
         "type": "Tools",
         "link": "Copper_Pan",
         "obtainedFrom": [
             "Earned after the Glittering Boulder is removed",
-            "Purchased from Willy's Fish Shop (2,500g)"
+            "Can be purchased at Willy's Fish Shop (2,500g)"
         ],
         "makes": [
             683,
@@ -23202,7 +23299,7 @@
         ]
     },
     {
-        "id": 710,
+        "id": 711,
         "name": "Auto-Grabber",
         "type": "Tools",
         "link": "Auto-Grabber",
@@ -23214,13 +23311,13 @@
         ]
     },
     {
-        "id": 711,
+        "id": 712,
         "name": "Hoe",
         "type": "Tools",
         "link": "Hoes"
     },
     {
-        "id": 712,
+        "id": 713,
         "name": "Copper Hoe",
         "type": "Tools",
         "link": "Hoes",
@@ -23229,7 +23326,7 @@
         ]
     },
     {
-        "id": 713,
+        "id": 714,
         "name": "Steel Hoe",
         "type": "Tools",
         "link": "Hoes",
@@ -23238,7 +23335,7 @@
         ]
     },
     {
-        "id": 714,
+        "id": 715,
         "name": "Gold Hoe",
         "type": "Tools",
         "link": "Hoes",
@@ -23247,7 +23344,7 @@
         ]
     },
     {
-        "id": 715,
+        "id": 716,
         "name": "Iridium Hoe",
         "type": "Tools",
         "link": "Hoes",
@@ -23256,13 +23353,13 @@
         ]
     },
     {
-        "id": 716,
+        "id": 717,
         "name": "Pickaxe",
         "type": "Tools",
         "link": "Pickaxes"
     },
     {
-        "id": 717,
+        "id": 718,
         "name": "Copper Pickaxe",
         "type": "Tools",
         "link": "Pickaxes",
@@ -23271,7 +23368,7 @@
         ]
     },
     {
-        "id": 718,
+        "id": 719,
         "name": "Steel Pickaxe",
         "type": "Tools",
         "link": "Pickaxes",
@@ -23280,7 +23377,7 @@
         ]
     },
     {
-        "id": 719,
+        "id": 720,
         "name": "Gold Pickaxe",
         "type": "Tools",
         "link": "Pickaxes",
@@ -23289,7 +23386,7 @@
         ]
     },
     {
-        "id": 720,
+        "id": 721,
         "name": "Iridium Pickaxe",
         "type": "Tools",
         "link": "Pickaxes",
@@ -23298,13 +23395,13 @@
         ]
     },
     {
-        "id": 721,
+        "id": 722,
         "name": "Axe",
         "type": "Tools",
         "link": "Axes"
     },
     {
-        "id": 722,
+        "id": 723,
         "name": "Copper Axe",
         "type": "Tools",
         "link": "Axes",
@@ -23313,7 +23410,7 @@
         ]
     },
     {
-        "id": 723,
+        "id": 724,
         "name": "Steel Axe",
         "type": "Tools",
         "link": "Axes",
@@ -23322,7 +23419,7 @@
         ]
     },
     {
-        "id": 724,
+        "id": 725,
         "name": "Gold Axe",
         "type": "Tools",
         "link": "Axes",
@@ -23331,7 +23428,7 @@
         ]
     },
     {
-        "id": 725,
+        "id": 726,
         "name": "Iridium Axe",
         "type": "Tools",
         "link": "Axes",
@@ -23340,13 +23437,13 @@
         ]
     },
     {
-        "id": 726,
+        "id": 727,
         "name": "Watering Can",
         "type": "Tools",
         "link": "Watering_Cans"
     },
     {
-        "id": 727,
+        "id": 728,
         "name": "Copper Watering Can",
         "type": "Tools",
         "link": "Watering_Cans",
@@ -23355,7 +23452,7 @@
         ]
     },
     {
-        "id": 728,
+        "id": 729,
         "name": "Steel Watering Can",
         "type": "Tools",
         "link": "Watering_Cans",
@@ -23364,7 +23461,7 @@
         ]
     },
     {
-        "id": 729,
+        "id": 730,
         "name": "Gold Watering Can",
         "type": "Tools",
         "link": "Watering_Cans",
@@ -23373,7 +23470,7 @@
         ]
     },
     {
-        "id": 730,
+        "id": 731,
         "name": "Iridium Watering Can",
         "type": "Tools",
         "link": "Watering_Cans",
@@ -23382,13 +23479,13 @@
         ]
     },
     {
-        "id": 731,
+        "id": 732,
         "name": "Trash Can",
         "type": "Tools",
         "link": "Trash_Cans"
     },
     {
-        "id": 732,
+        "id": 733,
         "name": "Copper Trash Can",
         "type": "Tools",
         "link": "Trash_Cans",
@@ -23400,7 +23497,7 @@
         ]
     },
     {
-        "id": 733,
+        "id": 734,
         "name": "Steel Trash Can",
         "type": "Tools",
         "link": "Trash_Cans",
@@ -23412,7 +23509,7 @@
         ]
     },
     {
-        "id": 734,
+        "id": 735,
         "name": "Gold Trash Can",
         "type": "Tools",
         "link": "Trash_Cans",
@@ -23424,7 +23521,7 @@
         ]
     },
     {
-        "id": 735,
+        "id": 736,
         "name": "Iridium Trash Can",
         "type": "Tools",
         "link": "Trash_Cans",
@@ -23436,7 +23533,7 @@
         ]
     },
     {
-        "id": 736,
+        "id": 737,
         "name": "Trash",
         "type": "Trash",
         "link": "Trash_(item)",
@@ -23490,7 +23587,7 @@
         }
     },
     {
-        "id": 737,
+        "id": 738,
         "name": "Driftwood",
         "type": "Trash",
         "link": "Driftwood",
@@ -23545,7 +23642,7 @@
         }
     },
     {
-        "id": 738,
+        "id": 739,
         "name": "Soggy Newspaper",
         "type": "Trash",
         "link": "Soggy_Newspaper",
@@ -23598,7 +23695,7 @@
         }
     },
     {
-        "id": 739,
+        "id": 740,
         "name": "Broken CD",
         "type": "Trash",
         "link": "Broken_CD",
@@ -23650,7 +23747,7 @@
         }
     },
     {
-        "id": 740,
+        "id": 741,
         "name": "Broken Glasses",
         "type": "Trash",
         "link": "Broken_Glasses",
@@ -23702,7 +23799,7 @@
         }
     },
     {
-        "id": 741,
+        "id": 742,
         "name": "Joja Cola",
         "type": "Trash",
         "link": "Joja_Cola",
@@ -23757,7 +23854,7 @@
         }
     },
     {
-        "id": 742,
+        "id": 743,
         "name": "Rotten Plant",
         "type": "Trash",
         "link": "Rotten_Plant",
@@ -23806,7 +23903,7 @@
         }
     },
     {
-        "id": 743,
+        "id": 744,
         "name": "Rusty Sword",
         "type": "Weapons",
         "link": "Rusty_Sword",
@@ -23822,7 +23919,7 @@
         ]
     },
     {
-        "id": 744,
+        "id": 745,
         "name": "Wooden Blade",
         "type": "Weapons",
         "link": "Wooden_Blade",
@@ -23838,7 +23935,7 @@
         ]
     },
     {
-        "id": 745,
+        "id": 746,
         "name": "Steel Smallsword",
         "type": "Weapons",
         "link": "Steel_Smallsword",
@@ -23859,7 +23956,7 @@
         ]
     },
     {
-        "id": 746,
+        "id": 747,
         "name": "Silver Saber",
         "type": "Weapons",
         "link": "Silver_Saber",
@@ -23880,7 +23977,7 @@
         ]
     },
     {
-        "id": 747,
+        "id": 748,
         "name": "Pirate's Sword",
         "type": "Weapons",
         "link": "Pirate%27s_Sword",
@@ -23902,7 +23999,7 @@
         ]
     },
     {
-        "id": 748,
+        "id": 749,
         "name": "Cutlass",
         "type": "Weapons",
         "link": "Cutlass",
@@ -23923,7 +24020,7 @@
         ]
     },
     {
-        "id": 749,
+        "id": 750,
         "name": "Iron Edge",
         "type": "Weapons",
         "link": "Iron_Edge",
@@ -23952,7 +24049,7 @@
         ]
     },
     {
-        "id": 750,
+        "id": 751,
         "name": "Forest Sword",
         "type": "Weapons",
         "link": "Forest_Sword",
@@ -23977,7 +24074,7 @@
         ]
     },
     {
-        "id": 751,
+        "id": 752,
         "name": "Holy Blade",
         "type": "Weapons",
         "link": "Holy_Blade",
@@ -23998,7 +24095,7 @@
         ]
     },
     {
-        "id": 752,
+        "id": 753,
         "name": "Insect Head",
         "type": "Weapons",
         "link": "Insect_Head",
@@ -24020,7 +24117,7 @@
         ]
     },
     {
-        "id": 753,
+        "id": 754,
         "name": "Claymore",
         "type": "Weapons",
         "link": "Claymore",
@@ -24049,7 +24146,7 @@
         ]
     },
     {
-        "id": 754,
+        "id": 755,
         "name": "Templar's Blade",
         "type": "Weapons",
         "link": "Templar%27s_Blade",
@@ -24070,7 +24167,7 @@
         ]
     },
     {
-        "id": 755,
+        "id": 756,
         "name": "Dark Sword",
         "type": "Weapons",
         "link": "Dark_Sword",
@@ -24099,7 +24196,7 @@
         ]
     },
     {
-        "id": 756,
+        "id": 757,
         "name": "Neptune's Glaive",
         "type": "Weapons",
         "link": "Neptune%27s_Glaive",
@@ -24128,7 +24225,7 @@
         ]
     },
     {
-        "id": 757,
+        "id": 758,
         "name": "Tempered Broadsword",
         "type": "Weapons",
         "link": "Tempered_Broadsword",
@@ -24157,7 +24254,7 @@
         ]
     },
     {
-        "id": 758,
+        "id": 759,
         "name": "Obsidian Edge",
         "type": "Weapons",
         "link": "Obsidian_Edge",
@@ -24182,7 +24279,7 @@
         ]
     },
     {
-        "id": 759,
+        "id": 760,
         "name": "Bone Sword",
         "type": "Weapons",
         "link": "Bone_Sword",
@@ -24207,7 +24304,7 @@
         ]
     },
     {
-        "id": 760,
+        "id": 761,
         "name": "Steel Falchion",
         "type": "Weapons",
         "link": "Steel_Falchion",
@@ -24233,7 +24330,7 @@
         ]
     },
     {
-        "id": 761,
+        "id": 762,
         "name": "Lava Katana",
         "type": "Weapons",
         "link": "Lava_Katana",
@@ -24262,7 +24359,7 @@
         ]
     },
     {
-        "id": 762,
+        "id": 763,
         "name": "Galaxy Sword",
         "type": "Weapons",
         "link": "Galaxy_Sword",
@@ -24283,7 +24380,7 @@
         ]
     },
     {
-        "id": 763,
+        "id": 764,
         "name": "Carving Knife",
         "type": "Weapons",
         "link": "Carving_Knife",
@@ -24299,7 +24396,7 @@
         ]
     },
     {
-        "id": 764,
+        "id": 765,
         "name": "Iron Dirk",
         "type": "Weapons",
         "link": "Iron_Dirk",
@@ -24315,7 +24412,7 @@
         ]
     },
     {
-        "id": 765,
+        "id": 766,
         "name": "Wind Spire",
         "type": "Weapons",
         "link": "Wind_Spire",
@@ -24340,7 +24437,7 @@
         ]
     },
     {
-        "id": 766,
+        "id": 767,
         "name": "Burglar's Shank",
         "type": "Weapons",
         "link": "Burglar%27s_Shank",
@@ -24361,7 +24458,7 @@
         ]
     },
     {
-        "id": 767,
+        "id": 768,
         "name": "Crystal Dagger",
         "type": "Weapons",
         "link": "Crystal_Dagger",
@@ -24386,7 +24483,7 @@
         ]
     },
     {
-        "id": 768,
+        "id": 769,
         "name": "Broken Trident",
         "type": "Weapons",
         "link": "Broken_Trident",
@@ -24402,7 +24499,7 @@
         ]
     },
     {
-        "id": 769,
+        "id": 770,
         "name": "Wicked Kris",
         "type": "Weapons",
         "link": "Wicked_Kris",
@@ -24418,7 +24515,7 @@
         ]
     },
     {
-        "id": 770,
+        "id": 771,
         "name": "Galaxy Dagger",
         "type": "Weapons",
         "link": "Galaxy_Dagger",
@@ -24443,7 +24540,7 @@
         ]
     },
     {
-        "id": 771,
+        "id": 772,
         "name": "Femur",
         "type": "Weapons",
         "link": "Femur",
@@ -24464,7 +24561,7 @@
         ]
     },
     {
-        "id": 772,
+        "id": 773,
         "name": "Wood Club",
         "type": "Weapons",
         "link": "Wood_Club",
@@ -24480,7 +24577,7 @@
         ]
     },
     {
-        "id": 773,
+        "id": 774,
         "name": "Wood Mallet",
         "type": "Weapons",
         "link": "Wood_Mallet",
@@ -24506,7 +24603,7 @@
         ]
     },
     {
-        "id": 774,
+        "id": 775,
         "name": "Lead Rod",
         "type": "Weapons",
         "link": "Lead_Rod",
@@ -24528,7 +24625,7 @@
         ]
     },
     {
-        "id": 775,
+        "id": 776,
         "name": "The Slammer",
         "type": "Weapons",
         "link": "The_Slammer",
@@ -24549,7 +24646,7 @@
         ]
     },
     {
-        "id": 776,
+        "id": 777,
         "name": "Galaxy Hammer",
         "type": "Weapons",
         "link": "Galaxy_Hammer",
@@ -24574,7 +24671,7 @@
         ]
     },
     {
-        "id": 777,
+        "id": 778,
         "name": "Slingshot",
         "type": "Weapons",
         "link": "Slingshot",
@@ -24588,7 +24685,7 @@
         ]
     },
     {
-        "id": 778,
+        "id": 779,
         "name": "Master Slingshot",
         "type": "Weapons",
         "link": "Master_Slingshot",
@@ -24602,7 +24699,7 @@
         ]
     },
     {
-        "id": 779,
+        "id": 780,
         "name": "Sneakers",
         "type": "Footwear",
         "link": "Sneakers",
@@ -24622,7 +24719,7 @@
         ]
     },
     {
-        "id": 780,
+        "id": 781,
         "name": "Rubber Boots",
         "type": "Footwear",
         "link": "Rubber_Boots",
@@ -24642,7 +24739,7 @@
         ]
     },
     {
-        "id": 781,
+        "id": 782,
         "name": "Leather Boots",
         "type": "Footwear",
         "link": "Leather_Boots",
@@ -24665,7 +24762,7 @@
         ]
     },
     {
-        "id": 782,
+        "id": 783,
         "name": "Work Boots",
         "type": "Footwear",
         "link": "Work_Boots",
@@ -24683,7 +24780,7 @@
         ]
     },
     {
-        "id": 783,
+        "id": 784,
         "name": "Combat Boots",
         "type": "Footwear",
         "link": "Combat_Boots",
@@ -24702,7 +24799,7 @@
         ]
     },
     {
-        "id": 784,
+        "id": 785,
         "name": "Tundra Boots",
         "type": "Footwear",
         "link": "Tundra_Boots",
@@ -24724,7 +24821,7 @@
         ]
     },
     {
-        "id": 785,
+        "id": 786,
         "name": "Leprechaun Shoes",
         "type": "Footwear",
         "link": "Leprechaun_Shoes",
@@ -24746,7 +24843,7 @@
         ]
     },
     {
-        "id": 786,
+        "id": 787,
         "name": "Thermal Boots",
         "type": "Footwear",
         "link": "Thermal_Boots",
@@ -24769,7 +24866,7 @@
         ]
     },
     {
-        "id": 787,
+        "id": 788,
         "name": "Cowboy Boots",
         "type": "Footwear",
         "link": "Cowboy_Boots",
@@ -24790,7 +24887,7 @@
         ]
     },
     {
-        "id": 788,
+        "id": 789,
         "name": "Dark Boots",
         "type": "Footwear",
         "link": "Dark_Boots",
@@ -24813,7 +24910,7 @@
         ]
     },
     {
-        "id": 789,
+        "id": 790,
         "name": "Firewalker Boots",
         "type": "Footwear",
         "link": "Firewalker_Boots",
@@ -24836,7 +24933,7 @@
         ]
     },
     {
-        "id": 790,
+        "id": 791,
         "name": "Genie Shoes",
         "type": "Footwear",
         "link": "Genie_Shoes",
@@ -24859,7 +24956,7 @@
         ]
     },
     {
-        "id": 791,
+        "id": 792,
         "name": "Space Boots",
         "type": "Footwear",
         "link": "Space_Boots",
@@ -24882,7 +24979,7 @@
         ]
     },
     {
-        "id": 792,
+        "id": 793,
         "name": "Emily's Magic Boots",
         "type": "Footwear",
         "link": "Emily%27s_Magic_Boots",
@@ -24904,7 +25001,7 @@
         ]
     },
     {
-        "id": 793,
+        "id": 794,
         "name": "Small Glow Ring",
         "type": "Rings",
         "link": "Small_Glow_Ring",
@@ -24916,7 +25013,7 @@
         ]
     },
     {
-        "id": 794,
+        "id": 795,
         "name": "Glow Ring",
         "type": "Rings",
         "link": "Glow_Ring",
@@ -24929,7 +25026,7 @@
         ]
     },
     {
-        "id": 795,
+        "id": 796,
         "name": "Small Magnet Ring",
         "type": "Rings",
         "link": "Small_Magnet_Ring",
@@ -24941,7 +25038,7 @@
         ]
     },
     {
-        "id": 796,
+        "id": 797,
         "name": "Magnet Ring",
         "type": "Rings",
         "link": "Magnet_Ring",
@@ -24953,7 +25050,7 @@
         ]
     },
     {
-        "id": 797,
+        "id": 798,
         "name": "Slime Charmer Ring",
         "type": "Rings",
         "link": "Slime_Charmer_Ring",
@@ -24965,7 +25062,7 @@
         ]
     },
     {
-        "id": 798,
+        "id": 799,
         "name": "Warrior Ring",
         "type": "Rings",
         "link": "Warrior_Ring",
@@ -24991,7 +25088,7 @@
         ]
     },
     {
-        "id": 799,
+        "id": 800,
         "name": "Vampire Ring",
         "type": "Rings",
         "link": "Vampire_Ring",
@@ -25003,7 +25100,7 @@
         ]
     },
     {
-        "id": 800,
+        "id": 801,
         "name": "Savage Ring",
         "type": "Rings",
         "link": "Savage_Ring",
@@ -25015,7 +25112,7 @@
         ]
     },
     {
-        "id": 801,
+        "id": 802,
         "name": "Ring of Yoba",
         "type": "Rings",
         "link": "Ring_of_Yoba",
@@ -25041,7 +25138,7 @@
         ]
     },
     {
-        "id": 802,
+        "id": 803,
         "name": "Sturdy Ring",
         "type": "Rings",
         "link": "Sturdy_Ring",
@@ -25067,7 +25164,7 @@
         ]
     },
     {
-        "id": 803,
+        "id": 804,
         "name": "Burglar's Ring",
         "type": "Rings",
         "link": "Burglar%27s_Ring",
@@ -25079,7 +25176,7 @@
         ]
     },
     {
-        "id": 804,
+        "id": 805,
         "name": "Iridium Band",
         "type": "Rings",
         "link": "Iridium_Band",
@@ -25106,7 +25203,7 @@
         ]
     },
     {
-        "id": 805,
+        "id": 806,
         "name": "Amethyst Ring",
         "type": "Rings",
         "link": "Amethyst_Ring",
@@ -25117,7 +25214,7 @@
         ]
     },
     {
-        "id": 806,
+        "id": 807,
         "name": "Topaz Ring",
         "type": "Rings",
         "link": "Topaz_Ring",
@@ -25128,7 +25225,7 @@
         ]
     },
     {
-        "id": 807,
+        "id": 808,
         "name": "Aquamarine Ring",
         "type": "Rings",
         "link": "Aquamarine_Ring",
@@ -25139,7 +25236,7 @@
         ]
     },
     {
-        "id": 808,
+        "id": 809,
         "name": "Jade Ring",
         "type": "Rings",
         "link": "Jade_Ring",
@@ -25151,7 +25248,7 @@
         ]
     },
     {
-        "id": 809,
+        "id": 810,
         "name": "Emerald Ring",
         "type": "Rings",
         "link": "Emerald_Ring",
@@ -25162,7 +25259,7 @@
         ]
     },
     {
-        "id": 810,
+        "id": 811,
         "name": "Ruby Ring",
         "type": "Rings",
         "link": "Ruby_Ring",
@@ -25173,7 +25270,7 @@
         ]
     },
     {
-        "id": 811,
+        "id": 812,
         "name": "Wedding Ring",
         "type": "Rings",
         "link": "Wedding_Ring",
@@ -25195,7 +25292,7 @@
         ]
     },
     {
-        "id": 812,
+        "id": 813,
         "name": "Crabshell Ring",
         "type": "Rings",
         "link": "Crabshell_Ring",
@@ -25207,7 +25304,7 @@
         ]
     },
     {
-        "id": 813,
+        "id": 814,
         "name": "Napalm Ring",
         "type": "Rings",
         "link": "Napalm_Ring",
@@ -25219,7 +25316,7 @@
         ]
     },
     {
-        "id": 814,
+        "id": 815,
         "name": "Blue Bonnet",
         "type": "Hats",
         "link": "Blue_Bonnet",
@@ -25228,7 +25325,7 @@
         ]
     },
     {
-        "id": 815,
+        "id": 816,
         "name": "Cat Ears",
         "type": "Hats",
         "link": "Cat_Ears",
@@ -25237,7 +25334,7 @@
         ]
     },
     {
-        "id": 816,
+        "id": 817,
         "name": "Plum Chapeau",
         "type": "Hats",
         "link": "Plum_Chapeau",
@@ -25246,7 +25343,7 @@
         ]
     },
     {
-        "id": 817,
+        "id": 818,
         "name": "Earmuffs",
         "type": "Hats",
         "link": "Earmuffs",
@@ -25255,7 +25352,7 @@
         ]
     },
     {
-        "id": 818,
+        "id": 819,
         "name": "Cowpoke Hat",
         "type": "Hats",
         "link": "Cowpoke_Hat",
@@ -25264,7 +25361,7 @@
         ]
     },
     {
-        "id": 819,
+        "id": 820,
         "name": "Official Cap",
         "type": "Hats",
         "link": "Official_Cap",
@@ -25273,7 +25370,7 @@
         ]
     },
     {
-        "id": 820,
+        "id": 821,
         "name": "Santa Hat",
         "type": "Hats",
         "link": "Santa_Hat",
@@ -25282,7 +25379,7 @@
         ]
     },
     {
-        "id": 821,
+        "id": 822,
         "name": "Tropiclip",
         "type": "Hats",
         "link": "Tropiclip",
@@ -25291,7 +25388,7 @@
         ]
     },
     {
-        "id": 822,
+        "id": 823,
         "name": "Watermelon Band",
         "type": "Hats",
         "link": "Watermelon_Band",
@@ -25300,7 +25397,7 @@
         ]
     },
     {
-        "id": 823,
+        "id": 824,
         "name": "Cowgal Hat",
         "type": "Hats",
         "link": "Cowgal_Hat",
@@ -25309,7 +25406,7 @@
         ]
     },
     {
-        "id": 824,
+        "id": 825,
         "name": "Bowler Hat",
         "type": "Hats",
         "link": "Bowler_Hat",
@@ -25318,7 +25415,7 @@
         ]
     },
     {
-        "id": 825,
+        "id": 826,
         "name": "Eye Patch",
         "type": "Hats",
         "link": "Eye_Patch",
@@ -25327,7 +25424,7 @@
         ]
     },
     {
-        "id": 826,
+        "id": 827,
         "name": "Hunter's Cap",
         "type": "Hats",
         "link": "Hunter%27s_Cap",
@@ -25336,7 +25433,7 @@
         ]
     },
     {
-        "id": 827,
+        "id": 828,
         "name": "Sombrero",
         "type": "Hats",
         "link": "Sombrero",
@@ -25345,7 +25442,7 @@
         ]
     },
     {
-        "id": 828,
+        "id": 829,
         "name": "Cool Cap",
         "type": "Hats",
         "link": "Cool_Cap",
@@ -25354,7 +25451,7 @@
         ]
     },
     {
-        "id": 829,
+        "id": 830,
         "name": "Good Ol' Cap",
         "type": "Hats",
         "link": "Good_Ol%27_Cap",
@@ -25363,7 +25460,7 @@
         ]
     },
     {
-        "id": 830,
+        "id": 831,
         "name": "Archer's Cap",
         "type": "Hats",
         "link": "Archer%27s_Cap",
@@ -25372,7 +25469,7 @@
         ]
     },
     {
-        "id": 831,
+        "id": 832,
         "name": "Chef Hat",
         "type": "Hats",
         "link": "Chef_Hat",
@@ -25381,7 +25478,7 @@
         ]
     },
     {
-        "id": 832,
+        "id": 833,
         "name": "Polka Bow",
         "type": "Hats",
         "link": "Polka_Bow",
@@ -25390,7 +25487,7 @@
         ]
     },
     {
-        "id": 833,
+        "id": 834,
         "name": "Goblin Mask",
         "type": "Hats",
         "link": "Goblin_Mask",
@@ -25399,7 +25496,7 @@
         ]
     },
     {
-        "id": 834,
+        "id": 835,
         "name": "Sou'wester",
         "type": "Hats",
         "link": "Sou%27wester",
@@ -25408,7 +25505,7 @@
         ]
     },
     {
-        "id": 835,
+        "id": 836,
         "name": "Daisy",
         "type": "Hats",
         "link": "Daisy",
@@ -25417,7 +25514,7 @@
         ]
     },
     {
-        "id": 836,
+        "id": 837,
         "name": "Gnome's Cap",
         "type": "Hats",
         "link": "Gnome%27s_Cap",
@@ -25426,7 +25523,7 @@
         ]
     },
     {
-        "id": 837,
+        "id": 838,
         "name": "Lucky Bow",
         "type": "Hats",
         "link": "Lucky_Bow",
@@ -25435,7 +25532,7 @@
         ]
     },
     {
-        "id": 838,
+        "id": 839,
         "name": "Delicate Bow",
         "type": "Hats",
         "link": "Delicate_Bow",
@@ -25444,7 +25541,7 @@
         ]
     },
     {
-        "id": 839,
+        "id": 840,
         "name": "Tiara",
         "type": "Hats",
         "link": "Tiara",
@@ -25453,7 +25550,7 @@
         ]
     },
     {
-        "id": 840,
+        "id": 841,
         "name": "Mouse Ears",
         "type": "Hats",
         "link": "Mouse_Ears",
@@ -25462,7 +25559,7 @@
         ]
     },
     {
-        "id": 841,
+        "id": 842,
         "name": "Trucker Hat",
         "type": "Hats",
         "link": "Trucker_Hat",
@@ -25471,7 +25568,7 @@
         ]
     },
     {
-        "id": 842,
+        "id": 843,
         "name": "Skeleton Mask",
         "type": "Hats",
         "link": "Skeleton_Mask",
@@ -25480,7 +25577,7 @@
         ]
     },
     {
-        "id": 843,
+        "id": 844,
         "name": "Hard Hat",
         "type": "Hats",
         "link": "Hard_Hat",
@@ -25489,7 +25586,7 @@
         ]
     },
     {
-        "id": 844,
+        "id": 845,
         "name": "Butterfly Bow",
         "type": "Hats",
         "link": "Butterfly_Bow",
@@ -25498,7 +25595,7 @@
         ]
     },
     {
-        "id": 845,
+        "id": 846,
         "name": "Cowboy Hat",
         "type": "Hats",
         "link": "Cowboy_Hat",
@@ -25507,7 +25604,7 @@
         ]
     },
     {
-        "id": 846,
+        "id": 847,
         "name": "Chicken Mask",
         "type": "Hats",
         "link": "Chicken_Mask",
@@ -25516,16 +25613,16 @@
         ]
     },
     {
-        "id": 847,
+        "id": 848,
         "name": "Top Hat",
         "type": "Hats",
         "link": "Top_Hat",
         "obtainedFrom": [
-            "Purchase for 8,000 in Qi's Casino"
+            "Purchase for 8,000 coins in Qi's Casino"
         ]
     },
     {
-        "id": 848,
+        "id": 849,
         "name": "Straw Hat",
         "type": "Hats",
         "link": "Straw_Hat",
@@ -25534,25 +25631,25 @@
         ]
     },
     {
-        "id": 849,
+        "id": 850,
         "name": "Sailor's Cap",
         "type": "Hats",
         "link": "Sailor%27s_Cap",
         "obtainedFrom": [
-            "Win the fishing competition at the Festival of Ice."
-        ]
-    },
-    {
-        "id": 850,
-        "name": "Fedora",
-        "type": "Hats",
-        "link": "Fedora",
-        "obtainedFrom": [
-            "Purchase for 500 at the Stardew Valley Fair."
+            "Win the fishing competition at the Festival of Ice"
         ]
     },
     {
         "id": 851,
+        "name": "Fedora",
+        "type": "Hats",
+        "link": "Fedora",
+        "obtainedFrom": [
+            "Purchase for 500 at the Stardew Valley Fair"
+        ]
+    },
+    {
+        "id": 852,
         "name": "Panda Hat",
         "type": "Hats",
         "link": "Panda_Hat",
@@ -25561,34 +25658,34 @@
         ]
     },
     {
-        "id": 852,
+        "id": 853,
         "name": "Blue Cowboy Hat",
         "type": "Hats",
         "link": "Blue_Cowboy_Hat",
         "obtainedFrom": [
-            "Found randomly in treasure chests in the Skull Cavern."
-        ]
-    },
-    {
-        "id": 853,
-        "name": "Red Cowboy Hat",
-        "type": "Hats",
-        "link": "Red_Cowboy_Hat",
-        "obtainedFrom": [
-            "Found randomly in treasure chests in the Skull Cavern."
+            "Found randomly in treasure chests in the Skull Cavern"
         ]
     },
     {
         "id": 854,
-        "name": "Cone Hat",
+        "name": "Red Cowboy Hat",
         "type": "Hats",
-        "link": "Cone_Hat",
+        "link": "Red_Cowboy_Hat",
         "obtainedFrom": [
-            "Purchase during the Night Market at the Magic Shop Boat."
+            "Found randomly in treasure chests in the Skull Cavern"
         ]
     },
     {
         "id": 855,
+        "name": "Cone Hat",
+        "type": "Hats",
+        "link": "Cone_Hat",
+        "obtainedFrom": [
+            "Purchase at the Night Market (2,500-10,000g)"
+        ]
+    },
+    {
+        "id": 856,
         "name": "Living Hat",
         "type": "Hats",
         "link": "Living_Hat",
@@ -25597,7 +25694,7 @@
         ]
     },
     {
-        "id": 856,
+        "id": 857,
         "name": "Emily's Magic Hat",
         "type": "Hats",
         "link": "Emily%27s_Magic_Hat",
@@ -25606,7 +25703,7 @@
         ]
     },
     {
-        "id": 857,
+        "id": 858,
         "name": "Mushroom Cap",
         "type": "Hats",
         "link": "Mushroom_Cap",
@@ -25615,7 +25712,7 @@
         ]
     },
     {
-        "id": 858,
+        "id": 859,
         "name": "Dinosaur Hat",
         "type": "Hats",
         "link": "Dinosaur_Hat",
@@ -25624,7 +25721,7 @@
         ]
     },
     {
-        "id": 859,
+        "id": 860,
         "name": "Totem Mask",
         "type": "Hats",
         "link": "Totem_Mask",
@@ -25633,7 +25730,7 @@
         ]
     },
     {
-        "id": 860,
+        "id": 861,
         "name": "Logo Cap",
         "type": "Hats",
         "link": "Logo_Cap",
@@ -25642,7 +25739,7 @@
         ]
     },
     {
-        "id": 861,
+        "id": 862,
         "name": "Wearable Dwarf Helm",
         "type": "Hats",
         "link": "Wearable_Dwarf_Helm",
@@ -25651,7 +25748,7 @@
         ]
     },
     {
-        "id": 862,
+        "id": 863,
         "name": "Fashion Hat",
         "type": "Hats",
         "link": "Fashion_Hat",
@@ -25660,7 +25757,7 @@
         ]
     },
     {
-        "id": 863,
+        "id": 864,
         "name": "Pumpkin Mask",
         "type": "Hats",
         "link": "Pumpkin_Mask",
@@ -25669,7 +25766,7 @@
         ]
     },
     {
-        "id": 864,
+        "id": 865,
         "name": "Hair Bone",
         "type": "Hats",
         "link": "Hair_Bone",
@@ -25678,7 +25775,7 @@
         ]
     },
     {
-        "id": 865,
+        "id": 866,
         "name": "Knight's Helmet",
         "type": "Hats",
         "link": "Knight%27s_Helmet",
@@ -25687,7 +25784,7 @@
         ]
     },
     {
-        "id": 866,
+        "id": 867,
         "name": "Squire's Helmet",
         "type": "Hats",
         "link": "Squire%27s_Helmet",
@@ -25696,7 +25793,7 @@
         ]
     },
     {
-        "id": 867,
+        "id": 868,
         "name": "Spotted Headscarf",
         "type": "Hats",
         "link": "Spotted_Headscarf",
@@ -25705,7 +25802,7 @@
         ]
     },
     {
-        "id": 868,
+        "id": 869,
         "name": "Beanie",
         "type": "Hats",
         "link": "Beanie",
@@ -25714,7 +25811,7 @@
         ]
     },
     {
-        "id": 869,
+        "id": 870,
         "name": "Floppy Beanie",
         "type": "Hats",
         "link": "Floppy_Beanie",
@@ -25723,7 +25820,7 @@
         ]
     },
     {
-        "id": 870,
+        "id": 871,
         "name": "Fishing Hat",
         "type": "Hats",
         "link": "Fishing_Hat",
@@ -25732,7 +25829,7 @@
         ]
     },
     {
-        "id": 871,
+        "id": 872,
         "name": "Blobfish Mask",
         "type": "Hats",
         "link": "Blobfish_Mask",
@@ -25741,7 +25838,7 @@
         ]
     },
     {
-        "id": 872,
+        "id": 873,
         "name": "Party Hat (red)",
         "type": "Hats",
         "link": "Party_Hat_(red)",
@@ -25750,7 +25847,7 @@
         ]
     },
     {
-        "id": 873,
+        "id": 874,
         "name": "Party Hat (blue)",
         "type": "Hats",
         "link": "Party_Hat_(blue)",
@@ -25759,7 +25856,7 @@
         ]
     },
     {
-        "id": 874,
+        "id": 875,
         "name": "Party Hat (green)",
         "type": "Hats",
         "link": "Party_Hat_(green)",
@@ -25768,7 +25865,7 @@
         ]
     },
     {
-        "id": 875,
+        "id": 876,
         "name": "Arcane Hat",
         "type": "Hats",
         "link": "Arcane_Hat",
@@ -25777,7 +25874,7 @@
         ]
     },
     {
-        "id": 876,
+        "id": 877,
         "name": "Pirate Hat",
         "type": "Hats",
         "link": "Pirate_Hat",
@@ -25786,7 +25883,7 @@
         ]
     },
     {
-        "id": 877,
+        "id": 878,
         "name": "Flat Topped Hat",
         "type": "Hats",
         "link": "Flat_Topped_Hat",
@@ -25795,7 +25892,7 @@
         ]
     },
     {
-        "id": 878,
+        "id": 879,
         "name": "Elegant Turban",
         "type": "Hats",
         "link": "Elegant_Turban",
@@ -25804,7 +25901,7 @@
         ]
     },
     {
-        "id": 879,
+        "id": 880,
         "name": "White Turban",
         "type": "Hats",
         "link": "White_Turban",
@@ -25814,7 +25911,7 @@
         ]
     },
     {
-        "id": 880,
+        "id": 881,
         "name": "Garbage Hat",
         "type": "Hats",
         "link": "Garbage_Hat",
@@ -25823,7 +25920,7 @@
         ]
     },
     {
-        "id": 881,
+        "id": 882,
         "name": "Golden Mask (hat)",
         "type": "Hats",
         "link": "Golden_Mask_(hat)",
@@ -25832,7 +25929,7 @@
         ]
     },
     {
-        "id": 882,
+        "id": 883,
         "name": "Propeller Hat",
         "type": "Hats",
         "link": "Propeller_Hat",
@@ -25841,7 +25938,7 @@
         ]
     },
     {
-        "id": 883,
+        "id": 884,
         "name": "Bridal Veil",
         "type": "Hats",
         "link": "Bridal_Veil",
@@ -25850,7 +25947,7 @@
         ]
     },
     {
-        "id": 884,
+        "id": 885,
         "name": "Witch Hat",
         "type": "Hats",
         "link": "Witch_Hat",
@@ -25859,7 +25956,7 @@
         ]
     },
     {
-        "id": 885,
+        "id": 886,
         "name": "Copper Pan (hat)",
         "type": "Hats",
         "link": "Copper_Pan_(hat)",
@@ -25868,34 +25965,34 @@
         ]
     },
     {
-        "id": 886,
+        "id": 887,
         "name": "Green Turban",
         "type": "Hats",
         "link": "Green_Turban",
         "obtainedFrom": [
-            "Desert Trader"
-        ]
-    },
-    {
-        "id": 887,
-        "name": "Magic Cowboy Hat",
-        "type": "Hats",
-        "link": "Magic_Cowboy_Hat",
-        "obtainedFrom": [
-            "Desert Trader (odd days)"
+            "Can be exchanged with the Desert Trader for 50 Omni Geodes"
         ]
     },
     {
         "id": 888,
-        "name": "Magic Turban",
+        "name": "Magic Cowboy Hat",
         "type": "Hats",
-        "link": "Magic_Turban",
+        "link": "Magic_Cowboy_Hat",
         "obtainedFrom": [
-            "Desert Trader (even days)"
+            "Can be exchanged with the Desert Trader on odd days for 333 Omni Geodes"
         ]
     },
     {
         "id": 889,
+        "name": "Magic Turban",
+        "type": "Hats",
+        "link": "Magic_Turban",
+        "obtainedFrom": [
+            "Can be exchanged with the Desert Trader on even days for 333 Omni Geodes"
+        ]
+    },
+    {
+        "id": 890,
         "name": "Fried Egg",
         "type": "Food",
         "link": "Fried_Egg",
@@ -25955,7 +26052,7 @@
         }
     },
     {
-        "id": 890,
+        "id": 891,
         "name": "Omelet",
         "type": "Food",
         "link": "Omelet",
@@ -26022,7 +26119,7 @@
         }
     },
     {
-        "id": 891,
+        "id": 892,
         "name": "Salad",
         "type": "Food",
         "link": "Salad",
@@ -26092,7 +26189,7 @@
         }
     },
     {
-        "id": 892,
+        "id": 893,
         "name": "Cheese Cauliflower",
         "type": "Food",
         "link": "Cheese_Cauliflower",
@@ -26158,7 +26255,7 @@
         }
     },
     {
-        "id": 893,
+        "id": 894,
         "name": "Baked Fish",
         "type": "Food",
         "link": "Baked_Fish",
@@ -26226,7 +26323,7 @@
         }
     },
     {
-        "id": 894,
+        "id": 895,
         "name": "Parsnip Soup",
         "type": "Food",
         "link": "Parsnip_Soup",
@@ -26298,7 +26395,7 @@
         }
     },
     {
-        "id": 895,
+        "id": 896,
         "name": "Vegetable Medley",
         "type": "Food",
         "link": "Vegetable_Medley",
@@ -26364,7 +26461,7 @@
         }
     },
     {
-        "id": 896,
+        "id": 897,
         "name": "Complete Breakfast",
         "type": "Food",
         "link": "Complete_Breakfast",
@@ -26450,7 +26547,7 @@
         }
     },
     {
-        "id": 897,
+        "id": 898,
         "name": "Fried Calamari",
         "type": "Food",
         "link": "Fried_Calamari",
@@ -26520,7 +26617,7 @@
         }
     },
     {
-        "id": 898,
+        "id": 899,
         "name": "Strange Bun",
         "type": "Food",
         "link": "Strange_Bun",
@@ -26586,7 +26683,7 @@
         }
     },
     {
-        "id": 899,
+        "id": 900,
         "name": "Lucky Lunch",
         "type": "Food",
         "link": "Lucky_Lunch",
@@ -26660,7 +26757,7 @@
         }
     },
     {
-        "id": 900,
+        "id": 901,
         "name": "Fried Mushroom",
         "type": "Food",
         "link": "Fried_Mushroom",
@@ -26736,7 +26833,7 @@
         }
     },
     {
-        "id": 901,
+        "id": 902,
         "name": "Pizza",
         "type": "Food",
         "link": "Pizza",
@@ -26809,7 +26906,7 @@
         }
     },
     {
-        "id": 902,
+        "id": 903,
         "name": "Bean Hotpot",
         "type": "Food",
         "link": "Bean_Hotpot",
@@ -26881,7 +26978,7 @@
         }
     },
     {
-        "id": 903,
+        "id": 904,
         "name": "Glazed Yams",
         "type": "Food",
         "link": "Glazed_Yams",
@@ -26947,7 +27044,7 @@
         }
     },
     {
-        "id": 904,
+        "id": 905,
         "name": "Carp Surprise",
         "type": "Food",
         "link": "Carp_Surprise",
@@ -27007,7 +27104,7 @@
         }
     },
     {
-        "id": 905,
+        "id": 906,
         "name": "Hashbrowns",
         "type": "Food",
         "link": "Hashbrowns",
@@ -27080,7 +27177,7 @@
         }
     },
     {
-        "id": 906,
+        "id": 907,
         "name": "Pancakes",
         "type": "Food",
         "link": "Pancakes",
@@ -27155,7 +27252,7 @@
         }
     },
     {
-        "id": 907,
+        "id": 908,
         "name": "Salmon Dinner",
         "type": "Food",
         "link": "Salmon_Dinner",
@@ -27227,7 +27324,7 @@
         }
     },
     {
-        "id": 908,
+        "id": 909,
         "name": "Fish Taco",
         "type": "Food",
         "link": "Fish_Taco",
@@ -27309,7 +27406,7 @@
         }
     },
     {
-        "id": 909,
+        "id": 910,
         "name": "Crispy Bass",
         "type": "Food",
         "link": "Crispy_Bass",
@@ -27385,7 +27482,7 @@
         }
     },
     {
-        "id": 910,
+        "id": 911,
         "name": "Pepper Poppers",
         "type": "Food",
         "link": "Pepper_Poppers",
@@ -27461,7 +27558,7 @@
         }
     },
     {
-        "id": 911,
+        "id": 912,
         "name": "Bread",
         "type": "Food",
         "link": "Bread",
@@ -27524,7 +27621,7 @@
         }
     },
     {
-        "id": 912,
+        "id": 913,
         "name": "Tom Kha Soup",
         "type": "Food",
         "link": "Tom_Kha_Soup",
@@ -27604,7 +27701,7 @@
         }
     },
     {
-        "id": 913,
+        "id": 914,
         "name": "Trout Soup",
         "type": "Food",
         "link": "Trout_Soup",
@@ -27615,7 +27712,8 @@
         },
         "obtainedFrom": [
             "Cooking",
-            "Recipe is learned watching The Queen of Sauce (14 Fall, Year 1)"
+            "Recipe is learned watching The Queen of Sauce (14 Fall, Year 1)",
+            "Can be purchased at Willy's Fish Shop (250g)"
         ],
         "recipe": [
             {
@@ -27676,7 +27774,7 @@
         }
     },
     {
-        "id": 914,
+        "id": 915,
         "name": "Chocolate Cake",
         "type": "Food",
         "link": "Chocolate_Cake",
@@ -27746,7 +27844,7 @@
         }
     },
     {
-        "id": 915,
+        "id": 916,
         "name": "Pink Cake",
         "type": "Food",
         "link": "Pink_Cake",
@@ -27820,7 +27918,7 @@
         }
     },
     {
-        "id": 916,
+        "id": 917,
         "name": "Rhubarb Pie",
         "type": "Food",
         "link": "Rhubarb_Pie",
@@ -27890,7 +27988,7 @@
         }
     },
     {
-        "id": 917,
+        "id": 918,
         "name": "Cookie",
         "type": "Food",
         "link": "Cookie",
@@ -27958,7 +28056,7 @@
         }
     },
     {
-        "id": 918,
+        "id": 919,
         "name": "Spaghetti",
         "type": "Food",
         "link": "Spaghetti",
@@ -28024,7 +28122,7 @@
         }
     },
     {
-        "id": 919,
+        "id": 920,
         "name": "Fried Eel",
         "type": "Food",
         "link": "Fried_Eel",
@@ -28098,7 +28196,7 @@
         }
     },
     {
-        "id": 920,
+        "id": 921,
         "name": "Spicy Eel",
         "type": "Food",
         "link": "Spicy_Eel",
@@ -28109,7 +28207,8 @@
         },
         "obtainedFrom": [
             "Cooking",
-            "Recipe is earned with George (7-heart event)"
+            "Recipe is earned with George (7-heart event)",
+            "Can be exchanged with the Desert Trader for 1 Ruby"
         ],
         "recipe": [
             {
@@ -28176,7 +28275,7 @@
         }
     },
     {
-        "id": 921,
+        "id": 922,
         "name": "Sashimi",
         "type": "Food",
         "link": "Sashimi",
@@ -28237,7 +28336,7 @@
         }
     },
     {
-        "id": 922,
+        "id": 923,
         "name": "Maki Roll",
         "type": "Food",
         "link": "Maki_Roll",
@@ -28306,7 +28405,7 @@
         }
     },
     {
-        "id": 923,
+        "id": 924,
         "name": "Tortilla",
         "type": "Food",
         "link": "Tortilla",
@@ -28369,7 +28468,7 @@
         }
     },
     {
-        "id": 924,
+        "id": 925,
         "name": "Red Plate",
         "type": "Food",
         "link": "Red_Plate",
@@ -28441,7 +28540,7 @@
         }
     },
     {
-        "id": 925,
+        "id": 926,
         "name": "Eggplant Parmesan",
         "type": "Food",
         "link": "Eggplant_Parmesan",
@@ -28517,7 +28616,7 @@
         }
     },
     {
-        "id": 926,
+        "id": 927,
         "name": "Rice Pudding",
         "type": "Food",
         "link": "Rice_Pudding",
@@ -28587,7 +28686,7 @@
         }
     },
     {
-        "id": 927,
+        "id": 928,
         "name": "Ice Cream",
         "type": "Food",
         "link": "Ice_Cream",
@@ -28598,7 +28697,9 @@
         },
         "obtainedFrom": [
             "Cooking",
-            "Recipe is earned with Jodi (7-heart event)"
+            "Recipe is earned with Jodi (7-heart event)",
+            "Oasis on Sundays (240g)",
+            "Purchase with Alex during Summer at his Ice Cream Stand (250g)"
         ],
         "recipe": [
             {
@@ -28653,7 +28754,7 @@
         }
     },
     {
-        "id": 928,
+        "id": 929,
         "name": "Blueberry Tart",
         "type": "Food",
         "link": "Blueberry_Tart",
@@ -28727,7 +28828,7 @@
         }
     },
     {
-        "id": 929,
+        "id": 930,
         "name": "Autumn's Bounty",
         "type": "Food",
         "link": "Autumn%27s_Bounty",
@@ -28803,7 +28904,7 @@
         }
     },
     {
-        "id": 930,
+        "id": 931,
         "name": "Pumpkin Soup",
         "type": "Food",
         "link": "Pumpkin_Soup",
@@ -28879,7 +28980,7 @@
         }
     },
     {
-        "id": 931,
+        "id": 932,
         "name": "Super Meal",
         "type": "Food",
         "link": "Super_Meal",
@@ -28959,7 +29060,7 @@
         }
     },
     {
-        "id": 932,
+        "id": 933,
         "name": "Cranberry Sauce",
         "type": "Food",
         "link": "Cranberry_Sauce",
@@ -29029,7 +29130,7 @@
         }
     },
     {
-        "id": 933,
+        "id": 934,
         "name": "Stuffing",
         "type": "Food",
         "link": "Stuffing",
@@ -29105,7 +29206,7 @@
         }
     },
     {
-        "id": 934,
+        "id": 935,
         "name": "Farmer's Lunch",
         "type": "Food",
         "link": "Farmer%27s_Lunch",
@@ -29179,7 +29280,7 @@
         }
     },
     {
-        "id": 935,
+        "id": 936,
         "name": "Survival Burger",
         "type": "Food",
         "link": "Survival_Burger",
@@ -29255,7 +29356,7 @@
         }
     },
     {
-        "id": 936,
+        "id": 937,
         "name": "Dish O' The Sea",
         "type": "Food",
         "link": "Dish_O%27_The_Sea",
@@ -29329,7 +29430,7 @@
         }
     },
     {
-        "id": 937,
+        "id": 938,
         "name": "Miner's Treat",
         "type": "Food",
         "link": "Miner%27s_Treat",
@@ -29340,7 +29441,8 @@
         },
         "obtainedFrom": [
             "Cooking",
-            "Recipe is earned at Mining skill level 3"
+            "Recipe is earned at Mining skill level 3",
+            "Can be purchased with the Dwarf (1,000g)"
         ],
         "recipe": [
             {
@@ -29409,7 +29511,7 @@
         }
     },
     {
-        "id": 938,
+        "id": 939,
         "name": "Roots Platter",
         "type": "Food",
         "link": "Roots_Platter",
@@ -29481,7 +29583,7 @@
         }
     },
     {
-        "id": 939,
+        "id": 940,
         "name": "Triple Shot Espresso",
         "type": "Food",
         "link": "Triple_Shot_Espresso",
@@ -29492,7 +29594,8 @@
         },
         "obtainedFrom": [
             "Cooking",
-            "Recipe is purchased at the Stardrop Saloon (5,000g)"
+            "Recipe is purchased at the Stardrop Saloon (5,000g)",
+            "Can be exchanged with the Desert Trader for 1 Diamond"
         ],
         "recipe": [
             {
@@ -29549,7 +29652,7 @@
         }
     },
     {
-        "id": 940,
+        "id": 941,
         "name": "Seafoam Pudding",
         "type": "Food",
         "link": "Seafoam_Pudding",
@@ -29623,7 +29726,7 @@
         }
     },
     {
-        "id": 941,
+        "id": 942,
         "name": "Algae Soup",
         "type": "Food",
         "link": "Algae_Soup",
@@ -29685,7 +29788,7 @@
         }
     },
     {
-        "id": 942,
+        "id": 943,
         "name": "Pale Broth",
         "type": "Food",
         "link": "Pale_Broth",
@@ -29745,7 +29848,7 @@
         }
     },
     {
-        "id": 943,
+        "id": 944,
         "name": "Plum Pudding",
         "type": "Food",
         "link": "Plum_Pudding",
@@ -29815,7 +29918,7 @@
         }
     },
     {
-        "id": 944,
+        "id": 945,
         "name": "Artichoke Dip",
         "type": "Food",
         "link": "Artichoke_Dip",
@@ -29881,7 +29984,7 @@
         }
     },
     {
-        "id": 945,
+        "id": 946,
         "name": "Stir Fry",
         "type": "Food",
         "link": "Stir_Fry",
@@ -29955,7 +30058,7 @@
         }
     },
     {
-        "id": 946,
+        "id": 947,
         "name": "Roasted Hazelnuts",
         "type": "Food",
         "link": "Roasted_Hazelnuts",
@@ -30017,7 +30120,7 @@
         }
     },
     {
-        "id": 947,
+        "id": 948,
         "name": "Pumpkin Pie",
         "type": "Food",
         "link": "Pumpkin_Pie",
@@ -30091,7 +30194,7 @@
         }
     },
     {
-        "id": 948,
+        "id": 949,
         "name": "Radish Salad",
         "type": "Food",
         "link": "Radish_Salad",
@@ -30159,7 +30262,7 @@
         }
     },
     {
-        "id": 949,
+        "id": 950,
         "name": "Fruit Salad",
         "type": "Food",
         "link": "Fruit_Salad",
@@ -30229,7 +30332,7 @@
         }
     },
     {
-        "id": 950,
+        "id": 951,
         "name": "Blackberry Cobbler",
         "type": "Food",
         "link": "Blackberry_Cobbler",
@@ -30299,7 +30402,7 @@
         }
     },
     {
-        "id": 951,
+        "id": 952,
         "name": "Cranberry Candy",
         "type": "Food",
         "link": "Cranberry_Candy",
@@ -30369,7 +30472,7 @@
         }
     },
     {
-        "id": 952,
+        "id": 953,
         "name": "Bruschetta",
         "type": "Food",
         "link": "Bruschetta",
@@ -30437,7 +30540,7 @@
         }
     },
     {
-        "id": 953,
+        "id": 954,
         "name": "Coleslaw",
         "type": "Food",
         "link": "Coleslaw",
@@ -30507,7 +30610,7 @@
         }
     },
     {
-        "id": 954,
+        "id": 955,
         "name": "Fiddlehead Risotto",
         "type": "Food",
         "link": "Fiddlehead_Risotto",
@@ -30577,7 +30680,7 @@
         }
     },
     {
-        "id": 955,
+        "id": 956,
         "name": "Poppyseed Muffin",
         "type": "Food",
         "link": "Poppyseed_Muffin",
@@ -30647,7 +30750,7 @@
         }
     },
     {
-        "id": 956,
+        "id": 957,
         "name": "Chowder",
         "type": "Food",
         "link": "Chowder",
@@ -30717,7 +30820,7 @@
         }
     },
     {
-        "id": 957,
+        "id": 958,
         "name": "Lobster Bisque",
         "type": "Food",
         "link": "Lobster_Bisque",
@@ -30792,7 +30895,7 @@
         }
     },
     {
-        "id": 958,
+        "id": 959,
         "name": "Escargot",
         "type": "Food",
         "link": "Escargot",
@@ -30864,7 +30967,7 @@
         }
     },
     {
-        "id": 959,
+        "id": 960,
         "name": "Fish Stew",
         "type": "Food",
         "link": "Fish_Stew",
@@ -30942,7 +31045,7 @@
         }
     },
     {
-        "id": 960,
+        "id": 961,
         "name": "Maple Bar",
         "type": "Food",
         "link": "Maple_Bar",
@@ -31026,7 +31129,7 @@
         }
     },
     {
-        "id": 961,
+        "id": 962,
         "name": "Crab Cakes",
         "type": "Food",
         "link": "Crab_Cakes",
@@ -31110,7 +31213,7 @@
         }
     },
     {
-        "id": 962,
+        "id": 963,
         "name": "Shrimp Cocktail",
         "type": "Food",
         "link": "Shrimp_Cocktail",

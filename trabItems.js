@@ -1,6 +1,7 @@
 const fs = require('fs')
 const rp = require('request-promise');
 const cheerio = require('cheerio');
+const path = require('path');
 
 newlist = []
 
@@ -13,6 +14,42 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
     var data = JSON.parse(jsonString)
 
     let count = 0;
+
+    
+    
+    const directoryPath = path.join(__dirname, 'item_assets');
+    let fileList = [];
+
+    fs.readdir(directoryPath, function (err, files) {
+        //handling error
+        if (err) {
+            return console.log('Unable to scan directory: ' + err);
+        } 
+        //listing all files using forEach
+
+        /* let fileName = file.substring(0, file.length-4);
+        let otherName = fileName.replace(/_/g, " "); */
+
+        for(let i = 0; i < data.length; i++) {
+            found = false;
+            for(let j = 0; j < files.length; j++) {
+                
+                let fileName = files[j].substring(0, files[j].length-4);
+                let otherName = fileName.replace(/_/g, " ");
+
+                if(fileName == data[i].name || otherName == data[i].name) {
+                    found = true;
+                }
+            }
+
+            if(!found) {
+                console.log(data[i].name);
+                
+            }
+        }
+        
+    });
+    
 
     /* data.forEach((item, index, array) => {
         newlist.push(item);
@@ -36,6 +73,7 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
     for(let i = 0; i < data.length; i++) {
         
         let currentItem = data[i];
+        
         /* for(let j = 0; j < data.length; j++) {
 
             let makes = data[j].obtainedFrom;
@@ -59,7 +97,7 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
 
 
     }
-    saveData(data);
+    /* saveData(data); */
 
 });
 
