@@ -2863,53 +2863,6 @@
         ]
     },
     {
-        "id": 693,
-        "name": "Grass Starter",
-        "type": "Crops",
-        "link": "Grass_Starter",
-        "sellPrice": "50",
-        "obtainedFrom": [
-            "Crafting",
-            "Recipe is purchased at Pierre's General Store (1,000g)"
-        ],
-        "makes": [
-            693
-        ],
-        "recipe": [
-            {
-                "id": 684,
-                "qty": 10
-            }
-        ]
-    },
-    {
-        "id": 283,
-        "name": "Mixed Seeds",
-        "type": "Crops",
-        "link": "Mixed_Seeds",
-        "sellPrice": "0",
-        "obtainedFrom": [
-            "Tilling dirt or sand",
-            "Destroying Weeds",
-            "Fishing Treasure Chests",
-            "Krobus on Thursdays (30g)"
-        ],
-        "makes": [
-            "Cauliflower (Spring)",
-            "Parsnip (Spring)",
-            "Potato (Spring)",
-            "Corn (Summer)",
-            "Pepper (Summer)",
-            "Radish (Summer)",
-            "Wheat (Summer)",
-            "Artichoke (Fall, even on the year 1)",
-            "Corn (Fall)",
-            "Eggplant (Fall)",
-            "Pumpkin (Fall)",
-            "Any of the above (Winter, inside Greenhouse only)"
-        ]
-    },
-    {
         "id": 284,
         "name": "Apricot",
         "type": "Crops",

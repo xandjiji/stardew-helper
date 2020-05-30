@@ -5,7 +5,7 @@ const path = require('path');
 
 newlist = []
 
-fs.readFile('./jsons/_ANIMALPRODUCTS.json', 'utf8', (err, jsonString) => {
+fs.readFile('./jsons/_CROPS.json', 'utf8', (err, jsonString) => {
     if (err) {
         console.log("File read failed:", err)
         return
@@ -14,11 +14,37 @@ fs.readFile('./jsons/_ANIMALPRODUCTS.json', 'utf8', (err, jsonString) => {
     var data = JSON.parse(jsonString)
 
     /* REMOVE */
-    /* let pickList = [333,326,317,328,305,299,336,312,315,309,311,327,298,335,306,316,340,341,342,346];
-    data = cherryPickTable(pickList, data); */
+    let pickList = [216,220,228,234,240,222,226,224,238,246,198,232,236,230,248,244,242,292,294];
+    data = cherryPickTable(pickList, data);
     /* REMOVE */
 
-    data = data.sort(byName);
+
+    /* REMOVING SEEDS */
+    /* for(let i = 0; i < data.length; i++) {
+        let currentName = data[i].name;
+        
+        let seedsReg = 'Seeds';
+        seedsReg = new RegExp('\\b' + seedsReg + '\\b');
+
+        let seedReg = 'Seed';
+        seedReg = new RegExp('\\b' + seedReg + '\\b');
+
+        let saplingReg = 'Sapling';
+        saplingReg = new RegExp('\\b' + saplingReg + '\\b');
+
+
+        let result = (seedsReg.test(currentName) || saplingReg.test(currentName));
+
+        result = (seedReg.test(currentName) || result);
+
+        if(result) {
+            data.splice(i, 1);            
+        }
+
+    } */
+    
+
+    data = data.sort(byProfit);
 
     let tableArray = [];
     for(let i = 0; i < data.length; i++) {
@@ -28,7 +54,6 @@ fs.readFile('./jsons/_ANIMALPRODUCTS.json', 'utf8', (err, jsonString) => {
     
 
 });
-
 
 
 function byName(a, b) {
@@ -46,6 +71,30 @@ function byID(a, b) {
         return -1;
     }
     if (a.id > b.id) {
+        return 1;
+    }
+    return 0;
+}
+
+function byProfit(a, b) {
+    let aProfit = a.profitability;
+    let bProfit = b.profitability;
+
+    aProfit = parseFloat(aProfit);
+    bProfit = parseFloat(bProfit);
+
+    if(isNaN(aProfit)) {
+        console.log(`NAN DETECTED (${a.name})`);
+    }
+
+    if(isNaN(bProfit)) {
+        console.log(`NAN DETECTED (${b.name})`);
+    }
+
+    if (aProfit < bProfit) {
+        return -1;
+    }
+    if (aProfit > bProfit) {
         return 1;
     }
     return 0;

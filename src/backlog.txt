@@ -34,7 +34,7 @@ dark sword healing skill icon
 COMIDAS (lembrando magic rock candy)
 
 FARM PRODUCTS:
-    CROPS
+    CROPSx
         PROFITABILITY (SORT BY: SEASON)
     ANIMAL PRODUCTSx
         PRICE
