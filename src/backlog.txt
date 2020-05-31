@@ -23,15 +23,12 @@ otimizar .jsons
 item info
 https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fjYlY/edit#gid=0
 
-action links
 
 healing {} fazer IF (por causa de items negativos)
 weapon stats if (level)
 
 dark sword healing skill icon
 
-
-COMIDAS (lembrando magic rock candy)
 
 FARM PRODUCTS:
     CROPSx

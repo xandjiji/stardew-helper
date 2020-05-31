@@ -47,18 +47,18 @@ fs.readFile('./itemsTrab.json', 'utf8', async (err, jsonString) => {
             if(name == '??HMTGF??') { continue }
             if(name == '??Pinky Lemon??') { continue }
 
-            let regTest = new RegExp(` ${name} `, 'gi');
+            let regTest = new RegExp(`${name}`, 'gi');
             
 
             let currentCheck = data[j];
 
             
 
-            if(currentCheck.obtainedFrom) {
+            if(currentCheck.makes) {
 
-                for(let k = 0; k < currentCheck.obtainedFrom.length; k++) {
+                for(let k = 0; k < currentCheck.makes.length; k++) {
 
-                    let item = currentCheck.obtainedFrom[k];
+                    let item = currentCheck.makes[k];
                     
                     if(typeof item === 'string'|| item instanceof String) {
 
@@ -66,10 +66,10 @@ fs.readFile('./itemsTrab.json', 'utf8', async (err, jsonString) => {
 
                             console.clear();
                             
-                            let newString = item.replace(regTest, ` ${colors.green}&${name}~${colors.reset} `);
-                            let oldString = data[j].obtainedFrom[k];
+                            let newString = item.replace(regTest, `${colors.green}&${name}~${colors.reset}`);
+                            let oldString = data[j].makes[k];
     
-                            console.log(`${count} of 352`);
+                            console.log(`${count} of 60`);
                             console.log('');
                             
                             console.log(`Do you want to replace: ${colors.yellow}${name}${colors.reset} (item ID: ${colors.cian}${id}${colors.reset})`);
@@ -81,7 +81,11 @@ fs.readFile('./itemsTrab.json', 'utf8', async (err, jsonString) => {
                             let ans = await askQuestion("YES (enter) or NO (z)?")
                             
                             if(ans !== 'z') {
-                                data[j].obtainedFrom[k] = '@' + item.replace(regTest, ` &${id}~ `); 
+                                if(data[j].makes[k][0] == '@') {
+                                    data[j].makes[k] = item.replace(regTest, `&${id}~`);    
+                                } else {
+                                    data[j].makes[k] = '@' + item.replace(regTest, `&${id}~`);
+                                }
                             }
                             count++;
                             saveData(data);
