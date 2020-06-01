@@ -23,6 +23,40 @@ otimizar .jsons
 item info
 https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fjYlY/edit#gid=0
 
-Obtainable via FARMING/FISHING/FORAGING during WINTER/SUMMER
 
-Location:
+healing {} fazer IF (por causa de items negativos)
+weapon stats if (level)
+
+dark sword healing skill icon
+
+
+FARM PRODUCTS:
+    CROPSx
+        PROFITABILITY (SORT BY: SEASON)
+    ANIMAL PRODUCTSx
+        PRICE
+    ARTISAN GOODSx
+        PRICE
+    FISHx
+        GRID (SORT BY: SEASON)
+    FOODx
+        GRID
+
+
+RESOURCES
+    MINERALSx
+        GRID
+    ARTIFACTSx
+        GRID
+    WEAPONSx
+        STATS (SORT BY: SWORD/DAGGER/CLUB/DISTANCE)
+    WEAREABLEx
+        STATS/GRID (SORT BY: FOOTWEAR/RINGS/HATS)
+    FURNITUREx
+        GRID
+
+CALENDAR
+
+NPC?
+
+SEARCH

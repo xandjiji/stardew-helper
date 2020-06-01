@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 import Season from './Season';
 import SeasonItems from './SeasonItems';
 
-import seasonsData from '../seasons.json';
+import seasons from '../seasons.json';
 
 export class SeasonMode extends Component {
     constructor(props) {
@@ -21,7 +21,6 @@ export class SeasonMode extends Component {
 
 
     render() {
-        const { seasons } = seasonsData;
 
         const { items } = seasons[this.state.currentSeason];
 

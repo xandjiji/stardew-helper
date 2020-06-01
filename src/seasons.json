@@ -1,671 +1,813 @@
-{
-    "seasons": [
-        {
-            "name": "Spring",
-            "items": {
-                "foraging": [
-                    {
-                        "name": "Wild Horseradish",
-                        "id": 0
-                    },
-                    {
-                        "name": "Daffodil",
-                        "id": 1
-                    },
-                    {
-                        "name": "Leek",
-                        "id": 2
-                    },
-                    {
-                        "name": "Dandelion",
-                        "id": 3
-                    },
-                    {
-                        "name": "Common Mushroom",
-                        "id": 7
-                    },
-                    {
-                        "name": "Morel",
-                        "id": 27
-                    }
-                ],
-                "farming": [
-                    {
-                        "name": "Parsnip",
-                        "id": 28
-                    },
-                    {
-                        "name": "Parsnip",
-                        "itemCount": 5,
-                        "id": 40
-                    },
-                    {
-                        "name": "Cauliflower",
-                        "id": 30
-                    },
-                    {
-                        "name": "Potato",
-                        "id": 31
-                    },
-                    {
-                        "name": "Green Bean",
-                        "id": 29
-                    },
-                    {
-                        "name": "Apricot",
-                        "id": 57
-                    },
-                    {
-                        "name": "Cherry",
-                        "id": 61
-                    }
-                ],
-                "fishing": [
-                    {
-                        "name": "Sunfish",
-                        "id": 62
-                    },
-                    {
-                        "name": "Catfish",
-                        "id": 63
-                    },
-                    {
-                        "name": "Shad",
-                        "id": 64
-                    },
-                    {
-                        "name": "Sardine",
-                        "id": 70
-                    },
-                    {
-                        "name": "Eel",
-                        "id": 76
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Summer",
-            "items": {
-                "foraging": [
-                    {
-                        "name": "Grape",
-                        "id": 4
-                    },
-                    {
-                        "name": "Spice Berry",
-                        "id": 5
-                    },
-                    {
-                        "name": "Sweet Pea",
-                        "id": 6
-                    },
-                    {
-                        "name": "Fiddlehead Fern",
-                        "id": 103
-                    },
-                    {
-                        "name": "Red Mushroom",
-                        "id": 108
-                    }
-                ],
-                "farming": [
-                    {
-                        "name": "Tomato",
-                        "id": 32
-                    },
-                    {
-                        "name": "Hot Pepper",
-                        "id": 33
-                    },
-                    {
-                        "name": "Blueberry",
-                        "id": 34
-                    },
-                    {
-                        "name": "Melon",
-                        "id": 35
-                    },
-                    {
-                        "name": "Melon",
-                        "itemCount": 5,
-                        "id": 41
-                    },
-                    {
-                        "name": "Corn",
-                        "id": 36
-                    },
-                    {
-                        "name": "Corn",
-                        "itemCount": 5,
-                        "id": 43
-                    },
-                    {
-                        "name": "Poppy",
-                        "id": 105
-                    },
-                    {
-                        "name": "Sunflower",
-                        "id": 110
-                    },
-                    {
-                        "name": "Red Cabbage",
-                        "id": 113
-                    },
-                    {
-                        "name": "Wheat",
-                        "itemCount": 10,
-                        "id": 118
-                    },
-                    {
-                        "name": "Orange",
-                        "id": 58
-                    },
-                    {
-                        "name": "Peach",
-                        "id": 59
-                    }
-                ],
-                "fishing": [
-                    {
-                        "name": "Sunfish",
-                        "id": 62
-                    },
-                    {
-                        "name": "Catfish",
-                        "id": 63
-                    },
-                    {
-                        "name": "Shad",
-                        "id": 64
-                    },
-                    {
-                        "name": "Sturgeon",
-                        "id": 69
-                    },
-                    {
-                        "name": "Tuna",
-                        "id": 71
-                    },
-                    {
-                        "name": "Red Snapper",
-                        "id": 72
-                    },
-                    {
-                        "name": "Tilapia",
-                        "id": 73
-                    },
-                    {
-                        "name": "Pufferfish",
-                        "id": 87
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Fall",
-            "items": {
-                "foraging": [
-                    {
-                        "name": "Wild Plum",
-                        "id": 8
-                    },
-                    {
-                        "name": "Hazelnut",
-                        "id": 9
-                    },
-                    {
-                        "name": "Blackberry",
-                        "id": 10
-                    },
-                    {
-                        "name": "Red Mushroom",
-                        "id": 22
-                    },
-                    {
-                        "name": "Common Mushroom",
-                        "id": 7
-                    }
-                ],
-                "farming": [
-                    {
-                        "name": "Corn",
-                        "id": 36
-                    },
-                    {
-                        "name": "Corn",
-                        "itemCount": 5,
-                        "id": 43
-                    },
-                    {
-                        "name": "Eggplant",
-                        "id": 37
-                    },
-                    {
-                        "name": "Pumpkin",
-                        "id": 38
-                    },
-                    {
-                        "name": "Pumpkin",
-                        "itemCount": 5,
-                        "id": 42
-                    },
-                    {
-                        "name": "Sunflower",
-                        "id": 110
-                    },
-                    {
-                        "name": "Wheat",
-                        "itemCount": 10,
-                        "id": 118
-                    },
-                    {
-                        "name": "Snow Yam",
-                        "id": 13
-                    },
-                    {
-                        "name": "Pomegranate",
-                        "id": 60
-                    },
-                    {
-                        "name": "Apple",
-                        "itemCount": 3,
-                        "id": 120
-                    }
-                ],
-                "fishing": [
-                    {
-                        "name": "Catfish",
-                        "id": 63
-                    },
-                    {
-                        "name": "Shad",
-                        "id": 64
-                    },
-                    {
-                        "name": "Tiger Trout",
-                        "id": 65
-                    },
-                    {
-                        "name": "Sardine",
-                        "id": 70
-                    },
-                    {
-                        "name": "Red Snapper",
-                        "id": 72
-                    },
-                    {
-                        "name": "Tilapia",
-                        "id": 73
-                    },
-                    {
-                        "name": "Walleye",
-                        "id": 74
-                    },
-                    {
-                        "name": "Eel",
-                        "id": 76
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Winter",
-            "items": {
-                "foraging": [
-                    {
-                        "name": "Winter Root",
-                        "id": 11
-                    },
-                    {
-                        "name": "Crystal Fruit",
-                        "id": 12
-                    },
-                    {
-                        "name": "Snow Yam",
-                        "id": 13
-                    },
-                    {
-                        "name": "Crocus",
-                        "id": 14
-                    },
-                    {
-                        "name": "Nautilus Shell",
-                        "id": 115
-                    }
-                ],
-                "fishing": [
-                    {
-                        "name": "Tiger Trout",
-                        "id": 65
-                    },
-                    {
-                        "name": "Sturgeon",
-                        "id": 69
-                    },
-                    {
-                        "name": "Sardine",
-                        "id": 70
-                    },
-                    {
-                        "name": "Tuna",
-                        "id": 71
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Any",
-            "items": {
-                "foraging": [
-                    {
-                        "name": "Coconut",
-                        "id": 19
-                    },
-                    {
-                        "name": "Cactus Fruit",
-                        "id": 20
-                    },
-                    {
-                        "name": "Sea Urchin",
-                        "id": 109
-                    },
-                    {
-                        "name": "Purple Mushroom",
-                        "id": 114
-                    }
-                ],
-                "farming": [
-                    {
-                        "name": "Hay",
-                        "itemCount": 10,
-                        "id": 119
-                    },
-                    {
-                        "name": "Large Milk",
-                        "id": 44
-                    },
-                    {
-                        "name": "Cheese",
-                        "id": 53
-                    },
-                    {
-                        "name": "Large Brown Egg",
-                        "id": 45
-                    },
-                    {
-                        "name": "Large Egg",
-                        "id": 46
-                    },
-                    {
-                        "name": "Large Goat Milk",
-                        "id": 47
-                    },
-                    {
-                        "name": "Goat Cheese",
-                        "id": 52
-                    },
-                    {
-                        "name": "Duck Egg",
-                        "id": 49
-                    },
-                    {
-                        "name": "Duck Feather",
-                        "id": 111
-                    },
-                    {
-                        "name": "Wool",
-                        "id": 48
-                    },
-                    {
-                        "name": "Cloth",
-                        "id": 51
-                    },
-                    {
-                        "name": "Rabbit's Foot",
-                        "id": 123
-                    },
-                    {
-                        "name": "Truffle",
-                        "id": 104
-                    },
-                    {
-                        "name": "Truffle Oil",
-                        "id": 50
-                    },
-                    {
-                        "name": "Jelly",
-                        "id": 55
-                    },
-                    {
-                        "name": "Honey",
-                        "id": 54
-                    },
-                    {
-                        "name": "Maple Syrup",
-                        "id": 102
-                    },
-                    {
-                        "name": "Pine Tar",
-                        "id": 26
-                    },
-                    {
-                        "name": "Oak Resin",
-                        "id": 121
-                    },
-                    {
-                        "name": "Wine",
-                        "id": 122
-                    },
-                    {
-                        "name": "Wine",
-                        "id": 129
-                    },
-                    {
-                        "name": "Dinosaur Mayonnaise",
-                        "id": 130
-                    },
-                    {
-                        "name": "Caviar",
-                        "id": 134
-                    },
-                    {
-                        "name": "Ancient Fruit",
-                        "itemCount": 5,
-                        "id": 132
-                    }
-                ],
-                "fishing": [
-                    {
-                        "name": "Largemouth Bass",
-                        "id": 66
-                    },
-                    {
-                        "name": "Carp",
-                        "id": 67
-                    },
-                    {
-                        "name": "Bullhead",
-                        "id": 68
-                    },
-                    {
-                        "name": "Bream",
-                        "id": 75
-                    },
-                    {
-                        "name": "Chub",
-                        "id": 116
-                    },
-                    {
-                        "name": "Ghostfish",
-                        "id": 88
-                    },
-                    {
-                        "name": "Sandfish",
-                        "id": 89
-                    },
-                    {
-                        "name": "Woodskip",
-                        "id": 90
-                    },
-                    {
-                        "name": "Void Salmon",
-                        "id": 133
-                    },
-                    {
-                        "name": "Lobster",
-                        "id": 77
-                    },
-                    {
-                        "name": "Crayfish",
-                        "id": 78
-                    },
-                    {
-                        "name": "Crab",
-                        "id": 79
-                    },
-                    {
-                        "name": "Cockle",
-                        "id": 80
-                    },
-                    {
-                        "name": "Mussel",
-                        "id": 81
-                    },
-                    {
-                        "name": "Shrimp",
-                        "id": 82
-                    },
-                    {
-                        "name": "Snail",
-                        "id": 83
-                    },
-                    {
-                        "name": "Periwinkle",
-                        "id": 84
-                    },
-                    {
-                        "name": "Oyster",
-                        "id": 85
-                    },
-                    {
-                        "name": "Clam",
-                        "id": 86
-                    }
-                ],
-                "mining": [
-                    {
-                        "name": "Copper Bar",
-                        "id": 91
-                    },
-                    {
-                        "name": "Iron Bar",
-                        "id": 92
-                    },
-                    {
-                        "name": "Gold Bar",
-                        "id": 93
-                    },
-                    {
-                        "name": "Quartz",
-                        "id": 94
-                    },
-                    {
-                        "name": "Earth Crystal",
-                        "id": 95
-                    },
-                    {
-                        "name": "Frozen Tear",
-                        "id": 96
-                    },
-                    {
-                        "name": "Fire Quartz",
-                        "id": 97
-                    },
-                    {
-                        "name": "Aquamarine",
-                        "id": 112
-                    },
-                    {
-                        "name": "Frozen Geode",
-                        "id": 117
-                    },
-                    {
-                        "name": "Prismatic Shard",
-                        "id": 131
-                    },
-                    {
-                        "name": "Cave Carrot",
-                        "id": 21
-                    }
-                ],
-                "combat": [
-                    {
-                        "name": "Slime",
-                        "itemCount": 99,
-                        "id": 98
-                    },
-                    {
-                        "name": "Bat Wing",
-                        "itemCount": 10,
-                        "id": 99
-                    },
-                    {
-                        "name": "Solar Essence",
-                        "id": 100
-                    },
-                    {
-                        "name": "Void Essence",
-                        "id": 101
-                    }
-                ],
-                "misc": [
-                    {
-                        "name": "Maki Roll",
-                        "id": 106
-                    },
-                    {
-                        "name": "Fried Egg",
-                        "id": 107
-                    },
-                    {
-                        "name": "Wood",
-                        "itemCount": 99,
-                        "id": 15
-                    },
-                    {
-                        "name": "Wood",
-                        "itemCount": 99,
-                        "id": 16
-                    },
-                    {
-                        "name": "Stone",
-                        "itemCount": 99,
-                        "id": 17
-                    },
-                    {
-                        "name": "Hardwood",
-                        "itemCount": 10,
-                        "id": 18
-                    },
-                    {
-                        "name": "2,500g",
-                        "id": 125
-                    },
-                    {
-                        "name": "5,000g",
-                        "id": 126
-                    },
-                    {
-                        "name": "10,000g",
-                        "id": 127
-                    },
-                    {
-                        "name": "25,000g",
-                        "id": 128
-                    }
-                ]
-            }
+[
+    {
+        "name": "Spring",
+        "items": {
+            "foraging": [
+                {
+                    "name": "Wild Horseradish",
+                    "id": 0,
+                    "globalID": 250
+                },
+                {
+                    "name": "Daffodil",
+                    "id": 1,
+                    "globalID": 251
+                },
+                {
+                    "name": "Leek",
+                    "id": 2,
+                    "globalID": 252
+                },
+                {
+                    "name": "Dandelion",
+                    "id": 3,
+                    "globalID": 253
+                },
+                {
+                    "name": "Common Mushroom",
+                    "id": 7,
+                    "globalID": 257
+                },
+                {
+                    "name": "Morel",
+                    "id": 27,
+                    "globalID": 255
+                }
+            ],
+            "farming": [
+                {
+                    "name": "Parsnip",
+                    "id": 28,
+                    "globalID": 184
+                },
+                {
+                    "name": "Parsnip",
+                    "itemCount": 5,
+                    "id": 40,
+                    "globalID": 184
+                },
+                {
+                    "name": "Cauliflower",
+                    "id": 30,
+                    "globalID": 175
+                },
+                {
+                    "name": "Potato",
+                    "id": 31,
+                    "globalID": 186
+                },
+                {
+                    "name": "Green Bean",
+                    "id": 29,
+                    "globalID": 180
+                },
+                {
+                    "name": "Apricot",
+                    "id": 57,
+                    "globalID": 284
+                },
+                {
+                    "name": "Cherry",
+                    "id": 61,
+                    "globalID": 286
+                }
+            ],
+            "fishing": [
+                {
+                    "name": "Sunfish",
+                    "id": 62,
+                    "globalID": 310
+                },
+                {
+                    "name": "Catfish",
+                    "id": 63,
+                    "globalID": 308
+                },
+                {
+                    "name": "Shad",
+                    "id": 64,
+                    "globalID": 334
+                },
+                {
+                    "name": "Sardine",
+                    "id": 70,
+                    "globalID": 299
+                },
+                {
+                    "name": "Eel",
+                    "id": 76,
+                    "globalID": 313
+                }
+            ]
         }
-    ]
-}
+    },
+    {
+        "name": "Summer",
+        "items": {
+            "foraging": [
+                {
+                    "name": "Grape",
+                    "id": 4,
+                    "globalID": 236
+                },
+                {
+                    "name": "Spice Berry",
+                    "id": 5,
+                    "globalID": 258
+                },
+                {
+                    "name": "Sweet Pea",
+                    "id": 6,
+                    "globalID": 259
+                },
+                {
+                    "name": "Fiddlehead Fern",
+                    "id": 103,
+                    "globalID": 261
+                },
+                {
+                    "name": "Red Mushroom",
+                    "id": 108,
+                    "globalID": 260
+                }
+            ],
+            "farming": [
+                {
+                    "name": "Tomato",
+                    "id": 32,
+                    "globalID": 218
+                },
+                {
+                    "name": "Hot Pepper",
+                    "id": 33,
+                    "globalID": 202
+                },
+                {
+                    "name": "Blueberry",
+                    "id": 34,
+                    "globalID": 196
+                },
+                {
+                    "name": "Melon",
+                    "id": 35,
+                    "globalID": 204
+                },
+                {
+                    "name": "Melon",
+                    "itemCount": 5,
+                    "id": 41,
+                    "globalID": 204
+                },
+                {
+                    "name": "Corn",
+                    "id": 36,
+                    "globalID": 198
+                },
+                {
+                    "name": "Corn",
+                    "itemCount": 5,
+                    "id": 43,
+                    "globalID": 198
+                },
+                {
+                    "name": "Poppy",
+                    "id": 105,
+                    "globalID": 206
+                },
+                {
+                    "name": "Sunflower",
+                    "id": 110,
+                    "globalID": 216
+                },
+                {
+                    "name": "Red Cabbage",
+                    "id": 113,
+                    "globalID": 210
+                },
+                {
+                    "name": "Wheat",
+                    "itemCount": 10,
+                    "id": 118,
+                    "globalID": 220
+                },
+                {
+                    "name": "Orange",
+                    "id": 58,
+                    "globalID": 288
+                },
+                {
+                    "name": "Peach",
+                    "id": 59,
+                    "globalID": 290
+                }
+            ],
+            "fishing": [
+                {
+                    "name": "Sunfish",
+                    "id": 62,
+                    "globalID": 310
+                },
+                {
+                    "name": "Catfish",
+                    "id": 63,
+                    "globalID": 308
+                },
+                {
+                    "name": "Shad",
+                    "id": 64,
+                    "globalID": 334
+                },
+                {
+                    "name": "Sturgeon",
+                    "id": 69,
+                    "globalID": 327
+                },
+                {
+                    "name": "Tuna",
+                    "id": 71,
+                    "globalID": 298
+                },
+                {
+                    "name": "Red Snapper",
+                    "id": 72,
+                    "globalID": 315
+                },
+                {
+                    "name": "Tilapia",
+                    "id": 73,
+                    "globalID": 330
+                },
+                {
+                    "name": "Pufferfish",
+                    "id": 87,
+                    "globalID": 296
+                }
+            ]
+        }
+    },
+    {
+        "name": "Fall",
+        "items": {
+            "foraging": [
+                {
+                    "name": "Wild Plum",
+                    "id": 8,
+                    "globalID": 262
+                },
+                {
+                    "name": "Hazelnut",
+                    "id": 9,
+                    "globalID": 263
+                },
+                {
+                    "name": "Blackberry",
+                    "id": 10,
+                    "globalID": 264
+                },
+                {
+                    "name": "Red Mushroom",
+                    "id": 22,
+                    "globalID": 260
+                },
+                {
+                    "name": "Common Mushroom",
+                    "id": 7,
+                    "globalID": 257
+                }
+            ],
+            "farming": [
+                {
+                    "name": "Corn",
+                    "id": 36,
+                    "globalID": 198
+                },
+                {
+                    "name": "Corn",
+                    "itemCount": 5,
+                    "id": 43,
+                    "globalID": 198
+                },
+                {
+                    "name": "Eggplant",
+                    "id": 37,
+                    "globalID": 232
+                },
+                {
+                    "name": "Pumpkin",
+                    "id": 38,
+                    "globalID": 238
+                },
+                {
+                    "name": "Pumpkin",
+                    "itemCount": 5,
+                    "id": 42,
+                    "globalID": 238
+                },
+                {
+                    "name": "Sunflower",
+                    "id": 110,
+                    "globalID": 216
+                },
+                {
+                    "name": "Wheat",
+                    "itemCount": 10,
+                    "id": 118,
+                    "globalID": 220
+                },
+                {
+                    "name": "Snow Yam",
+                    "id": 13,
+                    "globalID": 268
+                },
+                {
+                    "name": "Pomegranate",
+                    "id": 60,
+                    "globalID": 294
+                },
+                {
+                    "name": "Apple",
+                    "itemCount": 3,
+                    "id": 120,
+                    "globalID": 292
+                }
+            ],
+            "fishing": [
+                {
+                    "name": "Catfish",
+                    "id": 63,
+                    "globalID": 308
+                },
+                {
+                    "name": "Shad",
+                    "id": 64,
+                    "globalID": 334
+                },
+                {
+                    "name": "Tiger Trout",
+                    "id": 65,
+                    "globalID": 328
+                },
+                {
+                    "name": "Sardine",
+                    "id": 70,
+                    "globalID": 299
+                },
+                {
+                    "name": "Red Snapper",
+                    "id": 72,
+                    "globalID": 315
+                },
+                {
+                    "name": "Tilapia",
+                    "id": 73,
+                    "globalID": 330
+                },
+                {
+                    "name": "Walleye",
+                    "id": 74,
+                    "globalID": 305
+                },
+                {
+                    "name": "Eel",
+                    "id": 76,
+                    "globalID": 313
+                }
+            ]
+        }
+    },
+    {
+        "name": "Winter",
+        "items": {
+            "foraging": [
+                {
+                    "name": "Winter Root",
+                    "id": 11,
+                    "globalID": 266
+                },
+                {
+                    "name": "Crystal Fruit",
+                    "id": 12,
+                    "globalID": 267
+                },
+                {
+                    "name": "Snow Yam",
+                    "id": 13,
+                    "globalID": 268
+                },
+                {
+                    "name": "Crocus",
+                    "id": 14,
+                    "globalID": 269
+                },
+                {
+                    "name": "Nautilus Shell",
+                    "id": 115,
+                    "globalID": 271
+                }
+            ],
+            "fishing": [
+                {
+                    "name": "Tiger Trout",
+                    "id": 65,
+                    "globalID": 328
+                },
+                {
+                    "name": "Sturgeon",
+                    "id": 69,
+                    "globalID": 327
+                },
+                {
+                    "name": "Sardine",
+                    "id": 70,
+                    "globalID": 299
+                },
+                {
+                    "name": "Tuna",
+                    "id": 71,
+                    "globalID": 298
+                }
+            ]
+        }
+    },
+    {
+        "name": "Any",
+        "items": {
+            "foraging": [
+                {
+                    "name": "Coconut",
+                    "id": 19,
+                    "globalID": 282
+                },
+                {
+                    "name": "Cactus Fruit",
+                    "id": 20,
+                    "globalID": 244
+                },
+                {
+                    "name": "Sea Urchin",
+                    "id": 109,
+                    "globalID": 273
+                },
+                {
+                    "name": "Purple Mushroom",
+                    "id": 114,
+                    "globalID": 280
+                }
+            ],
+            "farming": [
+                {
+                    "name": "Hay",
+                    "itemCount": 10,
+                    "id": 119,
+                    "globalID": 694
+                },
+                {
+                    "name": "Large Milk",
+                    "id": 44,
+                    "globalID": 7
+                },
+                {
+                    "name": "Cheese",
+                    "id": 53,
+                    "globalID": 59
+                },
+                {
+                    "name": "Large Brown Egg",
+                    "id": 45,
+                    "globalID": 5
+                },
+                {
+                    "name": "Large Egg",
+                    "id": 46,
+                    "globalID": 5
+                },
+                {
+                    "name": "Large Goat Milk",
+                    "id": 47,
+                    "globalID": 6
+                },
+                {
+                    "name": "Goat Cheese",
+                    "id": 52,
+                    "globalID": 64
+                },
+                {
+                    "name": "Duck Egg",
+                    "id": 49,
+                    "globalID": 1
+                },
+                {
+                    "name": "Duck Feather",
+                    "id": 111,
+                    "globalID": 2
+                },
+                {
+                    "name": "Wool",
+                    "id": 48,
+                    "globalID": 14
+                },
+                {
+                    "name": "Cloth",
+                    "id": 51,
+                    "globalID": 60
+                },
+                {
+                    "name": "Rabbit's Foot",
+                    "id": 123,
+                    "globalID": 9
+                },
+                {
+                    "name": "Truffle",
+                    "id": 104,
+                    "globalID": 12
+                },
+                {
+                    "name": "Truffle Oil",
+                    "id": 50,
+                    "globalID": 72
+                },
+                {
+                    "name": "Jelly",
+                    "id": 55,
+                    "globalID": 971
+                },
+                {
+                    "name": "Honey",
+                    "id": 54,
+                    "globalID": 66
+                },
+                {
+                    "name": "Maple Syrup",
+                    "id": 102,
+                    "globalID": 965
+                },
+                {
+                    "name": "Pine Tar",
+                    "id": 26,
+                    "globalID": 966
+                },
+                {
+                    "name": "Oak Resin",
+                    "id": 121,
+                    "globalID": 967
+                },
+                {
+                    "name": "Wine",
+                    "id": 122,
+                    "globalID": 74
+                },
+                {
+                    "name": "Wine",
+                    "id": 129,
+                    "globalID": 74
+                },
+                {
+                    "name": "Dinosaur Mayonnaise",
+                    "id": 130,
+                    "globalID": 62
+                },
+                {
+                    "name": "Caviar",
+                    "id": 134,
+                    "globalID": 58
+                },
+                {
+                    "name": "Ancient Fruit",
+                    "itemCount": 5,
+                    "id": 132,
+                    "globalID": 242
+                }
+            ],
+            "fishing": [
+                {
+                    "name": "Largemouth Bass",
+                    "id": 66,
+                    "globalID": 302
+                },
+                {
+                    "name": "Carp",
+                    "id": 67,
+                    "globalID": 307
+                },
+                {
+                    "name": "Bullhead",
+                    "id": 68,
+                    "globalID": 329
+                },
+                {
+                    "name": "Bream",
+                    "id": 75,
+                    "globalID": 300
+                },
+                {
+                    "name": "Chub",
+                    "id": 116,
+                    "globalID": 331
+                },
+                {
+                    "name": "Ghostfish",
+                    "id": 88,
+                    "globalID": 319
+                },
+                {
+                    "name": "Sandfish",
+                    "id": 89,
+                    "globalID": 323
+                },
+                {
+                    "name": "Woodskip",
+                    "id": 90,
+                    "globalID": 337
+                },
+                {
+                    "name": "Void Salmon",
+                    "id": 133,
+                    "globalID": 338
+                },
+                {
+                    "name": "Lobster",
+                    "id": 77,
+                    "globalID": 350
+                },
+                {
+                    "name": "Crayfish",
+                    "id": 78,
+                    "globalID": 351
+                },
+                {
+                    "name": "Crab",
+                    "id": 79,
+                    "globalID": 352
+                },
+                {
+                    "name": "Cockle",
+                    "id": 80,
+                    "globalID": 276
+                },
+                {
+                    "name": "Mussel",
+                    "id": 81,
+                    "globalID": 277
+                },
+                {
+                    "name": "Shrimp",
+                    "id": 82,
+                    "globalID": 353
+                },
+                {
+                    "name": "Snail",
+                    "id": 83,
+                    "globalID": 354
+                },
+                {
+                    "name": "Periwinkle",
+                    "id": 84,
+                    "globalID": 355
+                },
+                {
+                    "name": "Oyster",
+                    "id": 85,
+                    "globalID": 278
+                },
+                {
+                    "name": "Clam",
+                    "id": 86,
+                    "globalID": 275
+                }
+            ],
+            "mining": [
+                {
+                    "name": "Copper Bar",
+                    "id": 91,
+                    "globalID": 682
+                },
+                {
+                    "name": "Iron Bar",
+                    "id": 92,
+                    "globalID": 141
+                },
+                {
+                    "name": "Gold Bar",
+                    "id": 93,
+                    "globalID": 139
+                },
+                {
+                    "name": "Quartz",
+                    "id": 94,
+                    "globalID": 617
+                },
+                {
+                    "name": "Earth Crystal",
+                    "id": 95,
+                    "globalID": 618
+                },
+                {
+                    "name": "Frozen Tear",
+                    "id": 96,
+                    "globalID": 619
+                },
+                {
+                    "name": "Fire Quartz",
+                    "id": 97,
+                    "globalID": 620
+                },
+                {
+                    "name": "Aquamarine",
+                    "id": 112,
+                    "globalID": 622
+                },
+                {
+                    "name": "Frozen Geode",
+                    "id": 117,
+                    "globalID": 671
+                },
+                {
+                    "name": "Prismatic Shard",
+                    "id": 131,
+                    "globalID": 628
+                },
+                {
+                    "name": "Cave Carrot",
+                    "id": 21,
+                    "globalID": 281
+                }
+            ],
+            "combat": [
+                {
+                    "name": "Slime",
+                    "itemCount": 99,
+                    "id": 98,
+                    "globalID": 11
+                },
+                {
+                    "name": "Bat Wing",
+                    "itemCount": 10,
+                    "id": 99,
+                    "globalID": 676
+                },
+                {
+                    "name": "Solar Essence",
+                    "id": 100,
+                    "globalID": 677
+                },
+                {
+                    "name": "Void Essence",
+                    "id": 101,
+                    "globalID": 674
+                }
+            ],
+            "misc": [
+                {
+                    "name": "Maki Roll",
+                    "id": 106,
+                    "globalID": 923
+                },
+                {
+                    "name": "Fried Egg",
+                    "id": 107,
+                    "globalID": 890
+                },
+                {
+                    "name": "Wood",
+                    "itemCount": 99,
+                    "id": 15,
+                    "globalID": 692
+                },
+                {
+                    "name": "Wood",
+                    "itemCount": 99,
+                    "id": 16,
+                    "globalID": 692
+                },
+                {
+                    "name": "Stone",
+                    "itemCount": 99,
+                    "id": 17,
+                    "globalID": 691
+                },
+                {
+                    "name": "Hardwood",
+                    "itemCount": 10,
+                    "id": 18,
+                    "globalID": 686
+                },
+                {
+                    "name": "2,500g",
+                    "id": 125
+                },
+                {
+                    "name": "5,000g",
+                    "id": 126
+                },
+                {
+                    "name": "10,000g",
+                    "id": 127
+                },
+                {
+                    "name": "25,000g",
+                    "id": 128
+                }
+            ]
+        }
+    }
+]
