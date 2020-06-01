@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 import Room from './Room';
 import Bundle from './Bundle';
 
-import roomsData from '../rooms.json';
+import rooms from '../rooms.json';
 
 export class RoomMode extends Component {
     constructor(props) {
@@ -21,8 +21,7 @@ export class RoomMode extends Component {
 
 
     render() {
-        const { rooms } = roomsData;
-
+        
         let roomsElement =
             rooms.map((room, index) =>
                 <Room room={room} key={index} />
