@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Item from './Item';
 import { connect } from "react-redux";
 
-import getFloatText from '../getFloatText';
+import { buildClassName, getFloatText } from '../utils';
 
 import '../css/bundle.css';
 import '../css/bundleIcons.css';
@@ -102,17 +102,6 @@ export class Bundle extends Component {
         )
     }
 }
-
-function buildClassName(name) {
-    name = name.replace(/'/g, "");
-    name = name.replace(/,/g, "");
-    name = name.replace(/:/g, "");
-    name = name.replace(/ /g, "_");
-    name = name.replace(/-/g, "_");
-
-    return `bg-${name}`;
-}
-
 
 const mapStateToProps = (state, ownProps) => {
 

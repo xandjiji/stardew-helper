@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 
-import getFloatText from '../getFloatText';
+import { getFloatText } from '../utils';
 
 import '../css/room.css';
 

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 
+import { buildClassName } from '../utils';
+
 import '../css/item.css';
 
 import themes from '../themes.json';
@@ -72,13 +74,5 @@ function mapDispatchToProps(dispatch) {
         }
     };
 };
-
-function buildClassName(name) {
-    name = name.replace(/'/g, "");
-    name = name.replace(/,/g, "");
-    name = name.replace(/ /g, "_");
-
-    return `bg-${name}`;
-}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Item);
