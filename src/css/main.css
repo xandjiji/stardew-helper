@@ -98,6 +98,10 @@ svg {
     scrollbar-width: thin;
 }
 
+.sprite {
+    flex-shrink: 0;
+}
+
 /* MAIN */
 .main {
     position: fixed;

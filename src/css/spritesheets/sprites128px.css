@@ -1,0 +1,44 @@
+.bg-Butterfly_Hutch {
+    width: 128px; height: 180px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -625px;
+}
+
+.bg-China_Cabinet {
+    width: 128px; height: 134px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -491px;
+}
+
+.bg-Festive_Dining_Table {
+    width: 128px; height: 69px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -61px;
+}
+
+.bg-J__Cola_Light {
+    width: 128px; height: 61px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -0;
+}
+
+.bg-Jade_Hills {
+    width: 128px; height: 76px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -339px;
+}
+
+.bg-Mahogany_Dining_Table {
+    width: 128px; height: 70px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -199px;
+}
+
+.bg-Modern_Dining_Table {
+    width: 128px; height: 70px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -269px;
+}
+
+.bg-Queen_of_the_Gem_Sea {
+    width: 128px; height: 76px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -415px;
+}
+
+.bg-Winter_Dining_Table {
+    width: 128px; height: 69px;
+    background: url('../../assets/spritesheets/sprites128px.png') -0 -130px;
+}

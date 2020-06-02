@@ -1,0 +1,54 @@
+.bg-Blueberries {
+    width: 52px; height: 64px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -372px;
+}
+
+.bg-Blue_City {
+    width: 52px; height: 64px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -436px;
+}
+
+.bg-Cowboy_Hat {
+    width: 54px; height: 54px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -48px;
+}
+
+.bg-Cowgal_Hat {
+    width: 54px; height: 54px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -102px;
+}
+
+.bg-Cowpoke_Hat {
+    width: 54px; height: 54px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -156px;
+}
+
+.bg-Fashion_Hat {
+    width: 54px; height: 54px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -210px;
+}
+
+.bg-Little_Tree {
+    width: 52px; height: 64px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -500px;
+}
+
+.bg-Pirate_Hat {
+    width: 54px; height: 54px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -264px;
+}
+
+.bg-Plum_Chapeau {
+    width: 54px; height: 54px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -318px;
+}
+
+.bg-Solid_Gold_Lewis {
+    width: 51px; height: 96px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -564px;
+}
+
+.bg-Sombrero {
+    width: 60px; height: 48px;
+    background: url('../../assets/spritesheets/spritessub60px.png') -0 -0;
+}

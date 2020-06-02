@@ -1,0 +1,209 @@
+.bg-1000_Years_From_Now {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -0;
+}
+
+.bg-Birch_Bench {
+    width: 72px; height: 74px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1176px;
+}
+
+.bg-Birch_Table {
+    width: 72px; height: 88px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2543px;
+}
+
+.bg-Birch_Tea_Table {
+    width: 72px; height: 72px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -672px;
+}
+
+.bg-Blue_Armchair {
+    width: 72px; height: 74px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1250px;
+}
+
+.bg-Brown_Armchair {
+    width: 72px; height: 74px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1324px;
+}
+
+.bg-Burlap_Rug {
+    width: 72px; height: 60px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -405px;
+}
+
+.bg-Candy_Table {
+    width: 72px; height: 86px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1941px;
+}
+
+.bg-Clouds {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -45px;
+}
+
+.bg-Dark_Table {
+    width: 72px; height: 83px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1775px;
+}
+
+.bg-Diviner_Table {
+    width: 72px; height: 81px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1694px;
+}
+
+.bg-Green_Armchair {
+    width: 72px; height: 74px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1398px;
+}
+
+.bg-Land_Of_Clay {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -90px;
+}
+
+.bg-Luau_Table {
+    width: 72px; height: 86px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2027px;
+}
+
+.bg-Luxury_Table {
+    width: 72px; height: 86px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2113px;
+}
+
+.bg-Mahogany_Bench {
+    width: 72px; height: 72px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -744px;
+}
+
+.bg-Mahogany_Table {
+    width: 72px; height: 88px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2631px;
+}
+
+.bg-Mahogany_Tea_Table {
+    width: 72px; height: 72px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -816px;
+}
+
+.bg-Modern_Bench {
+    width: 72px; height: 68px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -465px;
+}
+
+.bg-Modern_Table {
+    width: 72px; height: 86px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2199px;
+}
+
+.bg-Modern_Tea_Table {
+    width: 72px; height: 70px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -602px;
+}
+
+.bg-Moon_Table {
+    width: 72px; height: 86px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2285px;
+}
+
+.bg-My_First_Painting {
+    width: 72px; height: 69px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -533px;
+}
+
+.bg-Neolithic_Table {
+    width: 72px; height: 72px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -888px;
+}
+
+.bg-Oak_Bench {
+    width: 72px; height: 72px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -960px;
+}
+
+.bg-Oak_Table {
+    width: 72px; height: 88px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2719px;
+}
+
+.bg-Oak_Tea_Table {
+    width: 72px; height: 72px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1032px;
+}
+
+.bg-Portrait_Of_A_Mermaid {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -135px;
+}
+
+.bg-Pub_Table {
+    width: 72px; height: 86px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2371px;
+}
+
+.bg-Puzzle_Table {
+    width: 72px; height: 83px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1858px;
+}
+
+.bg-Red_Armchair {
+    width: 72px; height: 74px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1472px;
+}
+
+.bg-Red_Eagle {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -180px;
+}
+
+.bg-Solar_Kingdom {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -225px;
+}
+
+.bg-Sun_Table {
+    width: 72px; height: 88px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2807px;
+}
+
+.bg-The_Serpent {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -270px;
+}
+
+.bg-Three_Trees {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -315px;
+}
+
+.bg-Tropical_Fish_173 {
+    width: 72px; height: 45px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -360px;
+}
+
+.bg-Walnut_Bench {
+    width: 72px; height: 74px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1546px;
+}
+
+.bg-Walnut_Table {
+    width: 72px; height: 88px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2895px;
+}
+
+.bg-Walnut_Tea_Table {
+    width: 72px; height: 72px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1104px;
+}
+
+.bg-Winter_Table {
+    width: 72px; height: 86px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -2457px;
+}
+
+.bg-Yellow_Armchair {
+    width: 72px; height: 74px;
+    background: url('../../assets/spritesheets/sprites72px.png') -0 -1620px;
+}

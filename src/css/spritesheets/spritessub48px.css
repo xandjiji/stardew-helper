@@ -1,0 +1,74 @@
+.bg-Bundle_Reward {
+    width: 27px; height: 27px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -0;
+}
+
+.bg-Suit_Of_Armor {
+    width: 42px; height: 96px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -779px;
+}
+
+.bg-Stone_Parrot {
+    width: 45px; height: 84px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -336px;
+}
+
+.bg-Stone_Owl {
+    width: 42px; height: 75px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -183px;
+}
+
+.bg-Stone_Junimo {
+    width: 45px; height: 96px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -875px;
+}
+
+.bg-Night_Sky_Decal_3 {
+    width: 42px; height: 90px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -507px;
+}
+
+.bg-Night_Sky_Decal_1 {
+    width: 27px; height: 36px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -27px;
+}
+
+.bg-Long_Palm {
+    width: 32px; height: 128px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -1067px;
+}
+
+.bg-Long_Cactus {
+    width: 32px; height: 92px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -687px;
+}
+
+.bg-Lawn_Flamingo {
+    width: 45px; height: 87px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -420px;
+}
+
+.bg-Indoor_Hanging_Basket {
+    width: 42px; height: 78px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -258px;
+}
+
+.bg-Grave_Stone {
+    width: 45px; height: 90px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -597px;
+}
+
+.bg-Calendar {
+    width: 39px; height: 54px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -63px;
+}
+
+.bg-Big_Green_Cane {
+    width: 45px; height: 96px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -971px;
+}
+
+.bg-Basic_Log {
+    width: 42px; height: 66px;
+    background: url('../../assets/spritesheets/spritessub48px.png') -0 -117px;
+}

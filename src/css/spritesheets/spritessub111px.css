@@ -1,0 +1,29 @@
+.bg-A_Night_On_Eco_Hill {
+    width: 90px; height: 84px;
+    background: url('../../assets/spritesheets/spritessub111px.png') -0 -75px;
+}
+
+.bg-Bobo_Statue {
+    width: 93px; height: 144px;
+    background: url('../../assets/spritesheets/spritessub111px.png') -0 -333px;
+}
+
+.bg-Nautical_Rug {
+    width: 111px; height: 84px;
+    background: url('../../assets/spritesheets/spritessub111px.png') -0 -159px;
+}
+
+.bg-Sun_44 {
+    width: 93px; height: 90px;
+    background: url('../../assets/spritesheets/spritessub111px.png') -0 -243px;
+}
+
+.bg-Wallflower_Pal {
+    width: 87px; height: 75px;
+    background: url('../../assets/spritesheets/spritessub111px.png') -0 -0;
+}
+
+.bg-Wumbus_Statue {
+    width: 93px; height: 144px;
+    background: url('../../assets/spritesheets/spritessub111px.png') -0 -477px;
+}

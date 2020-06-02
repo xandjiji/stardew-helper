@@ -12,6 +12,17 @@ import './css/animations.css';
 
 import themes from './themes.json';
 
+import './css/spritesheets/sprites36px.css';
+import './css/spritesheets/sprites48px.css';
+import './css/spritesheets/sprites64px.css';
+import './css/spritesheets/sprites72px.css';
+import './css/spritesheets/sprites74px.css';
+import './css/spritesheets/sprites96px.css';
+import './css/spritesheets/sprites128px.css';
+import './css/spritesheets/spritessub48px.css';
+import './css/spritesheets/spritessub60px.css';
+import './css/spritesheets/spritessub111px.css';
+
 export class Main extends Component {
     render() {
         let palette = themes.themes[this.props.themeId];

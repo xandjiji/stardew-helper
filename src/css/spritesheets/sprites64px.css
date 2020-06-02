@@ -1,0 +1,59 @@
+.bg-Birch_End_Table {
+    width: 64px; height: 100px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -112px;
+}
+
+.bg-Ceiling_Flags {
+    width: 64px; height: 32px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -0;
+}
+
+.bg-Dancing_Grass {
+    width: 64px; height: 112px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -712px;
+}
+
+.bg-Grandmother_End_Table {
+    width: 64px; height: 100px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -212px;
+}
+
+.bg-Junimo_Kart_Arcade_System {
+    width: 64px; height: 128px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -936px;
+}
+
+.bg-Little_Photos {
+    width: 64px; height: 80px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -32px;
+}
+
+.bg-Mahogany_End_Table {
+    width: 64px; height: 100px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -312px;
+}
+
+.bg-Modern_End_Table {
+    width: 64px; height: 100px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -412px;
+}
+
+.bg-Needlepoint_Flower {
+    width: 64px; height: 112px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -824px;
+}
+
+.bg-Oak_End_Table {
+    width: 64px; height: 100px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -512px;
+}
+
+.bg-Prairie_King_Arcade_System {
+    width: 64px; height: 128px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1064px;
+}
+
+.bg-Walnut_End_Table {
+    width: 64px; height: 100px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -612px;
+}

@@ -1,0 +1,29 @@
+.bg-Fruit_Salad_Rug {
+    width: 74px; height: 56px;
+    background: url('../../assets/spritesheets/sprites74px.png') -0 -54px;
+}
+
+.bg-Green_Cottage_Rug {
+    width: 74px; height: 56px;
+    background: url('../../assets/spritesheets/sprites74px.png') -0 -110px;
+}
+
+.bg-Mystic_Rug {
+    width: 74px; height: 56px;
+    background: url('../../assets/spritesheets/sprites74px.png') -0 -166px;
+}
+
+.bg-Pirate_Rug {
+    width: 74px; height: 56px;
+    background: url('../../assets/spritesheets/sprites74px.png') -0 -222px;
+}
+
+.bg-Red_Cottage_Rug {
+    width: 74px; height: 54px;
+    background: url('../../assets/spritesheets/sprites74px.png') -0 -0;
+}
+
+.bg-Woodcut_Rug {
+    width: 74px; height: 63px;
+    background: url('../../assets/spritesheets/sprites74px.png') -0 -278px;
+}

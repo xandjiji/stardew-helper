@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 
 import '../css/item.css';
-import '../css/spritesheet.css';
 
 import themes from '../themes.json';
 
