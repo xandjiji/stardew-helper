@@ -37,6 +37,10 @@ export class SeasonItems extends Component {
         }
     }
 
+    preventScroll(event) {
+        event.stopPropagation();
+    }
+
     render() {
         let palette = themes.themes[this.props.themeId];
 
@@ -66,12 +70,15 @@ export class SeasonItems extends Component {
 
 
         return (
-            <div className="bundle-item material" style={{ backgroundColor: palette.surface, color: palette.onSurface }}>
+            <div className="bundle-item">
                 <div className="skill-filter" style={{ borderBottomColor: palette.separator }}>
                     {skillElement}
                 </div>
 
-                <div className="bundle-items-wrapper custom-scrollbar">
+                <div className="bundle-items-wrapper custom-scrollbar"
+                    onWheel={this.preventScroll}
+                    onTouchMove={this.preventScroll}
+                >
                     {itemElement}
                 </div>
             </div>

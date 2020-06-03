@@ -31,7 +31,7 @@ export class Season extends Component {
 
 
         return (
-            <div className="room-item season-mode material" style={{ backgroundColor: palette.surface, color: palette.onSurface }}>
+            <div className="room-item season-mode">
                 <div className={`season-icon bg-${name}`}></div>
                 <div className="room-progress">
                     <div className="progress-text">

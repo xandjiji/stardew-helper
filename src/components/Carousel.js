@@ -51,7 +51,11 @@ export class Carousel extends Component {
         }
     }
 
-    dragStart(event) {
+    dragStart(event) {        
+        if(event.button === 1 || event.button === 2) {
+            return
+        }
+        
         this.sliderRef.current.style.transition = "";
         this.sliderRef.current.style.cursor = "grabbing";
 

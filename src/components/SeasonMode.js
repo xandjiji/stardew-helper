@@ -1,50 +1,39 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
 
 import Carousel from './Carousel';
 import Season from './Season';
 import SeasonItems from './SeasonItems';
 
 import seasons from '../seasons.json';
+import themes from '../themes.json';
 
 export class SeasonMode extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            currentSeason: 0
-        }
-    }
-
-    changeSeason = (newIndex) => {
-        this.setState({ currentSeason: newIndex });
-    }
-
-
     render() {
-
-        const { items } = seasons[this.state.currentSeason];
+        let palette = themes.themes[this.props.themeId];
 
         let seasonsElement =
             seasons.map((season, index) =>
-                <Season season={season} key={index} />
+                <div className="material season-wrapper" style={{ backgroundColor: palette.surface, color: palette.onSurface }} key={index} >
+                    <Season season={season}/>
+                    <SeasonItems items={seasons[index].items} />
+                </div>
             );            
 
         return (
-            <div>
-                <div className="carousel-container rooms-carousel">
-                    <Carousel updateState={this.changeSeason}>
-                        {seasonsElement}
-                    </Carousel>
-                </div>
-
-                <div className="carousel-container bundles-carousel">
-                    <Carousel currentRoom={this.state.currentRoom}>
-                        <SeasonItems items={items} />
-                    </Carousel>
-                </div>
+            <div className="carousel-container seasons-carousel">
+                <Carousel>
+                    {seasonsElement}
+                </Carousel>
             </div>
         )
     }
 }
 
-export default SeasonMode
+const mapStateToProps = (state) => ({
+    themeId: state.themeReducer
+})
+
+const mapDispatchToProps = {}
+
+export default connect(mapStateToProps, mapDispatchToProps)(SeasonMode)

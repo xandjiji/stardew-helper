@@ -5,7 +5,7 @@
 .season-mode .season-icon {
     position: relative;
     top: -50px;
-    margin-bottom: -60px;
+    margin-bottom: -36px;
     flex-shrink: 0;
 }
 
@@ -13,3 +13,21 @@
     margin-left: 16px;
     flex-grow: 1;
 }
+
+
+/* START GAMBIARRA */
+.seasons-carousel .carousel-wrapper .item-wrapper {
+    max-height: calc(100vh - 42px - 20px);
+    /* 100vh - room - header - padding */
+}
+
+.seasons-carousel .bundle-item {
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+}
+
+.seasons-carousel .bundle-items-wrapper {
+    overflow-y: auto;
+}
+/* END GAMBIARRA */

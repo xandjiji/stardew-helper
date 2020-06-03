@@ -110,12 +110,12 @@ svg {
 }
 
 .carousel-container {
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .carousel-container .item-wrapper > * {
-    margin: 0 12px;
-    width: calc(100% - 24px);
+    margin: 0 8px;
+    width: calc(100% - 16px);
 }
 
 .material {
@@ -125,5 +125,5 @@ svg {
 }
 
 .carousel-container .item-wrapper > .material {
-    margin-top: 24px;
+    margin-top: 16px;
 }
