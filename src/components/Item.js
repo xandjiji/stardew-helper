@@ -35,10 +35,20 @@ export class Item extends Component {
             fadedClass = 'faded';
         }
 
+        let goldArray = [40,41,42,43,132,133];
+        let silverArray = [129];
+
+        let qualityElement;
+        if(goldArray.includes(id)) {
+            qualityElement = <div className="sprite bg-Gold_Quality_Icon"></div>
+        } else if(silverArray.includes(id)) {
+            qualityElement = <div className="sprite bg-Silver_Quality_Icon"></div>
+        }
+
         return (
             <div className="item">
                 <div className={`item-name-wrapper ${fadedClass}`}>
-                    <div className={`sprite ${itemClass}`}></div>
+                    <div className={`sprite ${itemClass}`}>{qualityElement}</div>
                     <div className="item-info" style={{ color: palette.onSurface }}>
                         <span className="item-name">{name}</span>
                         <span className="item-count">{`(${itemCount ? itemCount : 1}x)`}</span>
