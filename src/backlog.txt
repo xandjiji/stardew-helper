@@ -12,7 +12,6 @@ QA:
     redesign
     total counter
     recalcular android viewport
-    qualidade dos items
 
 push sidebar
 reset undo?

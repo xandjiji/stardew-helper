@@ -43,6 +43,8 @@ export class Main extends Component {
                 <div className="body-wrapper">
                     {modeElement}
                 </div>
+
+                <ItemModal />
             </div>
         )
     }
