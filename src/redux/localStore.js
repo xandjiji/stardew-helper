@@ -1,5 +1,5 @@
 function saveData(state) {
-    try {        
+    try {
         const serializedState = JSON.stringify(state);
         localStorage.setItem('state', serializedState);
     } catch {
@@ -7,17 +7,23 @@ function saveData(state) {
     }
 }
 
-function loadData() {    
+function loadData() {
     let defaultState = {
         themeReducer: 0,
         itemReducer: {},
         modeReducer: {
             mode: "bundle"
+        },
+        itemModalReducer: {
+            active: false,
+            itemId: 0
         }
     }
+
     try {
         const serializedState = localStorage.getItem('state');
         if (serializedState === null) {
+
             return defaultState;
         }
 

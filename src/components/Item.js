@@ -47,7 +47,9 @@ export class Item extends Component {
 
         return (
             <div className="item">
-                <div className={`item-name-wrapper ${fadedClass}`}>
+                <div
+                    className={`item-name-wrapper ${fadedClass}`}
+                    onClick={() => this.props.openModal(id)}>
                     <div className={`sprite ${itemClass}`}>{qualityElement}</div>
                     <div className="item-info" style={{ color: palette.onSurface }}>
                         <span className="item-name">{name}</span>
@@ -79,6 +81,13 @@ function mapDispatchToProps(dispatch) {
         toggleItem: (id) => {
             dispatch({
                 type: "TOGGLE_ITEM",
+                payload: id
+            });
+        },
+
+        openModal: (id) => {
+            dispatch({
+                type: "OPEN_MODAL",
                 payload: id
             });
         }
