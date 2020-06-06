@@ -15,34 +15,62 @@
     padding: 0 20px;
 }
 
-.item-modal .item-name-wrapper {
-    display: flex;
-    align-items: flex-end;
+.item-modal .item-wrapper > .material {
+    margin-top: 40px;
+}
 
-    transform: translateY(calc(-50% - 24px));
-    margin-bottom: -24px;
+.item-modal .item-name-wrapper {
+    margin: -48px 0 16px 0;
+    width: calc(100%);
+    display: flex;
+    align-items: flex-start;
 }
 
 .item-modal .item-sprite {
     padding: 8px;
-    margin-right: 8px;
+    margin-right: 16px;
 }
 
 .item-modal .item-name {
-    padding: 8px;
     display: flex;
     align-items: center;
     font-size: 18px;
+    flex-grow: 1;
 }
 
-.item-modal .item-name a {
+.item-modal .item-name a,
+.item-modal .close-button {
+    padding: 3px;
     margin-left: 8px;
+    border-radius: 3px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.item-modal .item-name,
+.item-modal .close-button {
+    margin-top: 36px;
+}
+
+.item-modal .close-button {
+    flex-shrink: 0;
+    padding: 8px;
+}
+
+.item-modal .item-name a:hover,
+.item-modal .close-button:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.item-modal .item-name a:active,
+.item-modal .close-button:active {
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.14);
 }
 
 .item-modal .info-box {
     padding: 0;
+    min-height: 44px;
     display: flex;
     overflow: hidden;
 }

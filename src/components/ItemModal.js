@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { buildClassName } from '../utils';
 
 import { ReactComponent as ExternalIcon } from '../assets/external.svg';
+import { ReactComponent as CloseIcon } from '../assets/close.svg';
 
 import '../css/itemModal.css';
 
@@ -148,15 +149,19 @@ export class ItemModal extends Component {
 
         return (
             <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`} style={{ backgroundColor: palette.background }}>
-                <button onClick={() => this.props.closeModal()}>X</button>
-
                 <div className="item-wrapper">
                     <div className="material" style={{ backgroundColor: palette.surface}}>
                         <div className="item-name-wrapper">
                             <div className="item-sprite material" style={{ backgroundColor: palette.primary }}>
                                 <div className={`${itemClass}`}></div>
                             </div>
-                            <span className="item-name">{name} <a href={`https://stardewvalleywiki.com/${link}`} rel="noopener noreferrer external" target="_blank"><ExternalIcon /></a></span>
+
+                            <span className="item-name">
+                                {name}
+                                <a className="smooth" href={`https://stardewvalleywiki.com/${link}`} rel="noopener noreferrer external" target="_blank"><ExternalIcon /></a>
+                            </span>
+
+                            <CloseIcon className="close-button smooth" onClick={() => this.props.closeModal()} />
                         </div>
 
                         {sellElement}
