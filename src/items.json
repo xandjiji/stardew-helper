@@ -30733,6 +30733,24 @@
             "energy": 20,
             "health": 9
         },
-        "harvestIn": "5 days (5 days to regrow)"
+        "harvestIn": "5 days (5 days to regrow)",
+        "recipe": [
+            {
+                "id": 684,
+                "qty": 10
+            },
+            {
+                "id": "Any Fish",
+                "qty": 1
+            },
+            {
+                "id": 11,
+                "qty": 5
+            },
+            {
+                "id": 675,
+                "qty": 5
+            }
+        ]
     }
 ]

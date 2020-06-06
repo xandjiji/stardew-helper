@@ -23,11 +23,6 @@ item info
 https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fjYlY/edit#gid=0
 
 
-healing {} fazer IF (por causa de items negativos)
-weapon stats if (level)
-recipe any fish (if id == number)
-
-
 FARM PRODUCTS:
     CROPSx
         PROFITABILITY (SORT BY: SEASON)
@@ -58,23 +53,5 @@ CALENDAR
 NPC?
 
 SEARCH
-
-XName (link ->)
-Xsell price
-
-Xhealing
-XfoodBuff
-xeffects
-xstats
-
-xprofitability
-xharvest in
-
-
-xobtained
-
-recipe
-
-makes
 
 gifting

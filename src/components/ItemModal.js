@@ -26,6 +26,7 @@ export class ItemModal extends Component {
     }
 
     createListItem(item) {
+
         if(typeof item === 'string') {
             if(item[0] !== '@') {
                 return item
@@ -33,9 +34,32 @@ export class ItemModal extends Component {
                 
                 return this.parseActions(item);
             }
-        } else {
+        }
+
+        if(typeof item === 'number') {
             return this.idToName(item)
         }
+
+        if(typeof item === 'object') {
+
+            let recipeElement;
+
+            if(typeof item.id === 'number') {
+
+                recipeElement =
+                <span className="tokenized-content">
+                    {this.idToName(item.id)}
+                    <span className="token">{`(${item.qty}x)`}</span>
+                </span>
+            } else {
+
+                recipeElement = `${item.id} (${item.qty}x)`
+            }
+
+            return recipeElement
+        }
+
+        
     }
 
     parseActions(string) {
@@ -53,7 +77,7 @@ export class ItemModal extends Component {
 
                             return this.idToName(itemId, index)
                         } else {
-                            
+
                             return <span className="token" key={index}>{token}</span>
                         }
                     }
@@ -84,9 +108,9 @@ export class ItemModal extends Component {
 
         /* itemList[this.props.currentItem] */
         let currentID = 973;
-        const { name, link, sellPrice, healing, foodBuff, stats, effect, profitability, harvestIn, obtainedFrom } = itemList[currentID];
+        const { name, link, sellPrice, healing, foodBuff, stats, effect, profitability, harvestIn, obtainedFrom, makes, recipe } = itemList[currentID];
 
-        /* console.log(itemList[currentID]) */
+        console.log(itemList[currentID])
 
         let itemClass = buildClassName(name);
 
@@ -103,11 +127,27 @@ export class ItemModal extends Component {
 
         let healsElement;
         if(healing) {
+
+            let healthElement;
+            if(healing.health) {
+                healthElement =
+                <span className="token"><div className={healing.health > 0 ? 'bg-Health' : 'bg-Skull'}></div>{healing.health}</span>
+            }
+
+            let energyElement;
+            if(healing.energy) {
+                energyElement =
+                <span className="token"><div className={healing.energy > 0 ? 'bg-Energy' : 'bg-Skull'}></div>{healing.energy}</span>
+            }
+
             healsElement = 
             <div className="info-box material">
                 <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Heals</span>
                 <div className="info-content">
-                    <span className="info-value"><div className="bg-Health"></div>{healing.health} <div className="bg-Energy"></div>{healing.energy}</span>
+                    <span className="info-value tokenized-content">
+                        {healthElement}
+                        {energyElement}
+                    </span>
                 </div>
             </div>
         }
@@ -151,7 +191,7 @@ export class ItemModal extends Component {
             }
 
             statsElement = 
-            <div className="info-box material">
+            <div className="info-box list material">
                 <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Stats</span>
                 <div className="info-content">
                     {levelElement}
@@ -234,6 +274,46 @@ export class ItemModal extends Component {
             </div>
         }
 
+        let makesElement;
+        if(makes) {
+            makesElement =
+            <div className="info-box list material">
+                <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Makes</span>
+                <div className="info-content">
+                    {
+                        makes.map((item, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
+
+                                {this.createListItem(item)}
+                            </span>
+                        )
+                    }
+                </div>
+            </div>
+        }
+
+        let recipeElement;
+        if(recipe) {
+            recipeElement =
+            <div className="info-box list material">
+                <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Recipe</span>
+                <div className="info-content">
+                    {
+                        recipe.map((item, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
+
+                                {this.createListItem(item)}
+                            </span>
+                        )
+                    }
+                </div>
+            </div>
+        }
+
         return (
             <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`} style={{ backgroundColor: palette.background }}>
                 <div className="item-wrapper">
@@ -261,7 +341,8 @@ export class ItemModal extends Component {
                         {effectElement}
 
                         {obtainedElement}
-
+                        {makesElement}
+                        {recipeElement}
                     </div>
                 </div>
             </div>

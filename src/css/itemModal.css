@@ -56,6 +56,7 @@
 .item-modal .close-button {
     flex-shrink: 0;
     padding: 8px;
+    margin-right: -8px;
 }
 
 .item-modal .item-name a:hover,
@@ -117,8 +118,9 @@
     margin-bottom: 6px;
 }
 
-.item-modal .info-value div {
-    margin-right: 3px;
+.item-modal .info-value div,
+.item-modal .token div {
+    margin-right: 3px !important;
     flex-shrink: 0;
 }
 
