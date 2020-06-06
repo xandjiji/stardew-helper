@@ -15,13 +15,13 @@ export class ItemModal extends Component {
     constructor(props) {
         super(props);
 
-        this.actionLink = this.actionLink.bind(this);
+        this.handleActionLink = this.handleActionLink.bind(this);
         this.createListItem = this.createListItem.bind(this);
         this.parseActions = this.parseActions.bind(this);
         this.idToName = this.idToName.bind(this);
     }
 
-    actionLink(id) {
+    handleActionLink(id) {
         console.log(id);
     }
 
@@ -39,7 +39,7 @@ export class ItemModal extends Component {
     }
 
     parseActions(string) {
-        string = string.substring(1, string.lenght);
+        string = string.substring(1, string.length);
         let strArray = string.split(" ");
 
         let newElement =
@@ -48,10 +48,12 @@ export class ItemModal extends Component {
                 strArray.map((token, index) =>
                     {
                         if(token[0] === '&') {
-                            let itemId = token.substring(1, string.lenght)
+                            let itemId = token.substring(1, string.length)
                             itemId = parseInt(itemId);
-                            return this.idToName(itemId)
+
+                            return this.idToName(itemId, index)
                         } else {
+                            
                             return <span className="token" key={index}>{token}</span>
                         }
                     }
@@ -62,14 +64,15 @@ export class ItemModal extends Component {
         return newElement
     }
     
-    idToName(id) {
+    idToName(id, key) {
         let palette = themes.themes[this.props.themeId];
         
         let element =
             <span
                 className="action-link"
                 style={{ color: palette.primary }}
-                onClick={() => this.actionLink(id)}>
+                onClick={() => this.handleActionLink(id)}
+                key={key}>
                 {itemList[id].name}
             </span>
 

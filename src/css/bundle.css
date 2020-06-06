@@ -58,6 +58,7 @@
     margin: 0 8px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .bundle-item .bundle-reward-text {
