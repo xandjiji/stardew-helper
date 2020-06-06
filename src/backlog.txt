@@ -25,8 +25,7 @@ https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fj
 
 healing {} fazer IF (por causa de items negativos)
 weapon stats if (level)
-
-dark sword healing skill icon
+recipe any fish (if id == number)
 
 
 FARM PRODUCTS:
@@ -65,11 +64,11 @@ Xsell price
 
 Xhealing
 XfoodBuff
-effects
-stats
+xeffects
+xstats
 
-profitability
-harvest in
+xprofitability
+xharvest in
 
 
 obtained

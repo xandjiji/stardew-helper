@@ -1,0 +1,75 @@
+.bg-Attack {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -0;
+}
+
+.bg-Critical_Strike_Power {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -24px;
+}
+
+.bg-Defense {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -48px;
+}
+
+.bg-Energy {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -72px;
+}
+
+.bg-Farming {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -96px;
+}
+
+.bg-Fishing {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -120px;
+}
+
+.bg-Foraging {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -144px;
+}
+
+.bg-Health,
+.bg-Chance_of_increasing_max_Health__if_below_cap_ {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -168px;
+}
+
+.bg-Luck {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -192px;
+}
+
+.bg-Magnetism {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -216px;
+}
+
+.bg-Max_Energy {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -240px;
+}
+
+.bg-Mining {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -264px;
+}
+
+.bg-Speed {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -288px;
+}
+
+.bg-Weight {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -312px;
+}
+
+.bg-Gold_Coin {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -336px;
+}

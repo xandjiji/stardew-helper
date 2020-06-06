@@ -52,17 +52,19 @@
 }
 
 .item-modal .info-title {
+    padding: 8px;
+    min-width: 96px;
     display: flex;
     align-items: center;
-    padding: 8px;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.3px;
     text-transform: uppercase;
+    justify-content: center;
 }
 
 .item-modal .info-content {
-    padding: 6px;
+    padding: 10px 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,12 +73,19 @@
 .item-modal .info-value {
     display: flex;
     align-items: center;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .item-modal .info-value:not(:last-child) {
     margin-bottom: 6px;
 }
 
-.item-modal .info-value *:first-child {
+.item-modal .info-value div {
     margin-right: 3px;
+    flex-shrink: 0;
+}
+
+.item-modal .info-value div:not(:first-child) {
+    margin-left: 4px;
 }
