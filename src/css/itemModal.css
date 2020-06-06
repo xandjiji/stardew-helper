@@ -4,10 +4,56 @@
     right: 0;
     width: 100vw;
     height: 100vh;
-    background-color: black;
     transform: translateX(100%);
 }
 
 .item-modal.active {
     transform: none;
+}
+
+.item-modal .item-wrapper {
+    padding: 0 20px;
+}
+
+.item-modal .item-name-wrapper {
+    display: flex;
+    align-items: flex-end;
+
+    transform: translateY(calc(-50% - 24px));
+    margin-bottom: -24px;
+}
+
+.item-modal .item-sprite {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.item-modal .item-name {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.item-modal .info-box {
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.item-modal .info-box:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.item-modal .info-title {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.item-modal .info-value {
+    display: flex;
+    align-items: center;
 }

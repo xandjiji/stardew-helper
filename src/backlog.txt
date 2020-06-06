@@ -59,3 +59,23 @@ CALENDAR
 NPC?
 
 SEARCH
+
+Name (link ->)
+sell price
+
+healing
+foodBuff
+effects
+stats
+
+profitability
+harvest in
+
+
+obtained
+
+recipe
+
+makes
+
+gifting
