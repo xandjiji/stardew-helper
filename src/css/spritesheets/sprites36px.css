@@ -1,74 +1,74 @@
 .bg-Attack {
-    width: 36px; height: 36px;
+    width: 24px; height: 24px;
     background: url('../../assets/spritesheets/sprites36px.png') -0 -0;
 }
 
 .bg-Crit__Power {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -36px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -24px;
 }
 
 .bg-Defense {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -72px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -48px;
 }
 
 .bg-Energy {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -108px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -72px;
 }
 
 .bg-Farming {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -144px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -96px;
 }
 
 .bg-Fishing {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -180px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -120px;
 }
 
 .bg-Foraging {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -216px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -144px;
 }
 
 .bg-Health {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -252px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -168px;
 }
 
 .bg-Luck {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -288px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -192px;
 }
 
 .bg-Magnetism {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -324px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -216px;
 }
 
 .bg-Max_Energy {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -360px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -240px;
 }
 
 .bg-Mining {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -396px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -264px;
 }
 
 .bg-Speed {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -432px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -288px;
 }
 
 .bg-Weight {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -468px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -312px;
 }
 
 .bg-Gold_Coin {
-    width: 36px; height: 36px;
-    background: url('../../assets/spritesheets/sprites36px.png') -0 -504px;
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites36px.png') -0 -336px;
 }

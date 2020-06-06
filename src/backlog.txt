@@ -60,11 +60,11 @@ NPC?
 
 SEARCH
 
-Name (link ->)
-sell price
+XName (link ->)
+Xsell price
 
-healing
-foodBuff
+Xhealing
+XfoodBuff
 effects
 stats
 

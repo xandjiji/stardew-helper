@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 
 import { buildClassName } from '../utils';
 
+import { ReactComponent as ExternalIcon } from '../assets/external.svg';
+
 import '../css/itemModal.css';
 
 import itemList from '../items.json';
@@ -13,7 +15,7 @@ export class ItemModal extends Component {
         let palette = themes.themes[this.props.themeId];
 
         /* itemList[this.props.currentItem] */
-        const { name, sellPrice, healing, foodBuff } = itemList[938];
+        const { name, link, sellPrice, healing, foodBuff } = itemList[938];
 
         console.log(itemList[938])
 
@@ -72,7 +74,7 @@ export class ItemModal extends Component {
                             <div className="item-sprite material" style={{ backgroundColor: palette.primary }}>
                                 <div className={`${itemClass}`}></div>
                             </div>
-                            <span className="item-name">{name}</span>
+                            <span className="item-name">{name} <a href={`https://stardewvalleywiki.com/${link}`} target="_blank"><ExternalIcon /></a></span>
                         </div>
 
                         {sellElement}

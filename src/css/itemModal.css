@@ -30,7 +30,15 @@
 
 .item-modal .item-name {
     padding: 8px;
+    display: flex;
+    align-items: center;
     font-size: 18px;
+}
+
+.item-modal .item-name a {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
 }
 
 .item-modal .info-box {
@@ -53,7 +61,22 @@
     text-transform: uppercase;
 }
 
+.item-modal .info-content {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .item-modal .info-value {
     display: flex;
     align-items: center;
+}
+
+.item-modal .info-value:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.item-modal .info-value *:first-child {
+    margin-right: 3px;
 }
