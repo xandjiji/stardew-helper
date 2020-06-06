@@ -30651,13 +30651,11 @@
         "link": "Dinosaur_Egg",
         "sellPrice": "350",
         "obtainedFrom": [
-            "Dinosaur",
-            "Artifact Spot in the Mountain (0.8%)",
-            "Artifact Spot in the Quarry (0.8%)",
+            "Artifact Spot in the Farm (10%)",
+            694,
             "Fishing Treasure Chests",
-            "Pepper Rex drop (10% chance drop)",
-            "Prehistoric Floors in the Skull Cavern",
-            "Can be won as a prize in the Crane Game inside the Movie Theater"
+            "@Using a &0~ in a &146~",
+            "Tilling in the Mines or Skull Cavern"
         ],
         "makes": [
             62,

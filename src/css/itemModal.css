@@ -81,7 +81,7 @@
 
 .item-modal .info-title {
     padding: 8px;
-    min-width: 96px;
+    min-width: 100px;
     display: flex;
     align-items: center;
     font-size: 10px;
@@ -98,11 +98,19 @@
     justify-content: center;
 }
 
-.item-modal .info-value {
+.item-modal .info-value,
+.item-modal .action-link,
+.item-modal .tokenized-content * {
     display: flex;
     align-items: center;
     font-size: 12px;
     font-weight: 300;
+}
+
+.item-modal .list .info-value::before {
+    content: '·';
+    margin-right: 6px;
+    font-weight: 700;
 }
 
 .item-modal .info-value:not(:last-child) {
@@ -116,4 +124,23 @@
 
 .item-modal .info-value div:not(:first-child) {
     margin-left: 4px;
+}
+
+.item-modal .tokenized-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-modal .tokenized-content * {
+    margin-right: 3px;
+    flex-shrink: 0;
+}
+
+.item-modal .tokenized-content *:last-child {
+    margin: 0
+}
+
+.item-modal .action-link {
+    cursor: pointer;
+    font-weight: 400;
 }

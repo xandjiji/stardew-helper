@@ -12,14 +12,78 @@ import itemList from '../items.json';
 import themes from '../themes.json';
 
 export class ItemModal extends Component {
+    constructor(props) {
+        super(props);
+
+        this.actionLink = this.actionLink.bind(this);
+        this.createListItem = this.createListItem.bind(this);
+        this.parseActions = this.parseActions.bind(this);
+        this.idToName = this.idToName.bind(this);
+    }
+
+    actionLink(id) {
+        console.log(id);
+    }
+
+    createListItem(item) {
+        if(typeof item === 'string') {
+            if(item[0] !== '@') {
+                return item
+            } else {
+                
+                return this.parseActions(item);
+            }
+        } else {
+            return this.idToName(item)
+        }
+    }
+
+    parseActions(string) {
+        string = string.substring(1, string.lenght);
+        let strArray = string.split(" ");
+
+        let newElement =
+        <span className="tokenized-content">
+            {
+                strArray.map((token, index) =>
+                    {
+                        if(token[0] === '&') {
+                            let itemId = token.substring(1, string.lenght)
+                            itemId = parseInt(itemId);
+                            return this.idToName(itemId)
+                        } else {
+                            return <span className="token" key={index}>{token}</span>
+                        }
+                    }
+                )
+            }
+        </span>
+
+        return newElement
+    }
+    
+    idToName(id) {
+        let palette = themes.themes[this.props.themeId];
+        
+        let element =
+            <span
+                className="action-link"
+                style={{ color: palette.primary }}
+                onClick={() => this.actionLink(id)}>
+                {itemList[id].name}
+            </span>
+
+        return element
+    }
+
     render() {
         let palette = themes.themes[this.props.themeId];
 
         /* itemList[this.props.currentItem] */
         let currentID = 973;
-        const { name, link, sellPrice, healing, foodBuff, stats, effect, profitability, harvestIn } = itemList[currentID];
+        const { name, link, sellPrice, healing, foodBuff, stats, effect, profitability, harvestIn, obtainedFrom } = itemList[currentID];
 
-        console.log(itemList[currentID])
+        /* console.log(itemList[currentID]) */
 
         let itemClass = buildClassName(name);
 
@@ -147,6 +211,26 @@ export class ItemModal extends Component {
             </div>
         }
 
+        let obtainedElement;
+        if(obtainedFrom) {
+            obtainedElement =
+            <div className="info-box list material">
+                <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Obtained from</span>
+                <div className="info-content">
+                    {
+                        obtainedFrom.map((item, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
+
+                                {this.createListItem(item)}
+                            </span>
+                        )
+                    }
+                </div>
+            </div>
+        }
+
         return (
             <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`} style={{ backgroundColor: palette.background }}>
                 <div className="item-wrapper">
@@ -172,6 +256,8 @@ export class ItemModal extends Component {
                         {statsElement}
                         {bonusElement}
                         {effectElement}
+
+                        {obtainedElement}
 
                     </div>
                 </div>
