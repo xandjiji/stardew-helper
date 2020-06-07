@@ -7,7 +7,7 @@ import { buildClassName, getFloatText } from '../utils';
 import '../css/bundle.css';
 import '../css/bundleIcons.css';
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class Bundle extends Component {
 

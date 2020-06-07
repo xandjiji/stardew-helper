@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 import Room from './Room';
 import Bundle from './Bundle';
 
-import rooms from '../rooms.json';
+import rooms from '../jsons/rooms.json';
 
 export class RoomMode extends Component {
     constructor(props) {

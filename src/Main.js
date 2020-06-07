@@ -10,9 +10,10 @@ import ItemModal from './components/ItemModal';
 import './css/main.css';
 import './css/animations.css';
 
-import themes from './themes.json';
+import themes from './jsons/themes.json';
 
 import './css/spritesheets/sprites24px.css';
+import './css/spritesheets/sprites32px.css';
 import './css/spritesheets/sprites48px.css';
 import './css/spritesheets/sprites64px.css';
 import './css/spritesheets/sprites72px.css';

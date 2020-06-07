@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 
 import '../css/IEdata.css';
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 import { ReactComponent as CopyIcon } from '../assets/copy.svg';
 import { ReactComponent as ConfirmedIcon } from '../assets/confirmed.svg';

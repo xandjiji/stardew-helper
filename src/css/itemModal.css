@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     transform: translateX(100%);
+    transition: 0.35s ease-out !important;
 }
 
 .item-modal.active {
@@ -126,6 +127,17 @@
     content: '·';
     margin-right: 6px;
     font-weight: 700;
+}
+
+.horizontal-list .info-content {
+    padding-bottom: 4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.horizontal-list .info-content > * {
+    margin: 0 6px 6px 0;
 }
 
 .item-modal .info-value:not(:last-child) {

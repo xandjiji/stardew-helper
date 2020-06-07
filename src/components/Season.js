@@ -7,7 +7,7 @@ import '../css/room.css';
 import '../css/season.css';
 import '../css/seasonIcons.css';
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class Season extends Component {
     render() {

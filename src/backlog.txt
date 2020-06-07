@@ -1,6 +1,5 @@
 modes:
     all items search (https://stardewvalleywiki.com/Collections)
-        modal item
     calendar (4 seasons)
         modal evento
         modal npc
@@ -13,6 +12,7 @@ QA:
     total counter
 
 push sidebar
+push item modal
 reset undo?
 scrollbar (inherit)
 otimizar .jsons
@@ -53,4 +53,4 @@ NPC?
 
 SEARCH
 
-gifting
+consertar base de dados xD

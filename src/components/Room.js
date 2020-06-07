@@ -5,7 +5,7 @@ import { getFloatText } from '../utils';
 
 import '../css/room.css';
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class Room extends Component {
     render() {

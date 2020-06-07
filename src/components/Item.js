@@ -5,7 +5,7 @@ import { buildClassName } from '../utils';
 
 import '../css/item.css';
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class Item extends Component {
     constructor(props) {

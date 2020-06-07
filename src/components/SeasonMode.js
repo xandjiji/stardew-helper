@@ -5,8 +5,8 @@ import Carousel from './Carousel';
 import Season from './Season';
 import SeasonItems from './SeasonItems';
 
-import seasons from '../seasons.json';
-import themes from '../themes.json';
+import seasons from '../jsons/seasons.json';
+import themes from '../jsons/themes.json';
 
 export class SeasonMode extends Component {
     render() {

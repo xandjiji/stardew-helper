@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import HeaderOptions from './HeaderOptions';
 
 import '../css/header.css';
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
