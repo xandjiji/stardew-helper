@@ -3316,7 +3316,29 @@
         ],
         "makes": [
             131,
-            "Mill"
+            "Mill",
+            859,
+            860,
+            861,
+            862,
+            863,
+            864,
+            865,
+            868,
+            869,
+            870,
+            871,
+            872,
+            873,
+            874,
+            875,
+            877,
+            878,
+            880,
+            882,
+            883,
+            884,
+            885
         ],
         "gifting": {
             "loves": [
@@ -6711,7 +6733,10 @@
             "Can be purchased at Pierre's General Store (30g)",
             "JojaMart (37g)"
         ],
-        "makes": [168,173]
+        "makes": [
+            168,
+            173
+        ]
     },
     {
         "id": 175,
@@ -6785,7 +6810,9 @@
             "Can be purchased at Pierre's General Store (80g)",
             "JojaMart (100g)"
         ],
-        "makes": [175]
+        "makes": [
+            175
+        ]
     },
     {
         "id": 177,
@@ -6877,7 +6904,9 @@
         "obtainedFrom": [
             "Can be purchased at Pierre's General Store (year 2+) (40g)"
         ],
-        "makes": [178]
+        "makes": [
+            178
+        ]
     },
     {
         "id": 180,
@@ -6949,7 +6978,9 @@
             "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ],
-        "makes": [180]
+        "makes": [
+            180
+        ]
     },
     {
         "id": 182,
@@ -7022,7 +7053,9 @@
             "Can be purchased at Pierre's General Store (70g)",
             "JojaMart (87g)"
         ],
-        "makes": [182]
+        "makes": [
+            182
+        ]
     },
     {
         "id": 184,
@@ -7097,7 +7130,9 @@
             "Can be purchased at Pierre's General Store (20g)",
             "JojaMart (25g)"
         ],
-        "makes": [184]
+        "makes": [
+            184
+        ]
     },
     {
         "id": 186,
@@ -7169,7 +7204,9 @@
             "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ],
-        "makes": [186]
+        "makes": [
+            186
+        ]
     },
     {
         "id": 188,
@@ -7238,7 +7275,9 @@
         "obtainedFrom": [
             "Oasis (100g)"
         ],
-        "makes": [188]
+        "makes": [
+            188
+        ]
     },
     {
         "id": 190,
@@ -7312,7 +7351,9 @@
         "obtainedFrom": [
             "Pierre's Booth at the Egg Festival (100g)"
         ],
-        "makes": [190]
+        "makes": [
+            190
+        ]
     },
     {
         "id": 192,
@@ -7383,7 +7424,10 @@
             "Can be purchased at Pierre's General Store (20g)",
             "JojaMart (25g)"
         ],
-        "makes": [168,192]
+        "makes": [
+            168,
+            192
+        ]
     },
     {
         "id": 194,
@@ -7452,7 +7496,9 @@
         "obtainedFrom": [
             "Can be purchased at Pierre's General Store (40g)"
         ],
-        "makes": [194]
+        "makes": [
+            194
+        ]
     },
     {
         "id": 196,
@@ -7526,7 +7572,9 @@
         "obtainedFrom": [
             "Can be purchased at Pierre's General Store (80g)"
         ],
-        "makes": [196]
+        "makes": [
+            196
+        ]
     },
     {
         "id": 198,
@@ -7601,7 +7649,9 @@
             "Can be purchased at Pierre's General Store (150g)",
             "JojaMart (187g)"
         ],
-        "makes": [198]
+        "makes": [
+            198
+        ]
     },
     {
         "id": 200,
@@ -7672,7 +7722,9 @@
             "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ],
-        "makes": [200]
+        "makes": [
+            200
+        ]
     },
     {
         "id": 202,
@@ -7749,7 +7801,9 @@
             "Can be purchased at Pierre's General Store (40g)",
             "JojaMart (50g)"
         ],
-        "makes": [202]
+        "makes": [
+            202
+        ]
     },
     {
         "id": 204,
@@ -7826,7 +7880,9 @@
             "Can be purchased at Pierre's General Store (80g)",
             "JojaMart (100g)"
         ],
-        "makes": [204]
+        "makes": [
+            204
+        ]
     },
     {
         "id": 206,
@@ -7896,7 +7952,10 @@
             "Can be purchased at Pierre's General Store (100g)",
             "JojaMart (125g)"
         ],
-        "makes": [168,206]
+        "makes": [
+            168,
+            206
+        ]
     },
     {
         "id": 208,
@@ -7969,7 +8028,9 @@
             "Can be purchased at Pierre's General Store (40g)",
             "JojaMart (50g)"
         ],
-        "makes": [208]
+        "makes": [
+            208
+        ]
     },
     {
         "id": 210,
@@ -8040,7 +8101,9 @@
         "obtainedFrom": [
             "Can be purchased at Pierre's General Store (year 2+) (100g)"
         ],
-        "makes": [210]
+        "makes": [
+            210
+        ]
     },
     {
         "id": 212,
@@ -8113,7 +8176,9 @@
         "obtainedFrom": [
             "Oasis (400g)"
         ],
-        "makes": [212]
+        "makes": [
+            212
+        ]
     },
     {
         "id": 214,
@@ -8184,7 +8249,10 @@
             "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ],
-        "makes": [168,214]
+        "makes": [
+            168,
+            214
+        ]
     },
     {
         "id": 216,
@@ -8256,7 +8324,10 @@
             "Can be purchased at Pierre's General Store (200g)",
             "JojaMart (125g)"
         ],
-        "makes": [70,216]
+        "makes": [
+            70,
+            216
+        ]
     },
     {
         "id": 218,
@@ -8331,7 +8402,9 @@
             "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ],
-        "makes": [218]
+        "makes": [
+            218
+        ]
     },
     {
         "id": 220,
@@ -8397,7 +8470,9 @@
             "Can be purchased at Pierre's General Store (10g)",
             "JojaMart (12g)"
         ],
-        "makes": [220]
+        "makes": [
+            220
+        ]
     },
     {
         "id": 222,
@@ -8471,7 +8546,9 @@
             "Can be purchased at Pierre's General Store (70g)",
             "JojaMart (87g)"
         ],
-        "makes": [222]
+        "makes": [
+            222
+        ]
     },
     {
         "id": 224,
@@ -8543,7 +8620,9 @@
         "obtainedFrom": [
             "Can be purchased at Pierre's General Store (year 2+) (30g)"
         ],
-        "makes": [224]
+        "makes": [
+            224
+        ]
     },
     {
         "id": 226,
@@ -8617,7 +8696,9 @@
         "obtainedFrom": [
             "Oasis (20g)"
         ],
-        "makes": [226]
+        "makes": [
+            226
+        ]
     },
     {
         "id": 228,
@@ -8689,7 +8770,9 @@
             "Can be purchased at Pierre's General Store (50g)",
             "JojaMart (62g)"
         ],
-        "makes": [228]
+        "makes": [
+            228
+        ]
     },
     {
         "id": 230,
@@ -8766,7 +8849,9 @@
             "Can be purchased at Pierre's General Store (240g)",
             "JojaMart (300g)"
         ],
-        "makes": [230]
+        "makes": [
+            230
+        ]
     },
     {
         "id": 232,
@@ -8839,7 +8924,9 @@
             "Can be purchased at Pierre's General Store (20g)",
             "JojaMart (25g)"
         ],
-        "makes": [232]
+        "makes": [
+            232
+        ]
     },
     {
         "id": 234,
@@ -8910,7 +8997,9 @@
             "Can be purchased at Pierre's General Store (200g)",
             "JojaMart (250g)"
         ],
-        "makes": [234]
+        "makes": [
+            234
+        ]
     },
     {
         "id": 236,
@@ -8990,7 +9079,9 @@
             "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ],
-        "makes": [236]
+        "makes": [
+            236
+        ]
     },
     {
         "id": 238,
@@ -9063,7 +9154,9 @@
             "Can be purchased at Pierre's General Store (100g)",
             "JojaMart (125g)"
         ],
-        "makes": [238]
+        "makes": [
+            238
+        ]
     },
     {
         "id": 240,
@@ -9138,7 +9231,9 @@
             "Can be purchased at Pierre's General Store (60g)",
             "JojaMart (75g)"
         ],
-        "makes": [240]
+        "makes": [
+            240
+        ]
     },
     {
         "id": 242,
@@ -9324,7 +9419,9 @@
         "obtainedFrom": [
             "Oasis (150g)"
         ],
-        "makes": [244]
+        "makes": [
+            244
+        ]
     },
     {
         "id": 246,
@@ -9388,7 +9485,9 @@
             "Traveling Cart (1,000g)",
             "@Using a &246~ in a &156~"
         ],
-        "makes": [246]
+        "makes": [
+            246
+        ]
     },
     {
         "id": 248,
@@ -9464,7 +9563,9 @@
                 "qty": 5
             }
         ],
-        "makes": [248]
+        "makes": [
+            248
+        ]
     },
     {
         "id": 250,
@@ -26257,7 +26358,9 @@
                 "qty": 1
             }
         ],
-        "makes": [873],
+        "makes": [
+            873
+        ],
         "gifting": {
             "loves": [
                 26,
@@ -26745,7 +26848,9 @@
                 "qty": 1
             }
         ],
-        "makes": [875],
+        "makes": [
+            875
+        ],
         "foodBuff": [
             {
                 "buffName": "Fishing",
@@ -27186,7 +27291,9 @@
                 "qty": 1
             }
         ],
-        "makes": [874],
+        "makes": [
+            874
+        ],
         "gifting": {
             "loves": [
                 0,
