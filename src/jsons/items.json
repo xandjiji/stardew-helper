@@ -1572,7 +1572,7 @@
             695
         ],
         "makes": [
-            "Wereable Dwarf Helm"
+            862
         ],
         "gifting": {
             "likes": [
@@ -1851,7 +1851,7 @@
             "Tilling in the Mines (level 1-40) (0.1%)"
         ],
         "makes": [
-            "Wereable Dwarf Helm"
+            862
         ],
         "gifting": {
             "likes": [
@@ -24873,6 +24873,16 @@
         "link": "Dinosaur_Hat",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 0,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24881,6 +24891,32 @@
         "link": "Totem_Mask",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 153,
+                "qty": 1
+            },
+            {
+                "id": 115,
+                "qty": 1
+            },
+            {
+                "id": 116,
+                "qty": 1
+            },
+            {
+                "id": 117,
+                "qty": 1
+            },
+            {
+                "id": 118,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24889,6 +24925,16 @@
         "link": "Logo_Cap",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 322,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24897,6 +24943,20 @@
         "link": "Wearable_Dwarf_Helm",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 32,
+                "qty": 1
+            },
+            {
+                "id": 27,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24905,6 +24965,16 @@
         "link": "Fashion_Hat",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 58,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24913,6 +24983,16 @@
         "link": "Pumpkin_Mask",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 83,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24921,6 +25001,16 @@
         "link": "Hair_Bone",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 44,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24945,6 +25035,16 @@
         "link": "Spotted_Headscarf",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 260,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24953,6 +25053,24 @@
         "link": "Beanie",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 970,
+                "qty": 1
+            },
+            {
+                "id": 968,
+                "qty": 1
+            },
+            {
+                "id": 969,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24961,6 +25079,24 @@
         "link": "Floppy_Beanie",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 965,
+                "qty": 1
+            },
+            {
+                "id": 967,
+                "qty": 1
+            },
+            {
+                "id": 966,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24969,6 +25105,40 @@
         "link": "Fishing_Hat",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 320,
+                "qty": 1
+            },
+            {
+                "id": 321,
+                "qty": 1
+            },
+            {
+                "id": 324,
+                "qty": 1
+            },
+            {
+                "id": 341,
+                "qty": 1
+            },
+            {
+                "id": 340,
+                "qty": 1
+            },
+            {
+                "id": 338,
+                "qty": 1
+            },
+            {
+                "id": 339,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24977,6 +25147,16 @@
         "link": "Blobfish_Mask",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 342,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24985,6 +25165,16 @@
         "link": "Party_Hat_(red)",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 902,
+                "qty": 1
+            }
         ]
     },
     {
@@ -24993,6 +25183,16 @@
         "link": "Party_Hat_(blue)",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 915,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25001,6 +25201,16 @@
         "link": "Party_Hat_(green)",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 909,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25017,6 +25227,16 @@
         "link": "Pirate_Hat",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": "Treasure Chest",
+                "qty": 1
+            }
         ]
     },
     {
@@ -25025,6 +25245,20 @@
         "link": "Flat_Topped_Hat",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 933,
+                "qty": 1
+            },
+            {
+                "id": 934,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25042,6 +25276,16 @@
         "obtainedFrom": [
             "Tailoring",
             "Skull Cavern chest"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 246,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25058,6 +25302,16 @@
         "link": "Golden_Mask_(hat)",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 35,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25066,6 +25320,16 @@
         "link": "Propeller_Hat",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 938,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25074,6 +25338,16 @@
         "link": "Bridal_Veil",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 698,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25082,6 +25356,16 @@
         "link": "Witch_Hat",
         "obtainedFrom": [
             "Tailoring"
+        ],
+        "recipe": [
+            {
+                "id": 60,
+                "qty": 1
+            },
+            {
+                "id": 696,
+                "qty": 1
+            }
         ]
     },
     {
@@ -25973,6 +26257,7 @@
                 "qty": 1
             }
         ],
+        "makes": [873],
         "gifting": {
             "loves": [
                 26,
@@ -26460,6 +26745,7 @@
                 "qty": 1
             }
         ],
+        "makes": [875],
         "foodBuff": [
             {
                 "buffName": "Fishing",
@@ -26900,6 +27186,7 @@
                 "qty": 1
             }
         ],
+        "makes": [874],
         "gifting": {
             "loves": [
                 0,
