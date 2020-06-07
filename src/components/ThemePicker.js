@@ -5,7 +5,7 @@ import ThemeOption from './ThemeOption';
 
 import '../css/themePicker.css';
 
-import themesJson from '../themes.json';
+import themesJson from '../jsons/themes.json';
 
 export class ThemePicker extends Component {
     constructor(props) {

@@ -1,6 +1,5 @@
 modes:
     all items search (https://stardewvalleywiki.com/Collections)
-        modal item
     calendar (4 seasons)
         modal evento
         modal npc
@@ -11,9 +10,9 @@ QA:
     animations https://www.cssscript.com/animated-checkbox-labels-with-pure-css-css3/
     redesign
     total counter
-    recalcular android viewport
 
 push sidebar
+push item modal
 reset undo?
 scrollbar (inherit)
 otimizar .jsons
@@ -21,12 +20,6 @@ otimizar .jsons
 
 item info
 https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fjYlY/edit#gid=0
-
-
-healing {} fazer IF (por causa de items negativos)
-weapon stats if (level)
-
-dark sword healing skill icon
 
 
 FARM PRODUCTS:
@@ -59,3 +52,5 @@ CALENDAR
 NPC?
 
 SEARCH
+
+consertar base de dados xD

@@ -6,7 +6,7 @@ import Item from './Item';
 import '../css/seasonItems.css';
 import '../css/skills.css';
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class SeasonItems extends Component {
     constructor(props) {

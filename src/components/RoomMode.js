@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 import Room from './Room';
 import Bundle from './Bundle';
 
-import rooms from '../rooms.json';
+import rooms from '../jsons/rooms.json';
 
 export class RoomMode extends Component {
     constructor(props) {
@@ -41,7 +41,7 @@ export class RoomMode extends Component {
                 </div>
 
                 <div className="carousel-container bundles-carousel">
-                    <Carousel currentRoom={this.state.currentRoom}>
+                    <Carousel currentRoom={this.state.currentRoom} compensate={198}>
                         {bundlesElement}
                     </Carousel>
                 </div>

@@ -58,6 +58,7 @@
     margin: 0 8px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .bundle-item .bundle-reward-text {
@@ -70,11 +71,6 @@
 }
 
 /* START GAMBIARRA */
-.bundles-carousel .carousel-wrapper .item-wrapper {
-    max-height: calc(100vh - 142px - 42px - 14px);
-    /* 100vh - room - header - padding */
-}
-
 .bundles-carousel .carousel-wrapper .item-wrapper .bundle-item {
     display: flex;
     flex-direction: column;

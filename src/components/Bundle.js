@@ -7,7 +7,7 @@ import { buildClassName, getFloatText } from '../utils';
 import '../css/bundle.css';
 import '../css/bundleIcons.css';
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class Bundle extends Component {
 
@@ -54,7 +54,7 @@ export class Bundle extends Component {
         if (reward) {
             rewardElement =
                 <div className="bundle-reward-wrapper" style={{ borderBottomColor: palette.separator }}>
-                    <span className="bundle-reward">
+                    <span className="bundle-reward" onClick={() => this.props.openModal(reward.globalID)}>
                         <div className={`sprite ${buildClassName(reward.name)}`}></div>
                         <div className="reward-text-wrapper">
                             <span className="bundle-reward-text">{reward.name}</span>
@@ -130,6 +130,13 @@ function mapDispatchToProps(dispatch) {
             dispatch({
                 type: "TOGGLE_ALL",
                 payload: options
+            });
+        },
+
+        openModal: (id) => {
+            dispatch({
+                type: "OPEN_MODAL",
+                payload: id
             });
         }
     };

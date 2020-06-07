@@ -1,0 +1,174 @@
+.item-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: 0.35s ease-out !important;
+}
+
+.item-modal.active {
+    transform: none;
+}
+
+.item-modal .item-wrapper {
+    padding: 0 20px;
+}
+
+.item-modal .item-wrapper > .material {
+    margin-top: 40px;
+}
+
+.item-modal .item-name-wrapper {
+    margin: -48px 0 12px 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.item-modal .item-sprite {
+    padding: 8px;
+    margin-right: 16px;
+}
+
+.item-modal .item-name {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    flex-grow: 1;
+}
+
+.item-modal .item-name a,
+.item-modal .close-button {
+    padding: 3px;
+    margin-left: 8px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item-modal .item-name,
+.item-modal .close-button {
+    margin-top: 36px;
+}
+
+.item-modal .close-button {
+    flex-shrink: 0;
+    padding: 8px;
+    margin-right: -8px;
+}
+
+.item-modal .item-name a:hover,
+.item-modal .close-button:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.item-modal .item-name a:active,
+.item-modal .close-button:active {
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.14);
+}
+
+.item-modal .info-wrapper {
+    padding-right: 6px;
+    width: calc(100% + 10px);
+    overflow: auto;
+}
+
+.item-modal .info-box {
+    padding: 0;
+    min-height: 44px;
+    display: flex;
+    overflow: hidden;
+}
+
+.item-modal .info-box:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.item-modal .info-box:first-child {
+    margin-top: 4px;
+}
+
+.item-modal .info-box:last-child {
+    margin-bottom: 8px;
+}
+
+.item-modal .info-title {
+    padding: 8px;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.item-modal .info-content {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-modal .info-value,
+.item-modal .action-link,
+.item-modal .tokenized-content * {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.item-modal .list .info-value::before {
+    content: '·';
+    margin-right: 6px;
+    font-weight: 700;
+}
+
+.horizontal-list .info-content {
+    padding-bottom: 4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.horizontal-list .info-content > * {
+    margin: 0 6px 6px 0;
+}
+
+.item-modal .info-value:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.item-modal .info-value div,
+.item-modal .token div {
+    margin-right: 3px !important;
+    flex-shrink: 0;
+}
+
+.item-modal .info-value div:not(:first-child) {
+    margin-left: 4px;
+}
+
+.item-modal .tokenized-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-modal .tokenized-content * {
+    margin-right: 3px;
+    flex-shrink: 0;
+}
+
+.item-modal .tokenized-content *:last-child {
+    margin: 0
+}
+
+.item-modal .action-link {
+    cursor: pointer;
+    font-weight: 400;
+}

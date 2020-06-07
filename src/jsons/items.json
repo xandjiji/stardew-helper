@@ -4164,8 +4164,7 @@
                 "id": 675,
                 "qty": 1
             }
-        ],
-        "makes": []
+        ]
     },
     {
         "id": 76,
@@ -4185,8 +4184,7 @@
                 "id": 141,
                 "qty": 1
             }
-        ],
-        "makes": []
+        ]
     },
     {
         "id": 77,
@@ -9851,7 +9849,6 @@
                 31,
                 32
             ],
-            "neutral": [],
             "hates": [
                 2,
                 6,
@@ -11457,8 +11454,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -11530,8 +11526,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -11605,8 +11600,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -11680,8 +11674,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -11754,8 +11747,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -11829,8 +11821,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -18595,8 +18586,7 @@
                 29,
                 30,
                 32
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -22317,8 +22307,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         },
         "makes": [
             884
@@ -22373,8 +22362,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         },
         "makes": [
             "Magic Sprinkle Shirt"
@@ -22424,8 +22412,7 @@
                 30,
                 31,
                 32
-            ],
-            "hates": []
+            ]
         },
         "makes": [
             883
@@ -23166,8 +23153,7 @@
         "stats": {
             "level": "1",
             "damage": "2-5",
-            "criticalChance": ".02",
-            "buff": []
+            "criticalChance": ".02"
         },
         "obtainedFrom": [
             "At The Mines entrance"
@@ -23181,8 +23167,7 @@
         "stats": {
             "level": "2",
             "damage": "3-7",
-            "criticalChance": ".02",
-            "buff": []
+            "criticalChance": ".02"
         },
         "obtainedFrom": [
             "Adventurer's Guild (250g)"
@@ -23623,8 +23608,7 @@
         "stats": {
             "level": "2",
             "damage": "1-3",
-            "criticalChance": ".04",
-            "buff": []
+            "criticalChance": ".04"
         },
         "obtainedFrom": [
             "The Mines (Floors 1-20)"
@@ -23638,8 +23622,7 @@
         "stats": {
             "level": "2",
             "damage": "2-4",
-            "criticalChance": ".03",
-            "buff": []
+            "criticalChance": ".03"
         },
         "obtainedFrom": [
             "Adventurer's Guild (after unlocking the Mines floor 15) (500g)"
@@ -23721,8 +23704,7 @@
         "stats": {
             "level": "11",
             "damage": "15-26",
-            "criticalChance": ".02",
-            "buff": []
+            "criticalChance": ".02"
         },
         "obtainedFrom": [
             "Fishing Treasure Chests"
@@ -23736,8 +23718,7 @@
         "stats": {
             "level": "15",
             "damage": "24-30",
-            "criticalChance": ".06",
-            "buff": []
+            "criticalChance": ".06"
         },
         "obtainedFrom": [
             "Skull Cavern crates"
@@ -23795,8 +23776,7 @@
         "stats": {
             "level": "2",
             "damage": "9-16",
-            "criticalChance": ".02",
-            "buff": []
+            "criticalChance": ".02"
         },
         "obtainedFrom": [
             "The Mines (Floors 1-39)"
@@ -23898,8 +23878,7 @@
         "link": "Slingshot",
         "stats": {
             "damage": "Depends on the ammo",
-            "criticalChance": ".02",
-            "buff": []
+            "criticalChance": ".02"
         },
         "obtainedFrom": [
             "The Mines (Floor 40 chest reward)"
@@ -23911,8 +23890,7 @@
         "link": "Master_Slingshot",
         "stats": {
             "damage": "Depends on the ammo",
-            "criticalChance": ".02",
-            "buff": []
+            "criticalChance": ".02"
         },
         "obtainedFrom": [
             "The Mines (Floor 70 chest reward)"
@@ -27365,7 +27343,12 @@
             "Cooking",
             "Recipe is earned with Linus (3-heart event)"
         ],
-        "recipe": [],
+        "recipe": [
+            {
+                "id": "Any Fish",
+                "qty": 1
+            }
+        ],
         "gifting": {
             "loves": [
                 28
@@ -27427,6 +27410,10 @@
             "Recipe is purchased at the Stardrop Saloon (300g)"
         ],
         "recipe": [
+            {
+                "id": "Any Fish",
+                "qty": 1
+            },
             {
                 "id": 279,
                 "qty": 1
@@ -30361,7 +30348,6 @@
             "Floppy Beanie"
         ],
         "gifting": {
-            "loves": [],
             "likes": [
                 "Abigail",
                 "Alex",
@@ -30396,11 +30382,9 @@
                 "Willy",
                 "Wizard"
             ],
-            "neutrals": [],
             "dislikes": [
                 "Maru"
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -30418,11 +30402,9 @@
             "Floppy Beanie"
         ],
         "gifting": {
-            "loves": [],
             "likes": [
                 "Maru"
             ],
-            "neutrals": [],
             "dislikes": [
                 "Abigail",
                 "Alex",
@@ -30456,8 +30438,7 @@
                 "Vincent",
                 "Willy",
                 "Wizard"
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -30474,11 +30455,9 @@
             "Floppy Beanie"
         ],
         "gifting": {
-            "loves": [],
             "likes": [
                 "Maru"
             ],
-            "neutrals": [],
             "dislikes": [
                 "Abigail",
                 "Alex",
@@ -30512,8 +30491,7 @@
                 "Vincent",
                 "Willy",
                 "Wizard"
-            ],
-            "hates": []
+            ]
         }
     },
     {
@@ -30662,5 +30640,122 @@
                 30
             ]
         }
+    },
+
+
+
+
+    {
+        "id": 973,
+        "name": "Dinosaur Egg",
+        "link": "Dinosaur_Egg",
+        "sellPrice": "350",
+        "obtainedFrom": [
+            "Artifact Spot in the Farm (10%)",
+            694,
+            "Fishing Treasure Chests",
+            "@Using a &0~ in a &146~",
+            "Tilling in the Mines or Skull Cavern"
+        ],
+        "makes": [
+            62,
+            858
+        ],
+        "gifting": {
+            "loves": [
+                12
+            ],
+            "likes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                22,
+                23,
+                24,
+                25,
+                27,
+                31,
+                32
+            ],
+            "hates": [
+                13,
+                21,
+                26,
+                28,
+                29,
+                30
+            ]
+        },
+        "stats": {
+            "level": "14",
+            "damage": "28-46",
+            "criticalChance": ".02",
+            "buff": [
+                {
+                    "stat": "Speed",
+                    "val": "+4"
+                },
+                {
+                    "stat": "Critical Strike Power",
+                    "val": "+20"
+                }
+            ]
+        },
+        "effect": "Increases weapon speed by 10%",
+        "foodBuff": [
+            {
+                "buffName": "Farming",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Fishing",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Mining",
+                "buffQty": "+1"
+            }
+        ],
+        "profitability": "11.2",
+        "healing": {
+            "energy": 20,
+            "health": 9
+        },
+        "harvestIn": "5 days (5 days to regrow)",
+        "recipe": [
+            {
+                "id": 684,
+                "qty": 10
+            },
+            {
+                "id": "Any Fish",
+                "qty": 1
+            },
+            {
+                "id": 11,
+                "qty": 5
+            },
+            {
+                "id": 675,
+                "qty": 5
+            }
+        ]
     }
 ]

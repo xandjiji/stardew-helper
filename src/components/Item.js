@@ -5,7 +5,7 @@ import { buildClassName } from '../utils';
 
 import '../css/item.css';
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class Item extends Component {
     constructor(props) {
@@ -24,7 +24,8 @@ export class Item extends Component {
     render() {
         let palette = themes.themes[this.props.themeId];
 
-        const { name, itemCount, id } = this.props.item;
+        const { name, itemCount, id, globalID } = this.props.item;
+        
 
         let itemClass = buildClassName(name);
 
@@ -47,7 +48,9 @@ export class Item extends Component {
 
         return (
             <div className="item">
-                <div className={`item-name-wrapper ${fadedClass}`}>
+                <div
+                    className={`item-name-wrapper ${fadedClass}`}
+                    onClick={() => this.props.openModal(globalID)}>
                     <div className={`sprite ${itemClass}`}>{qualityElement}</div>
                     <div className="item-info" style={{ color: palette.onSurface }}>
                         <span className="item-name">{name}</span>
@@ -79,6 +82,13 @@ function mapDispatchToProps(dispatch) {
         toggleItem: (id) => {
             dispatch({
                 type: "TOGGLE_ITEM",
+                payload: id
+            });
+        },
+
+        openModal: (id) => {
+            dispatch({
+                type: "OPEN_MODAL",
                 payload: id
             });
         }

@@ -33,14 +33,6 @@ export class HeaderOptions extends Component {
             <div>
                 <nav className="container">
                     <SettingsOption
-                        title="Mode"
-                        currentlyOpen={active}
-                        notifyOpen={notifyOpen}>
-
-                        Teste
-                    </SettingsOption>
-
-                    <SettingsOption
                         title="Appearence"
                         currentlyOpen={active}
                         notifyOpen={notifyOpen}>

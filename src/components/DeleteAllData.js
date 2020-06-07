@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import '../css/deleteAllData.css'
 
-import themes from '../themes.json';
+import themes from '../jsons/themes.json';
 
 export class DeleteAllData extends Component {
     constructor(props) {
