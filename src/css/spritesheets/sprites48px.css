@@ -4132,3 +4132,18 @@
     width: 48px; height: 48px;
     background: url('../../assets/spritesheets/sprites48px.png') -0 -32913px;
 }
+
+.bg-Foroguemon {
+    width: 48px; height: 96px;
+    background: url('../../assets/spritesheets/sprites48px.png') -0 -45979px;
+}
+
+.bg-HMTGF {
+    width: 48px; height: 93px;
+    background: url('../../assets/spritesheets/sprites48px.png') -0 -46075px;
+}
+
+.bg-Pinky_Lemon {
+    width: 48px; height: 96px;
+    background: url('../../assets/spritesheets/sprites48px.png') -0 -46168px;
+}

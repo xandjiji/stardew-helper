@@ -2,6 +2,7 @@ const buildClassName = (name) => {
     name = name.replace(/'/g, "");
     name = name.replace(/,/g, "");
     name = name.replace(/:/g, "");
+    name = name.replace(/\?/g, "");
     name = name.replace(/ /g, "_");
     name = name.replace(/-/g, "_");
     name = name.replace(/\./g, "_");
