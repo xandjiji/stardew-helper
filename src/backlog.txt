@@ -13,6 +13,7 @@ QA:
 
 push sidebar
 push item modal
+xizinho modal item
 reset undo?
 scrollbar (inherit)
 otimizar .jsons

@@ -1,0 +1,3890 @@
+0
+Dinosaur Egg
+
+
+1
+Duck Egg
+
+
+2
+Duck Feather
+
+
+3
+Egg
+
+
+4
+Goat Milk
+
+
+5
+Large Egg
+
+
+6
+Large Goat Milk
+
+
+7
+Large Milk
+
+
+8
+Milk
+
+
+9
+Rabbit's Foot
+
+
+10
+Roe
+
+
+11
+Slime
+
+
+12
+Truffle
+
+
+13
+Void Egg
+
+
+14
+Wool
+
+
+15
+Amphibian Fossil
+
+
+16
+Anchor
+
+
+17
+Ancient Doll
+
+
+18
+Ancient Drum
+
+
+19
+Ancient Seed (artifact)
+
+
+20
+Ancient Sword
+
+
+21
+Arrowhead
+
+
+22
+Bone Flute
+
+
+23
+Chewing Stick
+
+
+24
+Chicken Statue
+
+
+25
+Chipped Amphora
+
+
+26
+Dried Starfish
+
+
+27
+Dwarf Gadget
+
+
+28
+Dwarf Scroll I
+
+
+29
+Dwarf Scroll II
+
+
+30
+Dwarf Scroll III
+
+
+31
+Dwarf Scroll IV
+
+
+32
+Dwarvish Helm
+
+
+33
+Elvish Jewelry
+
+
+34
+Glass Shards
+
+
+35
+Golden Mask
+
+
+36
+Golden Relic
+
+
+37
+Nautilus Fossil
+
+
+38
+Ornamental Fan
+
+
+39
+Palm Fossil
+
+
+40
+Prehistoric Handaxe
+
+
+41
+Prehistoric Rib
+
+
+42
+Prehistoric Scapula
+
+
+43
+Prehistoric Skull
+
+
+44
+Prehistoric Tibia
+
+
+45
+Prehistoric Tool
+
+
+46
+Prehistoric Vertebra
+
+
+47
+Rare Disc
+
+
+48
+Rusty Cog
+
+
+49
+Rusty Spoon
+
+
+50
+Rusty Spur
+
+
+51
+Skeletal Hand
+
+
+52
+Skeletal Tail
+
+
+53
+Strange Doll (green)
+
+
+54
+Strange Doll (yellow)
+
+
+55
+Trilobite
+
+
+56
+Aged Roe
+
+
+57
+Beer
+
+
+58
+Caviar
+
+
+59
+Cheese
+
+
+60
+Cloth
+
+
+61
+Coffee
+
+
+62
+Dinosaur Mayonnaise
+
+
+63
+Duck Mayonnaise
+
+
+64
+Goat Cheese
+
+
+65
+Green Tea
+
+
+66
+Honey
+
+
+67
+Juice
+
+
+68
+Mayonnaise
+
+
+69
+Mead
+
+
+70
+Oil
+
+
+71
+Pale Ale
+
+
+72
+Truffle Oil
+
+
+73
+Void Mayonnaise
+
+
+74
+Wine
+
+
+75
+Bait
+
+
+76
+Magnet
+
+
+77
+Wild Bait
+
+
+78
+Barrel Brazier
+
+
+79
+Campfire
+
+
+80
+Carved Brazier
+
+
+81
+Gold Brazier
+
+
+82
+Iron Lamp-post
+
+
+83
+Jack-O-Lantern
+
+
+84
+Marble Brazier
+
+
+85
+Skull Brazier
+
+
+86
+Stone Brazier
+
+
+87
+Stump Brazier
+
+
+88
+Torch
+
+
+89
+Wood Lamp-post
+
+
+90
+Wooden Brazier
+
+
+91
+Brick Floor
+
+
+92
+Cobblestone Path
+
+
+93
+Crystal Floor
+
+
+94
+Crystal Path
+
+
+95
+Gravel Path
+
+
+96
+Stepping Stone Path
+
+
+97
+Stone Floor
+
+
+98
+Straw Floor
+
+
+99
+Weathered Floor
+
+
+100
+Wood Floor
+
+
+101
+Wood Path
+
+
+102
+Gate
+
+
+103
+Hardwood Fence
+
+
+104
+Iron Fence
+
+
+105
+Stone Fence
+
+
+106
+Wood Fence
+
+
+107
+Basic Fertilizer
+
+
+108
+Basic Retaining Soil
+
+
+109
+Deluxe Speed-Gro
+
+
+110
+Quality Fertilizer
+
+
+111
+Quality Retaining Soil
+
+
+112
+Speed-Gro
+
+
+113
+Tree Fertilizer
+
+
+114
+Return Scepter
+
+
+115
+Warp Totem: Beach
+
+
+116
+Warp Totem: Desert
+
+
+117
+Warp Totem: Farm
+
+
+118
+Warp Totem: Mountains
+
+
+119
+Barbed Hook
+
+
+120
+Bee House
+
+
+121
+Bomb
+
+
+122
+Cask
+
+
+123
+Charcoal Kiln
+
+
+124
+Cheese Press
+
+
+125
+Cherry Bomb
+
+
+126
+Chest
+
+
+127
+Cork Bobber
+
+
+128
+Crab Pot
+
+
+129
+Crystalarium
+
+
+130
+Deluxe Scarecrow
+
+
+131
+Dressed Spinner
+
+
+132
+Drum Block
+
+
+133
+Explosive Ammo
+
+
+134
+Fall Seeds
+
+
+135
+Field Snack
+
+
+136
+Flute Block
+
+
+137
+Furnace
+
+
+138
+Garden Pot
+
+
+139
+Gold Bar
+
+
+140
+Iridium Sprinkler
+
+
+141
+Iron Bar
+
+
+142
+Keg
+
+
+143
+Life Elixir
+
+
+144
+Lightning Rod
+
+
+145
+Loom
+
+
+146
+Mayonnaise Machine
+
+
+147
+Mega Bomb
+
+
+148
+Mini-Jukebox
+
+
+149
+Oil Maker
+
+
+150
+Oil of Garlic
+
+
+151
+Preserves Jar
+
+
+152
+Quality Sprinkler
+
+
+153
+Rain Totem
+
+
+154
+Recycling Machine
+
+
+155
+Scarecrow
+
+
+156
+Seed Maker
+
+
+157
+Slime Egg-Press
+
+
+158
+Slime Incubator
+
+
+159
+Spinner
+
+
+160
+Spring Seeds
+
+
+161
+Sprinkler
+
+
+162
+Staircase
+
+
+163
+Stone Sign
+
+
+164
+Summer Seeds
+
+
+165
+Tapper
+
+
+166
+Trap Bobber
+
+
+167
+Treasure Hunter
+
+
+168
+Tub o' Flowers
+
+
+169
+Wicked Statue
+
+
+170
+Winter Seeds
+
+
+171
+Wood Sign
+
+
+172
+Worm Bin
+
+
+173
+Blue Jazz
+
+
+174
+Jazz Seeds
+
+
+175
+Cauliflower
+
+
+176
+Cauliflower Seeds
+
+
+177
+Coffee Bean
+
+
+178
+Garlic
+
+
+179
+Garlic Seeds
+
+
+180
+Green Bean
+
+
+181
+Bean Starter
+
+
+182
+Kale
+
+
+183
+Kale Seeds
+
+
+184
+Parsnip
+
+
+185
+Parsnip Seeds
+
+
+186
+Potato
+
+
+187
+Potato Seeds
+
+
+188
+Rhubarb
+
+
+189
+Rhubarb Seeds
+
+
+190
+Strawberry
+
+
+191
+Strawberry Seeds
+
+
+192
+Tulip
+
+
+193
+Tulip Bulb
+
+
+194
+Unmilled Rice
+
+
+195
+Rice Shoot
+
+
+196
+Blueberry
+
+
+197
+Blueberry Seeds
+
+
+198
+Corn
+
+
+199
+Corn Seeds
+
+
+200
+Hops
+
+
+201
+Hops Starter
+
+
+202
+Hot Pepper
+
+
+203
+Pepper Seeds
+
+
+204
+Melon
+
+
+205
+Melon Seeds
+
+
+206
+Poppy
+
+
+207
+Poppy Seeds
+
+
+208
+Radish
+
+
+209
+Radish Seeds
+
+
+210
+Red Cabbage
+
+
+211
+Red Cabbage Seeds
+
+
+212
+Starfruit
+
+
+213
+Starfruit Seeds
+
+
+214
+Summer Spangle
+
+
+215
+Spangle Seeds
+
+
+216
+Sunflower
+
+
+217
+Sunflower Seeds
+
+
+218
+Tomato
+
+
+219
+Tomato Seeds
+
+
+220
+Wheat
+
+
+221
+Wheat Seeds
+
+
+222
+Amaranth
+
+
+223
+Amaranth Seeds
+
+
+224
+Artichoke
+
+
+225
+Artichoke Seeds
+
+
+226
+Beet
+
+
+227
+Beet Seeds
+
+
+228
+Bok Choy
+
+
+229
+Bok Choy Seeds
+
+
+230
+Cranberries
+
+
+231
+Cranberry Seeds
+
+
+232
+Eggplant
+
+
+233
+Eggplant Seeds
+
+
+234
+Fairy Rose
+
+
+235
+Fairy Seeds
+
+
+236
+Grape
+
+
+237
+Grape Starter
+
+
+238
+Pumpkin
+
+
+239
+Pumpkin Seeds
+
+
+240
+Yam
+
+
+241
+Yam Seeds
+
+
+242
+Ancient Fruit
+
+
+243
+Ancient Seeds
+
+
+244
+Cactus Fruit
+
+
+245
+Cactus Seeds
+
+
+246
+Sweet Gem Berry
+
+
+247
+Rare Seed
+
+
+248
+Tea Leaves
+
+
+249
+Tea Sapling
+
+
+250
+Wild Horseradish
+
+
+251
+Daffodil
+
+
+252
+Leek
+
+
+253
+Dandelion
+
+
+254
+Spring Onion
+
+
+255
+Morel
+
+
+256
+Salmonberry
+
+
+257
+Common Mushroom
+
+
+258
+Spice Berry
+
+
+259
+Sweet Pea
+
+
+260
+Red Mushroom
+
+
+261
+Fiddlehead Fern
+
+
+262
+Wild Plum
+
+
+263
+Hazelnut
+
+
+264
+Blackberry
+
+
+265
+Chanterelle
+
+
+266
+Winter Root
+
+
+267
+Crystal Fruit
+
+
+268
+Snow Yam
+
+
+269
+Crocus
+
+
+270
+Holly
+
+
+271
+Nautilus Shell
+
+
+272
+Coral
+
+
+273
+Sea Urchin
+
+
+274
+Rainbow Shell
+
+
+275
+Clam
+
+
+276
+Cockle
+
+
+277
+Mussel
+
+
+278
+Oyster
+
+
+279
+Seaweed
+
+
+280
+Purple Mushroom
+
+
+281
+Cave Carrot
+
+
+282
+Coconut
+
+
+283
+Mixed Seeds
+
+
+284
+Apricot
+
+
+285
+Apricot Sapling
+
+
+286
+Cherry
+
+
+287
+Cherry Sapling
+
+
+288
+Orange
+
+
+289
+Orange Sapling
+
+
+290
+Peach
+
+
+291
+Peach Sapling
+
+
+292
+Apple
+
+
+293
+Apple Sapling
+
+
+294
+Pomegranate
+
+
+295
+Pomegranate Sapling
+
+
+296
+Pufferfish
+
+
+297
+Anchovy
+
+
+298
+Tuna
+
+
+299
+Sardine
+
+
+300
+Bream
+
+
+301
+Smallmouth Bass
+
+
+302
+Largemouth Bass
+
+
+303
+Rainbow Trout
+
+
+304
+Salmon
+
+
+305
+Walleye
+
+
+306
+Perch
+
+
+307
+Carp
+
+
+308
+Catfish
+
+
+309
+Pike
+
+
+310
+Sunfish
+
+
+311
+Red Mullet
+
+
+312
+Herring
+
+
+313
+Eel
+
+
+314
+Octopus
+
+
+315
+Red Snapper
+
+
+316
+Squid
+
+
+317
+Sea Cucumber
+
+
+318
+Super Cucumber
+
+
+319
+Ghostfish
+
+
+320
+Stonefish
+
+
+321
+Ice Pip
+
+
+322
+Lava Eel
+
+
+323
+Sandfish
+
+
+324
+Scorpion Carp
+
+
+325
+Flounder
+
+
+326
+Midnight Carp
+
+
+327
+Sturgeon
+
+
+328
+Tiger Trout
+
+
+329
+Bullhead
+
+
+330
+Tilapia
+
+
+331
+Chub
+
+
+332
+Dorado
+
+
+333
+Albacore
+
+
+334
+Shad
+
+
+335
+Lingcod
+
+
+336
+Halibut
+
+
+337
+Woodskip
+
+
+338
+Void Salmon
+
+
+339
+Slimejack
+
+
+340
+Midnight Squid
+
+
+341
+Spook Fish
+
+
+342
+Blobfish
+
+
+343
+Crimsonfish
+
+
+344
+Angler
+
+
+345
+Legend
+
+
+346
+Glacierfish
+
+
+347
+Mutant Carp
+
+
+348
+Green Algae
+
+
+349
+White Algae
+
+
+350
+Lobster
+
+
+351
+Crayfish
+
+
+352
+Crab
+
+
+353
+Shrimp
+
+
+354
+Snail
+
+
+355
+Periwinkle
+
+
+356
+Lead Bobber
+
+
+357
+Oak Chair
+
+
+358
+Walnut Chair
+
+
+359
+Birch Chair
+
+
+360
+Mahogany Chair
+
+
+361
+Red Diner Chair
+
+
+362
+Blue Diner Chair
+
+
+363
+Country Chair
+
+
+364
+Breakfast Chair
+
+
+365
+Pink Office Chair
+
+
+366
+Purple Office Chair
+
+
+367
+Green Office Stool
+
+
+368
+Orange Office Stool
+
+
+369
+Dark Throne
+
+
+370
+Dining Chair (yellow)
+
+
+371
+Dining Chair (red)
+
+
+372
+Green Plush Seat
+
+
+373
+Pink Plush Seat
+
+
+374
+Winter Chair
+
+
+375
+Groovy Chair
+
+
+376
+Cute Chair
+
+
+377
+Stump Seat
+
+
+378
+Metal Chair
+
+
+379
+Green Stool
+
+
+380
+Blue Stool
+
+
+381
+King Chair
+
+
+382
+Crystal Chair
+
+
+383
+Birch Bench
+
+
+384
+Oak Bench
+
+
+385
+Walnut Bench
+
+
+386
+Mahogany Bench
+
+
+387
+Modern Bench
+
+
+388
+Blue Couch
+
+
+389
+Brown Couch
+
+
+390
+Green Couch
+
+
+391
+Red Couch
+
+
+392
+Yellow Couch
+
+
+393
+Dark Couch
+
+
+394
+Woodsy Couch
+
+
+395
+Wizard Couch
+
+
+396
+Blue Armchair
+
+
+397
+Brown Armchair
+
+
+398
+Green Armchair
+
+
+399
+Red Armchair
+
+
+400
+Yellow Armchair
+
+
+401
+Oak Table
+
+
+402
+Oak Tea-Table
+
+
+403
+Oak End Table
+
+
+404
+Birch Table
+
+
+405
+Birch Tea-Table
+
+
+406
+Birch End Table
+
+
+407
+Mahogany Table
+
+
+408
+Mahogany Tea-Table
+
+
+409
+Mahogany End Table
+
+
+410
+Walnut Table
+
+
+411
+Walnut Tea-Table
+
+
+412
+Walnut End Table
+
+
+413
+Modern Table
+
+
+414
+Modern Tea-Table
+
+
+415
+Modern End Table
+
+
+416
+Puzzle Table
+
+
+417
+Moon Table
+
+
+418
+Luxury Table
+
+
+419
+Diviner Table
+
+
+420
+Grandmother End Table
+
+
+421
+Pub Table
+
+
+422
+Luau Table
+
+
+423
+Dark Table
+
+
+424
+Candy Table
+
+
+425
+Sun Table
+
+
+426
+Winter Table
+
+
+427
+Winter End Table
+
+
+428
+Neolithic Table
+
+
+429
+Coffee Table
+
+
+430
+Stone Slab
+
+
+431
+Modern Dining Table
+
+
+432
+Mahogany Dining Table
+
+
+433
+Festive Dining Table
+
+
+434
+Winter Dining Table
+
+
+435
+Artist Bookcase
+
+
+436
+Modern Bookcase
+
+
+437
+Luxury Bookcase
+
+
+438
+Dark Bookcase
+
+
+439
+Birch Dresser
+
+
+440
+Oak Dresser
+
+
+441
+Walnut Dresser
+
+
+442
+Mahogany Dresser
+
+
+443
+Brick Fireplace
+
+
+444
+Elegant Fireplace
+
+
+445
+Iridium Fireplace
+
+
+446
+Monster Fireplace
+
+
+447
+Stone Fireplace
+
+
+448
+Stove Fireplace
+
+
+449
+Bamboo Mat
+
+
+450
+Burlap Rug
+
+
+451
+Woodcut Rug
+
+
+452
+Nautical Rug
+
+
+453
+Dark Rug
+
+
+454
+Patchwork Rug
+
+
+455
+Red Rug
+
+
+456
+Monster Rug
+
+
+457
+Green Cottage Rug
+
+
+458
+Red Cottage Rug
+
+
+459
+Mystic Rug
+
+
+460
+Bone Rug
+
+
+461
+Snowy Rug
+
+
+462
+Pirate Rug
+
+
+463
+Fruit Salad Rug
+
+
+464
+Country Lamp
+
+
+465
+Modern Lamp
+
+
+466
+Classic Lamp
+
+
+467
+Box Lamp
+
+
+468
+Candle Lamp
+
+
+469
+Ornate Lamp
+
+
+470
+Basic Window
+
+
+471
+Small Window
+
+
+472
+Boarded Window
+
+
+473
+Carved Window
+
+
+474
+Metal Window
+
+
+475
+Ornate Window
+
+
+476
+Porthole
+
+
+477
+Floor TV
+
+
+478
+Budget TV
+
+
+479
+Plasma TV
+
+
+480
+Dried Sunflowers
+
+
+481
+Bonsai Tree
+
+
+482
+S. Pine
+
+
+483
+L. Light String
+
+
+484
+Tree Column
+
+
+485
+Small Plant
+
+
+486
+Table Plant
+
+
+487
+Deluxe Tree
+
+
+488
+Exotic Tree
+
+
+489
+Indoor Hanging Basket
+
+
+490
+Indoor Palm
+
+
+491
+Topiary Tree
+
+
+492
+Manicured Pine
+
+
+493
+Tree of the Winter Star
+
+
+494
+Long Cactus
+
+
+495
+Long Palm
+
+
+496
+'A Night On Eco-Hill'
+
+
+497
+'Jade Hills'
+
+
+498
+'Burnt Offering'
+
+
+499
+'Highway 89'
+
+
+500
+'Primal Motion'
+
+
+501
+'Spires'
+
+
+502
+'Queen of the Gem Sea'
+
+
+503
+'Pathways'
+
+
+504
+'The Muzzamaroo'
+
+
+505
+'Vanilla Villa'
+
+
+506
+'VGA Paradise'
+
+
+507
+'Kitemaster '95'
+
+
+508
+'Sun 44'
+
+
+509
+Calico Falls
+
+
+510
+'Sun 45'
+
+
+511
+'Blue City'
+
+
+512
+'Blueberries'
+
+
+513
+'Little Tree'
+
+
+514
+Needlepoint Flower
+
+
+515
+'Dancing Grass'
+
+
+516
+My First Painting
+
+
+517
+'Red Eagle'
+
+
+518
+'Portrait Of A Mermaid'
+
+
+519
+'Solar Kingdom'
+
+
+520
+'Clouds'
+
+
+521
+'1000 Years From Now'
+
+
+522
+'Three Trees'
+
+
+523
+'The Serpent'
+
+
+524
+'Tropical Fish 173'
+
+
+525
+'Land Of Clay'
+
+
+526
+'It Howls In The Rain'
+
+
+527
+'Journey Of The Prairie King: The Motion Picture'
+
+
+528
+'Mysterium'
+
+
+529
+'Natural Wonders: Exploring Our Vibrant World'
+
+
+530
+'The Brave Little Sapling'
+
+
+531
+'The Miracle At Coldstar Ranch'
+
+
+532
+'The Zuzu City Express'
+
+
+533
+'Wumbus'
+
+
+534
+Calendar
+
+
+535
+Little Photos
+
+
+536
+Skull Poster
+
+
+537
+Wallflower Pal
+
+
+538
+World Map
+
+
+539
+J. Cola Light
+
+
+540
+Ceiling Flags
+
+
+541
+Hanging Shield
+
+
+542
+Monster Danglers
+
+
+543
+Miner's Crest
+
+
+544
+Night Sky Decal 1
+
+
+545
+Night Sky Decal 2
+
+
+546
+Night Sky Decal 3
+
+
+547
+Pirate Flag
+
+
+548
+Small Wall Pumpkin
+
+
+549
+Strawberry Decal
+
+
+550
+Wall Pumpkin
+
+
+551
+Winter Tree Decal
+
+
+552
+China Cabinet
+
+
+553
+Ceramic Pillar
+
+
+554
+Gold Pillar
+
+
+555
+Industrial Pipe
+
+
+556
+Totem Pole
+
+
+557
+Decorative Bowl
+
+
+558
+Decorative Lantern
+
+
+559
+Globe
+
+
+560
+Model Ship
+
+
+561
+Small Crystal
+
+
+562
+Futan Bear
+
+
+563
+Basic Log
+
+
+564
+Log Section
+
+
+565
+Big Green Cane
+
+
+566
+Big Red Cane
+
+
+567
+Green Canes
+
+
+568
+Red Canes
+
+
+569
+Mixed Cane
+
+
+570
+Lawn Flamingo
+
+
+571
+Grave Stone
+
+
+572
+Ornamental Hay Bale
+
+
+573
+Plush Bunny
+
+
+574
+Statue Of Endless Fortune
+
+
+575
+Tea Set
+
+
+576
+Leah's Sculpture
+
+
+577
+Standing Geode
+
+
+578
+Singing Stone
+
+
+579
+Obsidian Vase
+
+
+580
+Skeleton Statue
+
+
+581
+Seasonal Decor
+
+
+582
+Prairie King Arcade System
+
+
+583
+Sign Of The Vessel
+
+
+584
+Stardew Hero Trophy
+
+
+585
+Statue of Perfection
+
+
+586
+Stone Cairn
+
+
+587
+Stone Frog
+
+
+588
+Stone Junimo
+
+
+589
+Stone Owl
+
+
+590
+Stone Parrot
+
+
+591
+Suit Of Armor
+
+
+592
+Lg. Futan Bear
+
+
+593
+Bear Statue
+
+
+594
+Chicken Statue (furniture)
+
+
+595
+Sloth Skeleton
+
+
+596
+Junimo Plush
+
+
+597
+??Foroguemon??
+
+
+598
+??HMTGF??
+
+
+599
+??Pinky Lemon??
+
+
+600
+Solid Gold Lewis
+
+
+601
+Soda Machine
+
+
+602
+Junimo Kart Arcade System
+
+
+603
+Butterfly Hutch
+
+
+604
+Futan Rabbit
+
+
+605
+Green Serpent Statue
+
+
+606
+Purple Serpent Statue
+
+
+607
+Small Junimo Plush
+
+
+608
+Bobo Statue
+
+
+609
+Wumbus Statue
+
+
+610
+Sam's Boombox
+
+
+611
+Catalogue
+
+
+612
+Furniture Catalogue
+
+
+613
+Rice
+
+
+614
+Sugar
+
+
+615
+Vinegar
+
+
+616
+Wheat Flour
+
+
+617
+Quartz
+
+
+618
+Earth Crystal
+
+
+619
+Frozen Tear
+
+
+620
+Fire Quartz
+
+
+621
+Emerald
+
+
+622
+Aquamarine
+
+
+623
+Ruby
+
+
+624
+Amethyst
+
+
+625
+Topaz
+
+
+626
+Jade
+
+
+627
+Diamond
+
+
+628
+Prismatic Shard
+
+
+629
+Tigerseye
+
+
+630
+Opal
+
+
+631
+Fire Opal
+
+
+632
+Alamite
+
+
+633
+Bixite
+
+
+634
+Baryte
+
+
+635
+Aerinite
+
+
+636
+Calcite
+
+
+637
+Dolomite
+
+
+638
+Esperite
+
+
+639
+Fluorapatite
+
+
+640
+Geminite
+
+
+641
+Helvite
+
+
+642
+Jamborite
+
+
+643
+Jagoite
+
+
+644
+Kyanite
+
+
+645
+Lunarite
+
+
+646
+Malachite
+
+
+647
+Neptunite
+
+
+648
+Lemon Stone
+
+
+649
+Nekoite
+
+
+650
+Orpiment
+
+
+651
+Petrified Slime
+
+
+652
+Thunder Egg
+
+
+653
+Pyrite
+
+
+654
+Ocean Stone
+
+
+655
+Ghost Crystal
+
+
+656
+Jasper
+
+
+657
+Celestine
+
+
+658
+Marble
+
+
+659
+Sandstone
+
+
+660
+Granite
+
+
+661
+Basalt
+
+
+662
+Limestone
+
+
+663
+Soapstone
+
+
+664
+Hematite
+
+
+665
+Mudstone
+
+
+666
+Obsidian
+
+
+667
+Slate
+
+
+668
+Fairy Stone
+
+
+669
+Star Shards
+
+
+670
+Geode
+
+
+671
+Frozen Geode
+
+
+672
+Magma Geode
+
+
+673
+Omni Geode
+
+
+674
+Void Essence
+
+
+675
+Bug Meat
+
+
+676
+Bat Wing
+
+
+677
+Solar Essence
+
+
+678
+Slime Egg
+
+
+679
+Battery Pack
+
+
+680
+Clay
+
+
+681
+Coal
+
+
+682
+Copper Bar
+
+
+683
+Copper Ore
+
+
+684
+Fiber
+
+
+685
+Gold Ore
+
+
+686
+Hardwood
+
+
+687
+Iridium Bar
+
+
+688
+Iridium Ore
+
+
+689
+Iron Ore
+
+
+690
+Refined Quartz
+
+
+691
+Stone
+
+
+692
+Wood
+
+
+693
+Grass Starter
+
+
+694
+Hay
+
+
+695
+Artifact Trove
+
+
+696
+Golden Pumpkin
+
+
+697
+Magic Rock Candy
+
+
+698
+Pearl
+
+
+699
+Squid Ink
+
+
+700
+Stardrop
+
+
+701
+Training Rod
+
+
+702
+Bamboo Pole
+
+
+703
+Fiberglass Rod
+
+
+704
+Iridium Rod
+
+
+705
+Scythe
+
+
+706
+Golden Scythe
+
+
+707
+Milk Pail
+
+
+708
+Shears
+
+
+709
+Heater
+
+
+710
+Copper Pan
+
+
+711
+Auto-Grabber
+
+
+712
+Hoe
+
+
+713
+Copper Hoe
+
+
+714
+Steel Hoe
+
+
+715
+Gold Hoe
+
+
+716
+Iridium Hoe
+
+
+717
+Pickaxe
+
+
+718
+Copper Pickaxe
+
+
+719
+Steel Pickaxe
+
+
+720
+Gold Pickaxe
+
+
+721
+Iridium Pickaxe
+
+
+722
+Axe
+
+
+723
+Copper Axe
+
+
+724
+Steel Axe
+
+
+725
+Gold Axe
+
+
+726
+Iridium Axe
+
+
+727
+Watering Can
+
+
+728
+Copper Watering Can
+
+
+729
+Steel Watering Can
+
+
+730
+Gold Watering Can
+
+
+731
+Iridium Watering Can
+
+
+732
+Trash Can
+
+
+733
+Copper Trash Can
+
+
+734
+Steel Trash Can
+
+
+735
+Gold Trash Can
+
+
+736
+Iridium Trash Can
+
+
+737
+Trash
+
+
+738
+Driftwood
+
+
+739
+Soggy Newspaper
+
+
+740
+Broken CD
+
+
+741
+Broken Glasses
+
+
+742
+Joja Cola
+
+
+743
+Rotten Plant
+
+
+744
+Rusty Sword
+
+
+745
+Wooden Blade
+
+
+746
+Steel Smallsword
+
+
+747
+Silver Saber
+
+
+748
+Pirate's Sword
+
+
+749
+Cutlass
+
+
+750
+Iron Edge
+
+
+751
+Forest Sword
+
+
+752
+Holy Blade
+
+
+753
+Insect Head
+
+
+754
+Claymore
+
+
+755
+Templar's Blade
+
+
+756
+Dark Sword
+
+
+757
+Neptune's Glaive
+
+
+758
+Tempered Broadsword
+
+
+759
+Obsidian Edge
+
+
+760
+Bone Sword
+
+
+761
+Steel Falchion
+
+
+762
+Lava Katana
+
+
+763
+Galaxy Sword
+
+
+764
+Carving Knife
+
+
+765
+Iron Dirk
+
+
+766
+Wind Spire
+
+
+767
+Burglar's Shank
+
+
+768
+Crystal Dagger
+
+
+769
+Broken Trident
+
+
+770
+Wicked Kris
+
+
+771
+Galaxy Dagger
+
+
+772
+Femur
+
+
+773
+Wood Club
+
+
+774
+Wood Mallet
+
+
+775
+Lead Rod
+
+
+776
+The Slammer
+
+
+777
+Galaxy Hammer
+
+
+778
+Slingshot
+
+
+779
+Master Slingshot
+
+
+780
+Sneakers
+
+
+781
+Rubber Boots
+
+
+782
+Leather Boots
+
+
+783
+Work Boots
+
+
+784
+Combat Boots
+
+
+785
+Tundra Boots
+
+
+786
+Leprechaun Shoes
+
+
+787
+Thermal Boots
+
+
+788
+Cowboy Boots
+
+
+789
+Dark Boots
+
+
+790
+Firewalker Boots
+
+
+791
+Genie Shoes
+
+
+792
+Space Boots
+
+
+793
+Emily's Magic Boots
+
+
+794
+Small Glow Ring
+
+
+795
+Glow Ring
+
+
+796
+Small Magnet Ring
+
+
+797
+Magnet Ring
+
+
+798
+Slime Charmer Ring
+
+
+799
+Warrior Ring
+
+
+800
+Vampire Ring
+
+
+801
+Savage Ring
+
+
+802
+Ring of Yoba
+
+
+803
+Sturdy Ring
+
+
+804
+Burglar's Ring
+
+
+805
+Iridium Band
+
+
+806
+Amethyst Ring
+
+
+807
+Topaz Ring
+
+
+808
+Aquamarine Ring
+
+
+809
+Jade Ring
+
+
+810
+Emerald Ring
+
+
+811
+Ruby Ring
+
+
+812
+Wedding Ring
+
+
+813
+Crabshell Ring
+
+
+814
+Napalm Ring
+
+
+815
+Blue Bonnet
+
+
+816
+Cat Ears
+
+
+817
+Plum Chapeau
+
+
+818
+Earmuffs
+
+
+819
+Cowpoke Hat
+
+
+820
+Official Cap
+
+
+821
+Santa Hat
+
+
+822
+Tropiclip
+
+
+823
+Watermelon Band
+
+
+824
+Cowgal Hat
+
+
+825
+Bowler Hat
+
+
+826
+Eye Patch
+
+
+827
+Hunter's Cap
+
+
+828
+Sombrero
+
+
+829
+Cool Cap
+
+
+830
+Good Ol' Cap
+
+
+831
+Archer's Cap
+
+
+832
+Chef Hat
+
+
+833
+Polka Bow
+
+
+834
+Goblin Mask
+
+
+835
+Sou'wester
+
+
+836
+Daisy
+
+
+837
+Gnome's Cap
+
+
+838
+Lucky Bow
+
+
+839
+Delicate Bow
+
+
+840
+Tiara
+
+
+841
+Mouse Ears
+
+
+842
+Trucker Hat
+
+
+843
+Skeleton Mask
+
+
+844
+Hard Hat
+
+
+845
+Butterfly Bow
+
+
+846
+Cowboy Hat
+
+
+847
+Chicken Mask
+
+
+848
+Top Hat
+
+
+849
+Straw Hat
+
+
+850
+Sailor's Cap
+
+
+851
+Fedora
+
+
+852
+Panda Hat
+
+
+853
+Blue Cowboy Hat
+
+
+854
+Red Cowboy Hat
+
+
+855
+Cone Hat
+
+
+856
+Living Hat
+
+
+857
+Emily's Magic Hat
+
+
+858
+Mushroom Cap
+
+
+859
+Dinosaur Hat
+
+
+860
+Totem Mask
+
+
+861
+Logo Cap
+
+
+862
+Wearable Dwarf Helm
+
+
+863
+Fashion Hat
+
+
+864
+Pumpkin Mask
+
+
+865
+Hair Bone
+
+
+866
+Knight's Helmet
+
+
+867
+Squire's Helmet
+
+
+868
+Spotted Headscarf
+
+
+869
+Beanie
+
+
+870
+Floppy Beanie
+
+
+871
+Fishing Hat
+
+
+872
+Blobfish Mask
+
+
+873
+Party Hat (red)
+
+
+874
+Party Hat (blue)
+
+
+875
+Party Hat (green)
+
+
+876
+Arcane Hat
+
+
+877
+Pirate Hat
+
+
+878
+Flat Topped Hat
+
+
+879
+Elegant Turban
+
+
+880
+White Turban
+
+
+881
+Garbage Hat
+
+
+882
+Golden Mask (hat)
+
+
+883
+Propeller Hat
+
+
+884
+Bridal Veil
+
+
+885
+Witch Hat
+
+
+886
+Copper Pan (hat)
+
+
+887
+Green Turban
+
+
+888
+Magic Cowboy Hat
+
+
+889
+Magic Turban
+
+
+890
+Fried Egg
+
+
+891
+Omelet
+
+
+892
+Salad
+
+
+893
+Cheese Cauliflower
+
+
+894
+Baked Fish
+
+
+895
+Parsnip Soup
+
+
+896
+Vegetable Medley
+
+
+897
+Complete Breakfast
+
+
+898
+Fried Calamari
+
+
+899
+Strange Bun
+
+
+900
+Lucky Lunch
+
+
+901
+Fried Mushroom
+
+
+902
+Pizza
+
+
+903
+Bean Hotpot
+
+
+904
+Glazed Yams
+
+
+905
+Carp Surprise
+
+
+906
+Hashbrowns
+
+
+907
+Pancakes
+
+
+908
+Salmon Dinner
+
+
+909
+Fish Taco
+
+
+910
+Crispy Bass
+
+
+911
+Pepper Poppers
+
+
+912
+Bread
+
+
+913
+Tom Kha Soup
+
+
+914
+Trout Soup
+
+
+915
+Chocolate Cake
+
+
+916
+Pink Cake
+
+
+917
+Rhubarb Pie
+
+
+918
+Cookie
+
+
+919
+Spaghetti
+
+
+920
+Fried Eel
+
+
+921
+Spicy Eel
+
+
+922
+Sashimi
+
+
+923
+Maki Roll
+
+
+924
+Tortilla
+
+
+925
+Red Plate
+
+
+926
+Eggplant Parmesan
+
+
+927
+Rice Pudding
+
+
+928
+Ice Cream
+
+
+929
+Blueberry Tart
+
+
+930
+Autumn's Bounty
+
+
+931
+Pumpkin Soup
+
+
+932
+Super Meal
+
+
+933
+Cranberry Sauce
+
+
+934
+Stuffing
+
+
+935
+Farmer's Lunch
+
+
+936
+Survival Burger
+
+
+937
+Dish O' The Sea
+
+
+938
+Miner's Treat
+
+
+939
+Roots Platter
+
+
+940
+Triple Shot Espresso
+
+
+941
+Seafoam Pudding
+
+
+942
+Algae Soup
+
+
+943
+Pale Broth
+
+
+944
+Plum Pudding
+
+
+945
+Artichoke Dip
+
+
+946
+Stir Fry
+
+
+947
+Roasted Hazelnuts
+
+
+948
+Pumpkin Pie
+
+
+949
+Radish Salad
+
+
+950
+Fruit Salad
+
+
+951
+Blackberry Cobbler
+
+
+952
+Cranberry Candy
+
+
+953
+Bruschetta
+
+
+954
+Coleslaw
+
+
+955
+Fiddlehead Risotto
+
+
+956
+Poppyseed Muffin
+
+
+957
+Chowder
+
+
+958
+Lobster Bisque
+
+
+959
+Escargot
+
+
+960
+Fish Stew
+
+
+961
+Maple Bar
+
+
+962
+Crab Cakes
+
+
+963
+Shrimp Cocktail
+
+
+964
+Sap
+
+
+965
+Maple Syrup
+
+
+966
+Pine Tar
+
+
+967
+Oak Resin
+
+
+968
+Pine Cone
+
+
+969
+Maple Seed
+
+
+970
+Acorn
+
+
+971
+Jelly
+
+
+972
+Pickles
