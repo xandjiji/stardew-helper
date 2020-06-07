@@ -53,5 +53,3 @@ CALENDAR
 NPC?
 
 SEARCH
-
-consertar base de dados xD
