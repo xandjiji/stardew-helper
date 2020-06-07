@@ -13,9 +13,12 @@ const itemModalReducer = (state = initialState.itemModalReducer, action) => {
             break;
 
         case "OPEN_MODAL":
-            state = {
-                active: true,
-                itemId: action.payload
+
+            if(action.payload !== undefined) {
+                state = {
+                    active: true,
+                    itemId: action.payload
+                }
             }
 
             break;
