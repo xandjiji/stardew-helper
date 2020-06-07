@@ -17,19 +17,23 @@ export class Header extends Component {
         super(props);
 
         this.state = {
-            menuActive: false
+            menuActive: false,
+            viewportH: window.innerHeight
         }
 
         this.handleClick = this.handleClick.bind(this);
         this.handleKeyDown = this.handleKeyDown.bind(this);
+        this.handleResize = this.handleResize.bind(this);
     }
 
     componentDidMount() {
         window.addEventListener('keydown', this.handleKeyDown);
+        window.addEventListener('resize', this.handleResize);
     }
 
     componentWillUnmount() {
         window.removeEventListener('keydown', this.handleKeyDown);
+        window.removeEventListener('resize', this.handleResize);
     }
 
     handleClick() {
@@ -40,6 +44,10 @@ export class Header extends Component {
         if (event.key === 'Escape') {
             this.setState({ menuActive: false });
         }
+    }
+
+    handleResize() {
+        this.setState({ viewportH: window.innerHeight });
     }
 
     render() {
@@ -62,7 +70,7 @@ export class Header extends Component {
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />
                 </div>
 
-                <div className={`sidebar ${buttonClass}`} style={{ backgroundColor: palette.background }}>
+                <div className={`sidebar ${buttonClass}`} style={{ backgroundColor: palette.background, maxHeight: this.state.viewportH }}>
                     <div className="sidebar-header" style={{ backgroundColor: palette.surface }}>
                         <div className="sidebar-header-wrapper container">
                             <BackArrow onClick={this.handleClick} />
@@ -70,7 +78,7 @@ export class Header extends Component {
                         </div>
                     </div>
 
-                    <div className="sidebar-body">
+                    <div className="sidebar-body" style={{ height: this.state.viewportH - 42 }}>
                         <HeaderOptions />
 
                         <div className="sidebar-footer" style={{ backgroundColor: palette.primary, color: palette.primaryVariant }}>

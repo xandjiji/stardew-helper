@@ -16,11 +16,6 @@
 
 
 /* START GAMBIARRA */
-.seasons-carousel .carousel-wrapper .item-wrapper {
-    max-height: calc(100vh - 42px - 20px);
-    /* 100vh - room - header - padding */
-}
-
 .seasons-carousel .bundle-item {
     height: calc(100% - 60px);
     display: flex;

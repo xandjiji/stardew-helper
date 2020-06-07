@@ -11,7 +11,6 @@ QA:
     animations https://www.cssscript.com/animated-checkbox-labels-with-pure-css-css3/
     redesign
     total counter
-    recalcular android viewport
 
 push sidebar
 reset undo?

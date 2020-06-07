@@ -15,10 +15,28 @@ export class ItemModal extends Component {
     constructor(props) {
         super(props);
 
+        this.state = {
+            viewportH: window.innerHeight
+        }
+
         this.handleActionLink = this.handleActionLink.bind(this);
         this.createListItem = this.createListItem.bind(this);
         this.parseActions = this.parseActions.bind(this);
         this.idToName = this.idToName.bind(this);
+
+        this.handleResize = this.handleResize.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', this.handleResize);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleResize);
+    }
+
+    handleResize() {
+        this.setState({ viewportH: window.innerHeight });
     }
 
     handleActionLink(id) {
@@ -317,7 +335,7 @@ export class ItemModal extends Component {
         return (
             <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`} style={{ backgroundColor: palette.background }}>
                 <div className="item-wrapper">
-                    <div className="material" style={{ backgroundColor: palette.surface}}>
+                    <div className="material" style={{ backgroundColor: palette.surface, maxHeight: this.state.viewportH - 56 }}>
                         <div className="item-name-wrapper">
                             <div className="item-sprite material" style={{ backgroundColor: palette.primary }}>
                                 <div className={`${itemClass}`}></div>
@@ -331,18 +349,20 @@ export class ItemModal extends Component {
                             <CloseIcon className="close-button smooth" onClick={() => this.props.closeModal()} />
                         </div>
 
-                        {sellElement}
-                        {healsElement}
-                        {profitabilityElement}
-                        {harvestElement}
-                        {buffsElement}
-                        {statsElement}
-                        {bonusElement}
-                        {effectElement}
+                        <div className="info-wrapper custom-scrollbar" style={{ maxHeight: this.state.viewportH - 138 }}>
+                            {sellElement}
+                            {healsElement}
+                            {profitabilityElement}
+                            {harvestElement}
+                            {buffsElement}
+                            {statsElement}
+                            {bonusElement}
+                            {effectElement}
 
-                        {obtainedElement}
-                        {makesElement}
-                        {recipeElement}
+                            {obtainedElement}
+                            {makesElement}
+                            {recipeElement}
+                        </div>
                     </div>
                 </div>
             </div>

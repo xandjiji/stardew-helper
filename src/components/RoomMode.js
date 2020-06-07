@@ -41,7 +41,7 @@ export class RoomMode extends Component {
                 </div>
 
                 <div className="carousel-container bundles-carousel">
-                    <Carousel currentRoom={this.state.currentRoom}>
+                    <Carousel currentRoom={this.state.currentRoom} compensate={198}>
                         {bundlesElement}
                     </Carousel>
                 </div>

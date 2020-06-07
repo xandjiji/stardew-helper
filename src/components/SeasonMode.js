@@ -22,7 +22,7 @@ export class SeasonMode extends Component {
 
         return (
             <div className="carousel-container seasons-carousel">
-                <Carousel>
+                <Carousel compensate={62}>
                     {seasonsElement}
                 </Carousel>
             </div>

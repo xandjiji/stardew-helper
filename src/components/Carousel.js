@@ -6,9 +6,12 @@ export class Carousel extends Component {
     constructor(props) {
         super(props);
 
+        let maxHeight = (window.innerHeight - this.props.compensate);
+
         this.state = {
             positionX: 0,
-            index: 0
+            index: 0,
+            viewportH: maxHeight
         }
 
         this.mainRef = React.createRef();
@@ -33,6 +36,7 @@ export class Carousel extends Component {
 
     handleResize() {
         this.setIndex(this.state.index);
+        this.setState({ viewportH: (window.innerHeight - this.props.compensate) });
     }
 
     componentDidUpdate(prevProps) {
@@ -165,7 +169,7 @@ export class Carousel extends Component {
                 onTouchEnd={this.dragStop}
             >
 
-                <div ref={this.sliderRef} className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)` }}>
+                <div ref={this.sliderRef} className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)`, maxHeight: isNaN(this.state.viewportH) ? 'unset' : this.state.viewportH }}>
                     {this.props.children}
                 </div>
             </div>

@@ -20,8 +20,8 @@
 }
 
 .item-modal .item-name-wrapper {
-    margin: -48px 0 16px 0;
-    width: calc(100%);
+    margin: -48px 0 12px 0;
+    width: 100%;
     display: flex;
     align-items: flex-start;
 }
@@ -69,6 +69,12 @@
     box-shadow: inset 2px 2px rgba(0, 0, 0, 0.14);
 }
 
+.item-modal .info-wrapper {
+    padding-right: 6px;
+    width: calc(100% + 10px);
+    overflow: auto;
+}
+
 .item-modal .info-box {
     padding: 0;
     min-height: 44px;
@@ -78,6 +84,14 @@
 
 .item-modal .info-box:not(:last-child) {
     margin-bottom: 16px;
+}
+
+.item-modal .info-box:first-child {
+    margin-top: 4px;
+}
+
+.item-modal .info-box:last-child {
+    margin-bottom: 8px;
 }
 
 .item-modal .info-title {
