@@ -90,11 +90,31 @@ export class ItemModal extends Component {
             <span className="tokenized-content">
                 {
                     strArray.map((token, index) => {
-                        if (token[0] === '&') {
-                            let itemId = token.substring(1, string.length)
-                            itemId = parseInt(itemId);
 
-                            return this.idToName(itemId, index)
+                        let regexp = new RegExp(/&/);
+
+                        if (regexp.test(token)) {
+
+                            let prefix = undefined;
+                            if (token[0] !== '&') {
+                                prefix = token[0];
+                            }
+
+                            let suffix = undefined;
+                            if (token[token.length - 1] !== '~') {
+                                suffix = token[token.length - 1];
+                            }
+
+                            token = token.replace(/&/g, "");
+                            token = token.replace(/~/g, "");
+                            token = token.replace(/,/g, "");
+                            token = token.replace(/\(/g, "");
+                            token = token.replace(/\)/g, "");
+
+                            let itemId = parseInt(token);
+
+
+                            return this.idToName(itemId, index, prefix, suffix);
                         } else {
 
                             return <span className="token" key={index}>{token}</span>
@@ -107,8 +127,24 @@ export class ItemModal extends Component {
         return newElement
     }
 
-    idToName(id, key) {
+    idToName(id, key, prefix, suffix) {
         let palette = themes.themes[this.props.themeId];
+
+        let prefixElement;
+        if (prefix) {
+            prefixElement =
+                <span style={{ color: palette.onSurface, fontWeight: 300 }}>
+                    {prefix}
+                </span>
+        }
+
+        let suffixElement;
+        if (suffix) {
+            suffixElement =
+                <span style={{ color: palette.onSurface, fontWeight: 300 }}>
+                    {suffix}
+                </span>
+        }
 
         let element =
             <span
@@ -116,7 +152,8 @@ export class ItemModal extends Component {
                 style={{ color: palette.primary }}
                 onClick={() => this.handleActionLink(id)}
                 key={key}>
-                {itemList[id].name}
+
+                {prefixElement}{itemList[id].name}{suffixElement}
             </span>
 
         return element
