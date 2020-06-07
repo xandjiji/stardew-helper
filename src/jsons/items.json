@@ -1793,7 +1793,7 @@
         "link": "Dwarf_Scroll_IV",
         "sellPrice": "1",
         "obtainedFrom": [
-            "@Any Monster other than: Skeleton, Serpent, Wilderness Golem, Carbon Ghost, Iridium Bat, Iridium &352~, or Haunted Skull (0.1% chance drop)",
+            "@Any Monster other than: Skeleton, Serpent, Wilderness Golem, Carbon Ghost, Iridium Bat, Iridium &352~ , or Haunted Skull (0.1% chance drop)",
             "Tilling in the Mines (level 80+)"
         ],
         "makes": [
@@ -3703,7 +3703,7 @@
             "health": 33
         },
         "obtainedFrom": [
-            "@Using any vegetable (except &220~, &200~ or &248~) in a &142~"
+            "@Using any vegetable (except &220~ , &200~ or &248~ ) in a &142~"
         ],
         "makes": [
             "Sports Shirt"
@@ -3870,7 +3870,7 @@
             "health": 5
         },
         "obtainedFrom": [
-            "@Using &198~, &216~ or &217~ in an &149~",
+            "@Using &198~ , &216~ or &217~ in an &149~",
             "Can be purchased at Pierre's General Store (200g)"
         ],
         "makes": [
@@ -5335,7 +5335,7 @@
             }
         ],
         "makes": [
-            "@Any Gem or Mineral (except &628~)"
+            "@Any Gem or Mineral (except &628~ )"
         ]
     },
     {
@@ -5391,7 +5391,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned with Robin (6-heart event)",
-            "@Museum Reward (after donating 3 artifacts, including the &18~)"
+            "@Museum Reward (after donating 3 artifacts, including the &18~ )"
         ],
         "recipe": [
             {
@@ -5504,7 +5504,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned with Robin (6-heart event)",
-            "@Museum Reward (after donating 3 artifacts, including the &22~)"
+            "@Museum Reward (after donating 3 artifacts, including the &22~ )"
         ],
         "recipe": [
             {
@@ -5527,7 +5527,7 @@
         "link": "Furnace",
         "obtainedFrom": [
             "Crafting",
-            "@Recipe is earned with Clint (after collecting 1+ &683~)"
+            "@Recipe is earned with Clint (after collecting 1+ &683~ )"
         ],
         "recipe": [
             {
@@ -5582,7 +5582,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Mining skill level 7",
-            "@Smelting (5 &685~)"
+            "@Smelting (5 &685~ )"
         ],
         "recipe": [
             {
@@ -5684,7 +5684,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Mining skill level 4",
-            "@Smelting (5 &689~)"
+            "@Smelting (5 &689~ )"
         ],
         "recipe": [
             {
@@ -5966,7 +5966,7 @@
         "obtainedFrom": [
             "Crafting",
             "Recipe is earned at Mining skill level 8",
-            "@Recipe is traded with Desert Trader (for 10 &688~)",
+            "@Recipe is traded with Desert Trader (for 10 &688~ )",
             "@Can be exchanged with the Desert Trader for 5 &688~",
             "Can be purchased with the Dwarf (1,000g)",
             "Squid Kid (5% chance drop)",
@@ -12437,10 +12437,10 @@
             "health": 13
         },
         "obtainedFrom": [
-            "@Fishing by the Town River (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~)",
-            "@Fishing by the Forest River (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~)",
-            "@Fishing by the Forest Pond (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~)",
-            "@Fishing by the Mountain Lake (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~)"
+            "@Fishing by the Town River (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~ )",
+            "@Fishing by the Forest River (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~ )",
+            "@Fishing by the Forest Pond (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~ )",
+            "@Fishing by the Mountain Lake (12pm - 2pm) (Rainy weather) (Fall or Winter using a &153~ )"
         ],
         "makes": [
             923,
@@ -13053,7 +13053,7 @@
             "health": 11
         },
         "obtainedFrom": [
-            "@Fishing by the Ocean (6am - 7pm) (Rainy weather) (Summer, Fall or Winter using a &153~)"
+            "@Fishing by the Ocean (6am - 7pm) (Rainy weather) (Summer, Fall or Winter using a &153~ )"
         ],
         "makes": [
             923,
@@ -16764,7 +16764,7 @@
         "name": "'Burnt Offering'",
         "link": "%27Burnt_Offering%27",
         "obtainedFrom": [
-            "@Museum Reward (after donating 11 artifacts that include the &47~ and &27~)",
+            "@Museum Reward (after donating 11 artifacts that include the &47~ and &27~ )",
             "Purchase for 4,000 coins in Qi's Casino"
         ]
     },
@@ -17596,7 +17596,7 @@
         "name": "Chicken Statue (furniture)",
         "link": "Chicken_Statue_(furniture)",
         "obtainedFrom": [
-            "@Museum Reward (after donating a &24~)"
+            "@Museum Reward (after donating a &24~ )"
         ]
     },
     {
@@ -21399,7 +21399,7 @@
             "Baggy Pants"
         ],
         "obtainedFrom": [
-            "@Crafting (&157~ required)",
+            "@Crafting ( &157~ required)",
             "Slime (1% chance drop)"
         ],
         "recipe": [
@@ -21602,7 +21602,7 @@
         "link": "Copper_Bar",
         "sellPrice": "60",
         "obtainedFrom": [
-            "@Smelting (5 &683~)"
+            "@Smelting (5 &683~ )"
         ],
         "makes": [
             713,
@@ -21916,7 +21916,7 @@
         "link": "Iridium_Bar",
         "sellPrice": "1,000",
         "obtainedFrom": [
-            "@Smelting (5 &688~)",
+            "@Smelting (5 &688~ )",
             "Shadow Shaman (0.2% chance drop)",
             "Shadow Brute (0.2% chance drop)",
             "Iridium Bat (0.8% chance drop)",
@@ -22099,7 +22099,7 @@
         "link": "Refined_Quartz",
         "sellPrice": "50",
         "obtainedFrom": [
-            "@Smelting (&617~ or &620~)",
+            "@Smelting ( &617~ or &620~ )",
             "@Using a &740~ or a &741~ in a &154~"
         ],
         "makes": [
@@ -23782,7 +23782,7 @@
             ]
         },
         "obtainedFrom": [
-            "@Adventurer's Guild (after obtaining the &763~) (35,000g)"
+            "@Adventurer's Guild (after obtaining the &763~ ) (35,000g)"
         ]
     },
     {
@@ -23906,7 +23906,7 @@
             ]
         },
         "obtainedFrom": [
-            "@Adventurer's Guild (after obtaining the &763~) (75,000g)"
+            "@Adventurer's Guild (after obtaining the &763~ ) (75,000g)"
         ]
     },
     {
