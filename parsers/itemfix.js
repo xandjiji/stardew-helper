@@ -39,32 +39,32 @@ fs.readFile('./itemsTrab.json', 'utf8', async (err, jsonString) => {
 
         let currentItem = data[i]
 
-        if(currentItem.obtainedFrom) {
+        if(currentItem.recipe) {
 
 
-            for(let j = 0; j < currentItem.obtainedFrom.length; j++) {
+            for(let j = 0; j < currentItem.recipe.length; j++) {
                 
 
-                if(typeof currentItem.obtainedFrom[j] === 'number' && currentItem.obtainedFrom[j] > 688) {
+                if(typeof currentItem.recipe[j].id === 'number' && currentItem.recipe[j].id > 688 && currentItem.recipe[j].id < 964) {
                     count++;
 
-                    /* console.log(`from: ${colors.cian}${currentItem.name}${colors.reset} id: [${colors.yellow}${currentItem.id}${colors.reset}]`);
+                    console.log(`from: ${colors.cian}${currentItem.name}${colors.reset} id: [${colors.yellow}${currentItem.id}${colors.reset}]`);
                     
-                    let foundItemId = currentItem.obtainedFrom[j];
+                    let foundItemId = currentItem.recipe[j].id;
 
                     
                     let foundItem = getByIndex(foundItemId, data);
                     let nextItem = getByIndex(foundItemId+1, data);
                     
-                    console.log(`    ${colors.magenta}${foundItem.name}${colors.reset} id [${colors.red}${foundItem.id}${colors.reset}] -> ${colors.magenta}${nextItem.name}${colors.reset} id [${colors.green}${nextItem.id}${colors.reset}]`); */
+                    console.log(`    ${colors.magenta}${foundItem.name}${colors.reset} id [${colors.red}${foundItem.id}${colors.reset}] -> ${colors.magenta}${nextItem.name}${colors.reset} id [${colors.green}${nextItem.id}${colors.reset}]`);
 
 
 
 
 
 
-                    data[i].obtainedFrom[j] = data[i].obtainedFrom[j] + 1;
-                    console.log(data[i].obtainedFrom[j]);
+                    data[i].recipe[j].id = data[i].recipe[j].id + 1;
+                    /* console.log(data[i].recipe[j].id); */
                     
                     
                     
@@ -76,66 +76,6 @@ fs.readFile('./itemsTrab.json', 'utf8', async (err, jsonString) => {
     }
 
     console.log(`TOTAL: ${count}`);
-    
-    
-
-    /* for(let i = 0; i < data.length; i++) {
-        
-        let currentItem = data[i];
-
-        for(let j = 0; j < data.length; j++) {
-            
-            const { id, name } = currentItem;
-
-            
-
-            let currentCheck = data[j];
-
-            
-
-            if(currentCheck.makes) {
-
-                for(let k = 0; k < currentCheck.makes.length; k++) {
-
-                    let item = currentCheck.makes[k];
-                    
-                    if(typeof item === 'string'|| item instanceof String) {
-
-                        if(regTest.test(item)) {
-
-                            console.clear();
-                            
-                            let newString = item.replace(regTest, `${colors.green}&${name}~${colors.reset}`);
-                            let oldString = data[j].makes[k];
-    
-                            console.log(`${count} of 60`);
-                            console.log('');
-                            
-                            console.log(`Do you want to replace: ${colors.yellow}${name}${colors.reset} (item ID: ${colors.cian}${id}${colors.reset})`);
-                            console.log(oldString + ` (in ID: ${colors.cian}${currentCheck.id}${colors.reset})`);
-                            console.log('With:');
-                            console.log(newString);
-    
-                            console.log('');console.log('');
-                            let ans = await askQuestion("YES (enter) or NO (z)?")
-                            
-                            if(ans !== 'z') {
-                                if(data[j].makes[k][0] == '@') {
-                                    data[j].makes[k] = item.replace(regTest, `&${id}~`);    
-                                } else {
-                                    data[j].makes[k] = '@' + item.replace(regTest, `&${id}~`);
-                                }
-                            }
-                            count++;
-                            saveData(data);
-                        }
-                        
-                    }
-                    
-                }
-            }
-        }
-    } */
     
     saveData(data);
     
