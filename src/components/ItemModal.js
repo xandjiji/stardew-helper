@@ -130,6 +130,11 @@ export class ItemModal extends Component {
     idToName(id, key, prefix, suffix) {
         let palette = themes.themes[this.props.themeId];
 
+        let spriteElement =
+        <div className="sprite-wrapper">
+            <div className={buildClassName(itemList[id].name)}></div>
+        </div>
+
         let prefixElement;
         if (prefix) {
             prefixElement =
@@ -152,6 +157,8 @@ export class ItemModal extends Component {
                 style={{ color: palette.primary }}
                 onClick={() => this.handleActionLink(id)}
                 key={key}>
+                
+                {spriteElement}
 
                 {prefixElement}{itemList[id].name}{suffixElement}
             </span>

@@ -146,7 +146,7 @@
 
 .item-modal .info-value div,
 .item-modal .token div {
-    margin-right: 3px !important;
+    margin-right: 3px;
     flex-shrink: 0;
 }
 
@@ -171,4 +171,18 @@
 .item-modal .action-link {
     cursor: pointer;
     font-weight: 400;
+}
+
+.item-modal .action-link .sprite-wrapper {
+    margin: 4px 4px 4px 0;
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+
+.item-modal .sprite-wrapper > * {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.375);
 }

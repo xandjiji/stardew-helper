@@ -3078,7 +3078,7 @@
         "id": 56,
         "name": "Aged Roe",
         "link": "Aged_Roe",
-        "sellPrice": "(2 * Roe price)",
+        "sellPrice": "(2 * Roe price) ",
         "healing": {
             "energy": 100,
             "health": 45
@@ -3719,7 +3719,7 @@
         "id": 67,
         "name": "Juice",
         "link": "Juice",
-        "sellPrice": "(2.25 * base vegetable price)",
+        "sellPrice": "(2.25 * base vegetable price) ",
         "healing": {
             "energy": 75,
             "health": 33
@@ -4118,7 +4118,7 @@
         "id": 74,
         "name": "Wine",
         "link": "Wine",
-        "sellPrice": "(3 * base fruit price)",
+        "sellPrice": "(3 * base fruit price) ",
         "healing": {
             "energy": 50,
             "health": 22
@@ -30971,7 +30971,7 @@
         "id": 971,
         "name": "Jelly",
         "link": "Jellies_and_Pickles",
-        "sellPrice": "(2 * base fruit price + 50)",
+        "sellPrice": "(2 * base fruit price + 50) ",
         "obtainedFrom": [
             "@Using any Fruit in a &151~"
         ],
@@ -31022,7 +31022,7 @@
         "id": 972,
         "name": "Pickles",
         "link": "Jellies_and_Pickles",
-        "sellPrice": "(2 * base vegetable price + 50)",
+        "sellPrice": "(2 * base vegetable price + 50) ",
         "obtainedFrom": [
             "@Using any Vegetable in a &151~"
         ],
