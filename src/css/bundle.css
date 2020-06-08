@@ -41,8 +41,8 @@
 
 .bundle-item .bundle-reward-wrapper {
     padding-right: 11px;
-    margin-top: 16px;
-    padding-bottom: 16px;
+    margin-top: 6px;
+    padding-bottom: 6px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,12 +50,22 @@
 }
 
 .bundle-item .bundle-reward {
+    padding: 6px;
     display: flex;
     align-items: center;
+    border-radius: 6px;
+}
+
+.bundle-item .bundle-reward:hover {
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+}
+
+.bundle-item .bundle-reward:active {
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.14);
 }
 
 .bundle-item .reward-text-wrapper {
-    margin: 0 8px;
+    margin-left: 8px;
     display: flex;
     flex-direction: column;
     cursor: pointer;

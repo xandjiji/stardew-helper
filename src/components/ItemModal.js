@@ -187,13 +187,13 @@ export class ItemModal extends Component {
             let healthElement;
             if (healing.health) {
                 healthElement =
-                    <span className="token"><div className={healing.health > 0 ? 'bg-Health' : 'bg-Skull'}></div>{healing.health}</span>
+                    <span className="token"><div className={healing.health > 0 ? 'bg-Health' : 'bg-Skull'}></div>{healing.health}{healing.health > 0 ? '' : ' health'}</span>
             }
 
             let energyElement;
             if (healing.energy) {
                 energyElement =
-                    <span className="token"><div className={healing.energy > 0 ? 'bg-Energy' : 'bg-Skull'}></div>{healing.energy}</span>
+                    <span className="token"><div className={healing.energy > 0 ? 'bg-Energy' : 'bg-Skull'}></div>{healing.energy}{healing.energy > 0 ? '' : ' energy'}</span>
             }
 
             healsElement =

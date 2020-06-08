@@ -4147,3 +4147,8 @@
     width: 48px; height: 96px;
     background: url('../../assets/spritesheets/sprites48px.png') -0 -46168px;
 }
+
+.bg-Trash_Can {
+    width: 48px; height: 66px;
+    background: url('../../assets/spritesheets/sprites48px.png') -0 -46264px;
+}

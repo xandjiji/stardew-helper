@@ -54,7 +54,7 @@ export class Bundle extends Component {
         if (reward) {
             rewardElement =
                 <div className="bundle-reward-wrapper" style={{ borderBottomColor: palette.separator }}>
-                    <span className="bundle-reward" onClick={() => this.props.openModal(reward.globalID)}>
+                    <span className="bundle-reward smooth" onClick={() => this.props.openModal(reward.globalID)}>
                         <div className={`sprite ${buildClassName(reward.name)}`}></div>
                         <div className="reward-text-wrapper">
                             <span className="bundle-reward-text">{reward.name}</span>

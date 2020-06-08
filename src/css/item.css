@@ -1,6 +1,4 @@
 .item {
-    /* position: relative; */
-    padding: 10px 6px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,32 +6,24 @@
     width: calc(100% - 6px);
 }
 
-/* .item .info {
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    z-index: 1;
-    padding: 5px;
-
-    display: block;
-    background-color: brown;
-
-    opacity: 0;
-    user-select: none;
-    pointer-events: none;
+.item:last-child {
+    margin-bottom: 6px;
 }
 
-.item:hover .info {
-    opacity: 1;
-    pointer-events: unset;
-    user-select: unset;
-    cursor: text;
-} */
-
 .item .item-name-wrapper {
+    padding: 6px;
     display: flex;
     align-items: center;
+    border-radius: 6px;
     transition: 0.2s ease-out;
+}
+
+.item .item-name-wrapper:hover {
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+}
+
+.item .item-name-wrapper:active {
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.14);
 }
 
 .item .item-name-wrapper.faded {
@@ -41,7 +31,7 @@
 }
 
 .item .item-info {
-    margin: 0 8px;
+    margin-left: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
