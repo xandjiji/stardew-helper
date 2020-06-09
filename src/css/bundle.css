@@ -1,3 +1,8 @@
+.bundle-item {
+    background-color: var(--surface);
+    color: var(--onSurface);
+}
+
 .bundle-item .bundle-info {
     padding-right: 11px;
     display: flex;
@@ -26,17 +31,25 @@
     text-align: right;
 }
 
+.bundle-item .textFloat {
+    color: var(--onSurface);
+}
+
 .bundle-item .progress-bar {
     padding: 0;
     height: 8px;
     border-radius: 2px;
     overflow: hidden;
     box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.3);
+
+    background-color: var(--primaryVariant);
 }
 
 .bundle-item .progress-bar .cursor {
     height: 100%;
     transition: 0.2s ease-out;
+
+    background-color: var(--primary);
 }
 
 .bundle-item .bundle-reward-wrapper {
@@ -47,6 +60,8 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: solid 1px;
+
+    border-bottom-color: var(--separator);
 }
 
 .bundle-item .bundle-reward {
@@ -88,5 +103,6 @@
 
 .bundle-item .bundle-items-wrapper {
     overflow-y: auto;
+    overflow-x: hidden;
 }
 /* END GAMBIARRA */

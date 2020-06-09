@@ -1,3 +1,23 @@
+const setTheme = (themes, index) => {
+    const {
+        background,
+        surface,
+        onSurface,
+        separator,
+        primary,
+        onPrimary,
+        primaryVariant
+    } = themes[index];
+    
+    document.documentElement.style.setProperty("--background", background);
+    document.documentElement.style.setProperty("--surface", surface);
+    document.documentElement.style.setProperty("--onSurface", onSurface);
+    document.documentElement.style.setProperty("--separator", separator);
+    document.documentElement.style.setProperty("--primary", primary);
+    document.documentElement.style.setProperty("--onPrimary", onPrimary);
+    document.documentElement.style.setProperty("--primaryVariant", primaryVariant);
+}
+
 const buildClassName = (name) => {
     name = name.replace(/'/g, "");
     name = name.replace(/,/g, "");
@@ -27,4 +47,4 @@ const getFloatText = () => {
     return messages[Math.floor(Math.random() * messages.length)];
 };
 
-export { buildClassName, getFloatText }
+export { setTheme, buildClassName, getFloatText }

@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 
 import Item from './Item';
 
 import '../css/seasonItems.css';
 import '../css/skills.css';
-
-import themes from '../jsons/themes.json';
 
 export class SeasonItems extends Component {
     constructor(props) {
@@ -42,8 +39,6 @@ export class SeasonItems extends Component {
     }
 
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         const { items } = this.props;
 
         let itemElement = [];
@@ -71,7 +66,7 @@ export class SeasonItems extends Component {
 
         return (
             <div className="bundle-item">
-                <div className="skill-filter" style={{ borderBottomColor: palette.separator }}>
+                <div className="skill-filter">
                     {skillElement}
                 </div>
 
@@ -86,10 +81,4 @@ export class SeasonItems extends Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-    themeId: state.themeReducer
-})
-
-const mapDispatchToProps = {}
-
-export default connect(mapStateToProps, mapDispatchToProps)(SeasonItems)
+export default SeasonItems

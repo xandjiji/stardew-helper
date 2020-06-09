@@ -5,12 +5,8 @@ import { getFloatText } from '../utils';
 
 import '../css/room.css';
 
-import themes from '../jsons/themes.json';
-
 export class Room extends Component {
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         const { isComplete, completedCount } = this.props;
         const { name, reward, bundles } = this.props.room;
 
@@ -26,15 +22,15 @@ export class Room extends Component {
         }
 
         return (
-            <div className="room-item material" style={{ backgroundColor: palette.surface, color: palette.onSurface }}>
+            <div className="room-item material">
                 <div className="room-progress">
                     <div className="progress-text">
                         <p className="room-name">{name}</p>
                         <span className="room-count">{completedCount}/{bundles.length}</span>
-                        <span className={`textFloat ${textClass}`} style={{ color: palette.onSurface }}>{textString}</span>
+                        <span className={`textFloat ${textClass}`}>{textString}</span>
                     </div>
-                    <div className={`progress-bar material ${completedClass}`} style={{ backgroundColor: palette.primaryVariant }}>
-                        <div className="cursor" style={{ width: `${progressPercentage}%`, backgroundColor: palette.primary }}></div>
+                    <div className={`progress-bar material ${completedClass}`}>
+                        <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
                     </div>
                 </div>
 
@@ -63,8 +59,7 @@ const mapStateToProps = (state, ownProps) => {
 
     return {
         isComplete: status,
-        completedCount: bundlesCompleted,
-        themeId: state.themeReducer
+        completedCount: bundlesCompleted
     };
 };
 

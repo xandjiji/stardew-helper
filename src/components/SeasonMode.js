@@ -1,20 +1,18 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 
 import Carousel from './Carousel';
 import Season from './Season';
 import SeasonItems from './SeasonItems';
 
 import seasons from '../jsons/seasons.json';
-import themes from '../jsons/themes.json';
+
+import '../css/seasonMode.css';
 
 export class SeasonMode extends Component {
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         let seasonsElement =
             seasons.map((season, index) =>
-                <div className="material season-wrapper" style={{ backgroundColor: palette.surface, color: palette.onSurface }} key={index} >
+                <div className="material season-wrapper" key={index} >
                     <Season season={season}/>
                     <SeasonItems items={seasons[index].items} />
                 </div>
@@ -30,10 +28,4 @@ export class SeasonMode extends Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-    themeId: state.themeReducer
-})
-
-const mapDispatchToProps = {}
-
-export default connect(mapStateToProps, mapDispatchToProps)(SeasonMode)
+export default SeasonMode

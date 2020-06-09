@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import { connect } from "react-redux";
 
 import '../css/settingsOption.css';
-import themes from '../jsons/themes.json';
 
 import { ReactComponent as SmallArrow } from '../assets/small-arrow.svg';
 
@@ -21,7 +19,7 @@ export class SettingsOption extends Component {
 
         const { active } = this.state;
 
-        if(active) {
+        if (active) {
             const { currentlyOpen, title } = this.props;
 
             if (prevProps.currentlyOpen !== currentlyOpen) {
@@ -41,8 +39,6 @@ export class SettingsOption extends Component {
     }
 
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         let buttonClass = '';
         if (this.state.active) {
             buttonClass = 'active';
@@ -62,11 +58,7 @@ export class SettingsOption extends Component {
 
         return (
             <div className={`option-wrapper ${buttonClass}`}>
-                <div
-                    className="option-head inner-container"
-                    onClick={this.handleClick}
-                    style={{ backgroundColor: palette.surface, borderBottomColor: palette.separator }}>
-
+                <div className="option-head inner-container" onClick={this.handleClick}>
                     <span className="option-name">{optionIcon}{this.props.title}</span>
                     <SmallArrow className="option-arrow" />
                 </div>
@@ -79,14 +71,4 @@ export class SettingsOption extends Component {
     }
 }
 
-const mapStateToProps = (state) => {
-
-    return { themeId: state.themeReducer };
-};
-
-function mapDispatchToProps(dispatch) {
-    return { };
-};
-
-
-export default connect(mapStateToProps, mapDispatchToProps)(SettingsOption);
+export default SettingsOption

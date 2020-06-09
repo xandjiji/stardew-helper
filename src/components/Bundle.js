@@ -7,8 +7,6 @@ import { buildClassName, getFloatText } from '../utils';
 import '../css/bundle.css';
 import '../css/bundleIcons.css';
 
-import themes from '../jsons/themes.json';
-
 export class Bundle extends Component {
 
     toggleAll() {
@@ -34,8 +32,6 @@ export class Bundle extends Component {
     }
 
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         const { name, reward, items, itemCount } = this.props.bundle;
         const { completedCount } = this.props;
 
@@ -53,7 +49,7 @@ export class Bundle extends Component {
         let rewardElement;
         if (reward) {
             rewardElement =
-                <div className="bundle-reward-wrapper" style={{ borderBottomColor: palette.separator }}>
+                <div className="bundle-reward-wrapper">
                     <span className="bundle-reward smooth" onClick={() => this.props.openModal(reward.globalID)}>
                         <div className={`sprite ${buildClassName(reward.name)}`}></div>
                         <div className="reward-text-wrapper">
@@ -66,7 +62,7 @@ export class Bundle extends Component {
         }
 
         return (
-            <div className="bundle-item material" style={{ backgroundColor: palette.surface, color: palette.onSurface }}>
+            <div className="bundle-item material">
 
                 <div className="bundle-info">
                     <div className={`bundle-icon ${buildClassName(name)}`}></div>
@@ -74,12 +70,11 @@ export class Bundle extends Component {
                     <div className="bundle-info-wrapper">
                         <p className="bundle-name">{name}</p>
                         <span className="bundle-count">{completedCount}/{itemCount}</span>
-                        <span className={`textFloat ${textClass}`} style={{ color: palette.onSurface }}>{textString}</span>
+                        <span className={`textFloat ${textClass}`}>{textString}</span>
                         <div
-                            className={`progress-bar material ${completedClass}`}
-                            style={{ backgroundColor: palette.primaryVariant }}>
+                            className={`progress-bar material ${completedClass}`}>
 
-                            <div className="cursor" style={{ width: `${progressPercentage}%`, backgroundColor: palette.primary }}></div>
+                            <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
                         </div>
                     </div>
                 </div>
@@ -119,8 +114,7 @@ const mapStateToProps = (state, ownProps) => {
 
     return {
         isComplete: status,
-        completedCount: completeCount,
-        themeId: state.themeReducer
+        completedCount: completeCount
     };
 };
 

@@ -1,3 +1,7 @@
+.room-item {
+    background-color: var(--surface);
+}
+
 .room-item .progress-text {
     position: relative;
     margin-bottom: 4px;
@@ -22,11 +26,15 @@
     border-radius: 2px;
     overflow: hidden;
     box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.3);
+
+    background-color: var(--primaryVariant);
 }
 
 .room-item .progress-bar .cursor {
     height: 100%;
     transition: 0.2s ease-out;
+
+    background-color: var(--primary);
 }
 
 .room-item .room-reward-wrapper {

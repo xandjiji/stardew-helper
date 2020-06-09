@@ -10,7 +10,6 @@ import '../css/itemModal.css';
 
 import itemList from '../jsons/items.json';
 import npcList from '../jsons/npcs.json';
-import themes from '../jsons/themes.json';
 
 export class ItemModal extends Component {
     constructor(props) {
@@ -128,8 +127,6 @@ export class ItemModal extends Component {
     }
 
     idToName(id, key, prefix, suffix) {
-        let palette = themes.themes[this.props.themeId];
-
         let spriteElement =
         <div className="sprite-wrapper">
             <div className={buildClassName(itemList[id].name)}></div>
@@ -137,24 +134,17 @@ export class ItemModal extends Component {
 
         let prefixElement;
         if (prefix) {
-            prefixElement =
-                <span style={{ color: palette.onSurface, fontWeight: 300 }}>
-                    {prefix}
-                </span>
+            prefixElement = <span>{prefix}</span>
         }
 
         let suffixElement;
         if (suffix) {
-            suffixElement =
-                <span style={{ color: palette.onSurface, fontWeight: 300 }}>
-                    {suffix}
-                </span>
+            suffixElement = <span>{suffix}</span>
         }
 
         let element =
             <span
                 className="action-link"
-                style={{ color: palette.primary }}
                 onClick={() => this.handleActionLink(id)}
                 key={key}>
                 
@@ -166,14 +156,26 @@ export class ItemModal extends Component {
         return element
     }
 
-    idToNpc(id, key) {
+    idToNpc(id) {
         return npcList[id];
     }
 
     render() {
-        let palette = themes.themes[this.props.themeId];
-
-        const { name, link, sellPrice, healing, foodBuff, stats, effect, profitability, harvestIn, obtainedFrom, makes, recipe, gifting } = itemList[this.props.currentItem];
+        const {
+            name,
+            link,
+            sellPrice,
+            healing,
+            foodBuff,
+            stats,
+            effect,
+            profitability,
+            harvestIn,
+            obtainedFrom,
+            makes,
+            recipe,
+            gifting
+        } = itemList[this.props.currentItem];
 
         let itemClass = buildClassName(name);
 
@@ -181,7 +183,7 @@ export class ItemModal extends Component {
         if (sellPrice) {
             sellElement =
                 <div className="info-box material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Sell price</span>
+                    <span className="info-title">Sell price</span>
                     <div className="info-content">
                         <span className="info-value"><div className="bg-Gold_Coin"></div>{sellPrice}g</span>
                     </div>
@@ -205,7 +207,7 @@ export class ItemModal extends Component {
 
             healsElement =
                 <div className="info-box material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Heals</span>
+                    <span className="info-title">Heals</span>
                     <div className="info-content">
                         <span className="info-value tokenized-content">
                             {healthElement}
@@ -219,7 +221,7 @@ export class ItemModal extends Component {
         if (foodBuff) {
             buffsElement =
                 <div className="info-box material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Buffs</span>
+                    <span className="info-title">Buffs</span>
                     <div className="info-content">
                         {
                             foodBuff.map((buff, index) =>
@@ -255,7 +257,7 @@ export class ItemModal extends Component {
 
             statsElement =
                 <div className="info-box list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Stats</span>
+                    <span className="info-title">Stats</span>
                     <div className="info-content">
                         {levelElement}
                         {damageElement}
@@ -268,7 +270,7 @@ export class ItemModal extends Component {
         if (stats && stats.buff) {
             bonusElement =
                 <div className="info-box material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Bonus</span>
+                    <span className="info-title">Bonus</span>
                     <div className="info-content">
                         {
                             stats.buff.map((buff, index) =>
@@ -288,7 +290,7 @@ export class ItemModal extends Component {
         if (effect) {
             effectElement =
                 <div className="info-box material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Effect</span>
+                    <span className="info-title">Effect</span>
                     <div className="info-content">
                         <span className="info-value">{effect}</span>
                     </div>
@@ -299,7 +301,7 @@ export class ItemModal extends Component {
         if (profitability) {
             profitabilityElement =
                 <div className="info-box material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Profitability</span>
+                    <span className="info-title">Profitability</span>
                     <div className="info-content">
                         <span className="info-value"><div className="bg-Gold_Coin"></div>{profitability}g/day</span>
                     </div>
@@ -310,7 +312,7 @@ export class ItemModal extends Component {
         if (harvestIn) {
             harvestElement =
                 <div className="info-box material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Harvests in</span>
+                    <span className="info-title">Harvests in</span>
                     <div className="info-content">
                         <span className="info-value">{harvestIn}</span>
                     </div>
@@ -321,7 +323,7 @@ export class ItemModal extends Component {
         if (obtainedFrom) {
             obtainedElement =
                 <div className="info-box list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Obtained from</span>
+                    <span className="info-title">Obtained from</span>
                     <div className="info-content">
                         {
                             obtainedFrom.map((item, index) =>
@@ -341,7 +343,7 @@ export class ItemModal extends Component {
         if (makes) {
             makesElement =
                 <div className="info-box list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Makes</span>
+                    <span className="info-title">Makes</span>
                     <div className="info-content">
                         {
                             makes.map((item, index) =>
@@ -361,7 +363,7 @@ export class ItemModal extends Component {
         if (recipe) {
             recipeElement =
                 <div className="info-box list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Recipe</span>
+                    <span className="info-title">Recipe</span>
                     <div className="info-content">
                         {
                             recipe.map((item, index) =>
@@ -381,7 +383,7 @@ export class ItemModal extends Component {
         if (gifting && gifting.loves) {
             lovesElement =
                 <div className="info-box list horizontal-list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Loves</span>
+                    <span className="info-title">Loves</span>
                     <div className="info-content">
                         {
                             gifting.loves.map((item, index) =>
@@ -403,7 +405,7 @@ export class ItemModal extends Component {
         if (gifting && gifting.likes) {
             likesElement =
                 <div className="info-box list horizontal-list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Likes</span>
+                    <span className="info-title">Likes</span>
                     <div className="info-content">
                         {
                             gifting.likes.map((item, index) =>
@@ -425,7 +427,7 @@ export class ItemModal extends Component {
         if (gifting && gifting.neutrals) {
             neutralsElement =
                 <div className="info-box list horizontal-list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Neutral</span>
+                    <span className="info-title">Neutral</span>
                     <div className="info-content">
                         {
                             gifting.neutrals.map((item, index) =>
@@ -447,7 +449,7 @@ export class ItemModal extends Component {
         if (gifting && gifting.dislikes) {
             dislikesElement =
                 <div className="info-box list horizontal-list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Dislikes</span>
+                    <span className="info-title">Dislikes</span>
                     <div className="info-content">
                         {
                             gifting.dislikes.map((item, index) =>
@@ -469,7 +471,7 @@ export class ItemModal extends Component {
         if (gifting && gifting.hates) {
             hatesElement =
                 <div className="info-box list horizontal-list material">
-                    <span className="info-title" style={{ backgroundColor: palette.primary, color: palette.onPrimary }}>Hates</span>
+                    <span className="info-title">Hates</span>
                     <div className="info-content">
                         {
                             gifting.hates.map((item, index) =>
@@ -489,11 +491,11 @@ export class ItemModal extends Component {
 
 
         return (
-            <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`} style={{ backgroundColor: palette.background }}>
+            <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`}>
                 <div className="item-wrapper">
-                    <div className="material" style={{ backgroundColor: palette.surface, maxHeight: this.state.viewportH - 56 }}>
+                    <div className="material" style={{ maxHeight: this.state.viewportH - 56 }}>
                         <div className="item-name-wrapper">
-                            <div className="item-sprite material" style={{ backgroundColor: palette.primary }}>
+                            <div className="item-sprite material">
                                 <div className={`${itemClass}`}></div>
                             </div>
 
@@ -535,8 +537,7 @@ export class ItemModal extends Component {
 const mapStateToProps = (state) => {
     return {
         active: state.itemModalReducer.active,
-        currentItem: state.itemModalReducer.itemId,
-        themeId: state.themeReducer
+        currentItem: state.itemModalReducer.itemId
     };
 };
 

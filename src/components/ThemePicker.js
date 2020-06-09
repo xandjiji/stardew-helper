@@ -5,7 +5,9 @@ import ThemeOption from './ThemeOption';
 
 import '../css/themePicker.css';
 
-import themesJson from '../jsons/themes.json';
+import themes from '../jsons/themes.json';
+
+import { setTheme } from '../utils';
 
 export class ThemePicker extends Component {
     constructor(props) {
@@ -21,12 +23,11 @@ export class ThemePicker extends Component {
     notifyPick = (id) => {
         this.setState({ active: id });
         this.props.selectTheme(id);
+
+        setTheme(themes, id);
     }
 
     render() {
-        const { themes } = themesJson;
-
-
         let themesElement =
             themes.map((item, index) =>
                 <ThemeOption

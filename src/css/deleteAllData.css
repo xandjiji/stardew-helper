@@ -33,3 +33,7 @@
     border-color: rgba(0, 0, 0, 0.14);
     background-color: #c93434;
 }
+
+.delete-data-button .textFloat {
+    color: var(---onSurface);
+}

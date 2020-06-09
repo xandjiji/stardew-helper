@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import HeaderOptions from './HeaderOptions';
 
 import '../css/header.css';
-import themes from '../jsons/themes.json';
 
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
@@ -51,8 +50,6 @@ export class Header extends Component {
     }
 
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         const { mode } = this.props;
 
         let buttonClass = '';
@@ -61,7 +58,7 @@ export class Header extends Component {
         }
 
         return (
-            <div className="header-bar" style={{ backgroundColor: palette.surface }}>
+            <div className="header-bar">
                 <div className="settings-button container">
                     <div className="modes-wrapper">
                         <BundleIcon className={mode === 'bundle' ? 'active' : '' } onClick={() => this.props.setMode('bundle')} />
@@ -70,8 +67,8 @@ export class Header extends Component {
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />
                 </div>
 
-                <div className={`sidebar ${buttonClass}`} style={{ backgroundColor: palette.background, maxHeight: this.state.viewportH }}>
-                    <div className="sidebar-header" style={{ backgroundColor: palette.surface }}>
+                <div className={`sidebar ${buttonClass}`} style={{ maxHeight: this.state.viewportH }}>
+                    <div className="sidebar-header">
                         <div className="sidebar-header-wrapper container">
                             <BackArrow onClick={this.handleClick} />
                             <span>Settings</span>
@@ -81,11 +78,15 @@ export class Header extends Component {
                     <div className="sidebar-body" style={{ height: this.state.viewportH - 42 }}>
                         <HeaderOptions />
 
-                        <div className="sidebar-footer" style={{ backgroundColor: palette.primary, color: palette.primaryVariant }}>
+                        <div className="sidebar-footer">
                             <div className="container">
-                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper" style={{ color: palette.onSurface, fill: palette.onPrimary }}><GithubIcon /></a>
+                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper">
+                                    <GithubIcon />
+                                </a>
                                 made by
-                                <a className="git-profile" href="https://github.com/xandjiji" style={{ color: palette.onPrimary }}>xandjiji</a>
+                                <a className="git-profile" href="https://github.com/xandjiji">
+                                    xandjiji
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -99,8 +100,7 @@ export class Header extends Component {
 const mapStateToProps = (state) => {
 
     return {
-        mode: state.modeReducer.mode,
-        themeId: state.themeReducer
+        mode: state.modeReducer.mode
     };
 };
 

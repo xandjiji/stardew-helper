@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    width: calc(100% - 6px);
+    width: calc(100% - 12px);
 }
 
 .item:last-child {
@@ -56,6 +56,8 @@
     border-radius: 4px;
     transition: 0.2s ease-out;
     box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+
+    border-color: var(--primaryVariant);
 }
 
 .item .checkbox::after {
@@ -88,10 +90,15 @@
     border-radius: 4px;
     opacity: 0;
     transition: 0.2s ease-out;
+
+
 }
 
 .item .checked .checkmark {
     opacity: 1;
+
+    background-color: var(--primary);
+    border-color: var(--onPrimary);
 }
 
 .item .checkmark::after {

@@ -7,12 +7,8 @@ import '../css/room.css';
 import '../css/season.css';
 import '../css/seasonIcons.css';
 
-import themes from '../jsons/themes.json';
-
 export class Season extends Component {
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         const { isComplete, itemCount, completedCount } = this.props;
         const { name } = this.props.season;
 
@@ -37,10 +33,10 @@ export class Season extends Component {
                     <div className="progress-text">
                         <p className="room-name">{name} season</p>
                         <span className="room-count">{completedCount}/{itemCount}</span>
-                        <span className={`textFloat ${textClass}`} style={{ color: palette.onSurface }}>{textString}</span>
+                        <span className={`textFloat ${textClass}`}>{textString}</span>
                     </div>
-                    <div className={`progress-bar material ${completedClass}`} style={{ backgroundColor: palette.primaryVariant }}>
-                        <div className="cursor" style={{ width: `${progressPercentage}%`, backgroundColor: palette.primary }}></div>
+                    <div className={`progress-bar material ${completedClass}`}>
+                        <div className="cursor" style={{ width: `${progressPercentage}%` }}></div>
                     </div>
                 </div>
             </div>
@@ -70,20 +66,12 @@ const mapStateToProps = (state, ownProps) => {
     return {
         isComplete: (completedItems === totalItems),
         itemCount: totalItems,
-        completedCount: completedItems,
-        themeId: state.themeReducer
+        completedCount: completedItems
     };
 };
 
-function mapDispatchToProps(dispatch) {
-    return {
-        /* toggleAll: (options) => {
-            dispatch({
-                type: "TOGGLE_ALL",
-                payload: options
-            });
-        } */
-    };
+function mapDispatchToProps() {
+    return {};
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Season);

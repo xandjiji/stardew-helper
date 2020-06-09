@@ -1,87 +1,72 @@
-{
-    "themes": [
-        {
-            "name": "Discord Light",
-
-            "background": "#EEEEEE",
-            "surface": "#FFFFFF",
-                "onSurface": "#000000",
-                "separator": "#B4B4B4",
-            "primary": "#3F51B5",
-                "onPrimary": "#FFFFFF",
-            "primaryVariant": "#C5CAE9"
-        },
-
-        {
-            "name": "Discord Dark",
-
-            "background": "#202225",
-            "surface": "#36393F",
-                "onSurface": "#FFFFFF",
-                "separator": "#72767D",
-            "primary": "#6D81CF",
-                "onPrimary": "#FFFFFF",
-            "primaryVariant": "#BDC8F1"
-        },
-
-        {
-            "name": "Bulbasaur",
-
-            "background": "#619764",
-            "surface": "#95D485",
-                "onSurface": "#000000",
-                "separator": "#C8E6C9",
-            "primary": "#7B1FA2",
-                "onPrimary": "#FFFFFF",
-            "primaryVariant": "#C8E6C9"
-        },
-
-        {
-            "name": "Hanami",
-
-            "background": "#FFE0E6",
-            "surface": "#FFFAFB",
-                "onSurface": "#000000",
-                "separator": "#AD9B8B",
-            "primary": "#FF859E",
-                "onPrimary": "#FFFFFF",
-            "primaryVariant": "#DDC5D3"
-        },
-
-        {
-            "name": "Tommy Vercetti",
-
-            "background": "#2C87D1",
-            "surface": "#8DD7F4",
-                "onSurface": "#000000",
-                "separator": "#BCE7F8",
-            "primary": "#C93684",
-                "onPrimary": "#FFFFFF",
-            "primaryVariant": "#BCE7F8"
-        },
-
-        {
-            "name": "Kill Bill",
-
-            "background": "#2E2E2E",
-            "surface": "#FFC107",
-                "onSurface": "#000000",
-                "separator": "#72767D",
-            "primary": "#000000",
-                "onPrimary": "#FFC107",
-            "primaryVariant": "#919191"
-        },
-
-        {
-            "name": "Orange Orange",
-
-            "background": "#F3B252",
-            "surface": "#FFCD83",
-                "onSurface": "#000000",
-                "separator": "#DF8F77",
-            "primary": "#388E3C",
-                "onPrimary": "#FFFFFF",
-            "primaryVariant": "#6EBD70"
-        }
-    ]
-}
+[
+    {
+        "name": "Discord Light",
+        "background": "#EEEEEE",
+        "surface": "#FFFFFF",
+        "onSurface": "#000000",
+        "separator": "#B4B4B4",
+        "primary": "#3F51B5",
+        "onPrimary": "#FFFFFF",
+        "primaryVariant": "#C5CAE9"
+    },
+    {
+        "name": "Discord Dark",
+        "background": "#202225",
+        "surface": "#36393F",
+        "onSurface": "#FFFFFF",
+        "separator": "#72767D",
+        "primary": "#6D81CF",
+        "onPrimary": "#FFFFFF",
+        "primaryVariant": "#BDC8F1"
+    },
+    {
+        "name": "Bulbasaur",
+        "background": "#619764",
+        "surface": "#95D485",
+        "onSurface": "#000000",
+        "separator": "#C8E6C9",
+        "primary": "#7B1FA2",
+        "onPrimary": "#FFFFFF",
+        "primaryVariant": "#C8E6C9"
+    },
+    {
+        "name": "Hanami",
+        "background": "#FFE0E6",
+        "surface": "#FFFAFB",
+        "onSurface": "#000000",
+        "separator": "#AD9B8B",
+        "primary": "#FF859E",
+        "onPrimary": "#FFFFFF",
+        "primaryVariant": "#DDC5D3"
+    },
+    {
+        "name": "Tommy Vercetti",
+        "background": "#2C87D1",
+        "surface": "#8DD7F4",
+        "onSurface": "#000000",
+        "separator": "#BCE7F8",
+        "primary": "#C93684",
+        "onPrimary": "#FFFFFF",
+        "primaryVariant": "#BCE7F8"
+    },
+    {
+        "name": "Kill Bill",
+        "background": "#2E2E2E",
+        "surface": "#FFC107",
+        "onSurface": "#000000",
+        "separator": "#72767D",
+        "primary": "#000000",
+        "onPrimary": "#FFC107",
+        "primaryVariant": "#919191"
+    },
+    {
+        "name": "Orange Orange",
+        "background": "#F3B252",
+        "surface": "#FFCD83",
+        "onSurface": "#000000",
+        "separator": "#DF8F77",
+        "primary": "#388E3C",
+        "onPrimary": "#FFFFFF",
+        "primaryVariant": "#6EBD70"
+    }
+]

@@ -6,6 +6,8 @@
     height: 100vh;
     transform: translateX(100%);
     transition: 0.35s ease-out !important;
+
+    background-color: var(--background);
 }
 
 .item-modal.active {
@@ -18,6 +20,8 @@
 
 .item-modal .item-wrapper > .material {
     margin-top: 40px;
+
+    background-color: var(--surface);
 }
 
 .item-modal .item-name-wrapper {
@@ -30,6 +34,8 @@
 .item-modal .item-sprite {
     padding: 8px;
     margin-right: 16px;
+
+    background-color: var(--primary);
 }
 
 .item-modal .item-name {
@@ -105,6 +111,9 @@
     letter-spacing: 0.3px;
     text-transform: uppercase;
     justify-content: center;
+
+    background-color: var(--primary);
+    color: var(--onPrimary);
 }
 
 .item-modal .info-content {
@@ -171,6 +180,8 @@
 .item-modal .action-link {
     cursor: pointer;
     font-weight: 400;
+
+    color: var(--primary);
 }
 
 .item-modal .action-link .sprite-wrapper {
@@ -185,4 +196,10 @@
     top: calc(50% - 1px);
     left: 50%;
     transform: translate(-50%, -50%) scale(0.375);
+}
+
+.item-modal .action-link span {
+    font-weight: 300;
+
+    color: var(--onSurface);
 }

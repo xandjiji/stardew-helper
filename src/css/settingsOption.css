@@ -7,6 +7,9 @@
     border: inset 2px rgba(0, 0, 0, 0);
     cursor: pointer;
     transition: 0.15s ease-out;
+
+    background-color: var(--surface);
+    border-bottom-color: var(--separator) !important;
 }
 
 .option-wrapper:not(:last-child) .option-head {

@@ -1,6 +1,8 @@
 .header-bar {
     position: relative;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+
+    background-color: var(--surface);
 }
 
 .header-bar .settings-button {
@@ -68,6 +70,8 @@
     transform: translateX(-100%);
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
     transition: 0.2s ease-out;
+
+    background-color: var(--background);
 }
 
 .header-bar .sidebar.active {
@@ -95,6 +99,8 @@
 .header-bar .sidebar-header {
     width: 100%;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+
+    background-color: var(--surface);
 }
 
 .header-bar .sidebar-header-wrapper {
@@ -142,6 +148,9 @@
 .header-bar .sidebar-footer {
     padding: 10px 0 8px 0;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.14);
+
+    background-color: var(--primary);
+    color: var(--primaryVariant);
 }
 
 .header-bar .sidebar-footer .container {
@@ -152,6 +161,9 @@
 
 .header-bar .git-icon {
     margin-right: 16px;
+
+    color: var(--onSurface);
+    fill: var(--onPrimary);
 }
 
 .header-bar .git-icon svg {
@@ -169,4 +181,6 @@
     position: relative;
     margin-left: 4px;
     font-weight: 400;
+
+    color: var(--onPrimary);
 }

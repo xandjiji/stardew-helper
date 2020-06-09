@@ -5,8 +5,6 @@ import { buildClassName } from '../utils';
 
 import '../css/item.css';
 
-import themes from '../jsons/themes.json';
-
 export class Item extends Component {
     constructor(props) {
         super(props);
@@ -22,8 +20,6 @@ export class Item extends Component {
     }
 
     render() {
-        let palette = themes.themes[this.props.themeId];
-
         const { name, itemCount, id, globalID } = this.props.item;
         
 
@@ -52,17 +48,13 @@ export class Item extends Component {
                     className={`item-name-wrapper ${fadedClass}`}
                     onClick={() => this.props.openModal(globalID)}>
                     <div className={`sprite ${itemClass}`}>{qualityElement}</div>
-                    <div className="item-info" style={{ color: palette.onSurface }}>
+                    <div className="item-info">
                         <span className="item-name">{name}</span>
                         <span className="item-count">{`(${itemCount ? itemCount : 1}x)`}</span>
                     </div>
                 </div>
-                <div
-                    className={`checkbox ${completedClass}`}
-                    onClick={() => this.props.toggleItem(id)}
-                    style={{ borderColor: palette.primaryVariant }}>
-
-                    <span className="checkmark" style={{ backgroundColor: palette.primary, borderColor: palette.onPrimary }}></span>
+                <div className={`checkbox ${completedClass}`} onClick={() => this.props.toggleItem(id)}>
+                    <span className="checkmark"></span>
                 </div>
             </div>
         )
@@ -72,8 +64,7 @@ export class Item extends Component {
 const mapStateToProps = (state, ownProps) => {
 
     return {
-        active: state.itemReducer[ownProps.item.id],
-        themeId: state.themeReducer
+        active: state.itemReducer[ownProps.item.id]
     };
 };
 
