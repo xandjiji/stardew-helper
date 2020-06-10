@@ -23,9 +23,6 @@ const setTheme = (themes, index) => {
 
     addressBar = document.querySelector('meta[name=msapplication-navbutton-color]')
     addressBar.setAttribute('content', primary);
-
-    addressBar = document.querySelector('meta[name=apple-mobile-web-app-status-bar-style]')
-    addressBar.setAttribute('content', primary);
 }
 
 const buildClassName = (name) => {
