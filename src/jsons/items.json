@@ -21954,7 +21954,7 @@
         "link": "Hardwood",
         "sellPrice": "150",
         "obtainedFrom": [
-            "@Chopping a Large Stump (requires &723~ or Better)",
+            "@Chopping a Large Stump (requires &723~ or Better) (six Large Stumps respawn daily at the Secret Woods)",
             "@Chopping a Large Log (requires a &724~ or better)"
         ],
         "makes": [

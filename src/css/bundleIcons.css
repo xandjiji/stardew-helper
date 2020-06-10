@@ -1,6 +1,6 @@
 .bundle-icon {
-    width: 96px;
-    height: 96px;
+    width: 72px;
+    height: 72px;
     flex-shrink: 0;
 
     background: url('../assets/bundle_icons.png');
@@ -8,125 +8,125 @@
 }
 
 .bg-2500_Bundle {
-    background-position-y: -0;
+    background-position-y: -0px;
 }
 
 .bg-5000_Bundle {
-    background-position-y: -96px;
+    background-position-y: -72px;
 }
 
 .bg-10000_Bundle {
-    background-position-y: -192px;
+    background-position-y: -144px;
 }
 
 .bg-25000_Bundle {
-    background-position-y: -288px;
+    background-position-y: -216px;
 }
 
 .bg-Adventurers_Bundle {
-    background-position-y: -384px;
+    background-position-y: -288px;
 }
 
 .bg-Animal_Bundle {
-    background-position-y: -480px;
+    background-position-y: -360px;
 }
 
 .bg-Artisan_Bundle {
-    background-position-y: -576px;
+    background-position-y: -432px;
 }
 
 .bg-Blacksmith_Bundle {
-    background-position-y: -672px;
+    background-position-y: -502px;
 }
 
 .bg-Chefs_Bundle {
-    background-position-y: -768px;
+    background-position-y: -576px;
 }
 
 .bg-Construction_Bundle {
-    background-position-y: -864px;
+    background-position-y: -648px;
 }
 
 .bg-Crab_Pot_Bundle {
-    background-position-y: -960px;
+    background-position-y: -720px;
 }
 
 .bg-Dye_Bundle {
-    background-position-y: -1056px;
+    background-position-y: -792px;
 }
 
 .bg-Enchanters_Bundle {
-    background-position-y: -1152px;
+    background-position-y: -864px;
 }
 
 .bg-Exotic_Foraging_Bundle {
-    background-position-y: -1248px;
+    background-position-y: -936px;
 }
 
 .bg-Fall_Crops_Bundle {
-    background-position-y: -1344px;
+    background-position-y: -1008px;
 }
 
 .bg-Fall_Foraging_Bundle {
-    background-position-y: -1440px;
+    background-position-y: -1080px;
 }
 
 .bg-Field_Research_Bundle {
-    background-position-y: -1536px;
+    background-position-y: -1152px;
 }
 
 .bg-Fodder_Bundle {
-    background-position-y: -1632px;
+    background-position-y: -1224px;
 }
 
 .bg-Geologists_Bundle {
-    background-position-y: -1728px;
+    background-position-y: -1296px;
 }
 
 .bg-Lake_Fish_Bundle {
-    background-position-y: -1824px;
+    background-position-y: -1368px;
 }
 
 .bg-Night_Fishing_Bundle {
-    background-position-y: -1920px;
+    background-position-y: -1440px;
 }
 
 .bg-Ocean_Fish_Bundle {
-    background-position-y: -2016px;
+    background-position-y: -1512px;
 }
 
 .bg-Quality_Crops_Bundle {
-    background-position-y: -2112px;
+    background-position-y: -1584px;
 }
 
 .bg-River_Fish_Bundle {
-    background-position-y: -2208px;
+    background-position-y: -1656px;
 }
 
 .bg-Specialty_Fish_Bundle {
-    background-position-y: -2304px;
+    background-position-y: -1728px;
 }
 
 .bg-Spring_Crops_Bundle {
-    background-position-y: -2400px;
+    background-position-y: -1800px;
 }
 
 .bg-Spring_Foraging_Bundle {
-    background-position-y: -2496px;
+    background-position-y: -1872px;
 }
 
 .bg-Summer_Crops_Bundle {
-    background-position-y: -2592px;
+    background-position-y: -1944px;
 }
 
 .bg-Summer_Foraging_Bundle {
-    background-position-y: -2688px;
+    background-position-y: -2016px;
 }
 
 .bg-The_Missing_Bundle {
-    background-position-y: -2784px;
+    background-position-y: -2088px;
 }
 
 .bg-Winter_Foraging_Bundle {
-    background-position-y: -2880px;
+    background-position-y: -2160px;
 }

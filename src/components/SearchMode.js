@@ -52,6 +52,8 @@ export class SearchMode extends Component {
     fetchItems(queryString) {
 
         if (queryString !== '') {
+
+            queryString = escapeRegex(queryString);
             let results = [];
             let regex = new RegExp(queryString, 'gi');
 
@@ -88,7 +90,7 @@ export class SearchMode extends Component {
                     {
                         this.state.resultBag.map((element, index) =>
                             <div
-                                className={`${buildClassName(element.name)} result-item`}
+                                className={`${buildClassName(element.name)} result-item smooth`}
                                 key={index}
                                 onClick={() => this.props.openModal(element.id)}>
                             </div>
@@ -98,6 +100,10 @@ export class SearchMode extends Component {
             </div>
         )
     }
+}
+
+function escapeRegex(string) {
+    return string.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 }
 
 const mapStateToProps = () => {

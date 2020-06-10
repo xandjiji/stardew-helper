@@ -80,18 +80,17 @@
 }
 
 .bundle-item .reward-text-wrapper {
-    margin-left: 8px;
-    display: flex;
-    flex-direction: column;
+    margin-left: 4px;
     cursor: pointer;
 }
 
 .bundle-item .bundle-reward-text {
-    font-size: 16px;
+    font-size: 12px;
+    margin-right: 4px;
 }
 
 .bundle-item .reward-count {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
 }
 
@@ -106,3 +105,16 @@
     overflow-x: hidden;
 }
 /* END GAMBIARRA */
+
+.sprite-wrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.sprite-wrapper > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+}

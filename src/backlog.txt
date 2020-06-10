@@ -1,5 +1,4 @@
 modes:
-    all items search (https://stardewvalleywiki.com/Collections)
     calendar (4 seasons)
         modal evento
         modal npc
@@ -17,6 +16,7 @@ xizinho modal item
 reset undo?
 scrollbar (inherit)
 otimizar .jsons
+search autofocus input
 
 
 item info
@@ -51,5 +51,3 @@ RESOURCES
 CALENDAR
 
 NPC?
-
-SEARCH

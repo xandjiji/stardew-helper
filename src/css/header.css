@@ -2,13 +2,14 @@
     position: relative;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 
-    background-color: var(--surface);
+    background-color: var(--primary);
 }
 
 .header-bar .settings-button {
     padding: 4px 0 2px 0;
     display: flex;
     justify-content: space-between;
+    fill: var(--onPrimary);
 }
 
 .header-bar .settings-button svg {
@@ -100,7 +101,9 @@
     width: 100%;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 
-    background-color: var(--surface);
+    background-color: var(--primary);
+    color: var(--onPrimary);
+    fill: var(--onPrimary);
 }
 
 .header-bar .sidebar-header-wrapper {

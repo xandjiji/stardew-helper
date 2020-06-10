@@ -51,7 +51,9 @@ export class Bundle extends Component {
             rewardElement =
                 <div className="bundle-reward-wrapper">
                     <span className="bundle-reward smooth" onClick={() => this.props.openModal(reward.globalID)}>
-                        <div className={`sprite ${buildClassName(reward.name)}`}></div>
+                        <div className="sprite-wrapper">
+                            <div className={`${buildClassName(reward.name)}`}></div>
+                            </div>
                         <div className="reward-text-wrapper">
                             <span className="bundle-reward-text">{reward.name}</span>
                             <span className="reward-count">({reward.itemCount}x)</span>
