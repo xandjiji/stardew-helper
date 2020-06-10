@@ -62,9 +62,9 @@ export class Header extends Component {
             <div className="header-bar">
                 <div className="settings-button container">
                     <div className="modes-wrapper">
-                        <BundleIcon className={mode === 'bundle' ? 'active' : '' } onClick={() => this.props.setMode('bundle')} />
-                        <SeasonIcon className={mode === 'season' ? 'active' : '' } onClick={() => this.props.setMode('season')} />
-                        <SearchIcon className={mode === 'search' ? 'active' : '' } onClick={() => this.props.setMode('search')} />
+                        <BundleIcon className={mode === 'bundle' ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
+                        <SeasonIcon className={mode === 'season' ? 'active' : ''} onClick={() => this.props.setMode('season')} />
+                        <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
                     </div>
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />
                 </div>

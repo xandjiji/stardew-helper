@@ -16,6 +16,16 @@ const setTheme = (themes, index) => {
     document.documentElement.style.setProperty("--primary", primary);
     document.documentElement.style.setProperty("--onPrimary", onPrimary);
     document.documentElement.style.setProperty("--primaryVariant", primaryVariant);
+
+    let addressBar;
+    addressBar = document.querySelector('meta[name=theme-color]')
+    addressBar.setAttribute('content', primary);
+
+    addressBar = document.querySelector('meta[name=msapplication-navbutton-color]')
+    addressBar.setAttribute('content', primary);
+
+    addressBar = document.querySelector('meta[name=apple-mobile-web-app-status-bar-style]')
+    addressBar.setAttribute('content', primary);
 }
 
 const buildClassName = (name) => {
