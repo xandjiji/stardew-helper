@@ -31071,5 +31071,14 @@
                 30
             ]
         }
+    },
+    {
+        "id": 973,
+        "name": "Anchor (Furniture)",
+        "link": "Anchor_(Furniture)",
+        "obtainedFrom": [
+            "Can be purchased at the Carpenter's Shop (750g)",
+            "@&612~ (0g)"
+        ]
     }
 ]
