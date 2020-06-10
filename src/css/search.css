@@ -1,0 +1,90 @@
+.search-wrapper {
+    margin: 16px 28px;
+    background-color: var(--surface);
+}
+
+.search-wrapper .search-head {
+    position: relative;
+    display: flex;
+}
+
+.search-wrapper .search-input {
+    padding: 6px 30px 6px 6px;
+    flex-grow: 1;
+    border-radius: 6px 0 0 6px;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+
+    border: solid 1px var(--separator);
+    background-color: var(--surface);
+    color: var(--onSurface);
+}
+
+.search-wrapper .search-input:focus {
+    outline: none;
+}
+
+.search-wrapper .reset-button {
+    padding: 10px;
+    position: absolute;
+    top: 3px;
+    right: 36px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.search-wrapper .reset-button.active {
+    pointer-events: unset;
+    opacity: 1;
+}
+
+.search-wrapper .search-icon {
+    padding: 8px;
+    border-radius: 0 6px 6px 0;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+    background-color: var(--primary);
+    fill: var(--onPrimary);
+}
+
+.search-wrapper .search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.search-wrapper .search-results::after {
+    content: '';
+    flex: auto;
+}
+
+.search-wrapper .result-item {
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s ease-out;
+}
+
+.search-wrapper .result-item:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.search-wrapper .results-text {
+    padding: 0 0 8px 6px;
+    margin-top: 8px;
+    display: block;
+    font-size: 11px;
+    font-weight: 300;
+    color: transparent;
+    border-bottom: solid 1px var(--separator);
+}
+
+.search-wrapper .results-text.active {
+    color: var(--onSurface);
+    transition: 0.2s ease-out;
+}
