@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/stardew-helper/static/css/main.567ba341.chunk.css",
-    "main.js": "/stardew-helper/static/js/main.5d723855.chunk.js",
-    "main.js.map": "/stardew-helper/static/js/main.5d723855.chunk.js.map",
+    "main.css": "/stardew-helper/static/css/main.51c1a086.chunk.css",
+    "main.js": "/stardew-helper/static/js/main.2aabbf81.chunk.js",
+    "main.js.map": "/stardew-helper/static/js/main.2aabbf81.chunk.js.map",
     "runtime-main.js": "/stardew-helper/static/js/runtime-main.f4c516d1.js",
     "runtime-main.js.map": "/stardew-helper/static/js/runtime-main.f4c516d1.js.map",
     "static/js/2.0a3b8a85.chunk.js": "/stardew-helper/static/js/2.0a3b8a85.chunk.js",
     "static/js/2.0a3b8a85.chunk.js.map": "/stardew-helper/static/js/2.0a3b8a85.chunk.js.map",
     "index.html": "/stardew-helper/index.html",
-    "precache-manifest.df2abf630a63854aa99d69126e7db78a.js": "/stardew-helper/precache-manifest.df2abf630a63854aa99d69126e7db78a.js",
+    "precache-manifest.3b9ec3b10b2814053fac005ae0a0b212.js": "/stardew-helper/precache-manifest.3b9ec3b10b2814053fac005ae0a0b212.js",
     "service-worker.js": "/stardew-helper/service-worker.js",
-    "static/css/main.567ba341.chunk.css.map": "/stardew-helper/static/css/main.567ba341.chunk.css.map",
+    "static/css/main.51c1a086.chunk.css.map": "/stardew-helper/static/css/main.51c1a086.chunk.css.map",
     "static/js/2.0a3b8a85.chunk.js.LICENSE.txt": "/stardew-helper/static/js/2.0a3b8a85.chunk.js.LICENSE.txt",
     "static/media/main.css": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf",
     "static/media/arrow.0ee7e08a.svg": "/stardew-helper/static/media/arrow.0ee7e08a.svg",
-    "static/media/bundleIcons.css": "/stardew-helper/static/media/bundle_icons.b3c76a9c.png",
+    "static/media/bundleIcons.css": "/stardew-helper/static/media/bundle_icons.322d417b.png",
     "static/media/close.591ab64a.svg": "/stardew-helper/static/media/close.591ab64a.svg",
     "static/media/cloudy.c121914f.svg": "/stardew-helper/static/media/cloudy.c121914f.svg",
     "static/media/confirmed.6dfca8fc.svg": "/stardew-helper/static/media/confirmed.6dfca8fc.svg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4c516d1.js",
     "static/js/2.0a3b8a85.chunk.js",
-    "static/css/main.567ba341.chunk.css",
-    "static/js/main.5d723855.chunk.js"
+    "static/css/main.51c1a086.chunk.css",
+    "static/js/main.2aabbf81.chunk.js"
   ]
 }
