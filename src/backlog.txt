@@ -16,12 +16,7 @@ xizinho modal item
 reset undo?
 scrollbar (inherit)
 otimizar .jsons
-search autofocus input
-
-
-item info
-https://docs.google.com/spreadsheets/d/1sPlQK4DFgjs5HV8SFi4Y1MyA1zJ5Yo6taY4Pt7fjYlY/edit#gid=0
-
+search async foreach
 
 FARM PRODUCTS:
     CROPSx

@@ -97,6 +97,7 @@ export class SearchMode extends Component {
                     <input
                         ref={this.inputRef}
                         className="search-input smooth"
+                        placeholder="Search"
                         value={this.state.query}
                         onChange={this.handleChange}
                         onKeyDown={this.handleKey}
