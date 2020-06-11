@@ -9,17 +9,14 @@
 }
 
 .search-wrapper .search-input {
-    padding: 6px 30px 6px 6px;
+    padding: 6px 30px 6px 14px;
     flex-grow: 1;
     border-radius: 6px 0 0 6px;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.2px;
-
     border: solid 1px var(--separator);
-    background-color: var(--surface);
-    color: var(--onSurface);
 }
 
 .search-wrapper .search-input:focus {
@@ -45,8 +42,13 @@
     padding: 8px;
     border-radius: 0 6px 6px 0;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+    cursor: pointer;
     background-color: var(--primary);
     fill: var(--onPrimary);
+}
+
+.search-wrapper .search-icon:hover {
+    opacity: 0.9;
 }
 
 .search-wrapper .search-results {
@@ -63,14 +65,29 @@
 }
 
 .search-wrapper .result-item {
+    position: relative;
     padding: 2px;
     margin: 2px;
     cursor: pointer;
-    border-radius: 6px;
     transition: 0.2s ease-out;
 }
 
 .search-wrapper .result-item:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.search-wrapper .result-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    transition: 0.2s ease-out;
+}
+
+.search-wrapper .result-item:hover::after {
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 

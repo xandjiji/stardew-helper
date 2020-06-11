@@ -20,10 +20,14 @@ export class SearchMode extends Component {
             resultBag: []
         }
 
+        this.inputRef = React.createRef();
+
         this.fetchItems = this.fetchItems.bind(this);
 
         this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
+        this.handleKey = this.handleKey.bind(this);
+        this.handleButton = this.handleButton.bind(this);
 
         this.handleResize = this.handleResize.bind(this);
     }
@@ -45,8 +49,19 @@ export class SearchMode extends Component {
         this.fetchItems(event.target.value);
     }
 
+    handleKey(event) {
+        if(event.keyCode === 13) {
+            this.inputRef.current.blur()
+        }
+    }
+
     handleClick() {
         this.setState({ query: '', resultBag: [] });
+        this.inputRef.current.focus()
+    }
+
+    handleButton() {
+        this.inputRef.current.blur()
     }
 
     fetchItems(queryString) {
@@ -72,16 +87,24 @@ export class SearchMode extends Component {
         const { length } = this.state.resultBag;
         let dynamicStyle = { maxHeight: 0 }
 
-        if(length > 0) {
+        if (length > 0) {
             dynamicStyle = { maxHeight: this.state.viewportH - 192 }
         }
 
         return (
             <div className="search-wrapper material">
                 <div className="search-head">
-                    <input className="search-input smooth" value={this.state.query} onChange={this.handleChange} />
+                    <input
+                        ref={this.inputRef}
+                        className="search-input smooth"
+                        value={this.state.query}
+                        onChange={this.handleChange}
+                        onKeyDown={this.handleKey}
+                        autoFocus={true}
+                    />
+
                     <CloseIcon className={`reset-button smooth ${this.state.query === '' ? '' : 'active'}`} onClick={this.handleClick} />
-                    <SearchIcon className="search-icon" />
+                    <SearchIcon className="search-icon smooth" onClick={this.handleButton} />
                 </div>
 
                 <span className={`results-text ${length > 0 ? 'active' : ''}`}>{length} results found</span>
@@ -90,7 +113,7 @@ export class SearchMode extends Component {
                     {
                         this.state.resultBag.map((element, index) =>
                             <div
-                                className={`${buildClassName(element.name)} result-item smooth`}
+                                className={`${buildClassName(element.name)} result-item`}
                                 key={index}
                                 onClick={() => this.props.openModal(element.id)}>
                             </div>
