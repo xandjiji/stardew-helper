@@ -66,14 +66,9 @@
 
 .search-wrapper .result-item {
     position: relative;
-    padding: 2px;
     margin: 2px;
     cursor: pointer;
     transition: 0.2s ease-out;
-}
-
-.search-wrapper .result-item:hover {
-    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
 .search-wrapper .result-item::after {
@@ -89,6 +84,10 @@
 
 .search-wrapper .result-item:hover::after {
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.search-wrapper .result-item:active::after {
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.14);
 }
 
 .search-wrapper .results-text {
