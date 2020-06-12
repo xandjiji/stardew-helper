@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import Header from './components/Header';
 import RoomMode from './components/RoomMode';
 import SeasonMode from './components/SeasonMode';
+import FarmMode from './components/FarmMode';
 import SearchMode from './components/SearchMode';
 
 import ItemModal from './components/ItemModal';
@@ -34,6 +35,8 @@ export class Main extends Component {
             modeElement = <SeasonMode />
         } else if(mode === "search") {
             modeElement = <SearchMode />
+        } else if(mode === "farming") {
+            modeElement = <FarmMode />
         }
 
         return (

@@ -9,6 +9,8 @@ import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
 import { ReactComponent as SeasonIcon } from '../assets/cloudy.svg';
 import { ReactComponent as SearchIcon } from '../assets/search.svg';
+import { ReactComponent as FarmerIcon } from '../assets/farmer.svg';
+import { ReactComponent as PickIcon } from '../assets/pick.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
 
@@ -64,6 +66,8 @@ export class Header extends Component {
                     <div className="modes-wrapper">
                         <BundleIcon className={mode === 'bundle' ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
                         <SeasonIcon className={mode === 'season' ? 'active' : ''} onClick={() => this.props.setMode('season')} />
+                        <FarmerIcon className={mode === 'farming' ? 'active' : ''} onClick={() => this.props.setMode('farming')} />
+                        <PickIcon className={mode === 'mining' ? 'active' : ''} onClick={() => this.props.setMode('mining')} />
                         <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
                     </div>
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />

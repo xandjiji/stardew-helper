@@ -12,35 +12,35 @@ QA:
 
 push sidebar
 push item modal
-xizinho modal item
+esc close (modal/sidebar)
 reset undo?
 scrollbar (inherit)
 otimizar .jsons
 search async foreach
 
 FARM PRODUCTS:
-    CROPSx
+    CROPS
         PROFITABILITY (SORT BY: SEASON)
-    ANIMAL PRODUCTSx
+    ANIMAL PRODUCTS
         PRICE
-    ARTISAN GOODSx
+    ARTISAN GOODS
         PRICE
-    FISHx
+    FISH
         GRID (SORT BY: SEASON)
-    FOODx
+    FOOD
         GRID
 
 
 RESOURCES
-    MINERALSx
+    MINERALS
         GRID
-    ARTIFACTSx
+    ARTIFACTS
         GRID
     WEAPONSx
         STATS (SORT BY: SWORD/DAGGER/CLUB/DISTANCE)
-    WEAREABLEx
+    WEAREABLE
         STATS/GRID (SORT BY: FOOTWEAR/RINGS/HATS)
-    FURNITUREx
+    FURNITURE
         GRID
 
 CALENDAR
