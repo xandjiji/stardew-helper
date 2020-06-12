@@ -5,7 +5,7 @@ const path = require('path');
 
 newlist = []
 
-fs.readFile('../src/items.json', 'utf8', (err, jsonString) => {
+fs.readFile('../src/jsons/items.json', 'utf8', (err, jsonString) => {
     if (err) {
         console.log("File read failed:", err)
         return
@@ -15,7 +15,7 @@ fs.readFile('../src/items.json', 'utf8', (err, jsonString) => {
 
     /* console.log(data); */
     
-    fs.readFile('../jsons/tables.json', 'utf8', (err, jsonString2) => {
+    fs.readFile('../src/jsons/tables.json', 'utf8', (err, jsonString2) => {
         if (err) {
             console.log("File read failed:", err)
             return
@@ -46,7 +46,7 @@ fs.readFile('../src/items.json', 'utf8', (err, jsonString) => {
 });
 
 function saveData(name, data) {
-    fs.writeFile(`../jsons/tables/${name}.json`, JSON.stringify(data), err => {
+    fs.writeFile(`../src/jsons/tables/${name}.json`, JSON.stringify(data), err => {
         if (err) {
             /* console.log('Error writing file', err) */
         } else {
