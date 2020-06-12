@@ -13,37 +13,38 @@ import allAnimalProducts from '../jsons/tables/allAnimalProducts.json';
 import allArtisanGoods from '../jsons/tables/allArtisanGoods.json';
 
 import allFishes from '../jsons/tables/allFishes.json';
-import springFishes from '../jsons/tables/springFish.json';
-import summerFishes from '../jsons/tables/summerFish.json';
+import springFish from '../jsons/tables/springFish.json';
+import summerFish from '../jsons/tables/summerFish.json';
 import fallFish from '../jsons/tables/fallFish.json';
 import winterFish from '../jsons/tables/winterFish.json';
 
 import allRecipes from '../jsons/tables/allRecipes.json';
 
-
-/*
-FARM PRODUCTS:
-    CROPS
-        PROFITABILITY (SORT BY: SEASON)
-    ANIMAL PRODUCTS
-        PRICE
-    ARTISAN GOODS
-        PRICE
-    FISH
-        GRID (SORT BY: SEASON)
-    FOOD
-        GRID
-*/
-
 let cropList = [
-    { name: 'All Crops', list: allCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
-    { name: 'Spring Crops', list: springCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
-    { name: 'Summer Crops', list: summerCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
-    { name: 'Fall Crops', list: fallCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } }
+    { name: 'All', list: allCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
+    { name: 'Spring', list: springCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
+    { name: 'Summer', list: summerCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
+    { name: 'Fall', list: fallCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } }
 ];
 
 let animalProductsList = {
     name: 'Animal Products', list: allAnimalProducts, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
+}
+
+let artisanGoodsList = {
+    name: 'Artisan Goods', list: allArtisanGoods, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
+}
+
+let fishList = [
+    { name: 'All', list: allFishes, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+    { name: 'Spring', list: springFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+    { name: 'Summer', list: summerFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+    { name: 'Fall', list: fallFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+    { name: 'Winter', list: winterFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } }
+];
+
+let foodList = {
+    name: 'Dishes', list: allRecipes, layout: { stats: 'foodBuff' }
 }
 
 export class FarmMode extends Component {
@@ -51,8 +52,11 @@ export class FarmMode extends Component {
         return (
             <div className="carousel-container farming-carousel">
                 <Carousel compensate={62}>
-                    <ListView icon={'Tomato'} title={'Crops'} list={cropList} />
-                    <ListView icon={'Truffle'} title={'Animal Products'} list={animalProductsList} />
+                    <ListView icon={'Iridium Watering Can'} title={'Crops'} list={cropList} />
+                    <ListView icon={'Hay'} title={'Animal Products'} list={animalProductsList} />
+                    <ListView icon={'Wine'} title={'Artisan Goods'} list={artisanGoodsList} />
+                    <ListView icon={'Iridium Rod'} title={'Fishes'} list={fishList} />
+                    <ListView icon={'Salmon Dinner'} title={'Dishes'} list={foodList} />
                 </Carousel>
             </div>
         )

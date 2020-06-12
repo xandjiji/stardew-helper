@@ -5,11 +5,6 @@ modes:
 
 desktop
 
-QA:
-    animations https://www.cssscript.com/animated-checkbox-labels-with-pure-css-css3/
-    redesign
-    total counter
-
 push sidebar
 push item modal
 esc close (modal/sidebar)
@@ -17,19 +12,6 @@ reset undo?
 scrollbar (inherit)
 otimizar .jsons
 search async foreach
-
-FARM PRODUCTS:
-    CROPS
-        PROFITABILITY (SORT BY: SEASON)
-    ANIMAL PRODUCTS
-        PRICE
-    ARTISAN GOODS
-        PRICE
-    FISH
-        GRID (SORT BY: SEASON)
-    FOOD
-        GRID
-
 
 RESOURCES
     MINERALS

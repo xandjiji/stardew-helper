@@ -7,8 +7,6 @@ import { buildClassName } from '../utils';
 
 import '../css/listView.css';
 
-/* <ListView icon={238} title={'Crops'} list={allCrops} sorts={cropSorts} /> */
-
 export class ListView extends Component {
     constructor(props) {
         super(props);
@@ -64,20 +62,41 @@ export class ListView extends Component {
         let element;
 
         if (layout !== undefined) {
+            
+            const { stats, icon } = layout;
+            if(stats === 'foodBuff') {
+                
+                if(item[stats] !== undefined) {
+                    element =
+                    <div className="item-info list">
+                        {
+                            item[stats].map((element, index) => 
+                                <div className="item-info-item" key={index}>
+                                    <div className={`buff-sprite ${buildClassName(element.buffName)}`}></div>
+                                    <span className="stat-info">{element.buffName} ({element.buffQty})</span>
+                                </div>
+                            )
+                        }
+                    </div>
+                }
+
+                return element
+            }
+
+
             let appendText = '';
-            if(layout.stats === 'profitability') {
+            if(stats === 'profitability') {
                 appendText = 'g/day';
-            } else if (layout.stats === 'sellPrice') {
+            } else if (stats === 'sellPrice') {
                 appendText = 'g';
             }
 
             element =
                 <div className="item-info">
-                    <div className={layout.icon}></div>
-                    {item[layout.stats]}{appendText}
+                    <div className={`item-sprite ${icon}`}></div>
+                    {item[stats]}{appendText}
                 </div>
         }
-
 
         return element;
     }
