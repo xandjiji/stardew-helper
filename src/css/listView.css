@@ -66,6 +66,7 @@
 
 .list-wrapper .item-info {
     display: flex;
+    max-width: 110px;
     align-items: center;
     font-size: 12px;
     font-weight: 300;
@@ -184,6 +185,10 @@
     margin-bottom: 3px;
 }
 
+.list-wrapper .item-info-item.hide {
+    display: none;
+}
+
 .list-wrapper .buff-sprite {
     margin-right: 4px;
     flex-shrink: 0;
@@ -191,4 +196,35 @@
 
 .list-wrapper .stat-info {
     font-size: 12px;
+}
+
+/* GRID */
+.list-wrapper .list.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-wrapper .list.grid::after {
+    content: '';
+    flex: auto;
+}
+
+.list-wrapper .list.grid .list-item {
+    padding: 0;
+    margin: 2px;
+    border: none;
+}
+
+.list-wrapper .list.grid .item-name {
+    padding: 0;
+}
+
+.list-wrapper .list.grid .list-item .sprite {
+    margin: 0;
+}
+
+.list-wrapper .list.grid .item-name span {
+    display: none;
 }

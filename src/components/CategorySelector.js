@@ -20,6 +20,23 @@ import winterFish from '../jsons/tables/winterFish.json';
 
 import allRecipes from '../jsons/tables/allRecipes.json';
 
+import allMinerals from '../jsons/tables/allMinerals.json';
+
+import allArtifacts from '../jsons/tables/allArtifacts.json';
+
+import allWeapons from '../jsons/tables/allWeapons.json';
+import swords from '../jsons/tables/swords.json';
+import daggers from '../jsons/tables/daggers.json';
+import clubs from '../jsons/tables/clubs.json';
+import distance from '../jsons/tables/distance.json';
+
+import allEquipments from '../jsons/tables/allWereables.json';
+import footwear from '../jsons/tables/footwear.json';
+import rings from '../jsons/tables/rings.json';
+import hats from '../jsons/tables/hats.json';
+
+import allFurnitures from '../jsons/tables/allFurnitures.json';
+
 let cropList = [
     { name: 'All', list: allCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
     { name: 'Spring', list: springCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
@@ -45,6 +62,33 @@ let fishList = [
 
 let dishesList = {
     name: 'Dishes', list: allRecipes, layout: { stats: 'foodBuff' }
+}
+
+let mineralsList = {
+    name: 'Minerals', list: allMinerals, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
+}
+
+let artifactsList = {
+    name: 'Artifacts', list: allArtifacts
+}
+
+let weaponsList = [
+    { name: 'All', list: allWeapons, layout: { stats: 'stats' } },
+    { name: 'Swords', list: swords, layout: { stats: 'stats' } },
+    { name: 'Daggers', list: daggers, layout: { stats: 'stats' } },
+    { name: 'Clubs', list: clubs, layout: { stats: 'stats' } },
+    { name: 'Distance', list: distance, layout: { stats: 'stats' } }
+];
+
+let equipmentList = [
+    { name: 'All', list: allEquipments },
+    { name: 'Footwear', list: footwear, layout: { stats: 'stats' } },
+    { name: 'Rings', list: rings, layout: { stats: 'effect' } },
+    { name: 'Hats', list: hats }
+];
+
+let furnituresList = {
+    name: 'Furnitures', list: allFurnitures
 }
 
 export class CategorySelector extends Component {
@@ -73,34 +117,25 @@ export class CategorySelector extends Component {
                 currentModeObj = modeFactory('Dishes', 'Salmon Dinner', dishesList);
                 break;
 
-            /* case 'crops':
-                currentModeObj = modeFactory('Crops', '', cropList);
+            case 'minerals':
+                currentModeObj = modeFactory('Minerals', 'Star Shards', mineralsList);
                 break;
 
-            case 'crops':
-                currentModeObj = modeFactory('Crops', '', cropList);
+            case 'artifacts':
+                currentModeObj = modeFactory('Artifacts', 'Prehistoric Skull', artifactsList);
                 break;
 
-            case 'crops':
-                currentModeObj = modeFactory('Crops', '', cropList);
+            case 'weapons':
+                currentModeObj = modeFactory('Weapons', 'Lava Katana', weaponsList);
                 break;
 
-            case 'crops':
-                currentModeObj = modeFactory('Crops', '', cropList);
+            case 'equipment':
+                currentModeObj = modeFactory('Equipment', 'Space Boots', equipmentList);
                 break;
 
-            case 'crops':
-                currentModeObj = modeFactory('Crops', '', cropList);
+            case 'furnitures':
+                currentModeObj = modeFactory('Furnitures', 'Futan Bear', furnituresList);
                 break;
-
-            case 'crops':
-                currentModeObj = modeFactory('Crops', '', cropList);
-                break;
-
-            case 'crops':
-                currentModeObj = modeFactory('Crops', '', cropList);
-                break; */
-
 
             default:
                 break;

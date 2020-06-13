@@ -78,3 +78,8 @@
     width: 24px; height: 24px;
     background: url('../../assets/spritesheets/sprites24px.png') -0 -360px;
 }
+
+.bg-Immunity {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -384px;
+}

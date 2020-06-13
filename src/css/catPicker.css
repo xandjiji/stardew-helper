@@ -16,7 +16,7 @@
     padding: 24px;
     position: absolute;
     top: calc(100% + 8px);
-    left: 16px;
+    left: 8px;
     z-index: 5;
     border-radius: 6px;
     background-color: var(--surface);

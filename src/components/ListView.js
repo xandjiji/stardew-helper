@@ -41,9 +41,9 @@ export class ListView extends Component {
     }
 
     componentDidUpdate(prevProps) {
-        if(this.props !== prevProps) {
+        if (this.props !== prevProps) {
             const { list } = this.props;
-    
+
             let currentList;
             if (Array.isArray(list)) {
                 currentList = list[0]
@@ -76,22 +76,53 @@ export class ListView extends Component {
         let element;
 
         if (layout !== undefined) {
-            
+
             const { stats, icon } = layout;
-            if(stats === 'foodBuff') {
-                
-                if(item[stats] !== undefined) {
+            if (stats === 'foodBuff') {
+
+                if (item[stats] !== undefined) {
                     element =
-                    <div className="item-info list">
-                        {
-                            item[stats].map((element, index) => 
-                                <div className="item-info-item" key={index}>
-                                    <div className={`buff-sprite ${buildClassName(element.buffName)}`}></div>
-                                    <span className="stat-info">{element.buffName} ({element.buffQty})</span>
-                                </div>
-                            )
-                        }
-                    </div>
+                        <div className="item-info list">
+                            {
+                                item[stats].map((element, index) =>
+                                    <div className="item-info-item" key={index}>
+                                        <div className={`buff-sprite ${buildClassName(element.buffName)}`}></div>
+                                        <span className="stat-info">{element.buffName} ({element.buffQty})</span>
+                                    </div>
+                                )
+                            }
+                        </div>
+                }
+
+                return element
+
+            } else if (stats === 'stats') {
+
+                if (item[stats].buff !== undefined) {
+                    element =
+                        <div className="item-info list">
+                            <div className={`item-info-item ${item[stats].damage == undefined ? 'hide' : ''}`}>
+                                <div className={`buff-sprite bg-Attack`}></div>
+                                <span className="stat-info">{item[stats].damage} dmg</span>
+                            </div>
+                            {
+                                item[stats].buff.map((element, index) =>
+                                    <div className="item-info-item" key={index}>
+                                        <div className={`buff-sprite ${buildClassName(element.stat)}`}></div>
+                                        <span className="stat-info">{element.stat} ({element.val})</span>
+                                    </div>
+                                )
+                            }
+                        </div>
+                } else {
+                    element =
+                        <div className="item-info list">
+                            <div className="item-info-item">
+                                <div className={`buff-sprite bg-Attack`}></div>
+                                <span className="stat-info">{item[stats].damage} dmg</span>
+                            </div>
+
+                        </div>
                 }
 
                 return element
@@ -99,7 +130,7 @@ export class ListView extends Component {
 
 
             let appendText = '';
-            if(stats === 'profitability') {
+            if (stats === 'profitability') {
                 appendText = 'g/day';
             } else if (stats === 'sellPrice') {
                 appendText = 'g';
@@ -158,7 +189,7 @@ export class ListView extends Component {
                 </div>
 
                 <div
-                    className="list custom-scrollbar"
+                    className={`list custom-scrollbar ${layout == undefined ? 'grid' : ''}`}
                     style={{ maxHeight: this.state.viewportH - 208 }}
                     onWheel={this.preventScroll}>
                     {

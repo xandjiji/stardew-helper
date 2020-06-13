@@ -26,16 +26,16 @@ export class CatPicker extends Component {
                     <CatItem name="Minerals" icon="Star Shards" mode="minerals" close={notifyClose} />
                     <CatItem name="Artifacts" icon="Prehistoric Skull" mode="artifacts" close={notifyClose} />
                     <CatItem name="Weapons" icon="Lava Katana" mode="weapons" close={notifyClose} />
-                    <CatItem name="Equipment" icon="Cowboy Boots" mode="equipment" close={notifyClose} />
+                    <CatItem name="Equipment" icon="Space Boots" mode="equipment" close={notifyClose} />
                 </div>
 
                 <div className="cat-group">
                     <span className="cat-title">Misc</span>
 
                     <CatItem name="Dishes" icon="Salmon Dinner" mode="dishes" close={notifyClose} />
-                    <CatItem name="Furniture" icon="Futan Bear" mode="artifacts" close={notifyClose} />
-                    <CatItem name="Animals" icon="Chicken Mask" mode="animals" close={notifyClose} />
-                    <CatItem name="Monsters" icon="Mutant Carp" mode="monsters" close={notifyClose} />
+                    <CatItem name="Furniture" icon="Futan Bear" mode="furnitures" close={notifyClose} />
+                    {/* <CatItem name="Animals" icon="Chicken Mask" mode="animals" close={notifyClose} />
+                    <CatItem name="Monsters" icon="Mutant Carp" mode="monsters" close={notifyClose} /> */}
                 </div>
             </div>
         )

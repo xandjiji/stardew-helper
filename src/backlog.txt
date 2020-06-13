@@ -12,18 +12,6 @@ Cruzar actions make, recipe e obtained
 search async foreach
 carousel cursors
 
-RESOURCES
-    MINERALS
-        GRID
-    ARTIFACTS
-        GRID
-    WEAPONSx
-        STATS (SORT BY: SWORD/DAGGER/CLUB/DISTANCE)
-    WEAREABLE
-        STATS/GRID (SORT BY: FOOTWEAR/RINGS/HATS)
-    FURNITURE
-        GRID
-
 CALENDAR
 
 NPC?
