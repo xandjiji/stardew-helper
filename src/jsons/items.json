@@ -3078,7 +3078,7 @@
         "id": 56,
         "name": "Aged Roe",
         "link": "Aged_Roe",
-        "sellPrice": "(2 * Roe price) ",
+        "sellPrice": "(2 * roe price) ",
         "healing": {
             "energy": 100,
             "health": 45

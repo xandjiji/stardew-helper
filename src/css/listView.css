@@ -84,7 +84,7 @@
 .list-wrapper .selector {
     padding: 8px;
     position: relative;
-    width: 100px; /* HARDCODED */
+    width: 105px; /* HARDCODED */
     border-radius: 6px;
     background-color: transparent;
     border: solid 1px var(--separator);
@@ -111,7 +111,7 @@
 .list-wrapper .selected-option span {
     padding: 0 4px;
     position: absolute;
-    top: -13px;
+    top: -14px;
     font-size: 10px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -245,22 +245,6 @@
 .list-wrapper .item-info-item {
     padding: 6px 0;
     overflow: auto;
-    scrollbar-color: transparent transparent;
-    scrollbar-width: none;
-}
-
-.list-wrapper .item-info::-webkit-scrollbar,
-.list-wrapper .item-info-item::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-    background-color: transparent;
-}
-
-.list-wrapper .item-info::-webkit-scrollbar-thumb,
-.list-wrapper .item-info-item::-webkit-scrollbar-thumb {
-    width: 0;
-    height: 0;
-    background-color: transparent;
 }
 
 .list-wrapper .item-info.effect {
@@ -268,8 +252,11 @@
     text-align: center;
 }
 
-.list-wrapper .item-info.sellPrice {
-    text-align: right;
+.list-wrapper .item-info.sellPrice,
+.list-wrapper .item-info.profitability {
+    width: 95px;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .list-wrapper .item-info-item.stats {

@@ -193,7 +193,7 @@ export class ItemModal extends Component {
             sellElement =
                 <div className="info-box material">
                     <span className="info-title">Sell price</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         <span className="info-value"><div className="bg-Gold_Coin"></div>{sellPrice}g</span>
                     </div>
                 </div>
@@ -217,7 +217,7 @@ export class ItemModal extends Component {
             healsElement =
                 <div className="info-box material">
                     <span className="info-title">Heals</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         <span className="info-value tokenized-content">
                             {healthElement}
                             {energyElement}
@@ -231,7 +231,7 @@ export class ItemModal extends Component {
             buffsElement =
                 <div className="info-box material">
                     <span className="info-title">Buffs</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             foodBuff.map((buff, index) =>
                                 <span
@@ -267,7 +267,7 @@ export class ItemModal extends Component {
             statsElement =
                 <div className="info-box list material">
                     <span className="info-title">Stats</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {levelElement}
                         {damageElement}
                         {criticalChanceElement}
@@ -280,7 +280,7 @@ export class ItemModal extends Component {
             bonusElement =
                 <div className="info-box material">
                     <span className="info-title">Bonus</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             stats.buff.map((buff, index) =>
                                 <span
@@ -300,7 +300,7 @@ export class ItemModal extends Component {
             effectElement =
                 <div className="info-box material">
                     <span className="info-title">Effect</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         <span className="info-value">{effect}</span>
                     </div>
                 </div>
@@ -311,7 +311,7 @@ export class ItemModal extends Component {
             profitabilityElement =
                 <div className="info-box material">
                     <span className="info-title">Profitability</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         <span className="info-value"><div className="bg-Gold_Coin"></div>{profitability}g/day</span>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ export class ItemModal extends Component {
             harvestElement =
                 <div className="info-box material">
                     <span className="info-title">Harvests in</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         <span className="info-value">{harvestIn}</span>
                     </div>
                 </div>
@@ -333,7 +333,7 @@ export class ItemModal extends Component {
             obtainedElement =
                 <div className="info-box list material">
                     <span className="info-title">Obtained from</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             obtainedFrom.map((item, index) =>
                                 <span
@@ -353,7 +353,7 @@ export class ItemModal extends Component {
             makesElement =
                 <div className="info-box list material">
                     <span className="info-title">Makes</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             makes.map((item, index) =>
                                 <span
@@ -373,7 +373,7 @@ export class ItemModal extends Component {
             recipeElement =
                 <div className="info-box list material">
                     <span className="info-title">Recipe</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             recipe.map((item, index) =>
                                 <span
@@ -393,7 +393,7 @@ export class ItemModal extends Component {
             lovesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Loves</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             gifting.loves.map((item, index) =>
                                 <span
@@ -415,7 +415,7 @@ export class ItemModal extends Component {
             likesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Likes</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             gifting.likes.map((item, index) =>
                                 <span
@@ -437,7 +437,7 @@ export class ItemModal extends Component {
             neutralsElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Neutral</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             gifting.neutrals.map((item, index) =>
                                 <span
@@ -459,7 +459,7 @@ export class ItemModal extends Component {
             dislikesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Dislikes</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             gifting.dislikes.map((item, index) =>
                                 <span
@@ -481,7 +481,7 @@ export class ItemModal extends Component {
             hatesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Hates</span>
-                    <div className="info-content">
+                    <div className="info-content hide-scrollbar">
                         {
                             gifting.hates.map((item, index) =>
                                 <span

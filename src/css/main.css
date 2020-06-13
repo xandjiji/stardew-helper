@@ -96,6 +96,23 @@ svg {
     scrollbar-width: thin;
 }
 
+.hide-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.hide-hide {
+    scrollbar-color: transparent transparent;
+    scrollbar-width: none;
+}
+
 .sprite {
     flex-shrink: 0;
 }

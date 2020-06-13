@@ -84,10 +84,10 @@ export class ListView extends Component {
 
                 if (item[stats] !== undefined) {
                     element =
-                        <div className="item-info list">
+                        <div className="item-info list hide-scrollbar">
                             {
                                 item[stats].map((element, index) =>
-                                    <div className={`item-info-item ${stats}`} key={index}>
+                                    <div className={`item-info-item hide-scrollbar ${stats}`} key={index}>
                                         <div className={`buff-sprite ${buildClassName(element.buffName)}`}></div>
                                         <span className="stat-info">{element.buffName} ({element.buffQty})</span>
                                     </div>
@@ -104,14 +104,14 @@ export class ListView extends Component {
                 /* WITH BUFFS */
                 if (item[stats].buff !== undefined) {
                     element =
-                        <div className="item-info list">
-                            <div className={`item-info-item ${stats} ${item[stats].damage === undefined ? 'hide' : ''}`}>
+                        <div className="item-info list hide-scrollbar">
+                            <div className={`item-info-item hide-scrollbar ${stats} ${item[stats].damage === undefined ? 'hide' : ''}`}>
                                 <div className={`buff-sprite bg-Attack`}></div>
                                 <span className="stat-info">{item[stats].damage} damage</span>
                             </div>
                             {
                                 item[stats].buff.map((element, index) =>
-                                    <div className={`item-info-item ${stats}`} key={index}>
+                                    <div className={`item-info-item hide-scrollbar ${stats}`} key={index}>
                                         <div className={`buff-sprite ${buildClassName(element.stat)}`}></div>
                                         <span className="stat-info">{element.stat} ({element.val})</span>
                                     </div>
@@ -122,8 +122,8 @@ export class ListView extends Component {
                     /* NO BUFFS */
                 } else {
                     element =
-                        <div className="item-info list">
-                            <div className={`item-info-item ${stats}`}>
+                        <div className="item-info list hide-scrollbar">
+                            <div className={`item-info-item hide-scrollbar ${stats}`}>
                                 <div className={`buff-sprite bg-Attack`}></div>
                                 <span className="stat-info">{item[stats].damage} damage</span>
                             </div>
@@ -144,7 +144,7 @@ export class ListView extends Component {
                 }
 
                 element =
-                    <div className={`item-info ${stats}`}>
+                    <div className={`item-info hide-scrollbar ${stats}`}>
                         <div className={`item-sprite ${icon}`}></div>
                         {item[stats]}{appendText}
                     </div>

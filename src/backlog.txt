@@ -12,7 +12,6 @@ slider gordao
 cruzar actions make, recipe e obtained
 search async foreach
 
-
 CALENDAR
 
 NPC?

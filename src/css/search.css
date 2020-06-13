@@ -31,6 +31,7 @@
     cursor: pointer;
     pointer-events: none;
     opacity: 0;
+    fill: #000;
 }
 
 .search-wrapper .reset-button.active {
