@@ -1,0 +1,51 @@
+.cat-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.cat-backdrop.active {
+    pointer-events: unset;
+}
+
+.cat-picker {
+    padding: 24px;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 16px;
+    z-index: 5;
+    border-radius: 6px;
+    background-color: var(--surface);
+    transform-origin: 50% top;
+    transform: scale(0);
+    box-shadow: 3px 3px 5px 2px rgba(0,0,0,.19);
+}
+
+.cat-picker.active {
+    transform: none;
+    transition: 0.1s ease-out;
+}
+
+.cat-picker .cat-group {
+    padding: 24px 0 8px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat-picker .cat-group:not(:last-child) {
+    margin-bottom: 16px;
+    border-bottom: solid 1px var(--separator);
+}
+
+.cat-picker .cat-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    font-weight: 300;
+}

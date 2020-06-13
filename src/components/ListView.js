@@ -126,7 +126,7 @@ export class ListView extends Component {
                         }
                     </div>
 
-                    <div className={`dropdown ${this.state.selector ? 'active' : ''}`} onClick={() => this.toggleSelector()}></div>
+                    <div className={`backdrop ${this.state.selector ? 'active' : ''}`} onClick={() => this.toggleSelector()}></div>
                 </div>
         }
 

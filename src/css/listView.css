@@ -156,17 +156,17 @@
     color: var(--onPrimary);
 }
 
-.list-wrapper .dropdown {
-    position: fixed;
-    top: -46px; /* HARDCODED */
-    left: -19px; /* HARDCODED */
+.list-wrapper .backdrop {
+    position: absolute;
+    top: -10vh; /* HARDCODED */
+    left: -78vw; /* HARDCODED */
     width: 100vw;
     height: 100vh;
     z-index: 0;
     pointer-events: none;
 }
 
-.list-wrapper .active .dropdown {
+.list-wrapper .backdrop.active {
     pointer-events: unset;
 }
 

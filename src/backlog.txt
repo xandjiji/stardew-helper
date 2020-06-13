@@ -8,10 +8,9 @@ desktop
 push sidebar
 push item modal
 esc close (modal/sidebar)
-reset undo?
-scrollbar (inherit)
-otimizar .jsons
+Cruzar actions make, recipe e obtained
 search async foreach
+carousel cursors
 
 RESOURCES
     MINERALS
@@ -28,3 +27,7 @@ RESOURCES
 CALENDAR
 
 NPC?
+
+BESTIARI?
+
+ANIMAL FARMS?
