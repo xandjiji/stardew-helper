@@ -67,7 +67,7 @@ let modes = {
 
     fishes: {
         title: 'Fishes',
-        icon: 'Bamboo Pole',
+        icon: 'Legend',
         list: [
             { name: 'All', list: allFishes, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
             { name: 'Spring', list: springFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
@@ -125,10 +125,10 @@ let modes = {
     },
 
     furnitures: {
-        title: 'Furnitures',
+        title: 'Furniture',
         icon: 'Futan Bear',
         list: {
-            name: 'Furnitures', list: allFurnitures
+            name: 'Furniture', list: allFurnitures
         }
     }
 }

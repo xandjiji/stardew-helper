@@ -37,7 +37,7 @@ export class CatPicker extends Component {
                     <CatItem name="Crops" icon="Pumpkin" mode="crops" close={notifyClose} />
                     <CatItem name="Animal Products" icon="Hay" mode="animalProducts" close={notifyClose} />
                     <CatItem name="Artisan Goods" icon="Wine" mode="artisanGoods" close={notifyClose} />
-                    <CatItem name="Fishes" icon="Bamboo Pole" mode="fishes" close={notifyClose} />
+                    <CatItem name="Fishes" icon="Legend" mode="fishes" close={notifyClose} />
                 </div>
 
                 <div className="cat-group">
