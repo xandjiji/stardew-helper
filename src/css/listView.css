@@ -170,6 +170,9 @@
     height: 100vh;
     z-index: 0;
     pointer-events: none;
+    user-select: none;
+    cursor: default;
+    transform: scale(2);
 }
 
 .list-wrapper .backdrop.active {
