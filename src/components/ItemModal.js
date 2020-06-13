@@ -25,15 +25,24 @@ export class ItemModal extends Component {
         this.idToName = this.idToName.bind(this);
         this.idToNpc = this.idToNpc.bind(this);
 
+        this.handleKeyDown = this.handleKeyDown.bind(this);
         this.handleResize = this.handleResize.bind(this);
     }
 
     componentDidMount() {
+        window.addEventListener('keydown', this.handleKeyDown);
         window.addEventListener('resize', this.handleResize);
     }
 
     componentWillUnmount() {
+        window.removeEventListener('keydown', this.handleKeyDown);
         window.removeEventListener('resize', this.handleResize);
+    }
+
+    handleKeyDown(event) {
+        if (event.key === 'Escape') {
+            this.props.closeModal()
+        }
     }
 
     handleResize() {

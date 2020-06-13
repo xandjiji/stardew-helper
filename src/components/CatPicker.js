@@ -5,6 +5,26 @@ import CatItem from './CatItem';
 import '../css/catPicker.css';
 
 export class CatPicker extends Component {
+    constructor(props) {
+        super(props);
+
+        this.handleKeyDown = this.handleKeyDown.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('keydown', this.handleKeyDown);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('keydown', this.handleKeyDown);
+    }
+
+    handleKeyDown(event) {
+        if (event.key === 'Escape') {
+            this.props.notifyClose()
+        }
+    }
+
     render() {
 
         const { notifyClose } = this.props;

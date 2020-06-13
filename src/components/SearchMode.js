@@ -29,14 +29,17 @@ export class SearchMode extends Component {
         this.handleKey = this.handleKey.bind(this);
         this.handleButton = this.handleButton.bind(this);
 
+        this.handleTabKey = this.handleTabKey.bind(this);
         this.handleResize = this.handleResize.bind(this);
     }
 
     componentDidMount() {
+        window.addEventListener('keydown', this.handleTabKey);
         window.addEventListener('resize', this.handleResize);
     }
 
     componentWillUnmount() {
+        window.removeEventListener('keydown', this.handleTabKey);
         window.removeEventListener('resize', this.handleResize);
     }
 
@@ -49,8 +52,15 @@ export class SearchMode extends Component {
         this.fetchItems(event.target.value);
     }
 
+    handleTabKey(event) {
+        if (event.keyCode === 9) {
+            event.preventDefault();
+            this.inputRef.current.focus()
+        }
+    }
+
     handleKey(event) {
-        if(event.keyCode === 13) {
+        if (event.keyCode === 13) {
             this.inputRef.current.blur()
         }
     }

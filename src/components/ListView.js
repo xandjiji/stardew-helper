@@ -101,7 +101,7 @@ export class ListView extends Component {
                 if (item[stats].buff !== undefined) {
                     element =
                         <div className="item-info list">
-                            <div className={`item-info-item ${item[stats].damage == undefined ? 'hide' : ''}`}>
+                            <div className={`item-info-item ${item[stats].damage === undefined ? 'hide' : ''}`}>
                                 <div className={`buff-sprite bg-Attack`}></div>
                                 <span className="stat-info">{item[stats].damage} dmg</span>
                             </div>
@@ -154,8 +154,8 @@ export class ListView extends Component {
         let sortElement;
         if (Array.isArray(listProp)) {
             sortElement =
-                <div className={`selector ${this.state.selector ? 'active' : ''}`}>
-                    <div className="selected-option" onClick={() => this.toggleSelector()}>
+                <div className={`selector ${this.state.selector ? 'active' : ''}`} onClick={() => this.toggleSelector()}>
+                    <div className="selected-option">
                         <span>Filter</span>
                         {this.state.currentList.name}
                         <SelectArrow />
@@ -189,7 +189,7 @@ export class ListView extends Component {
                 </div>
 
                 <div
-                    className={`list custom-scrollbar ${layout == undefined ? 'grid' : ''}`}
+                    className={`list custom-scrollbar ${layout === undefined ? 'grid' : ''}`}
                     style={{ maxHeight: this.state.viewportH - 208 }}
                     onWheel={this.preventScroll}>
                     {
