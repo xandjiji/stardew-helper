@@ -29,6 +29,8 @@
     font-size: 16px;
     box-sizing: border-box;
     user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
