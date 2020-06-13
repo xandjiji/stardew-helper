@@ -5,14 +5,12 @@ modes:
 
 desktop
 
+carousel cursors
 push sidebar
 push item modal
-Cruzar actions make, recipe e obtained
-search async foreach
-carousel cursors
 slider gordao
-eliminar switch case
-revisar gambiarras list view
+cruzar actions make, recipe e obtained
+search async foreach
 
 
 CALENDAR

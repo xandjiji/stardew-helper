@@ -20,10 +20,10 @@ store.subscribe(throttle(() => {
 }, 1000));
 
 ReactDOM.render(
-    <React.StrictMode>
+    <StrictMode>
         <Provider store={store}>
             <Main />
         </Provider>
-    </React.StrictMode>,
+    </StrictMode>,
     document.getElementById('root')
 );

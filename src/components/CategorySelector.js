@@ -18,8 +18,6 @@ import summerFish from '../jsons/tables/summerFish.json';
 import fallFish from '../jsons/tables/fallFish.json';
 import winterFish from '../jsons/tables/winterFish.json';
 
-import allRecipes from '../jsons/tables/allRecipes.json';
-
 import allMinerals from '../jsons/tables/allMinerals.json';
 
 import allArtifacts from '../jsons/tables/allArtifacts.json';
@@ -35,122 +33,115 @@ import footwear from '../jsons/tables/footwear.json';
 import rings from '../jsons/tables/rings.json';
 import hats from '../jsons/tables/hats.json';
 
+import allRecipes from '../jsons/tables/allRecipes.json';
+
 import allFurnitures from '../jsons/tables/allFurnitures.json';
 
-let cropList = [
-    { name: 'All', list: allCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
-    { name: 'Spring', list: springCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
-    { name: 'Summer', list: summerCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
-    { name: 'Fall', list: fallCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } }
-];
+let modes = {
+    crops: {
+        title: 'Crops',
+        icon: 'Pumpkin',
+        list: [
+            { name: 'All', list: allCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
+            { name: 'Spring', list: springCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
+            { name: 'Summer', list: summerCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } },
+            { name: 'Fall', list: fallCrops, layout: { stats: 'profitability', icon: 'bg-Gold_Coin' } }
+        ]
+    },
 
-let animalProductsList = {
-    name: 'Animal Products', list: allAnimalProducts, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
-}
+    animalProducts: {
+        title: 'Animal Products',
+        icon: 'Hay',
+        list: {
+            name: 'Animal Products', list: allAnimalProducts, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
+        }
+    },
 
-let artisanGoodsList = {
-    name: 'Artisan Goods', list: allArtisanGoods, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
-}
+    artisanGoods: {
+        title: 'Artisan Goods',
+        icon: 'Wine',
+        list: {
+            name: 'Artisan Goods', list: allArtisanGoods, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
+        }
+    },
 
-let fishList = [
-    { name: 'All', list: allFishes, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
-    { name: 'Spring', list: springFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
-    { name: 'Summer', list: summerFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
-    { name: 'Fall', list: fallFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
-    { name: 'Winter', list: winterFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } }
-];
+    fishes: {
+        title: 'Fishes',
+        icon: 'Bamboo Pole',
+        list: [
+            { name: 'All', list: allFishes, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+            { name: 'Spring', list: springFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+            { name: 'Summer', list: summerFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+            { name: 'Fall', list: fallFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } },
+            { name: 'Winter', list: winterFish, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' } }
+        ]
+    },
 
-let dishesList = {
-    name: 'Dishes', list: allRecipes, layout: { stats: 'foodBuff' }
-}
+    minerals: {
+        title: 'Minerals',
+        icon: 'Star Shards',
+        list: {
+            name: 'Minerals', list: allMinerals, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
+        }
+    },
 
-let mineralsList = {
-    name: 'Minerals', list: allMinerals, layout: { stats: 'sellPrice', icon: 'bg-Gold_Coin' }
-}
+    artifacts: {
+        title: 'Artifacts',
+        icon: 'Prehistoric Skull',
+        list: {
+            name: 'Artifacts', list: allArtifacts
+        }
+    },
 
-let artifactsList = {
-    name: 'Artifacts', list: allArtifacts
-}
+    weapons: {
+        title: 'Weapons',
+        icon: 'Lava Katana',
+        list: [
+            { name: 'All', list: allWeapons, layout: { stats: 'stats' } },
+            { name: 'Swords', list: swords, layout: { stats: 'stats' } },
+            { name: 'Daggers', list: daggers, layout: { stats: 'stats' } },
+            { name: 'Clubs', list: clubs, layout: { stats: 'stats' } },
+            { name: 'Distance', list: distance, layout: { stats: 'stats' } }
+        ]
+    },
 
-let weaponsList = [
-    { name: 'All', list: allWeapons, layout: { stats: 'stats' } },
-    { name: 'Swords', list: swords, layout: { stats: 'stats' } },
-    { name: 'Daggers', list: daggers, layout: { stats: 'stats' } },
-    { name: 'Clubs', list: clubs, layout: { stats: 'stats' } },
-    { name: 'Distance', list: distance, layout: { stats: 'stats' } }
-];
+    equipment: {
+        title: 'Equipment',
+        icon: "Emily's Magic Boots",
+        list: [
+            { name: 'All', list: allEquipments },
+            { name: 'Footwear', list: footwear, layout: { stats: 'stats' } },
+            { name: 'Rings', list: rings, layout: { stats: 'effect' } },
+            { name: 'Hats', list: hats }
+        ]
+    },
 
-let equipmentList = [
-    { name: 'All', list: allEquipments },
-    { name: 'Footwear', list: footwear, layout: { stats: 'stats' } },
-    { name: 'Rings', list: rings, layout: { stats: 'effect' } },
-    { name: 'Hats', list: hats }
-];
+    dishes: {
+        title: 'Dishes',
+        icon: 'Salmon Dinner',
+        list: {
+            name: 'Dishes', list: allRecipes, layout: { stats: 'foodBuff' }
+        }
+    },
 
-let furnituresList = {
-    name: 'Furnitures', list: allFurnitures
+    furnitures: {
+        title: 'Furnitures',
+        icon: 'Futan Bear',
+        list: {
+            name: 'Furnitures', list: allFurnitures
+        }
+    }
 }
 
 export class CategorySelector extends Component {
     render() {
         const { currentMode } = this.props;
-
-        let currentModeObj;
-        switch (currentMode) {
-            case 'crops':
-                currentModeObj = modeFactory('Crops', 'Pumpkin', cropList);
-                break;
-
-            case 'animalProducts':
-                currentModeObj = modeFactory('Animal Products', 'Hay', animalProductsList);
-                break;
-
-            case 'artisanGoods':
-                currentModeObj = modeFactory('Artisan Goods', 'Wine', artisanGoodsList);
-                break;
-
-            case 'fishes':
-                currentModeObj = modeFactory('Fishes', 'Bamboo Pole', fishList);
-                break;
-
-            case 'dishes':
-                currentModeObj = modeFactory('Dishes', 'Salmon Dinner', dishesList);
-                break;
-
-            case 'minerals':
-                currentModeObj = modeFactory('Minerals', 'Star Shards', mineralsList);
-                break;
-
-            case 'artifacts':
-                currentModeObj = modeFactory('Artifacts', 'Prehistoric Skull', artifactsList);
-                break;
-
-            case 'weapons':
-                currentModeObj = modeFactory('Weapons', 'Lava Katana', weaponsList);
-                break;
-
-            case 'equipment':
-                currentModeObj = modeFactory('Equipment', "Emily's Magic Boots", equipmentList);
-                break;
-
-            case 'furnitures':
-                currentModeObj = modeFactory('Furnitures', 'Futan Bear', furnituresList);
-                break;
-
-            default:
-                break;
-        }
-
-        const { currentTitle, currentIcon, currentList } = currentModeObj;
+        const { title, icon, list } = modes[currentMode];
 
         return (
-            <ListView title={currentTitle} icon={currentIcon} list={currentList} />
+            <ListView title={title} icon={icon} list={list} />
         )
     }
-}
-
-function modeFactory(currentTitle, currentIcon, currentList) {
-    return { currentTitle, currentIcon, currentList }
 }
 
 const mapStateToProps = (state) => {

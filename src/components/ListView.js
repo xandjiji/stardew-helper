@@ -78,6 +78,8 @@ export class ListView extends Component {
         if (layout !== undefined) {
 
             const { stats, icon } = layout;
+
+            /* FOOD */
             if (stats === 'foodBuff') {
 
                 if (item[stats] !== undefined) {
@@ -96,8 +98,10 @@ export class ListView extends Component {
 
                 return element
 
+                /* WEAPONS */
             } else if (stats === 'stats') {
 
+                /* WITH BUFFS */
                 if (item[stats].buff !== undefined) {
                     element =
                         <div className="item-info list">
@@ -114,6 +118,8 @@ export class ListView extends Component {
                                 )
                             }
                         </div>
+
+                    /* NO BUFFS */
                 } else {
                     element =
                         <div className="item-info list">
@@ -126,21 +132,23 @@ export class ListView extends Component {
                 }
 
                 return element
+
+                /* REGULAR ITEMS */
+            } else {
+
+                let appendText = '';
+                if (stats === 'profitability') {
+                    appendText = 'g/day';
+                } else if (stats === 'sellPrice') {
+                    appendText = 'g';
+                }
+
+                element =
+                    <div className={`item-info ${stats}`}>
+                        <div className={`item-sprite ${icon}`}></div>
+                        {item[stats]}{appendText}
+                    </div>
             }
-
-
-            let appendText = '';
-            if (stats === 'profitability') {
-                appendText = 'g/day';
-            } else if (stats === 'sellPrice') {
-                appendText = 'g';
-            }
-
-            element =
-                <div className={`item-info ${stats}`}>
-                    <div className={`item-sprite ${icon}`}></div>
-                    {item[stats]}{appendText}
-                </div>
         }
 
         return element;
