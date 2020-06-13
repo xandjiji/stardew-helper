@@ -24,8 +24,11 @@ export class CatItem extends Component {
     }
 
     handleClick() {
+        const { mode, setMode, close } = this.props;
+
+        setMode(mode)
         this.setState({ active: true })
-        this.props.close();        
+        close();
     }
 
     render() {

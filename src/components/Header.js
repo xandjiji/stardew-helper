@@ -62,11 +62,16 @@ export class Header extends Component {
     }
 
     notifyClose = () => {
-        this.setState({ catActive: false });        
+        this.setState({ catActive: false });
     }
 
     render() {
         const { mode } = this.props;
+
+        let pickerActive = false;
+        if (mode !== 'bundle' && mode !== 'season' && mode !== 'search') {
+            pickerActive = true;
+        }
 
         let buttonClass = '';
         if (this.state.menuActive) {
@@ -79,7 +84,7 @@ export class Header extends Component {
                     <div className="modes-wrapper">
                         <BundleIcon className={mode === 'bundle' ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
                         <SeasonIcon className={mode === 'season' ? 'active' : ''} onClick={() => this.props.setMode('season')} />
-                        <BooksIcon className={this.state.catActive ? 'active' : ''} onClick={this.handleClickCat} />
+                        <BooksIcon className={this.state.catActive || pickerActive ? 'active' : ''} onClick={this.handleClickCat} />
                         <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
                         <FarmerIcon className={mode === 'farming' ? 'active' : ''} onClick={() => this.props.setMode('farming')} />
                     </div>
