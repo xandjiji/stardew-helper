@@ -1,0 +1,230 @@
+.list-wrapper {
+    margin: 16px 16px 0 16px;
+    background-color: var(--surface);
+}
+
+.list-wrapper .list-head {
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px var(--separator);
+}
+
+.list-wrapper .list-name {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.list-wrapper .list-name .icon-frame {
+    padding: 8px;
+    margin-right: 8px;
+    background-color: var(--primaryVariant);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+}
+
+.list-wrapper .list {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.list-wrapper .list-item {
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px var(--separator);
+}
+
+.list-wrapper .list-item:last-child {
+    border: none;
+}
+
+.list-wrapper .item-name {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.list-wrapper .item-name:hover {
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+}
+
+.list-wrapper .item-name .sprite {
+    margin-right: 8px;
+    transition: 0.2s ease-out;
+}
+
+.list-wrapper .item-name span {
+    font-size: 14px;
+}
+
+.list-wrapper .item-info {
+    display: flex;
+    max-width: 110px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.list-wrapper .item-info.list {
+    padding: 6px 0;
+    display: block;
+}
+
+.list-wrapper .item-info .item-sprite {
+    margin-right: 4px;
+    flex-shrink: 0;
+}
+
+.list-wrapper .selector {
+    padding: 6px 8px;
+    position: relative;
+    width: 100px; /* HARDCODED */
+    border-radius: 6px 6px 0 0;
+    background-color: var(--primary);
+}
+
+.list-wrapper .selector {
+    color: var(--onPrimary);
+    cursor: pointer;
+}
+
+.list-wrapper .selector * {
+    z-index: 1;
+}
+
+.list-wrapper .selected-option {
+    width: 100%;
+    padding-right: 14px;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.list-wrapper .selected-option span {
+    margin-bottom: 4px;
+    display: block;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    transition: 0.2s ease-out;
+}
+
+.list-wrapper .selected-option svg {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(calc(-50% + 2px));
+    fill: var(--onPrimary);
+    opacity: 0.6;
+    transition: 0.15s ease-out;
+}
+
+.list-wrapper .selector:hover svg {
+    opacity: 0.75;
+}
+
+.list-wrapper .active .selected-option svg {
+    transform: translateY(calc(-50% + 2px)) rotate(-180deg);
+    opacity: 0.75;
+}
+
+.list-wrapper .options-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 0 0 6px 6px;
+    background-color: var(--surface);
+}
+
+.list-wrapper .active .options-wrapper {
+    max-height: 160px; /* HARDCODED */
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,.14);
+}
+
+.list-wrapper .option-item {
+    padding: 6px 8px;
+    color: var(--onSurface);
+    transition: 0.2s ease-out;
+}
+
+.list-wrapper .option-item:hover {
+    background-color: var(--primary);
+    color: var(--onPrimary);
+}
+
+.list-wrapper .backdrop {
+    position: absolute;
+    top: -10vh; /* HARDCODED */
+    left: -78vw; /* HARDCODED */
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.list-wrapper .backdrop.active {
+    pointer-events: unset;
+}
+
+.list-wrapper .item-info-item {
+    display: flex;
+    align-items: center;
+}
+
+.list-wrapper .item-info-item:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+.list-wrapper .item-info-item.hide {
+    display: none;
+}
+
+.list-wrapper .buff-sprite {
+    margin-right: 4px;
+    flex-shrink: 0;
+}
+
+.list-wrapper .stat-info {
+    font-size: 12px;
+}
+
+/* GRID */
+.list-wrapper .list.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-wrapper .list.grid::after {
+    content: '';
+    flex: auto;
+}
+
+.list-wrapper .list.grid .list-item {
+    padding: 0;
+    margin: 2px;
+    border: none;
+}
+
+.list-wrapper .list.grid .item-name {
+    padding: 0;
+}
+
+.list-wrapper .list.grid .list-item .sprite {
+    margin: 0;
+}
+
+.list-wrapper .list.grid .item-name span {
+    display: none;
+}

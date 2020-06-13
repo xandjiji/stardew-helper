@@ -632,7 +632,7 @@
         "id": 10,
         "name": "Roe",
         "link": "Roe",
-        "sellPrice": "30 + (base fish price / 2)",
+        "sellPrice": "30 + (base fish price / 2) ",
         "healing": {
             "energy": 50,
             "health": 22
@@ -27218,7 +27218,7 @@
         ],
         "foodBuff": [
             {
-                "buffName": "Trout Soup",
+                "buffName": "Fishing",
                 "buffQty": "+1"
             }
         ],

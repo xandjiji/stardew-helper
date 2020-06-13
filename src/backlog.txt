@@ -5,44 +5,17 @@ modes:
 
 desktop
 
-QA:
-    animations https://www.cssscript.com/animated-checkbox-labels-with-pure-css-css3/
-    redesign
-    total counter
-
 push sidebar
 push item modal
-xizinho modal item
-reset undo?
-scrollbar (inherit)
-otimizar .jsons
+esc close (modal/sidebar)
+Cruzar actions make, recipe e obtained
 search async foreach
-
-FARM PRODUCTS:
-    CROPSx
-        PROFITABILITY (SORT BY: SEASON)
-    ANIMAL PRODUCTSx
-        PRICE
-    ARTISAN GOODSx
-        PRICE
-    FISHx
-        GRID (SORT BY: SEASON)
-    FOODx
-        GRID
-
-
-RESOURCES
-    MINERALSx
-        GRID
-    ARTIFACTSx
-        GRID
-    WEAPONSx
-        STATS (SORT BY: SWORD/DAGGER/CLUB/DISTANCE)
-    WEAREABLEx
-        STATS/GRID (SORT BY: FOOTWEAR/RINGS/HATS)
-    FURNITUREx
-        GRID
+carousel cursors
 
 CALENDAR
 
 NPC?
+
+BESTIARI?
+
+ANIMAL FARMS?

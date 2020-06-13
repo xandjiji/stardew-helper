@@ -1,13 +1,15 @@
 .item {
+    padding-right: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    width: calc(100% - 12px);
+    border-bottom: solid 1px var(--separator);
 }
 
 .item:last-child {
     margin-bottom: 6px;
+    border: none
 }
 
 .item .item-name-wrapper {
