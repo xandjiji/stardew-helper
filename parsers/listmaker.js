@@ -30,7 +30,7 @@ fs.readFile('../src/jsons/items.json', 'utf8', (err, jsonString) => {
             
             let newList = cherryPickTable(currentList, itemsData);
 
-            /* saveData(list, newList); */
+            saveData(list, newList);
         }
     
         
