@@ -10,7 +10,6 @@ import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
 import { ReactComponent as SeasonIcon } from '../assets/cloudy.svg';
 import { ReactComponent as SearchIcon } from '../assets/search.svg';
-import { ReactComponent as FarmerIcon } from '../assets/farmer.svg';
 import { ReactComponent as BooksIcon } from '../assets/books.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
@@ -86,7 +85,6 @@ export class Header extends Component {
                         <SeasonIcon className={mode === 'season' ? 'active' : ''} onClick={() => this.props.setMode('season')} />
                         <BooksIcon className={this.state.catActive || pickerActive ? 'active' : ''} onClick={this.handleClickCat} />
                         <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
-                        <FarmerIcon className={mode === 'farming' ? 'active' : ''} onClick={() => this.props.setMode('farming')} />
                     </div>
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />
                 </div>

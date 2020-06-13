@@ -9,6 +9,7 @@
 
 .item:last-child {
     margin-bottom: 6px;
+    border: none
 }
 
 .item .item-name-wrapper {

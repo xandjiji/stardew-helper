@@ -1,4 +1,5 @@
 .list-wrapper {
+    margin: 16px 16px 0 16px;
     background-color: var(--surface);
 }
 
@@ -35,6 +36,10 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 1px var(--separator);
+}
+
+.list-wrapper .list-item:last-child {
+    border: none;
 }
 
 .list-wrapper .item-name {

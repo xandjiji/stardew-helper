@@ -40,6 +40,20 @@ export class ListView extends Component {
         window.removeEventListener('resize', this.handleResize);
     }
 
+    componentDidUpdate(prevProps) {
+        if(this.props !== prevProps) {
+            const { list } = this.props;
+    
+            let currentList;
+            if (Array.isArray(list)) {
+                currentList = list[0]
+            } else {
+                currentList = list
+            }
+            this.setState({ currentList: currentList })
+        }
+    }
+
     handleResize() {
         this.setState({ viewportH: (window.innerHeight) });
     }
@@ -145,7 +159,7 @@ export class ListView extends Component {
 
                 <div
                     className="list custom-scrollbar"
-                    style={{ maxHeight: this.state.viewportH - 192 }}
+                    style={{ maxHeight: this.state.viewportH - 208 }}
                     onWheel={this.preventScroll}>
                     {
                         list.map((element, index) =>
