@@ -83,3 +83,8 @@
     width: 24px; height: 24px;
     background: url('../../assets/spritesheets/sprites24px.png') -0 -384px;
 }
+
+.bg-Attack_Speed {
+    width: 24px; height: 24px;
+    background: url('../../assets/spritesheets/sprites24px.png') -0 -409px;
+}

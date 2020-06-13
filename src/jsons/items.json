@@ -23322,7 +23322,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 }
             ]
@@ -23362,7 +23362,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 }
             ]
@@ -23383,7 +23383,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 }
             ]
@@ -23403,7 +23403,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-2"
                 },
                 {
@@ -23431,7 +23431,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 },
                 {
@@ -23475,7 +23475,7 @@
             "criticalChance": ".04",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 }
             ]
@@ -23496,7 +23496,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-4"
                 },
                 {
@@ -23544,7 +23544,7 @@
             "criticalChance": ".05",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-5"
                 },
                 {
@@ -23572,7 +23572,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-1"
                 },
                 {
@@ -23600,7 +23600,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-3"
                 },
                 {
@@ -23628,7 +23628,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-1"
                 },
                 {
@@ -23652,7 +23652,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+4"
                 },
                 {
@@ -23676,7 +23676,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+4"
                 },
                 {
@@ -23729,7 +23729,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+4"
                 }
             ]
@@ -23873,7 +23873,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+1"
                 },
                 {
@@ -23897,7 +23897,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 }
             ]
@@ -23931,7 +23931,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 },
                 {
@@ -23956,7 +23956,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-4"
                 }
             ]
@@ -23977,7 +23977,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "-2"
                 }
             ]
@@ -23997,7 +23997,7 @@
             "criticalChance": ".02",
             "buff": [
                 {
-                    "stat": "Speed",
+                    "stat": "Attack Speed",
                     "val": "+2"
                 },
                 {

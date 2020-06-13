@@ -103,7 +103,7 @@ export class ListView extends Component {
                         <div className="item-info list">
                             <div className={`item-info-item ${stats} ${item[stats].damage === undefined ? 'hide' : ''}`}>
                                 <div className={`buff-sprite bg-Attack`}></div>
-                                <span className="stat-info">{item[stats].damage} dmg</span>
+                                <span className="stat-info">{item[stats].damage} damage</span>
                             </div>
                             {
                                 item[stats].buff.map((element, index) =>
@@ -119,7 +119,7 @@ export class ListView extends Component {
                         <div className="item-info list">
                             <div className={`item-info-item ${stats}`}>
                                 <div className={`buff-sprite bg-Attack`}></div>
-                                <span className="stat-info">{item[stats].damage} dmg</span>
+                                <span className="stat-info">{item[stats].damage} damage</span>
                             </div>
 
                         </div>
