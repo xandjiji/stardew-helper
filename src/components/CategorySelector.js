@@ -98,7 +98,7 @@ export class CategorySelector extends Component {
         let currentModeObj;
         switch (currentMode) {
             case 'crops':
-                currentModeObj = modeFactory('Crops', 'Tomato', cropList);
+                currentModeObj = modeFactory('Crops', 'Pumpkin', cropList);
                 break;
 
             case 'animalProducts':

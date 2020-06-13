@@ -14,7 +14,7 @@ export class CatPicker extends Component {
                 <div className="cat-group">
                     <span className="cat-title" onClick={this.handleClick}>Farming</span>
 
-                    <CatItem name="Crops" icon="Tomato" mode="crops" close={notifyClose} />
+                    <CatItem name="Crops" icon="Pumpkin" mode="crops" close={notifyClose} />
                     <CatItem name="Animal Products" icon="Hay" mode="animalProducts" close={notifyClose} />
                     <CatItem name="Artisan Goods" icon="Wine" mode="artisanGoods" close={notifyClose} />
                     <CatItem name="Fishes" icon="Bamboo Pole" mode="fishes" close={notifyClose} />
