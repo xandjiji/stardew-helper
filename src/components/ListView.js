@@ -161,7 +161,7 @@ export class ListView extends Component {
                         <SelectArrow />
                     </div>
 
-                    <div className="options-wrapper smooth">
+                    <div className="options-wrapper">
                         {
                             listProp.map((element, index) =>
                                 <div className="option-item" key={index} onClick={() => this.changeList(element)}>

@@ -82,17 +82,19 @@
 }
 
 .list-wrapper .selector {
-    padding: 6px 8px;
+    padding: 8px;
     position: relative;
-    width: 100px;
-    /* HARDCODED */
-    border-radius: 6px 6px 0 0;
-    background-color: var(--primary);
+    width: 100px; /* HARDCODED */
+    border-radius: 6px;
+    background-color: transparent;
+    border: solid 1px var(--separator);
+    color: var(--onSurface);
+    cursor: pointer;
+    transition: 0.2s ease-out;
 }
 
-.list-wrapper .selector {
-    color: var(--onPrimary);
-    cursor: pointer;
+.list-wrapper .selector.active {
+    border-color: var(--primary);
 }
 
 .list-wrapper .selector * {
@@ -103,17 +105,22 @@
     width: 100%;
     padding-right: 14px;
     position: relative;
-    font-weight: 500;
     letter-spacing: 0.4px;
 }
 
 .list-wrapper .selected-option span {
-    margin-bottom: 4px;
-    display: block;
+    padding: 0 4px;
+    position: absolute;
+    top: -13px;
     font-size: 10px;
     font-weight: 300;
-    letter-spacing: 0.4px;
+    letter-spacing: 1px;
+    background-color: var(--surface);
     transition: 0.2s ease-out;
+}
+
+.list-wrapper .active .selected-option span {
+    color: var(--primary);
 }
 
 .list-wrapper .selected-option svg {
@@ -121,35 +128,36 @@
     top: 50%;
     right: 0;
     transform: translateY(calc(-50% + 2px));
-    fill: var(--onPrimary);
+    fill: var(--onSurface);
     opacity: 0.6;
     transition: 0.15s ease-out;
 }
 
 .list-wrapper .selector:hover svg {
-    opacity: 0.75;
+    transform: translateY(calc(-50% + 3px));
 }
 
 .list-wrapper .active .selected-option svg {
     transform: translateY(calc(-50% + 2px)) rotate(-180deg);
-    opacity: 0.75;
+    opacity: 1;
+    fill: var(--primary);
 }
 
 .list-wrapper .options-wrapper {
     width: 100%;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 1px);
     left: 0;
     max-height: 0;
     overflow: hidden;
-    border-radius: 0 0 6px 6px;
+    border-radius: 6px;
     background-color: var(--surface);
 }
 
 .list-wrapper .active .options-wrapper {
-    max-height: 160px;
-    /* HARDCODED */
+    max-height: 160px; /* HARDCODED */
     box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, .14);
+    transition: 0.2s ease-out;
 }
 
 .list-wrapper .option-item {
@@ -166,10 +174,8 @@
 .list-wrapper .backdrop {
     display: none;
     position: absolute;
-    top: -10vh;
-    /* HARDCODED */
-    left: -78vw;
-    /* HARDCODED */
+    top: -10vh; /* HARDCODED */
+    left: -78vw; /* HARDCODED */
     width: 100vw;
     height: 100vh;
     z-index: 0;
@@ -204,7 +210,6 @@
 }
 
 /* GRID */
-
 .list-wrapper .list.grid {
     display: flex;
     flex-wrap: wrap;
