@@ -98,7 +98,7 @@ export class CategorySelector extends Component {
         let currentModeObj;
         switch (currentMode) {
             case 'crops':
-                currentModeObj = modeFactory('Crops', 'Iridium Watering Can', cropList);
+                currentModeObj = modeFactory('Crops', 'Tomato', cropList);
                 break;
 
             case 'animalProducts':
@@ -110,7 +110,7 @@ export class CategorySelector extends Component {
                 break;
 
             case 'fishes':
-                currentModeObj = modeFactory('Fishes', 'Iridium Rod', fishList);
+                currentModeObj = modeFactory('Fishes', 'Bamboo Pole', fishList);
                 break;
 
             case 'dishes':
@@ -130,7 +130,7 @@ export class CategorySelector extends Component {
                 break;
 
             case 'equipment':
-                currentModeObj = modeFactory('Equipment', 'Space Boots', equipmentList);
+                currentModeObj = modeFactory('Equipment', "Emily's Magic Boots", equipmentList);
                 break;
 
             case 'furnitures':

@@ -14,10 +14,10 @@ export class CatPicker extends Component {
                 <div className="cat-group">
                     <span className="cat-title" onClick={this.handleClick}>Farming</span>
 
-                    <CatItem name="Crops" icon="Iridium Watering Can" mode="crops" close={notifyClose} />
+                    <CatItem name="Crops" icon="Tomato" mode="crops" close={notifyClose} />
                     <CatItem name="Animal Products" icon="Hay" mode="animalProducts" close={notifyClose} />
                     <CatItem name="Artisan Goods" icon="Wine" mode="artisanGoods" close={notifyClose} />
-                    <CatItem name="Fishes" icon="Iridium Rod" mode="fishes" close={notifyClose} />
+                    <CatItem name="Fishes" icon="Bamboo Pole" mode="fishes" close={notifyClose} />
                 </div>
 
                 <div className="cat-group">
@@ -26,7 +26,7 @@ export class CatPicker extends Component {
                     <CatItem name="Minerals" icon="Star Shards" mode="minerals" close={notifyClose} />
                     <CatItem name="Artifacts" icon="Prehistoric Skull" mode="artifacts" close={notifyClose} />
                     <CatItem name="Weapons" icon="Lava Katana" mode="weapons" close={notifyClose} />
-                    <CatItem name="Equipment" icon="Space Boots" mode="equipment" close={notifyClose} />
+                    <CatItem name="Equipment" icon="Emily's Magic Boots" mode="equipment" close={notifyClose} />
                 </div>
 
                 <div className="cat-group">
