@@ -14,6 +14,7 @@ slider gordao
 eliminar switch case
 revisar gambiarras list view
 rever cor do dropdown select + rever cores kill bill
+media query pra cat picker
 
 
 CALENDAR

@@ -22,7 +22,7 @@
     margin-right: 8px;
     background-color: var(--primaryVariant);
     border-radius: 6px;
-    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, .14);
 }
 
 .list-wrapper .list {
@@ -52,7 +52,7 @@
 
 .list-wrapper .item-name:hover {
     border-radius: 6px;
-    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, .14);
 }
 
 .list-wrapper .item-name .sprite {
@@ -84,7 +84,8 @@
 .list-wrapper .selector {
     padding: 6px 8px;
     position: relative;
-    width: 100px; /* HARDCODED */
+    width: 100px;
+    /* HARDCODED */
     border-radius: 6px 6px 0 0;
     background-color: var(--primary);
 }
@@ -146,8 +147,9 @@
 }
 
 .list-wrapper .active .options-wrapper {
-    max-height: 160px; /* HARDCODED */
-    box-shadow: 3px 3px 5px 3px rgba(0,0,0,.14);
+    max-height: 160px;
+    /* HARDCODED */
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, .14);
 }
 
 .list-wrapper .option-item {
@@ -164,8 +166,10 @@
 .list-wrapper .backdrop {
     display: none;
     position: absolute;
-    top: -10vh; /* HARDCODED */
-    left: -78vw; /* HARDCODED */
+    top: -10vh;
+    /* HARDCODED */
+    left: -78vw;
+    /* HARDCODED */
     width: 100vw;
     height: 100vh;
     z-index: 0;
@@ -200,6 +204,7 @@
 }
 
 /* GRID */
+
 .list-wrapper .list.grid {
     display: flex;
     flex-wrap: wrap;
@@ -231,24 +236,41 @@
 }
 
 /* TEXT JUSTIFICATION */
-.item-info,
-.item-info-item {
+.list-wrapper .item-info,
+.list-wrapper .item-info-item {
     padding: 6px 0;
+    overflow: auto;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: none;
 }
 
-.item-info.effect {
+.list-wrapper .item-info::-webkit-scrollbar,
+.list-wrapper .item-info-item::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.list-wrapper .item-info::-webkit-scrollbar-thumb,
+.list-wrapper .item-info-item::-webkit-scrollbar-thumb {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.list-wrapper .item-info.effect {
     max-width: 110px;
     text-align: center;
 }
 
-.item-info.sellPrice {
+.list-wrapper .item-info.sellPrice {
     text-align: right;
 }
 
-.item-info-item.stats {
-    width: 120px;
+.list-wrapper .item-info-item.stats {
+    width: 125px;
 }
 
-.item-info-item.foodBuff {
+.list-wrapper .item-info-item.foodBuff {
     width: 125px;
 }
