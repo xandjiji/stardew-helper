@@ -66,7 +66,6 @@
 
 .list-wrapper .item-info {
     display: flex;
-    max-width: 110px;
     align-items: center;
     font-size: 12px;
     font-weight: 300;
@@ -229,4 +228,27 @@
 
 .list-wrapper .list.grid .item-name span {
     display: none;
+}
+
+/* TEXT JUSTIFICATION */
+.item-info,
+.item-info-item {
+    padding: 6px 0;
+}
+
+.item-info.effect {
+    max-width: 110px;
+    text-align: center;
+}
+
+.item-info.sellPrice {
+    text-align: right;
+}
+
+.item-info-item.stats {
+    width: 105px;
+}
+
+.item-info-item.foodBuff {
+    width: 125px;
 }

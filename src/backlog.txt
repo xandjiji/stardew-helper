@@ -13,7 +13,6 @@ carousel cursors
 slider gordao
 eliminar switch case
 revisar gambiarras list view
-classes nas .list pra mudar max-width dos textos
 rever cor do dropdown select + rever cores kill bill
 
 
