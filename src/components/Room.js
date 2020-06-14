@@ -15,10 +15,12 @@ export class Room extends Component {
         let completedClass = '';
         let textClass = '';
         let textString = '';
+        let rewardClass = '';
         if (isComplete) {
             completedClass = 'animated shake';
             textClass = 'animate';
             textString = getFloatText();
+            rewardClass = 'active';
         }
 
         return (
@@ -36,7 +38,7 @@ export class Room extends Component {
 
                 <div className="room-reward-wrapper">
                     <span className="room-reward-name">{reward}</span>
-                    <div className="sprite bg-Bundle_Reward"></div>
+                    <div className={`sprite bg-Bundle_Reward smooth ${rewardClass}`}></div>
                 </div>
             </div>
         )

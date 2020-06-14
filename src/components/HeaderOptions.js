@@ -14,10 +14,25 @@ export class HeaderOptions extends Component {
         super(props);
 
         this.state = {
-            active: undefined
+            active: undefined,
+            viewportH: window.innerHeight
         }
 
         this.notifyOpen = this.notifyOpen.bind(this);
+
+        this.handleResize = this.handleResize.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', this.handleResize);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleResize);
+    }
+
+    handleResize() {
+        this.setState({ viewportH: (window.innerHeight) });
     }
 
     notifyOpen = (which) => {
@@ -30,36 +45,35 @@ export class HeaderOptions extends Component {
         const { notifyOpen } = this;
 
         return (
-            <div>
-                <nav className="container">
-                    <SettingsOption
-                        title="Appearence"
-                        currentlyOpen={active}
-                        notifyOpen={notifyOpen}>
+            <nav className="container">
+                <SettingsOption
+                    title="Appearence"
+                    currentlyOpen={active}
+                    notifyOpen={notifyOpen}
+                    compensate={this.state.viewportH - 290}>
 
-                        <PaletteIcon />
-                        <ThemePicker />
-                    </SettingsOption>
+                    <PaletteIcon />
+                    <ThemePicker />
+                </SettingsOption>
 
-                    <SettingsOption
-                        title="Import/Export data"
-                        currentlyOpen={active}
-                        notifyOpen={notifyOpen}>
+                <SettingsOption
+                    title="Import/Export data"
+                    currentlyOpen={active}
+                    notifyOpen={notifyOpen}>
 
-                        <DataTransferIcon />
-                        <IEdata />
-                    </SettingsOption>
+                    <DataTransferIcon />
+                    <IEdata />
+                </SettingsOption>
 
-                    <SettingsOption
-                        title="Reset data"
-                        currentlyOpen={active}
-                        notifyOpen={notifyOpen}>
+                <SettingsOption
+                    title="Reset data"
+                    currentlyOpen={active}
+                    notifyOpen={notifyOpen}>
 
-                        <TrashIcon />
-                        <DeleteAllData />
-                    </SettingsOption>
-                </nav>
-            </div>
+                    <TrashIcon />
+                    <DeleteAllData />
+                </SettingsOption>
+            </nav>
         )
     }
 }

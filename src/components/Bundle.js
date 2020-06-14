@@ -40,10 +40,12 @@ export class Bundle extends Component {
         let completedClass = '';
         let textClass = '';
         let textString = '';
+        let rewardClass = '';
         if (progressPercentage === 100) {
             completedClass = 'animated shake';
             textClass = 'animate';
             textString = getFloatText();
+            rewardClass = 'active'
         }
 
         let rewardElement;
@@ -59,7 +61,7 @@ export class Bundle extends Component {
                             <span className="reward-count">({reward.itemCount}x)</span>
                         </div>
                     </span>
-                    <div className="sprite bg-Bundle_Reward"></div>
+                    <div className={`sprite bg-Bundle_Reward smooth ${rewardClass}`}></div>
                 </div>
         }
 
@@ -85,10 +87,8 @@ export class Bundle extends Component {
 
                 <div
                     className="bundle-items-wrapper custom-scrollbar"
-
                     onWheel={this.preventScroll}
-                    onTouchMove={this.preventScroll}
-                >
+                    onTouchMove={this.preventScroll}>
                     {
                         items.map((item, index) => (
                             <Item item={item} key={index} />

@@ -62,7 +62,6 @@
 }
 
 .option-wrapper .option-content {
-    max-height: 0;
     overflow: hidden;
     transition: 0.2s ease-out;
 }
@@ -70,5 +69,5 @@
 .option-wrapper.active .option-content {
     padding-top: 20px;
     padding-bottom: 20px;
-    max-height: 800px; /* RANCAR */
+    overflow: auto;
 }

@@ -39,12 +39,14 @@ export class SettingsOption extends Component {
     }
 
     render() {
+        const { children, compensate } = this.props;
+
         let buttonClass = '';
+        let dynamicHeight = { maxHeight: 0 };
         if (this.state.active) {
             buttonClass = 'active';
+            dynamicHeight = { maxHeight: compensate }
         }
-
-        const { children } = this.props;
 
         let optionIcon;
         let optionContent;
@@ -63,7 +65,7 @@ export class SettingsOption extends Component {
                     <SmallArrow className="option-arrow" />
                 </div>
 
-                <div className="option-content inner-container">
+                <div className="option-content inner-container hide-scrollbar" style={dynamicHeight}>
                     {optionContent}
                 </div>
             </div>

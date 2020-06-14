@@ -47,3 +47,7 @@
 .room-item .room-reward-name {
     font-size: 12px;
 }
+
+.room-item .bg-Bundle_Reward:not(.active) {
+    filter: grayscale(100%);
+}

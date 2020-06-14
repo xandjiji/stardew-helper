@@ -53,9 +53,7 @@
 }
 
 .bundle-item .bundle-reward-wrapper {
-    padding-right: 11px;
-    margin-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 11px 6px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,6 +85,10 @@
 .bundle-item .bundle-reward-text {
     font-size: 12px;
     margin-right: 4px;
+}
+
+.bundle-item .bg-Bundle_Reward:not(.active) {
+    filter: grayscale(100%);
 }
 
 .bundle-item .reward-count {
