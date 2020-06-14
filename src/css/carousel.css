@@ -26,7 +26,6 @@
     height: 4px;
     border-radius: 50%;
     background-color: var(--primaryVariant);
-    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
     cursor: pointer;
     pointer-events: all;
     transition: 0.2s ease-out;
