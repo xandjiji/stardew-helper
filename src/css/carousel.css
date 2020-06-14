@@ -1,4 +1,5 @@
 .carousel-wrapper {
+    position: relative;
     user-select: none; /* dont touch this */
 }
 
@@ -9,4 +10,32 @@
 
 .carousel-wrapper .item-wrapper > * {
     flex: none; /* dont touch this */
+}
+
+.carousel-wrapper .cursor-wrapper {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, 50%);
+    display: flex;
+}
+
+.carousel-wrapper .cursor {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--primaryVariant);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.14);
+    cursor: pointer;
+    pointer-events: all;
+    transition: 0.2s ease-out;
+}
+
+.carousel-wrapper .cursor:not(:last-child) {
+    margin-right: 8px;
+}
+
+.carousel-wrapper .cursor.active {
+    background-color: var(--primary);
 }

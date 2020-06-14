@@ -55,11 +55,11 @@ export class Carousel extends Component {
         }
     }
 
-    dragStart(event) {        
-        if(event.button === 1 || event.button === 2) {
+    dragStart(event) {
+        if (event.button === 1 || event.button === 2) {
             return
         }
-        
+
         this.sliderRef.current.style.transition = "";
         this.sliderRef.current.style.cursor = "grabbing";
 
@@ -155,6 +155,23 @@ export class Carousel extends Component {
     }
 
     render() {
+        const { children } = this.props;
+
+        let cursorElement;
+        if (children.length > 1) {
+            cursorElement =
+                <div className="cursor-wrapper">
+                    {
+                        children.map((element, index) =>
+                            <div
+                                className={`cursor ${this.state.index === index ? 'active' : ''}`}
+                                onClick={() => this.setIndex(index)}
+                                key={index}>
+                            </div>
+                        )
+                    }
+                </div>
+        }
         return (
             <div ref={this.mainRef} className="carousel-wrapper"
 
@@ -172,6 +189,8 @@ export class Carousel extends Component {
                 <div ref={this.sliderRef} className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)`, maxHeight: isNaN(this.state.viewportH) ? 'unset' : this.state.viewportH }}>
                     {this.props.children}
                 </div>
+
+                {cursorElement}
             </div>
         )
     }

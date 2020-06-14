@@ -5,10 +5,8 @@ modes:
 
 desktop
 
-carousel cursors
 push sidebar
 push item modal
-slider gordao
 cruzar actions make, recipe e obtained
 search async foreach
 
