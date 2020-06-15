@@ -1,0 +1,40 @@
+.dots-picker-wrapper .cat-picker {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.dots-picker-wrapper .radio-option {
+    position: relative;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.dots-picker-wrapper .radio-option:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.dots-picker-wrapper .radio-option:hover {
+    color: var(--primary);
+}
+
+.dots-picker-wrapper .radio-option::before,
+.dots-picker-wrapper .radio-option::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: solid 2px var(--primaryVariant);
+}
+
+.dots-picker-wrapper .radio-option.active::after {
+    left: -13px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    background-color: var(--primary);
+}

@@ -108,15 +108,35 @@
 }
 /* END GAMBIARRA */
 
-.sprite-wrapper {
+.bundles-carousel .sprite-wrapper {
     position: relative;
     width: 24px;
     height: 24px;
 }
 
-.sprite-wrapper > * {
+.bundles-carousel .sprite-wrapper > * {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
+}
+
+.bundle-tray {
+    margin: 0 !important;
+    border-radius: 6px;
+    transition: 0.2s ease-out;
+}
+
+.bundle-tray.active {
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
+}
+
+.bundle-tray .dots-icon {
+    margin-right: 4px;
+}
+
+.bundle-tray:not(.active) .dots-icon{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 0;
 }

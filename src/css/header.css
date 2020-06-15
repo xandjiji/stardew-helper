@@ -49,6 +49,11 @@
 }
 
 /* modes */
+.header-bar .modes-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .header-bar .modes-wrapper svg {
     padding: 6px;
 }

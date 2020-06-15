@@ -21,7 +21,7 @@
     display: flex;
 }
 
-.carousel-wrapper .cursor {
+.carousel-wrapper .cursor-wrapper .cursor {
     width: 4px;
     height: 4px;
     border-radius: 50%;

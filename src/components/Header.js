@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 
 import HeaderOptions from './HeaderOptions';
+import DotsPicker from './DotsPicker';
 import CatPicker from './CatPicker';
 
 import '../css/header.css';
 
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
+import { ReactComponent as DotsIcon } from '../assets/dots.svg';
 import { ReactComponent as SeasonIcon } from '../assets/cloudy.svg';
 import { ReactComponent as SearchIcon } from '../assets/search.svg';
 import { ReactComponent as BooksIcon } from '../assets/books.svg';
@@ -21,12 +23,14 @@ export class Header extends Component {
         this.state = {
             menuActive: false,
             catActive: false,
+            dotsActive: false,
             viewportH: window.innerHeight
         }
 
         this.notifyClose = this.notifyClose.bind(this);
 
         this.handleClick = this.handleClick.bind(this);
+        this.handleClickDots = this.handleClickDots.bind(this);
         this.handleClickCat = this.handleClickCat.bind(this);
         this.handleKeyDown = this.handleKeyDown.bind(this);
         this.handleResize = this.handleResize.bind(this);
@@ -50,6 +54,10 @@ export class Header extends Component {
         this.setState({ catActive: !this.state.catActive });
     }
 
+    handleClickDots() {
+        this.setState({ dotsActive: !this.state.dotsActive });
+    }
+
     handleKeyDown(event) {
         if (event.key === 'Escape') {
             this.setState({ menuActive: false });
@@ -58,6 +66,10 @@ export class Header extends Component {
 
     handleResize() {
         this.setState({ viewportH: window.innerHeight });
+    }
+
+    notifyCloseDots = () => {
+        this.setState({ dotsActive: false });
     }
 
     notifyClose = () => {
@@ -81,7 +93,10 @@ export class Header extends Component {
             <div className="header-bar">
                 <div className="settings-button container">
                     <div className="modes-wrapper">
-                        <BundleIcon className={mode === 'bundle' ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
+                        <div className={`modes-wrapper bundle-tray ${mode === 'bundle' ? 'active' : ''}`}>
+                            <BundleIcon className={mode === 'bundle' ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
+                            <DotsIcon className={`dots-icon smooth ${this.state.dotsActive ? 'active' : ''}`} onClick={this.handleClickDots}/>
+                        </div>
                         <SeasonIcon className={mode === 'season' ? 'active' : ''} onClick={() => this.props.setMode('season')} />
                         <BooksIcon className={this.state.catActive || pickerActive ? 'active' : ''} onClick={this.handleClickCat} />
                         <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
@@ -113,9 +128,11 @@ export class Header extends Component {
                         </div>
                     </div>
                 </div>
+
                 <div className={`backdrop ${buttonClass}`} onClick={this.handleClick}></div>
+
+                <DotsPicker isActive={this.state.dotsActive} notifyClose={this.notifyCloseDots} />
                 <CatPicker isActive={this.state.catActive} notifyClose={this.notifyClose} />
-                <div className={`cat-backdrop ${this.state.catActive ? 'active' : ''}`} onClick={this.handleClickCat}></div>
             </div>
         )
     }
