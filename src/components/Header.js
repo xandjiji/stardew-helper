@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from "react-redux";
 
 import HeaderOptions from './HeaderOptions';
+import Pushable from './Pushable';
 import DotsPicker from './DotsPicker';
 import CatPicker from './CatPicker';
 
@@ -29,6 +30,7 @@ export class Header extends Component {
         this.notifyClose = this.notifyClose.bind(this);
 
         this.handleClick = this.handleClick.bind(this);
+        this.handleClickBackdrop = this.handleClickBackdrop.bind(this);
         this.handleClickDots = this.handleClickDots.bind(this);
         this.handleClickCat = this.handleClickCat.bind(this);
         this.handleKeyDown = this.handleKeyDown.bind(this);
@@ -47,6 +49,10 @@ export class Header extends Component {
 
     handleClick() {
         this.setState({ menuActive: !this.state.menuActive });
+    }
+
+    handleClickBackdrop() {
+        this.setState({ menuActive: false });
     }
 
     handleClickCat() {
@@ -107,32 +113,33 @@ export class Header extends Component {
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />
                 </div>
 
-                <div className={`sidebar ${buttonClass}`} style={{ maxHeight: this.state.viewportH }}>
-                    <div className="sidebar-header">
-                        <div className="sidebar-header-wrapper container">
-                            <BackArrow onClick={this.handleClick} />
-                            <span>Settings</span>
+                <Pushable trigger={this.handleClick} active={this.state.menuActive} blockRight={true}>
+                    <div className={`sidebar ${buttonClass}`} style={{ maxHeight: this.state.viewportH }}>
+                        <div className="sidebar-header">
+                            <div className="sidebar-header-wrapper container">
+                                <BackArrow onClick={this.handleClick} />
+                                <span>Settings</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div className="sidebar-body" style={{ height: this.state.viewportH - 42 }}>
-                        <HeaderOptions />
+                        <div className="sidebar-body" style={{ height: this.state.viewportH - 42 }}>
+                            <HeaderOptions />
 
-                        <div className="sidebar-footer">
-                            <div className="container">
-                                <a className="git-icon" href="https://github.com/xandjiji/stardew-helper">
-                                    <GithubIcon />
-                                </a>
-                                made by
-                                <a className="git-profile" href="https://github.com/xandjiji">
-                                    xandjiji
-                                </a>
+                            <div className="sidebar-footer">
+                                <div className="container">
+                                    <a className="git-icon" href="https://github.com/xandjiji/stardew-helper">
+                                        <GithubIcon />
+                                    </a>
+                                    made by
+                                    <a className="git-profile" href="https://github.com/xandjiji">
+                                        xandjiji
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className={`backdrop ${buttonClass}`} onClick={this.handleClick}></div>
+                    <div className={`backdrop ${buttonClass}`} onClick={this.handleClickBackdrop}></div>
+                </Pushable>
 
                 <DotsPicker isActive={this.state.dotsActive} notifyClose={this.notifyCloseDots} />
                 <CatPicker isActive={this.state.catActive} notifyClose={this.notifyClose} />

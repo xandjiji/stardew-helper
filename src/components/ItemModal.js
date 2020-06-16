@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 
 import { buildClassName } from '../utils';
 
+import Pushable from './Pushable';
+
 import { ReactComponent as ExternalIcon } from '../assets/external.svg';
 import { ReactComponent as CloseIcon } from '../assets/close.svg';
 
@@ -500,45 +502,47 @@ export class ItemModal extends Component {
 
 
         return (
-            <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`}>
-                <div className="item-wrapper">
-                    <div className="material" style={{ maxHeight: this.state.viewportH - 56 }}>
-                        <div className="item-name-wrapper">
-                            <div className="item-sprite material">
-                                <div className={`${itemClass}`}></div>
+            <Pushable active={this.props.active} trigger={() => this.props.closeModal()} blockLeft={true}>
+                <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`}>
+                    <div className="item-wrapper">
+                        <div className="material" style={{ maxHeight: this.state.viewportH - 56 }}>
+                            <div className="item-name-wrapper">
+                                <div className="item-sprite material">
+                                    <div className={`${itemClass}`}></div>
+                                </div>
+
+                                <span className="item-name">
+                                    {name}
+                                    <a className="smooth" href={`https://stardewvalleywiki.com/${link}`} rel="noopener noreferrer external" target="_blank"><ExternalIcon /></a>
+                                </span>
+
+                                <CloseIcon className="close-button smooth" onClick={() => this.props.closeModal()} />
                             </div>
 
-                            <span className="item-name">
-                                {name}
-                                <a className="smooth" href={`https://stardewvalleywiki.com/${link}`} rel="noopener noreferrer external" target="_blank"><ExternalIcon /></a>
-                            </span>
+                            <div className="info-wrapper custom-scrollbar" style={{ maxHeight: this.state.viewportH - 138 }}>
+                                {sellElement}
+                                {healsElement}
+                                {profitabilityElement}
+                                {harvestElement}
+                                {buffsElement}
+                                {statsElement}
+                                {bonusElement}
+                                {effectElement}
 
-                            <CloseIcon className="close-button smooth" onClick={() => this.props.closeModal()} />
-                        </div>
+                                {obtainedElement}
+                                {makesElement}
+                                {recipeElement}
 
-                        <div className="info-wrapper custom-scrollbar" style={{ maxHeight: this.state.viewportH - 138 }}>
-                            {sellElement}
-                            {healsElement}
-                            {profitabilityElement}
-                            {harvestElement}
-                            {buffsElement}
-                            {statsElement}
-                            {bonusElement}
-                            {effectElement}
-
-                            {obtainedElement}
-                            {makesElement}
-                            {recipeElement}
-
-                            {lovesElement}
-                            {likesElement}
-                            {neutralsElement}
-                            {dislikesElement}
-                            {hatesElement}
+                                {lovesElement}
+                                {likesElement}
+                                {neutralsElement}
+                                {dislikesElement}
+                                {hatesElement}
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </Pushable>
         )
     }
 }

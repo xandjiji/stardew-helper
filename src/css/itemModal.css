@@ -1,8 +1,20 @@
-.item-modal {
+.body-wrapper + .pushable-item {
     position: fixed;
     top: 0;
     right: 0;
     z-index: 30;
+    width: 100vw;
+    height: 100vh;
+}
+
+.body-wrapper + .pushable-item:not(.active) {
+    pointer-events: none;
+}
+
+.item-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
     width: 100vw;
     height: 100vh;
     transform: translateX(100%);

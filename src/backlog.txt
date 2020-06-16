@@ -5,11 +5,8 @@ modes:
 
 desktop
 
-push sidebar
-push item modal
 cruzar actions make, recipe e obtained
 search async foreach
-aglutinar bundle mode ...
 
 CALENDAR
 

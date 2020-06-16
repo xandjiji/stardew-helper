@@ -106,7 +106,7 @@ export class Carousel extends Component {
         let elementSize = this.mainRef.current.offsetWidth;
 
         /* pushy enough */
-        if (Math.abs(distance) > 120) {
+        if (Math.abs(distance) > 80) {
             let newIndex = this.state.index + ((Math.sign(distance)));
 
             this.setIndex(newIndex);
@@ -183,8 +183,7 @@ export class Carousel extends Component {
 
                 onTouchStart={this.dragStart}
                 onTouchMove={this.dragging}
-                onTouchEnd={this.dragStop}
-            >
+                onTouchEnd={this.dragStop}>
 
                 <div ref={this.sliderRef} className="item-wrapper" style={{ transform: `translateX(${this.state.positionX}px)`, maxHeight: isNaN(this.state.viewportH) ? 'unset' : this.state.viewportH }}>
                     {this.props.children}
