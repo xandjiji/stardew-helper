@@ -10,7 +10,6 @@ import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
 import { ReactComponent as DotsIcon } from '../assets/dots.svg';
-import { ReactComponent as SeasonIcon } from '../assets/cloudy.svg';
 import { ReactComponent as SearchIcon } from '../assets/search.svg';
 import { ReactComponent as BooksIcon } from '../assets/books.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
@@ -84,6 +83,11 @@ export class Header extends Component {
             pickerActive = true;
         }
 
+        let bundleActive = false;
+        if (mode === 'bundle' || mode === 'season') {
+            bundleActive = true;
+        }
+
         let buttonClass = '';
         if (this.state.menuActive) {
             buttonClass = 'active';
@@ -93,11 +97,10 @@ export class Header extends Component {
             <div className="header-bar">
                 <div className="settings-button container">
                     <div className="modes-wrapper">
-                        <div className={`modes-wrapper bundle-tray ${mode === 'bundle' ? 'active' : ''}`}>
-                            <BundleIcon className={mode === 'bundle' ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
-                            <DotsIcon className={`dots-icon smooth ${this.state.dotsActive ? 'active' : ''}`} onClick={this.handleClickDots}/>
+                        <div className={`modes-wrapper bundle-tray ${bundleActive ? 'active' : ''}`}>
+                            <BundleIcon className={bundleActive ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
+                            <DotsIcon className={`dots-icon smooth ${this.state.dotsActive ? 'active' : ''}`} onClick={this.handleClickDots} />
                         </div>
-                        <SeasonIcon className={mode === 'season' ? 'active' : ''} onClick={() => this.props.setMode('season')} />
                         <BooksIcon className={this.state.catActive || pickerActive ? 'active' : ''} onClick={this.handleClickCat} />
                         <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
                     </div>

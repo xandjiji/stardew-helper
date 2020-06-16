@@ -5,7 +5,18 @@ const initialState = localStore.loadData();
 const modeReducer = (state = initialState.modeReducer, action) => {
     switch (action.type) {
         case "SET_MODE":
-            state = { mode: action.payload }
+            state = {
+                ...state,
+                mode: action.payload
+            }
+
+            break;
+
+        case "SET_BUNDLE_MODE":
+            state = {
+                ...state,
+                bundleMode: action.payload
+            }
 
             break;
 

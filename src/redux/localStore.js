@@ -12,7 +12,8 @@ function loadData() {
         themeReducer: 0,
         itemReducer: {},
         modeReducer: {
-            mode: "bundle"
+            mode: 'bundle',
+            bundleMode: 'bundle'
         },
         itemModalReducer: {
             active: false,

@@ -26,13 +26,17 @@ import './css/spritesheets/spritessub111px.css';
 
 export class Main extends Component {
     render() {
-        const { mode } = this.props;
+        const { mode, bundleMode } = this.props;
 
         let modeElement;
         if(mode === "bundle") {
-            modeElement = <RoomMode />
-        } else if(mode === "season") {
-            modeElement = <SeasonMode />
+            
+            if(bundleMode === 'season') {
+                modeElement = <SeasonMode />    
+            } else {
+                modeElement = <RoomMode />
+            }
+            
         } else if(mode === "search") {
             modeElement = <SearchMode />
         } else {
@@ -55,7 +59,8 @@ export class Main extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        mode: state.modeReducer.mode
+        mode: state.modeReducer.mode,
+        bundleMode: state.modeReducer.bundleMode,
     };
 };
 

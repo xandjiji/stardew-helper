@@ -31,7 +31,7 @@
     border: solid 2px var(--primaryVariant);
 }
 
-.dots-picker-wrapper .radio-option.active::after {
+.dots-picker-wrapper .radio-option.true::after {
     left: -13px;
     width: 6px;
     height: 6px;
