@@ -55,6 +55,10 @@ export class ItemModal extends Component {
         this.props.openModal(id);
     }
 
+    preventScroll(event) {
+        event.stopPropagation();
+    }
+
     createListItem(item) {
 
         if (typeof item === 'string') {
@@ -519,7 +523,11 @@ export class ItemModal extends Component {
                                 <CloseIcon className="close-button smooth" onClick={() => this.props.closeModal()} />
                             </div>
 
-                            <div className="info-wrapper custom-scrollbar" style={{ maxHeight: this.state.viewportH - 138 }}>
+                            <div
+                                className="info-wrapper custom-scrollbar"
+                                style={{ maxHeight: this.state.viewportH - 138 }}
+                                onTouchMove={this.preventScroll}
+                                onTouchEnd={this.preventScroll}>
                                 {sellElement}
                                 {healsElement}
                                 {profitabilityElement}

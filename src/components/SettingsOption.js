@@ -38,6 +38,10 @@ export class SettingsOption extends Component {
         this.props.notifyOpen(this.props.title);
     }
 
+    preventScroll(event) {
+        event.stopPropagation();
+    }
+
     render() {
         const { children, compensate } = this.props;
 
@@ -65,7 +69,12 @@ export class SettingsOption extends Component {
                     <SmallArrow className="option-arrow" />
                 </div>
 
-                <div className="option-content inner-container hide-scrollbar" style={dynamicHeight}>
+                <div
+                    className="option-content inner-container custom-scrollbar"
+                    style={dynamicHeight}
+                    onTouchMove={this.preventScroll}
+                    onTouchEnd={this.preventScroll}>
+
                     {optionContent}
                 </div>
             </div>
