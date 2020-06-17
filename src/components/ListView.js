@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import throttle from "lodash.throttle";
 
 import { ReactComponent as SelectArrow } from '../assets/selectArrow.svg';
 
@@ -54,9 +55,9 @@ export class ListView extends Component {
         }
     }
 
-    handleResize() {
+    handleResize = throttle(() => {
         this.setState({ viewportH: (window.innerHeight) });
-    }
+    }, 400);
 
     preventScroll(event) {
         event.stopPropagation();

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import throttle from "lodash.throttle";
 
 import '../css/IEdata.css';
 
@@ -44,11 +45,11 @@ export class IEdata extends Component {
         });
     }
 
-    handleKeyDown(event) {
+    handleKeyDown = throttle((event) => {
         if (event.key === 'Enter') {
             this.importData();
         }
-    }
+    }, 400);
 
     copyClipboard() {
         this.inputRef.current.select();

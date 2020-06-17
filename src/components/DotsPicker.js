@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import throttle from "lodash.throttle";
 
 import '../css/dotsPicker.css';
 
@@ -7,13 +8,28 @@ export class DotsPicker extends Component {
     constructor(props) {
         super(props);
 
+        this.handleKeyDown = this.handleKeyDown.bind(this);
         this.handleClick = this.handleClick.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('keydown', this.handleKeyDown);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('keydown', this.handleKeyDown);
     }
 
     handleClick(mode) {
         this.props.notifyClose();
         this.props.setMode(mode);
     }
+
+    handleKeyDown = throttle((event) => {
+        if (event.key === 'Escape') {
+            this.props.notifyClose()
+        }
+    }, 400);
 
     render() {
         const { notifyClose, mode } = this.props;

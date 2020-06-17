@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import throttle from "lodash.throttle";
 
 import CatItem from './CatItem';
 
@@ -18,12 +19,12 @@ export class CatPicker extends Component {
     componentWillUnmount() {
         window.removeEventListener('keydown', this.handleKeyDown);
     }
-
-    handleKeyDown(event) {
+    
+    handleKeyDown = throttle((event) => {
         if (event.key === 'Escape') {
             this.props.notifyClose()
         }
-    }
+    }, 400);
 
     render() {
 

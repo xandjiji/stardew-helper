@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import throttle from "lodash.throttle";
 
 import { ReactComponent as SearchIcon } from '../assets/search.svg';
 import { ReactComponent as CloseIcon } from '../assets/close.svg';
@@ -43,27 +44,27 @@ export class SearchMode extends Component {
         window.removeEventListener('resize', this.handleResize);
     }
 
-    handleResize() {
+    handleResize = throttle(() => {
         this.setState({ viewportH: (window.innerHeight) });
-    }
+    }, 400);
 
     handleChange(event) {
         this.setState({ query: event.target.value });
         this.fetchItems(event.target.value);
     }
 
-    handleTabKey(event) {
+    handleTabKey = throttle((event) => {
         if (event.keyCode === 9) {
             event.preventDefault();
             this.inputRef.current.focus()
         }
-    }
+    }, 400);
 
-    handleKey(event) {
+    handleKey = throttle((event) => {
         if (event.keyCode === 13) {
             this.inputRef.current.blur()
         }
-    }
+    }, 400);
 
     handleClick() {
         this.setState({ query: '', resultBag: [] });

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import throttle from "lodash.throttle";
 
 import '../css/carousel.css';
 
@@ -34,10 +35,10 @@ export class Carousel extends Component {
         window.removeEventListener('resize', this.handleResize);
     }
 
-    handleResize() {
+    handleResize = throttle(() => {
         this.setIndex(this.state.index);
         this.setState({ viewportH: (window.innerHeight - this.props.compensate) });
-    }
+    }, 400);
 
     componentDidUpdate(prevProps) {
         this.resetPosition(prevProps)

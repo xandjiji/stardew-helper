@@ -78,6 +78,10 @@ export class Pushable extends Component {
         /* pushy enough */
         if (Math.abs(distance) > 80) {
             this.handleTrigger();
+            setTimeout(() => {
+                this.setState({ positionX: 0 });
+            }, 200)
+            return
         }
 
         this.mainRef.current.style.transition = "transform 0.2s ease-out"

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import throttle from "lodash.throttle";
 
 import SettingsOption from './SettingsOption';
 import ThemePicker from './ThemePicker';
@@ -31,9 +32,9 @@ export class HeaderOptions extends Component {
         window.removeEventListener('resize', this.handleResize);
     }
 
-    handleResize() {
+    handleResize = throttle(() => {
         this.setState({ viewportH: (window.innerHeight) });
-    }
+    }, 400);
 
     notifyOpen = (which) => {
         this.setState({ active: which });

@@ -1,9 +1,9 @@
 .dots-picker-wrapper .cat-picker {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px;
 }
 
 .dots-picker-wrapper .radio-option {
+    margin-left: 16px;
     position: relative;
     font-size: 12px;
     cursor: pointer;

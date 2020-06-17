@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import throttle from "lodash.throttle";
 
 import HeaderOptions from './HeaderOptions';
 import Pushable from './Pushable';
@@ -63,15 +64,15 @@ export class Header extends Component {
         this.setState({ dotsActive: !this.state.dotsActive });
     }
 
-    handleKeyDown(event) {
-        if (event.key === 'Escape') {
+    handleKeyDown = throttle((event) => {
+        if (event.key === 'Escape') {            
             this.setState({ menuActive: false });
         }
-    }
+    }, 400);
 
-    handleResize() {
+    handleResize = throttle(() => {
         this.setState({ viewportH: window.innerHeight });
-    }
+    }, 400);
 
     notifyCloseDots = () => {
         this.setState({ dotsActive: false });

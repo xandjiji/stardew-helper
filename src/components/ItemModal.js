@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import throttle from "lodash.throttle";
 
 import { buildClassName } from '../utils';
 
@@ -41,15 +42,15 @@ export class ItemModal extends Component {
         window.removeEventListener('resize', this.handleResize);
     }
 
-    handleKeyDown(event) {
+    handleKeyDown = throttle((event) => {
         if (event.key === 'Escape') {
             this.props.closeModal()
         }
-    }
+    }, 400);
 
-    handleResize() {
+    handleResize = throttle(() => {
         this.setState({ viewportH: window.innerHeight });
-    }
+    }, 400);
 
     handleActionLink(id) {
         this.props.openModal(id);
