@@ -12,6 +12,7 @@ import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
 import { ReactComponent as DotsIcon } from '../assets/dots.svg';
+import { ReactComponent as CalendarIcon } from '../assets/calendar.svg';
 import { ReactComponent as SearchIcon } from '../assets/search.svg';
 import { ReactComponent as BooksIcon } from '../assets/books.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
@@ -85,8 +86,9 @@ export class Header extends Component {
     render() {
         const { mode } = this.props;
 
+        let categories = ['crops', 'animalProducts', 'artisanGoods', 'fishes', 'minerals', 'artifacts', 'weapons', 'equipment', 'dishes', 'furnitures' ];
         let pickerActive = false;
-        if (mode !== 'bundle' && mode !== 'season' && mode !== 'search') {
+        if (categories.includes(mode)) {
             pickerActive = true;
         }
 
@@ -109,6 +111,7 @@ export class Header extends Component {
                             <DotsIcon className={`dots-icon smooth ${this.state.dotsActive ? 'active' : ''}`} onClick={this.handleClickDots} />
                         </div>
                         <BooksIcon className={this.state.catActive || pickerActive ? 'active' : ''} onClick={this.handleClickCat} />
+                        <CalendarIcon className={mode === 'calendar' ? 'active' : ''} onClick={() => this.props.setMode('calendar')} />
                         <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
                     </div>
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />

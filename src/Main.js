@@ -6,6 +6,7 @@ import RoomMode from './components/RoomMode';
 import SeasonMode from './components/SeasonMode';
 import CategorySelector from './components/CategorySelector';
 import SearchMode from './components/SearchMode';
+import CalendarMode from './components/CalendarMode';
 
 import ItemModal from './components/ItemModal';
 
@@ -39,6 +40,8 @@ export class Main extends Component {
             
         } else if(mode === "search") {
             modeElement = <SearchMode />
+        } else if(mode === "calendar") {
+            modeElement = <CalendarMode />
         } else {
             modeElement = <CategorySelector />
         }
