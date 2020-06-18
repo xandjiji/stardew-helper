@@ -6,7 +6,8 @@ modes:
 desktop
 
 cruzar actions make, recipe e obtained
-search async foreach
+search async foreach,
+add npc to search
 
 CALENDAR
 

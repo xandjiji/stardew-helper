@@ -162,3 +162,8 @@
     width: 32px; height: 32px;
     background: url('../../assets/spritesheets/sprites32px.png') -0 -1024px;
 }
+
+.bg-Event {
+    width: 32px; height: 32px;
+    background: url('../../assets/spritesheets/sprites32px.png') -0 -1056px;
+}
