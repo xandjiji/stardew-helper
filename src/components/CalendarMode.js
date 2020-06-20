@@ -14,7 +14,7 @@ export class CalendarMode extends Component {
         this.state = {
             currentSeason: 'Spring',
             currentDay: 4,
-            eventType: 'Birthday'
+            eventType: 'Birthday:'
         }
 
         this.handleClickSeason = this.handleClickSeason.bind(this);
@@ -25,19 +25,22 @@ export class CalendarMode extends Component {
         this.setState({ currentSeason: month }, () => { this.setFirstEvent(month) });
     }
 
-    handleClickDay(currentDay) {
+    handleClickDay(currentDay, isNightMarket) {
 
         currentDay = parseInt(currentDay);
 
         let monthData = calendar[this.state.currentSeason];
 
-        if (monthData[currentDay] === undefined) {
+        if (monthData[currentDay] === undefined && isNightMarket === false) {
             return
         }
 
-        let eventType = 'Event';
+        let eventType = 'Event:';
+        if (isNightMarket) {
+            eventType = 'Night Market';
+        }
         if (Number.isInteger(monthData[currentDay])) {
-            eventType = 'Birthday';
+            eventType = 'Birthday:';
         }
 
         this.setState({ currentDay, eventType });
@@ -48,7 +51,7 @@ export class CalendarMode extends Component {
     }
 
     setFirstEvent(season) {
-        for (const event of Object.keys(calendar[season])) {            
+        for (const event of Object.keys(calendar[season])) {
             this.handleClickDay(event)
             break;
         }
@@ -98,13 +101,26 @@ export class CalendarMode extends Component {
                 }
             }
 
+            /* night market */
+            let nightMarketElement;
+            let isNightMarket = false;
+            if (i === 15 || i === 16 || i === 17) {
+                if (currentSeason === 'Winter') {
+                    isNightMarket = true;
+                    dayClass = 'event'
+                    nightMarketElement =
+                        <div className="night-market bg-Iridium_Quality_Icon"></div>
+                }
+            }
+
             daysElement.push(
                 <div
                     className={`day-item ${dayClass} ${currentDay === i ? 'active' : ''}`}
                     key={i}
-                    onClick={() => this.handleClickDay(i)}>
+                    onClick={() => this.handleClickDay(i, isNightMarket)}>
                     <span className="day-number">{i}</span>
 
+                    {nightMarketElement}
                     {contentElement}
                 </div>
             )
@@ -120,18 +136,22 @@ export class CalendarMode extends Component {
             innerInfoElement = this.makeNpcAction(currentDayData)
         } else {
             infoIconClass = 'bg-Event';
+            if(eventType === 'Night Market') {
+                currentDayData = 'Night Market'
+                infoIconClass = 'bg-Iridium_Quality_Icon';
+            }
 
             innerInfoElement =
-            <span className="inner-info">
-                {currentDayData}
-                <a
-                    className="smooth"
-                    href={buildUrl(currentDayData)}
-                    rel="noopener noreferrer external"
-                    target="_blank">
+                <span className="inner-info">
+                    {currentDayData}
+                    <a
+                        className="smooth"
+                        href={buildUrl(currentDayData)}
+                        rel="noopener noreferrer external"
+                        target="_blank">
                         <ExternalIcon />
-                </a>
-            </span>
+                    </a>
+                </span>
         }
 
         return (
@@ -155,7 +175,7 @@ export class CalendarMode extends Component {
                         <div className={infoIconClass}></div>
                     </div>
 
-                    <div className="event-wrapper">{eventType}: {innerInfoElement}</div>
+                    <div className="event-wrapper">{eventType === 'Night Market' ? 'Event:' : eventType} {innerInfoElement}</div>
                 </div>
             </div>
         )
@@ -167,10 +187,10 @@ export default CalendarMode
 
 function buildUrl(name) {
 
-    if(name === undefined) {
+    if (name === undefined) {
         return
     }
-    
+
     name = name.replace(/'/g, "%27");
     name = name.replace(/ /g, "_");
 

@@ -1,16 +1,10 @@
 modes:
-    modal evento
     modal npc
+    desktop
 
-desktop
-
+adicionar farm animals e npc to cat picker
+adicionar farm animals e npc to items.json
 cruzar actions make, recipe e obtained
 search async foreach,
-add [npc, bestiari, farm animals] to search
+add [npc, farm animals] to search
 100% height
-
-NPC?
-
-BESTIARI?
-
-FARM ANIMALS?

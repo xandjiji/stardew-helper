@@ -271,6 +271,7 @@ export class ItemModal extends Component {
                 criticalChanceElement = <span className="info-value">{`${parseFloat(stats.criticalChance * 100)}%`} critical chance</span>
             }
 
+            if(criticalChanceElement !== undefined || damageElement !== undefined || levelElement !== undefined) {
             statsElement =
                 <div className="info-box list material">
                     <span className="info-title">Stats</span>
@@ -280,6 +281,8 @@ export class ItemModal extends Component {
                         {criticalChanceElement}
                     </div>
                 </div>
+            }
+
         }
 
         let bonusElement;
