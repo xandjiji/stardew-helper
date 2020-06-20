@@ -1,19 +1,16 @@
 modes:
-    calendar (4 seasons)
-        modal evento
-        modal npc
+    modal evento
+    modal npc
 
 desktop
 
 cruzar actions make, recipe e obtained
 search async foreach,
-add npc to search
+add [npc, bestiari, farm animals] to search
 100% height
-
-CALENDAR
 
 NPC?
 
 BESTIARI?
 
-ANIMAL FARMS?
+FARM ANIMALS?

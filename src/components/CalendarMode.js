@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import '../css/calendar.css';
 
+import { ReactComponent as ExternalIcon } from '../assets/external.svg';
+
 import calendar from '../jsons/calendar.json';
 import npcs from '../jsons/npcs.json';
 
@@ -26,7 +28,7 @@ export class CalendarMode extends Component {
     handleClickDay(currentDay) {
 
         currentDay = parseInt(currentDay);
-        
+
         let monthData = calendar[this.state.currentSeason];
 
         if (monthData[currentDay] === undefined) {
@@ -119,7 +121,17 @@ export class CalendarMode extends Component {
         } else {
             infoIconClass = 'bg-Event';
 
-            innerInfoElement = <span className="inner-info">{currentDayData}</span>
+            innerInfoElement =
+            <span className="inner-info">
+                {currentDayData}
+                <a
+                    className="smooth"
+                    href={buildUrl(currentDayData)}
+                    rel="noopener noreferrer external"
+                    target="_blank">
+                        <ExternalIcon />
+                </a>
+            </span>
         }
 
         return (
@@ -151,3 +163,17 @@ export class CalendarMode extends Component {
 }
 
 export default CalendarMode
+
+
+function buildUrl(name) {
+
+    if(name === undefined) {
+        return
+    }
+    
+    name = name.replace(/'/g, "%27");
+    name = name.replace(/ /g, "_");
+
+
+    return `https://stardewvalleywiki.com/${name}`;
+}
