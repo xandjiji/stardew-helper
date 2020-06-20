@@ -144,6 +144,10 @@
     white-space: nowrap;
 }
 
+.calendar-info .npc-action {
+    cursor: pointer;
+}
+
 .calendar-info .inner-info {
     color: var(--onSurface);
 }
