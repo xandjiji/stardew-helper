@@ -4,7 +4,7 @@
 
 .calendar-wrapper {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 432px;
     overflow: hidden;
     border-radius: 6px;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
@@ -104,8 +104,7 @@
 /* calendar info */
 .calendar-info {
     margin: 32px auto 0 auto;
-    margin-top: 32px;
-    max-width: 500px;
+    max-width: 432px;
     position: relative;
     background-color: var(--surface);
 }
