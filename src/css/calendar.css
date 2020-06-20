@@ -103,7 +103,9 @@
 
 /* calendar info */
 .calendar-info {
+    margin: 32px auto 0 auto;
     margin-top: 32px;
+    max-width: 500px;
     position: relative;
     background-color: var(--surface);
 }
