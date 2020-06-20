@@ -1,0 +1,173 @@
+.calendar-mode-wrapper {
+    margin: 16px 16px 0 16px;
+}
+
+.calendar-wrapper {
+    margin: 0 auto;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+/* season */
+.calendar-wrapper .season-picker {
+    padding: 12px 6px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary);
+}
+
+.calendar-wrapper .season-item {
+    padding: 6px 12px;
+    border-radius: 16px;
+    color: var(--onPrimary);
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.calendar-wrapper .season-item:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.calendar-wrapper .season-item:active {
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
+}
+
+.calendar-wrapper .season-item.active {
+    color: var(--primary);
+    background-color: var(--onPrimary);
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
+}
+
+/* weekdays */
+.calendar-wrapper .weekdays-wrapper {
+    padding: 12px 6px;
+    position: relative;
+    display: flex;
+    background-color: var(--surface);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.10);
+}
+
+.calendar-wrapper .weekday {
+    width: calc(100% / 7);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+/* days */
+.calendar-wrapper .days-wrapper {
+    padding: 18px 6px 6px 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--surface);
+}
+
+.calendar-wrapper .day-item {
+    padding: 4px;
+    margin: 0 6px 6px 0;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: calc((100% - 42px) / 7);
+    height: 54px;
+    border-radius: 6px;
+    transition: 0.2s ease-out;
+}
+
+.calendar-wrapper .day-item.event:hover,
+.calendar-wrapper .day-item.active {
+    background-color: var(--primaryVariant);
+}
+
+.calendar-wrapper .day-item.event {
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.10);
+}
+
+.calendar-wrapper .day-item.event:active {
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
+}
+
+.calendar-wrapper .day-number {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* calendar info */
+.calendar-info {
+    margin-top: 32px;
+    position: relative;
+    background-color: var(--surface);
+}
+
+.calendar-info.material {
+    padding: 9px 16px;
+}
+
+.calendar-info .info-icon {
+    padding: 6px;
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    border-radius: 6px;
+    background-color: var(--primaryVariant);
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.10);
+}
+
+.calendar-info .event-wrapper {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.calendar-info .event-wrapper::before {
+    content: '';
+    margin-left: 54px;
+}
+
+.calendar-info .npc-action,
+.calendar-info .inner-info {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary);
+    white-space: nowrap;
+}
+
+.calendar-info .inner-info {
+    color: var(--onSurface);
+}
+
+.calendar-info .inner-info::after {
+    content: '';
+    margin-right: 4px;
+}
+
+.calendar-info .inner-info a {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(calc(-50% - 1px));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+}
+
+.calendar-info .inner-info a:hover {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+}
+
+.calendar-info .inner-info a:active {
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
+}
