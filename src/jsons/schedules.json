@@ -1,0 +1,2954 @@
+{
+    "Abigail": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Married",
+                "key": "marriage"
+            },
+            {
+                "name": "6 hearts friendship",
+                "key": "6hearts"
+            },
+            {
+                "name": "6 hearts with Sebastian",
+                "key": "sebastian_6"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "day": 6 }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 2 20"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Mountain 46 23"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 11 }, { "sebastian_6": false }],
+                "schedule": [
+                    {
+                        "time": 1000,
+                        "location": "SebastianRoom 5 4"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 16 }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 2 20"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Mountain 46 23"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 25 }, { "sebastian_6": false }],
+                "schedule": [
+                    {
+                        "time": 1000,
+                        "location": "SebastianRoom 5 4"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 9 5"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "SeedShop 13 20"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "SeedShop 7 9"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "SeedShop 6 4"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "SeedShop 1 9"
+                    }
+                ],
+                "altSchedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 34 5"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "SeedShop 9 17"
+                    },
+                    {
+                        "time": 1400,
+                        "location": "Saloon 42 17"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "SeedShop 1 9"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "SeedShop 6 4"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 15 }, { "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "ScienceHouse 5 19"
+                    },
+                    {
+                        "time": 1430,
+                        "location": "Beach 30 34"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Mon" }, { "marriage": true }],
+                "schedule": [
+                    {
+                        "time": 830,
+                        "location": "SeedShop 6 19"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Town 47 87"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Saloon 33 18"
+                    },
+                    {
+                        "time": 2030,
+                        "location": "BusStop -1 23"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }, { "marriage": true }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 36 9"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Mountain 49 31"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Saloon 42 17"
+                    },
+                    {
+                        "time": 2030,
+                        "location": "BusStop -1 23"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Mon" }, { "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 10 5"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Beach 13 39"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 4 }, { "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 11 5"
+                    },
+                    {
+                        "time": 1230,
+                        "location": "Hospital 13 14"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 10 5"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sun" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 4 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 20 5"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Forest 14 40"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 11 }, { "6hearts": true }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 2 20"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Town 73 54"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "SeedShop 3 6"
+                    },
+                    {
+                        "time": 1930,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 11 }, { "6hearts": false }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 2 20"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Town 73 54"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "SeedShop 3 6"
+                    },
+                    {
+                        "time": 1930,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Wed" }],
+                "schedule": [
+                    {
+                        "time": 1000,
+                        "location": "ArchaeologyHouse 11 9"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "Town 47 87"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 34 5"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "SeedShop 9 17"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Saloon 42 17"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 2 20"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "BusStop 22 5"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "SeedShop 3 6"
+                    },
+                    {
+                        "time": 1930,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "ScienceHouse 5 19"
+                    },
+                    {
+                        "time": 1430,
+                        "location": "SeedShop 3 6"
+                    },
+                    {
+                        "time": 1930,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Railroad 30 45"
+                    },
+                    {
+                        "time": 1400,
+                        "location": "Mountain 49 31"
+                    },
+                    {
+                        "time": 1740,
+                        "location": "SeedShop 3 6"
+                    },
+                    {
+                        "time": 1930,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 39 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 2 20"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Town 73 54"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "SeedShop 3 6"
+                    },
+                    {
+                        "time": 1930,
+                        "location": "SeedShop 1 9"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+    "Alex": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Married",
+                "key": "marriage"
+            },
+            {
+                "name": "6 hearts with Haley",
+                "key": "haley_6"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "JoshHouse 14 5"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Town 50 68"
+                    },
+                    {
+                        "time": 1830,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Mon" }, { "marriage": true }],
+                "schedule": [
+                    {
+                        "time": 830,
+                        "location": "JoshHouse 6 18"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "BusStop -1 23"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sun" }, { "marriage": true }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Town 64 64"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Saloon 32 7"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Town 50 68"
+                    },
+                    {
+                        "time": 1830,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "BusStop -1 23"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 16 }, { "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Town 64 64"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Hospital 15 15"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "JoshHouse 15 4"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 17 }, { "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "BathHouse_MensLocker 3 5"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Beach 27 24"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Wed" }, { "haley_6": false }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Town 64 64"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "HaleyHouse 7 23"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "Town 50 68"
+                    },
+                    {
+                        "time": 1840,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sun" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Town 64 64"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Saloon 32 7"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Town 50 68"
+                    },
+                    {
+                        "time": 1830,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "BathHouse_MensLocker 3 5"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "JoshHouse 14 5"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "Town 50 68"
+                    },
+                    {
+                        "time": 1930,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2240,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 730,
+                        "location": "Beach 30 13"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Town 88 91"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "JoshHouse 14 5"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Town 64 64"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "JoshHouse 14 5"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Town 50 68"
+                    },
+                    {
+                        "time": 1830,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Town 64 64"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "JoshHouse 14 5"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Town 50 68"
+                    },
+                    {
+                        "time": 1830,
+                        "location": "JoshHouse 8 19"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 17 5"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "JoshHouse 21 4"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+
+    "Caroline": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Community Center restored",
+                "key": "community_restored"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "SeedShop 15 23"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "SeedShop 21 5"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }, { "day": 25 }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "SeedShop 27 7"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Hospital 13 14"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }, { "day": 16 }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "SeedShop 15 23"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Town 23 71"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Beach 24 32"
+                    },
+                    {
+                        "time": 2330,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Tue" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 22 14"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "SeedShop 24 17"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "SeedShop 24 21"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 23 15"
+                    },
+                    {
+                        "time": 1810,
+                        "location": "SeedShop 34 5"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "Sunroom 5 7"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "ArchaeologyHouse 14 4"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Wed" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "Sunroom 5 7"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Town 23 27"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sat" },{"community_restored": true}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "CommunityCenter 26 9"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sun" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "SeedShop 22 5"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "SeedShop 21 5"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "SeedShop 15 23"
+                    },
+                    {
+                        "time": 1440,
+                        "location": "Town 48 33"
+                    },
+                    {
+                        "time": 1830,
+                        "location": "SeedShop 27 7"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "Sunroom 5 7"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "SeedShop 15 23"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Town 23 71"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "Sunroom 5 7"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "SeedShop 15 23"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Town 23 71"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "Sunroom 5 7"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "SeedShop 15 23"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Town 23 71"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 37 6"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "Sunroom 5 7"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "SeedShop 15 23"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Town 23 71"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "SeedShop 25 18"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "SeedShop 25 4"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+    "Clint": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Community Center restored",
+                "key": "community_restored"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "Blacksmith 3 13"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Blacksmith 8 12"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }, { "day": 16 }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "Blacksmith 3 13 "
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Hospital 12 14"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }, { "community_restored": true }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "CommunityCenter 62 14"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }, { "community_restored": false }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "JojaMart 27 5"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }, { "day": 15 }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "Blacksmith 3 13"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Beach 37 33"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "Blacksmith 3 13"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Blacksmith 8 12"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "Blacksmith 3 13"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Blacksmith 8 12"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "Blacksmith 3 13"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Blacksmith 8 12"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 850,
+                        "location": "Blacksmith 3 13"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Blacksmith 8 12"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "Saloon 19 23"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Blacksmith 10 4"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+    "Demetrius": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 750,
+                        "location": "ScienceHouse 16 19"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ScienceHouse 22 20"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "ScienceHouse 7 18"
+                    },
+                    {
+                        "time": 1540,
+                        "location": "ScienceHouse 22 20"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "ScienceHouse 27 9"
+                    },
+                    {
+                        "time": 1920,
+                        "location": "ScienceHouse 28 9"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "ScienceHouse 15 4"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "ScienceHouse 19 4"
+                    }
+                ]
+            },{
+                "conditions": [{ "season": "Summer" }, { "day": 25 }],
+                "schedule": [
+                    {
+                        "time": 820,
+                        "location": "Hospital 12 14"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "ScienceHouse 15 4"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "ScienceHouse 19 4"
+                    }
+                ]
+            },{
+                "conditions": [{ "weekday": "Fri" }],
+                "schedule": [
+                    {
+                        "time": 750,
+                        "location": "ScienceHouse 22 20"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Saloon 23 22"
+                    },
+                    {
+                        "time": 1920,
+                        "location": "Saloon 24 22"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ScienceHouse 20 4"
+                    }
+                ]
+            },{
+                "conditions": [{ "season": "Winter" }, { "day": 16 }],
+                "schedule": [
+                    {
+                        "time": 750,
+                        "location": "ScienceHouse 16 19"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ScienceHouse 22 20"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "ScienceHouse 7 18"
+                    },
+                    {
+                        "time": 1540,
+                        "location": "Beach 11 32"
+                    },
+                    {
+                        "time": 2330,
+                        "location": "ScienceHouse 19 4"
+                    }
+                ]
+            },{
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 750,
+                        "location": "ScienceHouse 16 19"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ScienceHouse 22 20"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "ScienceHouse 7 18"
+                    },
+                    {
+                        "time": 1540,
+                        "location": "ScienceHouse 22 20"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "ScienceHouse 27 9"
+                    },
+                    {
+                        "time": 1920,
+                        "location": "ScienceHouse 28 9"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "ScienceHouse 15 4"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "ScienceHouse 19 4"
+                    }
+                ]
+            },{
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 750,
+                        "location": "ScienceHouse 29 9"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Mountain 45 8"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "ScienceHouse 27 9"
+                    },
+                    {
+                        "time": 2040,
+                        "location": "ScienceHouse 28 9"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ScienceHouse 15 4"
+                    },
+                    {
+                        "time": 2230,
+                        "location": "ScienceHouse 19 4"
+                    }
+                ]
+            },{
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 750,
+                        "location": "ScienceHouse 29 9"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Town 31 23"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "ScienceHouse 27 9"
+                    },
+                    {
+                        "time": 2040,
+                        "location": "ScienceHouse 28 9"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ScienceHouse 15 4"
+                    },
+                    {
+                        "time": 2230,
+                        "location": "ScienceHouse 19 4"
+                    }
+                ]
+            },{
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 750,
+                        "location": "ScienceHouse 29 9"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ScienceHouse 22 20"
+                    },
+                    {
+                        "time": 1430,
+                        "location": "Mountain 15 26"
+                    },
+                    {
+                        "time": 1530,
+                        "location": "Mountain 30 36"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "ScienceHouse 27 9"
+                    },
+                    {
+                        "time": 2040,
+                        "location": "ScienceHouse 28 9"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ScienceHouse 15 4"
+                    },
+                    {
+                        "time": 2230,
+                        "location": "ScienceHouse 19 4"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+    "Elliott": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Married",
+                "key": "marriage"
+            },
+            {
+                "name": "6 hearts with Leah",
+                "key": "leah_6"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Mon" }, {"marriage":true}],
+                "schedule": [
+                    {
+                        "time": 830,
+                        "location": "Beach 46 11"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "BusStop -1 23"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" },{"day":17}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1130,
+                        "location": "ArchaeologyHouse 21 11"
+                    },
+                    {
+                        "time": 1650,
+                        "location": "Beach 38 36"
+                    },
+                    {
+                        "time": 2500,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" },{"day":9}],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Hospital 12 14"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Thu" },{"leah_6":true}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1130,
+                        "location": "SeedShop 10 20"
+                    },
+                    {
+                        "time": 1730,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" },{"leah_6":true}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1130,
+                        "location": "SeedShop 10 20"
+                    },
+                    {
+                        "time": 1730,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sun" },{"leah_6":false}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Beach 24 32"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Saloon 4 19"
+                    },
+                    {
+                        "time": 2340,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" },{"leah_6":false}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Beach 24 32"
+                    },
+                    {
+                        "time": 1700,
+                        "location": "Saloon 4 19"
+                    },
+                    {
+                        "time": 2340,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1130,
+                        "location": "Forest 96 39"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Beach 49 19"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Town 55 104"
+                    },
+                    {
+                        "time": 1800,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1130,
+                        "location": "ArchaeologyHouse 21 11"
+                    },
+                    {
+                        "time": 1730,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "ElliottHouse 6 4"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 1130,
+                        "location": "ArchaeologyHouse 21 11"
+                    },
+                    {
+                        "time": 1730,
+                        "location": "ElliottHouse 7 7"
+                    },
+                    {
+                        "time": 2100,
+                        "location": "ElliottHouse 1 5"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "ElliottHouse 13 4"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+    "Emily": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Community Center restored",
+                "key": "community_restored"
+            },
+            {
+                "name": "Married",
+                "key": "marriage"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "HaleyHouse 3 16"
+                    },
+                    {
+                        "time": 1530,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Tue" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "SeedShop 27 16"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "SeedShop 26 19"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Mon" }, {"marriage":true}],
+                "schedule": [
+                    {
+                        "time": 830,
+                        "location": "HaleyHouse 12 17"
+                    },
+                    {
+                        "time": 1100,
+                        "location": "Town 82 15"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "BusStop -1 23"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }, {"marriage":true}],
+                "schedule": [
+                    {
+                        "time": 830,
+                        "location": "Beach 10 37"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "SeedShop 2 26"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2200,
+                        "location": "BusStop -1 23"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" },{"day":15}],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "HaleyHouse 3 16"
+                    },
+                    {
+                        "time": 1430,
+                        "location": "Beach 25 36"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" },{"day":11}],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Hospital 12 14"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" },{"community_restored":true}],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "CommunityCenter 10 25"
+                    },
+                    {
+                        "time": 1530,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "HaleyHouse 3 16"
+                    },
+                    {
+                        "time": 1530,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "HaleyHouse 3 16"
+                    },
+                    {
+                        "time": 1530,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "HaleyHouse 3 16"
+                    },
+                    {
+                        "time": 1530,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 900,
+                        "location": "HaleyHouse 16 5"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "HaleyHouse 3 16"
+                    },
+                    {
+                        "time": 1530,
+                        "location": "Saloon 15 17"
+                    },
+                    {
+                        "time": 2430,
+                        "location": "HaleyHouse 21 4"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+
+    "Evelyn": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Community Center restored",
+                "key": "community_restored"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "day": 2 }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Hospital 15 15"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "day": 23 }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "Hospital 10 16"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 7"
+                    },
+                    {
+                        "time": 1610,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": ""
+                    },
+                    {
+                        "time": 1030,
+                        "location": ""
+                    },
+                    {
+                        "time": 1330,
+                        "location": ""
+                    },
+                    {
+                        "time": 1600,
+                        "location": ""
+                    },
+                    {
+                        "time": 2400,
+                        "location": ""
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "JoshHouse 3 19"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" },{"day":17}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "JoshHouse 3 19"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "JoshHouse 20 20"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "Beach 12 39"
+                    },
+                    {
+                        "time": 2340,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Thu" },{"community_restored":true}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "CommunityCenter 18 25"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sat" },{"community_restored":true}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "CommunityCenter 18 25"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Mon" },{"community_restored":true}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "CommunityCenter 18 25"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "JoshHouse 3 19"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "JoshHouse 20 20"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "JoshHouse 3 19"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Town 36 78"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "JoshHouse 3 19"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Town 20 62"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "JoshHouse 3 17"
+                    },
+                    {
+                        "time": 1040,
+                        "location": "JoshHouse 17 22"
+                    },
+                    {
+                        "time": 1210,
+                        "location": "JoshHouse 3 19"
+                    },
+                    {
+                        "time": 1300,
+                        "location": "Town 20 62"
+                    },
+                    {
+                        "time": 1630,
+                        "location": "JoshHouse 4 17"
+                    },
+                    {
+                        "time": 1900,
+                        "location": "JoshHouse 17 17"
+                    },
+                    {
+                        "time": 2130,
+                        "location": "JoshHouse 2 5"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+
+    "George": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "day": 23 }],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 5 21"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Hospital 10 15"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "JoshHouse 5 21"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" },{"day":17}],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "JoshHouse 5 21"
+                    },
+                    {
+                        "time": 1620,
+                        "location": "Beach 11 39"
+                    },
+                    {
+                        "time": 2340,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Fri" }, {"season":"Summer"}],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Town 52 61"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Sun" }],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1000,
+                        "location": "SeedShop 36 22"
+                    },
+                    {
+                        "time": 1400,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "JoshHouse 5 21"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "JoshHouse 5 21"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "JoshHouse 5 21"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 630,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "JoshHouse 5 21"
+                    },
+                    {
+                        "time": 1500,
+                        "location": "JoshHouse 16 22"
+                    },
+                    {
+                        "time": 2000,
+                        "location": "JoshHouse 3 5"
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+    "Gus": {
+        "specialConditions": [
+            {
+                "name": "Raining",
+                "key": "rain"
+            },
+            {
+                "name": "Community Center restored",
+                "key": "community_restored"
+            }
+        ],
+        "schedules": [
+            {
+                "conditions": [{ "rain": true }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Saloon 14 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Mon" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "SeedShop 13 23"
+                    },
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Saloon 14 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "weekday": "Tue" },{"community_restored":true}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 830,
+                        "location": "CommunityCenter 5 5"
+                    },
+                    {
+                        "time": 1230,
+                        "location": "Saloon 10 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" },{"day":4}],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 1030,
+                        "location": "Hospital 12 14"
+                    },
+                    {
+                        "time": 1330,
+                        "location": "Hospital 4 6"
+                    },
+                    {
+                        "time": 1600,
+                        "location": "Saloon 10 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Spring" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Saloon 14 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Summer" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Saloon 14 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Fall" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Saloon 14 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            },
+            {
+                "conditions": [{ "season": "Winter" }],
+                "schedule": [
+                    {
+                        "time": 800,
+                        "location": "Saloon 16 4"
+                    },
+                    {
+                        "time": 1200,
+                        "location": "Saloon 14 18"
+                    },
+                    {
+                        "time": 2400,
+                        "location": "Saloon 23 4"
+                    }
+                ]
+            }
+        ]
+    }
+}

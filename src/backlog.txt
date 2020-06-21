@@ -8,3 +8,10 @@ cruzar actions make, recipe e obtained
 search async foreach,
 add [npc, farm animals] to search
 100% height
+
+NPC:
+    Birthday
+    Address
+    Marriable
+    Loves
+    Schedule
