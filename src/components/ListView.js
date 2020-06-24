@@ -203,10 +203,13 @@ export class ListView extends Component {
                     onWheel={this.preventScroll}>
                     {
                         list.map((element, index) =>
-                            <div className="list-item" key={index}>
+                            <div className={`list-item ${buildClassName(title)}`} key={index}>
                                 <div className="item-name" onClick={() => this.props.openModal(element.id)}>
                                     <div className={`sprite ${buildClassName(element.name)}`}></div>
-                                    <span>{element.name}</span>
+                                    <div className="after-sprite">
+                                        <span>{element.name}</span>
+                                        {this.makeInfo(element, layout)}
+                                    </div>
                                 </div>
 
                                 {this.makeInfo(element, layout)}

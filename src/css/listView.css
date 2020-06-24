@@ -252,17 +252,36 @@
     text-align: center;
 }
 
-.list-wrapper .item-info.sellPrice,
-.list-wrapper .item-info.profitability {
-    width: 95px;
-    justify-content: space-between;
-    text-align: center;
-}
-
 .list-wrapper .item-info-item.stats {
     width: 125px;
 }
 
 .list-wrapper .item-info-item.foodBuff {
     width: 125px;
+}
+
+.list-wrapper .list-item .item-name .item-info {
+    display: none;
+}
+
+.list-wrapper .list-item.bg-Animal_Products .item-info,
+.list-wrapper .list-item.bg-Crops .item-info,
+.list-wrapper .list-item.bg-Artisan_Goods .item-info,
+.list-wrapper .list-item.bg-Fishes .item-info,
+.list-wrapper .list-item.bg-Minerals .item-info {
+    display: none;
+}
+
+.list-wrapper .list-item.bg-Animal_Products .item-name .item-info,
+.list-wrapper .list-item.bg-Crops .item-name .item-info,
+.list-wrapper .list-item.bg-Artisan_Goods .item-name .item-info,
+.list-wrapper .list-item.bg-Fishes .item-name .item-info,
+.list-wrapper .list-item.bg-Minerals .item-name .item-info {
+    padding-bottom: 0;
+    display: block;
+    opacity: 0.7;
+}
+
+.list-wrapper .list-item .item-name .item-info .item-sprite {
+    display: none;
 }

@@ -22465,6 +22465,28 @@
             "Museum Reward (after donating 90 items)",
             "Haunted Skull (0.13% chance drop)"
         ],
+        "foodBuff": [
+            {
+                "buffName": "Mining",
+                "buffQty": "+2"
+            },
+            {
+                "buffName": "Luck",
+                "buffQty": "+5"
+            },
+            {
+                "buffName": "Speed",
+                "buffQty": "+1"
+            },
+            {
+                "buffName": "Defense",
+                "buffQty": "+5"
+            },
+            {
+                "buffName": "Attack",
+                "buffQty": "+5"
+            }
+        ],
         "gifting": {
             "loves": [
                 0,

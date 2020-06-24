@@ -83,7 +83,6 @@
     z-index: 25;
     width: 80vw;
     transform: translateX(-100%);
-    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
     transition: 0.2s ease-out;
 
     background-color: var(--background);
@@ -91,6 +90,7 @@
 
 .header-bar .sidebar.active {
     transform: translateX(0);
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
 .header-bar .backdrop {
@@ -113,11 +113,13 @@
 
 .header-bar .sidebar-header {
     width: 100%;
-    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
-
     background-color: var(--primary);
     color: var(--onPrimary);
     fill: var(--onPrimary);
+}
+
+.header-bar .active .sidebar-header {
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
 .header-bar .sidebar-header-wrapper {

@@ -10,12 +10,6 @@ add [npc, farm animals] to search
 100% height
 prevent refresh
 
-qa:
-    magic rock candy buffs
-    passar item price pra baixo (font-weight 30)
-    sombra leve e sombra forte calendario
-    sombra lateral sidebar
-
 qa schedules:
     25PM
     SUNROOM

@@ -76,6 +76,7 @@
     width: calc((100% - 42px) / 7);
     height: 54px;
     border-radius: 6px;
+    box-shadow: 2px 2px 2px -1px rgba(0,0,0,.06);
     transition: 0.2s ease-out;
 }
 
@@ -86,7 +87,7 @@
 
 .calendar-wrapper .day-item.event {
     cursor: pointer;
-    box-shadow: 2px 2px 4px 0px rgba(0,0,0,.10);
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.10);
 }
 
 .calendar-wrapper .day-item.event:active {
