@@ -5,7 +5,7 @@
         "link": "Dinosaur_Egg",
         "sellPrice": "350",
         "obtainedFrom": [
-            "Dinosaur",
+            977,
             "Artifact Spot in the Mountain (0.8%)",
             "Artifact Spot in the Quarry (0.8%)",
             "Fishing Treasure Chests",
@@ -65,7 +65,7 @@
             "health": 17
         },
         "obtainedFrom": [
-            "Duck"
+            975
         ],
         "makes": [
             63,
@@ -129,7 +129,7 @@
         "link": "Duck_Feather",
         "sellPrice": "125",
         "obtainedFrom": [
-            "Duck"
+            975
         ],
         "makes": [
             "Lime Green Striped Shirt"
@@ -188,7 +188,7 @@
             "health": 11
         },
         "obtainedFrom": [
-            "Chicken"
+            974
         ],
         "makes": [
             68,
@@ -256,7 +256,7 @@
             "health": 28
         },
         "obtainedFrom": [
-            "Goat"
+            979
         ],
         "makes": [
             64,
@@ -316,7 +316,7 @@
             "health": 17
         },
         "obtainedFrom": [
-            "Chicken"
+            974
         ],
         "makes": [
             68,
@@ -384,7 +384,7 @@
             "health": 39
         },
         "obtainedFrom": [
-            "Goat"
+            979
         ],
         "makes": [
             64,
@@ -444,7 +444,7 @@
             "health": 22
         },
         "obtainedFrom": [
-            "Cow"
+            978
         ],
         "makes": [
             59,
@@ -515,7 +515,7 @@
             "health": 17
         },
         "obtainedFrom": [
-            "Cow"
+            978
         ],
         "makes": [
             59,
@@ -582,7 +582,7 @@
         "link": "Rabbit%27s_Foot",
         "sellPrice": "565",
         "obtainedFrom": [
-            "Rabbit",
+            976,
             "Serpent (0.8% chance drop)"
         ],
         "makes": [
@@ -753,7 +753,7 @@
             "health": 5
         },
         "obtainedFrom": [
-            "Pigs"
+            981
         ],
         "makes": [
             72,
@@ -811,7 +811,7 @@
             "health": 17
         },
         "obtainedFrom": [
-            "Void Chicken",
+            "@Void &974~",
             "Witch",
             "Krobus (5,000g)"
         ],
@@ -875,8 +875,8 @@
         "link": "Wool",
         "sellPrice": "340",
         "obtainedFrom": [
-            "Rabbit",
-            "Sheep"
+            976,
+            980
         ],
         "makes": [
             60,
@@ -4008,7 +4008,7 @@
         "id": 72,
         "name": "Truffle Oil",
         "link": "Truffle_Oil",
-        "sellPrice": "1065",
+        "sellPrice": "1,065",
         "healing": {
             "energy": 38,
             "health": 17

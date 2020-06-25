@@ -9,6 +9,7 @@ search async foreach,
 add [npc, farm animals] to search
 100% height
 prevent refresh
+ANIMAL SPRITES
 
 qa schedules:
     25PM
@@ -19,7 +20,6 @@ qa schedules:
 
 NPC:
     Birthday
-    Address
     Marriable
     Loves
     Schedule
