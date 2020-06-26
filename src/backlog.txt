@@ -3,7 +3,6 @@ modes:
     desktop
 
 adicionar farm animals e npc to cat picker
-adicionar farm animals e npc to items.json
 cruzar actions make, recipe e obtained
 search async foreach,
 add [npc, farm animals] to search

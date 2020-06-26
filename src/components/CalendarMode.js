@@ -5,7 +5,7 @@ import '../css/calendar.css';
 import { ReactComponent as ExternalIcon } from '../assets/external.svg';
 
 import calendar from '../jsons/calendar.json';
-import npcs from '../jsons/npcs.json';
+import items from '../jsons/items.json';
 
 export class CalendarMode extends Component {
     constructor(props) {
@@ -47,7 +47,7 @@ export class CalendarMode extends Component {
     }
 
     makeNpcAction(id) {
-        return <span className="npc-action">{npcs[id]}</span>
+        return <span className="npc-action">{items[id].name}</span>
     }
 
     setFirstEvent(season) {
@@ -94,7 +94,7 @@ export class CalendarMode extends Component {
                 dayClass = 'event';
                 if (Number.isInteger(currentDayData)) {
                     contentElement =
-                        <div className={`bg-${npcs[currentSeasonData[i]]}`}></div>
+                        <div className={`bg-${items[currentSeasonData[i]].name}`}></div>
                 } else {
                     contentElement =
                         <div className="bg-Event"></div>
@@ -131,7 +131,7 @@ export class CalendarMode extends Component {
         let innerInfoElement;
         let currentDayData = calendar[currentSeason][currentDay];
         if (Number.isInteger(currentDayData)) {
-            infoIconClass = `bg-${npcs[currentDayData]}`
+            infoIconClass = `bg-${items[currentDayData].name}`
 
             innerInfoElement = this.makeNpcAction(currentDayData)
         } else {

@@ -20,15 +20,10 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
     const directoryPath = path.join(__dirname, 'item_assets');
     let fileList = [];
 
-    fs.readdir(directoryPath, function (err, files) {
-        //handling error
+    /* fs.readdir(directoryPath, function (err, files) {
         if (err) {
             return console.log('Unable to scan directory: ' + err);
         } 
-        //listing all files using forEach
-
-        /* let fileName = file.substring(0, file.length-4);
-        let otherName = fileName.replace(/_/g, " "); */
 
         for(let i = 0; i < data.length; i++) {
             found = false;
@@ -48,7 +43,7 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
             }
         }
         
-    });
+    }); */
     
 
     /* data.forEach((item, index, array) => {
@@ -73,6 +68,18 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
     for(let i = 0; i < data.length; i++) {
         
         let currentItem = data[i];
+
+        /* data[i].id = i; */
+
+        if(data[i].gifting !== undefined) {            
+            if(data[i].gifting.hates !== undefined) {
+                for(let j = 0; j < data[i].gifting.hates.length; j++) {
+                    data[i].gifting.hates[j] = data[i].gifting.hates[j] + 982;
+                    
+                    
+                }
+            }
+        }
         
         /* for(let j = 0; j < data.length; j++) {
 
@@ -97,7 +104,7 @@ fs.readFile('./itemsTrab.json', 'utf8', (err, jsonString) => {
 
 
     }
-    /* saveData(data); */
+    saveData(data);
 
 });
 

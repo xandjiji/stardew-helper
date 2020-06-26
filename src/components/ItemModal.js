@@ -12,7 +12,6 @@ import { ReactComponent as CloseIcon } from '../assets/close.svg';
 import '../css/itemModal.css';
 
 import itemList from '../jsons/items.json';
-import npcList from '../jsons/npcs.json';
 
 export class ItemModal extends Component {
     constructor(props) {
@@ -26,7 +25,6 @@ export class ItemModal extends Component {
         this.createListItem = this.createListItem.bind(this);
         this.parseActions = this.parseActions.bind(this);
         this.idToName = this.idToName.bind(this);
-        this.idToNpc = this.idToNpc.bind(this);
 
         this.handleKeyDown = this.handleKeyDown.bind(this);
         this.handleResize = this.handleResize.bind(this);
@@ -172,10 +170,6 @@ export class ItemModal extends Component {
         return element
     }
 
-    idToNpc(id) {
-        return npcList[id];
-    }
-
     render() {
         const {
             name,
@@ -191,7 +185,7 @@ export class ItemModal extends Component {
             makes,
             recipe,
             gifting
-        } = itemList[this.props.currentItem];
+        } = itemList[this.props.currentItem];        
 
         let itemClass = buildClassName(name);
 
@@ -410,8 +404,8 @@ export class ItemModal extends Component {
                                     className="info-value"
                                     key={index}>
 
-                                    <div className={`bg-${this.idToNpc(item)}`}></div>
-                                    {this.idToNpc(item)}
+                                    <div className={`bg-${itemList[item].name}`}></div>
+                                    {itemList[item].name}
 
                                 </span>
                             )
@@ -432,8 +426,8 @@ export class ItemModal extends Component {
                                     className="info-value"
                                     key={index}>
 
-                                    <div className={`bg-${this.idToNpc(item)}`}></div>
-                                    {this.idToNpc(item)}
+                                    <div className={`bg-${itemList[item].name}`}></div>
+                                    {itemList[item].name}
 
                                 </span>
                             )
@@ -454,8 +448,8 @@ export class ItemModal extends Component {
                                     className="info-value"
                                     key={index}>
 
-                                    <div className={`bg-${this.idToNpc(item)}`}></div>
-                                    {this.idToNpc(item)}
+                                    <div className={`bg-${itemList[item].name}`}></div>
+                                    {itemList[item].name}
 
                                 </span>
                             )
@@ -476,8 +470,8 @@ export class ItemModal extends Component {
                                     className="info-value"
                                     key={index}>
 
-                                    <div className={`bg-${this.idToNpc(item)}`}></div>
-                                    {this.idToNpc(item)}
+                                    <div className={`bg-${itemList[item].name}`}></div>
+                                    {itemList[item].name}
 
                                 </span>
                             )
@@ -498,8 +492,8 @@ export class ItemModal extends Component {
                                     className="info-value"
                                     key={index}>
 
-                                    <div className={`bg-${this.idToNpc(item)}`}></div>
-                                    {this.idToNpc(item)}
+                                    <div className={`bg-${itemList[item].name}`}></div>
+                                    {itemList[item].name}
 
                                 </span>
                             )
