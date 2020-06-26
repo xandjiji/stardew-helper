@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
 
 import '../css/calendar.css';
 
@@ -47,7 +48,9 @@ export class CalendarMode extends Component {
     }
 
     makeNpcAction(id) {
-        return <span className="npc-action">{items[id].name}</span>
+        return <span className="npc-action" onClick={() => this.props.openModal(id)}>
+            {items[id].name}
+        </span>
     }
 
     setFirstEvent(season) {
@@ -182,8 +185,28 @@ export class CalendarMode extends Component {
     }
 }
 
-export default CalendarMode
+const mapStateToProps = () => {
+    return {};
+};
 
+function mapDispatchToProps(dispatch) {
+    return {
+        closeModal: () => {
+            dispatch({
+                type: "CLOSE_MODAL"
+            });
+        },
+
+        openModal: (id) => {
+            dispatch({
+                type: "OPEN_MODAL",
+                payload: id
+            });
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(CalendarMode);
 
 function buildUrl(name) {
 

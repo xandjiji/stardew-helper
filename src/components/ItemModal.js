@@ -397,17 +397,10 @@ export class ItemModal extends Component {
             lovesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Loves</span>
-                    <div className="info-content hide-scrollbar">
+                    <div className="info-content type-npc hide-scrollbar">
                         {
                             gifting.loves.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
-
-                                    <div className={`bg-${itemList[item].name}`}></div>
-                                    {itemList[item].name}
-
-                                </span>
+                                this.idToName(item, index)
                             )
                         }
                     </div>
@@ -419,17 +412,10 @@ export class ItemModal extends Component {
             likesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Likes</span>
-                    <div className="info-content hide-scrollbar">
+                    <div className="info-content type-npc hide-scrollbar">
                         {
                             gifting.likes.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
-
-                                    <div className={`bg-${itemList[item].name}`}></div>
-                                    {itemList[item].name}
-
-                                </span>
+                                this.idToName(item, index)
                             )
                         }
                     </div>
@@ -441,17 +427,10 @@ export class ItemModal extends Component {
             neutralsElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Neutral</span>
-                    <div className="info-content hide-scrollbar">
+                    <div className="info-content type-npc hide-scrollbar">
                         {
                             gifting.neutrals.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
-
-                                    <div className={`bg-${itemList[item].name}`}></div>
-                                    {itemList[item].name}
-
-                                </span>
+                                this.idToName(item, index)
                             )
                         }
                     </div>
@@ -463,17 +442,10 @@ export class ItemModal extends Component {
             dislikesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Dislikes</span>
-                    <div className="info-content hide-scrollbar">
+                    <div className="info-content type-npc hide-scrollbar">
                         {
                             gifting.dislikes.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
-
-                                    <div className={`bg-${itemList[item].name}`}></div>
-                                    {itemList[item].name}
-
-                                </span>
+                                this.idToName(item, index)
                             )
                         }
                     </div>
@@ -485,17 +457,10 @@ export class ItemModal extends Component {
             hatesElement =
                 <div className="info-box list horizontal-list material">
                     <span className="info-title">Hates</span>
-                    <div className="info-content hide-scrollbar">
+                    <div className="info-content type-npc hide-scrollbar">
                         {
                             gifting.hates.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
-
-                                    <div className={`bg-${itemList[item].name}`}></div>
-                                    {itemList[item].name}
-
-                                </span>
+                                this.idToName(item, index)
                             )
                         }
                     </div>
