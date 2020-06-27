@@ -172,7 +172,7 @@ export class ItemModal extends Component {
     }
 
     makeGiftList(gifting) {
-        if (gifting == undefined) {
+        if (gifting === undefined) {
             return
         } else {
             let elemArray = [];
@@ -194,7 +194,7 @@ export class ItemModal extends Component {
     makeOptionsList(options, title) {
         let elemArray = [];
 
-        elemArray.push(<p class="option-title">{title}</p>);
+        elemArray.push(<p className="option-title" key={title}>{title}</p>);
 
         options.forEach((element, index) => {
             const { text, effect } = element;
@@ -210,9 +210,9 @@ export class ItemModal extends Component {
             }
 
             elemArray.push(
-                <div class="effect-wrapper" key={index}>
-                    <span class={`info-value ${color}`}>{text}</span>
-                    <span class={`friendship-effect ${color}`}>({effectText} friendship)</span>
+                <div className="effect-wrapper" key={index}>
+                    <span className={`info-value ${color}`}>{text}</span>
+                    <span className={`friendship-effect ${color}`}>({effectText} friendship)</span>
                 </div>
             )
         })
@@ -443,7 +443,7 @@ export class ItemModal extends Component {
                 <InfoBox title="Marriage">
                     <span className="info-value">
                         {marriage ? 'Yes' : 'No'}
-                        {name == 'Krobus' ? ', but can become a roommate' : ''}
+                        {name === 'Krobus' ? ', but can become a roommate' : ''}
                     </span>
                 </InfoBox>
         }

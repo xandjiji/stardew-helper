@@ -138,7 +138,7 @@ export class SearchMode extends Component {
 }
 
 function escapeRegex(string) {
-    return string.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    return string.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
 }
 
 const mapStateToProps = () => {
