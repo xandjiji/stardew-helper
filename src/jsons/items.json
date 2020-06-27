@@ -93,7 +93,7 @@
                 1008,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 984,
                 985,
                 988,
@@ -141,7 +141,7 @@
             "likes": [
                 994
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -215,7 +215,7 @@
                 1008,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 984,
                 985,
                 988,
@@ -276,7 +276,7 @@
                 1007,
                 1009
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -343,7 +343,7 @@
                 1008,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 984,
                 985,
                 988,
@@ -404,7 +404,7 @@
                 1007,
                 1009
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -473,7 +473,7 @@
                 1006,
                 1007
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -544,7 +544,7 @@
                 1006,
                 1007
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -646,7 +646,7 @@
             "Polka Dot Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -763,7 +763,7 @@
             "loves": [
                 999
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -889,7 +889,7 @@
             "likes": [
                 1009
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -7238,7 +7238,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -7315,7 +7315,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -7536,7 +7536,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -7673,7 +7673,7 @@
             "Shirt and Belt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -7764,7 +7764,7 @@
                 1007,
                 1009
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -7843,7 +7843,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -8139,7 +8139,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -8423,7 +8423,7 @@
             "Crop Tank Top"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -8811,7 +8811,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -9040,7 +9040,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -9264,7 +9264,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -9384,7 +9384,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -9438,7 +9438,7 @@
             880
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -9506,7 +9506,7 @@
             "likes": [
                 984
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -9594,7 +9594,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 989,
                 997,
@@ -9636,10 +9636,6 @@
         "name": "Daffodil",
         "link": "Daffodil",
         "sellPrice": "30",
-        "healing": {
-            "energy": 0,
-            "health": 0
-        },
         "obtainedFrom": [
             "Foraging (Spring)",
             160,
@@ -9669,7 +9665,7 @@
                 1006,
                 1012
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -9723,7 +9719,7 @@
                 1001,
                 1005
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -9784,7 +9780,7 @@
                 1005,
                 1006
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -9899,7 +9895,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -10020,7 +10016,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -10088,7 +10084,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -10330,7 +10326,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -10383,7 +10379,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -10455,7 +10451,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -10506,7 +10502,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -10567,7 +10563,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -10637,7 +10633,7 @@
                 1009,
                 1011
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -10688,7 +10684,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -10853,7 +10849,7 @@
             "Strapped Top"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -10906,7 +10902,7 @@
             "Strapped Top"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -11006,7 +11002,7 @@
             "Bikini Top"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -11060,7 +11056,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -11115,7 +11111,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -11173,7 +11169,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -11229,7 +11225,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -11356,7 +11352,7 @@
                 999,
                 1001
             ],
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 985,
@@ -11485,7 +11481,7 @@
                 1011,
                 1012
             ],
-            "neutrals": [
+            "neutral": [
                 983,
                 984,
                 985,
@@ -11997,7 +11993,7 @@
             "loves": [
                 982
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12056,7 +12052,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12117,7 +12113,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12178,7 +12174,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12240,7 +12236,7 @@
             "Fish Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12301,7 +12297,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12362,7 +12358,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12425,7 +12421,7 @@
             "Fish Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12487,7 +12483,7 @@
             "Faded Denim Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12550,7 +12546,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12613,7 +12609,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12738,7 +12734,7 @@
             "loves": [
                 1013
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12799,7 +12795,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12861,7 +12857,7 @@
             "Fish Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12921,7 +12917,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -12981,7 +12977,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13043,7 +13039,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13105,7 +13101,7 @@
             "likes": [
                 988
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 1001,
                 1010
@@ -13163,7 +13159,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13227,7 +13223,7 @@
             "likes": [
                 988
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 1001,
                 1010,
@@ -13289,7 +13285,7 @@
             "loves": [
                 1013
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 1001,
                 1004,
@@ -13351,7 +13347,7 @@
             "loves": [
                 1014
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13411,7 +13407,7 @@
             "Fish Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13467,7 +13463,7 @@
             871
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13527,7 +13523,7 @@
             871
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13587,7 +13583,7 @@
             861
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13650,7 +13646,7 @@
             "loves": [
                 1005
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13708,7 +13704,7 @@
             871
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13771,7 +13767,7 @@
             "likes": [
                 1010
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13832,7 +13828,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13895,7 +13891,7 @@
             "loves": [
                 1013
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -13958,7 +13954,7 @@
             "likes": [
                 1013
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14017,7 +14013,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14077,7 +14073,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14139,7 +14135,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14199,7 +14195,7 @@
             "Fish Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14260,7 +14256,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14321,7 +14317,7 @@
             "Fish Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14386,7 +14382,7 @@
             "likes": [
                 1013
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14446,7 +14442,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14506,7 +14502,7 @@
             "Fishing Vest"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14566,7 +14562,7 @@
             871
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14626,7 +14622,7 @@
             871
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14686,7 +14682,7 @@
             871
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14746,7 +14742,7 @@
             871
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14806,7 +14802,7 @@
             872
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14865,7 +14861,7 @@
             922
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14924,7 +14920,7 @@
             922
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -14983,7 +14979,7 @@
             922
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -15042,7 +15038,7 @@
             922
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -15101,7 +15097,7 @@
             922
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -15275,7 +15271,7 @@
             "loves": [
                 988
             ],
-            "neutrals": [
+            "neutral": [
                 986,
                 1001,
                 1004,
@@ -15331,7 +15327,7 @@
             "Rain Coat"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -15388,7 +15384,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -15446,7 +15442,7 @@
             "Sailor Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -15559,7 +15555,7 @@
             "Rain Coat"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 986,
                 988,
                 1001,
@@ -21282,7 +21278,7 @@
             "loves": [
                 1014
             ],
-            "neutrals": [
+            "neutral": [
                 987
             ],
             "dislikes": [
@@ -21453,7 +21449,7 @@
             "loves": [
                 1014
             ],
-            "neutrals": [
+            "neutral": [
                 987
             ],
             "dislikes": [
@@ -21656,7 +21652,7 @@
             "Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 985
             ],
             "dislikes": [
@@ -21907,7 +21903,7 @@
             "Turtleneck Sweater"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 985
             ],
             "dislikes": [
@@ -22096,7 +22092,7 @@
             "Iridium Energy Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 985
             ],
             "dislikes": [
@@ -22212,7 +22208,7 @@
             "Necklace Shirt"
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 985
             ],
             "dislikes": [
@@ -25543,7 +25539,7 @@
             }
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -27094,7 +27090,7 @@
             }
         ],
         "gifting": {
-            "neutrals": [
+            "neutral": [
                 982,
                 983,
                 984,
@@ -27835,7 +27831,7 @@
                 1012,
                 1014
             ],
-            "neutrals": [
+            "neutral": [
                 1013
             ],
             "dislikes": [
@@ -27908,7 +27904,7 @@
                 1012,
                 1014
             ],
-            "neutrals": [
+            "neutral": [
                 1013
             ],
             "dislikes": [
@@ -28923,7 +28919,7 @@
                 1012,
                 1014
             ],
-            "neutrals": [
+            "neutral": [
                 1013
             ],
             "dislikes": [

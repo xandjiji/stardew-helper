@@ -5,6 +5,7 @@ import throttle from "lodash.throttle";
 import { buildClassName } from '../utils';
 
 import Pushable from './Pushable';
+import InfoBox from './InfoBox';
 
 import { ReactComponent as ExternalIcon } from '../assets/external.svg';
 import { ReactComponent as CloseIcon } from '../assets/close.svg';
@@ -142,9 +143,9 @@ export class ItemModal extends Component {
 
     idToName(id, key, prefix, suffix) {
         let spriteElement =
-        <div className="sprite-wrapper">
-            <div className={buildClassName(itemList[id].name)}></div>
-        </div>
+            <div className="sprite-wrapper">
+                <div className={buildClassName(itemList[id].name)}></div>
+            </div>
 
         let prefixElement;
         if (prefix) {
@@ -161,13 +162,33 @@ export class ItemModal extends Component {
                 className="action-link"
                 onClick={() => this.handleActionLink(id)}
                 key={key}>
-                
+
                 {spriteElement}
 
                 {prefixElement}{itemList[id].name}{suffixElement}
             </span>
 
         return element
+    }
+
+    makeGiftList(gifting) {
+        if (gifting == undefined) {
+            return
+        } else {
+            let elemArray = [];
+            for (const list of Object.keys(gifting)) {
+                elemArray.push(
+                    <InfoBox title={list} customClass="list horizontal-list type-npc" key={list}>
+                        {
+                            gifting[list].map((item, index) =>
+                                this.idToName(item, index)
+                            )
+                        }
+                    </InfoBox>
+                )
+            }
+            return elemArray;
+        }
     }
 
     render() {
@@ -185,19 +206,19 @@ export class ItemModal extends Component {
             makes,
             recipe,
             gifting
-        } = itemList[this.props.currentItem];        
+        } = itemList[this.props.currentItem];
 
         let itemClass = buildClassName(name);
 
         let sellElement;
         if (sellPrice) {
             sellElement =
-                <div className="info-box material">
-                    <span className="info-title">Sell price</span>
-                    <div className="info-content hide-scrollbar">
-                        <span className="info-value"><div className="bg-Gold_Coin"></div>{sellPrice}g</span>
-                    </div>
-                </div>
+                <InfoBox title="Sell Price">
+                    <span className="info-value">
+                        <div className="bg-Gold_Coin"></div>
+                        {sellPrice}g
+                </span>
+                </InfoBox>
         }
 
         let healsElement;
@@ -206,45 +227,45 @@ export class ItemModal extends Component {
             let healthElement;
             if (healing.health) {
                 healthElement =
-                    <span className="token"><div className={healing.health > 0 ? 'bg-Health' : 'bg-Skull'}></div>{healing.health}{healing.health > 0 ? '' : ' health'}</span>
+                    <span className="token">
+                        <div className={healing.health > 0 ? 'bg-Health' : 'bg-Skull'}></div>
+                        {healing.health}{healing.health > 0 ? '' : ' health'}
+                    </span>
             }
 
             let energyElement;
             if (healing.energy) {
                 energyElement =
-                    <span className="token"><div className={healing.energy > 0 ? 'bg-Energy' : 'bg-Skull'}></div>{healing.energy}{healing.energy > 0 ? '' : ' energy'}</span>
+                    <span className="token">
+                        <div className={healing.energy > 0 ? 'bg-Energy' : 'bg-Skull'}></div>
+                        {healing.energy}{healing.energy > 0 ? '' : ' energy'}
+                    </span>
             }
 
             healsElement =
-                <div className="info-box material">
-                    <span className="info-title">Heals</span>
-                    <div className="info-content hide-scrollbar">
-                        <span className="info-value tokenized-content">
-                            {healthElement}
-                            {energyElement}
-                        </span>
-                    </div>
-                </div>
+                <InfoBox title="Heals">
+                    <span className="info-value tokenized-content">
+                        {healthElement}
+                        {energyElement}
+                    </span>
+                </InfoBox>
         }
 
         let buffsElement;
         if (foodBuff) {
             buffsElement =
-                <div className="info-box material">
-                    <span className="info-title">Buffs</span>
-                    <div className="info-content hide-scrollbar">
-                        {
-                            foodBuff.map((buff, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
+                <InfoBox title="Buffs" data={foodBuff}>
+                    {
+                        foodBuff.map((buff, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
 
-                                    <div className={`${buildClassName(buff.buffName)}`}></div>{`${buff.buffName} (${buff.buffQty})`}
-                                </span>
-                            )
-                        }
-                    </div>
-                </div>
+                                <div className={`${buildClassName(buff.buffName)}`}></div>{`${buff.buffName} (${buff.buffQty})`}
+                            </span>
+                        )
+                    }
+                </InfoBox>
         }
 
         let statsElement;
@@ -265,16 +286,13 @@ export class ItemModal extends Component {
                 criticalChanceElement = <span className="info-value">{`${parseFloat(stats.criticalChance * 100)}%`} critical chance</span>
             }
 
-            if(criticalChanceElement !== undefined || damageElement !== undefined || levelElement !== undefined) {
-            statsElement =
-                <div className="info-box list material">
-                    <span className="info-title">Stats</span>
-                    <div className="info-content hide-scrollbar">
+            if (criticalChanceElement !== undefined || damageElement !== undefined || levelElement !== undefined) {
+                statsElement =
+                    <InfoBox title="Stats" customClass="list">
                         {levelElement}
                         {damageElement}
                         {criticalChanceElement}
-                    </div>
-                </div>
+                    </InfoBox>
             }
 
         }
@@ -282,191 +300,97 @@ export class ItemModal extends Component {
         let bonusElement;
         if (stats && stats.buff) {
             bonusElement =
-                <div className="info-box material">
-                    <span className="info-title">Bonus</span>
-                    <div className="info-content hide-scrollbar">
-                        {
-                            stats.buff.map((buff, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
+                <InfoBox title="Bonus" customClass="list">
+                    {
+                        stats.buff.map((buff, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
 
-                                    <div className={`${buildClassName(buff.stat)}`}></div>{`${buff.stat} (${buff.val})`}
-                                </span>
-                            )
-                        }
-                    </div>
-                </div>
+                                <div className={`${buildClassName(buff.stat)}`}></div>{`${buff.stat} (${buff.val})`}
+                            </span>
+                        )
+                    }
+                </InfoBox>
         }
 
         let effectElement;
         if (effect) {
             effectElement =
-                <div className="info-box material">
-                    <span className="info-title">Effect</span>
-                    <div className="info-content hide-scrollbar">
-                        <span className="info-value">{effect}</span>
-                    </div>
-                </div>
+                <InfoBox title="Effect">
+                    <span className="info-value">{effect}</span>
+                </InfoBox>
         }
 
         let profitabilityElement;
         if (profitability) {
             profitabilityElement =
-                <div className="info-box material">
-                    <span className="info-title">Profitability</span>
-                    <div className="info-content hide-scrollbar">
-                        <span className="info-value"><div className="bg-Gold_Coin"></div>{profitability}g/day</span>
-                    </div>
-                </div>
+                <InfoBox title="Profitability">
+                    <span className="info-value">
+                        <div className="bg-Gold_Coin"></div>
+                        {profitability}g/day
+                    </span>
+                </InfoBox>
         }
 
         let harvestElement;
         if (harvestIn) {
             harvestElement =
-                <div className="info-box material">
-                    <span className="info-title">Harvests in</span>
-                    <div className="info-content hide-scrollbar">
-                        <span className="info-value">{harvestIn}</span>
-                    </div>
-                </div>
+                <InfoBox title="Harvests in">
+                    <span className="info-value">{harvestIn}</span>
+                </InfoBox>
         }
 
         let obtainedElement;
         if (obtainedFrom) {
             obtainedElement =
-                <div className="info-box list material">
-                    <span className="info-title">Obtained from</span>
-                    <div className="info-content hide-scrollbar">
-                        {
-                            obtainedFrom.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
+                <InfoBox title="Obtained from" customClass="list">
+                    {
+                        obtainedFrom.map((item, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
 
-                                    {this.createListItem(item)}
-                                </span>
-                            )
-                        }
-                    </div>
-                </div>
+                                {this.createListItem(item)}
+                            </span>
+                        )
+                    }
+                </InfoBox>
         }
 
         let makesElement;
         if (makes) {
             makesElement =
-                <div className="info-box list material">
-                    <span className="info-title">Makes</span>
-                    <div className="info-content hide-scrollbar">
-                        {
-                            makes.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
+                <InfoBox title="Makes" customClass="list">
+                    {
+                        makes.map((item, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
 
-                                    {this.createListItem(item)}
-                                </span>
-                            )
-                        }
-                    </div>
-                </div>
+                                {this.createListItem(item)}
+                            </span>
+                        )
+                    }
+                </InfoBox>
         }
 
         let recipeElement;
         if (recipe) {
             recipeElement =
-                <div className="info-box list material">
-                    <span className="info-title">Recipe</span>
-                    <div className="info-content hide-scrollbar">
-                        {
-                            recipe.map((item, index) =>
-                                <span
-                                    className="info-value"
-                                    key={index}>
+                <InfoBox title="Recipe" customClass="list">
+                    {
+                        recipe.map((item, index) =>
+                            <span
+                                className="info-value"
+                                key={index}>
 
-                                    {this.createListItem(item)}
-                                </span>
-                            )
-                        }
-                    </div>
-                </div>
+                                {this.createListItem(item)}
+                            </span>
+                        )
+                    }
+                </InfoBox>
         }
-
-        let lovesElement;
-        if (gifting && gifting.loves) {
-            lovesElement =
-                <div className="info-box list horizontal-list material">
-                    <span className="info-title">Loves</span>
-                    <div className="info-content type-npc hide-scrollbar">
-                        {
-                            gifting.loves.map((item, index) =>
-                                this.idToName(item, index)
-                            )
-                        }
-                    </div>
-                </div>
-        }
-
-        let likesElement;
-        if (gifting && gifting.likes) {
-            likesElement =
-                <div className="info-box list horizontal-list material">
-                    <span className="info-title">Likes</span>
-                    <div className="info-content type-npc hide-scrollbar">
-                        {
-                            gifting.likes.map((item, index) =>
-                                this.idToName(item, index)
-                            )
-                        }
-                    </div>
-                </div>
-        }
-
-        let neutralsElement;
-        if (gifting && gifting.neutrals) {
-            neutralsElement =
-                <div className="info-box list horizontal-list material">
-                    <span className="info-title">Neutral</span>
-                    <div className="info-content type-npc hide-scrollbar">
-                        {
-                            gifting.neutrals.map((item, index) =>
-                                this.idToName(item, index)
-                            )
-                        }
-                    </div>
-                </div>
-        }
-
-        let dislikesElement;
-        if (gifting && gifting.dislikes) {
-            dislikesElement =
-                <div className="info-box list horizontal-list material">
-                    <span className="info-title">Dislikes</span>
-                    <div className="info-content type-npc hide-scrollbar">
-                        {
-                            gifting.dislikes.map((item, index) =>
-                                this.idToName(item, index)
-                            )
-                        }
-                    </div>
-                </div>
-        }
-
-        let hatesElement;
-        if (gifting && gifting.hates) {
-            hatesElement =
-                <div className="info-box list horizontal-list material">
-                    <span className="info-title">Hates</span>
-                    <div className="info-content type-npc hide-scrollbar">
-                        {
-                            gifting.hates.map((item, index) =>
-                                this.idToName(item, index)
-                            )
-                        }
-                    </div>
-                </div>
-        }
-
 
         return (
             <Pushable active={this.props.active} trigger={() => this.props.closeModal()} blockLeft={true}>
@@ -491,11 +415,14 @@ export class ItemModal extends Component {
                                 style={{ maxHeight: this.state.viewportH - 138 }}
                                 onTouchMove={this.preventScroll}
                                 onTouchEnd={this.preventScroll}>
+
                                 {sellElement}
-                                {healsElement}
                                 {profitabilityElement}
                                 {harvestElement}
+
+                                {healsElement}
                                 {buffsElement}
+
                                 {statsElement}
                                 {bonusElement}
                                 {effectElement}
@@ -504,11 +431,7 @@ export class ItemModal extends Component {
                                 {makesElement}
                                 {recipeElement}
 
-                                {lovesElement}
-                                {likesElement}
-                                {neutralsElement}
-                                {dislikesElement}
-                                {hatesElement}
+                                {this.makeGiftList(gifting)}
                             </div>
                         </div>
                     </div>

@@ -80,7 +80,7 @@ export class Pushable extends Component {
             this.handleTrigger();
             setTimeout(() => {
                 this.setState({ positionX: 0 });
-            }, 200)
+            }, 400)
             return
         }
 

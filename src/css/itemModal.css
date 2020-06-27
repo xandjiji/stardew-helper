@@ -146,20 +146,20 @@
     font-weight: 300;
 }
 
-.item-modal .list .type-npc > *::before,
+.item-modal .list.type-npc .action-link::before,
 .item-modal .list .info-value:before {
     content: '·';
     margin-right: 6px;
     font-weight: 700;
 }
 
-.item-modal .list .type-npc .sprite-wrapper {
+.item-modal .list.type-npc .sprite-wrapper {
     margin: 0 3px 0 0;
     width: unset;
     height: unset;
 }
 
-.item-modal .list .type-npc .sprite-wrapper > * {
+.item-modal .list.type-npc .sprite-wrapper > * {
     position: static;
     top: unset;
     left: unset;
