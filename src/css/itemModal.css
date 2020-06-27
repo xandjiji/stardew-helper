@@ -151,6 +151,7 @@
     content: '·';
     margin-right: 6px;
     font-weight: 700;
+    color: var(--onSurface);
 }
 
 .item-modal .list.type-npc .sprite-wrapper {
@@ -164,6 +165,12 @@
     top: unset;
     left: unset;
     transform: none;
+}
+
+.item-modal .list.type-npc.loves .sprite-wrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
 }
 
 .horizontal-list .info-content {
@@ -219,7 +226,8 @@
     height: 18px;
 }
 
-.item-modal .sprite-wrapper > * {
+.item-modal .sprite-wrapper > *,
+.item-modal .list.type-npc.loves .sprite-wrapper > * {
     position: absolute;
     top: calc(50% - 1px);
     left: 50%;
@@ -228,6 +236,56 @@
 
 .item-modal .action-link span {
     font-weight: 300;
-
     color: var(--onSurface);
+}
+
+.item-modal .option-title {
+    margin: 6px 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.item-modal .effect-wrapper {
+    position: relative;
+    margin-left: 16px;
+}
+
+.item-modal .effect-wrapper:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.item-modal .effect-wrapper::after {
+    content: '·';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-10px, -50%);
+    font-weight: 700;
+    color: var(--onSurface);
+}
+
+.item-modal .effect-wrapper * {
+    display: inline;
+}
+
+.item-modal .effect-wrapper .info-value {
+    margin-right: 3px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.item-modal .effect-wrapper .green {
+    color: var(--green);
+    opacity: 1;
+}
+
+.item-modal .effect-wrapper .red {
+    color: var(--red);
+    opacity: 1;
+}
+
+.item-modal .friendship-effect {
+    white-space: nowrap;
+    font-size: 10px;
+    opacity: 0.8;
 }

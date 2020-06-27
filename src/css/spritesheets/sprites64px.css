@@ -133,12 +133,12 @@
     background: url('../../assets/spritesheets/sprites64px.png') -0 -2088px;
 }
 
-.bg-Krobus.portrait {
+.bg-Kent.portrait {
     width: 64px; height: 64px;
     background: url('../../assets/spritesheets/sprites64px.png') -0 -2152px;
 }
 
-.bg-Kent.portrait {
+.bg-Krobus.portrait {
     width: 64px; height: 64px;
     background: url('../../assets/spritesheets/sprites64px.png') -0 -2216px;
 }

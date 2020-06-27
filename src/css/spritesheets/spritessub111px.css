@@ -47,3 +47,8 @@
     width: 93px; height: 66px;
     background: url('../../assets/spritesheets/spritessub111px.png') -0 -834px;
 }
+
+.bg-Horse {
+    width: 81px; height: 78px;
+    background: url('../../assets/spritesheets/spritessub111px.png') -0 -900px;
+}

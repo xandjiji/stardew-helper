@@ -1,5 +1,5 @@
 modes:
-    modal npc
+    npc locator
     desktop
 
 cruzar actions make, recipe e obtained
@@ -13,24 +13,3 @@ qa schedules:
     BusStop -1 23 = FARM
     "??" = NIGHT MARKET (WINTER 15, 16, 17)
     RAIN ALTERNATIVE (ABIGAIL)
-
-NPC:
-    Birthday
-    Marriable
-    Loves
-    Schedule
-    Heart events
-
-bee house
-preserves jar
-charcoal kiln
-keg
-cheese press
-furnace
-seed maker
-recycling machine
-heather
-lightning rod
-crystalarium
-
-wine first  child

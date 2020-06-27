@@ -1,21 +1,10 @@
 const setTheme = (themes, index) => {
-    const {
-        background,
-        surface,
-        onSurface,
-        separator,
-        primary,
-        onPrimary,
-        primaryVariant
-    } = themes[index];
-    
-    document.documentElement.style.setProperty("--background", background);
-    document.documentElement.style.setProperty("--surface", surface);
-    document.documentElement.style.setProperty("--onSurface", onSurface);
-    document.documentElement.style.setProperty("--separator", separator);
-    document.documentElement.style.setProperty("--primary", primary);
-    document.documentElement.style.setProperty("--onPrimary", onPrimary);
-    document.documentElement.style.setProperty("--primaryVariant", primaryVariant);
+    let currentTheme = themes[index];
+    const { primary } = currentTheme;
+
+    for (const colorItem of Object.keys(currentTheme)) {
+        document.documentElement.style.setProperty(`--${colorItem}`, currentTheme[colorItem]);
+    }
 
     let addressBar;
     addressBar = document.querySelector('meta[name=theme-color]')

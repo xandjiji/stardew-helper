@@ -7,7 +7,9 @@
         "separator": "#B4B4B4",
         "primary": "#3F51B5",
         "onPrimary": "#FFFFFF",
-        "primaryVariant": "#C5CAE9"
+        "primaryVariant": "#C5CAE9",
+        "green": "#377712",
+        "red": "#C51313"
     },
     {
         "name": "Discord Dark",
@@ -17,7 +19,9 @@
         "separator": "#72767D",
         "primary": "#6D81CF",
         "onPrimary": "#FFFFFF",
-        "primaryVariant": "#BDC8F1"
+        "primaryVariant": "#BDC8F1",
+        "green": "#81CE55",
+        "red": "#FF7E7E"
     },
     {
         "name": "Bulbasaur",
@@ -27,7 +31,9 @@
         "separator": "#C8E6C9",
         "primary": "#7B1FA2",
         "onPrimary": "#FFFFFF",
-        "primaryVariant": "#C8E6C9"
+        "primaryVariant": "#C8E6C9",
+        "green": "#235F01",
+        "red": "#C51313"
     },
     {
         "name": "Hanami",
@@ -37,7 +43,9 @@
         "separator": "#AD9B8B",
         "primary": "#FF859E",
         "onPrimary": "#FFFFFF",
-        "primaryVariant": "#DDC5D3"
+        "primaryVariant": "#DDC5D3",
+        "green": "#377712",
+        "red": "#C51313"
     },
     {
         "name": "Tommy Vercetti",
@@ -47,7 +55,9 @@
         "separator": "#BCE7F8",
         "primary": "#C93684",
         "onPrimary": "#FFFFFF",
-        "primaryVariant": "#BCE7F8"
+        "primaryVariant": "#BCE7F8",
+        "green": "#235F01",
+        "red": "#C51313"
     },
     {
         "name": "Kill Bill",
@@ -57,7 +67,9 @@
         "separator": "#72767D",
         "primary": "#000000",
         "onPrimary": "#FFC107",
-        "primaryVariant": "#919191"
+        "primaryVariant": "#919191",
+        "green": "#214D08",
+        "red": "#C51313"
     },
     {
         "name": "Orange Orange",
@@ -67,6 +79,8 @@
         "separator": "#DF8F77",
         "primary": "#388E3C",
         "onPrimary": "#FFFFFF",
-        "primaryVariant": "#6EBD70"
+        "primaryVariant": "#6EBD70",
+        "green": "#214D08",
+        "red": "#C51313"
     }
 ]

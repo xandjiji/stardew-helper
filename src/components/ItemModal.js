@@ -191,6 +191,34 @@ export class ItemModal extends Component {
         }
     }
 
+    makeOptionsList(options, title) {
+        let elemArray = [];
+
+        elemArray.push(<p class="option-title">{title}</p>);
+
+        options.forEach((element, index) => {
+            const { text, effect } = element;
+
+            let color = '';
+            let effectText = 'No effect on';
+            if(effect > 0) {
+                color = 'green';
+                effectText = `+${effect}`
+            } else if (effect < 0) {
+                color = 'red';
+                effectText = `-${effect}`
+            }
+
+            elemArray.push(
+                <div class="effect-wrapper" key={index}>
+                    <span class={`info-value ${color}`}>{text}</span>
+                    <span class={`friendship-effect ${color}`}>({effectText} friendship)</span>
+                </div>
+            )
+        })
+        return elemArray;
+    }
+
     render() {
         const {
             name,
@@ -205,7 +233,13 @@ export class ItemModal extends Component {
             obtainedFrom,
             makes,
             recipe,
-            gifting
+            gifting,
+
+            birthday,
+            marriage,
+            schedule,
+            loves,
+            events
         } = itemList[this.props.currentItem];
 
         let itemClass = buildClassName(name);
@@ -218,6 +252,25 @@ export class ItemModal extends Component {
                         <div className="bg-Gold_Coin"></div>
                         {sellPrice}g
                 </span>
+                </InfoBox>
+        }
+
+        let profitabilityElement;
+        if (profitability) {
+            profitabilityElement =
+                <InfoBox title="Profitability">
+                    <span className="info-value">
+                        <div className="bg-Gold_Coin"></div>
+                        {profitability}g/day
+                    </span>
+                </InfoBox>
+        }
+
+        let harvestElement;
+        if (harvestIn) {
+            harvestElement =
+                <InfoBox title="Harvests in">
+                    <span className="info-value">{harvestIn}</span>
                 </InfoBox>
         }
 
@@ -322,25 +375,6 @@ export class ItemModal extends Component {
                 </InfoBox>
         }
 
-        let profitabilityElement;
-        if (profitability) {
-            profitabilityElement =
-                <InfoBox title="Profitability">
-                    <span className="info-value">
-                        <div className="bg-Gold_Coin"></div>
-                        {profitability}g/day
-                    </span>
-                </InfoBox>
-        }
-
-        let harvestElement;
-        if (harvestIn) {
-            harvestElement =
-                <InfoBox title="Harvests in">
-                    <span className="info-value">{harvestIn}</span>
-                </InfoBox>
-        }
-
         let obtainedElement;
         if (obtainedFrom) {
             obtainedElement =
@@ -392,6 +426,56 @@ export class ItemModal extends Component {
                 </InfoBox>
         }
 
+        /* NPC */
+        let birthdayElement;
+        if (birthday) {
+            birthdayElement =
+                <InfoBox title="Birthday">
+                    <span className="info-value">
+                        {birthday}
+                    </span>
+                </InfoBox>
+        }
+
+        let marriageElement;
+        if (marriage !== undefined) {
+            marriageElement =
+                <InfoBox title="Marriage">
+                    <span className="info-value">
+                        {marriage ? 'Yes' : 'No'}
+                        {name == 'Krobus' ? ', but can become a roommate' : ''}
+                    </span>
+                </InfoBox>
+        }
+
+        let lovesElement;
+        if (loves) {
+            lovesElement =
+                <InfoBox title="Loves" customClass="list type-npc loves">
+                    {
+                        loves.map((item, index) =>
+                            this.idToName(item, index)
+                        )
+                    }
+                </InfoBox>
+        }
+
+        let eventsElement = [];
+        if (events) {
+            events.forEach((element, index) => {
+                const { hearts, info, options, options2, options3 } = element;
+
+                eventsElement.push(
+                    <InfoBox title={`${hearts}-heart ♡`} customClass="event" key={index}>
+                        <p className="info-value">{info}</p>
+                        {this.makeOptionsList(options, 'Options:')}
+                        {options2 !== undefined ? this.makeOptionsList(options2, 'Then:') : null}
+                        {options3 !== undefined ? this.makeOptionsList(options3, 'Then:') : null}
+                    </InfoBox>
+                )
+            })
+        }
+
         return (
             <Pushable active={this.props.active} trigger={() => this.props.closeModal()} blockLeft={true}>
                 <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`}>
@@ -432,6 +516,12 @@ export class ItemModal extends Component {
                                 {recipeElement}
 
                                 {this.makeGiftList(gifting)}
+
+                                {birthdayElement}
+                                {marriageElement}
+                                {lovesElement}
+                                {eventsElement}
+
                             </div>
                         </div>
                     </div>
