@@ -2,13 +2,10 @@ modes:
     modal npc
     desktop
 
-adicionar farm animals e npc to cat picker
 cruzar actions make, recipe e obtained
 search async foreach,
-add [npc, farm animals] to search
 100% height
 prevent refresh
-ANIMAL SPRITES
 
 qa schedules:
     25PM

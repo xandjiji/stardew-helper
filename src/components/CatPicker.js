@@ -56,8 +56,8 @@ export class CatPicker extends Component {
 
                         <CatItem name="Dishes" icon="Salmon Dinner" mode="dishes" close={notifyClose} />
                         <CatItem name="Furniture" icon="Futan Bear" mode="furnitures" close={notifyClose} />
-                        {/* <CatItem name="Animals" icon="Chicken Mask" mode="animals" close={notifyClose} />
-                        <CatItem name="Monsters" icon="Mutant Carp" mode="monsters" close={notifyClose} /> */}
+                        <CatItem name="Animals" icon="Chicken" mode="animals" close={notifyClose} />
+                        <CatItem name="Villagers" icon="Robin" mode="villagers" close={notifyClose} />
                     </div>
                 </div>
 

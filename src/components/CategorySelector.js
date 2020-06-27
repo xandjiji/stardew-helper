@@ -37,6 +37,10 @@ import allRecipes from '../jsons/tables/allRecipes.json';
 
 import allFurnitures from '../jsons/tables/allFurnitures.json';
 
+import allAnimals from '../jsons/tables/allAnimals.json';
+
+import allNpcs from '../jsons/tables/allNpcs.json';
+
 let modes = {
     crops: {
         title: 'Crops',
@@ -129,6 +133,22 @@ let modes = {
         icon: 'Futan Bear',
         list: {
             name: 'Furniture', list: allFurnitures
+        }
+    },
+
+    animals: {
+        title: 'Animals',
+        icon: 'Chicken',
+        list: {
+            name: 'Animals', list: allAnimals
+        }
+    },
+
+    villagers: {
+        title: 'Villagers',
+        icon: 'Robin',
+        list: {
+            name: 'Villagers', list: allNpcs
         }
     }
 }

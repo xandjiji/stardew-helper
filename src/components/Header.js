@@ -86,7 +86,7 @@ export class Header extends Component {
     render() {
         const { mode } = this.props;
 
-        let categories = ['crops', 'animalProducts', 'artisanGoods', 'fishes', 'minerals', 'artifacts', 'weapons', 'equipment', 'dishes', 'furnitures' ];
+        let categories = ['crops', 'animalProducts', 'artisanGoods', 'fishes', 'minerals', 'artifacts', 'weapons', 'equipment', 'dishes', 'furnitures', 'animals', 'villagers' ];
         let pickerActive = false;
         if (categories.includes(mode)) {
             pickerActive = true;

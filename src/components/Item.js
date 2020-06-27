@@ -42,15 +42,23 @@ export class Item extends Component {
             qualityElement = <div className="sprite bg-Silver_Quality_Icon"></div>
         }
 
+        let itemCountElement;
+        if(itemCount) {
+            itemCountElement =
+            <span className="item-count">{`(${itemCount}x)`}</span>
+        }
+
         return (
             <div className="item">
                 <div
                     className={`item-name-wrapper ${fadedClass}`}
                     onClick={() => this.props.openModal(globalID)}>
-                    <div className={`sprite ${itemClass}`}>{qualityElement}</div>
+                    <div className="bundle-sprite-wrapper">
+                        <div className={`sprite ${itemClass}`}>{qualityElement}</div>
+                    </div>
                     <div className="item-info">
                         <span className="item-name">{name}</span>
-                        <span className="item-count">{`(${itemCount ? itemCount : 1}x)`}</span>
+                            {itemCountElement}
                     </div>
                 </div>
                 <div className={`checkbox ${completedClass}`} onClick={() => this.props.toggleItem(id)}>

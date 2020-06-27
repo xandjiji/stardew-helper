@@ -32,6 +32,10 @@
     transform: translate(-50%, -50%) scale(0.5);
 }
 
+.cat-item .cat-icon.bg-Robin {
+    transform: translate(-50%, -50%);
+}
+
 .cat-item .cat-name {
     display: flex;
     justify-content: center;

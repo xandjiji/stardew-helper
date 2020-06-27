@@ -50,6 +50,12 @@ export class Bundle extends Component {
 
         let rewardElement;
         if (reward) {
+            let rewardCountElement;
+            if(reward.itemCount > 1) {
+                rewardCountElement =
+                <span className="reward-count">({reward.itemCount}x)</span>
+            }
+
             rewardElement =
                 <div className="bundle-reward-wrapper">
                     <span className="bundle-reward smooth" onClick={() => this.props.openModal(reward.globalID)}>
@@ -58,7 +64,7 @@ export class Bundle extends Component {
                             </div>
                         <div className="reward-text-wrapper">
                             <span className="bundle-reward-text">{reward.name}</span>
-                            <span className="reward-count">({reward.itemCount}x)</span>
+                            {rewardCountElement}
                         </div>
                     </span>
                     <div className={`sprite bg-Bundle_Reward smooth ${rewardClass}`}></div>
