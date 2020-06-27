@@ -12,9 +12,10 @@ import '../css/header.css';
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
 import { ReactComponent as BundleIcon } from '../assets/present.svg';
 import { ReactComponent as DotsIcon } from '../assets/dots.svg';
-import { ReactComponent as CalendarIcon } from '../assets/calendar.svg';
-import { ReactComponent as SearchIcon } from '../assets/search.svg';
 import { ReactComponent as BooksIcon } from '../assets/books.svg';
+import { ReactComponent as CalendarIcon } from '../assets/calendar.svg';
+import { ReactComponent as LocationIcon } from '../assets/location.svg';
+import { ReactComponent as SearchIcon } from '../assets/search.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
 
@@ -112,6 +113,7 @@ export class Header extends Component {
                         </div>
                         <BooksIcon className={this.state.catActive || pickerActive ? 'active' : ''} onClick={this.handleClickCat} />
                         <CalendarIcon className={mode === 'calendar' ? 'active' : ''} onClick={() => this.props.setMode('calendar')} />
+                        <LocationIcon className={mode === 'location' ? 'active' : ''} onClick={() => this.props.setMode('location')} />
                         <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
                     </div>
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />

@@ -3,9 +3,10 @@ modes:
     desktop
 
 cruzar actions make, recipe e obtained
-search async foreach,
 100% height
 prevent refresh
+icons sidebar
+redux save season + condition
 
 qa schedules:
     25PM
@@ -13,3 +14,7 @@ qa schedules:
     BusStop -1 23 = FARM
     "??" = NIGHT MARKET (WINTER 15, 16, 17)
     RAIN ALTERNATIVE (ABIGAIL)
+
+NPC PICKER
+CONDITION PICKER
+LOCATION IMG

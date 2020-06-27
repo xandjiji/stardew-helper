@@ -1,0 +1,7 @@
+.location-mode-wrapper .calendar-wrapper .day-item {
+    cursor: pointer;
+}
+
+.location-mode-wrapper .calendar-wrapper .day-item:hover {
+    background-color: var(--primaryVariant);
+}

@@ -62,6 +62,10 @@
     margin-right: 4px;
 }
 
+.header-bar .modes-wrapper > *:last-child {
+    padding: 4px;
+}
+
 .header-bar .modes-wrapper svg:not(.active) {
     opacity: 0.5;
 }
