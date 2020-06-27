@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1343c8093ceba71081c64f0f2aed42a",
+    "revision": "0ffcb9562403d2c068506b853f3e9b17",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "291a946840d9271407a4",
-    "url": "/stardew-helper/static/css/main.00f5e88e.chunk.css"
+    "revision": "33ffd7a463da763a4eb7",
+    "url": "/stardew-helper/static/css/main.3f7d5dcb.chunk.css"
   },
   {
     "revision": "8e20557d236ecafe8394",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/js/2.9ae606ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "291a946840d9271407a4",
-    "url": "/stardew-helper/static/js/main.67df3f89.chunk.js"
+    "revision": "33ffd7a463da763a4eb7",
+    "url": "/stardew-helper/static/js/main.74ecae4b.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",
@@ -124,12 +124,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/sprites48px.f84010bd.png"
   },
   {
+    "revision": "c278e8e3f0181c8ccf49cb61375f89c5",
+    "url": "/stardew-helper/static/media/sprites64px.c278e8e3.png"
+  },
+  {
     "revision": "0169f2051903d4d8ec0228fd33ba6fa8",
     "url": "/stardew-helper/static/media/sprites72px.0169f205.png"
   },
   {
     "revision": "c82deea009430af953aa9bbc80baf10f",
     "url": "/stardew-helper/static/media/sprites96px.c82deea0.png"
+  },
+  {
+    "revision": "868713fd84147ff397652d1f277f35d3",
+    "url": "/stardew-helper/static/media/spritessub111px.868713fd.png"
   },
   {
     "revision": "17cdf9ddad919926cded627c3ef8d4ec",

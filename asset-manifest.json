@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stardew-helper/static/css/main.00f5e88e.chunk.css",
-    "main.js": "/stardew-helper/static/js/main.67df3f89.chunk.js",
-    "main.js.map": "/stardew-helper/static/js/main.67df3f89.chunk.js.map",
+    "main.css": "/stardew-helper/static/css/main.3f7d5dcb.chunk.css",
+    "main.js": "/stardew-helper/static/js/main.74ecae4b.chunk.js",
+    "main.js.map": "/stardew-helper/static/js/main.74ecae4b.chunk.js.map",
     "runtime-main.js": "/stardew-helper/static/js/runtime-main.f4c516d1.js",
     "runtime-main.js.map": "/stardew-helper/static/js/runtime-main.f4c516d1.js.map",
     "static/js/2.9ae606ee.chunk.js": "/stardew-helper/static/js/2.9ae606ee.chunk.js",
     "static/js/2.9ae606ee.chunk.js.map": "/stardew-helper/static/js/2.9ae606ee.chunk.js.map",
     "index.html": "/stardew-helper/index.html",
-    "precache-manifest.7cc5a34ce5ccb83ff850cd081baa1e1c.js": "/stardew-helper/precache-manifest.7cc5a34ce5ccb83ff850cd081baa1e1c.js",
+    "precache-manifest.8b3e91690e1b23a12180bbe73626993a.js": "/stardew-helper/precache-manifest.8b3e91690e1b23a12180bbe73626993a.js",
     "service-worker.js": "/stardew-helper/service-worker.js",
-    "static/css/main.00f5e88e.chunk.css.map": "/stardew-helper/static/css/main.00f5e88e.chunk.css.map",
+    "static/css/main.3f7d5dcb.chunk.css.map": "/stardew-helper/static/css/main.3f7d5dcb.chunk.css.map",
     "static/js/2.9ae606ee.chunk.js.LICENSE.txt": "/stardew-helper/static/js/2.9ae606ee.chunk.js.LICENSE.txt",
     "static/media/main.css": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf",
     "static/media/arrow.0ee7e08a.svg": "/stardew-helper/static/media/arrow.0ee7e08a.svg",
@@ -34,8 +34,10 @@
     "static/media/sprites128px.css": "/stardew-helper/static/media/sprites128px.b9682704.png",
     "static/media/sprites32px.css": "/stardew-helper/static/media/sprites32px.b483dc40.png",
     "static/media/sprites48px.css": "/stardew-helper/static/media/sprites48px.f84010bd.png",
+    "static/media/sprites64px.css": "/stardew-helper/static/media/sprites64px.c278e8e3.png",
     "static/media/sprites72px.css": "/stardew-helper/static/media/sprites72px.0169f205.png",
     "static/media/sprites96px.css": "/stardew-helper/static/media/sprites96px.c82deea0.png",
+    "static/media/spritessub111px.css": "/stardew-helper/static/media/spritessub111px.868713fd.png",
     "static/media/spritessub48px.css": "/stardew-helper/static/media/spritessub48px.17cdf9dd.png",
     "static/media/transfer.893ad4fc.svg": "/stardew-helper/static/media/transfer.893ad4fc.svg",
     "static/media/trash.d359be22.svg": "/stardew-helper/static/media/trash.d359be22.svg"
@@ -43,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4c516d1.js",
     "static/js/2.9ae606ee.chunk.js",
-    "static/css/main.00f5e88e.chunk.css",
-    "static/js/main.67df3f89.chunk.js"
+    "static/css/main.3f7d5dcb.chunk.css",
+    "static/js/main.74ecae4b.chunk.js"
   ]
 }
