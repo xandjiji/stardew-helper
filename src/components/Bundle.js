@@ -67,7 +67,7 @@ export class Bundle extends Component {
                             {rewardCountElement}
                         </div>
                     </span>
-                    <div className={`sprite bg-Bundle_Reward smooth ${rewardClass}`}></div>
+                    <div className={`sprite bg-Bundle_Reward smooth ${rewardClass}`} onClick={() => this.props.openModal(reward.globalID)}></div>
                 </div>
         }
 

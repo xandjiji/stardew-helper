@@ -87,8 +87,14 @@
     margin-right: 4px;
 }
 
+.bundle-item .bg-Bundle_Reward {
+    cursor: pointer;
+}
+
 .bundle-item .bg-Bundle_Reward:not(.active) {
     filter: grayscale(100%);
+    pointer-events: none;
+    cursor: unset;
 }
 
 .bundle-item .reward-count {
@@ -119,6 +125,25 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
+}
+
+.bundles-carousel .bundle-reward .bg-Bee_House,
+.bundles-carousel .bundle-reward .bg-Preserves_Jar,
+.bundles-carousel .bundle-reward .bg-Charcoal_Kiln,
+.bundles-carousel .bundle-reward .bg-Keg,
+.bundles-carousel .bundle-reward .bg-Cheese_Press,
+.bundles-carousel .bundle-reward .bg-Furnace,
+.bundles-carousel .bundle-reward .bg-Seed_Maker,
+.bundles-carousel .bundle-reward .bg-Recycling_Machine,
+.bundles-carousel .bundle-reward .bg-Heater,
+.bundles-carousel .bundle-reward .bg-Lightning_Rod,
+.bundles-carousel .bundle-reward .bg-Crystalarium {
+    transform: translate(-50%, -50%) scale(0.375);
+}
+
+.bundles-carousel .bundle-item:last-child:first-child .item:first-child {
+    margin-top: 12px;
+    border-top: solid 1px var(--separator);
 }
 
 .bundle-tray {
