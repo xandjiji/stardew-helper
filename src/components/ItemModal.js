@@ -399,7 +399,7 @@ export class ItemModal extends Component {
                         <div className="material" style={{ maxHeight: this.state.viewportH - 56 }}>
                             <div className="item-name-wrapper">
                                 <div className="item-sprite material">
-                                    <div className={`${itemClass}`}></div>
+                                    <div className={`${itemClass} portrait`}></div>
                                 </div>
 
                                 <span className="item-name">

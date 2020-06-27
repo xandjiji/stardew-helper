@@ -57,3 +57,168 @@
     width: 64px; height: 100px;
     background: url('../../assets/spritesheets/sprites64px.png') -0 -612px;
 }
+
+.bg-Abigail.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1192px;
+}
+
+.bg-Alex.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1256px;
+}
+
+.bg-Caroline.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1320px;
+}
+
+.bg-Clint.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1384px;
+}
+
+.bg-Demetrius.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1448px;
+}
+
+.bg-Dwarf.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1512px;
+}
+
+.bg-Elliott.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1576px;
+}
+
+.bg-Emily.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1640px;
+}
+
+.bg-Evelyn.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1704px;
+}
+
+.bg-George.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1768px;
+}
+
+.bg-Gus.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1832px;
+}
+
+.bg-Haley.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1896px;
+}
+
+.bg-Harvey.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -1960px;
+}
+
+.bg-Jas.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2024px;
+}
+
+.bg-Jodi.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2088px;
+}
+
+.bg-Krobus.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2152px;
+}
+
+.bg-Kent.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2216px;
+}
+
+.bg-Leah.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2280px;
+}
+
+.bg-Lewis.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2344px;
+}
+
+.bg-Linus.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2408px;
+}
+
+.bg-Marnie.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2472px;
+}
+
+.bg-Maru.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2536px;
+}
+
+.bg-Pam.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2600px;
+}
+
+.bg-Penny.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2664px;
+}
+
+.bg-Pierre.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2728px;
+}
+
+.bg-Robin.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2792px;
+}
+
+.bg-Sam.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2856px;
+}
+
+.bg-Sandy.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2920px;
+}
+
+.bg-Sebastian.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -2984px;
+}
+
+.bg-Shane.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -3048px;
+}
+
+.bg-Vincent.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -3112px;
+}
+
+.bg-Willy.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -3176px;
+}
+
+.bg-Wizard.portrait {
+    width: 64px; height: 64px;
+    background: url('../../assets/spritesheets/sprites64px.png') -0 -3240px;
+}
