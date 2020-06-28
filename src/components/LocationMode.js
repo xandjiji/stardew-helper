@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import Carousel from '../components/Carousel';
 
 import '../css/locationMode.css';
+import '../css/locations.css';
 
 import scheduleData from '../jsons/schedules.json';
 import scheduleDictionary from '../jsons/schedule_dict.json';
@@ -24,7 +25,9 @@ export class LocationMode extends Component {
 
             currentSchedule: scheduleData.Abigail.schedules[0].schedule,
 
-
+            currentLocation: 'SeedShop',
+            currentLocationX: 39,
+            currentLocationY: 5,
 
             currentMarriage: undefined,
             rain: false,
@@ -40,12 +43,19 @@ export class LocationMode extends Component {
             sebastian_6: false
         }
 
+        this.viewRef = React.createRef();
+
         this.handleClickSeason = this.handleClickSeason.bind(this);
         this.handleClickDay = this.handleClickDay.bind(this);
         this.handleClickNpc = this.handleClickNpc.bind(this);
         this.handleToggleKey = this.handleToggleKey.bind(this);
 
         this.findCurrentSchedule = this.findCurrentSchedule.bind(this);
+        this.selectLocation = this.selectLocation.bind(this);
+    }
+
+    componentDidMount() {
+        this.selectLocation('SeedShop 39 5');
     }
 
     handleClickSeason(month) {
@@ -111,8 +121,33 @@ export class LocationMode extends Component {
         }
     }
 
+    selectLocation(location) {
+        location = location.split(' ');
+
+        let { offsetWidth, offsetHeight } = this.viewRef.current
+
+        offsetWidth = (offsetWidth / 2) - 9
+        offsetHeight = (offsetHeight / 2) - 9
+
+        const offsetX = (parseInt(location[1]) * -1) * 16;
+        const offsetY = (parseInt(location[2]) * -1) * 16;
+        this.setState({
+            currentLocation: location[0],
+            currentLocationX: offsetWidth + offsetX,
+            currentLocationY: offsetHeight + offsetY
+        })
+    }
+
     render() {
-        const { currentSeason, currentDay, currentNpc, currentSchedule } = this.state;
+        const {
+            currentSeason,
+            currentDay,
+            currentNpc,
+            currentSchedule,
+            currentLocation,
+            currentLocationX,
+            currentLocationY
+        } = this.state;
 
         let seasonArray = ['Spring', 'Summer', 'Fall', 'Winter'];
         let monthsElement = [];
@@ -160,7 +195,7 @@ export class LocationMode extends Component {
         currentSchedule.forEach((element, index) => {
             const { time, location } = element;
             scheduleList.push(
-                <div className="schedule-item" key={index}>
+                <div className="schedule-item" key={index} onClick={() => this.selectLocation(location)}>
                     <span className="time">{formatTime(time)}</span>
                     <span className="location">{scheduleDictionary[currentNpc][location]}</span>
                 </div>
@@ -198,7 +233,12 @@ export class LocationMode extends Component {
                     </div>
 
                     <div className="location-viewer-wrapper material">
+                        <div
+                            className={`location-viewport ${currentLocation}`}
+                            style={{ backgroundPositionX: currentLocationX, backgroundPositionY: currentLocationY }}
+                            ref={this.viewRef}>
 
+                        </div>
                     </div>
                 </Carousel>
 
@@ -216,16 +256,18 @@ export class LocationMode extends Component {
                         <div className="npc-list custom-scrollbar">
                             {npcsElement}
                         </div>
+
+
+
+                        <div>
+                            {keysElement}
+                        </div>
                     </div>
 
                     <div className="schedules-wrapper material">
                         {scheduleList}
                     </div>
                 </Carousel>
-
-                <div>
-                    {keysElement}
-                </div>
             </div>
         )
     }
