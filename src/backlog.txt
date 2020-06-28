@@ -13,9 +13,9 @@ qa schedules:
     BusStop -1 23 = FARM
     UNDEFINEDS
     "??" = NIGHT MARKET (WINTER 15, 16, 17)
-    RAIN ALTERNATIVE (ABIGAIL E OUTROS)
-
-LOCATION IMG
+    REDUX STATES + HARDCODED INITIAL STATE
+    trigger carousel quando seleciona data/npc/schedule
+    window resize
 
 specialConditions:
     rain

@@ -17,6 +17,7 @@ export class LocationMode extends Component {
 
         this.state = {
             toggleAltSchedule: false,
+
             currentSeason: 'Spring',
             currentWeekday: 'Mon',
             currentDay: 6,
@@ -24,14 +25,14 @@ export class LocationMode extends Component {
 
             currentNpcId: npcId.Abigail,
 
-            currentSchedule: scheduleData.Abigail.schedules[0].schedule,
-            currentAltSchedule: undefined,
+            currentSchedule: scheduleData.Abigail.schedules[0].schedule, /* HARDCODED */
+            currentAltSchedule: false, /* HARDCODED */
 
-            currentTime: 900,
-            currentLocationFull: 'SeedShop 39 5',
-            currentLocation: 'SeedShop',
-            currentLocationX: 39,
-            currentLocationY: 5,
+            currentTime: 900, /* HARDCODED */
+            currentLocationFull: 'SeedShop 39 5',/* HARDCODED */
+            currentLocation: 'SeedShop',/* HARDCODED */
+            currentLocationX: 39,/* HARDCODED */
+            currentLocationY: 5,/* HARDCODED */
 
             currentMarriage: undefined,
             rain: false,
@@ -251,9 +252,12 @@ export class LocationMode extends Component {
         specialConditions.forEach((element, index) => {
             const { name, key } = element;
             keysElement.push(
-                <div key={index}>
-                    <span>{name} </span>
-                    <span onClick={() => this.handleToggleKey(key)}>{`TOGGLE ----> ${this.state[key]}`}</span>
+                <div
+                    className="toggle-item"
+                    key={index}
+                    onClick={() => this.handleToggleKey(key)}>
+                    <div className={`toggler ${this.state[key] ? 'active' : ''}`}></div>
+                    {name}
                 </div>
             );
         })
@@ -297,13 +301,11 @@ export class LocationMode extends Component {
                             </span>
                         </div>
 
-                        <div className="npc-list custom-scrollbar">
+                        <div className="npc-list">
                             {npcsElement}
                         </div>
 
-
-
-                        <div>
+                        <div className="conditions-wrapper">
                             {keysElement}
                         </div>
                     </div>
