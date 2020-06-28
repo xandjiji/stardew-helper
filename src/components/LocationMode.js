@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import { connect } from "react-redux";
 
 import '../css/locationMode.css';
+
+import scheduleData from '../jsons/schedules.json';
 
 export class LocationMode extends Component {
     constructor(props) {
@@ -8,11 +11,14 @@ export class LocationMode extends Component {
 
         this.state = {
             currentSeason: 'Spring',
-            currentDay: undefined
+            currentDay: undefined,
+            currentNpc: 'Abigail',
+            currentNpcId: npcId.Abigail
         }
 
         this.handleClickSeason = this.handleClickSeason.bind(this);
         this.handleClickDay = this.handleClickDay.bind(this);
+        this.handleClickNpc = this.handleClickNpc.bind(this);
     }
 
     handleClickSeason(month) {
@@ -23,9 +29,13 @@ export class LocationMode extends Component {
         this.setState({ currentDay });
     }
 
+    handleClickNpc(name) {
+        this.setState({ currentNpc: name });
+    }
+
     render() {
 
-        const { currentSeason, currentDay } = this.state;
+        const { currentSeason, currentDay, currentNpc } = this.state;
 
         let seasonArray = ['Spring', 'Summer', 'Fall', 'Winter'];
         let monthsElement = [];
@@ -62,6 +72,13 @@ export class LocationMode extends Component {
             )
         }
 
+        let npcsElement = [];
+        for (const npc of Object.keys(scheduleData)) {
+            npcsElement.push(
+                <div className={`bg-${npc}`} onClick={() => this.handleClickNpc(npc)} key={npc}></div>
+            )
+        }
+
 
         return (
             <div className="location-mode-wrapper">
@@ -78,9 +95,71 @@ export class LocationMode extends Component {
                         {daysElement}
                     </div>
                 </div>
+
+                <div className="npc-picker material">
+                    <div className="current-npc">
+                        <div className="portrait-wrapper">
+                            <div className={`bg-${currentNpc}`}></div>
+                        </div>
+                        <span className="npc-action" onClick={() => this.props.openModal(npcId[currentNpc])}>
+                            {currentNpc}
+                        </span>
+                    </div>
+
+                    <div className="npc-list custom-scrollbar">
+                        {npcsElement}
+                    </div>
+                </div>
             </div>
         )
     }
 }
 
-export default LocationMode
+const mapStateToProps = () => {
+    return {};
+};
+
+function mapDispatchToProps(dispatch) {
+    return {
+        openModal: (id) => {
+            dispatch({
+                type: "OPEN_MODAL",
+                payload: id
+            });
+        }
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(LocationMode);
+
+const npcId = {
+    Abigail: 982,
+    Alex: 983,
+    Caroline: 984,
+    Clint: 985,
+    Demetrius: 986,
+    Elliott: 988,
+    Emily: 989,
+    Evelyn: 990,
+    George: 991,
+    Gus: 992,
+    Haley: 993,
+    Harvey: 994,
+    Jas: 995,
+    Jodi: 996,
+    Kent: 997,
+    Leah: 999,
+    Lewis: 1000,
+    Linus: 1001,
+    Marnie: 1002,
+    Maru: 1003,
+    Pam: 1004,
+    Penny: 1005,
+    Pierre: 1006,
+    Robin: 1007,
+    Sam: 1008,
+    Sebastian: 1010,
+    Shane: 1011,
+    Vincent: 1012,
+    Willy: 1013,
+}

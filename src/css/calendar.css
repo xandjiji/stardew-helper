@@ -115,7 +115,7 @@
 
 /* calendar info */
 .calendar-info {
-    margin: 32px auto 0 auto;
+    margin: 20px auto 0 auto;
     max-width: 432px;
     position: relative;
     background-color: var(--surface);

@@ -191,12 +191,6 @@ const mapStateToProps = () => {
 
 function mapDispatchToProps(dispatch) {
     return {
-        closeModal: () => {
-            dispatch({
-                type: "CLOSE_MODAL"
-            });
-        },
-
         openModal: (id) => {
             dispatch({
                 type: "OPEN_MODAL",
