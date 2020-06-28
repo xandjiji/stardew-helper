@@ -289,3 +289,11 @@
     font-size: 10px;
     opacity: 0.8;
 }
+
+.item-modal .action-link .bg-Cow,
+.item-modal .action-link .bg-Goat,
+.item-modal .action-link .bg-Sheep,
+.item-modal .action-link .bg-Pig,
+.item-modal .action-link .bg-Horse {
+    transform: translate(-50%, -50%) scale(0.25);
+}
