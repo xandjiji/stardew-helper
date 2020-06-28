@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 
+import Carousel from '../components/Carousel';
+
 import '../css/locationMode.css';
 
 import scheduleData from '../jsons/schedules.json';
+import scheduleDictionary from '../jsons/schedule_dict.json';
+
+const weekdayName = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
 export class LocationMode extends Component {
     constructor(props) {
@@ -11,31 +16,103 @@ export class LocationMode extends Component {
 
         this.state = {
             currentSeason: 'Spring',
-            currentDay: undefined,
+            currentWeekday: 'Mon',
+            currentDay: 6,
             currentNpc: 'Abigail',
-            currentNpcId: npcId.Abigail
+
+            currentNpcId: npcId.Abigail,
+
+            currentSchedule: scheduleData.Abigail.schedules[0].schedule,
+
+
+
+            currentMarriage: undefined,
+            rain: false,
+            community_restored: false,
+            beach_bridge: false,
+            bus_restored: false,
+            abigail_6: false,
+            alex_6: false,
+            haley_6: false,
+            leah_6: false,
+            penny_6: false,
+            sam_6: false,
+            sebastian_6: false
         }
 
         this.handleClickSeason = this.handleClickSeason.bind(this);
         this.handleClickDay = this.handleClickDay.bind(this);
         this.handleClickNpc = this.handleClickNpc.bind(this);
+        this.handleToggleKey = this.handleToggleKey.bind(this);
+
+        this.findCurrentSchedule = this.findCurrentSchedule.bind(this);
     }
 
     handleClickSeason(month) {
-        this.setState({ currentSeason: month }, () => { this.handleClickDay() });
+        this.setState({ currentSeason: month }, () => { this.findCurrentSchedule() });
     }
 
     handleClickDay(currentDay) {
-        this.setState({ currentDay });
+        this.setState({
+            currentDay,
+            currentWeekday: weekdayName[(currentDay - 1) % 7]
+        }, () => { this.findCurrentSchedule() });
     }
 
     handleClickNpc(name) {
-        this.setState({ currentNpc: name });
+        this.setState({ currentNpc: name }, () => { this.findCurrentSchedule() });
+    }
+
+    handleToggleKey(key) {
+        const { currentNpc, currentMarriage } = this.state;
+
+        if (key === 'currentMarriage') {
+            if (currentNpc === currentMarriage) {
+                return this.setState({ [key]: undefined }, () => { this.findCurrentSchedule() });
+            } else {
+                return this.setState({ [key]: this.state.currentNpc }, () => { this.findCurrentSchedule() });
+            }
+        } else {
+            this.setState({ [key]: !this.state[key] }, () => { this.findCurrentSchedule() });
+        }
+    }
+
+    findCurrentSchedule() {
+        const { currentNpc } = this.state;
+
+        let scheduleList = scheduleData[currentNpc].schedules;
+
+        for (let index in scheduleList) {
+            /* console.log('');
+            console.log(`-->Searching schedule item [${index}] of ${currentNpc}`); */
+
+            let scheduleItem = scheduleList[index];
+
+            let { conditions, schedule } = scheduleItem;
+
+            let found = true;
+            for (const condition in conditions) {
+                /* console.log(`Searching condition item [${condition}]`); */
+                let conditionItem = conditions[condition]
+                /* console.log(conditionItem); */
+
+                if (this.state[condition] !== conditionItem) {
+                    found = false;
+                    break
+                }
+            }
+
+            if (found) {
+                /* console.log('-------- achou'); */
+                /* console.log(scheduleItem); */
+
+                return this.setState({ currentSchedule: schedule });
+            }
+        }
     }
 
     render() {
-
-        const { currentSeason, currentDay, currentNpc } = this.state;
+        const { currentSeason, currentDay, currentNpc, currentSchedule } = this.state;
 
         let seasonArray = ['Spring', 'Summer', 'Fall', 'Winter'];
         let monthsElement = [];
@@ -79,40 +156,94 @@ export class LocationMode extends Component {
             )
         }
 
+        let scheduleList = [];
+        currentSchedule.forEach((element, index) => {
+            const { time, location } = element;
+            scheduleList.push(
+                <div className="schedule-item" key={index}>
+                    <span className="time">{formatTime(time)}</span>
+                    <span className="location">{scheduleDictionary[currentNpc][location]}</span>
+                </div>
+            )
+        })
+
+        let keysElement = [];
+        const { specialConditions } = scheduleData[currentNpc]
+        specialConditions.forEach((element, index) => {
+            const { name, key } = element;
+            keysElement.push(
+                <div key={index}>
+                    <span>{name} </span>
+                    <span onClick={() => this.handleToggleKey(key)}>{`TOGGLE ----> ${this.state[key]}`}</span>
+                </div>
+            );
+        })
+
 
         return (
             <div className="location-mode-wrapper">
-                <div className="calendar-wrapper">
-                    <div className="season-picker">
-                        {monthsElement}
-                    </div>
-
-                    <div className="weekdays-wrapper">
-                        {weekdaysElement}
-                    </div>
-
-                    <div className="days-wrapper">
-                        {daysElement}
-                    </div>
-                </div>
-
-                <div className="npc-picker material">
-                    <div className="current-npc">
-                        <div className="portrait-wrapper">
-                            <div className={`bg-${currentNpc}`}></div>
+                <Carousel>
+                    <div className="calendar-wrapper">
+                        <div className="season-picker">
+                            {monthsElement}
                         </div>
-                        <span className="npc-action" onClick={() => this.props.openModal(npcId[currentNpc])}>
-                            {currentNpc}
-                        </span>
+
+                        <div className="weekdays-wrapper">
+                            {weekdaysElement}
+                        </div>
+
+                        <div className="days-wrapper">
+                            {daysElement}
+                        </div>
                     </div>
 
-                    <div className="npc-list custom-scrollbar">
-                        {npcsElement}
+                    <div className="location-viewer-wrapper material">
+
                     </div>
+                </Carousel>
+
+                <Carousel>
+                    <div className="npc-picker material">
+                        <div className="current-npc">
+                            <div className="portrait-wrapper">
+                                <div className={`bg-${currentNpc}`}></div>
+                            </div>
+                            <span className="npc-action" onClick={() => this.props.openModal(npcId[currentNpc])}>
+                                {currentNpc}
+                            </span>
+                        </div>
+
+                        <div className="npc-list custom-scrollbar">
+                            {npcsElement}
+                        </div>
+                    </div>
+
+                    <div className="schedules-wrapper material">
+                        {scheduleList}
+                    </div>
+                </Carousel>
+
+                <div>
+                    {keysElement}
                 </div>
             </div>
         )
     }
+}
+
+function formatTime(time) {
+    time = time.toString();
+    time = time.split('');
+
+    let minutes = time.splice(time.length - 2, time.length - 1);
+    minutes = minutes.join('');
+
+    let hours = time.join('');
+    if (hours > 23) {
+        hours -= 24;
+    }
+
+    return `${hours}:${minutes}`
 }
 
 const mapStateToProps = () => {

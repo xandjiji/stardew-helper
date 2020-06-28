@@ -1,13 +1,21 @@
 .location-mode-wrapper {
-    margin: 0 16px;
+    margin: 0 12px;
 }
 
-.location-mode-wrapper > *{
-    margin: 16px auto 0 auto;
-    max-width: 432px;
+.location-mode-wrapper > *:first-child {
+    padding-top: 16px;
+}
+
+.location-mode-wrapper > *:last-child {
+    padding-top: 20px;
 }
 
 /* calendar */
+.location-mode-wrapper .calendar-wrapper {
+    margin: 0;
+    max-width: unset;
+}
+
 .location-mode-wrapper .calendar-wrapper .day-item {
     cursor: pointer;
 }
@@ -75,4 +83,29 @@
 
 .location-mode-wrapper .npc-list > *:active {
     box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
+}
+
+/* CAROUSELS */
+.location-mode-wrapper .carousel-wrapper {
+    margin: 0 auto;
+    max-width: 440px;
+}
+
+.location-mode-wrapper .item-wrapper > * {
+    width: calc(100% - 8px);
+    margin: 0 4px;
+}
+
+.location-mode-wrapper .cursor-wrapper {
+    bottom: -10px;
+}
+
+/* location viewer */
+.location-mode-wrapper .location-viewer-wrapper {
+    background-color: var(--surface);
+}
+
+/* schedules */
+.location-mode-wrapper .schedules-wrapper {
+    background-color: var(--surface);
 }

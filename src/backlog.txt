@@ -9,11 +9,27 @@ icons sidebar
 redux save season + condition
 
 qa schedules:
-    25PM
     SUNROOM
     BusStop -1 23 = FARM
+    UNDEFINEDS
     "??" = NIGHT MARKET (WINTER 15, 16, 17)
-    RAIN ALTERNATIVE (ABIGAIL)
+    RAIN ALTERNATIVE (ABIGAIL E OUTROS)
 
-CONDITION PICKER
 LOCATION IMG
+
+specialConditions:
+    rain
+    currentMarriage
+    community_restored
+    beach_bridge
+    bus_restored
+    abigail_6
+    alex_6
+    haley_6
+    leah_6
+    penny_6
+    sam_6
+    sebastian_6
+
+pam:
+    bus_service + community_restored
