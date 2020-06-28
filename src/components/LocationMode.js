@@ -16,6 +16,7 @@ export class LocationMode extends Component {
         super(props);
 
         this.state = {
+            toggleAltSchedule: false,
             currentSeason: 'Spring',
             currentWeekday: 'Mon',
             currentDay: 6,
@@ -24,7 +25,10 @@ export class LocationMode extends Component {
             currentNpcId: npcId.Abigail,
 
             currentSchedule: scheduleData.Abigail.schedules[0].schedule,
+            currentAltSchedule: undefined,
 
+            currentTime: 900,
+            currentLocationFull: 'SeedShop 39 5',
             currentLocation: 'SeedShop',
             currentLocationX: 39,
             currentLocationY: 5,
@@ -49,6 +53,7 @@ export class LocationMode extends Component {
         this.handleClickDay = this.handleClickDay.bind(this);
         this.handleClickNpc = this.handleClickNpc.bind(this);
         this.handleToggleKey = this.handleToggleKey.bind(this);
+        this.handleToggleAlt = this.handleToggleAlt.bind(this);
 
         this.findCurrentSchedule = this.findCurrentSchedule.bind(this);
         this.selectLocation = this.selectLocation.bind(this);
@@ -87,6 +92,10 @@ export class LocationMode extends Component {
         }
     }
 
+    handleToggleAlt() {
+        this.setState({ toggleAltSchedule: !this.state.toggleAltSchedule });
+    }
+
     findCurrentSchedule() {
         const { currentNpc } = this.state;
 
@@ -98,7 +107,7 @@ export class LocationMode extends Component {
 
             let scheduleItem = scheduleList[index];
 
-            let { conditions, schedule } = scheduleItem;
+            let { conditions, schedule, altSchedule } = scheduleItem;
 
             let found = true;
             for (const condition in conditions) {
@@ -116,12 +125,20 @@ export class LocationMode extends Component {
                 /* console.log('-------- achou'); */
                 /* console.log(scheduleItem); */
 
-                return this.setState({ currentSchedule: schedule });
+                return this.setState({
+                    currentSchedule: schedule,
+                    currentAltSchedule: altSchedule
+                });
             }
         }
     }
 
-    selectLocation(location) {
+    selectLocation(location, time) {
+        this.setState({
+            currentTime: time,
+            currentLocationFull: location,
+        });
+
         location = location.split(' ');
 
         let { offsetWidth, offsetHeight } = this.viewRef.current
@@ -140,14 +157,18 @@ export class LocationMode extends Component {
 
     render() {
         const {
+            toggleAltSchedule,
             currentSeason,
             currentDay,
             currentNpc,
-            currentSchedule,
+            currentTime,
+            currentLocationFull,
             currentLocation,
             currentLocationX,
             currentLocationY
         } = this.state;
+
+        let { currentSchedule, currentAltSchedule } = this.state;
 
         let seasonArray = ['Spring', 'Summer', 'Fall', 'Winter'];
         let monthsElement = [];
@@ -179,7 +200,8 @@ export class LocationMode extends Component {
                     className={`day-item ${currentDay === i ? 'active' : ''}`}
                     key={i}
                     onClick={() => this.handleClickDay(i)}>
-                    <span className="day-number">{i}</span>
+
+                    {i}
                 </div>
             )
         }
@@ -192,15 +214,37 @@ export class LocationMode extends Component {
         }
 
         let scheduleList = [];
+        if (toggleAltSchedule && currentAltSchedule) {
+            currentSchedule = currentAltSchedule;
+        }
         currentSchedule.forEach((element, index) => {
             const { time, location } = element;
+
+            let highlightClass = '';
+            if (currentLocationFull === location && currentTime === time) {
+                highlightClass = 'active';
+            }
+
             scheduleList.push(
-                <div className="schedule-item" key={index} onClick={() => this.selectLocation(location)}>
+                <div
+                    className={`schedule-item ${highlightClass}`}
+                    key={index}
+                    onClick={() => this.selectLocation(location, time)}>
+
                     <span className="time">{formatTime(time)}</span>
                     <span className="location">{scheduleDictionary[currentNpc][location]}</span>
                 </div>
             )
         })
+
+        let toggleAltElement;
+        if (currentAltSchedule) {
+            toggleAltElement =
+                <div className="toggle-item" onClick={this.handleToggleAlt}>
+                    Alternative schedule
+                    <div className={`toggler ${toggleAltSchedule ? 'active' : ''}`}></div>
+                </div>
+        }
 
         let keysElement = [];
         const { specialConditions } = scheduleData[currentNpc]
@@ -265,7 +309,10 @@ export class LocationMode extends Component {
                     </div>
 
                     <div className="schedules-wrapper material">
-                        {scheduleList}
+                        {toggleAltElement}
+                        <div className="schedule-list">
+                            {scheduleList}
+                        </div>
                     </div>
                 </Carousel>
             </div>

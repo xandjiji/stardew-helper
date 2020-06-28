@@ -17,6 +17,12 @@
 }
 
 .location-mode-wrapper .calendar-wrapper .day-item {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
     cursor: pointer;
 }
 
@@ -85,6 +91,53 @@
     box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
 }
 
+/* conditions */
+.location-mode-wrapper .toggle-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.location-mode-wrapper .toggle-item > * {
+    /* margin-left: 6px; */
+}
+
+.toggler {
+    position: relative;
+    width: 28px;
+    height: 8px;
+    border-radius: 9px;
+    background-color: var(--separator);
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+    transition: 0.2s ease-out;
+}
+
+.toggler.active {
+    background-color: var(--primaryVariant);
+}
+
+.toggler::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--primaryVariant);
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
+    transition: 0.2s ease-out;
+}
+
+.toggler.active::after {
+    left: 100%;
+    transform: translate(-16px, -50%);
+    background-color: var(--primary);
+}
+
 /* CAROUSELS */
 .location-mode-wrapper .carousel-wrapper {
     margin: 0 auto;
@@ -122,13 +175,68 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     background: url('../assets/cursor.png');
 }
 
 /* schedules */
 .location-mode-wrapper .schedules-wrapper {
     background-color: var(--surface);
+}
+
+.location-mode-wrapper .schedule-list {
+    border: solid 1px var(--primary);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.location-mode-wrapper .schedule-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.location-mode-wrapper .schedule-item:not(:last-child) {
+    border-bottom: solid 1px var(--primary);
+}
+
+.location-mode-wrapper .time {
+    padding: 4px 8px;
+    display: inline-block;
+    width: 47px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+    color: var(--onPrimary);
+}
+
+.location-mode-wrapper .location {
+    padding: 4px 8px;
+    display: inline-block;
+    width: calc(100% - 47px);
+    font-size: 12px;
+    font-weight: 300;
+    background-color: var(--surface);
+    transition: 0.2s ease-out;
+}
+
+.location-mode-wrapper .active .location,
+.location-mode-wrapper .schedule-item:hover .location {
+    background-color: var(--primaryVariant);
+    color: #000;
+}
+
+.location-mode-wrapper .active .location {
+    font-weight: 400;
+}
+
+.location-mode-wrapper .schedules-wrapper .toggle-item {
+    position: relative;
+    top: -10px;
+}
+
+.location-mode-wrapper .schedules-wrapper .toggle-item > * {
+    margin-left: 16px;
 }
