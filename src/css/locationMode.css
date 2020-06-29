@@ -2,18 +2,22 @@
     margin: 0 12px;
 }
 
-.location-mode-wrapper > *:first-child {
-    padding-top: 16px;
-}
-
-.location-mode-wrapper > *:last-child {
-    padding-top: 20px;
-}
-
 /* calendar */
 .location-mode-wrapper .calendar-wrapper {
     margin: 0;
     max-width: unset;
+}
+
+.location-mode-wrapper .season-picker {
+    padding: 6px;
+}
+
+.location-mode-wrapper .weekdays-wrapper {
+    padding: 6px;
+}
+
+.location-mode-wrapper .days-wrapper {
+    padding: 6px;
 }
 
 .location-mode-wrapper .calendar-wrapper .day-item {
@@ -150,6 +154,7 @@
 
 /* CAROUSELS */
 .location-mode-wrapper .carousel-wrapper {
+    padding-top: 16px;
     margin: 0 auto;
     max-width: 440px;
 }
@@ -164,11 +169,13 @@
 }
 
 /* location viewer */
-.location-mode-wrapper .location-viewer-wrapper {
-    background-color: var(--surface);
+.location-mode-wrapper .view-wrap {
+    display: flex;
+    flex-direction: column;
 }
 
 .location-mode-wrapper .location-viewport {
+    flex-grow: 1;
     position: relative;
     width: 100%;
     height: 100%;
@@ -192,6 +199,7 @@
 
 /* schedules */
 .location-mode-wrapper .schedules-wrapper {
+    margin-top: 16px;
     background-color: var(--surface);
 }
 

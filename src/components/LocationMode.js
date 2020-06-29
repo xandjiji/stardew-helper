@@ -266,54 +266,54 @@ export class LocationMode extends Component {
         return (
             <div className="location-mode-wrapper">
                 <Carousel>
-                    <div className="calendar-wrapper">
-                        <div className="season-picker">
-                            {monthsElement}
+                    <div>
+                        <div className="calendar-wrapper">
+                            <div className="season-picker">
+                                {monthsElement}
+                            </div>
+
+                            <div className="weekdays-wrapper">
+                                {weekdaysElement}
+                            </div>
+
+                            <div className="days-wrapper">
+                                {daysElement}
+                            </div>
                         </div>
 
-                        <div className="weekdays-wrapper">
-                            {weekdaysElement}
-                        </div>
+                        <div className="npc-picker material">
+                            <div className="current-npc">
+                                <div className="portrait-wrapper">
+                                    <div className={`bg-${currentNpc}`}></div>
+                                </div>
+                                <span className="npc-action" onClick={() => this.props.openModal(npcId[currentNpc])}>
+                                    {currentNpc}
+                                </span>
+                            </div>
 
-                        <div className="days-wrapper">
-                            {daysElement}
+                            <div className="npc-list">
+                                {npcsElement}
+                            </div>
+
+                            <div className="conditions-wrapper">
+                                {keysElement}
+                            </div>
                         </div>
                     </div>
 
-                    <div className="location-viewer-wrapper material">
+                    <div className="view-wrap">
                         <div
                             className={`location-viewport ${currentLocation}`}
                             style={{ backgroundPositionX: currentLocationX, backgroundPositionY: currentLocationY }}
                             ref={this.viewRef}>
-
                         </div>
-                    </div>
-                </Carousel>
 
-                <Carousel>
-                    <div className="npc-picker material">
-                        <div className="current-npc">
-                            <div className="portrait-wrapper">
-                                <div className={`bg-${currentNpc}`}></div>
+
+                        <div className="schedules-wrapper material">
+                            {toggleAltElement}
+                            <div className="schedule-list">
+                                {scheduleList}
                             </div>
-                            <span className="npc-action" onClick={() => this.props.openModal(npcId[currentNpc])}>
-                                {currentNpc}
-                            </span>
-                        </div>
-
-                        <div className="npc-list">
-                            {npcsElement}
-                        </div>
-
-                        <div className="conditions-wrapper">
-                            {keysElement}
-                        </div>
-                    </div>
-
-                    <div className="schedules-wrapper material">
-                        {toggleAltElement}
-                        <div className="schedule-list">
-                            {scheduleList}
                         </div>
                     </div>
                 </Carousel>
