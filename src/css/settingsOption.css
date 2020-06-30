@@ -44,8 +44,8 @@
 }
 
 .option-wrapper .option-head .option-arrow {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     transition: 0.2s ease-out;
 }
 
@@ -70,4 +70,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     overflow: auto;
+}
+
+.option-wrapper:nth-child(2) .option-name svg {
+    margin-right: 16px;
 }

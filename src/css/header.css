@@ -207,3 +207,7 @@
 
     color: var(--onPrimary);
 }
+
+.trash-sidebar {
+    transform: translateX(-2px);
+}
