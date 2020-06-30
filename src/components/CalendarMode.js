@@ -12,10 +12,28 @@ export class CalendarMode extends Component {
     constructor(props) {
         super(props);
 
+        const { day, season } = this.props;
+
+        let initialType = '';
+        let initialEvent = calendar[season][day];
+        if (initialEvent === undefined) {
+
+        } else if (typeof initialEvent === 'string') {
+            initialType = 'Event:'
+        } else if (typeof initialEvent === 'number') {
+            initialType = 'Birthday:'
+        }
+
+        if (day === 15 || day === 16) {
+            if (season === 'Winter') {
+                initialType = 'Night Market:'
+            }
+        }
+
         this.state = {
-            currentSeason: 'Spring',
-            currentDay: 4,
-            eventType: 'Birthday:'
+            currentSeason: season,
+            currentDay: day,
+            eventType: initialType
         }
 
         this.handleClickSeason = this.handleClickSeason.bind(this);
@@ -23,25 +41,30 @@ export class CalendarMode extends Component {
     }
 
     handleClickSeason(month) {
-        this.setState({ currentSeason: month }, () => { this.setFirstEvent(month) });
+        const { setDate } = this.props;
+        setDate('season', month);
+        this.setState({ currentSeason: month });
     }
 
     handleClickDay(currentDay, isNightMarket) {
+        const { setDate } = this.props;
+        setDate('day', currentDay);
 
         currentDay = parseInt(currentDay);
 
         let monthData = calendar[this.state.currentSeason];
 
-        if (monthData[currentDay] === undefined && isNightMarket === false) {
-            return
-        }
-
+        
         let eventType = 'Event:';
         if (isNightMarket) {
             eventType = 'Night Market';
         }
         if (Number.isInteger(monthData[currentDay])) {
             eventType = 'Birthday:';
+        }
+        
+        if (monthData[currentDay] === undefined && isNightMarket === false) {
+            eventType = '';
         }
 
         this.setState({ currentDay, eventType });
@@ -51,13 +74,6 @@ export class CalendarMode extends Component {
         return <span className="npc-action" onClick={() => this.props.openModal(id)}>
             {items[id].name}
         </span>
-    }
-
-    setFirstEvent(season) {
-        for (const event of Object.keys(calendar[season])) {
-            this.handleClickDay(event)
-            break;
-        }
     }
 
     render() {
@@ -139,7 +155,7 @@ export class CalendarMode extends Component {
             innerInfoElement = this.makeNpcAction(currentDayData)
         } else {
             infoIconClass = 'bg-Event';
-            if(eventType === 'Night Market') {
+            if (eventType === 'Night Market') {
                 currentDayData = 'Night Market'
                 infoIconClass = 'bg-Iridium_Quality_Icon';
             }
@@ -173,7 +189,7 @@ export class CalendarMode extends Component {
                     </div>
                 </div>
 
-                <div className="calendar-info material">
+                <div className={`calendar-info material ${eventType === '' ? 'hidden' : ''}`}>
                     <div className="info-icon">
                         <div className={infoIconClass}></div>
                     </div>
@@ -185,15 +201,17 @@ export class CalendarMode extends Component {
     }
 }
 
-const mapStateToProps = () => {
-    return {};
+const mapStateToProps = (state) => {
+    return state.dateReducer;
 };
 
 function mapDispatchToProps(dispatch) {
     return {
-        closeModal: () => {
+        setDate: (key, value) => {
             dispatch({
-                type: "CLOSE_MODAL"
+                type: "SET_CALENDAR",
+                key,
+                value
             });
         },
 

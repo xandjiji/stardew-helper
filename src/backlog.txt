@@ -1,15 +1,7 @@
 modes:
-    npc locator
     desktop
 
 cruzar actions make, recipe e obtained
-search async foreach,
 100% height
 prevent refresh
-
-qa schedules:
-    25PM
-    SUNROOM
-    BusStop -1 23 = FARM
-    "??" = NIGHT MARKET (WINTER 15, 16, 17)
-    RAIN ALTERNATIVE (ABIGAIL)
+icons sidebar

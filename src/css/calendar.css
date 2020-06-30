@@ -102,6 +102,11 @@
     font-weight: 300;
 }
 
+.calendar-wrapper .active .day-number,
+.calendar-wrapper .day-item.event:hover .day-number {
+    color: #000;
+}
+
 .calendar-wrapper .night-market {
     position: absolute;
     top: 50%;
@@ -115,10 +120,15 @@
 
 /* calendar info */
 .calendar-info {
-    margin: 32px auto 0 auto;
+    margin: 20px auto 0 auto;
     max-width: 432px;
     position: relative;
     background-color: var(--surface);
+    transition: 0.2s ease-out;
+}
+
+.calendar-info.hidden {
+    opacity: 0;
 }
 
 .calendar-info.material {

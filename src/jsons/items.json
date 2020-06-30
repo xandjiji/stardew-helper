@@ -33085,7 +33085,7 @@
         "name": "Horse",
         "link": "Animals#Horse",
         "obtainedFrom": [
-            "@Purchase a Stable at the Carpenter's Shop (requires 10,000g, 100x &686~ and 5x &141~)"
+            "@Purchase a Stable at the Carpenter's Shop for 10,000g, &686~ (100x) and &141~ (5x)"
         ],
         "makes": [
             "Riding a horse provides you with +30% movement speed",

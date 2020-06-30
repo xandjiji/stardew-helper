@@ -55,6 +55,10 @@
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, .14);
 }
 
+.list-wrapper .item-name:active {
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.14);
+}
+
 .list-wrapper .item-name .sprite {
     margin-right: 8px;
     transition: 0.2s ease-out;
