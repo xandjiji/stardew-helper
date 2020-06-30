@@ -154,10 +154,12 @@ export class LocationMode extends Component {
                 /* console.log('-------- achou'); */
                 /* console.log(scheduleItem); */
 
-                return this.setState({
+                this.setState({
                     currentSchedule: schedule,
                     currentAltSchedule: altSchedule
-                });
+                },
+                    () => this.selectLocation(schedule[0].location, schedule[0].time));
+                return
             }
         }
     }
