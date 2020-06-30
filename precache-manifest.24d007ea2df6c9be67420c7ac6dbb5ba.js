@@ -1,27 +1,99 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ffcb9562403d2c068506b853f3e9b17",
+    "revision": "cf46f5e2904be3560e070a064b251971",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "33ffd7a463da763a4eb7",
-    "url": "/stardew-helper/static/css/main.3f7d5dcb.chunk.css"
+    "revision": "b11633496ddddb42bbd7",
+    "url": "/stardew-helper/static/css/main.5fef2e85.chunk.css"
   },
   {
-    "revision": "8e20557d236ecafe8394",
-    "url": "/stardew-helper/static/js/2.9ae606ee.chunk.js"
+    "revision": "970820bd1cd164ec1787",
+    "url": "/stardew-helper/static/js/2.288b514b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/stardew-helper/static/js/2.9ae606ee.chunk.js.LICENSE.txt"
+    "url": "/stardew-helper/static/js/2.288b514b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33ffd7a463da763a4eb7",
-    "url": "/stardew-helper/static/js/main.74ecae4b.chunk.js"
+    "revision": "b11633496ddddb42bbd7",
+    "url": "/stardew-helper/static/js/main.6fc8f8eb.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",
     "url": "/stardew-helper/static/js/runtime-main.f4c516d1.js"
+  },
+  {
+    "revision": "084696a9ba0d65785cd33563ba64821e",
+    "url": "/stardew-helper/static/media/AnimalShop.084696a9.png"
+  },
+  {
+    "revision": "1e25eb32ab841ec4e4b2f730e9802403",
+    "url": "/stardew-helper/static/media/ArchaeologyHouse.1e25eb32.png"
+  },
+  {
+    "revision": "f3a1b1356400e545325345e125f6e744",
+    "url": "/stardew-helper/static/media/BathHouse_MensLocker.f3a1b135.png"
+  },
+  {
+    "revision": "bbdf72349208dfbfeabe73c5d5671f02",
+    "url": "/stardew-helper/static/media/Beach.bbdf7234.png"
+  },
+  {
+    "revision": "aa10ff220ef174c41fe990dfc4b3e483",
+    "url": "/stardew-helper/static/media/Blacksmith.aa10ff22.png"
+  },
+  {
+    "revision": "48e085d3a9f4f69037b49f00c89618bf",
+    "url": "/stardew-helper/static/media/BusStop.48e085d3.png"
+  },
+  {
+    "revision": "8cc50ee9f39dbb154a26d11e1ab810bf",
+    "url": "/stardew-helper/static/media/CommunityCenter.8cc50ee9.png"
+  },
+  {
+    "revision": "875de0b096daa2bacd62e8416a7df2c0",
+    "url": "/stardew-helper/static/media/FishShop.875de0b0.png"
+  },
+  {
+    "revision": "eabb1cdb75e55631132082d2fa0d7a05",
+    "url": "/stardew-helper/static/media/Forest.eabb1cdb.png"
+  },
+  {
+    "revision": "bd814ed302be35237c767e6c87d82dd3",
+    "url": "/stardew-helper/static/media/HaleyHouse.bd814ed3.png"
+  },
+  {
+    "revision": "6c9815bca3eb9eb12cc3443511bdafd1",
+    "url": "/stardew-helper/static/media/HarveyRoom.6c9815bc.png"
+  },
+  {
+    "revision": "d6018be3fdbce0f90a764c1714500eff",
+    "url": "/stardew-helper/static/media/Hospital.d6018be3.png"
+  },
+  {
+    "revision": "782ef1f704f96466635e578eefbbb636",
+    "url": "/stardew-helper/static/media/JojaMart.782ef1f7.png"
+  },
+  {
+    "revision": "40700aa0d66d311d2f6c19b1a3cc98b0",
+    "url": "/stardew-helper/static/media/JoshHouse.40700aa0.png"
+  },
+  {
+    "revision": "a4a4d66b8dff6a7e5b32ba11bd6694eb",
+    "url": "/stardew-helper/static/media/LeahHouse.a4a4d66b.png"
+  },
+  {
+    "revision": "47f34c3af191270a94d79943cc200a1f",
+    "url": "/stardew-helper/static/media/ManorHouse.47f34c3a.png"
+  },
+  {
+    "revision": "817e4535a4fa57579f381c7ebbdc428d",
+    "url": "/stardew-helper/static/media/Mountain.817e4535.png"
+  },
+  {
+    "revision": "cb249925fb8b238bb55cdc1479da8a44",
+    "url": "/stardew-helper/static/media/Railroad.cb249925.png"
   },
   {
     "revision": "e07df86cef2e721115583d61d1fb68a6",
@@ -38,6 +110,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "11eabca2251325cfc5589c9c6fb57b46",
     "url": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf"
+  },
+  {
+    "revision": "6a0227c5a80c26f0acc862443cb4aadb",
+    "url": "/stardew-helper/static/media/Saloon.6a0227c5.png"
+  },
+  {
+    "revision": "605e93b8eb58d738cbe8c139912f7a3a",
+    "url": "/stardew-helper/static/media/SamHouse.605e93b8.png"
+  },
+  {
+    "revision": "792dbe07d99ec3deb270a7a22a9f5054",
+    "url": "/stardew-helper/static/media/ScienceHouse.792dbe07.png"
+  },
+  {
+    "revision": "1be93f6ebafeee645cdf71211d88666f",
+    "url": "/stardew-helper/static/media/SebastianRoom.1be93f6e.png"
+  },
+  {
+    "revision": "a88705236bb1eead1dcf99bdb256f810",
+    "url": "/stardew-helper/static/media/SeedShop.a8870523.png"
+  },
+  {
+    "revision": "f2320d15016240bd15bf8f72938c869b",
+    "url": "/stardew-helper/static/media/Sunroom.f2320d15.png"
+  },
+  {
+    "revision": "2c27738940cfeea6753d9210a93621fa",
+    "url": "/stardew-helper/static/media/Town.2c277389.png"
+  },
+  {
+    "revision": "bf51cb9be0bda88daceca67281f87001",
+    "url": "/stardew-helper/static/media/Trailer.bf51cb9b.png"
   },
   {
     "revision": "0ee7e08a6fa83a48d4fafc88c58d25c2",
@@ -84,6 +188,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/import.99b0eec3.svg"
   },
   {
+    "revision": "118764819e72f576e9c581587f20a86b",
+    "url": "/stardew-helper/static/media/location.11876481.svg"
+  },
+  {
     "revision": "92934f331bfa790dbd7cb6a3beff69f3",
     "url": "/stardew-helper/static/media/palette.92934f33.svg"
   },
@@ -92,8 +200,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/present.8ab19435.svg"
   },
   {
-    "revision": "30ab178ed0831153144d2ec2265d2963",
-    "url": "/stardew-helper/static/media/search.30ab178e.svg"
+    "revision": "b285c701a1ca8ca99f0ae531ada44a1d",
+    "url": "/stardew-helper/static/media/search.b285c701.svg"
   },
   {
     "revision": "457f21d37c9478092a0cb45c0d422152",
