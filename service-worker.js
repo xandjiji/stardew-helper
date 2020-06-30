@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stardew-helper/precache-manifest.24d007ea2df6c9be67420c7ac6dbb5ba.js"
+  "/stardew-helper/precache-manifest.e94b5655042df7aa12b007e2f3dd2b84.js"
 );
 
 self.addEventListener('message', (event) => {
