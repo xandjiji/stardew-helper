@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "746a14fbdf6e8e6eadbb5089245413e4",
+    "revision": "6bfda40f55382c344d18604cd377ddab",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "4967c68b4d4bdf938214",
-    "url": "/stardew-helper/static/css/main.5fef2e85.chunk.css"
+    "revision": "701fe521db4099773fe7",
+    "url": "/stardew-helper/static/css/main.688bb984.chunk.css"
   },
   {
     "revision": "970820bd1cd164ec1787",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/js/2.288b514b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4967c68b4d4bdf938214",
-    "url": "/stardew-helper/static/js/main.b9d7bd2d.chunk.js"
+    "revision": "701fe521db4099773fe7",
+    "url": "/stardew-helper/static/js/main.60a762c1.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",
@@ -192,8 +192,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/location.11876481.svg"
   },
   {
-    "revision": "92934f331bfa790dbd7cb6a3beff69f3",
-    "url": "/stardew-helper/static/media/palette.92934f33.svg"
+    "revision": "279b99df1e4c33d7b5afae32ce89a9d8",
+    "url": "/stardew-helper/static/media/palette.279b99df.svg"
   },
   {
     "revision": "8ab19435d326c6ff6922de149718d8ea",
@@ -252,11 +252,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stardew-helper/static/media/spritessub48px.17cdf9dd.png"
   },
   {
-    "revision": "893ad4fc4493754ad920041a9ece427e",
-    "url": "/stardew-helper/static/media/transfer.893ad4fc.svg"
+    "revision": "dab8bb353f359158b4b813926fb50671",
+    "url": "/stardew-helper/static/media/transfer.dab8bb35.svg"
   },
   {
-    "revision": "d359be228499f827ba97a2aa249d2dd5",
-    "url": "/stardew-helper/static/media/trash.d359be22.svg"
+    "revision": "a2d559cad564e96115ba7036e04903ec",
+    "url": "/stardew-helper/static/media/trash.a2d559ca.svg"
   }
 ]);
