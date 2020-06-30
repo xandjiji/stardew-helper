@@ -31,7 +31,9 @@
       "SeedShop 3 6": "In her room",
       "ScienceHouse 5 19": "Carpenter's Shop",
       "Railroad 30 45": "Railroad",
-      "Town 73 54": "On the bridge west of JojaMart"
+      "Town 73 54": "On the bridge west of JojaMart",
+      "Beach 30 34": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Alex": {
       "JoshHouse 8 19": "1 River Road",
@@ -48,7 +50,10 @@
       "BathHouse_MensLocker 3 5": "Spa: Men's Locker Room",
       "HaleyHouse 7 23": "2 Willow Lane",
       "Beach 30 13": "Beach",
-      "Town 88 91": "Ice Cream Stand"
+      "Town 88 91": "Ice Cream Stand",
+      "Beach 27 24": "At the Night Market",
+      "Farm 4 5": "At your farm house",
+      "Saloon 32 7": "Stardrop Saloon"
     },
     "Caroline": {
       "SeedShop 37 6": "Pierre's General Store: Kitchen",
@@ -69,7 +74,9 @@
       "CommunityCenter 26 9": "Community Center",
       "SeedShop 22 5": "In her room",
       "Town 48 33": "North of Pierre's General Store",
-      "Town 23 71": "Town Square"
+      "Town 23 71": "Town Square",
+      "Beach 24 32": "At the Night Market",
+      "Sunroom 5 7": "Inside the Sunroom"
     },
     "Clint": {
       "Blacksmith 3 13": "Working at the Blacksmith",
@@ -79,7 +86,8 @@
       "Blacksmith 10 4": "In his bed",
       "CommunityCenter 62 14": "Community Center: Boiler Room",
       "Blacksmith 8 12": "Blacksmith",
-      "JojaMart 27 5": "JojaMart"
+      "JojaMart 27 5": "JojaMart",
+      "Beach 37 33": "At the Night Market"
     },
     "Demetrius": {
       "ScienceHouse 16 19": "Carpenter's Shop: Laboratory",
@@ -98,7 +106,9 @@
       "Mountain 45 8": "North-west of Mountain Lake",
       "Town 30 23": "Fountain",
       "Mountain 15 26": "Outside his house",
-      "Mountain 30 36": "South-east of his house"
+      "Mountain 30 36": "South-east of his house",
+      "Beach 11 32": "At the Night Market",
+      "Town 31 23": "Fountain"
     },
     "Elliott": {
       "ElliottHouse 1 5": "In his house",
@@ -115,7 +125,9 @@
       "Saloon 4 19": "Stardrop Saloon",
       "Forest 96 39": "Outside Leah's Cottage",
       "Beach 49 19": "South of Elliott's House",
-      "Town 55 104": "Bridge to the Beach"
+      "Town 55 104": "Bridge to the Beach",
+      "Beach 38 36": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Emily": {
       "HaleyHouse 16 5": "In her room",
@@ -131,7 +143,9 @@
       "Hospital 12 14": "Harvey's Clinic: Waiting Room",
       "Hospital 4 6": "Harvey's Clinic",
       "CommunityCenter 10 25": "Community Center: Crafts Room",
-      "HaleyHouse 3 16": "2 Willow Lane"
+      "HaleyHouse 3 16": "2 Willow Lane",
+      "Beach 25 36": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Evelyn": {
       "JoshHouse 3 17": "1 River Road",
@@ -147,7 +161,8 @@
       "JoshHouse 20 20": "1 River Road",
       "CommunityCenter 18 25": "Community Center: Crafts Room",
       "Town 36 78": "South of Stardrop Saloon",
-      "Town 20 62": "Town Square"
+      "Town 20 62": "Town Square",
+      "Beach 12 39": "At the Night Market"
     },
     "George": {
       "JoshHouse 5 21": "1 River Road",
@@ -156,7 +171,8 @@
       "JoshHouse 16 22": "1 River Road",
       "JoshHouse 3 5": "In his room",
       "Town 52 61": "West of 1 River Road",
-      "SeedShop 36 22": "Pierre's General Store: Yoba Shrine"
+      "SeedShop 36 22": "Pierre's General Store: Yoba Shrine",
+      "Beach 11 39": "At the Night Market"
     },
     "Gus": {
       "SeedShop 13 23": "Pierre's General Store",
@@ -186,7 +202,9 @@
       "Town 90 91": "Ice Cream Stand",
       "HaleyHouse 1 8": "In her room",
       "Forest 77 44": "South-west of Leah's Cottage",
-      "Town 23 22": "Fountain"
+      "Town 23 22": "Fountain",
+      "Beach 27 34": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Harvey": {
       "Hospital 1 5": "Harvey's Clinic",
@@ -214,7 +232,10 @@
       "Town 46 102": "South of the Graveyard",
       "Town 23 36": "Fountain",
       "Hospital 9 15": "Harvey's Clinic",
-      "Town 10 64": "West of the Town Square"
+      "Town 10 64": "West of the Town Square",
+      "Beach 37 31": "At the Night Market",
+      "Farm 4 5": "At your farm house",
+      "ArchaeologyHouse 16 9": "Museum"
     },
     "Jas": {
       "AnimalShop 7 5": "In her room",
@@ -235,7 +256,8 @@
       "Town 24 12": "Playground",
       "Town 28 90": "Outside 2 Willow Lane",
       "AnimalShop 0 7": "In her bed",
-      "Forest 38 10": "North of Forest Lake"
+      "Forest 38 10": "North of Forest Lake",
+      "Beach 19 24": "At the Night Market"
     },
     "Jodi": {
       "SamHouse 6 5": "1 Willow Lane: Kitchen",
@@ -268,7 +290,8 @@
       "SeedShop 38 20": "Pierre's General Store: Yoba Shrine",
       "SeedShop 2 20": "Pierre's General Store",
       "Town 22 72": "Town Square",
-      "SeedShop 2 22": "Pierre's General Store"
+      "SeedShop 2 22": "Pierre's General Store",
+      "Beach 20 24": "At the Night Market"
     },
     "Kent": {
       "SamHouse 8 12": "1 Willow Lane",
@@ -297,10 +320,13 @@
       "SeedShop 11 23": "Pierre's General Store",
       "LeahHouse 6 5": "Leah's Cottage",
       "LeahHouse 9 5": "Leah's Cottage",
-      "Beach 72 18": "Tidal Pools",
+      "Beach 72 18": "Painting at the Beach",
+      "Beach 38 24": "Painting at the Beach",
       "Forest 68 50": "South-east of Forest Lake",
       "Forest 33 25": "Pier on Forest Lake",
-      "Forest 21 29": "West of Forest Lake"
+      "Forest 21 29": "West of Forest Lake",
+      "Beach 41 35": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Lewis": {
       "ManorHouse 8 5": "Mayor's Manor",
@@ -332,7 +358,8 @@
       "CommunityCenter 51 4": "Community Center: Vault",
       "CommunityCenter 47 13": "Community Center: Bulletin Board",
       "CommunityCenter 33 9": "Community Center",
-      "Town 41 57": "Outside Pierre's General Store"
+      "Town 41 57": "Outside Pierre's General Store",
+      "Beach 40 34": "At the Night Market"
     },
     "Linus": {
       "Tent 2 2": "In his tent",
@@ -347,7 +374,9 @@
       "Mountain 44 18": "West of Mountain Lake",
       "BathHouse_Entry 8 6": "Spa: Entry",
       "Mountain 45 19": "West of Mountain Lake",
-      "Tent 1 3": "In his tent"
+      "Tent 1 3": "In his tent",
+      "Beach 19 4": "At the Night Market",
+      "Tent 4 4": "In his tent"
     },
     "Marnie": {
       "AnimalShop 17 5": "In her room",
@@ -364,7 +393,8 @@
       "AnimalShop 12 14": "Working at Marnie's Ranch",
       "AnimalShop 17 8": "In her room",
       "Saloon 8 22": "Stardrop Saloon",
-      "Saloon 9 22": "Stardrop Saloon"
+      "Saloon 9 22": "Stardrop Saloon",
+      "Beach 37 31": "At the Night Market"
     },
     "Maru": {
       "ScienceHouse 6 4": "In her room",
@@ -388,7 +418,9 @@
       "CommunityCenter 15 27": "Community Center: Crafts Room",
       "Mountain 55 31": "South of Mountain Lake",
       "Mountain 8 23": "Outside Carpenter's Shop",
-      "ScienceHouse 5 19": "Carpenter's Shop"
+      "ScienceHouse 5 19": "Carpenter's Shop",
+      "Beach 11 33": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Pam": {
       "Trailer 15 4": "Trailer",
@@ -408,6 +440,7 @@
       "Trailer 9 7": "Trailer",
       "Trailer 14 4": "Trailer",
       "Trailer 4 4": "In her room",
+      "Trailer 12 6": "Doing some dishes",
       "Town 104 89": "Outside Museum",
       "ArchaeologyHouse 20 5": "Museum",
       "Town 96 18": "North of JojaMart",
@@ -431,7 +464,9 @@
       "SeedShop 5 19": "Pierre's General Store",
       "Town 35 89": "East of 2 Willow Lane",
       "Town 44 77": "South of Stardrop Saloon",
-      "ArchaeologyHouse 16 10": "Museum"
+      "ArchaeologyHouse 16 10": "Museum",
+      "Beach 35 36": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Pierre": {
       "SeedShop 10 20": "Pierre's General Store",
@@ -455,7 +490,8 @@
       "Hospital 4 6": "Harvey's Clinic",
       "Saloon 22 22": "Stardrop Saloon",
       "Saloon 23 22": "Stardrop Saloon",
-      "Mountain 29 36": "South-east of her house"
+      "Mountain 29 36": "South-east of her house",
+      "Beach 13 31": "At the Night Market"
     },
     "Sam": {
       "SamHouse 15 13": "In his room",
@@ -486,7 +522,9 @@
       "JojaMart 16 5": "JojaMart",
       "Town 14 90": "South of 1 Willow Lane",
       "Town 71 99": "South of Mayor's Manor",
-      "ArchaeologyHouse 40 4": "Museum"
+      "ArchaeologyHouse 40 4": "Museum",
+      "Beach 11 34": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Sebastian": {
       "SebastianRoom 9 4": "At his computer",
@@ -511,7 +549,9 @@
       "Town 10 94": "South of 1 Willow Lane",
       "Railroad 32 47": "Railroad",
       "Railroad 64 45": "East tunnel of the Railroad",
-      "Railroad 5 45": "West tunnel of the Railroad"
+      "Railroad 5 45": "West tunnel of the Railroad",
+      "Beach 10 39": "At the Night Market",
+      "Farm 4 5": "At your farm house"
     },
     "Shane": {
       "JojaMart 9 17": "JojaMart",
@@ -524,7 +564,6 @@
       "AnimalShop 27 4": "In his bed",
       "AnimalShop 24 15": "Marnie's Ranch: Kitchen",
       "SeedShop 16 29": "Pierre's General Store",
-      "37 10 2": "??",
       "AnimalShop 16 13": "Marnie's Ranch",
       "Forest 37 10": "North of Forest Lake",
       "BusStop -1 23": "The Farm",
@@ -535,7 +574,11 @@
       "AnimalShop 5 14": "Marnie's Ranch",
       "Saloon 11 20": "Stardrop Saloon",
       "Saloon 27 23": "Stardrop Saloon",
-      "Saloon 24 17": "Stardrop Saloon"
+      "Saloon 24 17": "Stardrop Saloon",
+      "Beach 20 24": "At the Night Market",
+      "Farm 4 5": "At your farm house",
+      "Saloon 33 8": "Stardrop Saloon",
+      "Saloon 38 18": "Stardrop Saloon"
     },
     "Vincent": {
       "SamHouse 4 8": "1 Willow Lane: Kitchen",
@@ -553,7 +596,8 @@
       "Town 31 90": "East of 2 Willow Lane",
       "Town 16 11": "Playground",
       "Town 28 91": "South of 2 Willow Lane",
-      "Town 12 72": "North of 1 Willow Lane"
+      "Town 12 72": "North of 1 Willow Lane",
+      "Beach 19 24": "At the Night Market"
     },
     "Willy": {
       "Beach 38 36": "Outside Fish Shop",

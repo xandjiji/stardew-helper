@@ -30,8 +30,10 @@
     cursor: pointer;
 }
 
-.location-mode-wrapper .calendar-wrapper .day-item:hover {
+.location-mode-wrapper .calendar-wrapper .day-item:hover,
+.location-mode-wrapper .calendar-wrapper .day-item.active {
     background-color: var(--primaryVariant);
+    color: #000;
 }
 
 /* npc picker */

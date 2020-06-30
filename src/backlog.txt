@@ -1,12 +1,7 @@
 modes:
-    npc locator
     desktop
 
 cruzar actions make, recipe e obtained
 100% height
 prevent refresh
 icons sidebar
-
-qa schedules:
-    UNDEFINEDS
-    "??" = NIGHT MARKET (WINTER 15, 16, 17)

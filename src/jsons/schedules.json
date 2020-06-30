@@ -1241,7 +1241,7 @@
                 "schedule": [
                     {
                         "time": 900,
-                        "location": "Blacksmith 3 13 "
+                        "location": "Blacksmith 3 13"
                     },
                     {
                         "time": 1030,
@@ -4826,7 +4826,7 @@
                     },
                     {
                         "time": "1100",
-                        "location": "SeedShop 2 22 3"
+                        "location": "SeedShop 2 22"
                     },
                     {
                         "time": "1700",
@@ -4922,7 +4922,7 @@
                     },
                     {
                         "time": "1100",
-                        "location": "SeedShop 2 22 3"
+                        "location": "SeedShop 2 22"
                     },
                     {
                         "time": "1700",
@@ -6308,10 +6308,6 @@
                     {
                         "time": "900",
                         "location": "ManorHouse 7 5"
-                    },
-                    {
-                        "time": "1100",
-                        "location": "Library 22 9"
                     },
                     {
                         "time": "1600",

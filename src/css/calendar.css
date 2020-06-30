@@ -102,6 +102,11 @@
     font-weight: 300;
 }
 
+.calendar-wrapper .active .day-number,
+.calendar-wrapper .day-item.event:hover .day-number {
+    color: #000;
+}
+
 .calendar-wrapper .night-market {
     position: absolute;
     top: 50%;

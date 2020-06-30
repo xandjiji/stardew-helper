@@ -109,7 +109,7 @@ export class LocationMode extends Component {
             }
         } else {
 
-            if(key === 'community_restored' && this.state.community_restored === false) {
+            if (key === 'community_restored' && this.state.community_restored === false) {
                 this.setState({ bus_restored: true }, () => { this.findCurrentSchedule() });
                 toggleKey('bus_restored', true);
             } else if (key === 'bus_restored' && this.state.bus_restored === true) {
@@ -279,12 +279,15 @@ export class LocationMode extends Component {
         const { specialConditions } = scheduleData[currentNpc]
         specialConditions.forEach((element, index) => {
             const { name, key } = element;
+
+            let activeCheck = (this.state[key] === true || this.state[key] === currentNpc);
+
             keysElement.push(
                 <div
                     className="toggle-item"
                     key={index}
                     onClick={() => this.handleToggleKey(key)}>
-                    <div className={`toggler ${this.state[key] ? 'active' : ''}`}></div>
+                    <div className={`toggler ${activeCheck ? 'active' : ''}`}></div>
                     {name}
                 </div>
             );
