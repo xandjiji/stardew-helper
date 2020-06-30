@@ -15,37 +15,47 @@ export class LocationMode extends Component {
     constructor(props) {
         super(props);
 
+        const {
+            currentMarriage,
+            rain,
+            community_restored,
+            beach_bridge,
+            bus_restored,
+            abigail_6,
+            alex_6,
+            haley_6,
+            leah_6,
+            penny_6,
+            sam_6,
+            sebastian_6
+        } = this.props.locations;
+
+        const { season, day } = this.props.date;
+
         this.state = {
             toggleAltSchedule: false,
 
-            currentSeason: 'Spring',
-            currentWeekday: 'Mon',
-            currentDay: 6,
+            currentSeason: season,
+            currentWeekday: weekdayName[(day - 1) % 7],
+            currentDay: day,
+
             currentNpc: 'Abigail',
-
             currentNpcId: npcId.Abigail,
+            currentSchedule: [],
+            currentAltSchedule: false,
 
-            currentSchedule: scheduleData.Abigail.schedules[0].schedule, /* HARDCODED */
-            currentAltSchedule: false, /* HARDCODED */
-
-            currentTime: 900, /* HARDCODED */
-            currentLocationFull: 'SeedShop 39 5',/* HARDCODED */
-            currentLocation: 'SeedShop',/* HARDCODED */
-            currentLocationX: 39,/* HARDCODED */
-            currentLocationY: 5,/* HARDCODED */
-
-            currentMarriage: undefined,
-            rain: false,
-            community_restored: false,
-            beach_bridge: false,
-            bus_restored: false,
-            abigail_6: false,
-            alex_6: false,
-            haley_6: false,
-            leah_6: false,
-            penny_6: false,
-            sam_6: false,
-            sebastian_6: false
+            currentMarriage,
+            rain,
+            community_restored,
+            beach_bridge,
+            bus_restored,
+            abigail_6,
+            alex_6,
+            haley_6,
+            leah_6,
+            penny_6,
+            sam_6,
+            sebastian_6
         }
 
         this.viewRef = React.createRef();
@@ -61,14 +71,18 @@ export class LocationMode extends Component {
     }
 
     componentDidMount() {
-        this.selectLocation('SeedShop 39 5');
+        this.findCurrentSchedule();
     }
 
     handleClickSeason(month) {
+        const { setDate } = this.props;
+        setDate('season', month);
         this.setState({ currentSeason: month }, () => { this.findCurrentSchedule() });
     }
 
     handleClickDay(currentDay) {
+        const { setDate } = this.props;
+        setDate('day', currentDay);
         this.setState({
             currentDay,
             currentWeekday: weekdayName[(currentDay - 1) % 7]
@@ -81,15 +95,29 @@ export class LocationMode extends Component {
 
     handleToggleKey(key) {
         const { currentNpc, currentMarriage } = this.state;
+        const { toggleKey } = this.props;
 
         if (key === 'currentMarriage') {
             if (currentNpc === currentMarriage) {
-                return this.setState({ [key]: undefined }, () => { this.findCurrentSchedule() });
+                this.setState({ [key]: undefined }, () => { this.findCurrentSchedule() });
+                toggleKey(key, undefined);
+                return
             } else {
-                return this.setState({ [key]: this.state.currentNpc }, () => { this.findCurrentSchedule() });
+                this.setState({ [key]: currentNpc }, () => { this.findCurrentSchedule() });
+                toggleKey(key, currentNpc);
+                return
             }
         } else {
+
+            if(key === 'community_restored' && this.state.community_restored === false) {
+                this.setState({ bus_restored: true }, () => { this.findCurrentSchedule() });
+                toggleKey('bus_restored', true);
+            } else if (key === 'bus_restored' && this.state.bus_restored === true) {
+                this.setState({ community_restored: false }, () => { this.findCurrentSchedule() });
+                toggleKey('community_restored', false);
+            }
             this.setState({ [key]: !this.state[key] }, () => { this.findCurrentSchedule() });
+            toggleKey(key, !this.state[key]);
         }
     }
 
@@ -309,7 +337,7 @@ export class LocationMode extends Component {
                         </div>
 
 
-                        <div className="schedules-wrapper material">
+                        <div className="schedules-wrapper">
                             {toggleAltElement}
                             <div className="schedule-list">
                                 {scheduleList}
@@ -337,12 +365,31 @@ function formatTime(time) {
     return `${hours}:${minutes}`
 }
 
-const mapStateToProps = () => {
-    return {};
+const mapStateToProps = (state) => {
+    return {
+        locations: state.locationReducer,
+        date: state.dateReducer
+    };
 };
 
 function mapDispatchToProps(dispatch) {
     return {
+        toggleKey: (key, currentNpc) => {
+            dispatch({
+                type: "TOGGLE_KEY",
+                key,
+                value: currentNpc
+            });
+        },
+
+        setDate: (key, value) => {
+            dispatch({
+                type: "SET_CALENDAR",
+                key,
+                value
+            });
+        },
+
         openModal: (id) => {
             dispatch({
                 type: "OPEN_MODAL",

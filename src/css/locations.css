@@ -34,6 +34,10 @@
     background-image: url('../assets/locations/ElliottHouse.png');
 }
 
+.Farm {
+    background-image: url('../assets/locations/Farm.png');
+}
+
 .FishShop {
     background-image: url('../assets/locations/FishShop.png');
 }
@@ -96,6 +100,10 @@
 
 .SeedShop {
     background-image: url('../assets/locations/SeedShop.png');
+}
+
+.Sunroom {
+    background-image: url('../assets/locations/Sunroom.png');
 }
 
 .Tent {

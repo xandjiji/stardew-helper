@@ -186,6 +186,11 @@
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,.14);
 }
 
+.location-mode-wrapper .location-viewport.undefined {
+    background-image: url('../assets/locations/Town.png');
+    background-size: cover;
+}
+
 .location-mode-wrapper .location-viewport::after {
     content: '';
     position: absolute;
@@ -195,15 +200,16 @@
     width: 15px;
     height: 15px;
     background: url('../assets/cursor.png');
+    transition: 0.2s ease-out;
+}
+
+.location-mode-wrapper .location-viewport.undefined::after {
+    opacity: 0;
 }
 
 /* schedules */
-.location-mode-wrapper .schedules-wrapper {
-    margin-top: 16px;
-    background-color: var(--surface);
-}
-
 .location-mode-wrapper .schedule-list {
+    margin-top: 16px;
     border: solid 1px var(--primary);
     border-radius: 6px;
     overflow: hidden;
@@ -251,8 +257,9 @@
 }
 
 .location-mode-wrapper .schedules-wrapper .toggle-item {
-    position: relative;
-    top: -10px;
+    margin-top: 10px;
+    margin-bottom: -6px;
+    font-weight: 300;
 }
 
 .location-mode-wrapper .schedules-wrapper .toggle-item > * {

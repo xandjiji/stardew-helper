@@ -18,6 +18,24 @@ function loadData() {
         itemModalReducer: {
             active: false,
             itemId: 0
+        },
+        locationReducer: {
+            currentMarriage: undefined,
+            rain: false,
+            community_restored: false,
+            beach_bridge: false,
+            bus_restored: false,
+            abigail_6: false,
+            alex_6: false,
+            haley_6: false,
+            leah_6: false,
+            penny_6: false,
+            sam_6: false,
+            sebastian_6: false
+        },
+        dateReducer: {
+            season: 'Spring',
+            day: 1
         }
     }
 

@@ -119,6 +119,11 @@
     max-width: 432px;
     position: relative;
     background-color: var(--surface);
+    transition: 0.2s ease-out;
+}
+
+.calendar-info.hidden {
+    opacity: 0;
 }
 
 .calendar-info.material {
