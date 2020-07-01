@@ -85,7 +85,7 @@ export class Header extends Component {
     }
 
     render() {
-        const { mode } = this.props;
+        const { mode, setMode } = this.props;
 
         let categories = ['crops', 'animalProducts', 'artisanGoods', 'fishes', 'minerals', 'artifacts', 'weapons', 'equipment', 'dishes', 'furnitures', 'animals', 'villagers' ];
         let pickerActive = false;
@@ -108,13 +108,13 @@ export class Header extends Component {
                 <div className="settings-button container">
                     <div className="modes-wrapper">
                         <div className={`modes-wrapper bundle-tray ${bundleActive ? 'active' : ''}`}>
-                            <BundleIcon className={bundleActive ? 'active' : ''} onClick={() => this.props.setMode('bundle')} />
+                            <BundleIcon className={bundleActive ? 'active' : ''} onClick={() => setMode('bundle')} />
                             <DotsIcon className={`dots-icon smooth ${this.state.dotsActive ? 'active' : ''}`} onClick={this.handleClickDots} />
                         </div>
                         <BooksIcon className={this.state.catActive || pickerActive ? 'active' : ''} onClick={this.handleClickCat} />
-                        <CalendarIcon className={mode === 'calendar' ? 'active' : ''} onClick={() => this.props.setMode('calendar')} />
-                        <LocationIcon className={mode === 'location' ? 'active' : ''} onClick={() => this.props.setMode('location')} />
-                        <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => this.props.setMode('search')} />
+                        <CalendarIcon className={mode === 'calendar' ? 'active' : ''} onClick={() => setMode('calendar')} />
+                        <LocationIcon className={mode === 'location' ? 'active' : ''} onClick={() => setMode('location')} />
+                        <SearchIcon className={mode === 'search' ? 'active' : ''} onClick={() => setMode('search')} />
                     </div>
                     <SettingsIcon className={`settings ${buttonClass}`} onClick={this.handleClick} />
                 </div>

@@ -6,6 +6,7 @@ import Carousel from '../components/Carousel';
 import '../css/locationMode.css';
 import '../css/locations.css';
 
+import itemsData from '../jsons/items.json';
 import scheduleData from '../jsons/schedules.json';
 import scheduleDictionary from '../jsons/schedule_dict.json';
 
@@ -32,6 +33,14 @@ export class LocationMode extends Component {
 
         const { season, day } = this.props.date;
 
+        const { currentItemID } = this.props;
+        let initialNpc = 'Abigail';
+        let initialNpcID = npcId.Abigail;
+        if(currentItemID < 1014 && currentItemID > 981) {
+            initialNpc = itemsData[currentItemID].name;
+            initialNpcID = npcId[initialNpc];
+        }
+
         this.state = {
             toggleAltSchedule: false,
 
@@ -39,8 +48,8 @@ export class LocationMode extends Component {
             currentWeekday: weekdayName[(day - 1) % 7],
             currentDay: day,
 
-            currentNpc: 'Abigail',
-            currentNpcId: npcId.Abigail,
+            currentNpc: initialNpc,
+            currentNpcId: initialNpcID,
             currentSchedule: [],
             currentAltSchedule: false,
 
@@ -371,9 +380,12 @@ function formatTime(time) {
 }
 
 const mapStateToProps = (state) => {
+    const { locationReducer, dateReducer, itemModalReducer } = state;
+
     return {
-        locations: state.locationReducer,
-        date: state.dateReducer
+        locations: locationReducer,
+        date: dateReducer,
+        currentItemID: itemModalReducer.itemId
     };
 };
 

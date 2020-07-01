@@ -9,6 +9,7 @@ import InfoBox from './InfoBox';
 
 import { ReactComponent as ExternalIcon } from '../assets/external.svg';
 import { ReactComponent as CloseIcon } from '../assets/close.svg';
+import { ReactComponent as LocationIcon } from '../assets/location.svg';
 
 import '../css/itemModal.css';
 
@@ -57,6 +58,13 @@ export class ItemModal extends Component {
 
     preventScroll(event) {
         event.stopPropagation();
+    }
+
+    handleLocate() {
+        const { closeModal, setMode } = this.props;
+
+        closeModal();
+        setMode('location');
     }
 
     createListItem(item) {
@@ -201,7 +209,7 @@ export class ItemModal extends Component {
 
             let color = '';
             let effectText = 'No effect on';
-            if(effect > 0) {
+            if (effect > 0) {
                 color = 'green';
                 effectText = `+${effect}`
             } else if (effect < 0) {
@@ -476,6 +484,18 @@ export class ItemModal extends Component {
             })
         }
 
+        let locateElement;
+        if (schedule) {
+            locateElement =
+                <div
+                    className="location-element"
+                    onClick={() => this.handleLocate()}>
+
+                    <LocationIcon />
+                    Find me!
+            </div>
+        }
+
         return (
             <Pushable active={this.props.active} trigger={() => this.props.closeModal()} blockLeft={true}>
                 <div className={`item-modal smooth ${this.props.active ? 'active' : ''}`}>
@@ -492,6 +512,7 @@ export class ItemModal extends Component {
                                 </span>
 
                                 <CloseIcon className="close-button smooth" onClick={() => this.props.closeModal()} />
+                                {locateElement}
                             </div>
 
                             <div
@@ -550,6 +571,13 @@ function mapDispatchToProps(dispatch) {
             dispatch({
                 type: "OPEN_MODAL",
                 payload: id
+            });
+        },
+
+        setMode: (mode) => {
+            dispatch({
+                type: "SET_MODE",
+                payload: mode
             });
         }
     };

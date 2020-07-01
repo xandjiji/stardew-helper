@@ -5,5 +5,4 @@ cruzar actions make, recipe e obtained
 100% height
 prevent refresh
 
-NPC LOOKUP IN MODAL (if current item id === npc then set as current npc)
 ANDROID E IOS LINKS

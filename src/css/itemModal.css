@@ -38,6 +38,7 @@
 }
 
 .item-modal .item-name-wrapper {
+    position: relative;
     margin: -48px 0 12px 0;
     width: 100%;
     display: flex;
@@ -296,4 +297,23 @@
 .item-modal .action-link .bg-Pig,
 .item-modal .action-link .bg-Horse {
     transform: translate(-50%, -50%) scale(0.25);
+}
+
+.item-modal .location-element {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: 94px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.item-modal .location-element svg {
+    margin-right: 2px;
+    width: 12px;
+    height: 12px;
+    fill: var(--primary);
 }
