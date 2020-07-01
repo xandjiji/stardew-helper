@@ -18,6 +18,8 @@ import { ReactComponent as LocationIcon } from '../assets/location.svg';
 import { ReactComponent as SearchIcon } from '../assets/search.svg';
 import { ReactComponent as BackArrow } from '../assets/arrow.svg';
 import { ReactComponent as GithubIcon } from '../assets/github.svg';
+import { ReactComponent as AndroidIcon } from '../assets/store-android.svg';
+import { ReactComponent as AppleIcon } from '../assets/store-apple.svg';
 
 export class Header extends Component {
     constructor(props) {
@@ -140,6 +142,11 @@ export class Header extends Component {
                                     <a className="git-profile" href="https://github.com/xandjiji">
                                         xandjiji
                                     </a>
+                                </div>
+
+                                <div className="store-wrapper">
+                                    <a href="#" rel="noopener noreferrer external" target="_blank"><AndroidIcon/></a>
+                                    <a href="#" rel="noopener noreferrer external" target="_blank"><AppleIcon/></a>
                                 </div>
                             </div>
                         </div>

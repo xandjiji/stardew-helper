@@ -169,6 +169,7 @@
 
 /* footer */
 .header-bar .sidebar-footer {
+    position: relative;
     padding: 10px 0 8px 0;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.14);
 
@@ -210,4 +211,26 @@
 
 .trash-sidebar {
     transform: translateX(-2px);
+}
+
+.header-bar .store-wrapper {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform: translateY(calc(-50% + 2px));
+}
+
+.header-bar .store-wrapper > *:first-child {
+    margin-right: 3px;
+}
+
+.header-bar .store-wrapper svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--onPrimary);
+    transition: 0.2s ease-out;
+}
+
+.header-bar .store-wrapper a:hover svg {
+    opacity: 0.9;
 }

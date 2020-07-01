@@ -4,5 +4,3 @@ modes:
 cruzar actions make, recipe e obtained
 100% height
 prevent refresh
-
-ANDROID E IOS LINKS
