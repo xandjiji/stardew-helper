@@ -162,3 +162,19 @@
     margin: 0 !important;
     width: 0;
 }
+
+@media(min-width: 768px) {
+    .bundles-carousel,
+    .rooms-carousel {
+        margin-left: 14px;
+        padding: 0 !important;
+    }
+
+    .bundles-carousel .item-wrapper {
+        max-height: calc(100vh - 236px) !important;
+    }
+
+    .bundles-carousel .bundle-item.material {
+        margin-top: 24px !important;
+    }
+}

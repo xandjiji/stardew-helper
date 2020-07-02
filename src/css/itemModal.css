@@ -317,3 +317,40 @@
     height: 12px;
     fill: var(--primary);
 }
+
+@media(min-width: 768px) {
+    .body-wrapper + .pushable-item {
+        width: 432px;
+        width: 50%;
+        height: unset;
+        top: 36px;
+        left: unset;
+        right: 0;
+        pointer-events: unset !important;
+        transform: none !important;
+    }
+
+    .item-modal {
+        position: static;
+        transform: none !important;
+        pointer-events: unset !important;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .item-modal .material {
+        max-height: calc(100vh - 116px) !important;
+    }
+
+    .item-modal .info-wrapper {
+        max-height: calc(100vh - 194px) !important;
+    }
+
+    .item-modal .info-box:last-child {
+        margin-bottom: 5px;
+    }
+
+    .item-modal .close-button {
+        display: none;
+    }
+}

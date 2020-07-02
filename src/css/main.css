@@ -35,6 +35,7 @@
 
 body {
     margin: 0;
+    overscroll-behavior: contain;
 }
 
 a {
@@ -66,10 +67,6 @@ fieldset {
 
 svg {
     fill: inherit;
-}
-
-body {
-    overscroll-behavior: contain;
 }
 
 .container {
@@ -149,4 +146,19 @@ body {
 
 .carousel-container .item-wrapper > .material {
     margin-top: 16px;
+}
+
+@media(min-width: 768px) {
+    .body-wrapper {
+        padding-top: 18px;
+        width: calc(100% - 432px);
+        width: 50%;
+        height: calc(100vh - 64px);
+        overflow: hidden;
+    }
+
+    .carousel-container .item-wrapper > * {
+        margin: 0 6px;
+        width: calc(100% - 12px);
+    }
 }
