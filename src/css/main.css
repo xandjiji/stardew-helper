@@ -68,6 +68,10 @@ svg {
     fill: inherit;
 }
 
+body {
+    overscroll-behavior: contain;
+}
+
 .container {
     margin: 0 24px;
 }
