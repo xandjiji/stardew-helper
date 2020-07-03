@@ -15,23 +15,32 @@ import { setTheme } from './utils';
 
 import themes from './jsons/themes.json';
 
-setTheme(themes, store.getState().themeReducer)
+const startApp = () => {
+    setTheme(themes, store.getState().themeReducer)
 
-store.subscribe(throttle(() => {
-    localStore.saveData(store.getState());
-}, 1000));
+    store.subscribe(throttle(() => {
+        localStore.saveData(store.getState());
+    }, 1000));
 
-ReactDOM.render(
-    <StrictMode>
-        <Provider store={store}>
-            <Main />
-        </Provider>
-    </StrictMode>,
-    document.getElementById('root')
-);
+    ReactDOM.render(
+        <StrictMode>
+            <Provider store={store}>
+                <Main />
+            </Provider>
+        </StrictMode>,
+        document.getElementById('root')
+    );
+
+    initializeReactGA();
+}
+
+if(window.cordova) {
+    document.addEventListener('deviceready', startApp, false);
+} else {
+    startApp();
+}
 
 /* serviceWorker.register(); */
-initializeReactGA();
 
 function initializeReactGA() {
     ReactGA.initialize('UA-44955552-4');
