@@ -267,3 +267,19 @@
 .location-mode-wrapper .schedules-wrapper .toggle-item > * {
     margin-left: 16px;
 }
+
+@media(min-width: 768px) {
+    .location-mode-wrapper {
+        margin-left: 16px;
+        margin-right: 0;
+    }
+
+    .location-mode-wrapper .carousel-wrapper {
+        max-width: unset;
+    }
+
+    .location-mode-wrapper .item-wrapper > * {
+        margin: 0 6px;
+        width: calc(100% - 12px);
+    }
+}

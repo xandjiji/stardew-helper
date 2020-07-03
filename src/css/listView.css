@@ -291,3 +291,14 @@
 .list-wrapper .list-item .item-name .item-info .item-sprite {
     display: none;
 }
+
+@media(min-width: 768px) {
+    .list-wrapper {
+        margin-left: 20px;
+        margin-right: 6px;
+    }
+
+    .list-wrapper .list {
+        max-height: calc(100vh - 245px) !important;
+    }
+}

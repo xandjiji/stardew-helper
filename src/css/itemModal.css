@@ -320,7 +320,6 @@
 
 @media(min-width: 768px) {
     .body-wrapper + .pushable-item {
-        width: 432px;
         width: 50%;
         height: unset;
         top: 36px;

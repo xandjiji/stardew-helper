@@ -234,3 +234,14 @@
 .header-bar .store-wrapper a:hover svg {
     opacity: 0.9;
 }
+
+@media(min-width: 768px) {
+    .header-bar .pushable-item,
+    .header-bar .sidebar {
+        z-index: 99;
+    }
+
+    .header-bar .sidebar {
+        width: 432px !important;
+    }
+}
