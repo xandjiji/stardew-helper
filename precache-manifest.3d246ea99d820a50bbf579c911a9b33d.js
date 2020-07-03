@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c09d7ad1d5cc0db4d83151cf5b52b1d4",
+    "revision": "4564b85a634f9bfb3c17aa2f44eafd9b",
     "url": "/stardew-helper/index.html"
   },
   {
-    "revision": "173656bf28ac751f6ab4",
+    "revision": "89f281bc36d1edafc01e",
     "url": "/stardew-helper/static/css/main.bc040d29.chunk.css"
   },
   {
-    "revision": "941df094a669e09db7d1",
-    "url": "/stardew-helper/static/js/2.77a72018.chunk.js"
+    "revision": "8d11b3f498dc835b4309",
+    "url": "/stardew-helper/static/js/2.2e76c2dc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/stardew-helper/static/js/2.77a72018.chunk.js.LICENSE.txt"
+    "url": "/stardew-helper/static/js/2.2e76c2dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "173656bf28ac751f6ab4",
-    "url": "/stardew-helper/static/js/main.b66b5eee.chunk.js"
+    "revision": "89f281bc36d1edafc01e",
+    "url": "/stardew-helper/static/js/main.0f875e31.chunk.js"
   },
   {
     "revision": "d4524e0bc18663a4b668",

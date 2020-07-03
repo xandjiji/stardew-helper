@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/stardew-helper/static/css/main.bc040d29.chunk.css",
-    "main.js": "/stardew-helper/static/js/main.b66b5eee.chunk.js",
-    "main.js.map": "/stardew-helper/static/js/main.b66b5eee.chunk.js.map",
+    "main.js": "/stardew-helper/static/js/main.0f875e31.chunk.js",
+    "main.js.map": "/stardew-helper/static/js/main.0f875e31.chunk.js.map",
     "runtime-main.js": "/stardew-helper/static/js/runtime-main.f4c516d1.js",
     "runtime-main.js.map": "/stardew-helper/static/js/runtime-main.f4c516d1.js.map",
-    "static/js/2.77a72018.chunk.js": "/stardew-helper/static/js/2.77a72018.chunk.js",
-    "static/js/2.77a72018.chunk.js.map": "/stardew-helper/static/js/2.77a72018.chunk.js.map",
+    "static/js/2.2e76c2dc.chunk.js": "/stardew-helper/static/js/2.2e76c2dc.chunk.js",
+    "static/js/2.2e76c2dc.chunk.js.map": "/stardew-helper/static/js/2.2e76c2dc.chunk.js.map",
     "index.html": "/stardew-helper/index.html",
-    "precache-manifest.9e5912a4c39c33b68c22f87dc5246f70.js": "/stardew-helper/precache-manifest.9e5912a4c39c33b68c22f87dc5246f70.js",
+    "precache-manifest.3d246ea99d820a50bbf579c911a9b33d.js": "/stardew-helper/precache-manifest.3d246ea99d820a50bbf579c911a9b33d.js",
     "service-worker.js": "/stardew-helper/service-worker.js",
     "static/css/main.bc040d29.chunk.css.map": "/stardew-helper/static/css/main.bc040d29.chunk.css.map",
-    "static/js/2.77a72018.chunk.js.LICENSE.txt": "/stardew-helper/static/js/2.77a72018.chunk.js.LICENSE.txt",
+    "static/js/2.2e76c2dc.chunk.js.LICENSE.txt": "/stardew-helper/static/js/2.2e76c2dc.chunk.js.LICENSE.txt",
     "static/media/locations.css": "/stardew-helper/static/media/Trailer.bf51cb9b.png",
     "static/media/main.css": "/stardew-helper/static/media/Roboto-Regular.11eabca2.ttf",
     "static/media/arrow.0ee7e08a.svg": "/stardew-helper/static/media/arrow.0ee7e08a.svg",
@@ -48,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f4c516d1.js",
-    "static/js/2.77a72018.chunk.js",
+    "static/js/2.2e76c2dc.chunk.js",
     "static/css/main.bc040d29.chunk.css",
-    "static/js/main.b66b5eee.chunk.js"
+    "static/js/main.0f875e31.chunk.js"
   ]
 }
