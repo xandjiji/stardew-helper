@@ -1,4 +1,5 @@
 import localStore from "../localStore";
+import ReactGA from 'react-ga';
 
 const initialState = localStore.loadData();
 
@@ -10,6 +11,11 @@ const modeReducer = (state = initialState.modeReducer, action) => {
                 mode: action.payload
             }
 
+            ReactGA.event({
+                category: 'Mode Select',
+                action: `${action.payload}`
+            });
+
             break;
 
         case "SET_BUNDLE_MODE":
@@ -17,6 +23,11 @@ const modeReducer = (state = initialState.modeReducer, action) => {
                 ...state,
                 bundleMode: action.payload
             }
+
+            ReactGA.event({
+                category: 'Bundle Mode',
+                action: `${action.payload}`
+            });
 
             break;
 

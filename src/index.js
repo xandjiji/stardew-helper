@@ -1,6 +1,7 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
+import ReactGA from 'react-ga';
 
 import Main from './Main';
 
@@ -30,3 +31,9 @@ ReactDOM.render(
 );
 
 serviceWorker.register();
+initializeReactGA();
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-44955552-4');
+    ReactGA.pageview('/stardew-helper');
+}

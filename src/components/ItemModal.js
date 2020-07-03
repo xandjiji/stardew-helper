@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 import throttle from "lodash.throttle";
+import ReactGA from 'react-ga';
 
 import { buildClassName } from '../utils';
 
@@ -63,8 +64,20 @@ export class ItemModal extends Component {
     handleLocate() {
         const { closeModal, setMode } = this.props;
 
+        ReactGA.event({
+            category: 'Click',
+            action: `Find me!`
+        });
+
         closeModal();
         setMode('location');
+    }
+
+    handleWikiClick(name) {
+        ReactGA.event({
+            category: 'Click',
+            action: `Wiki: ${name}`
+        });
     }
 
     createListItem(item) {
@@ -508,7 +521,14 @@ export class ItemModal extends Component {
 
                                 <span className="item-name">
                                     {name}
-                                    <a className="smooth" href={`https://stardewvalleywiki.com/${link}`} rel="noopener noreferrer external" target="_blank"><ExternalIcon /></a>
+                                    <a
+                                        className="smooth"
+                                        href={`https://stardewvalleywiki.com/${link}`}
+                                        rel="noopener noreferrer external"
+                                        target="_blank"
+                                        onClick={() => this.handleWikiClick(name)}>
+                                        <ExternalIcon />
+                                    </a>
                                 </span>
 
                                 <CloseIcon className="close-button smooth" onClick={() => this.props.closeModal()} />

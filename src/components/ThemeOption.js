@@ -34,7 +34,7 @@ export class ThemeOption extends Component {
 
     handleClick() {
         this.setState({ active: true });
-        this.props.notifyPick(this.props.id);
+        this.props.notifyPick(this.props.id, this.props.theme.name);
     }
 
     render() {

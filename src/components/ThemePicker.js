@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import ReactGA from 'react-ga';
 
 import ThemeOption from './ThemeOption';
 
@@ -20,7 +21,12 @@ export class ThemePicker extends Component {
         this.notifyPick = this.notifyPick.bind(this);
     }
 
-    notifyPick = (id) => {
+    notifyPick = (id, name) => {
+        ReactGA.event({
+            category: 'Theme Select',
+            action: `Theme: ${name}`
+        });
+
         this.setState({ active: id });
         this.props.selectTheme(id);
 

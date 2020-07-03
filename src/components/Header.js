@@ -7,6 +7,8 @@ import Pushable from './Pushable';
 import DotsPicker from './DotsPicker';
 import CatPicker from './CatPicker';
 
+import ReactGA from 'react-ga';
+
 import '../css/header.css';
 
 import { ReactComponent as SettingsIcon } from '../assets/settings.svg';
@@ -53,7 +55,18 @@ export class Header extends Component {
     }
 
     handleClick() {
+        ReactGA.event({
+            category: 'Click',
+            action: 'Settings Toggle'
+        });
         this.setState({ menuActive: !this.state.menuActive });
+    }
+
+    handleClickFooter(value) {
+        ReactGA.event({
+            category: 'Click',
+            action: value
+        });
     }
 
     handleClickBackdrop() {
@@ -69,7 +82,7 @@ export class Header extends Component {
     }
 
     handleKeyDown = throttle((event) => {
-        if (event.key === 'Escape') {            
+        if (event.key === 'Escape') {
             this.setState({ menuActive: false });
         }
     }, 400);
@@ -89,7 +102,7 @@ export class Header extends Component {
     render() {
         const { mode, setMode } = this.props;
 
-        let categories = ['crops', 'animalProducts', 'artisanGoods', 'fishes', 'minerals', 'artifacts', 'weapons', 'equipment', 'dishes', 'furnitures', 'animals', 'villagers' ];
+        let categories = ['crops', 'animalProducts', 'artisanGoods', 'fishes', 'minerals', 'artifacts', 'weapons', 'equipment', 'dishes', 'furnitures', 'animals', 'villagers'];
         let pickerActive = false;
         if (categories.includes(mode)) {
             pickerActive = true;
@@ -135,18 +148,18 @@ export class Header extends Component {
 
                             <div className="sidebar-footer">
                                 <div className="container">
-                                    <a className="git-icon" href="https://github.com/xandjiji/stardew-helper">
+                                    <a className="git-icon" href="https://github.com/xandjiji/stardew-helper" onClick={() => this.handleClickFooter('Git Repository')}>
                                         <GithubIcon />
                                     </a>
                                     made by
-                                    <a className="git-profile" href="https://github.com/xandjiji">
+                                    <a className="git-profile" href="https://github.com/xandjiji" onClick={() => this.handleClickFooter('Git Profile')}>
                                         xandjiji
                                     </a>
                                 </div>
 
                                 <div className="store-wrapper">
-                                    <a href="#" rel="noopener noreferrer external" target="_blank"><AndroidIcon/></a>
-                                    <a href="#" rel="noopener noreferrer external" target="_blank"><AppleIcon/></a>
+                                    <a href="#" rel="noopener noreferrer external" target="_blank" onClick={() => this.handleClickFooter('Android Store')}><AndroidIcon /></a>
+                                    <a href="#" rel="noopener noreferrer external" target="_blank" onClick={() => this.handleClickFooter('Apple Store')}><AppleIcon /></a>
                                 </div>
                             </div>
                         </div>
