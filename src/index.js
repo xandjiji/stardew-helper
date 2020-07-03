@@ -30,7 +30,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-serviceWorker.register();
+/* serviceWorker.register(); */
 initializeReactGA();
 
 function initializeReactGA() {

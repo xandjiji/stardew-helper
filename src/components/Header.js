@@ -156,11 +156,6 @@ export class Header extends Component {
                                         xandjiji
                                     </a>
                                 </div>
-
-                                <div className="store-wrapper">
-                                    <a href="#" rel="noopener noreferrer external" target="_blank" onClick={() => this.handleClickFooter('Android Store')}><AndroidIcon /></a>
-                                    <a href="#" rel="noopener noreferrer external" target="_blank" onClick={() => this.handleClickFooter('Apple Store')}><AppleIcon /></a>
-                                </div>
                             </div>
                         </div>
                     </div>
