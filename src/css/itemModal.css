@@ -341,6 +341,10 @@
         max-height: calc(100vh - 116px) !important;
     }
 
+    .body-wrapper + .pushable-item {
+        cursor: unset !important;
+    }
+
     .item-modal .info-wrapper {
         max-height: calc(100vh - 194px) !important;
     }
@@ -351,5 +355,12 @@
 
     .item-modal .close-button {
         display: none;
+    }
+}
+
+@media(min-width: 1920px) {
+    .body-wrapper + .pushable-item {
+        max-width: 960px !important;
+        right: calc((100vw - 1920px) / 2);
     }
 }

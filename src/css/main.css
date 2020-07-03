@@ -151,7 +151,6 @@ svg {
 @media(min-width: 768px) {
     .body-wrapper {
         padding-top: 18px;
-        width: calc(100% - 432px);
         width: 50%;
         height: calc(100vh - 64px);
         overflow: hidden;
@@ -160,5 +159,12 @@ svg {
     .carousel-container .item-wrapper > * {
         margin: 0 6px;
         width: calc(100% - 12px);
+    }
+}
+
+@media(min-width: 1920px) {
+    .body-wrapper {
+        max-width: 960px;
+        margin-left: calc((100vw - 1872px - 47px) / 2);
     }
 }

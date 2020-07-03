@@ -244,4 +244,14 @@
     .header-bar .sidebar {
         width: 432px !important;
     }
+
+    .header-bar .store-wrapper > *:first-child {
+        margin-right: 8px;
+    }    
+}
+
+@media(min-width: 1920px) {
+    .settings-button.container {
+        margin: 0 calc((100vw - 1872px) / 2);
+    }
 }

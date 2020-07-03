@@ -49,3 +49,9 @@
     font-size: 12px;
     font-weight: 300;
 }
+
+@media(min-width: 1920px) {
+    .cat-picker {
+        left: calc((100vw - 1912px) / 2);
+    }
+}

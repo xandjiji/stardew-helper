@@ -43,6 +43,10 @@
     margin-right: 12px;
 }
 
+.option-wrapper .option-name svg {
+    fill: var(--primary);
+}
+
 .option-wrapper .option-head .option-arrow {
     width: 16px;
     height: 16px;

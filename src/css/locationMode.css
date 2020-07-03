@@ -283,3 +283,34 @@
         width: calc(100% - 12px);
     }
 }
+
+@media(min-width: 1024px) {
+    .location-mode-wrapper .item-wrapper {
+        transform: none !important;
+        cursor: unset !important;
+    }
+
+    .location-mode-wrapper .item-wrapper > * {
+        width: calc(50% - 12px);
+    }
+
+    .location-mode-wrapper .season-item {
+        font-size: 12px;
+    }
+
+    .location-mode-wrapper .cursor-wrapper {
+        display: none;
+    }
+}
+
+@media(min-width: 1120px) {
+    .location-mode-wrapper .season-item {
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 1240px) {
+    .location-mode-wrapper .season-item {
+        font-size: 16px;
+    }
+}
