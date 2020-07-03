@@ -25,3 +25,5 @@ yarn-error.log*
 .firebase/
 .firebaserc
 firebase.json
+
+/platforms
