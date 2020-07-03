@@ -234,3 +234,24 @@
 .header-bar .store-wrapper a:hover svg {
     opacity: 0.9;
 }
+
+@media(min-width: 768px) {
+    .header-bar .pushable-item,
+    .header-bar .sidebar {
+        z-index: 99;
+    }
+
+    .header-bar .sidebar {
+        width: 432px !important;
+    }
+
+    .header-bar .store-wrapper > *:first-child {
+        margin-right: 8px;
+    }    
+}
+
+@media(min-width: 1920px) {
+    .settings-button.container {
+        margin: 0 calc((100vw - 1872px) / 2);
+    }
+}

@@ -26,7 +26,7 @@
 .search-wrapper .reset-button {
     padding: 10px;
     position: absolute;
-    top: 3px;
+    top: 1px;
     right: 36px;
     cursor: pointer;
     pointer-events: none;
@@ -104,4 +104,15 @@
 .search-wrapper .results-text.active {
     color: var(--onSurface);
     transition: 0.2s ease-out;
+}
+
+@media(min-width: 768px) {
+    .search-wrapper {
+        margin-left: 20px;
+        margin-right: 6px;
+    }
+
+    .search-wrapper .search-results {
+        max-height: calc(100vh - 226px) !important;
+    }
 }

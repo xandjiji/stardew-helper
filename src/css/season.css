@@ -4,13 +4,14 @@
 
 .season-mode .season-icon {
     position: relative;
-    top: -50px;
+    top: -43px;
     margin-bottom: -36px;
     flex-shrink: 0;
+    transform: scale(0.75);
 }
 
 .season-mode .room-progress {
-    margin-left: 16px;
+    margin-left: 8px;
     flex-grow: 1;
 }
 
@@ -26,3 +27,14 @@
     overflow-y: auto;
 }
 /* END GAMBIARRA */
+
+@media(min-width: 768px) {
+    .seasons-carousel {
+        margin-left: 14px;
+        padding: 0 !important;
+    }
+
+    .seasons-carousel .item-wrapper {
+        max-height: calc(100vh - 100px) !important;
+    }
+}

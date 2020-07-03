@@ -17,7 +17,7 @@ function loadData() {
         },
         itemModalReducer: {
             active: false,
-            itemId: 0
+            itemId: 993
         },
         locationReducer: {
             currentMarriage: undefined,
@@ -46,8 +46,8 @@ function loadData() {
             return defaultState;
         }
 
-        /* return JSON.parse(serializedState); */
-        return defaultState;
+        return JSON.parse(serializedState);
+        /* return defaultState; */
     } catch (err) {
         return defaultState;
     }

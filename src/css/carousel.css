@@ -38,3 +38,18 @@
 .carousel-wrapper .cursor.active {
     background-color: var(--primary);
 }
+
+@media(min-width: 768px) {
+    .carousel-wrapper .cursor-wrapper {
+        bottom: -13px;
+    }
+
+    .carousel-wrapper .cursor-wrapper .cursor {
+        width: 8px;
+        height: 8px;
+    }
+
+    .carousel-wrapper .cursor-wrapper .cursor:hover {
+        background-color: var(--primary);
+    }
+}
