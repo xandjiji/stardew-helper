@@ -148,11 +148,20 @@ export class Header extends Component {
 
                             <div className="sidebar-footer">
                                 <div className="container">
-                                    <a className="git-icon" href="https://github.com/xandjiji/stardew-helper" onClick={() => this.handleClickFooter('Git Repository')}>
+                                    <a
+                                        className="git-icon"
+                                        href="https://github.com/xandjiji/stardew-helper"
+                                        rel="noopener noreferrer external" target="_blank"
+                                        onClick={() => this.handleClickFooter('Git Repository')}>
+
                                         <GithubIcon />
                                     </a>
                                     made by
-                                    <a className="git-profile" href="https://github.com/xandjiji" onClick={() => this.handleClickFooter('Git Profile')}>
+                                    <a
+                                        className="git-profile"
+                                        href="https://github.com/xandjiji"
+                                        rel="noopener noreferrer external" target="_blank"
+                                        onClick={() => this.handleClickFooter('Git Profile')}>
                                         xandjiji
                                     </a>
                                 </div>
