@@ -168,7 +168,7 @@
 }
 
 /* footer */
-.header-bar .sidebar-footer {
+.header-bar .active .sidebar-footer {
     position: relative;
     padding: 10px 0 8px 0;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.14);
