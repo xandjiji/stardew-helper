@@ -333,7 +333,7 @@ export class LocationMode extends Component {
                                 </span>
                             </div>
 
-                            <div className="npc-list">
+                            <div className="npc-list custom-scrollbar">
                                 {npcsElement}
                             </div>
 

@@ -21,7 +21,7 @@
 }
 
 .location-mode-wrapper .calendar-wrapper .day-item {
-    height: 30px;
+    height: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +76,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     border-top: solid 1px var(--separator);
+    max-height: calc(100vh - 410px);
+    overflow: auto;
 }
 
 .location-mode-wrapper .npc-list::after {
@@ -164,6 +166,14 @@
 .location-mode-wrapper .item-wrapper > * {
     width: calc(100% - 8px);
     margin: 0 4px;
+}
+
+.location-mode-wrapper .season-item {
+    font-size: 12px;
+}
+
+.location-mode-wrapper .weekday {
+    font-size: 10px;
 }
 
 .location-mode-wrapper .cursor-wrapper {
@@ -282,6 +292,14 @@
         margin: 0 6px;
         width: calc(100% - 12px);
     }
+
+    .location-mode-wrapper .calendar-wrapper .day-item {
+        height: 30px;
+    }
+
+    .location-mode-wrapper .npc-list {
+        max-height: calc(100vh - 447px);
+    }
 }
 
 @media(min-width: 1024px) {
@@ -295,6 +313,10 @@
     }
 
     .location-mode-wrapper .season-item {
+        font-size: 12px;
+    }
+
+    .location-mode-wrapper .weekday {
         font-size: 12px;
     }
 
