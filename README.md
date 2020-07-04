@@ -35,7 +35,7 @@ Stardew Valley has a huge variety of data for every game object. The data in thi
 
 ```javascript
 {
-  id: 690,
+	id: 690,
 	name: "Refined Quartz",
 	link: "Refined_Quartz",
 	sellPrice: "50",
