@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stardew Helper
 
-## Available Scripts
+This application is 100% free and open-source. Run it in any device through a web-browser! Designed for both Mobile and Desktop.
 
-In the project directory, you can run:
+You can find the application [here](https://xandjiji.github.io/stardew-helper/).
 
-### `npm start`
+<p align="center">
+	<img src="https://i.imgur.com/YnNudYz.png">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Community checklist (sorting items by Season or by Community Center room)
+- Detailed information for more than 1,000 items, separated by categories!
+- Calendar just like in the game
+- NPC location tool
+- In-depth information for all NPCs
+- Item search mode
+- 7 Different visual Themes
+- Import/export data (so you can share your community checklist with your friends in multiplayer)
 
-### `npm test`
+<p align="center">
+	<img src="https://i.imgur.com/EbvmGKa.png">
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Game Data
 
-### `npm run build`
+All the game data used in this app was either scrapped from the [Stardew Valley Wiki](https://stardewvalleywiki.com/Stardew_Valley_Wiki) or from the original game files.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`stardew-helper/src/jsons` [Link](https://github.com/xandjiji/stardew-helper/tree/master/src/jsons)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+`stardew-helper/src/assets` [Link](https://github.com/xandjiji/stardew-helper/tree/master/src/assets)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Stardew Valley has a huge variety of data for every game object. The data in this project was modeled in a very heterogeneous format. Here is a sample:
 
-### `npm run eject`
+```javascript
+{
+  id: 690,
+	name: "Refined Quartz",
+	link: "Refined_Quartz",
+	sellPrice: "50",
+	obtainedFrom: [
+		"@Smelting (&617~ or &620~)",
+		"@Using a &740~ or a &741~ in a &154~"
+	],
+	makes: [138, 94, 93, 144, 152, "Necklace Shirt"],
+	recipe: [
+		{ id: 60, qty: 1 },
+		{ id: 0, qty: 1 }
+	],
+	gifting: {
+		dislikes: [982, 983],
+		hates: [1008]
+	}
+}
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Strings that starts with an `@` indicates that it contains a reference for another game object by its ID. The object's ID is wrapped between `&` and `~` symbols to help the parsing of the data.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`@Using a &740~ or a &741~ in a &154~"`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Gets parsed as:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`Using a Broken CD or a Broken Glasses in a Recycling Machine"`
 
-## Learn More
+## More informations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was done using [React.js](https://reactjs.org/) and [Redux](https://reactjs.org/).
+In the future, a native mobile version for this App will be developed (most likely using React Native)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+If you have any suggestions, questions or need any help, feel free to contact me :-)
