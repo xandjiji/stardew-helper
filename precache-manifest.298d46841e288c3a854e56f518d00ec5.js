@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6366f1b57d1e68cd99ea97c36da30dd4",
+    "revision": "b1b290fc54e1fe0c576615df3fb53cd3",
     "url": "/stardew-helper/index.html"
   },
   {
